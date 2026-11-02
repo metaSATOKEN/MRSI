@@ -38,6 +38,8 @@ These are exploratory findings from small synthetic tasks. Plan quality is evalu
 
 ## Start reading
 
+Read the four experimental reports and the concluding design synthesis in one volume. [*LLM Memory, Records, and Continued Use* — Collected Edition v1.3 (English PDF, 148 pages)](papers/mrsi_series_collected_edition.pdf)
+
 For a standalone overview of the failure patterns and resulting design principles, start with the **technical synthesis**. For the experimental evidence, read Papers 1–4 in order.
 
 | Report | Question | Read |
@@ -48,7 +50,7 @@ For a standalone overview of the failure patterns and resulting design principle
 | **Paper 4 — Individual approval and group agreement** | Can three roles preserve each actual vote while interpreting agreement and permission to execute? | [Markdown](papers/paper-04/manuscript-en-v0.1-2026-10-13.md) · [Received PDF](papers/paper-04/manuscript-en-v0.1-2026-10-13.pdf) · [Evidence](papers/paper-04/S1.md) |
 | **Technical synthesis — Multi-role failures and design principles** | How do findings from two and three roles inform record, approval, and execution boundaries? | [Markdown](papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.md) · [Received PDF](papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.pdf) · [Evidence](papers/two-role-failure-design/S1.md) |
 
-Japanese manuscripts, figures, and supplementary indexes are also available in each report's folder. The latest Markdown includes the corrected author contact. Received PDFs still require the [contact and publication-link fixes](RELEASE_CHECKLIST.md).
+Japanese manuscripts, figures, and supplementary indexes are also available in each report's folder. For contact and publication-link corrections to the individual report PDFs, see the [release checklist](RELEASE_CHECKLIST.md).
 
 ## Inspect an experiment
 
