@@ -60,25 +60,3 @@ Each ZIP is a retained byte-for-byte copy of an archive returned from an experim
 | CU01 | [customer_update_01_design.py](../../reference-code/customer_update_01_design.py) | [Aggregator](../../reference-code/aggregate_customer_update_01.py) |
 
 Semantic evaluation uses deterministic code comparing each trial's schema, fixed expected state, and actual response. The storage procedure accesses candidates in the input and does not receive the scoring oracle. Modules depend on shared helpers; the complete distributed Colab cells and sealed materials, rather than a single standalone module, specify each implementation.
-
-## 5. Literature and version correspondence
-
-The [related-work review (Japanese)](related-work-review-v0.1-2026-09-27.md) records primary-source versions, inspected methods, comparisons with this report, and candidates for future research. It informed Section 2, Table 2, the discussion, and the references in Japanese v0.3 and v0.4. The English manuscript preserves those source versions and distinctions, including MemProbe's renaming to MemAudit and the two separate papers titled MemTrace.
-
-The [Japanese evidence index](evidence-index-v0.4-2026-09-27.md) also retains the initial source checks from September 26 and the editorial history. This translation introduces no new literature search. Its citation to the first report points to the corresponding English v0.2 rather than Japanese v0.11.
-
-## 6. Retention, availability, and editorial verification
-
-The records are retained locally without a deletion deadline. They are not yet public, and the relative links above resolve within the research workspace. A public DOI, data license, and standalone distribution package have not been created. The first report's reproduction package is separate from the second report's evidence.
-
-At initial drafting, 2,933 files in the seven main trials' audit directories were checked against their sealed manifests; source and navigation files were recorded as 2,971 anchors. Later editorial checks retain each prior version. Raw responses have not been regenerated, and the experiments have not been rescored for translation.
-
-| Editorial stage | Verification | Supporting record |
-| --- | --- | --- |
-| Initial Japanese draft | [Checks](../../supplements/paper-02-draft-20260926/verification.json) | [Source-manifest checks](../../supplements/paper-02-draft-20260926/source-manifest-verification.json); [source map and hashes](../../supplements/paper-02-draft-20260926/evidence-sources.json) |
-| Findings-centered Japanese v0.2 | [Checks](../../supplements/paper-02-revision-v02-20260926/verification.json) | Revision notes, Japanese (see the evidence index) |
-| Related work in Japanese v0.3 | [Checks](../../supplements/paper-02-related-work-20260927/verification.json) | Revision notes, Japanese (see the evidence index) |
-| Terminology and unit clarification in Japanese v0.4 | [Checks](../../supplements/paper-02-revision-v04-20260927/verification.json) | [Revision notes, Japanese](revision-notes-v0.4-2026-09-27.md) |
-| English v0.1 and English figures | [Checks](../../supplements/paper-02-english-20260927/verification.json) | [Verification code](../../supplements/paper-02-english-20260927/verify_translation.py); [translation notes](translation-notes-en-v0.1-2026-09-27.md); [figure files and source](figures/README.md) |
-
-The author approved Japanese v0.4 as final before translation. The approval record (see the evidence index) fixes its SHA-256 hash. English v0.1 retains the abstract, Sections 1–9, Tables 1–10, all 20 references, and Appendices A/B. The two English diagrams render the processing relationships in the Japanese manuscript; they add no experimental results. Numerical, citation, example, and link checks accompany editorial review of the translated meaning.

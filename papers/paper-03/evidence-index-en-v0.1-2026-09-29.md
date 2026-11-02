@@ -15,7 +15,7 @@ September 29, 2026. This index accompanies [English manuscript v0.1](manuscript-
 | Section 5.3; Tables 9–10 | [JR01 response diagnostics](../../supplements/judgment-repeat-01-20260929/diagnostics.json); [original-response reading record](../../supplements/judgment-repeat-01-20260929/reason-review.md) | All three responses and fixed inputs for N05 LOWER/DUPLICATE and N02 OPTIMAL |
 | Appendix B; Table B1 | `progression` in ST01/ST02 aggregates and `stage_components` in diagnostics | Constructed diagnostics and the components of unmet progression criteria |
 
-The extracted JSON is a reference copy derived from existing aggregates and diagnostics for the three main trials. It contains principal aggregates under `tables`, responses and inputs under `examples`, and hashes of nine source files under `source_sha256`. It performs no rescoring or new estimation. The [extraction script](../../supplements/paper-03-draft-20260929/extract_evidence.py) is retained.
+The extracted JSON is a reference copy derived from existing aggregates and diagnostics for the three main trials. It contains principal aggregates under `tables`, responses and inputs under `examples`, and hashes of nine source files under `source_sha256`. It performs no rescoring or new estimation. The [extraction script](../../reference-code/paper03/extract_evidence.py) is retained.
 
 ## 2. Primary records and fixed designs
 
@@ -62,9 +62,3 @@ The example response IDs are `JR01-R{1,2,3}-{EARLY,LATE}-N05-{LOWER,DUPLICATE}-C
 | CR01 | [Counterproposal recheck](../../experiments/CR01/docs/counter-recheck-01-result-2026-09-29.md) | Correct final answers are distinct from intermediate formation correctness |
 
 Each report links its fixed plan, original archive, aggregates, scoring code, and verification. Finalized versions of the first and second reports remain unchanged.
-
-## 4. Editorial preparation and figures
-
-The [Japanese drafting audit](../../supplements/paper-03-draft-20260929/README.md) records the initial synthesis and literature research. The [v0.2 revision audit](../../supplements/paper-03-revision-v02-20260929/README.md) records clarification of repetition scope, the Table 6 note, the two-panel diagram, and recheck activation. Model-generated feedback was used as editorial input, not as independent rescoring of original archives.
-
-The English version retains the author-approved numerical results, denominators, JSON excerpt, references, and scope. Its two [English figures](figures/README.md) render the same study relationships as the Japanese diagrams. The [translation notes](translation-notes-en-v0.1-2026-09-29.md) define terminology; the [English-version audit](../../supplements/paper-03-english-20260929/README.md) records source preservation, translation checks, and figure review. No new model generation, sample extension, or scoring change was performed. PDF production is a separate step.

@@ -50,7 +50,7 @@ For a standalone overview of the failure patterns and resulting design principle
 | **Paper 4 — Individual approval and group agreement** | Can three roles preserve each actual vote while interpreting agreement and permission to execute? | [Markdown](papers/paper-04/manuscript-en-v0.1-2026-10-13.md) · [Received PDF](papers/paper-04/manuscript-en-v0.1-2026-10-13.pdf) · [Evidence](papers/paper-04/S1.md) |
 | **Technical synthesis — Multi-role failures and design principles** | How do findings from two and three roles inform record, approval, and execution boundaries? | [Markdown](papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.md) · [Received PDF](papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.pdf) · [Evidence](papers/two-role-failure-design/S1.md) |
 
-Japanese manuscripts, figures, and supplementary indexes are also available in each report's folder. For contact and publication-link corrections to the individual report PDFs, see the [release checklist](RELEASE_CHECKLIST.md).
+Find the Japanese manuscripts and supporting figures in the [paper directory](papers/README.md). The current author contact is **info@metaclan.jp**.
 
 ## Inspect an experiment
 
@@ -84,7 +84,7 @@ Inside the original research workspace, stay in its root and use `.venv/bin/pyth
 
 Scientific replay (`--trial`, `--paper-01`, `--all`) and the [Paper 4 builder](tools/rebuild_paper04_data.py) compute results and write files. Run them in a separate working copy with the applicable fixed specifications and dependency versions, as described in RUNNING.md.
 
-Offline recalculation has matched the recorded aggregates for Paper 1, all 28 later trials, and TB01's initial preparation failure. Paper 4's table data and example extracts were rebuilt byte-for-byte from 26 packaged source files. See the [verification summary](VERIFICATION.md) and [detailed records](verification/README.md). For the separate Colab generation workflow, see the [readable-code guide](docs/READABLE_GENERATION.md).
+Offline recalculation has matched the recorded aggregates for Paper 1, all 28 later trials, and TB01's initial preparation failure. Paper 4's table data and example extracts were rebuilt byte-for-byte from 26 packaged source files. See the [verification summary](VERIFICATION.md). For the separate Colab generation workflow, see the [readable-code guide](docs/READABLE_GENERATION.md).
 
 ## Records and scope
 
@@ -92,12 +92,12 @@ Paper 1 preserves **1,127 raw answers**, of which 792 are rescored by its replay
 
 Experimental inputs and answers remain in Japanese. Formal missing outcomes and post hoc diagnostic analyses are kept distinct. New model generation is a separate Colab/GPU workflow and may produce different responses.
 
-See [distribution scope](PUBLICATION_SCOPE.md) for included and excluded material, [source/destination hashes](manifests/SOURCE_MAP.json) for copy provenance, and [unbundled references](manifests/UNBUNDLED_REFERENCES.json) for documentary sources outside this distribution. Paper 1's public derivative retains its historical manuscript with updated reference links; current manuscripts are under `papers/`.
+See [distribution scope](PUBLICATION_SCOPE.md) for included and excluded material, [source/destination hashes](manifests/SOURCE_MAP.json) for copy provenance, and [unbundled references](manifests/UNBUNDLED_REFERENCES.json) for documentary sources outside this distribution.
 
 ## License, citation, and contact
 
 **Apache License 2.0.** See [LICENSE](LICENSE), [NOTICE](NOTICE), and [license scope](LICENSE_STATUS.md). Historical license-pending statements in preserved records describe their preparation dates; the repository's current license is stated here.
 
-Please cite the relevant paper and the Git commit used for the evidence. The repository is at [metaSATOKEN/MRSI](https://github.com/metaSATOKEN/MRSI). The initial upload is private and includes the original experiment ZIPs alongside the readable logs. [Citation metadata](CITATION.cff) · [PDF and Zenodo publication status](RELEASE_CHECKLIST.md)
+Please cite the relevant paper and the Git commit used for the evidence. The repository is at [metaSATOKEN/MRSI](https://github.com/metaSATOKEN/MRSI). [Citation metadata](CITATION.cff)
 
 **Kentaro Sato** · Independent Researcher · [info@metaclan.jp](mailto:info@metaclan.jp)

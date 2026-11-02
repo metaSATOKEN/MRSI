@@ -1,10 +1,95 @@
-"""English figures for Japanese v0.6: reuse the tested Matplotlib drawing helpers."""
+"""Draw the two figures for the multi-role design synthesis."""
 from pathlib import Path
-# Reuse helper definitions and Figure 1 exactly; do not execute the old Figure 2.
-old=(Path(__file__).with_name('make_figures_en_v1.py')).read_text()
-base=old.split("fig,ax,checks,edges=canvas(11.2,14.5,")[0]
-base=base.replace('two-role-design-en-v1','multi-role-design-en-v2').replace('fig01-record-trace-en-v1','fig01-record-trace-en-v2')
-exec(compile(base,str(__file__)+' (reused helpers)', 'exec'))
+import json
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
+from matplotlib.path import Path as PlotPath
+
+OUT = Path(__file__).resolve().parent
+plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 13,
+                     'svg.fonttype': 'path', 'svg.hashsalt': 'multi-role-design-en-v2',
+                     'savefig.facecolor': 'white'})
+INK = '#20354a'
+MUTED = '#536879'
+COLORS = {'record': '#f0f4f7', 'model': '#e6eef8', 'code': '#e5f2ec', 'hold': '#fff1d9'}
+REPORT = []
+
+
+def canvas(w, h, title, subtitle):
+    fig, ax = plt.subplots(figsize=(w, h))
+    fig.subplots_adjust(left=0, right=1, bottom=0, top=1)
+    ax.set(xlim=(0, w), ylim=(0, h)); ax.axis('off')
+    ax.text(.45, h-.33, title, color=INK, fontsize=19, weight='bold', va='top')
+    ax.text(.45, h-.82, subtitle, color=MUTED, fontsize=12.3, va='top')
+    return fig, ax, [], []
+
+
+def box(ax, checks, x, y, w, h, label, kind='record', size=13.5):
+    patch = FancyBboxPatch((x,y),w,h,boxstyle='round,pad=0.015,rounding_size=0.07',
+                          facecolor=COLORS[kind], edgecolor='#8da0ae', linewidth=1.05)
+    ax.add_patch(patch)
+    t = ax.text(x+w/2,y+h/2,label,ha='center',va='center',fontsize=size,
+                linespacing=1.32,color=INK)
+    checks.append((patch,t))
+
+
+def edge(ax, edges, source, target, points, dashed=False):
+    path = PlotPath(points,[PlotPath.MOVETO]+[PlotPath.LINETO]*(len(points)-1))
+    ax.add_patch(FancyArrowPatch(path=path,arrowstyle='-|>',mutation_scale=15,
+                               linewidth=1.2,linestyle=(0,(3,3)) if dashed else '-',color=MUTED))
+    edges.append([source,target])
+
+
+def label(ax, x, y, text, size=11.5):
+    ax.text(x,y,text,ha='center',va='center',fontsize=size,color=MUTED,
+            bbox={'facecolor':'white','edgecolor':'none','pad':1})
+
+
+def save(fig,ax,checks,edges,stem):
+    fig.canvas.draw(); renderer=fig.canvas.get_renderer(); results=[]
+    for patch,t in checks:
+        p=patch.get_window_extent(renderer); b=t.get_window_extent(renderer)
+        results.append({'text':t.get_text(),'inside_box':bool(p.x0+3<b.x0 and b.x1<p.x1-3 and p.y0+3<b.y0 and b.y1<p.y1-3)})
+    for t in ax.texts:
+        b=t.get_window_extent(renderer); frame=fig.bbox
+        results.append({'text':t.get_text(),'inside_canvas':bool(frame.contains(b.x0,b.y0) and frame.contains(b.x1,b.y1))})
+    assert all(r.get('inside_box',r.get('inside_canvas')) for r in results),results
+    fig.savefig(OUT/(stem+'.png'),dpi=300,metadata={'Software':'NPP technical synthesis'})
+    fig.savefig(OUT/(stem+'.svg'),metadata={'Date':None,'Creator':'NPP technical synthesis'})
+    REPORT.append({'figure':stem,'edges':edges,'layout_checks':results,
+                   'size_inches':list(fig.get_size_inches()),'dpi':300})
+    plt.close(fig)
+
+
+fig,ax,checks,edges=canvas(10.2,8.8,'Trace records across stage boundaries',
+    'Observation framework  |  Separate generation, saved state, and subsequent use.')
+ys=[6.62,5.57,4.52,3.47,2.42,1.37]
+nodes=[('I','Input materials + previous saved artifacts','record'),
+       ('P','Model-generated proposal','model'),
+       ('T','Checks, transformations,\nand storage decisions','code'),
+       ('S','Actual saved state','record'),
+       ('N','Input supplied to the next stage','record'),
+       ('U','Subsequent judgment and use','model')]
+for y,(key,content,kind) in zip(ys,nodes):
+    box(ax,checks,.5,y,5.25,.76,content,kind,13.3)
+for i in range(5):
+    edge(ax,edges,nodes[i][0],nodes[i+1][0],[(3.125,ys[i]-.025),(3.125,ys[i+1]+.79)])
+ax.text(8.0,6.69,'CORRESPONDENCE AUDIT',fontsize=13,weight='bold',ha='center',color=INK)
+audit_labels=['Retain the raw proposal',
+              'Log transformations and\nexecution / inapplicability',
+              'Record saved contents',
+              'Match input to its parent record',
+              'Evaluate for the intended use']
+for y,(key,_,_),content in zip(ys[1:],nodes[1:],audit_labels):
+    box(ax,checks,6.3,y,3.45,.76,content,'record',11.9)
+    edge(ax,edges,key,'A',[(5.79,y+.38),(6.27,y+.38)],True)
+ax.text(.5,.83,'Solid arrows: material passed onward     Dashed arrows: records used in the audit',
+        fontsize=11.7,color=MUTED)
+ax.text(.5,.40,'Distinguish a defect inherited from a saved artifact from a new error introduced downstream.',
+        fontsize=11.7,color=MUTED)
+save(fig,ax,checks,edges,'fig01-record-trace-en-v2')
 
 fig,ax,checks,edges=canvas(12.6,16.0,'Separate actual approval from permission to execute',
     'Proposed architecture  |  Assess the proposal and preserve each received vote.')

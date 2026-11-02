@@ -17,7 +17,7 @@
 | §5.3・表9/10 | [JR01全回答診断](../../supplements/judgment-repeat-01-20260929/diagnostics.json)、[JR01原文点検](../../supplements/judgment-repeat-01-20260929/reason-review.md) | N05 LOWER/DUPLICATE、N02 OPTIMALの全三回答と固定入力 |
 | 付録B・表B1 | ST01/ST02再集計の`progression`、診断の`stage_components` | 人工診断、工学的進行目安、総合未達の内訳 |
 
-抽出JSONは、主3試験の既存再集計・診断から作成した参照用コピーである。`tables`に主要集計、`examples`に該当回答・入力、`source_sha256`に元9ファイルのhashを持つ。再採点や新しい推定を行っていない。[抽出スクリプト](../../supplements/paper-03-draft-20260929/extract_evidence.py)も保存した。
+抽出JSONは、主3試験の既存再集計・診断から作成した参照用コピーである。`tables`に主要集計、`examples`に該当回答・入力、`source_sha256`に元9ファイルのhashを持つ。再採点や新しい推定を行っていない。[抽出スクリプト](../../reference-code/paper03/extract_evidence.py)も保存した。
 
 ## 2. 主実験の一次記録と固定設計
 
@@ -64,9 +64,3 @@
 | CR01 | [対案の再確認](../../experiments/CR01/docs/counter-recheck-01-result-2026-09-29.md) | 最後の正答と途中の本人形成を区別 |
 
 各結果報告から、その試験の固定計画、原ZIP、再集計、採点コード・照合へ進める。第一報・第二報の校了稿は変更していない。
-
-## 4. 草稿作成と改訂で実施したこと
-
-今回の日本語草稿は、正式結果の再配置・要約と一次文献調査である。新規モデル生成、追加N、採点規則変更、旧版結果の置換、公開は0。執筆開始前の主要資料hashと、編集後のリンク・表・旧資料不変の点検は[執筆監査](../../supplements/paper-03-draft-20260929/README.md)へ保存する。
-
-v0.2は、共有された読後評を固定設計・再集計・実行分岐と照合し、中心命題の反復範囲、表6の採点注、図2、再確認の発動条件を明確にした。全表・JSON抜粋・参考文献と元資料は維持する。採否は[改訂メモ](revision-notes-v0.2-2026-09-29.md)、照合は[改訂監査](../../supplements/paper-03-revision-v02-20260929/README.md)を参照。読後評を第三者による原ZIP再採点とは扱わない。

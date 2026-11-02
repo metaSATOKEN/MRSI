@@ -46,14 +46,6 @@ The public supervisor differs from its frozen source in two places only: its pay
 
 The private OneCells are retained outside this publication folder. An original archive may contain historical source and execution records; archive bytes are never rewritten to match the new presentation.
 
-## Verification scope
+## Verification
 
-The publication audit checks all 28 original payload digests, exact embedded-source bytes, and the two-line supervisor transport adaptation. It checks that default inspection cannot install packages, call subprocesses, or access the network, and that altered inputs and symlinks are rejected. The saved-response replays and Paper 4 reconstruction run separately in a new working copy. See [verification records](../verification/README.md).
-
-The readable GPU wrapper has not been executed on Colab in this audit. Byte-equivalent inputs and a transport-only supervisor change are verified; fresh model outputs are not claimed. Offline replay checks existing responses, independently of the new generation entry point.
-
-Internal workflow ledgers, handoff files, and the THROUGHLINE framework are not distributed. Scientific designs and historical source-path references remain as provenance where needed. The repository's [Apache-2.0 license](../LICENSE) is unchanged.
-
-## Paper 1 historical references
-
-The original v0.5 package used an internal workflow directory name for 29 references. This public derivative keeps 16 scientific/reference files under `evidence/paper-01/references/analysis/` and excludes 13 editorial review, retention-check, and manuscript-diff records. Reference-document links are adapted to the public layout; numerical results are unchanged. Its replay changes only the path to the numerical audit; fixed scorers, raw responses, experiment inputs, expected values, and original archives are unchanged. Documentation changes are recorded in the source manifests and [verification history](../VERIFICATION.md). The original sealed package remains in the private research archive.
+Run `.venv/bin/python -B tools/readable_generation.py --all` from a standalone repository root to compare the 28 readable bundles with the recorded payloads. Use [offline replay](../VERIFICATION.md) to check the saved model responses.

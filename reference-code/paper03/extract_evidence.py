@@ -1,27 +1,29 @@
 """Read-only extraction for Paper 3; no model calls or rescoring."""
+import argparse
 import hashlib
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[3]
-OUT = ROOT / 'papers/paper-03'
-
-def read(rel):
-    return json.loads((ROOT / rel).read_text())
+ROOT = Path(__file__).resolve().parents[2]
 
 def digest(p):
     return hashlib.sha256(p.read_bytes()).hexdigest()
 
-def run():
-    OUT.mkdir(exist_ok=True)
+def run(output_dir):
     sources, tables, examples = {}, {}, {}
-    for name in ['summary-timing-01', 'summary-timing-02', 'judgment-repeat-01']:
+    trials = {'summary-timing-01': 'ST01', 'summary-timing-02': 'ST02', 'judgment-repeat-01': 'JR01'}
+    for name, trial in trials.items():
         base = f'study2/results/{name}-20260929'
-        for leaf in ['reaggregated.json', 'diagnostics.json', 'reason-review.json']:
-            p = ROOT / base / leaf
-            sources[str(p.relative_to(ROOT))] = digest(p)
-        report = read(f'{base}/reaggregated.json')['report']
-        diagnostics = read(f'{base}/diagnostics.json')
+        records = ROOT / 'experiments' / trial
+        inputs = {
+            'reaggregated.json': records / 'expected-result.json',
+            'diagnostics.json': records / 'analysis/diagnostics.json',
+            'reason-review.json': records / 'analysis/reason-review.json',
+        }
+        for leaf, path in inputs.items():
+            sources[f'{base}/{leaf}'] = digest(path)
+        report = json.loads(inputs['reaggregated.json'].read_text())['report']
+        diagnostics = json.loads(inputs['diagnostics.json'].read_text())
         if name != 'judgment-repeat-01':
             rows = []
             for arm in ['LATE', 'EARLY']:
@@ -58,11 +60,17 @@ def run():
     assert len(examples['JR01_selected']) == 18
     result = {'purpose':'Published-result extraction; no new inferential analysis or rescoring',
         'source_sha256':sources, 'tables':tables, 'examples':examples}
-    target = OUT/'evidence-extract-v0.1-2026-09-29.json'
+    output_dir.mkdir(parents=True, exist_ok=False)
+    target = output_dir/'evidence-extract-v0.1-2026-09-29.json'
     target.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps({'output':str(target),'source_files':len(sources),
         'JR_examples':len(examples['JR01_selected']),
         'ST02_example_ids':[x['id'] for x in examples['ST02_N05_EARLY_LOWER']]}))
 
 if __name__ == '__main__':
-    run()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--output-dir', type=Path, required=True)
+    output_dir = parser.parse_args().output_dir.resolve()
+    if output_dir.is_relative_to(ROOT) or output_dir.exists():
+        parser.error('Choose a new output directory outside this repository.')
+    run(output_dir)

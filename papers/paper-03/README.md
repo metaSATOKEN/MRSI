@@ -1,14 +1,7 @@
-# paper-03
+# Paper 3 — Judgments and agreements
 
-Kentaro Sato — Independent Researcher — info@metaclan.jp
+[English](manuscript-en-v0.1-2026-09-29.md) · [日本語](manuscript-ja-v0.2-2026-09-29.md) · [PDF](manuscript-en-v0.1-2026-09-29.pdf)
 
-- [manuscript-ja-v0.2-2026-09-29](manuscript-ja-v0.2-2026-09-29.md)
-- [manuscript-en-v0.1-2026-09-29](manuscript-en-v0.1-2026-09-29.md)
-- [manuscript-en-v0.1-2026-09-29](manuscript-en-v0.1-2026-09-29.pdf)
-- [related-work-review-v0.1-2026-09-29](related-work-review-v0.1-2026-09-29.md)
+[Evidence and recorded outputs](S1.md) · [Figures](figures/) · [Related literature](related-work.md) · [Evidence extraction code](../../reference-code/paper03/extract_evidence.py)
 
-- [Distribution evidence index](S1.md)
-- [Figures](figures/)
-- [Repository overview](../../README.md)
-
-Current PDFs are retained byte-for-byte. Local links embedded in their typesetting require connection to the eventual release URLs; Markdown navigation is portable.
+[All papers and collected edition](../README.md)

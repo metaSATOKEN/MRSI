@@ -50,7 +50,7 @@
 | 第四報：個別承認と集団合意 | 三者それぞれの実際の票を保ち、全体の合意・実行を判断できるか？ | [第四報](papers/paper-04/manuscript-ja-v0.2-2026-10-13.md) |
 | 多者系の故障学・設計論 | 二者・三者の観測から、記録・承認・実行の境界をどう設計するか？ | [技術的統合](papers/two-role-failure-design/manuscript-ja-v0.6-2026-10-13.md) |
 
-各報の英語本文・個別PDF・図・証拠索引は[英語READMEの論文一覧](README.md#start-reading)から読めます。個別PDFの連絡先・公開先リンクの修正予定は[公開準備状況](RELEASE_CHECKLIST.md)に記載しています。
+[論文一覧](papers/README.md)から、各報の日英本文・個別PDF・図・証拠索引に進めます。著者の現行連絡先は **info@metaclan.jp** です。
 
 ## コードと実験記録を見る
 
@@ -74,7 +74,7 @@
 
 `--trial`・`--paper-01`・`--all` と[第四報データ再生成](tools/rebuild_paper04_data.py)は、計算結果をファイルへ書き込みます。対応する固定仕様・依存版を確認し、別の作業コピーとその `.venv` で実行してください。
 
-保存済み回答の再集計では、第一報・後続28試験・初回TB01エラー記録が元の集計と一致しました。第四報の本文用データと事例抜粋も、26原資料からbyte一致で再生成できています。[検証の要約](VERIFICATION.md)／[詳細記録](verification/README.md)。
+保存済み回答の再集計では、第一報・後続28試験・初回TB01エラー記録が元の集計と一致しました。第四報の本文用データと事例抜粋も、26原資料からbyte一致で再生成できています。[検証の要約](VERIFICATION.md)。
 
 ## 収録資料と評価範囲
 
@@ -88,6 +88,6 @@
 
 **Apache License 2.0**を採用しています。[全文](LICENSE)／[著作権表示](NOTICE)／[適用範囲](LICENSE_STATUS.md)。古い原稿・封印資料に残る「ライセンス未設定」は作成時点の記述で、現在のライセンスはこのフォルダ直下で定めています。
 
-引用時には、利用した論文と証拠のGitコミットを明記してください。収録先は [metaSATOKEN/MRSI](https://github.com/metaSATOKEN/MRSI) です。初回アップロードはプライベートで、実験の原ZIPと読みやすい形に展開したログを一緒に収録しています。[引用情報](CITATION.cff)・[PDFとZenodoの公開準備状況](RELEASE_CHECKLIST.md)
+引用時には、利用した論文と証拠のGitコミットを明記してください。収録先は [metaSATOKEN/MRSI](https://github.com/metaSATOKEN/MRSI) です。[引用情報](CITATION.cff)
 
 **Kentaro Sato** — 独立研究者 — [info@metaclan.jp](mailto:info@metaclan.jp)

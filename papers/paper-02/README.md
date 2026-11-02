@@ -1,14 +1,7 @@
-# paper-02
+# Paper 2 — Repair and freshness
 
-Kentaro Sato — Independent Researcher — info@metaclan.jp
+[English](manuscript-en-v0.1-2026-09-27.md) · [日本語](manuscript-ja-v0.4-2026-09-27.md) · [PDF](manuscript-en-v0.1-2026-09-27.pdf)
 
-- [manuscript-ja-v0.4-2026-09-27](manuscript-ja-v0.4-2026-09-27.md)
-- [manuscript-en-v0.1-2026-09-27](manuscript-en-v0.1-2026-09-27.md)
-- [manuscript-en-v0.1-2026-09-27](manuscript-en-v0.1-2026-09-27.pdf)
-- [related-work-review-v0.1-2026-09-27](related-work-review-v0.1-2026-09-27.md)
+[Evidence and recorded outputs](S1.md) · [Figures](figures/) · [Related literature](related-work.md) · [Source inventory](sources.json)
 
-- [Distribution evidence index](S1.md)
-- [Figures](figures/)
-- [Repository overview](../../README.md)
-
-Current PDFs are retained byte-for-byte. Local links embedded in their typesetting require connection to the eventual release URLs; Markdown navigation is portable.
+[All papers and collected edition](../README.md)

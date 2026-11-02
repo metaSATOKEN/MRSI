@@ -53,18 +53,6 @@ The [existing TCV01 extracts](../../experiments/TCV01/analysis/evidence-extract.
 
 Formal keys and scores remain unchanged. The 18 responses to constructed HOLD votes are distinguished from the 36 responses to subsets or full sets of actual votes.
 
-## 5. Recalculation Entry Points
+## 5. Recalculation
 
-From this repository root, use the portable commands below. They read packaged original records and fixed local code, require no model/network, and write separate outputs.
-
-```sh
-python3 replay.py --trial TAR01
-python3 replay.py --trial TB01
-python3 tools/rebuild_paper04_data.py --output-dir /tmp/paper04-rebuild-new
-```
-
-TB01 also checks the initial preparation failure with its original payload. The Paper 4 builder reconstructs a temporary view of the 26 original source paths, reuses the preserved extractor, and requires exact agreement with the packaged table data and example extracts. Other original audit scripts are reference code for the research workspace; the commands above are the supported portable entry points.
-
-Verification by separate implementations within the same project is documented in the audits for [TB01](../../supplements/three-role-boundary-01-results-20261013/README.md), [TVR01](../../supplements/three-role-vote-repeat-01-results-20261013/README.md), [TCV01](../../supplements/three-role-comparison-vote-01-results-20261013/README.md), [TCV02](../../supplements/three-role-comparison-vote-02-results-20261013/README.md), and [TAR01](../../supplements/three-role-approval-readout-01-results-20261013/README.md). The [draft audit](../../supplements/paper-04-draft-20261013/README.md) covers extraction and table verification. The [English-edition audit](../../supplements/paper-04-english-20261013/README.md) covers translation consistency and figure checks. Audit narratives are in Japanese.
-
-These dependencies are now included in this local publication candidate. A public repository/release URL has not yet been assigned.
+Rebuild both table data and worked examples from the 26 recorded inputs using the [portable builder](../../tools/rebuild_paper04_data.py). [Execution instructions](../../RUNNING.md)

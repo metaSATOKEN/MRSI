@@ -17,6 +17,6 @@ Run [make_figures_en_v1.py](make_figures_en_v1.py) with Python and Matplotlib:
 python3 make_figures_en_v1.py
 ```
 
-Generation is entirely offline and creates only SVG, PNG, and [layout-check JSON](layout-checks-en-v1.json). Automated checks cover text fitting within boxes and the canvas. Visual inspection of both PNGs is also recorded in the [English-version audit](../../../supplements/paper-03-english-20260929/README.md).
+Generation is entirely offline and creates only SVG, PNG, and [layout-check JSON](layout-checks-en-v1.json). Automated checks cover text fitting within boxes and the canvas.
 
 Figure 1 uses a support schedule instead of intersecting dashed arrows. “Recheck” supply applies when that stage is activated; only COUNTER activates it. A separate constructed-counterproposal diagnostic is excluded from the main path. Figure 2 shows two disconnected response panels, not a pipeline carrying new formation outputs into new confirmation calls.

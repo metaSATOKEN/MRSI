@@ -74,4 +74,4 @@ To check all 28 readable bundles from the research root:
 
 In a standalone copy, omit `GitHub公開用/`. This standard-library-only check reassembles the original payload bytes and compares their hashes. It does not run experiment code. Detailed inspection and Colab instructions are in [readable generation](docs/READABLE_GENERATION.md).
 
-Historical commands and verification logs retain the versions and working-directory conventions used at the time. Apply this procedure when planning a new execution; it does not authorize automatically rerunning old analyses. See the [verification history](VERIFICATION.md) for the distinction between earlier scientific replay and the current environment/integrity check.
+See the [verification guide](VERIFICATION.md) for the scope of each check.

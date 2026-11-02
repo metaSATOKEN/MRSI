@@ -64,7 +64,7 @@ In our task, code produces own-experience summaries and totals for joint candida
 | τ-bench | Consistent success across repetitions of a task | Whether defect locations also remain stable across fixed-input repetitions |
 | PAL; OG-Narrator | Division of computation or candidate construction and generation | Timing of computed evidence and approval decisions retained by the LLM |
 
-Our study combines **the timing of computational support, subsequent use of actual records, and fixed-input repetitions in a task that elicits role-specific judgments and joint responses together**. The [literature review memo](related-work-review-v0.1-2026-09-29.md) records the primary-source passages checked and the scope adopted in this manuscript; the memo is in Japanese.
+Our study combines **the timing of computational support, subsequent use of actual records, and fixed-input repetitions in a task that elicits role-specific judgments and joint responses together**. The [literature review memo](related-work.md) records the primary-source passages checked and the scope adopted in this manuscript; the memo is in Japanese.
 
 ## 3. Task: Separating a Role's Recommendation from Its Joint Assignment
 

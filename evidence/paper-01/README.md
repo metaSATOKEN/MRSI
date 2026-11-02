@@ -1,76 +1,15 @@
-> Public derivative, 29 October 2026: fixed scoring code and raw data bytes are preserved; reference-document links are adapted for this public layout. Numerical/reference materials formerly filed under an internal workflow directory now reside in `references/analysis/`; 13 editorial preparation records are excluded. The replay changes one input path only, and this derivative has its own hash manifest. The current license and execution procedure are at the [repository root](../../README.md). The historical notes below describe the original v0.5 package.
+# Paper 1 evidence and offline replay
 
-# 第一報 v0.10 — 保存済み証拠の再現パッケージ
+The [paper](../../papers/paper-01/README.md) tracks role-specific facts, shared observations and their provenance through storage, reuse and revocation. The [evidence index](../../papers/paper-01/S1.md) connects the examples and evaluation rules to the saved records.
 
-2026-09-23｜ローカル準備版 v0.5｜未公開・ライセンス未設定
+The bundle holds 1,127 original answers. Offline replay rescores 792. The other 335 answers are included with the aggregates from their original trials. Formal missing outcomes and post hoc sensitivity calculations have separate records.
 
-[可搬版の本文](paper.md)／[通し例と原資料](examples.md)／[実装補足](implementation-notes.md)／[編集方針](EDITORIAL_POLICY.md)／主要表：再計算後に生成される `replay-output/tables.md`／[収録試験](data/study-index.json)／[削除期限なしの保管方針](RETENTION.md)
+- [Trial inventory](data/study-index.json) · [paired trials](data/pair/)
+- [Frozen scoring code](code/) · [numerical checks](references/analysis/)
+- [Source map](SOURCE_MANIFEST.json) · [file hashes](MANIFEST.json) · [retention terms](RETENTION.json)
 
-このパッケージは、保存済みの回答・ノート・入力から成績を点検するためのものです。モデルの新規生成、認証、外部サービスへの接続は行いません。実行コードはネットワークと子プロセスの呼出しを拒否します。
-
-## 再計算
-
-Python 3.13.5、SciPy 1.17.0で確認しました。環境依存は[requirements.txt](requirements.txt)に記載しています。SciPyが使えるPythonで、次を実行してください。
+In a separate working copy with the dependencies listed in the [execution guide](../../RUNNING.md), run the following from the repository root.
 
 ```sh
-python3 replay.py
+.venv/bin/python -B replay.py --paper-01
 ```
-
-別の作業ディレクトリから、`replay.py`のフルパスを指定しても実行できます。コードと資料はこのフォルダ内から読みます。ファイルのhashを先に検査し、採点と集計の照合がすべて一致すると`PASS`を表示し、`replay-output/results.json`と`replay-output/tables.md`を生成します。
-
-`--unsealed`は作成時の照合専用で、配布後の確認には使用しません。原データを編集すると通常の実行はhash不一致で止まります。期待値のファイルだけを読み出して表示する仕組みではなく、下表の対象を原回答から再採点します。
-
-| 収録対象 | 原回答数 | 再計算の範囲 |
-| --- | ---: | --- |
-| E1・E2 | 704 | 全原回答の構造・成分採点、実保存物、次入力、指示、主集計、補足表 |
-| SM02・RC01・RC02 | 88 | 原回答の成分採点、保存物・次入力、主要集計 |
-| その他の旧8試験 | 335 | 原回答・入力・状態・元集計を収録。旧指標を統一して再採点する処理は実施しない |
-| 合計 | 1,127 | 再採点792回答。役・工程を独立標本数にしない |
-
-E1の形式不備1件は正式には未確定のままです。原227 bytesの最後の`}`だけを除く事後参考分析はメモリ上の別コピーで計算し、正式なスコアを変更しません。正式主p値は未算出、事後参考p値は1.000です。
-
-E2の初回129回答と継続63回答は区別して収録しています。初回に完了応答を受けてもローカル検査がタイムアウトした試行は、採用回答704件に含めません。物理要求705件との区別は[区間索引](data/pair/phase-index.json)と本文に残します。継続側に複製されていたE1の512回答は、原bytes一致を確認して重複収録・二重計数を避けています。
-
-## ファイルと加工の範囲
-
-- `data/`：材料、割付、モデルに渡した要求本文と設定、原回答テキスト、派生状態、元の採点。
-- `code/`：再計算で使う5つの凍結評価モジュール。`code/legacy/`には旧系列の凍結採点コードと依存31ファイルを追加。いずれも原bytesを保持。後者の全試験を今回再採点したという意味ではない。[所在・hash](scorer-source-index.json)。
-- `references/`：本文の根拠文書・図・実装の参照用ソース。これらのスクリプトは実行入口ではありません。ライブ送信の説明用ソースも参照用として含みますが、再計算からimportしません。
-- `SOURCE_MANIFEST.json`：収録先、原ファイルの相対パス・hash、派生コピーのhash、加工内容。
-- `MANIFEST.json`：パッケージファイルのSHA-256。自己参照を避けてmanifest自身と再生成される`replay-output/`を除きます。
-
-原回答は全件bytesを保持しています。設定は必要な欄だけを投影し、元の作業フォルダの絶対パスは派生文書・JSONから除きました。本文の参照先と図はパッケージ内の相対パスです。過去の報告書が更に参照する資料のうち未収録のものは、リンクではなく原資料名として表示します。全プロジェクトや全実験の再実行環境を収録したものではありません。
-
-生成設定として、要求中のモデル識別子、reasoning、tools等を保存しています。モデル識別子は公開重みの固定版ではありません。回答からの再集計、同一モデルでの再生成、異なるモデルによる追試は異なる再現の水準です。ここで確認したのは最初の水準です。
-
-認証・承認ファイル、アカウント情報、通信ヘッダ、生の応答ストリームは収録しません。原停止の経緯は報告書と変更記録で辿れます。モデル提供者の応答IDや非公開の思考出力を、研究答案として追加しません。
-
-## 保存と公開の状態
-
-2026-09-22の明示承認により、本パッケージ・ZIP・補足採点コードは**削除期限なしのローカル保管**です。同一証拠による新版も対象とする承認を適用しています。凍結設定・過去の報告に残る10月12日期限より、[現在の保管方針](RETENTION.md)を優先します。公開許可、ライセンス、DOI付きアーカイブ先、著者・所属・資金・利益相反の申告は未設定です。現時点で公開・DOI取得済みとは扱わないでください。
-
-外部の研究論文はリンクと短い比較記述だけを収録し、全文の再配布はしません。コードとデータの公開候補を具体的に点検できるようにした準備版です。
-
-## v0.2での変更
-
-本文をv0.7へ更新し、採点主体・反復の限界・保存方針を明記しました。再計算には共同観測成分の事後区間、確定・未確定の食違い数、512原回答の工程別出力長を加えました。副指標に新しい有意差検定は加えません。元の正式成績、原回答1,127件、再採点の範囲792回答は変わりません。
-
-E1の8場面名×8会場という記述は固定済み材料の説明補完で、材料の再生成ではありません。旧版v0.1は別に保持しています。
-
-## v0.3での変更
-
-本文をv0.8へ更新し、肯定形で工程別の到達点を示しました。限定事項を担当する節へまとめ、実装の詳細は独立した補足資料、用語対訳は本文§3.2へ置きました。[改訂内容](revision-notes.md)。原回答・入力・保存物・凍結採点コード・再計算コードはv0.2と同一です。追加実験・追加検定はありません。
-
-旧v0.1 ZIPはユーザーが削除しました。展開済み旧版とv0.2の資料は保持されています。本パッケージの再計算は旧ZIPへ依存しません。所在確認（内部編集記録のため本公開版には収録しない）。
-
-## v0.4での変更
-
-本文をv0.9へ更新し、要旨の数字を絞り、同一モデル・別コンテキストの二役と区間の包絡を明記しました。§6.2の対照を具体化し、§7の長い限定段落を項目化しました。[改訂内容](revision-notes.md)。原回答・入力・保存物・凍結採点コード・再計算コードはv0.3と同一です。追加実験・追加検定はありません。
-
-旧v0.1 ZIPに続き、削除予告後に旧v0.2 ZIPの不在も確認しました。展開済み旧版とv0.3の資料は保持されています。本パッケージの再計算は旧ZIPへ依存しません。所在確認（内部編集記録のため本公開版には収録しない）。
-
-## v0.5での変更
-
-本文をv0.10へ更新しました。日本語の呼称、実測の通し例、工程別の成績表、E1の流れの図から研究を追える構成です。[改訂内容](revision-notes.md)／[通し例と原資料](examples.md)。原回答・入力・保存物・凍結採点コード・再計算コードはv0.4と同一です。追加実験・追加検定はありません。図の生成コードとSVGもreferences配下に収録しています。
-
-旧ZIPの整理後も展開済み旧版は保持されています。本パッケージの再計算は旧ZIPへ依存しません。所在確認（内部編集記録のため本公開版には収録しない）。

@@ -1,15 +1,9 @@
 {
-  "EDITORIAL_POLICY.md": {
-    "package_sha256": "ee6ce3445163d4a0d7b5b5264fb5b1b1b7c6d9a014a2dcf24cdec8e4c56a25a7",
-    "source": "papers/paper-01/EDITORIAL_POLICY.md",
-    "source_sha256": "ee6ce3445163d4a0d7b5b5264fb5b1b1b7c6d9a014a2dcf24cdec8e4c56a25a7",
-    "transform": "editorial document with package-relative links"
-  },
   "README.md": {
-    "package_sha256": "3788198ee28f5f3b84963205f2f3f1d42330346ba71ffbcbb6d7077d34204c04",
+    "package_sha256": "1f35d6eecf0fa1a2e3e6b4c25884ba26ef76b0abaeeaea9d747ed551e05766a9",
     "source": "papers/paper-01/reproducibility-v0.4/README.md",
     "source_sha256": "5aa6b45fd67e5b405f88a757a748d9e208f43d3fec6c8699e4a65cc0348148d0",
-    "transform": "edition and document navigation updated; public documentation links or replay input path adapted 2026-10-29; public navigation repaired and generated/unbundled references labeled 2026-10-29"
+    "transform": "Public documentation, navigation or implementation adapted to the repository layout."
   },
   "RETENTION.json": {
     "package_sha256": "17cf619e1fabacfd4a68e11e7d0bfdcdc6806e3251d256e7f1958edc5fab38f6",
@@ -18,10 +12,10 @@
     "transform": "same approval applied to same evidence in v0.5"
   },
   "RETENTION.md": {
-    "package_sha256": "44dd734f7fff9c389855fd4a3f80d44da76d2a609daa2da1affec6b3e5601757",
+    "package_sha256": "38df72510f598fc96f0a29c9a2bdb0f70ab207aa698e3c5dc4e176172209f322",
     "source": "papers/paper-01/reproducibility-v0.4/RETENTION.md",
     "source_sha256": "2af7f60ad3c23bd1fd5c7863be7c07f0be2231153f5ca1f54f036b294e537b8e",
-    "transform": "same retention approval; deletion history pointer; public documentation links or replay input path adapted 2026-10-29"
+    "transform": "Public documentation, navigation or implementation adapted to the repository layout."
   },
   "code/legacy/record-decision-01-prepared-20260918/record_decision_design_v1.py": {
     "original_source": "study2/runs/record-decision-01-prepared-20260918/frozen/record_decision_design_v1.py",
@@ -35473,24 +35467,6 @@
     "source_sha256": "d016c7256f3baddbd9e32bf766b92368b39df720c5baf8ff560a18ca8db3bfc2",
     "transform": "byte-identical"
   },
-  "examples.md": {
-    "package_sha256": "7eea49ef3e45e0684fdfff82365d626420056a45efef772031234e44a5a13c1b",
-    "source": "papers/paper-01/examples-v0.1-2026-09-23.md",
-    "source_sha256": "2b648ab587451eb6cd056baa9c170770af73a9b4791c5ed99f8c18684667f27c",
-    "transform": "editorial document with package-relative links"
-  },
-  "implementation-notes.md": {
-    "package_sha256": "41618469da51f5cdb857bb4faf2888f3a5c3c3faebf92d323c695badf43a670c",
-    "source": "papers/paper-01/implementation-notes-v0.3-2026-09-23.md",
-    "source_sha256": "5a9f64220d28f5cd0c3c37779383bf8969cd3b8dd3db4738053962f31749182f",
-    "transform": "editorial document with package-relative links; public documentation links or replay input path adapted 2026-10-29"
-  },
-  "paper.md": {
-    "package_sha256": "0e940614353f8c2fb161e81561962dd08403640cb86813e78fb0c549aa40e789",
-    "source": "papers/paper-01/manuscript-v0.10-2026-09-23.md",
-    "source_sha256": "ea3c6de585e97c48fc158f6740f718e2936b7f55f215817c7a33cfb1898b7c2a",
-    "transform": "editorial document with package-relative links; public documentation links or replay input path adapted 2026-10-29"
-  },
   "references/analysis/paper-01-draft-20260920/source-evidence.json": {
     "package_sha256": "b66acab04f1b6cd2df78801e22883dc2594e9195795794b42be833d3867cfac8",
     "source": "throughline/audits/paper-01-draft-20260920/source-evidence.json",
@@ -35587,77 +35563,11 @@
     "source_sha256": "388a40b69c962f174c7c9e92c9a4eda79a64b62afa309d021d9bddb0a2d911bb",
     "transform": "portable local links; unbundled sources named explicitly; relocated byte-for-byte on 2026-10-29; public navigation repaired and generated/unbundled references labeled 2026-10-29"
   },
-  "references/papers/paper-01/figures/fig01-e1-flow-v10.png": {
-    "package_sha256": "742e0cb58954797306711e5cf98ac4af3a21a7bb8b1af3124da6aa0130270f54",
-    "source": "papers/paper-01/figures/fig01-e1-flow-v10.png",
-    "source_sha256": "742e0cb58954797306711e5cf98ac4af3a21a7bb8b1af3124da6aa0130270f54",
-    "transform": "portable source; workspace paths projected where needed"
-  },
-  "references/papers/paper-01/figures/fig01-e1-flow-v10.svg": {
-    "package_sha256": "aa15020303050e845b558d708d1d1a7bb2710796ed0b9c25e89628c7836c9222",
-    "source": "papers/paper-01/figures/fig01-e1-flow-v10.svg",
-    "source_sha256": "aa15020303050e845b558d708d1d1a7bb2710796ed0b9c25e89628c7836c9222",
-    "transform": "portable source; workspace paths projected where needed"
-  },
-  "references/papers/paper-01/figures/fig01-information-flow.png": {
-    "package_sha256": "419c03416d05049e7f122916813d213616c95d71025e473f689e1ab063af667f",
-    "source": "papers/paper-01/figures/fig01-information-flow.png",
-    "source_sha256": "419c03416d05049e7f122916813d213616c95d71025e473f689e1ab063af667f",
-    "transform": "byte-identical source"
-  },
-  "references/papers/paper-01/figures/fig02-provenance-trace-v10.png": {
-    "package_sha256": "860ce9af0150e0cbd490a4b2d5df1425350370a81d94ab3d6f695d7d577eb024",
-    "source": "papers/paper-01/figures/fig02-provenance-trace-v10.png",
-    "source_sha256": "860ce9af0150e0cbd490a4b2d5df1425350370a81d94ab3d6f695d7d577eb024",
-    "transform": "portable source; workspace paths projected where needed"
-  },
-  "references/papers/paper-01/figures/fig02-provenance-trace-v10.svg": {
-    "package_sha256": "be30d27ec8cb8b9dad7b0e7dc138e4180a841a721e8d1904205e2a1ea7d90a75",
-    "source": "papers/paper-01/figures/fig02-provenance-trace-v10.svg",
-    "source_sha256": "be30d27ec8cb8b9dad7b0e7dc138e4180a841a721e8d1904205e2a1ea7d90a75",
-    "transform": "portable source; workspace paths projected where needed"
-  },
-  "references/papers/paper-01/figures/fig02-study-lineage.png": {
-    "package_sha256": "71475917a384c17540a7c0528d3b5c91dc89d1a66446a378ff184296116e776d",
-    "source": "papers/paper-01/figures/fig02-study-lineage.png",
-    "source_sha256": "71475917a384c17540a7c0528d3b5c91dc89d1a66446a378ff184296116e776d",
-    "transform": "byte-identical source"
-  },
-  "references/papers/paper-01/figures/fig03-provenance-trace.png": {
-    "package_sha256": "858da690d7850a6fe2d81c24e398ab312050eded4ad05125b0d7dc6950b44c27",
-    "source": "papers/paper-01/figures/fig03-provenance-trace.png",
-    "source_sha256": "858da690d7850a6fe2d81c24e398ab312050eded4ad05125b0d7dc6950b44c27",
-    "transform": "byte-identical source"
-  },
-  "references/papers/paper-01/figures/make_e1_flow_v10.py": {
-    "package_sha256": "afc2c49854acecd0af29d11894ff10e3122feeb9c5ca9a125ec09aa4c43b5dee",
-    "source": "papers/paper-01/figures/make_e1_flow_v10.py",
-    "source_sha256": "afc2c49854acecd0af29d11894ff10e3122feeb9c5ca9a125ec09aa4c43b5dee",
-    "transform": "portable source; workspace paths projected where needed"
-  },
-  "references/papers/paper-01/next-experiments-estimate-v0.1-2026-09-20.md": {
-    "package_sha256": "217923418ca74ef4f5a84d5ee069c270bce0ac0b0c4e8f96d752ef0072e69b4f",
-    "source": "papers/paper-01/next-experiments-estimate-v0.1-2026-09-20.md",
-    "source_sha256": "38da6248fa656fb38a03c85727abfc9bce65196ee16cff71f34f90281f0b193d",
-    "transform": "portable local links; unbundled sources named explicitly; public navigation repaired and generated/unbundled references labeled 2026-10-29"
-  },
-  "references/papers/paper-01/reproducibility-v0.1/README.md": {
-    "package_sha256": "10f60559f0c7855cdc331e6a7d10c8f1dfa27368e7b371fb0f36c076137607d7",
-    "source": "papers/paper-01/reproducibility-v0.1/README.md",
-    "source_sha256": "47050558e728182cd6fce91a9bb672ff7c1d77d368bd972994d9122412e06312",
-    "transform": "portable local links; unbundled sources named explicitly"
-  },
   "references/papers/paper-01/retention-policy-v0.1-2026-09-22.md": {
-    "package_sha256": "658b116a16a0e7aea74b7ca8e1789bd8ef07c2b628bf0bb509baea61141313ee",
+    "package_sha256": "ebe7e1788a0c526c2dfeb0cedd974c0f563d9ffd226a0116ccb57daf1484c01a",
     "source": "papers/paper-01/retention-policy-v0.1-2026-09-22.md",
     "source_sha256": "a90ee95881ad774fda3d887d602c06e13e2becadfa54fc828a2b09b3995cb239",
-    "transform": "portable local links; unbundled sources named explicitly; public navigation repaired and generated/unbundled references labeled 2026-10-29"
-  },
-  "references/papers/paper-01/retention-proposal-v0.1-2026-09-22.md": {
-    "package_sha256": "79e71648122ed56a3dcca1d56dacf92c27e3d87343391f2788ec7886e1d514ef",
-    "source": "papers/paper-01/retention-proposal-v0.1-2026-09-22.md",
-    "source_sha256": "ccb35c97f5dc1b389a475fccca10179c45ade5bb830c12b82f342a50aa1ce429",
-    "transform": "portable local links; unbundled sources named explicitly"
+    "transform": "Public documentation, navigation or implementation adapted to the repository layout."
   },
   "references/scripts/audit_row_carry_02_v1.py": {
     "package_sha256": "ba3372bf03cac7487fd8f5eb9c6bd6c07cd91d6321c6a0291ba3f0399903e253",
@@ -35707,6 +35617,12 @@
     "source_sha256": "258ce6c7523394b1751c5d0ab25e7a10aa2540535ffe3d9448edfb04c093a792",
     "transform": "byte-identical source"
   },
+  "references/study2/pair-design-estimate.md": {
+    "package_sha256": "333b815b88248de60a4141b2bbe1e1a1fe84a045956be934200103f900b69eac",
+    "source": "papers/paper-01/next-experiments-estimate-v0.1-2026-09-20.md",
+    "source_sha256": "38da6248fa656fb38a03c85727abfc9bce65196ee16cff71f34f90281f0b193d",
+    "transform": "Public documentation, navigation or implementation adapted to the repository layout."
+  },
   "references/study2/paper-01-e1-brace-sensitivity-2026-09-21.md": {
     "package_sha256": "e3386522b3a7b0bae4fa465558005e4415bfad37f77abfd297cec37a6b01536f",
     "source": "study2/paper-01-e1-brace-sensitivity-2026-09-21.md",
@@ -35714,10 +35630,10 @@
     "transform": "portable local links; unbundled sources named explicitly; public navigation repaired and generated/unbundled references labeled 2026-10-29"
   },
   "references/study2/paper-01-pair-plan-v0.1-2026-09-21.md": {
-    "package_sha256": "107caea52ada0519b81ee476eb4dc5876cf7eb99b0921ec2552dbeb2f8662240",
+    "package_sha256": "e7dff393a5d3af3ebeded3a6363ab10c8c9e35d58634c37cbd5df2de3f8a740f",
     "source": "study2/paper-01-pair-plan-v0.1-2026-09-21.md",
     "source_sha256": "a081a0455eb189226ccc650fedad92a8aea724c2fb13b77738af1dfdb5ef4484",
-    "transform": "portable local links; unbundled sources named explicitly"
+    "transform": "Public documentation, navigation or implementation adapted to the repository layout."
   },
   "references/study2/paper-01-pair-results-2026-09-21.md": {
     "package_sha256": "544e389811781eb25f432df56e4447564f4818a4d28892db04b5e09aee4b2edf",
@@ -35820,12 +35736,6 @@
     "source": "papers/paper-01/reproducibility-v0.1/replay.py",
     "source_sha256": "055b49803ab6bed87d9627c682f0c3f72ee48a37902362972647380be2bddc14",
     "transform": "same frozen scoring; added verified descriptive supplements and retention metadata; public documentation links or replay input path adapted 2026-10-29"
-  },
-  "revision-notes.md": {
-    "package_sha256": "6679e8c8c5bff9b0d31a3b7e14d7b47ba2c0678e82d9612141daaa67c2f4176c",
-    "source": "papers/paper-01/revision-notes-v0.10-2026-09-23.md",
-    "source_sha256": "62e132d1bf7fa16a7fc2d33c805b20e8dee5ccea9814c0eb9da6e4edd7074579",
-    "transform": "editorial document with package-relative links; public documentation links or replay input path adapted 2026-10-29"
   },
   "scorer-source-index.json": {
     "package_sha256": "63a82ef8c9657c069b92153167e6a98b03e8d4803b7a165277d2873cb4183214",

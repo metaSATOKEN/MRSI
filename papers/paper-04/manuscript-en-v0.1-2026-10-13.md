@@ -446,7 +446,7 @@ The task materials, scoring rules, and counting units needed to interpret the re
 | Table values and costs | [Paper data](paper-data-v0.1-2026-10-13.json): extracts from fixed reaggregations and original response times and token counts |
 | Examples in Sections 5.1 and 5.2 | [Evidence extracts](evidence-extract-v0.1-2026-10-13.json): actual inputs, original responses, scores, and archive locations |
 | All responses and designs fixed before execution | [Evidence index](evidence-index-en-v0.1-2026-10-13.md): original ZIP archives, fixed designs, and analysis code for the five trials |
-| Scope of related-work claims | [Research memo (Japanese)](related-work-review-v0.1-2026-10-13.md): checked primary-source passages and claims used in this paper |
+| Scope of related-work claims | [Research memo (Japanese)](related-work.md): checked primary-source passages and claims used in this paper |
 
 The paper-data file supports reproducing the extraction of table values. It does not replace the original ZIP archives containing responses, inputs, and execution code. Verification from original archives and extraction into manuscript tables remain separate entry points.
 

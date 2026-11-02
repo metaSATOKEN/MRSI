@@ -215,31 +215,6 @@
     "label": "派生回答の照合"
   },
   {
-    "document": "papers/paper-02/related-work-review-v0.1-2026-09-27.md",
-    "source_target": "papers/paper-02/Old/manuscript-ja-v0.3-2026-09-27.md",
-    "label": "日本語v0.3"
-  },
-  {
-    "document": "papers/two-role-failure-design/manuscript-ja-v0.5-2026-09-30.md",
-    "source_target": "meteon_series_collected_edition.pdf",
-    "label": "Meteon Collected Edition v1.1所収"
-  },
-  {
-    "document": "papers/two-role-failure-design/manuscript-ja-v0.5-2026-09-30.md",
-    "source_target": "meteon_series_collected_edition.pdf",
-    "label": "同合冊所収"
-  },
-  {
-    "document": "papers/two-role-failure-design/manuscript-en-v0.2-2026-09-30.md",
-    "source_target": "meteon_series_collected_edition.pdf",
-    "label": "Meteon Collected Edition v1.1"
-  },
-  {
-    "document": "papers/two-role-failure-design/manuscript-en-v0.2-2026-09-30.md",
-    "source_target": "meteon_series_collected_edition.pdf",
-    "label": "the same collected edition"
-  },
-  {
     "document": "docs/study2/agreement-confirm-01-connection-v0.1-2026-09-28.md",
     "source_target": "throughline/audits/agreement-confirm-01-connection-20260928/test-run-01.log",
     "label": "27テスト"
@@ -7405,84 +7380,24 @@
     "label": "履歴"
   },
   {
-    "document": "papers/paper-01/revision-notes-v0.11-2026-09-23.md",
-    "source_target": "papers/paper-01/zenodo-metadata-v0.1-2026-09-23.md",
-    "label": "登録用メタデータ"
-  },
-  {
-    "document": "papers/paper-01/revision-notes-v0.11-2026-09-23.md",
-    "source_target": "papers/paper-01/Old/README.md",
-    "label": "Old"
-  },
-  {
-    "document": "papers/paper-01/revision-notes-v0.11-2026-09-23.md",
-    "source_target": "throughline/audits/paper-01-metadata-20260923/manuscript.diff",
-    "label": "本文差分"
-  },
-  {
-    "document": "papers/paper-01/revision-notes-v0.11-2026-09-23.md",
-    "source_target": "throughline/audits/paper-01-metadata-20260923/verification.json",
-    "label": "照合結果"
-  },
-  {
-    "document": "papers/paper-01/retention-policy-v0.1-2026-09-22.md",
+    "document": "evidence/paper-01/references/papers/paper-01/retention-policy-v0.1-2026-09-22.md",
     "source_target": "papers/paper-01/Old/retention-proposal-v0.1-2026-09-22.md",
     "label": "提案した範囲"
   },
   {
-    "document": "papers/paper-01/retention-policy-v0.1-2026-09-22.md",
+    "document": "evidence/paper-01/references/papers/paper-01/retention-policy-v0.1-2026-09-22.md",
     "source_target": "papers/paper-01/Old/reproducibility-v0.1/README.md",
     "label": "再現パッケージv0.1"
   },
   {
-    "document": "papers/paper-01/retention-policy-v0.1-2026-09-22.md",
+    "document": "evidence/paper-01/references/papers/paper-01/retention-policy-v0.1-2026-09-22.md",
     "source_target": "throughline/audits/paper-01-rereview-20260922/scorer-source-manifest.json",
     "label": "補足した旧系列の凍結採点コード"
   },
   {
-    "document": "papers/paper-01/retention-policy-v0.1-2026-09-22.md",
+    "document": "evidence/paper-01/references/papers/paper-01/retention-policy-v0.1-2026-09-22.md",
     "source_target": "throughline/audits/paper-01-retention-20260922/approved-scope.json",
     "label": "承認済み対象一覧"
-  },
-  {
-    "document": "papers/paper-01/retention-policy-v0.1-2026-09-22.md",
-    "source_target": "papers/paper-01/Old/README.md",
-    "label": "Old"
-  },
-  {
-    "document": "papers/paper-01/retention-policy-v0.1-2026-09-22.md",
-    "source_target": "throughline/audits/paper-01-layout-20260923/relocation.json",
-    "label": "移動対応表"
-  },
-  {
-    "document": "papers/paper-02/evidence-index-v0.4-2026-09-27.md",
-    "source_target": "papers/paper-02/Old/revision-notes-v0.2-2026-09-26.md",
-    "label": "レビューの採否と変更箇所"
-  },
-  {
-    "document": "papers/paper-02/evidence-index-v0.4-2026-09-27.md",
-    "source_target": "papers/paper-02/Old/revision-notes-v0.3-2026-09-27.md",
-    "label": "改訂メモ"
-  },
-  {
-    "document": "papers/paper-02/evidence-index-en-v0.1-2026-09-27.md",
-    "source_target": "papers/paper-02/Old/revision-notes-v0.2-2026-09-26.md",
-    "label": "Revision notes, Japanese"
-  },
-  {
-    "document": "papers/paper-02/evidence-index-en-v0.1-2026-09-27.md",
-    "source_target": "papers/paper-02/Old/revision-notes-v0.3-2026-09-27.md",
-    "label": "Revision notes, Japanese"
-  },
-  {
-    "document": "papers/paper-02/evidence-index-en-v0.1-2026-09-27.md",
-    "source_target": "throughline/audits/paper-02-english-20260927/japanese-final-approval.json",
-    "label": "approval record"
-  },
-  {
-    "document": "papers/paper-02/revision-notes-v0.4-2026-09-27.md",
-    "source_target": "papers/paper-02/Old/manuscript-ja-v0.3-2026-09-27.md",
-    "label": "旧稿v0.3"
   },
   {
     "document": "papers/paper-03/evidence-index-v0.2-2026-09-29.md",
@@ -7515,51 +7430,6 @@
     "label": "manifest"
   },
   {
-    "document": "papers/two-role-failure-design/evidence-index-v0.5-2026-09-30.md",
-    "source_target": "meteon_series_collected_edition.pdf",
-    "label": "Meteon Collected Edition v1.1"
-  },
-  {
-    "document": "papers/two-role-failure-design/evidence-index-v0.5-2026-09-30.md",
-    "source_target": "papers/two-role-failure-design/revision-notes-v0.2-2026-09-29.md",
-    "label": "v0.2改訂メモ"
-  },
-  {
-    "document": "papers/two-role-failure-design/evidence-index-v0.5-2026-09-30.md",
-    "source_target": "papers/two-role-failure-design/examples/README.md",
-    "label": "コードと入力例"
-  },
-  {
-    "document": "papers/two-role-failure-design/evidence-index-v0.5-2026-09-30.md",
-    "source_target": "papers/two-role-failure-design/revision-notes-v0.3-2026-09-29.md",
-    "label": "v0.3改訂メモ"
-  },
-  {
-    "document": "papers/two-role-failure-design/evidence-index-v0.5-2026-09-30.md",
-    "source_target": "papers/two-role-failure-design/revision-notes-v0.4-2026-09-29.md",
-    "label": "v0.4改訂メモ"
-  },
-  {
-    "document": "papers/two-role-failure-design/evidence-index-en-v0.2-2026-09-30.md",
-    "source_target": "meteon_series_collected_edition.pdf",
-    "label": "Meteon Collected Edition v1.1"
-  },
-  {
-    "document": "papers/two-role-failure-design/evidence-index-en-v0.2-2026-09-30.md",
-    "source_target": "papers/two-role-failure-design/revision-notes-v0.2-2026-09-29.md",
-    "label": "v0.2 revision notes"
-  },
-  {
-    "document": "papers/two-role-failure-design/evidence-index-en-v0.2-2026-09-30.md",
-    "source_target": "papers/two-role-failure-design/revision-notes-v0.3-2026-09-29.md",
-    "label": "v0.3 notes"
-  },
-  {
-    "document": "papers/two-role-failure-design/evidence-index-en-v0.2-2026-09-30.md",
-    "source_target": "papers/two-role-failure-design/revision-notes-v0.4-2026-09-29.md",
-    "label": "v0.4 notes"
-  },
-  {
     "document": "supplements/counter-recheck-01-20260929/reason-review.md",
     "source_target": "throughline/audits/counter-recheck-01-results-20260929/review-materials.json",
     "label": "対象原文・入力・計算値"
@@ -7583,246 +7453,6 @@
     "document": "supplements/judgment-repeat-01-20260929/reason-review.md",
     "source_target": "throughline/audits/judgment-repeat-01-results-20260929/review-materials.json",
     "label": "監査資料"
-  },
-  {
-    "document": "supplements/paper-03-draft-20260929/README.md",
-    "source_target": "papers/paper-03/manuscript-ja-v0.1-2026-09-29.md",
-    "label": "日本語草稿"
-  },
-  {
-    "document": "supplements/paper-03-revision-v02-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-revision-v02-20260929/review-received.txt",
-    "label": "受領した読後評"
-  },
-  {
-    "document": "supplements/paper-03-revision-v02-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-revision-v02-20260929/manuscript.diff",
-    "label": "本文差分"
-  },
-  {
-    "document": "supplements/paper-03-revision-v02-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-revision-v02-20260929/verify_revision.py",
-    "label": "照合コード"
-  },
-  {
-    "document": "supplements/paper-03-revision-v02-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-revision-v02-20260929/verification.json",
-    "label": "結果"
-  },
-  {
-    "document": "supplements/paper-03-revision-v02-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-revision-v02-20260929/snapshot-before.json",
-    "label": "改稿前ハッシュ"
-  },
-  {
-    "document": "supplements/paper-03-revision-v02-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-revision-v02-20260929/ledger-entry.md",
-    "label": "台帳追記の表示用コピー"
-  },
-  {
-    "document": "supplements/paper-03-revision-v02-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-revision-v02-20260929/navigation-check.json",
-    "label": "案内・台帳の追記確認"
-  },
-  {
-    "document": "supplements/paper-03-revision-v02-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-revision-v02-20260929/MANIFEST.json",
-    "label": "納品時ハッシュ"
-  },
-  {
-    "document": "supplements/paper-03-english-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-english-20260929/verify_english.py",
-    "label": "照合コード"
-  },
-  {
-    "document": "supplements/paper-03-english-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-english-20260929/verification.json",
-    "label": "照合結果"
-  },
-  {
-    "document": "supplements/paper-03-english-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-english-20260929/editorial-review.json",
-    "label": "編集読解・図の目視記録"
-  },
-  {
-    "document": "supplements/paper-03-english-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-english-20260929/figure-environment.json",
-    "label": "環境記録"
-  },
-  {
-    "document": "supplements/paper-03-english-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-english-20260929/snapshot-before.json",
-    "label": "開始時ハッシュ"
-  },
-  {
-    "document": "supplements/paper-03-english-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-english-20260929/ledger-entry.md",
-    "label": "台帳追記の表示用コピー"
-  },
-  {
-    "document": "supplements/paper-03-english-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-english-20260929/navigation-check.json",
-    "label": "案内・台帳の追記確認"
-  },
-  {
-    "document": "supplements/paper-03-english-20260929/README.md",
-    "source_target": "throughline/audits/paper-03-english-20260929/MANIFEST.json",
-    "label": "納品時マニフェスト"
-  },
-  {
-    "document": "supplements/two-role-failure-design-standalone-20260929/README.md",
-    "source_target": "papers/two-role-failure-design/manuscript-ja-v0.2-2026-09-29.md",
-    "label": "日本語v0.2"
-  },
-  {
-    "document": "supplements/two-role-failure-design-standalone-20260929/README.md",
-    "source_target": "papers/two-role-failure-design/evidence-index-v0.2-2026-09-29.md",
-    "label": "S1"
-  },
-  {
-    "document": "supplements/two-role-failure-design-standalone-20260929/README.md",
-    "source_target": "papers/two-role-failure-design/revision-notes-v0.2-2026-09-29.md",
-    "label": "改訂メモ"
-  },
-  {
-    "document": "supplements/two-role-failure-design-standalone-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-standalone-20260929/editorial-scope.md",
-    "label": "着手時の編集範囲"
-  },
-  {
-    "document": "supplements/two-role-failure-design-standalone-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-standalone-20260929/snapshot-before.json",
-    "label": "開始時の記録"
-  },
-  {
-    "document": "supplements/two-role-failure-design-standalone-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-standalone-20260929/revise.py",
-    "label": "原稿改訂スクリプト"
-  },
-  {
-    "document": "supplements/two-role-failure-design-standalone-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-standalone-20260929/verify_draft.py",
-    "label": "照合コード"
-  },
-  {
-    "document": "supplements/two-role-failure-design-standalone-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-standalone-20260929/verification.json",
-    "label": "照合結果"
-  },
-  {
-    "document": "supplements/two-role-failure-design-standalone-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-standalone-20260929/evidence-summary.json",
-    "label": "照合した数値"
-  },
-  {
-    "document": "supplements/two-role-failure-design-standalone-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-standalone-20260929/verification-first-attempt.json",
-    "label": "初回結果"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "papers/two-role-failure-design/manuscript-ja-v0.3-2026-09-29.md",
-    "label": "本文"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "papers/two-role-failure-design/evidence-index-v0.3-2026-09-29.md",
-    "label": "S1"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "papers/two-role-failure-design/revision-notes-v0.3-2026-09-29.md",
-    "label": "改訂内容"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "papers/two-role-failure-design/examples/README.md",
-    "label": "コード・実行方法"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-code-20260929/scope.md",
-    "label": "事前の編集範囲"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-code-20260929/snapshot-before.json",
-    "label": "開始時のハッシュ"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-code-20260929/build_revision.py",
-    "label": "本文組込みスクリプト"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-code-20260929/example-output.json",
-    "label": "入力例の実出力"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-code-20260929/verify_revision.py",
-    "label": "編集照合コード"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-code-20260929/verification.json",
-    "label": "編集照合結果"
-  },
-  {
-    "document": "supplements/two-role-failure-design-code-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-code-20260929/verification-first-attempt.json",
-    "label": "初回結果"
-  },
-  {
-    "document": "supplements/two-role-failure-design-inline-20260929/README.md",
-    "source_target": "papers/two-role-failure-design/manuscript-ja-v0.4-2026-09-29.md",
-    "label": "日本語稿v0.4"
-  },
-  {
-    "document": "supplements/two-role-failure-design-inline-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-inline-20260929/build_revision.py",
-    "label": "改訂処理"
-  },
-  {
-    "document": "supplements/two-role-failure-design-inline-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-inline-20260929/verify_revision.py",
-    "label": "照合処理"
-  },
-  {
-    "document": "supplements/two-role-failure-design-inline-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-inline-20260929/test-output.txt",
-    "label": "19テストの出力"
-  },
-  {
-    "document": "supplements/two-role-failure-design-inline-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-inline-20260929/example-output.json",
-    "label": "説明例のJSON"
-  },
-  {
-    "document": "supplements/two-role-failure-design-inline-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-inline-20260929/execution.json",
-    "label": "実行環境とコードhash"
-  },
-  {
-    "document": "supplements/two-role-failure-design-inline-20260929/README.md",
-    "source_target": "throughline/audits/two-role-failure-design-inline-20260929/verification.json",
-    "label": "照合結果"
-  },
-  {
-    "document": "supplements/two-role-failure-design-english-20260930/README.md",
-    "source_target": "papers/two-role-failure-design/manuscript-en-v0.1-2026-09-30.md",
-    "label": "英語本文v0.1"
-  },
-  {
-    "document": "supplements/two-role-failure-design-english-20260930/README.md",
-    "source_target": "papers/two-role-failure-design/evidence-index-en-v0.1-2026-09-30.md",
-    "label": "英語S1"
-  },
-  {
-    "document": "supplements/two-role-failure-design-english-20260930/README.md",
-    "source_target": "papers/two-role-failure-design/translation-notes-en-v0.1-2026-09-30.md",
-    "label": "組版引継ぎ"
   },
   {
     "document": "supplements/posthoc/own-summary-01-boundary-20260928/report.md",
@@ -7950,21 +7580,6 @@
     "label": "チェックポイント"
   },
   {
-    "document": "papers/paper-04/paper-04-scope-v0.1-2026-10-13.md",
-    "source_target": "throughline/audits/paper-04-scope-20261013/README.md",
-    "label": "設計の証拠照合"
-  },
-  {
-    "document": "papers/paper-04/paper-04-scope-v0.1-2026-10-13.md",
-    "source_target": "throughline/audits/checkpoints/three-role-new-materials-2026-10-13.md",
-    "label": "最新チェックポイント"
-  },
-  {
-    "document": "papers/paper-04/related-work-review-v0.1-2026-10-13.md",
-    "source_target": "papers/paper-04/manuscript-ja-v0.1-2026-10-13.md",
-    "label": "日本語草稿"
-  },
-  {
     "document": "papers/two-role-failure-design/evidence-index-en-v0.3-2026-10-13.md",
     "source_target": "references/meteon_series_collected_edition.pdf",
     "label": "Meteon Collected Edition v1.1"
@@ -7993,91 +7608,6 @@
     "document": "papers/two-role-failure-design/manuscript-ja-v0.6-2026-10-13.md",
     "source_target": "references/meteon_series_collected_edition.pdf",
     "label": "同合冊所収"
-  },
-  {
-    "document": "supplements/multi-role-failure-design-en-20261013/README.md",
-    "source_target": "throughline/audits/multi-role-failure-design-en-20261013/translation-plan.md",
-    "label": "translation-plan.md"
-  },
-  {
-    "document": "supplements/multi-role-failure-design-en-20261013/README.md",
-    "source_target": "throughline/audits/multi-role-failure-design-en-20261013/translate.py",
-    "label": "translate.py"
-  },
-  {
-    "document": "supplements/multi-role-failure-design-en-20261013/README.md",
-    "source_target": "throughline/audits/multi-role-failure-design-en-20261013/verify_translation.py",
-    "label": "verify_translation.py"
-  },
-  {
-    "document": "supplements/multi-role-failure-design-ja-20261013/README.md",
-    "source_target": "throughline/audits/multi-role-failure-design-ja-20261013/verify_revision.py",
-    "label": "verify_revision.py"
-  },
-  {
-    "document": "supplements/multi-role-failure-design-ja-20261013/README.md",
-    "source_target": "throughline/audits/multi-role-failure-design-ja-20261013/manuscript.diff",
-    "label": "manuscript.diff"
-  },
-  {
-    "document": "supplements/multi-role-failure-design-ja-20261013/README.md",
-    "source_target": "throughline/audits/multi-role-failure-design-ja-20261013/verification-before-close.json",
-    "label": "verification-before-close.json"
-  },
-  {
-    "document": "supplements/multi-role-failure-design-ja-20261013/README.md",
-    "source_target": "throughline/audits/multi-role-failure-design-ja-20261013/revision-plan.md",
-    "label": "revision-plan.md"
-  },
-  {
-    "document": "supplements/multi-role-failure-design-ja-20261013/README.md",
-    "source_target": "throughline/audits/multi-role-failure-design-ja-20261013/source-manifest-before.json",
-    "label": "source-manifest-before.json"
-  },
-  {
-    "document": "supplements/multi-role-failure-design-ja-20261013/README.md",
-    "source_target": "throughline/audits/multi-role-failure-design-ja-20261013/revise.py",
-    "label": "revise.py"
-  },
-  {
-    "document": "supplements/paper-04-draft-20261013/README.md",
-    "source_target": "papers/paper-04/manuscript-ja-v0.1-2026-10-13.md",
-    "label": "草稿"
-  },
-  {
-    "document": "supplements/paper-04-draft-20261013/README.md",
-    "source_target": "throughline/audits/paper-04-draft-20261013/source-before.json",
-    "label": "開始時照合"
-  },
-  {
-    "document": "supplements/paper-04-english-20261013/README.md",
-    "source_target": "throughline/audits/paper-04-english-20261013/verify_translation.py",
-    "label": "検査コード"
-  },
-  {
-    "document": "supplements/paper-04-english-20261013/README.md",
-    "source_target": "throughline/audits/paper-04-english-20261013/verification-attempt-01.json",
-    "label": "verification-attempt-01.json"
-  },
-  {
-    "document": "supplements/paper-04-english-20261013/README.md",
-    "source_target": "throughline/audits/paper-04-english-20261013/source-before.json",
-    "label": "source-before.json"
-  },
-  {
-    "document": "supplements/paper-04-english-20261013/README.md",
-    "source_target": "throughline/audits/paper-04-english-20261013/manifest.json",
-    "label": "manifest"
-  },
-  {
-    "document": "supplements/paper-04-revision-v02-20261013/README.md",
-    "source_target": "papers/paper-04/manuscript-ja-v0.1-2026-10-13.md",
-    "label": "旧v0.1"
-  },
-  {
-    "document": "supplements/paper-04-revision-v02-20261013/README.md",
-    "source_target": "throughline/audits/paper-04-revision-v02-20261013/manuscript.diff",
-    "label": "差分"
   },
   {
     "document": "supplements/three-role-approval-readout-01-results-20261013/README.md",

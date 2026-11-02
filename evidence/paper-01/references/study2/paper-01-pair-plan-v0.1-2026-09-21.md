@@ -170,4 +170,4 @@ E1/E2を固定解析し、入力・原文・保存物・集計を照合した時
 
 欠測計算は4組の三値対6,561通りを別の総当たり実装と比較し、p値は食違い数の二項係数による尾確率と照合する。新たな研究モデル要求・認証・旧成績の再採点は0。
 
-[検証テスト]（原資料：`tests/test_paper01_pair_design_v1.py`）／[オフライン監査]（原資料：`throughline/audits/paper-01-pair-design-20260921/report.md`）／[完全合成経路（実測ではない）]（原資料：`study2/designs/paper-01-pair-20260921/synthetic-perfect.json`）／[前日の費用見積もり](../papers/paper-01/next-experiments-estimate-v0.1-2026-09-20.md)
+[検証テスト]（原資料：`tests/test_paper01_pair_design_v1.py`）／[オフライン監査]（原資料：`throughline/audits/paper-01-pair-design-20260921/report.md`）／[完全合成経路（実測ではない）]（原資料：`study2/designs/paper-01-pair-20260921/synthetic-perfect.json`）／[前日の費用見積もり](pair-design-estimate.md)

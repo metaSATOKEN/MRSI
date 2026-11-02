@@ -22,7 +22,7 @@ Meteonでは、Failure Studiesの§1〜3と統合した故障経路、Autonomous
 |---|---|---|
 | 付録C：出典の対応不備の補足 | SM02 G03/Bの旧ID、RC01 G03/Bの入力にないID。どちらも内容正答と誤出典の継承 | [SM02結果](../../docs/study2/shared-merge-02-results-v0.1-2026-09-19.md)、[RC01結果](../../docs/study2/row-carry-01-results-v0.1-2026-09-19.md)、第一報§5.1 |
 | §4.1：担当客IDの一文字欠落 | E1-G49/B：選択＋複製の対象外である担当客欄の末尾2が欠落。後続猫／紙は正答、誤IDを継承 | [第一報の実例と完全記録](../paper-01/examples-v0.1-2026-09-23.md)、第一報§3.4。再記述条件では保存・後続とも正ID |
-| §4.1：局所保存と全工程 | E1 SELECT共同256/256行、全工程59/64対59/64。REWRITE未確定1。区間包絡−17.36〜16.60ポイント | [正式合算解析](../../supplements/paper-01-pair-resume1-20260921/combined-analysis.json)、[成分別照合](../../supplements/paper-01-reader-claude-20260922/observations.json)、第一報§5.2・付録D |
+| §4.1：局所保存と全工程 | E1 SELECT共同256/256行、全工程59/64対59/64。REWRITE未確定1。区間包絡−17.36〜16.60ポイント | [正式合算解析](../../supplements/paper-01-pair-resume1-20260921/combined-analysis.json)、[成分別照合](../../supplements/paper-01-e1-components/observations.json)、第一報§5.2・付録D |
 | §4.2：新版採用後の巻戻り | CU01：採用16/16、非対象保持32/32、対象14/16巻戻り | [結果](../../experiments/CU01/docs/customer-update-01-result-2026-09-26.md)、[集計](../../experiments/CU01/expected-result.json)、[14件の入力・原案・実保存・後続](../../supplements/customer-update-01-result-20260926/proposal-diagnostics.json) |
 | §4.2・§6.2：犬77／猫76 | CU01-C06-R1/A。本文§4.2は実観測、§6.2は同じ値を使った設計点検例 | [原例](../../supplements/customer-update-01-result-20260926/example.json) |
 | §4.3・表3：保存先四分岐 | OR01：18材料×2反復、同じ36原案、144分岐。本人のみ修復4件は共同不備と重複 | [結果](../../experiments/OR01/docs/owner-recency-01-result-2026-09-25.md)、[正式再集計](../../experiments/OR01/expected-result.json)、[全分岐](../../supplements/owner-recency-01-result-20260925/branch-diagnostics.json) |
@@ -77,9 +77,3 @@ Meteonでは、Failure Studiesの§1〜3と統合した故障経路、Autonomous
 - 説明用規則は全参加者の明示票を必要とし、提案者の票も補完しない。二者の元試験の合意規則を再現したコードではない。
 - 18テストで二者・三者の正常進行と境界条件を点検する。多人数の性能、原稿で説明する全体構成の実モデル効果は未測定。
 - 図1は生成物から後続利用への観測枠組み、図2は評価経路と実票経路を分けた設計案。日本語本文内にMermaidソースを収録し、[図版の案内](figures/README.md)にも対応するソースを置く。
-
-## 6. 今回の編集照合
-
-[改訂記録](revision-notes-v0.6-2026-10-13.md)／[照合記録](../../supplements/multi-role-failure-design-ja-20261013/README.md)。旧日本語v0.5、英語v0.2、四報と原集計を保持する。新たな原実験は行わず、追加の三者事例を既存データから照合し、本文と付録コードの一致、単独実行、文書リンクを点検した。
-
-この索引の相対リンクは研究フォルダ内の資料を指す。GitHub公開候補への反映と恒久アーカイブの作成は別工程であり、英語v0.2は従来の二者版のまま保持する。

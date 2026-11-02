@@ -41,4 +41,4 @@ MISSING/ACCEPTは実票の部分／全提示。HOLDは原票のコピーのdecis
 
 ローカルのテンプレート整形は固定Jinjaで点検済み。実tokenizerの54入力・実token列はColabで重みロード前に固定・照合する。実GPU・モデルによるTAR01回答はまだ取得していない。
 
-[論文化設計](../../../papers/paper-04/paper-04-scope-v0.1-2026-10-13.md)／[取得前カード](three-role-approval-readout-01-v0.1-2026-10-13.md)／[固定入力・割付](../design/design.json)／[54要求](../design/requests.json)／監査記録 (source not bundled)。
+[取得前カード](three-role-approval-readout-01-v0.1-2026-10-13.md)／[固定入力・割付](../design/design.json)／[54要求](../design/requests.json)／監査記録 (source not bundled)。

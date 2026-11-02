@@ -53,27 +53,6 @@ TB01の初回準備失敗も[別ZIP](../../experiments/TB01/preparation-attempt/
 
 正式のキーや成績は変更しない。HOLD票を構成した18回答と、実票の部分／全提示36回答も区別する。
 
-## 5. 再計算の入口
+## 5. 再計算
 
-NPPルートから、本文用データの抽出は次で再実行できる。Python標準ライブラリのみを使い、モデルやネットワークは不要。
-
-```sh
-python3 throughline/audits/paper-04-draft-20261013/extract_paper_data.py
-python3 throughline/audits/paper-04-draft-20261013/verify_paper.py
-```
-
-原ZIPからの正式再集計には表の集計器を使用する。例えばTAR01では、未使用の出力先を指定する。
-
-```sh
-python3 scripts/aggregate_three_role_approval_readout_01.py \
-  study2/results/three-role-approval-readout-01-20261013/npp-tar01-result-20261013-071229-08c825b9.zip \
-  --output /tmp/tar01-paper4-recheck.json
-```
-
-同一プロジェクト内の別実装照合は、[TB01](../../supplements/three-role-boundary-01-results-20261013/README.md)、[TVR01](../../supplements/three-role-vote-repeat-01-results-20261013/README.md)、[TCV01](../../supplements/three-role-comparison-vote-01-results-20261013/README.md)、[TCV02](../../supplements/three-role-comparison-vote-02-results-20261013/README.md)、[TAR01](../../supplements/three-role-approval-readout-01-results-20261013/README.md)の監査記録へ対応する。本稿の抽出・表照合は[草稿監査](../../supplements/paper-04-draft-20261013/README.md)に置く。
-
-公開前には、これらの依存を含む固定パッケージを用意して恒久リンクを付す。現時点では公開済みデータセットとは称さず、既存のPaper 1–3公開候補へ自動追加もしない。
-
-## 公開用フォルダでの再集計
-
-上記のNPP原作業環境向けコマンドは履歴として保持する。この配布候補ではルートから `python3 replay.py --trial TAR01`、`python3 replay.py --trial TB01` を使用する。本文用データと事例は `python3 tools/rebuild_paper04_data.py --output-dir /tmp/paper04-rebuild-new` で26原資料から再生成できる。未使用の出力先を指定する。[配布用の入口](S1.md)。公開URLは未設定。
+26件の収録資料から本文用データと事例抜粋を再生成する。[再計算コード](../../tools/rebuild_paper04_data.py)・[実行手順](../../RUNNING.md)
