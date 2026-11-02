@@ -1,4 +1,4 @@
-"""Inspect or run a readable NPP experiment bundle.
+"""Inspect or run a readable MRSI experiment bundle.
 
 Inspection uses only the Python standard library. Model generation requires
 --run inside Google Colab and delegates to the preserved experiment supervisor.

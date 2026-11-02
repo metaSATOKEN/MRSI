@@ -37302,16 +37302,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/AC01/generation/README.md": {
-    "sha256": "bf8a6a16212c1448d825f363faf1680081911e6e02720fba6f6eeb7f9fbdeebf",
+    "sha256": "7e1803672bda7041fbe25a6069b894900f2e7731add56161220e8f10ba7f9422",
     "source": "study2/colab/agreement_confirm_01_onecell.py",
     "source_sha256": "2af678be474415610b9ce25ee76d47008e559f755fe375e75033ccbcda0cc2fa",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/AC01/generation/bundle.json": {
-    "sha256": "7a1c29426401ff2452d249ad752e4510ce1ebed989bb3df619a53df5044d1a13",
+    "sha256": "5c9a96378069db1594cf47ab0dcffde9896b659d328e30fa8d93a5b9934349f8",
     "source": "study2/colab/agreement_confirm_01_onecell.py",
     "source_sha256": "2af678be474415610b9ce25ee76d47008e559f755fe375e75033ccbcda0cc2fa",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/AC01/generation/design.md": {
     "sha256": "e62675af890938f7d561e5cae5ad967dcc9530e51c3b081eef12ce1fd54113f0",
@@ -44676,16 +44676,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/BJ01/generation/README.md": {
-    "sha256": "1743557bd670b0e8a40a0fa82acb7ec90ba205a143f51c44f389be4216b6d7f9",
+    "sha256": "f03d712ea9c80ffb36eca5ccedd56981e31117a2bb84aa0726da7de51c5e8899",
     "source": "study2/colab/boundary_judge_01_onecell.py",
     "source_sha256": "05448c644c1f4e16c82cd897c0c3c527262cf0b96b4c3c6021e598af1ffd9a4d",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/BJ01/generation/bundle.json": {
-    "sha256": "4cdb6ae96981585bd29e671bf2823d3894dd675a15d8286f521b8f7d7e70cc87",
+    "sha256": "9cf1abad1376a27d621a025f9e0ceadb6ab3fd7753541228a432ea84849d4621",
     "source": "study2/colab/boundary_judge_01_onecell.py",
     "source_sha256": "05448c644c1f4e16c82cd897c0c3c527262cf0b96b4c3c6021e598af1ffd9a4d",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/BJ01/generation/materials/contract.json": {
     "sha256": "a694338c354f378cffba0858910f8a8ab8412dd5c64941e9ce2e6bad77f85a62",
@@ -47448,16 +47448,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/CR01/generation/README.md": {
-    "sha256": "49a64a4ab1adbb6c4928ebb9e65878732363c8b3fa32b47076d797858f52f6fb",
+    "sha256": "930c457a52001c2a9199da07bd1fc7b0bf429b0555c1407c04c82adaa33b0a56",
     "source": "study2/colab/counter_recheck_01_onecell.py",
     "source_sha256": "39536cde3bd43c57459a6256f740f6cc541fa0e0fb7d17ab078818e3de7d1b07",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/CR01/generation/bundle.json": {
-    "sha256": "ba4b65de47798efe9c8677a18176eab97f47eb251147159f1565800570efaf7d",
+    "sha256": "681d01dc5fe3c0babb9c63207394b3e27b8054337890843682593d0b0138e8de",
     "source": "study2/colab/counter_recheck_01_onecell.py",
     "source_sha256": "39536cde3bd43c57459a6256f740f6cc541fa0e0fb7d17ab078818e3de7d1b07",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/CR01/generation/design.md": {
     "sha256": "002487f9c2d45a87c31eefb0afddfc158c427a92287c7531dce1ef53d0b21ce5",
@@ -56124,16 +56124,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/CS01/generation/README.md": {
-    "sha256": "d8909b16a63a63a64a2aa61cf2dc313b3a64bc9f011a111f151e537788d924cc",
+    "sha256": "f62402a31f5bfbad000ec7d3c7a92f716100b9faa08753ba9117692b1fdd2807",
     "source": "study2/colab/confirm_support_01_onecell.py",
     "source_sha256": "7aa3e18d1d7767513652664f8e95d862d62eb5e8b9c81669dc89a4d67f491715",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/CS01/generation/bundle.json": {
-    "sha256": "1dc244258c43a8604cc8412f5000e33a57ffc8c815b2648b7a682a97b37cef3d",
+    "sha256": "e92139c80fb9415a98cd02e8c7bb1012cd7b69603bb1efd10cc4b7456e7062e9",
     "source": "study2/colab/confirm_support_01_onecell.py",
     "source_sha256": "7aa3e18d1d7767513652664f8e95d862d62eb5e8b9c81669dc89a4d67f491715",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/CS01/generation/design.md": {
     "sha256": "e7dd9e3bd387e64cf1326894f81ff9707e44cb12f3c0fd65de79b762d16851fa",
@@ -71232,16 +71232,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/CT01/generation/README.md": {
-    "sha256": "d26313302c605c631c1c6806acd6518ebaad33bd6efb5c238af35d6ed077d210",
+    "sha256": "df1f65f00c4e04958da4727d41642ed19e48cd8b7c59e2eeae46e1564a6f7147",
     "source": "study2/colab/candidate_totals_01_onecell.py",
     "source_sha256": "39990d3899065d7375baf2073ebc14d7433f88306dd7439ad6e8bbb378381bbc",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/CT01/generation/bundle.json": {
-    "sha256": "1b1e37ce2e238d9cf7dc3d8156d701cc887d5de55aa7b0a09825741876f0a6eb",
+    "sha256": "c59e995daf809615e1cc1abc8e7291e821bf1d7736f1639d5e392736395dbe14",
     "source": "study2/colab/candidate_totals_01_onecell.py",
     "source_sha256": "39990d3899065d7375baf2073ebc14d7433f88306dd7439ad6e8bbb378381bbc",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/CT01/generation/design.md": {
     "sha256": "adb9da153abd0acfc7074696f6fbfc9b3f2be6182acc708c3916e35eff209b00",
@@ -91428,16 +91428,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/CU01/generation/README.md": {
-    "sha256": "1986caed431e49108fda663de4d6a8fa5fe3088df2b29b6527b6312a6db85a8c",
+    "sha256": "a5ba6c90cf82deffc8691ec0a433b9e8273f80e62d83c243a23ffbbe931d1601",
     "source": "study2/colab/customer_update_01_onecell.py",
     "source_sha256": "3f0ac622b34f129c0acf6b4a855ea0c0f49f8c16074a37ccc93a912aa68cec01",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/CU01/generation/bundle.json": {
-    "sha256": "645d3d15657089dfa17018d0abd967177f2dac0532ec13a59dfc271572139d1d",
+    "sha256": "1b754295ef1d631cd6e1a076c2fa6a605d5e5529ddc57fb4e667d2cae7c03dbf",
     "source": "study2/colab/customer_update_01_onecell.py",
     "source_sha256": "3f0ac622b34f129c0acf6b4a855ea0c0f49f8c16074a37ccc93a912aa68cec01",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/CU01/generation/design.md": {
     "sha256": "ee42c13b0f49f3c0696de5715330b80c37b47b790ab100f657064d8959f57f3f",
@@ -97536,16 +97536,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/ES01/generation/README.md": {
-    "sha256": "e51cf054dd4615193b441649698921b65a870b6f1659c280f1a46d26644e3aae",
+    "sha256": "6402db9edfea8ae04bd8054e86a3d7a685ddb032ee104b4ec13022c2f88b624d",
     "source": "study2/colab/experience_shared_01_onecell.py",
     "source_sha256": "1bca684e33a6ab9e1e0c53a84cd616a990cd8e372802c85d78b3a08cf90199dc",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/ES01/generation/bundle.json": {
-    "sha256": "ce77a23fef15516b0feb8601ae45d995f23f50d7ee60a7a3c142a7e9c2ca9f95",
+    "sha256": "c8bcc6481a04c1659b091a9dc3b0e3ed88ae3f2fa3b2c5ee43a1a6bae8509f84",
     "source": "study2/colab/experience_shared_01_onecell.py",
     "source_sha256": "1bca684e33a6ab9e1e0c53a84cd616a990cd8e372802c85d78b3a08cf90199dc",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/ES01/generation/design.md": {
     "sha256": "78bdb10ca88962fcb71bd022a59a5b2b51c6667e690cdd2fe8ac4b5041f6a672",
@@ -106308,16 +106308,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/EU01/generation/README.md": {
-    "sha256": "2e8e47217eecd86609e0797699e713b92ba95a976ff778e078e493a21f891db2",
+    "sha256": "1ea13bf41d3a2c9f40bd009d56f2f58665686c1af6922f39d041633f1572f041",
     "source": "study2/colab/experience_update_01_onecell.py",
     "source_sha256": "d42f406ea14920eea3228b7be7320969d1d8af0d7a6b00409005aa0dba9e0165",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/EU01/generation/bundle.json": {
-    "sha256": "242a9690947688641e072cd1f7a611ad26ee5cc3d68930554a08864552254cc7",
+    "sha256": "1cec9218025126ebc6183afa2bbb0f66e5d5b8ff2ff17050c8fe330a95a9df3a",
     "source": "study2/colab/experience_update_01_onecell.py",
     "source_sha256": "d42f406ea14920eea3228b7be7320969d1d8af0d7a6b00409005aa0dba9e0165",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/EU01/generation/design.md": {
     "sha256": "b1f4667bb12b9bc99defd8b9a0ab6a9ad1e88fe3b13bb8f8ec55e91e42d816a3",
@@ -114120,16 +114120,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/FC01/generation/README.md": {
-    "sha256": "f95e6dd1e4d9e0bb6e4d2ce3b564c473ffe1165858074c627ee4f8babc1f5985",
+    "sha256": "9a2f62e659d2e3555321a9d9bcbf8d9b6cfcea541a34e8ced72b3d88ae1b75ef",
     "source": "study2/colab/feasible_choice_01_onecell.py",
     "source_sha256": "1d0932d41c9db6cc071fd1b370de8356ccaf3ca6dba536364c27cd5a5410dfc0",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/FC01/generation/bundle.json": {
-    "sha256": "da83cd9390b3ba4b32d5469f010f784ad4c116ee214c5bf817f4ba1f7b6a9d85",
+    "sha256": "bf8e91232f8ad4fb3231a33459b63d7a451047a71c1a168eb652a3803f1a50f9",
     "source": "study2/colab/feasible_choice_01_onecell.py",
     "source_sha256": "1d0932d41c9db6cc071fd1b370de8356ccaf3ca6dba536364c27cd5a5410dfc0",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/FC01/generation/design.md": {
     "sha256": "9d450e30b23d2e0012cf1ed53d9d5f5aed7b8e9968e8b66be6d7c32e8ff1fc9a",
@@ -132684,16 +132684,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/FC02/generation/README.md": {
-    "sha256": "43b50adf7ce3050bef6b85152a45c1472d33f22b9c9a7566b47ad95ca501d896",
+    "sha256": "ccaf9aaffa13abe91cd3f7dffeb8e0e1d9670a31b87abd7d0eafbbbe462d7f17",
     "source": "study2/colab/feasible_choice_02_onecell.py",
     "source_sha256": "6fec12e634764f5c8a43f03df2e1a7294542454ffe0eaf861736eed0409baf7d",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/FC02/generation/bundle.json": {
-    "sha256": "ed914513414ced9ef1beb6d398c70fd0741afa1c2da89c028349e8d85751180f",
+    "sha256": "470bec164051c776f0c9e674985c5a2d91ab7d54c43f27e3e050f31f42f0e12a",
     "source": "study2/colab/feasible_choice_02_onecell.py",
     "source_sha256": "6fec12e634764f5c8a43f03df2e1a7294542454ffe0eaf861736eed0409baf7d",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/FC02/generation/design.md": {
     "sha256": "7b33518375e97f90238f07a6aa98f7eebd3f5a3eeb624f5f7e0a0678ac11489e",
@@ -151290,16 +151290,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/JR01/generation/README.md": {
-    "sha256": "5c9defacadbc818936d5340cff7d150890145f59b089fbf5336c98ee5482bca2",
+    "sha256": "011249cbc60b43206df7d7ec5b40fac5d1a73245612ff6c66e11d3c1020cb036",
     "source": "study2/colab/judgment_repeat_01_onecell.py",
     "source_sha256": "15c99ba788a37699817b809df1099aa7c4b69b8742afdc35b67786fb1ee60de6",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/JR01/generation/bundle.json": {
-    "sha256": "40fa536765b4c5d75a45fffb000ead78d8174c8e6a6960de840d38851148b31f",
+    "sha256": "0337e9fe0df65baa8aaad632cada6dbec7cf8bca5602e0468c673a92aac8d699",
     "source": "study2/colab/judgment_repeat_01_onecell.py",
     "source_sha256": "15c99ba788a37699817b809df1099aa7c4b69b8742afdc35b67786fb1ee60de6",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/JR01/generation/design.md": {
     "sha256": "2b8ac12256d09ae696a123349aad3ece01d731eac4979e41a1c87af4207dba0d",
@@ -168792,16 +168792,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/OR01/generation/README.md": {
-    "sha256": "a8470fd382d9233c0847e0d1f9b1cadf3ff8d75ffcce79c127e319fde449a2d2",
+    "sha256": "2b76705207c0bc553d5028e821b0812f3364a38171adf046cc172f6f17df9bd5",
     "source": "study2/colab/owner_recency_01_onecell.py",
     "source_sha256": "4f393cc599f2b2408928549b876aa2b59075fd07da7e65433771af521a53547c",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/OR01/generation/bundle.json": {
-    "sha256": "b9e4e66803fec4b8df2b75d65aebb85405aa71b5ed38531f0c08e649bd688d5e",
+    "sha256": "7a246fb3a210a46f98087847949c4d190f25f46f5f73310bf6dd93510fcedb61",
     "source": "study2/colab/owner_recency_01_onecell.py",
     "source_sha256": "4f393cc599f2b2408928549b876aa2b59075fd07da7e65433771af521a53547c",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/OR01/generation/design.md": {
     "sha256": "d4d72a6cbbb950d2cbddb63d91912d2b716dab3880cc91414205f4750ae40291",
@@ -177072,16 +177072,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/OS01/generation/README.md": {
-    "sha256": "e7dda6d73d5e643067ac27731721dfdbacf80894d1512a995ec78826d134a317",
+    "sha256": "a870258e858df04eb0ec27d64de65ac62c810ee951f5486eb5fec2142a8d68a8",
     "source": "study2/colab/own_summary_01_onecell.py",
     "source_sha256": "4014176453a2744af23cdffc595045624fc11ed91a0a4b73c96c41aa80e9a194",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/OS01/generation/bundle.json": {
-    "sha256": "c147b0ea719b0427f27a15ba1211496a525cadc8df9f5d7ee6531b4899f2cacf",
+    "sha256": "57b96bd9767acdeb45548818a657f151bd206af535651f079653cbd18f409280",
     "source": "study2/colab/own_summary_01_onecell.py",
     "source_sha256": "4014176453a2744af23cdffc595045624fc11ed91a0a4b73c96c41aa80e9a194",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/OS01/generation/design.md": {
     "sha256": "5e69332af4c05e1eed9b72d2f72965483d48a24d34739e71ab66cfcc2d28610d",
@@ -206202,16 +206202,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/RL01/generation/README.md": {
-    "sha256": "9f94def105341d884b5cadfc0bf88da9b3ff385a441fdb3583d94e3ff47613f0",
+    "sha256": "283d333333d0170bad07475589079264e5806256a0840d588dc9056ca4b70c7e",
     "source": "study2/colab/readout_load_01_onecell.py",
     "source_sha256": "6c4579647ab9c20e55c6f5a6b870bba28061a17efaac9e3337e118c294eff8d6",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/RL01/generation/bundle.json": {
-    "sha256": "c7a29bcf03365fceaf65023c064264b66f7f418fa5288fd3d1db29beeedf30ca",
+    "sha256": "2145f4eef252f3b236863b689c9235e8fab11701985e2037609bcbc4688144e9",
     "source": "study2/colab/readout_load_01_onecell.py",
     "source_sha256": "6c4579647ab9c20e55c6f5a6b870bba28061a17efaac9e3337e118c294eff8d6",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/RL01/generation/design.md": {
     "sha256": "d875ffba03fc3f97ef7226df67000b270d009362f5dc76a7123f80c7c08f1d37",
@@ -209838,16 +209838,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/RS01/generation/README.md": {
-    "sha256": "ec560f84d68f398c27cb8df1a8c49ef761e7f2f6d69df473cbb283e45293604e",
+    "sha256": "d2dd8b0bddb38a1dabf2a81c643d366738d3be0790bc37eca05343379b38a520",
     "source": "study2/colab/readout_split_01_onecell.py",
     "source_sha256": "bcd2c0553b2d81abeb2287ea7907b60501b842d0a6d24b9558fc863699331f25",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/RS01/generation/bundle.json": {
-    "sha256": "ddb81cd27042c076acc097e9d9cc691ca9c64434553a22db853c0c5d7596ca0f",
+    "sha256": "01cebd19cce0bbf3301377a0148185967f216184fd336d511f419917762c4a4e",
     "source": "study2/colab/readout_split_01_onecell.py",
     "source_sha256": "bcd2c0553b2d81abeb2287ea7907b60501b842d0a6d24b9558fc863699331f25",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/RS01/generation/design.md": {
     "sha256": "1ec12f121c464b19c6df258d9069480bedb94c1013a90a4000ca1e74c56e06df",
@@ -213660,16 +213660,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/RU01/generation/README.md": {
-    "sha256": "b48cf80ceb36034b70931edf809ac33eb0ea9cc42eab8dc2609d6192c020262d",
+    "sha256": "6f2e67829f8a25a1495156d89a82a84107cd3530f81ed6be0b29dc97e4dbb9b8",
     "source": "study2/colab/role_shared_use_01_onecell.py",
     "source_sha256": "e284839222ad776524e7856ef52e0b0c8cb568520e5c460378f878ebc88fc1e0",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/RU01/generation/bundle.json": {
-    "sha256": "fc15b62e166aa453532435d7436d1fc310542d366671233281af5679082f52be",
+    "sha256": "dd36f02a0c90dbeec6d9a0d54ded6aa2f3828fadf5f7c59d332b94072c106bb1",
     "source": "study2/colab/role_shared_use_01_onecell.py",
     "source_sha256": "e284839222ad776524e7856ef52e0b0c8cb568520e5c460378f878ebc88fc1e0",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/RU01/generation/design.md": {
     "sha256": "74188ddeabadad000b3cf03b5710ccb1845e15ecdb8c1166579e8552b4ede923",
@@ -220740,16 +220740,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/ST01/generation/README.md": {
-    "sha256": "abd67b26b5ea60a43807e1197a248bbe7d6a0f942079f24d1b45dce427d33739",
+    "sha256": "4136bee6f738552437ea34c2978d1d207294c194a49d6e128d879706261c4f95",
     "source": "study2/colab/summary_timing_01_onecell.py",
     "source_sha256": "2a98d00604b9d3d3a580d1a63f12dca9e27a482e246efc6466e759ba2a2644c8",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/ST01/generation/bundle.json": {
-    "sha256": "9f700b19582f8d5841e0f332bfd82da1fb1b3102fd1bbbc662d323f3ee57b1a0",
+    "sha256": "a1715957b6ba1353600d389b5699cf2e9ef52814626be4faf78bf73fa1da89e2",
     "source": "study2/colab/summary_timing_01_onecell.py",
     "source_sha256": "2a98d00604b9d3d3a580d1a63f12dca9e27a482e246efc6466e759ba2a2644c8",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/ST01/generation/design.md": {
     "sha256": "9cf279cb366b13ea96af7c0c6b2c16946df24bd1eaabfa75705cf4872d331bf7",
@@ -237978,16 +237978,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/ST02/generation/README.md": {
-    "sha256": "f90d0226b867d37eaa0d6d8a483a91df525439cb6a87924faf1454d3749a3119",
+    "sha256": "c71d8407b85c59734f77e78df68ea929f486f0cb13a39a13e15b3e4cbbdeee98",
     "source": "study2/colab/summary_timing_02_onecell.py",
     "source_sha256": "13913b6b0738c8db51f867f87330d83ce2b4c60bfd72fda6a43e4f150913ba9a",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/ST02/generation/bundle.json": {
-    "sha256": "7aeb905e1a7c884e82aa7ff1253a70cd757f8bac9305414d81fad5af28260afa",
+    "sha256": "03bf93039d55b9a4013f7239ec31bbabb968d2eb4cbd3fb3f9b45aed48750e6e",
     "source": "study2/colab/summary_timing_02_onecell.py",
     "source_sha256": "13913b6b0738c8db51f867f87330d83ce2b4c60bfd72fda6a43e4f150913ba9a",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/ST02/generation/design.md": {
     "sha256": "7e9a11cf1b863c049b50dc5ed1efe627ffe1489a1ff9d889e3a10461a4af0d5e",
@@ -255000,16 +255000,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/SVR01/generation/README.md": {
-    "sha256": "a8d4bf1924ddfeb7f5c2e12f618576ce78fb3e4a577afe840fa0d7e1e4a88f88",
+    "sha256": "2e72726e994d7799e5a798c5432de35b5b87a694e1e679591f9aca04b38795bf",
     "source": "study2/colab/saved_readout_01_onecell.py",
     "source_sha256": "2d58d91ef88bc8f6c056eda35feaaa755195f8351e1ca71bb024165cda3232c4",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/SVR01/generation/bundle.json": {
-    "sha256": "3d9da91a4ecdc899806cfb028ea6ef801ac4e5cf18857e17919c229f3e1615de",
+    "sha256": "cb9d8360a4aea1d128434c59c70e174b6415e48a28771deb37d7a834cf21756c",
     "source": "study2/colab/saved_readout_01_onecell.py",
     "source_sha256": "2d58d91ef88bc8f6c056eda35feaaa755195f8351e1ca71bb024165cda3232c4",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/SVR01/generation/design.md": {
     "sha256": "9144fbb4a2d69a716de9720fb7a54ed8371cb1446abd1ba253b5f6238f3ae960",
@@ -259242,16 +259242,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/SX01/generation/README.md": {
-    "sha256": "782e5c113244406341c950a99f695469869e3f58b43d399d4285b69669bb1ca5",
+    "sha256": "f2675f1d9bb27d8b4a8b94271d7e16bebbda7fd354a70c07b8d934b09091d9b0",
     "source": "study2/colab/self_update_exchange_01_onecell.py",
     "source_sha256": "181b297ae07af00b92065f3e60d209a0a102644f6b477516c5fc26ea98057c17",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/SX01/generation/bundle.json": {
-    "sha256": "6d6cec0550fb517f2350ffd797b79c4932939ae0ffe29b88892361f0f102fabe",
+    "sha256": "67bca4edc2105e8148d3c7bed8d153457375c498d69214b8b9ae08d03aa094d7",
     "source": "study2/colab/self_update_exchange_01_onecell.py",
     "source_sha256": "181b297ae07af00b92065f3e60d209a0a102644f6b477516c5fc26ea98057c17",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/SX01/generation/design.md": {
     "sha256": "64ed94a8e4d08400d9df709675c1f7fd1f71c4917db5220f3e9eae887a8847a9",
@@ -267534,16 +267534,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/SX02/generation/README.md": {
-    "sha256": "77b6dbc1448743f682cdbbc97e8f4135e9c152d5a2b679243cbae6972a38efda",
+    "sha256": "fa8cf07aa7cc17ba24b030647fcac7c4aa6c9ed3b9d49d264fbefa2a5e2a2dad",
     "source": "study2/colab/self_update_exchange_02_onecell.py",
     "source_sha256": "c8d1b7487f7b6cceab10438b8db171f54b99a67ce359372f37353f679b4fe948",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/SX02/generation/bundle.json": {
-    "sha256": "354c3eb521ce30b5be61030609b34daeaf2ce0262920c224ecfc0445e3a0a0f5",
+    "sha256": "037c48a97fb468621a0e4961037c56dd1fdaa4cb1b764a8272f397ac96b6fffe",
     "source": "study2/colab/self_update_exchange_02_onecell.py",
     "source_sha256": "c8d1b7487f7b6cceab10438b8db171f54b99a67ce359372f37353f679b4fe948",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/SX02/generation/design.md": {
     "sha256": "20131af8d637f7982e930580efe662eec84ef0aa980539d1ee812e5b94ca04c6",
@@ -275802,16 +275802,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/TAR01/generation/README.md": {
-    "sha256": "e81c42a728c9a8d18a0619208fba9db427d525ab3cba3cdbc8c35e8fe81d7072",
+    "sha256": "7c7b4bb882023db142d6abbc33bb3edf3f3f90338ee6fe492b28ceee844ead8f",
     "source": "study2/colab/three_role_approval_readout_01_onecell.py",
     "source_sha256": "d3ba073cc8d77835bebd4a3c406e5056cec3af68ca3f1a5d3c146606e1b2e663",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/TAR01/generation/bundle.json": {
-    "sha256": "a05e3bdf88c4295719b3a9ed5cabb519c6fda58164ed32cf4157d935867b0d9b",
+    "sha256": "44110c51762a5f84b4c9f6eeb1e3b4d42288daf49f56bc0b2ab1150539b6a195",
     "source": "study2/colab/three_role_approval_readout_01_onecell.py",
     "source_sha256": "d3ba073cc8d77835bebd4a3c406e5056cec3af68ca3f1a5d3c146606e1b2e663",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/TAR01/generation/design.md": {
     "sha256": "e1152366c4d1aeabe0c0508e1bae3de4727cc4c83821abdb8069e6db25b4e3ac",
@@ -279888,16 +279888,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/TB01/generation/README.md": {
-    "sha256": "c9ba7ce7e03a1687d52fc92fb2b986f9b91491c82ddb1c14582aa4018c7f0678",
+    "sha256": "4cd14697fcc6893bf148398d27daa775166e4c42779477b22a99d2cd6a715745",
     "source": "study2/colab/three_role_boundary_01_onecell.py",
     "source_sha256": "3f55079b8373c26dbf91c14978f96e5eba3fef8b7f2b9a4c2db9e48864620455",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/TB01/generation/bundle.json": {
-    "sha256": "4316f30e8f4cc816177495f8a580fa40ba6704dfaa4443374402666b042de92e",
+    "sha256": "44783bd50d1433060c8998e215d81527fec4ca9ef1f763ba6abe73e45b6177f7",
     "source": "study2/colab/three_role_boundary_01_onecell.py",
     "source_sha256": "3f55079b8373c26dbf91c14978f96e5eba3fef8b7f2b9a4c2db9e48864620455",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/TB01/generation/design.md": {
     "sha256": "73b620b6c0780b14c549d3a9116f04f6d79527f31c13c43daee49e5f1a8bb475",
@@ -290574,16 +290574,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/TCV01/generation/README.md": {
-    "sha256": "075b1de495c2bec6e32c2ed25026687560e516f835a59e42bb206e4799515be2",
+    "sha256": "31df6d23cb5aa003732019d980e23879c807d213a475fb2040aaa8210082dbd4",
     "source": "study2/colab/three_role_comparison_vote_01_onecell.py",
     "source_sha256": "5bfd346ff3bf5f1e543ecb5db28ad100ea1c9b402f6eb27842f948ead5ed0db9",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/TCV01/generation/bundle.json": {
-    "sha256": "c1b95d08d5317cfdd67cef004bfd62c2816e0786ad5bed201acec1ad050a73dc",
+    "sha256": "d708099a7d7bd5c04f709286d29ff11e03e22a45a5005b483e18537e76ea393e",
     "source": "study2/colab/three_role_comparison_vote_01_onecell.py",
     "source_sha256": "5bfd346ff3bf5f1e543ecb5db28ad100ea1c9b402f6eb27842f948ead5ed0db9",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/TCV01/generation/design.md": {
     "sha256": "aade193ac5e1ac07c02761736cd7dbc8e3d43a7f6e6a435a9c385453076d8001",
@@ -298554,16 +298554,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/TCV02/generation/README.md": {
-    "sha256": "a9dbf73ba5ec3c89714ba2142bcda15ec3d0e49452b87ee54349e8bbe692c0a8",
+    "sha256": "f35c66324809f566ed9ee8c5a82350b2250e3dd3db4d1c407b28390cff03a59f",
     "source": "study2/colab/three_role_comparison_vote_02_onecell.py",
     "source_sha256": "7054e97b5491725591938439e12856799d17921a398ab3804eddaff1aed1d002",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/TCV02/generation/bundle.json": {
-    "sha256": "33377885f172d1081b0f05f0d5c07ae1b447fb1520b69087350903eb8f046f76",
+    "sha256": "25841bc3c7addef1258e5148c304f4273d65dfd8b5a88400b9d038db952c666e",
     "source": "study2/colab/three_role_comparison_vote_02_onecell.py",
     "source_sha256": "7054e97b5491725591938439e12856799d17921a398ab3804eddaff1aed1d002",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/TCV02/generation/design.md": {
     "sha256": "d9108a1adfbd56420aada321c22c203d1e601d7af96a3909fb2943de526486ff",
@@ -307182,16 +307182,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/TVR01/generation/README.md": {
-    "sha256": "8e64a53f0aa206517c44a91ff64385665b2520bf88d750b714934a37dfd5ce47",
+    "sha256": "f7991565badbb3a7337b7b6a6684a3b1fe3bde6b6d7ee23a3b58f240f351662d",
     "source": "study2/colab/three_role_vote_repeat_01_onecell.py",
     "source_sha256": "e166c65e1805bbc3c49f602ae80e12c0222931e1698d4472be281f7ce8fe92a3",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/TVR01/generation/bundle.json": {
-    "sha256": "56937b812289de0930c962c2223e256437159d8fb40ebe5102e3cd3f59fe540c",
+    "sha256": "e724c9982f4fd9aeb7fcd4b637a52558c3fbc9992d4a39df0a73285e1933fda0",
     "source": "study2/colab/three_role_vote_repeat_01_onecell.py",
     "source_sha256": "e166c65e1805bbc3c49f602ae80e12c0222931e1698d4472be281f7ce8fe92a3",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/TVR01/generation/design.md": {
     "sha256": "9b671419f3f5bf770aacb5a17a8d302fd2b291f0a01f4c21a0ea3989699fb691",
@@ -311286,16 +311286,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/UR01/generation/README.md": {
-    "sha256": "982dfa14f764540f5f52520d1ab7ff8dbff53b61c4fe42f3756747f7adc111fc",
+    "sha256": "591138d9f1f5b0df36799a05b002f1b31964a3c9d5a52810c64df831a9be8df6",
     "source": "study2/colab/update_readout_01_onecell.py",
     "source_sha256": "7c07231f5e541374f3c96f10e014a8c604693010a1209461b0e3818d70742507",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/UR01/generation/bundle.json": {
-    "sha256": "1fcb18b368e426dfb24fad25ea347dc8dcccfa1083d2a1a2cf2890b61ab3f54d",
+    "sha256": "746dd693e54a490b2ecc1bc923b5183ced1e7eb5280b43246055c03e963d05c2",
     "source": "study2/colab/update_readout_01_onecell.py",
     "source_sha256": "7c07231f5e541374f3c96f10e014a8c604693010a1209461b0e3818d70742507",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/UR01/generation/design.md": {
     "sha256": "c896e08550dcdc0f2b338437456044957858f7d9d92746e34330844692ddb8aa",
@@ -316356,16 +316356,16 @@
     "transform": "byte-for-byte"
   },
   "experiments/XM01/generation/README.md": {
-    "sha256": "9c46880a254e57ba4130ccf495e02d42513714369d4b00d49cce765453da6f05",
+    "sha256": "f04ebf7304bf9939f39f0848383d79f5f828028a7c53672a20130120a35bf191",
     "source": "study2/colab/cross_model_e1_01_main_onecell.py",
     "source_sha256": "fd735084f6da4755cab05fad08a0ddedac4cab147668159dfb90b795729862cd",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/XM01/generation/bundle.json": {
-    "sha256": "341e94bd3a302ec06adf9c8c086961cd72cd4263482d072aaf63acda5f30f2d2",
+    "sha256": "c01eb2d0fe0f893ec2e594ce63b380efb1a40af1fd6bea57bd00ce59e65660be",
     "source": "study2/colab/cross_model_e1_01_main_onecell.py",
     "source_sha256": "fd735084f6da4755cab05fad08a0ddedac4cab147668159dfb90b795729862cd",
-    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29"
+    "transform": "Readable expansion of original OneCell; exact payload reassembly and source-byte checks; supervisor transport-only adaptation. See docs/READABLE_GENERATION.md.; public reference/first-use guide update 2026-10-29; project name update in reader guides or their checksums (2026-11-02)"
   },
   "experiments/XM01/generation/materials/bundle-base_slots.json": {
     "sha256": "d08b41a333601623ec34faf1c34a21da5a7e93156f12e11ee48a21db03047662",

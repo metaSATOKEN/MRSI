@@ -18,7 +18,7 @@ Replay logs: [TB01 and initial failure](update-20261014-replay-TB01.log), [TVR01
 
 [Summary](publication-audit-20261029.json) · [28 readable bundles and guards](readable-generation-20261029.json) · [Historical reference layout](paper01-public-layout-20261029.json) · [Navigation](readable-navigation-20261029.json) · [All-trial replay](replay-20261029.log) · [Paper 1 after relocation](paper01-after-layout-20261029.log) · [Paper 4 rebuild](paper04-rebuild-20261029.json) · [Replay dependencies](replay-environment-20261029.txt).
 
-Run the readable-code regression checks with `.venv/bin/python -B tools/test_readable_generation.py` from a standalone copy's root, or use the NPP-root procedure in RUNNING.md. The temporary scientific replay environment is not distributed.
+Run the readable-code regression checks with `.venv/bin/python -B tools/test_readable_generation.py` from a standalone copy's root, or use the research workspace procedure in RUNNING.md. The temporary scientific replay environment is not distributed.
 
 ## 29 October 2026 reference and onboarding corrections
 

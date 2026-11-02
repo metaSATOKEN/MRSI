@@ -10,7 +10,7 @@ For a first code reading, follow [`owner_recency_01_runtime.py`](source/owner_re
 .venv/bin/python -B experiments/OR01/generation/run_colab.py
 ```
 
-This only verifies files and reconstructs the original JSON bytes in memory. It imports no model or experiment module, performs no installation, and makes no network request. Inside the NPP research workspace, use its root `.venv/bin/python` and prefix the script path with `GitHub公開用/`.
+This only verifies files and reconstructs the original JSON bytes in memory. It imports no model or experiment module, performs no installation, and makes no network request. Inside the original research workspace, use its root `.venv/bin/python` and prefix the script path with `GitHub公開用/`.
 
 For **new model generation**, put the complete repository in Google Colab, review the fixed contract and GPU requirements, change to the repository root, and run:
 

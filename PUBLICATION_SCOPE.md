@@ -1,6 +1,6 @@
 # Distribution scope
 
-Updated 29 October 2026. This repository collects NPP research on memory, approval, and collaboration in two- and three-role LLM systems, including Papers 1–4 and the multi-role technical synthesis.
+Updated 2 November 2026. This repository collects MRSI research on memory, approval, and collaboration in two- and three-role LLM systems, including Papers 1–4 and the multi-role technical synthesis.
 
 Included:
 
@@ -18,7 +18,7 @@ Excluded:
 
 `manifests/UNBUNDLED_REFERENCES.json` lists historical/documentary references outside this bounded distribution. Removed local navigation targets are represented as plain source descriptions, rather than broken links. Scientific text, observed results and raw response bytes are retained. Derived Markdown navigation and package-specific reproduction instructions are updated; author contact corrections are documented separately. Absolute Colab runtime paths inside raw archives are historical metadata, not local dependencies for offline replay.
 
-Historical directory names and experiment identifiers are retained for evidence traceability. The public collection is named NPP throughout its introductory and citation materials.
+MRSI is the current project name. Earlier records use its former name, NPP. Original archive filenames such as `npp-*.zip`, format identifiers, and saved paths retain the spelling used during acquisition so that readers can match them to the recorded evidence.
 
 Reproducibility levels differ. Offline replay verifies saved evidence against fixed code. It does not promise regenerated answers from a provider model or identical sampling on a different GPU. Qwen generation code is provided as readable source and material files, with an explicit Colab launcher and no Drive synchronization. Original source modules and archives are retained; see docs/READABLE_GENERATION.md.
 

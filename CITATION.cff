@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Please cite the relevant paper and the version of the evidence repository used."
-title: "NPP: Memory, Approval, and Collaboration in Two- and Three-Role LLM Systems"
+title: "MRSI — Memory, Approval, and Collaboration in Two- and Three-Role LLM Systems"
 type: dataset
 license: Apache-2.0
 repository: "https://github.com/metaSATOKEN/MRSI"

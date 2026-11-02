@@ -1,7 +1,7 @@
 {
   "entrypoint": "run_readout_colab",
   "files": {
-    "README.md": "d26313302c605c631c1c6806acd6518ebaad33bd6efb5c238af35d6ed077d210",
+    "README.md": "df1f65f00c4e04958da4727d41642ed19e48cd8b7c59e2eeae46e1564a6f7147",
     "design.md": "adb9da153abd0acfc7074696f6fbfc9b3f2be6182acc708c3916e35eff209b00",
     "materials/contract.json": "2a24c2b50965a70ca11fc0f3f47a4e4e5d5c45468a50086b03b47e90f5c5a1ca",
     "materials/frozen.json": "d06d4b91edb0b3c33750e5d3b2fdf7526b9c73a3207c94fc9cc00ead739d6c5a",

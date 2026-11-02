@@ -1,10 +1,10 @@
 # Local execution and environment selection
 
-Updated 29 October 2026. **Use `.venv/bin/python` from the root of the working copy.** This procedure supersedes interpreter commands in earlier READMEs, manuscripts, and audit records. Preserved code and experiment records are not rewritten.
+Updated 2 November 2026. **Use `.venv/bin/python` from the root of the working copy.** This procedure supersedes interpreter commands in earlier READMEs, manuscripts, and audit records. Preserved code and experiment records are not rewritten.
 
 ## Which root?
 
-When this distribution is inside the original NPP research folder, stay in the **NPP root** and use its environment:
+When this distribution is inside the author's MRSI research workspace, stay in its root (the folder named `NPP/`) and use its environment:
 
 ```sh
 .venv/bin/python GitHub公開用/replay.py --verify
@@ -21,16 +21,16 @@ When using a standalone copy of this repository elsewhere, stay in that copy's r
 
 Do not rely on activation or the shell's `python3`/`pip` lookup. If `.venv/bin/python` is absent, first check the working directory. Before creating an environment, choose and verify an absolute Python executable and the dependencies required for the intended operation. Preserve existing environments and backups. A virtual environment created on one machine is not a portable research artifact.
 
-The NPP host was checked with **Python 3.13.17**, pip 26.2.2, and an isolated environment containing no third-party scientific packages. Standard-library hashing works in that environment. This check does not establish scientific reproducibility with all earlier runtime versions.
+The research host was checked with **Python 3.13.17**, pip 26.2.2, and an isolated environment containing no third-party scientific packages. Standard-library hashing works in that environment. This check does not establish scientific reproducibility with all earlier runtime versions.
 
 ## First use of a standalone copy (macOS/Linux)
 
-Start in the root of a fresh clone or downloaded copy, where `replay.py` and this file are located. Use Python 3.13; the preparation checks used 3.13.17. Set `NPP_PYTHON` below to the **actual absolute path** of the interpreter you have installed. The placeholder is not an executable path.
+Start in the root of a fresh clone or downloaded copy, where `replay.py` and this file are located. Use Python 3.13; the preparation checks used 3.13.17. Set `MRSI_PYTHON` below to the **actual absolute path** of the interpreter you have installed. The placeholder is not an executable path.
 
 ```sh
-NPP_PYTHON="/absolute/path/to/python3.13"
-"$NPP_PYTHON" --version
-test ! -e .venv && test ! -L .venv && "$NPP_PYTHON" -m venv .venv
+MRSI_PYTHON="/absolute/path/to/python3.13"
+"$MRSI_PYTHON" --version
+test ! -e .venv && test ! -L .venv && "$MRSI_PYTHON" -m venv .venv
 .venv/bin/python --version
 .venv/bin/python -c 'import sys; print(sys.executable)'
 .venv/bin/python -B replay.py --verify
@@ -38,7 +38,7 @@ test ! -e .venv && test ! -L .venv && "$NPP_PYTHON" -m venv .venv
 
 The creation guard leaves an existing `.venv` directory or symlink untouched. If one already exists, inspect its interpreter before using it; do not replace it with this setup. The examples use the POSIX `.venv/bin/python` layout. No dependency installation, GPU, or credentials are needed for the hash check. `-B` suppresses Python bytecode-cache writes.
 
-This creates an environment only in the new copy. When working inside the original NPP research folder, keep using its existing root environment and the NPP-relative paths above. For scientific recalculation, use a separate working copy and install only the dependencies needed for that operation, as described below.
+This creates an environment only in the new copy. When working inside the original research folder, keep using its existing root environment and the root-relative paths above. For scientific recalculation, use a separate working copy and install only the dependencies needed for that operation, as described below.
 
 ## Read-only integrity check
 
@@ -53,7 +53,7 @@ To perform them, first prepare a new working copy outside the preserved research
 ```sh
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python replay.py --trial TAR01
-.venv/bin/python tools/rebuild_paper04_data.py --output-dir /tmp/npp-paper04-new-output
+.venv/bin/python tools/rebuild_paper04_data.py --output-dir /tmp/mrsi-paper04-new-output
 ```
 
 Choose a still-unused output directory outside the working copy for the Paper 4 builder. Trial replay writes `replay-output/`; Paper 1 replay also writes `evidence/paper-01/replay-output/` within the copy.
@@ -66,7 +66,7 @@ Mac Python selection does not reproduce a Colab GPU environment. For example, TA
 
 The public generation workflow uses readable files under each trial's `generation/` folder. Run its `run_colab.py` without arguments to inspect files; new generation requires `--run` inside Colab. The original supervisor retains its `sys.executable` and isolated-environment handling. Do not replace those with a Mac `.venv` path. Original private OneCells and archived acquisition code remain unchanged.
 
-To check all 28 readable bundles from the NPP research root:
+To check all 28 readable bundles from the research root:
 
 ```sh
 .venv/bin/python -B GitHub公開用/tools/readable_generation.py --all

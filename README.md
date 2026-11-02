@@ -1,10 +1,10 @@
-# NPP: Memory, Approval, and Collaboration in Two- and Three-Role LLM Systems
+# MRSI — Memory, Approval, and Collaboration in Two- and Three-Role LLM Systems
 
 **A correct answer can hide a damaged record. A faithfully followed agreement can still be a poor agreement.**
 
 In experiments with two and three LLM roles, we observed correct answers accompanied by incorrect provenance, successful repairs that an overall success score did not reveal, and poor agreements followed faithfully in subsequent responses. We traced these outcomes through the records actually saved, the inputs supplied to later calls, and the responses those calls produced.
 
-**NPP investigates what needs to be checked separately when LLM roles share information and coordinate actions while retaining their own information, judgments, and approval states.** This repository brings together four papers, a technical synthesis of failure patterns and design principles, readable code, and the experimental evidence.
+**MRSI (formerly NPP) investigates what needs to be checked separately when LLM roles share information and coordinate actions while retaining their own information, judgments, and approval states.** This repository brings together four papers, a technical synthesis of failure patterns and design principles, readable code, and the experimental evidence.
 
 [日本語の案内](README_ja.md) · [Papers](#start-reading) · [Reproduce results](#reproduce-the-recorded-results) · [Apache 2.0](LICENSE)
 
@@ -70,7 +70,7 @@ The complete [experiment index](experiments/README.md) explains the trial abbrev
 
 Offline replay scores and aggregates **existing saved responses**. It needs no GPU, model download, account credentials, or API calls.
 
-Current execution instructions are in **[RUNNING.md](RUNNING.md)** (29 October 2026); they take precedence over interpreter commands in older documents.
+Current execution instructions are in **[RUNNING.md](RUNNING.md)** (2 November 2026); they take precedence over interpreter commands in older documents.
 
 For a standalone working copy with its own `.venv`, run the read-only integrity check from that copy's root:
 
@@ -78,7 +78,7 @@ For a standalone working copy with its own `.venv`, run the read-only integrity 
 .venv/bin/python replay.py --verify
 ```
 
-Inside the original NPP workspace, stay in the NPP root and use `.venv/bin/python GitHub公開用/replay.py --verify` instead. The NPP environment is Python 3.13.17; hash verification needs only the standard library.
+Inside the original research workspace, stay in its root and use `.venv/bin/python GitHub公開用/replay.py --verify` instead. The research environment is Python 3.13.17; hash verification needs only the standard library.
 
 Scientific replay (`--trial`, `--paper-01`, `--all`) and the [Paper 4 builder](tools/rebuild_paper04_data.py) compute results and write files. Run them in a separate working copy with the applicable fixed specifications and dependency versions, as described in RUNNING.md.
 

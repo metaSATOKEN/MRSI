@@ -2,7 +2,7 @@
 
 ## 23 October 2026: local Python and read-only integrity check
 
-The NPP host now uses an isolated root `.venv` with Python 3.13.17 and pip 26.2.2. No third-party scientific packages were installed. The current procedure is [RUNNING.md](RUNNING.md): explicit interpreter selection, root-relative paths, read-only hashes separated from scientific replay, and unchanged Colab cells.
+The research host used an isolated root `.venv` with Python 3.13.17 and pip 26.2.2. No third-party scientific packages were installed. The current procedure is [RUNNING.md](RUNNING.md): explicit interpreter selection, root-relative paths, read-only hashes separated from scientific replay, and unchanged Colab cells.
 
 The pre-update distribution passed its 61,162-file hash check in this environment. Final hashes and evidence preservation are recorded in [the environment check](verification/python-update-20261023.json). Only current execution guidance and package metadata were changed. Scientific scoring, model inference, table rebuilding, and figure/PDF regeneration were not run. Earlier replay results below remain records of their original environments, not new validation under Python 3.13.17.
 
@@ -52,7 +52,7 @@ The candidate contains no framework/ledger files, including in ZIP member names,
 
 ## 29 October 2026 — public collection name
 
-The introductory English/Japanese guides, citation title, NOTICE, and distribution scope now present the collection as NPP: Memory, Approval, and Collaboration in Two- and Three-Role LLM Systems. Historical directory names and experimental identifiers are retained for traceability. This is an editorial naming update; experiment inputs, code, results, papers, figures, and original archives are unchanged. [Naming verification](verification/public-naming-20261029.json).
+On 29 October the guides, citation title, NOTICE, and distribution scope used the project’s former name, NPP. Historical directory names and experimental identifiers are retained for traceability. This is an editorial naming update; experiment inputs, code, results, papers, figures, and original archives are unchanged. [Naming verification](verification/public-naming-20261029.json).
 
 ## 29 October 2026 — findings-first README
 
