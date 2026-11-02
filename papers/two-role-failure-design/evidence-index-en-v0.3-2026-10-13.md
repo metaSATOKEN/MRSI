@@ -8,13 +8,13 @@ This index supports evidence checking. The manuscript itself explains the tasks,
 
 | Reference | Source | Role in this synthesis |
 |---|---|---|
-| 1 | [Report 1, Japanese v0.11](../paper-01/manuscript-v0.11-2026-09-23.md) | Provenance defects, local storage versus end-to-end outcomes, revocation and deferral |
-| 2 | [Report 2, Japanese v0.4](../paper-02/manuscript-ja-v0.4-2026-09-27.md) | Four field-control branches, post-update rollback, purpose-specific use and two cycles |
-| 3 | [Report 3, Japanese v0.2](../paper-03/manuscript-ja-v0.2-2026-09-29.md) | Support timing, actual paths with incorrect acceptance, fixed-input repetition |
-| 6 | [Report 4, Japanese v0.2](../paper-04/manuscript-ja-v0.2-2026-10-13.md) | Three-role actual votes, approval-state readout, comparison fields and new materials |
+| 1 | [Report 1, Japanese v0.11](../paper-01/MRSI_Paper1-ja-v1.0.md) | Provenance defects, local storage versus end-to-end outcomes, revocation and deferral |
+| 2 | [Report 2, Japanese v0.4](../paper-02/MRSI_Paper2-ja-v1.0.md) | Four field-control branches, post-update rollback, purpose-specific use and two cycles |
+| 3 | [Report 3, Japanese v0.2](../paper-03/MRSI_Paper3-ja-v1.0.md) | Support timing, actual paths with incorrect acceptance, fixed-input repetition |
+| 6 | [Report 4, Japanese v0.2](../paper-04/MRSI_Paper4-ja-v1.0.md) | Three-role actual votes, approval-state readout, comparison fields and new materials |
 | 4–5 | Failure Studies v1.8 and Autonomous LLM System Design v1.16 in Meteon Collected Edition v1.1 (source not bundled) | Organization around contracts and failure paths, followed by positive design requirements; not added to the four reports' experimental evidence |
 
-English versions of [Report 1](../paper-01/manuscript-en-v0.2-2026-09-23.md), [Report 2](../paper-02/manuscript-en-v0.1-2026-09-27.md), [Report 3](../paper-03/manuscript-en-v0.1-2026-09-29.md), and [Report 4](../paper-04/manuscript-en-v0.1-2026-10-13.md) are also available.
+English versions of [Report 1](../paper-01/MRSI_Paper1-en-v1.0.md), [Report 2](../paper-02/MRSI_Paper2-en-v1.0.md), [Report 3](../paper-03/MRSI_Paper3-en-v1.0.md), and [Report 4](../paper-04/MRSI_Paper4-en-v1.0.md) are also available.
 
 The organizational references were Failure Studies Sections 1–3 and its integrated failure paths, and Autonomous LLM System Design Section 3, Part III, and Appendix A. Their taxonomies and 13 principles were not copied into this report's counts. The seven principles are a synthesis after the four reports. This was not a renewed primary-literature search; each source report's related-work section provides an entry point to the relevant literature.
 

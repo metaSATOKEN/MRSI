@@ -1,6 +1,6 @@
 # Paper 1 — Memory and provenance
 
-[English](manuscript-en-v0.2-2026-09-23.md) · [日本語](manuscript-v0.11-2026-09-23.md) · [PDF](mrsi_memory_updates.pdf)
+[English](MRSI_Paper1-en-v1.0.md) · [日本語](MRSI_Paper1-ja-v1.0.md) · [PDF](MRSI_Paper1-en-v1.0.pdf)
 
 [Evidence and recorded outputs](S1.md) · [Figures](figures/)
 

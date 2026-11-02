@@ -1,6 +1,6 @@
 # Supplement S1: Evidence Index for the Third Report
 
-September 29, 2026. This index accompanies [English manuscript v0.1](manuscript-en-v0.1-2026-09-29.md), translated from the author-approved [Japanese v0.2](manuscript-ja-v0.2-2026-09-29.md). Underlying plans and result reports remain in their original language. Materials are private, retained without a deletion deadline. Relative links refer to the current research folder; no public package or persistent identifier has yet been assigned.
+September 29, 2026. This index accompanies [English manuscript v0.1](MRSI_Paper3-en-v1.0.md), translated from the author-approved [Japanese v0.2](MRSI_Paper3-ja-v1.0.md). Underlying plans and result reports remain in their original language. Materials are private, retained without a deletion deadline. Relative links refer to the current research folder; no public package or persistent identifier has yet been assigned.
 
 ## 1. Claims and supporting records
 

@@ -12,10 +12,10 @@ In experiments with two and three LLM roles, we observed correct answers accompa
 
 | Finding | Observation | Evidence |
 |---|---|---|
-| **Correct answers and incorrect provenance coexisted.** | Notes associated correct content with an incorrect source ID. Subsequent responses carried that ID forward while still making the correct decision. | [Paper 1](papers/paper-01/manuscript-en-v0.2-2026-09-23.md) |
-| **An overall success score concealed a successful local repair.** | Comparisons using the same update proposals showed both directions: a correct shared answer could coexist with stale role-specific observations, and repairing those observations could leave end-to-end success unchanged because another field still failed. | [Paper 2](papers/paper-02/manuscript-en-v0.1-2026-09-27.md) |
-| **Stable role-specific judgments coexisted with poor shared agreements.** | Roles retained their own recommendations while approving a plan inferior under the task's stated objective. Subsequent responses faithfully followed that agreement. | [Paper 3](papers/paper-03/manuscript-en-v0.1-2026-09-29.md) |
-| **Correct group-level deferral coexisted with a misread vote.** | In a three-role readout, the model correctly kept agreement and execution pending but described a missing vote as an explicit hold. | [Paper 4](papers/paper-04/manuscript-en-v0.1-2026-10-13.md) |
+| **Correct answers and incorrect provenance coexisted.** | Notes associated correct content with an incorrect source ID. Subsequent responses carried that ID forward while still making the correct decision. | [Paper 1](papers/paper-01/MRSI_Paper1-en-v1.0.md) |
+| **An overall success score concealed a successful local repair.** | Comparisons using the same update proposals showed both directions: a correct shared answer could coexist with stale role-specific observations, and repairing those observations could leave end-to-end success unchanged because another field still failed. | [Paper 2](papers/paper-02/MRSI_Paper2-en-v1.0.md) |
+| **Stable role-specific judgments coexisted with poor shared agreements.** | Roles retained their own recommendations while approving a plan inferior under the task's stated objective. Subsequent responses faithfully followed that agreement. | [Paper 3](papers/paper-03/MRSI_Paper3-en-v1.0.md) |
+| **Correct group-level deferral coexisted with a misread vote.** | In a three-role readout, the model correctly kept agreement and execution pending but described a missing vote as an explicit hold. | [Paper 4](papers/paper-04/MRSI_Paper4-en-v1.0.md) |
 
 Together, these observations show why answer correctness, record fidelity, agreement quality, and faithful execution need separate measurements. They also show why field-level repair and end-to-end success should be reported together.
 
@@ -44,10 +44,10 @@ For a standalone overview of the failure patterns and resulting design principle
 
 | Report | Question | Read |
 |---|---|---|
-| **Paper 1 — Memory and provenance** | Can role-specific facts and shared observations retain their sources through storage, reuse, and revocation? | [Markdown](papers/paper-01/manuscript-en-v0.2-2026-09-23.md) · [PDF](papers/paper-01/mrsi_memory_updates.pdf) · [Evidence](papers/paper-01/S1.md) |
-| **Paper 2 — Repair and freshness** | Which fields are repaired by deterministic processing, and can a correct update later roll back? | [Markdown](papers/paper-02/manuscript-en-v0.1-2026-09-27.md) · [PDF](papers/paper-02/manuscript-en-v0.1-2026-09-27.pdf) · [Evidence](papers/paper-02/S1.md) |
-| **Paper 3 — Judgments and agreements** | Does supporting each role's judgment also improve the quality of the shared agreement? | [Markdown](papers/paper-03/manuscript-en-v0.1-2026-09-29.md) · [PDF](papers/paper-03/manuscript-en-v0.1-2026-09-29.pdf) · [Evidence](papers/paper-03/S1.md) |
-| **Paper 4 — Individual approval and group agreement** | Can three roles preserve each actual vote while interpreting agreement and permission to execute? | [Markdown](papers/paper-04/manuscript-en-v0.1-2026-10-13.md) · [Received PDF](papers/paper-04/manuscript-en-v0.1-2026-10-13.pdf) · [Evidence](papers/paper-04/S1.md) |
+| **Paper 1 — Memory and provenance** | Can role-specific facts and shared observations retain their sources through storage, reuse, and revocation? | [Markdown](papers/paper-01/MRSI_Paper1-en-v1.0.md) · [PDF](papers/paper-01/MRSI_Paper1-en-v1.0.pdf) · [Evidence](papers/paper-01/S1.md) |
+| **Paper 2 — Repair and freshness** | Which fields are repaired by deterministic processing, and can a correct update later roll back? | [Markdown](papers/paper-02/MRSI_Paper2-en-v1.0.md) · [PDF](papers/paper-02/MRSI_Paper2-en-v1.0.pdf) · [Evidence](papers/paper-02/S1.md) |
+| **Paper 3 — Judgments and agreements** | Does supporting each role's judgment also improve the quality of the shared agreement? | [Markdown](papers/paper-03/MRSI_Paper3-en-v1.0.md) · [PDF](papers/paper-03/MRSI_Paper3-en-v1.0.pdf) · [Evidence](papers/paper-03/S1.md) |
+| **Paper 4 — Individual approval and group agreement** | Can three roles preserve each actual vote while interpreting agreement and permission to execute? | [Markdown](papers/paper-04/MRSI_Paper4-en-v1.0.md) · [Received PDF](papers/paper-04/MRSI_Paper4-en-v1.0.pdf) · [Evidence](papers/paper-04/S1.md) |
 | **Technical synthesis — Multi-role failures and design principles** | How do findings from two and three roles inform record, approval, and execution boundaries? | [Markdown](papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.md) · [Received PDF](papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.pdf) · [Evidence](papers/two-role-failure-design/S1.md) |
 
 Find the Japanese manuscripts and supporting figures in the [paper directory](papers/README.md). The current author contact is **info@metaclan.jp**.

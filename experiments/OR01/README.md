@@ -2,7 +2,7 @@
 
 Supports paper-02. Fixed Japanese inputs and actual saved responses are retained.
 
-Start with the [result report (Japanese)](docs/owner-recency-01-result-2026-09-25.md): it explains the four storage branches applied to the same model-generated update, which fields were repaired, and what remained incorrect. For the English account, see [Paper 2](../../papers/paper-02/manuscript-en-v0.1-2026-09-27.md). Then use the aggregate and original logs below to inspect the evidence.
+Start with the [result report (Japanese)](docs/owner-recency-01-result-2026-09-25.md): it explains the four storage branches applied to the same model-generated update, which fields were repaired, and what remained incorrect. For the English account, see [Paper 2](../../papers/paper-02/MRSI_Paper2-en-v1.0.md). Then use the aggregate and original logs below to inspect the evidence.
 
 - [Recorded aggregate](expected-result.json)
 - [Fixed payload and original instructions](payload.json)

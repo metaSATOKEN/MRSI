@@ -1,6 +1,6 @@
 # Paper 4: Evidence Index
 
-October 13, 2026 | v0.1 | [English manuscript](manuscript-en-v0.1-2026-10-13.md)
+October 13, 2026 | v0.1 | [English manuscript](MRSI_Paper4-en-v1.0.md)
 
 This index connects the manuscript's tables and examples to original records. The task, materials, scoring, and repetition units are explained in the manuscript and its appendices. Original ZIP archives, fixed designs, and execution code are retained unchanged. Preparing this manuscript involved no model calls or changes to formal scores. Original experimental prompts and responses remain in their recorded language; the English manuscript and this index do not replace them.
 

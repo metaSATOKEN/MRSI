@@ -1,6 +1,6 @@
 # Paper 4 — Individual approval and group agreement
 
-[English](manuscript-en-v0.1-2026-10-13.md) · [日本語](manuscript-ja-v0.2-2026-10-13.md) · [PDF](manuscript-en-v0.1-2026-10-13.pdf)
+[English](MRSI_Paper4-en-v1.0.md) · [日本語](MRSI_Paper4-ja-v1.0.md) · [PDF](MRSI_Paper4-en-v1.0.pdf)
 
 [Evidence and recorded outputs](S1.md) · [Figures](figures/) · [Related literature](related-work.md)
 

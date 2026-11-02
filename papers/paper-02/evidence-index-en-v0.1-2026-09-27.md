@@ -1,6 +1,6 @@
 # Supplement S1: Evidence Index for the Second Report
 
-September 27, 2026. This index accompanies [English manuscript v0.1](manuscript-en-v0.1-2026-09-27.md), translated from the author-approved [Japanese manuscript v0.4](manuscript-ja-v0.4-2026-09-27.md). It links results and worked examples to fixed aggregates and original records. The underlying result reports and design documents remain in their original language; the translation does not change scoring or formal outcomes.
+September 27, 2026. This index accompanies [English manuscript v0.1](MRSI_Paper2-en-v1.0.md), translated from the author-approved [Japanese manuscript v0.4](MRSI_Paper2-ja-v1.0.md). It links results and worked examples to fixed aggregates and original records. The underlying result reports and design documents remain in their original language; the translation does not change scoring or formal outcomes.
 
 ## 1. Manuscript results and source records
 

@@ -1,101 +1,101 @@
 [
   {
-    "document": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-ja-v1.0.md",
     "source_target": "papers/paper-01/Old/next-experiments-estimate-v0.1-2026-09-20.md",
     "label": "実行前の見積書"
   },
   {
-    "document": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-ja-v1.0.md",
     "source_target": "throughline/audits/paper-01-pair-live-20260921/e1-case-notes.md",
     "label": "原回答と成分の点検"
   },
   {
-    "document": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-ja-v1.0.md",
     "source_target": "throughline/audits/prereg/paper-01-pair-resume1-v0.1.md",
     "label": "継続前の変更記録"
   },
   {
-    "document": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-ja-v1.0.md",
     "source_target": "throughline/audits/paper-01-revision-v10-20260923/retention-availability.json",
     "label": "所在記録"
   },
   {
-    "document": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-ja-v1.0.md",
     "source_target": "throughline/audits/paper-01-draft-20260920/source-evidence.json",
     "label": "旧11試験の証拠対応"
   },
   {
-    "document": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-ja-v1.0.md",
     "source_target": "throughline/audits/prereg/paper-01-pair-resume1-v0.1.md",
     "label": "停止後の変更記録"
   },
   {
-    "document": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-ja-v1.0.md",
     "source_target": "throughline/audits/paper-01-major-review-20260922/calculate.py",
     "label": "補足の計算"
   },
   {
-    "document": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-ja-v1.0.md",
     "source_target": "throughline/audits/paper-01-rereview-20260922/scorer-source-manifest.json",
     "label": "凍結採点コードと依存の一覧"
   },
   {
-    "document": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-ja-v1.0.md",
     "source_target": "throughline/audits/paper-01-major-review-20260922/calculate.py",
     "label": "検算コード"
   },
   {
-    "document": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-ja-v1.0.md",
     "source_target": "throughline/audits/paper-01-rereview-20260922/numerical-audit.json",
     "label": "出力長・共同観測成分区間の非丸め値と照合"
   },
   {
-    "document": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
     "source_target": "papers/paper-01/Old/next-experiments-estimate-v0.1-2026-09-20.md",
     "label": "Pre-run budget and power estimates"
   },
   {
-    "document": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
     "source_target": "throughline/audits/paper-01-pair-live-20260921/e1-case-notes.md",
     "label": "Raw-response and component inspection"
   },
   {
-    "document": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
     "source_target": "throughline/audits/prereg/paper-01-pair-resume1-v0.1.md",
     "label": "change record before continuation"
   },
   {
-    "document": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
     "source_target": "throughline/audits/paper-01-revision-v10-20260923/retention-availability.json",
     "label": "Availability record"
   },
   {
-    "document": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
     "source_target": "throughline/audits/paper-01-draft-20260920/source-evidence.json",
     "label": "evidence mapping for the 11 earlier trials"
   },
   {
-    "document": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
     "source_target": "throughline/audits/prereg/paper-01-pair-resume1-v0.1.md",
     "label": "change record after the stop"
   },
   {
-    "document": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
     "source_target": "throughline/audits/paper-01-major-review-20260922/calculate.py",
     "label": "supplementary calculations"
   },
   {
-    "document": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
     "source_target": "throughline/audits/paper-01-rereview-20260922/scorer-source-manifest.json",
     "label": "frozen scorers and dependencies"
   },
   {
-    "document": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
     "source_target": "throughline/audits/paper-01-major-review-20260922/calculate.py",
     "label": "Verification code"
   },
   {
-    "document": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
+    "document": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
     "source_target": "throughline/audits/paper-01-rereview-20260922/numerical-audit.json",
     "label": "Unrounded output-length and shared-observation interval results"
   },

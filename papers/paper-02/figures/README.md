@@ -1,6 +1,6 @@
 # English Figures for the Second Report
 
-These figures accompany [English manuscript v0.1](../manuscript-en-v0.1-2026-09-27.md) and render the two diagrams in the finalized [Japanese manuscript v0.4](../manuscript-ja-v0.4-2026-09-27.md). Captions are in the manuscript, at Sections 3.3 and 4.1. Each diagram can be used independently during subsequent typesetting.
+These figures accompany [English manuscript v0.1](../MRSI_Paper2-en-v1.0.md) and render the two diagrams in the finalized [Japanese manuscript v0.4](../MRSI_Paper2-ja-v1.0.md). Captions are in the manuscript, at Sections 3.3 and 4.1. Each diagram can be used independently during subsequent typesetting.
 
 | Figure | Subject | Vector file | Raster file | PNG dimensions |
 | --- | --- | --- | --- | --- |

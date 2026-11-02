@@ -528,13 +528,13 @@ flowchart TD
 
 ## 参考資料
 
-1. Kentaro Sato. 2026. [個別情報と共有記録を両立するLLMメモリ更新：内容・出典・継続利用の探索的評価](../paper-01/manuscript-v0.11-2026-09-23.md). 日本語v0.11、2026-09-23。本稿の出典・転記・撤回事例の原報告。
-2. Kentaro Sato. 2026. [LLMの個別・共有記録における更新制御の適用範囲：保存先別比較と変更後の巻戻りの追跡](../paper-02/manuscript-ja-v0.4-2026-09-27.md). 日本語v0.4、2026-09-27。本稿の保存欄別比較・担当客更新事例の原報告。
-3. Kentaro Sato. 2026. [本人判断の安定性と共同合意の質を分けて評価する：LLM二役における集計支援の供給時期と固定入力反復](../paper-03/manuscript-ja-v0.2-2026-09-29.md). 日本語v0.2、2026-09-29。本稿の共同判断・反復事例の原報告。
+1. Kentaro Sato. 2026. [個別情報と共有記録を両立するLLMメモリ更新：内容・出典・継続利用の探索的評価](../paper-01/MRSI_Paper1-ja-v1.0.md). 日本語v0.11、2026-09-23。本稿の出典・転記・撤回事例の原報告。
+2. Kentaro Sato. 2026. [LLMの個別・共有記録における更新制御の適用範囲：保存先別比較と変更後の巻戻りの追跡](../paper-02/MRSI_Paper2-ja-v1.0.md). 日本語v0.4、2026-09-27。本稿の保存欄別比較・担当客更新事例の原報告。
+3. Kentaro Sato. 2026. [本人判断の安定性と共同合意の質を分けて評価する：LLM二役における集計支援の供給時期と固定入力反復](../paper-03/MRSI_Paper3-ja-v1.0.md). 日本語v0.2、2026-09-29。本稿の共同判断・反復事例の原報告。
 4. Kentaro Sato. 2026. *LLM System Failure Studies*, Technical Report v1.8. Meteon Collected Edition v1.1所収 (source not bundled)。要件・故障経路・分類方法を参照。
 5. Kentaro Sato. 2026. *Autonomous LLM System Design: Build the Cage Before Granting Authority*, Technical Report v1.16, 5 September 2026. 同合冊所収 (source not bundled)。§3の根拠と設計案の区別、Part IIIの設計原則、Appendix Aの対応表を参照。
 
-6. Kentaro Sato. 2026. [LLM三役における本人判断・個別承認・集団合意の境界：実票の引継ぎと承認状態の対応比較](../paper-04/manuscript-ja-v0.2-2026-10-13.md). 日本語v0.2、2026-10-13。本稿の三者の投票・状態読出し・比較欄の原報告。
+6. Kentaro Sato. 2026. [LLM三役における本人判断・個別承認・集団合意の境界：実票の引継ぎと承認状態の対応比較](../paper-04/MRSI_Paper4-ja-v1.0.md). 日本語v0.2、2026-10-13。本稿の三者の投票・状態読出し・比較欄の原報告。
 
 本稿の位置づけは、自らの実験記録から故障と設計上の論点を整理した技術報告である。文献全体に対する網羅的レビューや、七原則それぞれの初提案を目的としない。資料4・5から参照した整理方法も、付録Cで本稿内に説明する。
 

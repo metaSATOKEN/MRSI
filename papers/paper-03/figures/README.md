@@ -1,6 +1,6 @@
 # English Figures for the Third Report
 
-These figures accompany [English manuscript v0.1](../manuscript-en-v0.1-2026-09-29.md) and redraw the diagrams in author-approved Japanese v0.2. They introduce no new results.
+These figures accompany [English manuscript v0.1](../MRSI_Paper3-en-v1.0.md) and redraw the diagrams in author-approved Japanese v0.2. They introduce no new results.
 
 | Figure | Content | Raster | Vector |
 | --- | --- | --- | --- |
