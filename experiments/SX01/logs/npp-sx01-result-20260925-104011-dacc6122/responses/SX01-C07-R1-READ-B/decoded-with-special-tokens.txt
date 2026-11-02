@@ -1,0 +1,1 @@
+{"coverage":{"A":{"paper":"ALL","digital":"ALL"},"B":{"paper":"ALL","digital":"NOT_ALL"}}}<|im_end|>

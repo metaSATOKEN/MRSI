@@ -1,0 +1,27 @@
+{
+  "scene": "小さな展示会",
+  "item": "受付名札",
+  "holder": "B",
+  "observations": [
+    {
+      "id": "OBS_A",
+      "author": "A",
+      "content": {
+        "observer": "A",
+        "paper": "NOT_ALL",
+        "digital": "ALL",
+        "source_id": "YC"
+      }
+    },
+    {
+      "id": "OBS_B",
+      "author": "B",
+      "content": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "ALL",
+        "source_id": "VE"
+      }
+    }
+  ]
+}

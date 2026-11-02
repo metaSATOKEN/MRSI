@@ -1,0 +1,96 @@
+[
+  {
+    "figure": "fig01-update-control-en-v1",
+    "checks": [
+      {
+        "text": "LLM",
+        "inside_box": true
+      },
+      {
+        "text": "Code",
+        "inside_box": true
+      },
+      {
+        "text": "Record",
+        "inside_box": true
+      },
+      {
+        "text": "Current input\nPreviously saved notes + current notice",
+        "inside_box": true
+      },
+      {
+        "text": "Generate\nan update proposal",
+        "inside_box": true
+      },
+      {
+        "text": "Select latest rows\nwithin each observer\nfrom the current input only",
+        "inside_box": true
+      },
+      {
+        "text": "Validate structure",
+        "inside_box": true
+      },
+      {
+        "text": "Assemble notes\nKeep model-written customer field\nCopy rows in controlled fields",
+        "inside_box": true
+      },
+      {
+        "text": "Actual saved notes",
+        "inside_box": true
+      },
+      {
+        "text": "Next update\nor exchange",
+        "inside_box": true
+      },
+      {
+        "text": "Extract shared values and,\nwhen requested, customer\ninformation from saved notes",
+        "inside_box": true
+      },
+      {
+        "text": "Use the extracted preference\nfor the design; compute the\nchannel from shared values",
+        "inside_box": true
+      }
+    ]
+  },
+  {
+    "figure": "fig02-study-connections-en-v1",
+    "checks": [
+      {
+        "text": "New initial notes\n8 groups \u00d7 2 repetitions",
+        "inside_box": true
+      },
+      {
+        "text": "First-cycle updates (SX01)\nUpdate \u2192 exchange \u2192 old notice",
+        "inside_box": true
+      },
+      {
+        "text": "32 saved role-specific note sets\n2 roles \u00d7 8 groups \u00d7 2 repetitions",
+        "inside_box": true
+      },
+      {
+        "text": "First-cycle readout (SX01)\nShared information",
+        "inside_box": true
+      },
+      {
+        "text": "Selective-use diagnostic (RU01)\nUnchanged / preference only /\nobservations only / both\nReadout after input manipulation",
+        "inside_box": true
+      },
+      {
+        "text": "Second-cycle updates (SX02)\nFurther update\n\u2192 exchange \u2192 old notice",
+        "inside_box": true
+      },
+      {
+        "text": "Second-cycle readout\nCustomer + shared information",
+        "inside_box": true
+      },
+      {
+        "text": "New customer-update cases\n8 groups \u00d7 2 repetitions",
+        "inside_box": true
+      },
+      {
+        "text": "Customer-update diagnostic (CU01)\nNew preference \u2192 old notice \u2192 customer + shared readout",
+        "inside_box": true
+      }
+    ]
+  }
+]

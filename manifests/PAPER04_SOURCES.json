@@ -1,0 +1,106 @@
+{
+  "study2/results/three-role-boundary-01-20261013/attempt-02-complete/diagnostics.json": {
+    "path": "experiments/TB01/analysis/diagnostics.json",
+    "sha256": "2642438d6c4a15ac2473d8c5f37a84c458c1d74bbd3d96871da5e094d51366a4"
+  },
+  "study2/results/three-role-boundary-01-20261013/attempt-02-complete/evidence-extract.json": {
+    "path": "experiments/TB01/analysis/evidence-extract.json",
+    "sha256": "049a4424b950d73cdb950bb4e081e1c8b0d609c40c7843bfc8d38d81d5e3ec33"
+  },
+  "study2/results/three-role-boundary-01-20261013/attempt-02-complete/reaggregated.json": {
+    "path": "experiments/TB01/expected-result.json",
+    "sha256": "5ffea200d10e29b192c1d841cf1284e9179707217c73686a133f2ad60401c7ad"
+  },
+  "study2/results/three-role-boundary-01-20261013/attempt-02-complete/npp-tb01-result-20261013-041945-c6e2c94d.zip": {
+    "path": "experiments/TB01/archives/npp-tb01-result-20261013-041945-c6e2c94d.zip",
+    "sha256": "6069f4b583b414f4350440c6e163e77d0a09e1a48b6377a3b67d9ad7c2b58387"
+  },
+  "study2/results/three-role-vote-repeat-01-20261013/diagnostics.json": {
+    "path": "experiments/TVR01/analysis/diagnostics.json",
+    "sha256": "8a3e03a3c9db03d9eec8a98ece3df536e11ef5fa62d0dee5b437657f25eb7a82"
+  },
+  "study2/results/three-role-vote-repeat-01-20261013/evidence-extract.json": {
+    "path": "experiments/TVR01/analysis/evidence-extract.json",
+    "sha256": "ef87f319038301a6bf3dad60928bedadcf4b8d8d6809ba903b0177673dfb4c1c"
+  },
+  "study2/results/three-role-vote-repeat-01-20261013/reaggregated.json": {
+    "path": "experiments/TVR01/expected-result.json",
+    "sha256": "80c6e7f8ba66ca566874a76604089f2119146b8286fe25bd0db209cb4532e6ff"
+  },
+  "study2/results/three-role-vote-repeat-01-20261013/repeat-comparison.json": {
+    "path": "experiments/TVR01/analysis/repeat-comparison.json",
+    "sha256": "0d0e885004e6db45b2db3d7a645408a8f7bcd68073991b9a8c2037962edd9093"
+  },
+  "study2/results/three-role-vote-repeat-01-20261013/npp-tvr01-result-20261013-045940-cf404568.zip": {
+    "path": "experiments/TVR01/archives/npp-tvr01-result-20261013-045940-cf404568.zip",
+    "sha256": "b631313a70cd56f9e4cb3c83832224edee24d692e6e0adbe12d5ba25c164f2bc"
+  },
+  "study2/results/three-role-comparison-vote-01-20261013/diagnostics.json": {
+    "path": "experiments/TCV01/analysis/diagnostics.json",
+    "sha256": "555e00a3143367db13915019f9daaa8866bcddcc31b087828092c359e8ce2a17"
+  },
+  "study2/results/three-role-comparison-vote-01-20261013/evidence-extract.json": {
+    "path": "experiments/TCV01/analysis/evidence-extract.json",
+    "sha256": "cec1fe869f17c1336cd654ff50da3bd31e515f2aaaaf59e920d8766ee70dbbea"
+  },
+  "study2/results/three-role-comparison-vote-01-20261013/reaggregated.json": {
+    "path": "experiments/TCV01/expected-result.json",
+    "sha256": "a433b06504783647a6a7cbcfb710dbc5a9c7154ccb24f5dfe07f2dd00cee726e"
+  },
+  "study2/results/three-role-comparison-vote-01-20261013/repeat-comparison.json": {
+    "path": "experiments/TCV01/analysis/repeat-comparison.json",
+    "sha256": "2e073e4f78f38ba4eb88a2c5e5c3ae5f64568699e7205e36e01bada8e5e77c3f"
+  },
+  "study2/results/three-role-comparison-vote-01-20261013/npp-tcv01-result-20261013-053413-76c1649c.zip": {
+    "path": "experiments/TCV01/archives/npp-tcv01-result-20261013-053413-76c1649c.zip",
+    "sha256": "64b9e29f467136c593df9b18d0ee7db923f95d5f247fa277aa92d7c0c49cfce9"
+  },
+  "study2/results/three-role-comparison-vote-02-20261013/diagnostics.json": {
+    "path": "experiments/TCV02/analysis/diagnostics.json",
+    "sha256": "ae8a18423c8754789e98186fea4bd8ee9e513bccbd694035fb0359c920642317"
+  },
+  "study2/results/three-role-comparison-vote-02-20261013/evidence-extract.json": {
+    "path": "experiments/TCV02/analysis/evidence-extract.json",
+    "sha256": "695af80372044b20b3d799a49b0810807938cd97d6a493901383fd06c685c178"
+  },
+  "study2/results/three-role-comparison-vote-02-20261013/formation-diagnostics.json": {
+    "path": "experiments/TCV02/analysis/formation-diagnostics.json",
+    "sha256": "aa4c006116138c141bf92cd6983f3d1b29bdccbf9b747acc1526dcf25c2fe8b2"
+  },
+  "study2/results/three-role-comparison-vote-02-20261013/reaggregated.json": {
+    "path": "experiments/TCV02/expected-result.json",
+    "sha256": "9e8cd938375a40db686825b1f5c9a4edc68726d9686cf1583661995ee079929f"
+  },
+  "study2/results/three-role-comparison-vote-02-20261013/repeat-comparison.json": {
+    "path": "experiments/TCV02/analysis/repeat-comparison.json",
+    "sha256": "265819e67accf465b21e64c85da56b75b296fc57e8a0cf7de29d4478ac7a5c64"
+  },
+  "study2/results/three-role-comparison-vote-02-20261013/npp-tcv02-result-20261013-061923-878369ad.zip": {
+    "path": "experiments/TCV02/archives/npp-tcv02-result-20261013-061923-878369ad.zip",
+    "sha256": "273060974458e5b16f86710c20eae52c2d36b4105a21e402a9e529b7a1c2216a"
+  },
+  "study2/results/three-role-approval-readout-01-20261013/diagnostics.json": {
+    "path": "experiments/TAR01/analysis/diagnostics.json",
+    "sha256": "0f66013abdac3eba2b4bd486ab2781ac216a1182e877976bf6048250b27b84c9"
+  },
+  "study2/results/three-role-approval-readout-01-20261013/evidence-extract.json": {
+    "path": "experiments/TAR01/analysis/evidence-extract.json",
+    "sha256": "c96e80e174f901b4215882ec4d6eb45b4f1273bf7c4080e5935e6b1a41da2846"
+  },
+  "study2/results/three-role-approval-readout-01-20261013/reaggregated.json": {
+    "path": "experiments/TAR01/expected-result.json",
+    "sha256": "b2ec8221886f8be94225611cb6640cd4afc13f8185f13cbe8c2bfbc56bcb9f61"
+  },
+  "study2/results/three-role-approval-readout-01-20261013/repeat-comparison.json": {
+    "path": "experiments/TAR01/analysis/repeat-comparison.json",
+    "sha256": "500c75e080ed3b74f6c745e2c3b483cbbc1ecb111f360db864335d0ad8dcac7d"
+  },
+  "study2/results/three-role-approval-readout-01-20261013/supplementary-analysis.json": {
+    "path": "experiments/TAR01/analysis/supplementary-analysis.json",
+    "sha256": "7d4cab3cae7be4a72990e6ad5a13f9deb1568417740ca6ebff787342d8d75f16"
+  },
+  "study2/results/three-role-approval-readout-01-20261013/npp-tar01-result-20261013-071229-08c825b9.zip": {
+    "path": "experiments/TAR01/archives/npp-tar01-result-20261013-071229-08c825b9.zip",
+    "sha256": "88f38a17a92140779aaf76637e441a87cfdf8a4d0e13bfcad34eea4c59db643a"
+  }
+}

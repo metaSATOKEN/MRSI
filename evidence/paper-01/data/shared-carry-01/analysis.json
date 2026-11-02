@@ -1,0 +1,1544 @@
+{
+  "planned_slots": 64,
+  "planned_groups": 4,
+  "formation": {
+    "SC01-G01": true,
+    "SC01-G02": false,
+    "SC01-G03": true,
+    "SC01-G04": false
+  },
+  "formation_components": {
+    "SC01-G01": {
+      "A": true,
+      "B": true,
+      "FINAL": true
+    },
+    "SC01-G02": {
+      "A": true,
+      "B": true,
+      "FINAL": false
+    },
+    "SC01-G03": {
+      "A": true,
+      "B": true,
+      "FINAL": true
+    },
+    "SC01-G04": {
+      "A": true,
+      "B": true,
+      "FINAL": false
+    }
+  },
+  "F": [
+    0.5,
+    0.5
+  ],
+  "formation_status": "OBSERVED_JOINT_FORMATION",
+  "E_BOTH": [
+    0.5,
+    0.5
+  ],
+  "E_VALUE": [
+    0.5,
+    0.5
+  ],
+  "prediction_status": "NOT_MET_IN_FIXED_SAMPLE",
+  "conditions": {
+    "BOTH": {
+      "I": [
+        1.0,
+        1.0
+      ],
+      "G": [
+        1.0,
+        1.0
+      ],
+      "I_source": [
+        1.0,
+        1.0
+      ],
+      "G_source": [
+        1.0,
+        1.0
+      ],
+      "self_unknown": [
+        0.0,
+        0.0
+      ],
+      "group_unknown": [
+        0.0,
+        0.0
+      ],
+      "J_value": [
+        1.0,
+        1.0
+      ],
+      "J_source": [
+        1.0,
+        1.0
+      ],
+      "both_repetitions": [
+        1.0,
+        1.0
+      ]
+    },
+    "PRIVATE": {
+      "I": [
+        0.9375,
+        0.9375
+      ],
+      "G": [
+        0.0,
+        0.0
+      ],
+      "I_source": [
+        1.0,
+        1.0
+      ],
+      "G_source": [
+        1.0,
+        1.0
+      ],
+      "self_unknown": [
+        0.0625,
+        0.0625
+      ],
+      "group_unknown": [
+        1.0,
+        1.0
+      ],
+      "J_value": [
+        0.0,
+        0.0
+      ],
+      "J_source": [
+        0.0,
+        0.0
+      ],
+      "both_repetitions": [
+        0.0,
+        0.0
+      ]
+    },
+    "SHARED": {
+      "I": [
+        0.0,
+        0.0
+      ],
+      "G": [
+        1.0,
+        1.0
+      ],
+      "I_source": [
+        1.0,
+        1.0
+      ],
+      "G_source": [
+        1.0,
+        1.0
+      ],
+      "self_unknown": [
+        1.0,
+        1.0
+      ],
+      "group_unknown": [
+        0.0,
+        0.0
+      ],
+      "J_value": [
+        0.0,
+        0.0
+      ],
+      "J_source": [
+        0.0,
+        0.0
+      ],
+      "both_repetitions": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "L": [
+    0.0625,
+    0.0625
+  ],
+  "A": [
+    1.0,
+    1.0
+  ],
+  "rows": [
+    {
+      "id": "SC01-G02-PROBE-B-BOTH-R1",
+      "group": "SC01-G02",
+      "role": "B",
+      "arm": "BOTH",
+      "repetition": 1,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G02-PROBE-B-PRIVATE-R1",
+      "group": "SC01-G02",
+      "role": "B",
+      "arm": "PRIVATE",
+      "repetition": 1,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G02-PROBE-B-SHARED-R1",
+      "group": "SC01-G02",
+      "role": "B",
+      "arm": "SHARED",
+      "repetition": 1,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G02-PROBE-A-BOTH-R1",
+      "group": "SC01-G02",
+      "role": "A",
+      "arm": "BOTH",
+      "repetition": 1,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G02-PROBE-A-SHARED-R1",
+      "group": "SC01-G02",
+      "role": "A",
+      "arm": "SHARED",
+      "repetition": 1,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G02-PROBE-A-PRIVATE-R1",
+      "group": "SC01-G02",
+      "role": "A",
+      "arm": "PRIVATE",
+      "repetition": 1,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G01-PROBE-B-PRIVATE-R1",
+      "group": "SC01-G01",
+      "role": "B",
+      "arm": "PRIVATE",
+      "repetition": 1,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G01-PROBE-B-BOTH-R1",
+      "group": "SC01-G01",
+      "role": "B",
+      "arm": "BOTH",
+      "repetition": 1,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G01-PROBE-B-SHARED-R1",
+      "group": "SC01-G01",
+      "role": "B",
+      "arm": "SHARED",
+      "repetition": 1,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G04-PROBE-B-PRIVATE-R1",
+      "group": "SC01-G04",
+      "role": "B",
+      "arm": "PRIVATE",
+      "repetition": 1,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G04-PROBE-B-SHARED-R1",
+      "group": "SC01-G04",
+      "role": "B",
+      "arm": "SHARED",
+      "repetition": 1,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G04-PROBE-B-BOTH-R1",
+      "group": "SC01-G04",
+      "role": "B",
+      "arm": "BOTH",
+      "repetition": 1,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G03-PROBE-A-SHARED-R1",
+      "group": "SC01-G03",
+      "role": "A",
+      "arm": "SHARED",
+      "repetition": 1,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G03-PROBE-A-BOTH-R1",
+      "group": "SC01-G03",
+      "role": "A",
+      "arm": "BOTH",
+      "repetition": 1,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G03-PROBE-A-PRIVATE-R1",
+      "group": "SC01-G03",
+      "role": "A",
+      "arm": "PRIVATE",
+      "repetition": 1,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G03-PROBE-B-SHARED-R1",
+      "group": "SC01-G03",
+      "role": "B",
+      "arm": "SHARED",
+      "repetition": 1,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G03-PROBE-B-PRIVATE-R1",
+      "group": "SC01-G03",
+      "role": "B",
+      "arm": "PRIVATE",
+      "repetition": 1,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G03-PROBE-B-BOTH-R1",
+      "group": "SC01-G03",
+      "role": "B",
+      "arm": "BOTH",
+      "repetition": 1,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G01-PROBE-A-BOTH-R1",
+      "group": "SC01-G01",
+      "role": "A",
+      "arm": "BOTH",
+      "repetition": 1,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G01-PROBE-A-PRIVATE-R1",
+      "group": "SC01-G01",
+      "role": "A",
+      "arm": "PRIVATE",
+      "repetition": 1,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G01-PROBE-A-SHARED-R1",
+      "group": "SC01-G01",
+      "role": "A",
+      "arm": "SHARED",
+      "repetition": 1,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G04-PROBE-A-BOTH-R1",
+      "group": "SC01-G04",
+      "role": "A",
+      "arm": "BOTH",
+      "repetition": 1,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G04-PROBE-A-SHARED-R1",
+      "group": "SC01-G04",
+      "role": "A",
+      "arm": "SHARED",
+      "repetition": 1,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G04-PROBE-A-PRIVATE-R1",
+      "group": "SC01-G04",
+      "role": "A",
+      "arm": "PRIVATE",
+      "repetition": 1,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G04-PROBE-A-PRIVATE-R2",
+      "group": "SC01-G04",
+      "role": "A",
+      "arm": "PRIVATE",
+      "repetition": 2,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G04-PROBE-A-SHARED-R2",
+      "group": "SC01-G04",
+      "role": "A",
+      "arm": "SHARED",
+      "repetition": 2,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G04-PROBE-A-BOTH-R2",
+      "group": "SC01-G04",
+      "role": "A",
+      "arm": "BOTH",
+      "repetition": 2,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G01-PROBE-A-SHARED-R2",
+      "group": "SC01-G01",
+      "role": "A",
+      "arm": "SHARED",
+      "repetition": 2,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G01-PROBE-A-PRIVATE-R2",
+      "group": "SC01-G01",
+      "role": "A",
+      "arm": "PRIVATE",
+      "repetition": 2,
+      "I": false,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G01-PROBE-A-BOTH-R2",
+      "group": "SC01-G01",
+      "role": "A",
+      "arm": "BOTH",
+      "repetition": 2,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G03-PROBE-B-BOTH-R2",
+      "group": "SC01-G03",
+      "role": "B",
+      "arm": "BOTH",
+      "repetition": 2,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G03-PROBE-B-PRIVATE-R2",
+      "group": "SC01-G03",
+      "role": "B",
+      "arm": "PRIVATE",
+      "repetition": 2,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G03-PROBE-B-SHARED-R2",
+      "group": "SC01-G03",
+      "role": "B",
+      "arm": "SHARED",
+      "repetition": 2,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G03-PROBE-A-PRIVATE-R2",
+      "group": "SC01-G03",
+      "role": "A",
+      "arm": "PRIVATE",
+      "repetition": 2,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G03-PROBE-A-BOTH-R2",
+      "group": "SC01-G03",
+      "role": "A",
+      "arm": "BOTH",
+      "repetition": 2,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G03-PROBE-A-SHARED-R2",
+      "group": "SC01-G03",
+      "role": "A",
+      "arm": "SHARED",
+      "repetition": 2,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G04-PROBE-B-BOTH-R2",
+      "group": "SC01-G04",
+      "role": "B",
+      "arm": "BOTH",
+      "repetition": 2,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G04-PROBE-B-SHARED-R2",
+      "group": "SC01-G04",
+      "role": "B",
+      "arm": "SHARED",
+      "repetition": 2,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G04-PROBE-B-PRIVATE-R2",
+      "group": "SC01-G04",
+      "role": "B",
+      "arm": "PRIVATE",
+      "repetition": 2,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G01-PROBE-B-SHARED-R2",
+      "group": "SC01-G01",
+      "role": "B",
+      "arm": "SHARED",
+      "repetition": 2,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G01-PROBE-B-BOTH-R2",
+      "group": "SC01-G01",
+      "role": "B",
+      "arm": "BOTH",
+      "repetition": 2,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G01-PROBE-B-PRIVATE-R2",
+      "group": "SC01-G01",
+      "role": "B",
+      "arm": "PRIVATE",
+      "repetition": 2,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G02-PROBE-A-PRIVATE-R2",
+      "group": "SC01-G02",
+      "role": "A",
+      "arm": "PRIVATE",
+      "repetition": 2,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G02-PROBE-A-SHARED-R2",
+      "group": "SC01-G02",
+      "role": "A",
+      "arm": "SHARED",
+      "repetition": 2,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G02-PROBE-A-BOTH-R2",
+      "group": "SC01-G02",
+      "role": "A",
+      "arm": "BOTH",
+      "repetition": 2,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G02-PROBE-B-SHARED-R2",
+      "group": "SC01-G02",
+      "role": "B",
+      "arm": "SHARED",
+      "repetition": 2,
+      "I": false,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": true,
+      "group_unknown": false
+    },
+    {
+      "id": "SC01-G02-PROBE-B-PRIVATE-R2",
+      "group": "SC01-G02",
+      "role": "B",
+      "arm": "PRIVATE",
+      "repetition": 2,
+      "I": true,
+      "G": false,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": true
+    },
+    {
+      "id": "SC01-G02-PROBE-B-BOTH-R2",
+      "group": "SC01-G02",
+      "role": "B",
+      "arm": "BOTH",
+      "repetition": 2,
+      "I": true,
+      "G": true,
+      "I_source": true,
+      "G_source": true,
+      "self_unknown": false,
+      "group_unknown": false
+    }
+  ],
+  "scope": "Fixed 4 groups, 2 materials, 2 probe repetitions; bounds are missingness bounds, not confidence intervals.",
+  "inferential_tests": null,
+  "status_counts": {
+    "VALID": 64
+  },
+  "valid_notes": 16,
+  "probe_components": {
+    "mascot": 48,
+    "mascot_sources": 48,
+    "channel": 48,
+    "channel_sources": 48
+  },
+  "repeat_input_comparison": [
+    {
+      "left": "SC01-G02-PROBE-B-BOTH-R1",
+      "right": "SC01-G02-PROBE-B-BOTH-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G02-PROBE-B-PRIVATE-R1",
+      "right": "SC01-G02-PROBE-B-PRIVATE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G02-PROBE-B-SHARED-R1",
+      "right": "SC01-G02-PROBE-B-SHARED-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G02-PROBE-A-BOTH-R1",
+      "right": "SC01-G02-PROBE-A-BOTH-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G02-PROBE-A-SHARED-R1",
+      "right": "SC01-G02-PROBE-A-SHARED-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G02-PROBE-A-PRIVATE-R1",
+      "right": "SC01-G02-PROBE-A-PRIVATE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G01-PROBE-B-PRIVATE-R1",
+      "right": "SC01-G01-PROBE-B-PRIVATE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G01-PROBE-B-BOTH-R1",
+      "right": "SC01-G01-PROBE-B-BOTH-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G01-PROBE-B-SHARED-R1",
+      "right": "SC01-G01-PROBE-B-SHARED-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G04-PROBE-B-PRIVATE-R1",
+      "right": "SC01-G04-PROBE-B-PRIVATE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G04-PROBE-B-SHARED-R1",
+      "right": "SC01-G04-PROBE-B-SHARED-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G04-PROBE-B-BOTH-R1",
+      "right": "SC01-G04-PROBE-B-BOTH-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G03-PROBE-A-SHARED-R1",
+      "right": "SC01-G03-PROBE-A-SHARED-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G03-PROBE-A-BOTH-R1",
+      "right": "SC01-G03-PROBE-A-BOTH-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G03-PROBE-A-PRIVATE-R1",
+      "right": "SC01-G03-PROBE-A-PRIVATE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G03-PROBE-B-SHARED-R1",
+      "right": "SC01-G03-PROBE-B-SHARED-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G03-PROBE-B-PRIVATE-R1",
+      "right": "SC01-G03-PROBE-B-PRIVATE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G03-PROBE-B-BOTH-R1",
+      "right": "SC01-G03-PROBE-B-BOTH-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G01-PROBE-A-BOTH-R1",
+      "right": "SC01-G01-PROBE-A-BOTH-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G01-PROBE-A-PRIVATE-R1",
+      "right": "SC01-G01-PROBE-A-PRIVATE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G01-PROBE-A-SHARED-R1",
+      "right": "SC01-G01-PROBE-A-SHARED-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G04-PROBE-A-BOTH-R1",
+      "right": "SC01-G04-PROBE-A-BOTH-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G04-PROBE-A-SHARED-R1",
+      "right": "SC01-G04-PROBE-A-SHARED-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "SC01-G04-PROBE-A-PRIVATE-R1",
+      "right": "SC01-G04-PROBE-A-PRIVATE-R2",
+      "observed": true,
+      "same_bytes": true
+    }
+  ],
+  "masked_record_comparison": [
+    {
+      "both": "SC01-G02-PROBE-B-BOTH-R1",
+      "other": "SC01-G02-PROBE-B-PRIVATE-R1",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G02-PROBE-B-BOTH-R1",
+      "other": "SC01-G02-PROBE-B-SHARED-R1",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G02-PROBE-A-BOTH-R1",
+      "other": "SC01-G02-PROBE-A-PRIVATE-R1",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G02-PROBE-A-BOTH-R1",
+      "other": "SC01-G02-PROBE-A-SHARED-R1",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G01-PROBE-B-BOTH-R1",
+      "other": "SC01-G01-PROBE-B-PRIVATE-R1",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G01-PROBE-B-BOTH-R1",
+      "other": "SC01-G01-PROBE-B-SHARED-R1",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G04-PROBE-B-BOTH-R1",
+      "other": "SC01-G04-PROBE-B-PRIVATE-R1",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G04-PROBE-B-BOTH-R1",
+      "other": "SC01-G04-PROBE-B-SHARED-R1",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G03-PROBE-A-BOTH-R1",
+      "other": "SC01-G03-PROBE-A-PRIVATE-R1",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G03-PROBE-A-BOTH-R1",
+      "other": "SC01-G03-PROBE-A-SHARED-R1",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G03-PROBE-B-BOTH-R1",
+      "other": "SC01-G03-PROBE-B-PRIVATE-R1",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G03-PROBE-B-BOTH-R1",
+      "other": "SC01-G03-PROBE-B-SHARED-R1",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G01-PROBE-A-BOTH-R1",
+      "other": "SC01-G01-PROBE-A-PRIVATE-R1",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G01-PROBE-A-BOTH-R1",
+      "other": "SC01-G01-PROBE-A-SHARED-R1",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G04-PROBE-A-BOTH-R1",
+      "other": "SC01-G04-PROBE-A-PRIVATE-R1",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G04-PROBE-A-BOTH-R1",
+      "other": "SC01-G04-PROBE-A-SHARED-R1",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G04-PROBE-A-BOTH-R2",
+      "other": "SC01-G04-PROBE-A-PRIVATE-R2",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G04-PROBE-A-BOTH-R2",
+      "other": "SC01-G04-PROBE-A-SHARED-R2",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G01-PROBE-A-BOTH-R2",
+      "other": "SC01-G01-PROBE-A-PRIVATE-R2",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G01-PROBE-A-BOTH-R2",
+      "other": "SC01-G01-PROBE-A-SHARED-R2",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G03-PROBE-B-BOTH-R2",
+      "other": "SC01-G03-PROBE-B-PRIVATE-R2",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G03-PROBE-B-BOTH-R2",
+      "other": "SC01-G03-PROBE-B-SHARED-R2",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G03-PROBE-A-BOTH-R2",
+      "other": "SC01-G03-PROBE-A-PRIVATE-R2",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G03-PROBE-A-BOTH-R2",
+      "other": "SC01-G03-PROBE-A-SHARED-R2",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G04-PROBE-B-BOTH-R2",
+      "other": "SC01-G04-PROBE-B-PRIVATE-R2",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G04-PROBE-B-BOTH-R2",
+      "other": "SC01-G04-PROBE-B-SHARED-R2",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G01-PROBE-B-BOTH-R2",
+      "other": "SC01-G01-PROBE-B-PRIVATE-R2",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G01-PROBE-B-BOTH-R2",
+      "other": "SC01-G01-PROBE-B-SHARED-R2",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G02-PROBE-A-BOTH-R2",
+      "other": "SC01-G02-PROBE-A-PRIVATE-R2",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G02-PROBE-A-BOTH-R2",
+      "other": "SC01-G02-PROBE-A-SHARED-R2",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G02-PROBE-B-BOTH-R2",
+      "other": "SC01-G02-PROBE-B-PRIVATE-R2",
+      "record": "PRIVATE",
+      "observed": true,
+      "same_record": true
+    },
+    {
+      "both": "SC01-G02-PROBE-B-BOTH-R2",
+      "other": "SC01-G02-PROBE-B-SHARED-R2",
+      "record": "GROUP",
+      "observed": true,
+      "same_record": true
+    }
+  ],
+  "editing_diagnostics": [
+    {
+      "group": "SC01-G01",
+      "draft_id": "SC01-G01-DRAFT-A",
+      "edit_id": "SC01-G01-EDIT-B",
+      "draft_correct": true,
+      "final_correct": true,
+      "same_note": true,
+      "repaired": false,
+      "introduced_error": false
+    },
+    {
+      "group": "SC01-G02",
+      "draft_id": "SC01-G02-DRAFT-A",
+      "edit_id": "SC01-G02-EDIT-B",
+      "draft_correct": false,
+      "final_correct": false,
+      "same_note": true,
+      "repaired": false,
+      "introduced_error": false
+    },
+    {
+      "group": "SC01-G03",
+      "draft_id": "SC01-G03-DRAFT-B",
+      "edit_id": "SC01-G03-EDIT-A",
+      "draft_correct": true,
+      "final_correct": true,
+      "same_note": true,
+      "repaired": false,
+      "introduced_error": false
+    },
+    {
+      "group": "SC01-G04",
+      "draft_id": "SC01-G04-DRAFT-B",
+      "edit_id": "SC01-G04-EDIT-A",
+      "draft_correct": false,
+      "final_correct": false,
+      "same_note": true,
+      "repaired": false,
+      "introduced_error": false
+    }
+  ],
+  "all_slot_statuses": [
+    {
+      "id": "SC01-G01-ENCODE-A",
+      "stage": "ENCODE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-ENCODE-A",
+      "stage": "ENCODE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-ENCODE-A",
+      "stage": "ENCODE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-ENCODE-B",
+      "stage": "ENCODE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-ENCODE-B",
+      "stage": "ENCODE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-ENCODE-A",
+      "stage": "ENCODE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-ENCODE-B",
+      "stage": "ENCODE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-ENCODE-B",
+      "stage": "ENCODE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-DRAFT-A",
+      "stage": "DRAFT",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-DRAFT-A",
+      "stage": "DRAFT",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-DRAFT-B",
+      "stage": "DRAFT",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-DRAFT-B",
+      "stage": "DRAFT",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-EDIT-A",
+      "stage": "EDIT",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-EDIT-A",
+      "stage": "EDIT",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-EDIT-B",
+      "stage": "EDIT",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-EDIT-B",
+      "stage": "EDIT",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-B-BOTH-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-B-PRIVATE-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-B-SHARED-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-A-BOTH-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-A-SHARED-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-A-PRIVATE-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-B-PRIVATE-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-B-BOTH-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-B-SHARED-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-B-PRIVATE-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-B-SHARED-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-B-BOTH-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-A-SHARED-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-A-BOTH-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-A-PRIVATE-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-B-SHARED-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-B-PRIVATE-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-B-BOTH-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-A-BOTH-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-A-PRIVATE-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-A-SHARED-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-A-BOTH-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-A-SHARED-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-A-PRIVATE-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-A-PRIVATE-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-A-SHARED-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-A-BOTH-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-A-SHARED-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-A-PRIVATE-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-A-BOTH-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-B-BOTH-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-B-PRIVATE-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-B-SHARED-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-A-PRIVATE-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-A-BOTH-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G03-PROBE-A-SHARED-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-B-BOTH-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-B-SHARED-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G04-PROBE-B-PRIVATE-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-B-SHARED-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-B-BOTH-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G01-PROBE-B-PRIVATE-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-A-PRIVATE-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-A-SHARED-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-A-BOTH-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-B-SHARED-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-B-PRIVATE-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SC01-G02-PROBE-B-BOTH-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    }
+  ]
+}

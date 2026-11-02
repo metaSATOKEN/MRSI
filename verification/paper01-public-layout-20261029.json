@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "byte_exact_relocations": {
+    "references/throughline/audits/paper-01-draft-20260920/source-evidence.json": "references/analysis/paper-01-draft-20260920/source-evidence.json",
+    "references/throughline/audits/paper-01-e1-brace-sensitivity-20260921/derived-evaluation.json": "references/analysis/paper-01-e1-brace-sensitivity-20260921/derived-evaluation.json",
+    "references/throughline/audits/paper-01-e1-brace-sensitivity-20260921/sensitivity-analysis.json": "references/analysis/paper-01-e1-brace-sensitivity-20260921/sensitivity-analysis.json",
+    "references/throughline/audits/paper-01-estimate-20260920/estimate.json": "references/analysis/paper-01-estimate-20260920/estimate.json",
+    "references/throughline/audits/paper-01-major-review-20260922/calculate.py": "references/analysis/paper-01-major-review-20260922/calculate.py",
+    "references/throughline/audits/paper-01-major-review-20260922/numerical-audit.json": "references/analysis/paper-01-major-review-20260922/numerical-audit.json",
+    "references/throughline/audits/paper-01-major-review-20260922/numerical-audit.md": "references/analysis/paper-01-major-review-20260922/numerical-audit.md",
+    "references/throughline/audits/paper-01-pair-live-20260921/e1-case-notes.md": "references/analysis/paper-01-pair-live-20260921/e1-case-notes.md",
+    "references/throughline/audits/paper-01-pair-resume1-20260921/combined-analysis.json": "references/analysis/paper-01-pair-resume1-20260921/combined-analysis.json",
+    "references/throughline/audits/paper-01-pair-resume1-20260921/continuation.json": "references/analysis/paper-01-pair-resume1-20260921/continuation.json",
+    "references/throughline/audits/paper-01-pair-resume1-20260921/readback.json": "references/analysis/paper-01-pair-resume1-20260921/readback.json",
+    "references/throughline/audits/paper-01-rereview-20260922/numerical-audit.json": "references/analysis/paper-01-rereview-20260922/numerical-audit.json",
+    "references/throughline/audits/paper-01-rereview-20260922/numerical-audit.md": "references/analysis/paper-01-rereview-20260922/numerical-audit.md",
+    "references/throughline/audits/paper-01-rereview-20260922/scorer-source-manifest.json": "references/analysis/paper-01-rereview-20260922/scorer-source-manifest.json",
+    "references/throughline/audits/paper-01-revision-v10-20260923/example-source-hashes.json": "references/analysis/paper-01-revision-v10-20260923/example-source-hashes.json",
+    "references/throughline/audits/prereg/paper-01-pair-resume1-v0.1.md": "references/analysis/prereg/paper-01-pair-resume1-v0.1.md"
+  },
+  "excluded_editorial_records": [
+    "references/throughline/audits/paper-01-readability-review-20260923/source-check.json",
+    "references/throughline/audits/paper-01-reader-claude-20260922/observations.json",
+    "references/throughline/audits/paper-01-reader-claude-20260922/retention-availability.json",
+    "references/throughline/audits/paper-01-retention-20260922/approved-scope.json",
+    "references/throughline/audits/paper-01-revision-v08-20260922/editorial-metrics.json",
+    "references/throughline/audits/paper-01-revision-v08-20260922/manuscript.diff",
+    "references/throughline/audits/paper-01-revision-v09-20260922/editorial-metrics.json",
+    "references/throughline/audits/paper-01-revision-v09-20260922/manuscript.diff",
+    "references/throughline/audits/paper-01-revision-v09-20260922/retention-availability.json",
+    "references/throughline/audits/paper-01-revision-v10-20260923/editorial-metrics.json",
+    "references/throughline/audits/paper-01-revision-v10-20260923/editorial-verification.json",
+    "references/throughline/audits/paper-01-revision-v10-20260923/manuscript.diff",
+    "references/throughline/audits/paper-01-revision-v10-20260923/retention-availability.json"
+  ],
+  "documentation_links_changed": [
+    "evidence/paper-01/RETENTION.md",
+    "evidence/paper-01/implementation-notes.md",
+    "evidence/paper-01/revision-notes.md",
+    "evidence/paper-01/README.md",
+    "evidence/paper-01/paper.md"
+  ],
+  "replay_change": {
+    "before": "ROOT/'references/throughline/audits/paper-01-rereview-20260922/numerical-audit.json'",
+    "after": "ROOT/'references/analysis/paper-01-rereview-20260922/numerical-audit.json'",
+    "other_replay_bytes_unchanged": true
+  },
+  "inner_manifest_files": 5966
+}

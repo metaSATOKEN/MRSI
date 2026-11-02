@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "archive_sha256": "6333e83dfe41d717b27183aad33d4bf2df8f9082001253cc0af4011e7ede6121",
+  "manifest_files_checked": 1261,
+  "original_source_files_byte_exact": 64,
+  "frozen_files_matched": 76,
+  "code_files_matched": 10,
+  "requests_and_rendered_prompts_checked": 128,
+  "interventions_checked": 128,
+  "changed_leaf_instances_checked": 256,
+  "raw_responses_independently_scored": 128,
+  "derived_actions_checked": 128,
+  "pair_runs": 16,
+  "condition_pairs": 64,
+  "P_contrasts": 64,
+  "G_contrasts": 64,
+  "normalized_envelopes": {
+    "UNWRAPPED": 125,
+    "UNCHANGED": 3
+  },
+  "archived_reports_matched": 2,
+  "old_anchors_unchanged": 182,
+  "new_model_generations": 0,
+  "local_model_loads": 0
+}

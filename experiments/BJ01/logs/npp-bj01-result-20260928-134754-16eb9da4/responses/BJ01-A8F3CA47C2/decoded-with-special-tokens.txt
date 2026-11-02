@@ -1,0 +1,53 @@
+{
+  "judgment_id": "BJ01-A8F3CA47C2",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer",
+        "/answer/local",
+        "/answer/team"
+      ],
+      "evidence_pointers": [
+        "/contract/schema"
+      ],
+      "reason": "答案はschemaで定義されたrequiredフィールドを全て持ち、追加プロパティも存在しない。型と列挙値も一致している。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/local/subject",
+        "/answer/local/evidence_refs",
+        "/answer/team/evidence_refs"
+      ],
+      "evidence_pointers": [
+        "/payload/holder",
+        "/payload/experiences",
+        "/payload/joint_records"
+      ],
+      "reason": "local.subjectはholderのBと一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsは全joint_recordsのIDと一致している。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/local/choice"
+      ],
+      "evidence_pointers": [
+        "/facts/roles/B/success_totals"
+      ],
+      "reason": "Bの累積成功率はPAPER(23)よりDIGITAL(27)が高い。答案のDIGITAL選択は規則に合致する。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/team/allocation",
+        "/answer/team/basis"
+      ],
+      "evidence_pointers": [
+        "/payload/joint_records",
+        "/facts/feasible_allocations"
+      ],
+      "reason": "Aの提案とBのACCEPTが存在し、割付は予測合計最大のA:PAPER/B:DIGITALと一致。SHARED_DECISIONの判定は正しい。"
+    }
+  }
+}<|im_end|>

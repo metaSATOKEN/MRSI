@@ -1,0 +1,241 @@
+{
+  "status": "PASS_INDEPENDENT_CONTINUATION_READBACK",
+  "checks": 5298,
+  "new_physical_requests": 63,
+  "new_raw_answers": 63,
+  "combined_e2_answers": 192,
+  "combined_saved_e2_states": 96,
+  "new_usage_tokens": 91735,
+  "new_usage_unknown_attempts": 0,
+  "reported_models": {
+    "gpt-5.6-luna": 63
+  },
+  "original_E1_unchanged": true,
+  "original_129_E2_unchanged": true,
+  "analysis_E2": {
+    "CORRECT/ID_ONLY": {
+      "completion": {
+        "groups": {
+          "E2-G01": true,
+          "E2-G02": true,
+          "E2-G03": true,
+          "E2-G04": true,
+          "E2-G05": true,
+          "E2-G06": true,
+          "E2-G07": true,
+          "E2-G08": true
+        },
+        "fixed_n": 8,
+        "bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      "evidence_appropriate": {
+        "groups": {
+          "E2-G01": true,
+          "E2-G02": true,
+          "E2-G03": true,
+          "E2-G04": true,
+          "E2-G05": true,
+          "E2-G06": true,
+          "E2-G07": true,
+          "E2-G08": true
+        },
+        "fixed_n": 8,
+        "bounds": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "CORRECT/DETAILS": {
+      "completion": {
+        "groups": {
+          "E2-G01": true,
+          "E2-G02": true,
+          "E2-G03": true,
+          "E2-G04": true,
+          "E2-G05": true,
+          "E2-G06": true,
+          "E2-G07": true,
+          "E2-G08": true
+        },
+        "fixed_n": 8,
+        "bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      "evidence_appropriate": {
+        "groups": {
+          "E2-G01": true,
+          "E2-G02": true,
+          "E2-G03": true,
+          "E2-G04": true,
+          "E2-G05": true,
+          "E2-G06": true,
+          "E2-G07": true,
+          "E2-G08": true
+        },
+        "fixed_n": 8,
+        "bounds": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "OLD/ID_ONLY": {
+      "completion": {
+        "groups": {
+          "E2-G01": false,
+          "E2-G02": false,
+          "E2-G03": false,
+          "E2-G04": false,
+          "E2-G05": false,
+          "E2-G06": false,
+          "E2-G07": false,
+          "E2-G08": false
+        },
+        "fixed_n": 8,
+        "bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "evidence_appropriate": {
+        "groups": {
+          "E2-G01": true,
+          "E2-G02": true,
+          "E2-G03": true,
+          "E2-G04": true,
+          "E2-G05": true,
+          "E2-G06": true,
+          "E2-G07": true,
+          "E2-G08": true
+        },
+        "fixed_n": 8,
+        "bounds": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "OLD/DETAILS": {
+      "completion": {
+        "groups": {
+          "E2-G01": true,
+          "E2-G02": true,
+          "E2-G03": true,
+          "E2-G04": true,
+          "E2-G05": true,
+          "E2-G06": true,
+          "E2-G07": true,
+          "E2-G08": true
+        },
+        "fixed_n": 8,
+        "bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      "evidence_appropriate": {
+        "groups": {
+          "E2-G01": true,
+          "E2-G02": true,
+          "E2-G03": true,
+          "E2-G04": true,
+          "E2-G05": true,
+          "E2-G06": true,
+          "E2-G07": true,
+          "E2-G08": true
+        },
+        "fixed_n": 8,
+        "bounds": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "ABSENT/ID_ONLY": {
+      "completion": {
+        "groups": {
+          "E2-G01": false,
+          "E2-G02": false,
+          "E2-G03": false,
+          "E2-G04": false,
+          "E2-G05": false,
+          "E2-G06": false,
+          "E2-G07": false,
+          "E2-G08": false
+        },
+        "fixed_n": 8,
+        "bounds": [
+          0.0,
+          0.0
+        ]
+      },
+      "evidence_appropriate": {
+        "groups": {
+          "E2-G01": true,
+          "E2-G02": true,
+          "E2-G03": true,
+          "E2-G04": true,
+          "E2-G05": true,
+          "E2-G06": true,
+          "E2-G07": true,
+          "E2-G08": true
+        },
+        "fixed_n": 8,
+        "bounds": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "ABSENT/DETAILS": {
+      "completion": {
+        "groups": {
+          "E2-G01": true,
+          "E2-G02": true,
+          "E2-G03": true,
+          "E2-G04": true,
+          "E2-G05": true,
+          "E2-G06": true,
+          "E2-G07": true,
+          "E2-G08": true
+        },
+        "fixed_n": 8,
+        "bounds": [
+          1.0,
+          1.0
+        ]
+      },
+      "evidence_appropriate": {
+        "groups": {
+          "E2-G01": true,
+          "E2-G02": true,
+          "E2-G03": true,
+          "E2-G04": true,
+          "E2-G05": true,
+          "E2-G06": true,
+          "E2-G07": true,
+          "E2-G08": true
+        },
+        "fixed_n": 8,
+        "bounds": [
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "control_gate": {
+    "ID_ONLY": "ESTABLISHED",
+    "DETAILS": "ESTABLISHED"
+  },
+  "evidence_response_counts": {
+    "True": 192
+  },
+  "scope": "Separate implementation using the previously tested independent reader; not third-party blind review."
+}

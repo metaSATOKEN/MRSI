@@ -1,0 +1,132 @@
+[
+  {
+    "figure": "figure-01-information-flow-en-v1",
+    "checks": [
+      {
+        "text": "Code supplies original experiences and numerical summaries\nFORM: own experience + summary\nVOTE / READ: all roles’ experiences + own summary + two candidate totals",
+        "inside_box": true
+      },
+      {
+        "text": "LLM · FORM\nHolder + recommendation\nOwn evidence IDs",
+        "inside_box": true
+      },
+      {
+        "text": "LLM · VOTE\nRetain own information\nACCEPT / HOLD on the proposal",
+        "inside_box": true
+      },
+      {
+        "text": "LLM · READ\nOwn note + A/B/C states\nAgreement + execution",
+        "inside_box": true
+      },
+      {
+        "text": "Code carries the actual votes forward\nSender + proposal ID + decision; no replacement by the expected vote",
+        "inside_box": true
+      },
+      {
+        "text": "Own note supplied at READ\nAlready voted: own fields from VOTE\nOtherwise: own fields from FORM",
+        "inside_box": true
+      },
+      {
+        "text": "Preserving judgments while reading actual votes",
+        "inside_canvas": true
+      },
+      {
+        "text": "Same model, three roles; a fresh context for every LLM call.",
+        "inside_canvas": true
+      },
+      {
+        "text": "Code supplies original experiences and numerical summaries\nFORM: own experience + summary\nVOTE / READ: all roles’ experiences + own summary + two candidate totals",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM · FORM\nHolder + recommendation\nOwn evidence IDs",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM · VOTE\nRetain own information\nACCEPT / HOLD on the proposal",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM · READ\nOwn note + A/B/C states\nAgreement + execution",
+        "inside_canvas": true
+      },
+      {
+        "text": "Own\nnote",
+        "inside_canvas": true
+      },
+      {
+        "text": "Code carries the actual votes forward\nSender + proposal ID + decision; no replacement by the expected vote",
+        "inside_canvas": true
+      },
+      {
+        "text": "Own note supplied at READ\nAlready voted: own fields from VOTE\nOtherwise: own fields from FORM",
+        "inside_canvas": true
+      },
+      {
+        "text": "Matched approval-state comparison (TAR01)",
+        "inside_canvas": true
+      },
+      {
+        "text": "Reuse a fixed FORM own note and proposal; vary one received vote: MISSING / HOLD / ACCEPT.",
+        "inside_canvas": true
+      },
+      {
+        "text": "Evaluate each READ response. Generated readout states are not fed into later stages.",
+        "inside_canvas": true
+      }
+    ]
+  },
+  {
+    "figure": "figure-02-actual-vote-readout-en-v1",
+    "checks": [
+      {
+        "text": "C’s own experience\nPAPER: 26 / 40     DIGITAL: 29 / 40\nOwn recommendation: DIGITAL",
+        "inside_box": true
+      },
+      {
+        "text": "Two joint candidates\nA PAPER / B DIGITAL / C PAPER: 90\nA PAPER / B PAPER / C DIGITAL: 84",
+        "inside_box": true
+      },
+      {
+        "text": "C votes HOLD on the 90 proposal\nOwn recommendation + evidence: correct\nVote: incorrect for the numerical objective",
+        "inside_box": true
+      },
+      {
+        "text": "Actual received votes\nA: ACCEPT     B: ACCEPT     C: HOLD\nThe recorded HOLD is carried forward",
+        "inside_box": true
+      },
+      {
+        "text": "All three readers: C = HOLD; agreement = PENDING; execution = HOLD\nReadout is correct against the received votes. It does not revise the vote.",
+        "inside_box": true
+      },
+      {
+        "text": "An incorrect vote can be read correctly",
+        "inside_canvas": true
+      },
+      {
+        "text": "TB01 · Case T02, first technical replicate · Different stages use different reference evidence.",
+        "inside_canvas": true
+      },
+      {
+        "text": "C’s own experience\nPAPER: 26 / 40     DIGITAL: 29 / 40\nOwn recommendation: DIGITAL",
+        "inside_canvas": true
+      },
+      {
+        "text": "Two joint candidates\nA PAPER / B DIGITAL / C PAPER: 90\nA PAPER / B PAPER / C DIGITAL: 84",
+        "inside_canvas": true
+      },
+      {
+        "text": "C votes HOLD on the 90 proposal\nOwn recommendation + evidence: correct\nVote: incorrect for the numerical objective",
+        "inside_canvas": true
+      },
+      {
+        "text": "Actual received votes\nA: ACCEPT     B: ACCEPT     C: HOLD\nThe recorded HOLD is carried forward",
+        "inside_canvas": true
+      },
+      {
+        "text": "All three readers: C = HOLD; agreement = PENDING; execution = HOLD\nReadout is correct against the received votes. It does not revise the vote.",
+        "inside_canvas": true
+      }
+    ]
+  }
+]

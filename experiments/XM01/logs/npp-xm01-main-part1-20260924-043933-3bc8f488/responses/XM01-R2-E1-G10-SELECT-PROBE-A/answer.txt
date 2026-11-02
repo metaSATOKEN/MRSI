@@ -1,0 +1,24 @@
+{
+  "decision": {
+    "mascot": "CAT",
+    "channel": "PAPER"
+  },
+  "read_receipt": {
+    "mascot_record_refs": [
+      "PRIVATE"
+    ],
+    "channel_record_refs": [
+      "PRIVATE",
+      "GROUP"
+    ]
+  },
+  "origin_ids": {
+    "mascot": [
+      "RF43DF6CF20A6385"
+    ],
+    "channel": [
+      "RA59A29CE41597AC",
+      "R3FD1C22748C77E7"
+    ]
+  }
+}

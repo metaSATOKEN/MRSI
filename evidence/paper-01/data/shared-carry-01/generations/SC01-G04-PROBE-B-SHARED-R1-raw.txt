@@ -1,0 +1,1 @@
+{"mascot":"UNKNOWN","mascot_sources":[],"channel":"PAPER","channel_sources":["GROUP"]}

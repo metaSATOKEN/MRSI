@@ -1,0 +1,668 @@
+[
+  {
+    "id": "TB01-T02-R1-FORM-B",
+    "raw_answer": "{\"own\":{\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"],\"holder\":\"B\",\"recommendation\":\"DIGITAL\"}}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は本人推奨の形成だけを行う。共同の投票や割付は出力しない。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2}],\"holder\":\"B\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":33,\"success\":33,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":24,\"success\":24,\"trials\":40}},\"owner\":\"B\",\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"]},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 2000860871,
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    }
+  },
+  {
+    "id": "TB01-T02-R1-FORM-C",
+    "raw_answer": "{\"own\":{\"holder\":\"C\",\"recommendation\":\"DIGITAL\",\"evidence_ids\":[\"E17a6811913\",\"E7f43af16ff\"]}}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は本人推奨の形成だけを行う。共同の投票や割付は出力しない。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"experiences\":[{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2}],\"holder\":\"C\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":29,\"success\":29,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":26,\"success\":26,\"trials\":40}},\"owner\":\"C\",\"source_ids\":[\"E17a6811913\",\"E7f43af16ff\"]},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 1295661732,
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    }
+  },
+  {
+    "id": "TB01-T02-R1-FORM-A",
+    "raw_answer": "{\"own\":{\"holder\":\"A\",\"recommendation\":\"PAPER\",\"evidence_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]}}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は本人推奨の形成だけを行う。共同の投票や割付は出力しない。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"experiences\":[{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"A\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":17,\"success\":17,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":31,\"success\":31,\"trials\":40}},\"owner\":\"A\",\"source_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 754132083,
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    }
+  },
+  {
+    "id": "TB01-T02-R1-HIGHER-VOTE-B",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"B\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"Ed4f2ba7f2d\",\n      \"Ec85b5abf44\"\n    ]\n  },\n  \"vote\": {\n    \"proposal_id\": \"Pf2bf9e54\",\n    \"decision\": \"ACCEPT\"\n  }\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は提示されたproposalを本人として確認する。合計が高い候補ならACCEPT、低い候補ならHOLD。同意は本人一人の分だけであり他人の承認を代行しない。proposal_idは提示されたものをそのまま書く。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"B\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":33,\"success\":33,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":24,\"success\":24,\"trials\":40}},\"owner\":\"B\",\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"]},\"own_saved_note\":{\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"],\"holder\":\"B\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"},\"vote\":{\"additionalProperties\":false,\"properties\":{\"decision\":{\"enum\":[\"ACCEPT\",\"HOLD\"],\"type\":\"string\"},\"proposal_id\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"}},\"required\":[\"proposal_id\",\"decision\"],\"type\":\"object\"}},\"required\":[\"own\",\"vote\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 1342776735,
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    }
+  },
+  {
+    "id": "TB01-T02-R1-HIGHER-VOTE-A",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"A\",\n    \"recommendation\": \"PAPER\",\n    \"evidence_ids\": [\n      \"E7ca852043d\",\n      \"E9ee9ef56a6\"\n    ]\n  },\n  \"vote\": {\n    \"proposal_id\": \"Pf2bf9e54\",\n    \"decision\": \"ACCEPT\"\n  }\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は提示されたproposalを本人として確認する。合計が高い候補ならACCEPT、低い候補ならHOLD。同意は本人一人の分だけであり他人の承認を代行しない。proposal_idは提示されたものをそのまま書く。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"A\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":17,\"success\":17,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":31,\"success\":31,\"trials\":40}},\"owner\":\"A\",\"source_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]},\"own_saved_note\":{\"evidence_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"],\"holder\":\"A\",\"recommendation\":\"PAPER\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"},\"vote\":{\"additionalProperties\":false,\"properties\":{\"decision\":{\"enum\":[\"ACCEPT\",\"HOLD\"],\"type\":\"string\"},\"proposal_id\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"}},\"required\":[\"proposal_id\",\"decision\"],\"type\":\"object\"}},\"required\":[\"own\",\"vote\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 903847222,
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    }
+  },
+  {
+    "id": "TB01-T02-R1-HIGHER-TWO_RECEIVED-B",
+    "raw_answer": "{\"agreement\":\"PENDING\",\"approval_state\":{\"A\":\"ACCEPT\",\"B\":\"ACCEPT\",\"C\":\"MISSING\"},\"joint_action\":\"HOLD\",\"own\":{\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"],\"holder\":\"B\",\"recommendation\":\"DIGITAL\"}}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"B\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":33,\"success\":33,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":24,\"success\":24,\"trials\":40}},\"owner\":\"B\",\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"]},\"own_saved_note\":{\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"],\"holder\":\"B\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 1321248403,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R1-HIGHER-TWO_RECEIVED-C",
+    "raw_answer": "{\"agreement\":\"PENDING\",\"approval_state\":{\"A\":\"ACCEPT\",\"B\":\"ACCEPT\",\"C\":\"MISSING\"},\"joint_action\":\"HOLD\",\"own\":{\"evidence_ids\":[\"E17a6811913\",\"E7f43af16ff\"],\"holder\":\"C\",\"recommendation\":\"DIGITAL\"}}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"C\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":29,\"success\":29,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":26,\"success\":26,\"trials\":40}},\"owner\":\"C\",\"source_ids\":[\"E17a6811913\",\"E7f43af16ff\"]},\"own_saved_note\":{\"evidence_ids\":[\"E17a6811913\",\"E7f43af16ff\"],\"holder\":\"C\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 44197913,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R1-HIGHER-TWO_RECEIVED-A",
+    "raw_answer": "{\"own\":{\"holder\":\"A\",\"recommendation\":\"PAPER\",\"evidence_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]},\"approval_state\":{\"A\":\"ACCEPT\",\"B\":\"ACCEPT\",\"C\":\"MISSING\"},\"agreement\":\"PENDING\",\"joint_action\":\"HOLD\"}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"A\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":17,\"success\":17,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":31,\"success\":31,\"trials\":40}},\"owner\":\"A\",\"source_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]},\"own_saved_note\":{\"evidence_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"],\"holder\":\"A\",\"recommendation\":\"PAPER\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 950390028,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R1-HIGHER-VOTE-C",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"C\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\"E17a6811913\", \"E7f43af16ff\"]\n  },\n  \"vote\": {\n    \"proposal_id\": \"Pf2bf9e54\",\n    \"decision\": \"HOLD\"\n  }\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は提示されたproposalを本人として確認する。合計が高い候補ならACCEPT、低い候補ならHOLD。同意は本人一人の分だけであり他人の承認を代行しない。proposal_idは提示されたものをそのまま書く。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"C\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":29,\"success\":29,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":26,\"success\":26,\"trials\":40}},\"owner\":\"C\",\"source_ids\":[\"E17a6811913\",\"E7f43af16ff\"]},\"own_saved_note\":{\"evidence_ids\":[\"E17a6811913\",\"E7f43af16ff\"],\"holder\":\"C\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"},\"vote\":{\"additionalProperties\":false,\"properties\":{\"decision\":{\"enum\":[\"ACCEPT\",\"HOLD\"],\"type\":\"string\"},\"proposal_id\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"}},\"required\":[\"proposal_id\",\"decision\"],\"type\":\"object\"}},\"required\":[\"own\",\"vote\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 1224915157,
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": false
+    }
+  },
+  {
+    "id": "TB01-T02-R1-HIGHER-THREE_RECEIVED-B",
+    "raw_answer": "{\"own\":{\"holder\":\"B\",\"recommendation\":\"DIGITAL\",\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"]},\"approval_state\":{\"A\":\"ACCEPT\",\"B\":\"ACCEPT\",\"C\":\"HOLD\"},\"agreement\":\"PENDING\",\"joint_action\":\"HOLD\"}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"B\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":33,\"success\":33,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":24,\"success\":24,\"trials\":40}},\"owner\":\"B\",\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"]},\"own_saved_note\":{\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"],\"holder\":\"B\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"},{\"decision\":\"HOLD\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"C\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 1133669470,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R1-HIGHER-THREE_RECEIVED-C",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"C\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"E17a6811913\",\n      \"E7f43af16ff\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"ACCEPT\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"HOLD\"\n  },\n  \"agreement\": \"PENDING\",\n  \"joint_action\": \"HOLD\"\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"C\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":29,\"success\":29,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":26,\"success\":26,\"trials\":40}},\"owner\":\"C\",\"source_ids\":[\"E17a6811913\",\"E7f43af16ff\"]},\"own_saved_note\":{\"evidence_ids\":[\"E17a6811913\",\"E7f43af16ff\"],\"holder\":\"C\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"},{\"decision\":\"HOLD\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"C\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 817177603,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R1-HIGHER-THREE_RECEIVED-A",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"A\",\n    \"recommendation\": \"PAPER\",\n    \"evidence_ids\": [\n      \"E7ca852043d\",\n      \"E9ee9ef56a6\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"ACCEPT\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"HOLD\"\n  },\n  \"agreement\": \"PENDING\",\n  \"joint_action\": \"HOLD\"\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"A\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":17,\"success\":17,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":31,\"success\":31,\"trials\":40}},\"owner\":\"A\",\"source_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]},\"own_saved_note\":{\"evidence_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"],\"holder\":\"A\",\"recommendation\":\"PAPER\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"},{\"decision\":\"HOLD\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"C\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 737739197,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-FORM-B",
+    "raw_answer": "{\"own\":{\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"],\"holder\":\"B\",\"recommendation\":\"DIGITAL\"}}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は本人推奨の形成だけを行う。共同の投票や割付は出力しない。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2}],\"holder\":\"B\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":33,\"success\":33,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":24,\"success\":24,\"trials\":40}},\"owner\":\"B\",\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"]},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 1069636156,
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-FORM-C",
+    "raw_answer": "{\"own\":{\"holder\":\"C\",\"recommendation\":\"DIGITAL\",\"evidence_ids\":[\"E17a6811913\",\"E7f43af16ff\"]}}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は本人推奨の形成だけを行う。共同の投票や割付は出力しない。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"experiences\":[{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2}],\"holder\":\"C\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":29,\"success\":29,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":26,\"success\":26,\"trials\":40}},\"owner\":\"C\",\"source_ids\":[\"E17a6811913\",\"E7f43af16ff\"]},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 1483147470,
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-FORM-A",
+    "raw_answer": "{\"own\":{\"holder\":\"A\",\"recommendation\":\"PAPER\",\"evidence_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]}}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は本人推奨の形成だけを行う。共同の投票や割付は出力しない。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"experiences\":[{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"A\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":17,\"success\":17,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":31,\"success\":31,\"trials\":40}},\"owner\":\"A\",\"source_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 51336771,
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-HIGHER-VOTE-B",
+    "raw_answer": "{\"own\":{\"holder\":\"B\",\"recommendation\":\"DIGITAL\",\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"]},\"vote\":{\"proposal_id\":\"Pf2bf9e54\",\"decision\":\"ACCEPT\"}}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は提示されたproposalを本人として確認する。合計が高い候補ならACCEPT、低い候補ならHOLD。同意は本人一人の分だけであり他人の承認を代行しない。proposal_idは提示されたものをそのまま書く。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"B\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":33,\"success\":33,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":24,\"success\":24,\"trials\":40}},\"owner\":\"B\",\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"]},\"own_saved_note\":{\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"],\"holder\":\"B\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"},\"vote\":{\"additionalProperties\":false,\"properties\":{\"decision\":{\"enum\":[\"ACCEPT\",\"HOLD\"],\"type\":\"string\"},\"proposal_id\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"}},\"required\":[\"proposal_id\",\"decision\"],\"type\":\"object\"}},\"required\":[\"own\",\"vote\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 602110541,
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-HIGHER-VOTE-A",
+    "raw_answer": "{\"own\":{\"holder\":\"A\",\"recommendation\":\"PAPER\",\"evidence_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]},\"vote\":{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\"}}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は提示されたproposalを本人として確認する。合計が高い候補ならACCEPT、低い候補ならHOLD。同意は本人一人の分だけであり他人の承認を代行しない。proposal_idは提示されたものをそのまま書く。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"A\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":17,\"success\":17,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":31,\"success\":31,\"trials\":40}},\"owner\":\"A\",\"source_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]},\"own_saved_note\":{\"evidence_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"],\"holder\":\"A\",\"recommendation\":\"PAPER\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"},\"vote\":{\"additionalProperties\":false,\"properties\":{\"decision\":{\"enum\":[\"ACCEPT\",\"HOLD\"],\"type\":\"string\"},\"proposal_id\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"}},\"required\":[\"proposal_id\",\"decision\"],\"type\":\"object\"}},\"required\":[\"own\",\"vote\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 2045818538,
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-HIGHER-TWO_RECEIVED-B",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"B\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"Ed4f2ba7f2d\",\n      \"Ec85b5abf44\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"ACCEPT\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"MISSING\"\n  },\n  \"agreement\": \"PENDING\",\n  \"joint_action\": \"HOLD\"\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"B\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":33,\"success\":33,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":24,\"success\":24,\"trials\":40}},\"owner\":\"B\",\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"]},\"own_saved_note\":{\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"],\"holder\":\"B\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 493973345,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-HIGHER-TWO_RECEIVED-C",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"C\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"E17a6811913\",\n      \"E7f43af16ff\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"ACCEPT\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"MISSING\"\n  },\n  \"agreement\": \"PENDING\",\n  \"joint_action\": \"HOLD\"\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"C\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":29,\"success\":29,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":26,\"success\":26,\"trials\":40}},\"owner\":\"C\",\"source_ids\":[\"E17a6811913\",\"E7f43af16ff\"]},\"own_saved_note\":{\"evidence_ids\":[\"E17a6811913\",\"E7f43af16ff\"],\"holder\":\"C\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 65089841,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-HIGHER-TWO_RECEIVED-A",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"A\",\n    \"recommendation\": \"PAPER\",\n    \"evidence_ids\": [\n      \"E7ca852043d\",\n      \"E9ee9ef56a6\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"ACCEPT\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"MISSING\"\n  },\n  \"agreement\": \"PENDING\",\n  \"joint_action\": \"HOLD\"\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"A\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":17,\"success\":17,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":31,\"success\":31,\"trials\":40}},\"owner\":\"A\",\"source_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]},\"own_saved_note\":{\"evidence_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"],\"holder\":\"A\",\"recommendation\":\"PAPER\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 1998218752,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-HIGHER-VOTE-C",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"C\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\"E17a6811913\", \"E7f43af16ff\"]\n  },\n  \"vote\": {\n    \"proposal_id\": \"Pf2bf9e54\",\n    \"decision\": \"ACCEPT\"\n  }\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は提示されたproposalを本人として確認する。合計が高い候補ならACCEPT、低い候補ならHOLD。同意は本人一人の分だけであり他人の承認を代行しない。proposal_idは提示されたものをそのまま書く。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"C\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":29,\"success\":29,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":26,\"success\":26,\"trials\":40}},\"owner\":\"C\",\"source_ids\":[\"E17a6811913\",\"E7f43af16ff\"]},\"own_saved_note\":{\"evidence_ids\":[\"E17a6811913\",\"E7f43af16ff\"],\"holder\":\"C\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"},\"vote\":{\"additionalProperties\":false,\"properties\":{\"decision\":{\"enum\":[\"ACCEPT\",\"HOLD\"],\"type\":\"string\"},\"proposal_id\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"}},\"required\":[\"proposal_id\",\"decision\"],\"type\":\"object\"}},\"required\":[\"own\",\"vote\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 2033413053,
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-HIGHER-THREE_RECEIVED-B",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"B\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"Ed4f2ba7f2d\",\n      \"Ec85b5abf44\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"ACCEPT\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"ACCEPT\"\n  },\n  \"agreement\": \"AGREED\",\n  \"joint_action\": \"DIGITAL\"\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"B\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":33,\"success\":33,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":24,\"success\":24,\"trials\":40}},\"owner\":\"B\",\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"]},\"own_saved_note\":{\"evidence_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\"],\"holder\":\"B\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"C\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 43456053,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-HIGHER-THREE_RECEIVED-C",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"C\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"E17a6811913\",\n      \"E7f43af16ff\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"ACCEPT\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"ACCEPT\"\n  },\n  \"agreement\": \"AGREED\",\n  \"joint_action\": \"PAPER\"\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"C\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":29,\"success\":29,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":26,\"success\":26,\"trials\":40}},\"owner\":\"C\",\"source_ids\":[\"E17a6811913\",\"E7f43af16ff\"]},\"own_saved_note\":{\"evidence_ids\":[\"E17a6811913\",\"E7f43af16ff\"],\"holder\":\"C\",\"recommendation\":\"DIGITAL\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"C\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 1641649452,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  },
+  {
+    "id": "TB01-T02-R2-HIGHER-THREE_RECEIVED-A",
+    "raw_answer": "{\n  \"own\": {\n    \"holder\": \"A\",\n    \"recommendation\": \"PAPER\",\n    \"evidence_ids\": [\n      \"E7ca852043d\",\n      \"E9ee9ef56a6\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"ACCEPT\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"ACCEPT\"\n  },\n  \"agreement\": \"AGREED\",\n  \"joint_action\": \"PAPER\"\n}",
+    "messages": [
+      {
+        "content": "あなたは三人の担当者のうちholderで示された本人です。出力は指定schemaのJSON一個だけ。説明文や追加キーは出さない。\n各人は自分の客に案内する媒体をPAPERまたはDIGITALから推奨する。本人推奨は自分の全経験を合算した成功人数/試行人数の高い媒体とする。ownには本人のholder、推奨、本人の全経験のIDを記録する。他人の経験を本人の根拠に混ぜない。\n共同作業では資源の数が限られる。提示された二つの実行可能な候補のうち、三人分の予測成功人数の合計が高い候補が適切である。本人推奨と共同で担当する媒体は異なってよい。共同担当に合わせて本人推奨を書き換えない。\n本人集計と共同候補の合計は、それぞれ対応する経験から計算済みの補助資料である。保存ノートは過去の本人の出力であり、経験資料より優先する正解ではない。\n合意成立には、同一proposal_idへのA、B、C全員の明示的ACCEPTが必要。二人の賛成や未返答者の推測では成立しない。候補の合計がよいことも、全員の承認の代わりにはならない。\n今回は保存された投票記録の読出しを行う。ownは本人の経験に基づく推奨を記す。\nreceiptsのsenderは保存器が当事者に結び付けた身元である。approval_stateには各senderの同一proposal_idへの実際のdecisionを記す。該当senderの記録がなければMISSING、別proposal_idへの票ならWRONG_PROPOSALとする。\n全員が同一案へACCEPTならAGREEDとし、その案の本人担当をjoint_actionへ転記する。それ以外はPENDINGとしjoint_actionはHOLDとする。読出しでは合意の再最適化や新しい投票をしない。合意の有無と案の良し悪しは別に報告する。\n",
+        "role": "system"
+      },
+      {
+        "content": "{\"candidates\":[{\"assignment\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\",\"C\":\"PAPER\"},\"candidate_id\":\"C2\",\"expected_success_by_role\":{\"A\":31,\"B\":33,\"C\":26},\"expected_total\":90,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]},{\"assignment\":{\"A\":\"PAPER\",\"B\":\"PAPER\",\"C\":\"DIGITAL\"},\"candidate_id\":\"C1\",\"expected_success_by_role\":{\"A\":31,\"B\":24,\"C\":29},\"expected_total\":84,\"source_ids\":[\"Ed4f2ba7f2d\",\"Ec85b5abf44\",\"E17a6811913\",\"E7f43af16ff\",\"E7ca852043d\",\"E9ee9ef56a6\"]}],\"experiences\":[{\"id\":\"Ed4f2ba7f2d\",\"observed\":{\"DIGITAL\":{\"success\":18,\"trials\":20},\"PAPER\":{\"success\":10,\"trials\":20}},\"owner\":\"B\",\"session\":1},{\"id\":\"Ec85b5abf44\",\"observed\":{\"DIGITAL\":{\"success\":15,\"trials\":20},\"PAPER\":{\"success\":14,\"trials\":20}},\"owner\":\"B\",\"session\":2},{\"id\":\"E17a6811913\",\"observed\":{\"DIGITAL\":{\"success\":16,\"trials\":20},\"PAPER\":{\"success\":11,\"trials\":20}},\"owner\":\"C\",\"session\":1},{\"id\":\"E7f43af16ff\",\"observed\":{\"DIGITAL\":{\"success\":13,\"trials\":20},\"PAPER\":{\"success\":15,\"trials\":20}},\"owner\":\"C\",\"session\":2},{\"id\":\"E7ca852043d\",\"observed\":{\"DIGITAL\":{\"success\":10,\"trials\":20},\"PAPER\":{\"success\":13,\"trials\":20}},\"owner\":\"A\",\"session\":1},{\"id\":\"E9ee9ef56a6\",\"observed\":{\"DIGITAL\":{\"success\":7,\"trials\":20},\"PAPER\":{\"success\":18,\"trials\":20}},\"owner\":\"A\",\"session\":2}],\"holder\":\"A\",\"own_experience_summary\":{\"by_medium\":{\"DIGITAL\":{\"expected_success_for_40\":17,\"success\":17,\"trials\":40},\"PAPER\":{\"expected_success_for_40\":31,\"success\":31,\"trials\":40}},\"owner\":\"A\",\"source_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"]},\"own_saved_note\":{\"evidence_ids\":[\"E7ca852043d\",\"E9ee9ef56a6\"],\"holder\":\"A\",\"recommendation\":\"PAPER\"},\"proposal\":{\"candidate_id\":\"C2\",\"proposal_id\":\"Pf2bf9e54\"},\"receipts\":[{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"B\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"A\"},{\"decision\":\"ACCEPT\",\"proposal_id\":\"Pf2bf9e54\",\"sender\":\"C\"}],\"resource_count\":{\"DIGITAL\":1,\"PAPER\":2},\"scene\":\"地域の展示会\",\"schema\":{\"additionalProperties\":false,\"properties\":{\"agreement\":{\"enum\":[\"AGREED\",\"PENDING\"],\"type\":\"string\"},\"approval_state\":{\"additionalProperties\":false,\"properties\":{\"A\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"B\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"},\"C\":{\"enum\":[\"ACCEPT\",\"HOLD\",\"MISSING\",\"WRONG_PROPOSAL\"],\"type\":\"string\"}},\"required\":[\"A\",\"B\",\"C\"],\"type\":\"object\"},\"joint_action\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"HOLD\"],\"type\":\"string\"},\"own\":{\"additionalProperties\":false,\"properties\":{\"evidence_ids\":{\"items\":{\"maxLength\":128,\"minLength\":1,\"type\":\"string\"},\"maxItems\":6,\"minItems\":1,\"type\":\"array\"},\"holder\":{\"enum\":[\"A\",\"B\",\"C\"],\"type\":\"string\"},\"recommendation\":{\"enum\":[\"PAPER\",\"DIGITAL\"],\"type\":\"string\"}},\"required\":[\"holder\",\"recommendation\",\"evidence_ids\"],\"type\":\"object\"}},\"required\":[\"own\",\"approval_state\",\"agreement\",\"joint_action\"],\"type\":\"object\"}}",
+        "role": "user"
+      }
+    ],
+    "seed": 162392741,
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    }
+  }
+]

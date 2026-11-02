@@ -1,0 +1,1 @@
+{"local":{"subject":"A","choice":"PAPER","evidence_refs":["E837D9C0A7F","E803DE431C3","E2B2525699D"]},"reply":{"action":"ACCEPT","reply_to":"Q28D078BEB6","allocation":{"A":"PAPER","B":"DIGITAL"},"evidence_refs":["E837D9C0A7F","E803DE431C3","EC1822CA588","E4553017BC5","E2B2525699D"]}}<|im_end|>

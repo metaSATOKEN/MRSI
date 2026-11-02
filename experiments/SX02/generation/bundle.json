@@ -1,0 +1,103 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "77b6dbc1448743f682cdbbc97e8f4135e9c152d5a2b679243cbae6972a38efda",
+    "design.md": "20131af8d637f7982e930580efe662eec84ef0aa980539d1ee812e5b94ca04c6",
+    "materials/contract.json": "89ce7fa3959b7a905791c4c1afe81f5e2ca0c4b37b44635aabd58f60463265e8",
+    "materials/frozen.json": "37a264902f50151d9f854d116d50ef807b5fff14a73daeae3921c33762ff5b7b",
+    "requests.jsonl": "a1d8ea13de5b5333336fa8d26bef3da6cbb35dd44e53696ace69c3376ff3c620",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/owner_recency_01_scoring.py": "ac7c106f9f187b03b97ff2870fa1dab484b6545790eadaa81c3f4cc9d7c54d93",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/role_shared_use_01_design.py": "4bed01f5c3f1bb5ae0c9d460e7dbd08957647ea09cf945790ef5e0d41b64fb73",
+    "source/saved_readout_01_scoring.py": "771585161c56963b938bb13ef36decafdaa9711125adfc1f3abc5eef4a73525a",
+    "source/self_update_exchange_01_scoring.py": "fd16676eeaba1ece236552395fc8b5955e051b73feb10a3f43d5771a3bf53784",
+    "source/self_update_exchange_02_bootstrap.py": "a5a9a8baec89a4b2ffd2b72c111e8f2494295200d9ac47818ecee310aab6c5ac",
+    "source/self_update_exchange_02_design.py": "f93847b951d3042f00b87ce4ee56a358928c3abec2b0cc5acbbc70c04995819f",
+    "source/self_update_exchange_02_runtime.py": "e79ccbf72835cdf040ef062cb6d6fcabc1dee1bd429724b75dfa233f1289a9cb",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "source/update_readout_01_scoring.py": "b7ec099775e4065297a2a98e95239dc0f07422cc918c93f07b1871dacff41b85",
+    "supervisor.py": "dcaa6f1c31a7ada7334dfb48d43da09e94d2314a87a75edbcb266689edbf93c4"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "c8d1b7487f7b6cceab10438b8db171f54b99a67ce359372f37353f679b4fe948",
+  "original_payload_sha256": "cea2ccf884fd6f24fdd0dc7ff69673c651dcc3fa2b02cb0d0d1efa58ec55198d",
+  "original_supervisor_sha256": "a5a9a8baec89a4b2ffd2b72c111e8f2494295200d9ac47818ecee310aab6c5ac",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "owner_recency_01_scoring.py": {
+            "kind": "text",
+            "path": "source/owner_recency_01_scoring.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "role_shared_use_01_design.py": {
+            "kind": "text",
+            "path": "source/role_shared_use_01_design.py"
+          },
+          "saved_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/saved_readout_01_scoring.py"
+          },
+          "self_update_exchange_01_scoring.py": {
+            "kind": "text",
+            "path": "source/self_update_exchange_01_scoring.py"
+          },
+          "self_update_exchange_02_bootstrap.py": {
+            "kind": "text",
+            "path": "source/self_update_exchange_02_bootstrap.py"
+          },
+          "self_update_exchange_02_design.py": {
+            "kind": "text",
+            "path": "source/self_update_exchange_02_design.py"
+          },
+          "self_update_exchange_02_runtime.py": {
+            "kind": "text",
+            "path": "source/self_update_exchange_02_runtime.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          },
+          "update_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_scoring.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "SX02"
+}

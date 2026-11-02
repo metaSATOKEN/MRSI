@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "frozen_delivery_before_recording": 43,
+  "unchanged_frozen_files_after_recording": 37,
+  "navigation_backups": 5,
+  "ledger_append_only": true,
+  "new_document_links": 24,
+  "source_zip_sha256": "b631313a70cd56f9e4cb3c83832224edee24d692e6e0adbe12d5ba25c164f2bc",
+  "sealed_files": 686,
+  "fixed_replay_matches_archived_reports": 2,
+  "separately_implemented_metric_vectors": 54,
+  "local_model_calls": 0,
+  "formal_gate": "FAIL"
+}

@@ -1,0 +1,33 @@
+{
+  "input": [
+    {
+      "content": [
+        {
+          "text": "資料だけを使い、指定schemaのJSONを一つ返す。A/Bは役が担当する対象の区別で、人物を統合しない。origin_idは観測原票の出典である。版は観測者ごとに比較し、出典IDの字面から人物・版を推測しない。全必須欄を出力する。説明文、操作、外部参照は禁止。\n保存されたmemoryとprocessingだけを読む。mascotは本人customerのanimal、customer_origin_idはその出典。shared_note.coverageのACTIVE行をactive_coverageへ全欄で列挙し、REVOKEDの観測者をrevoked_observersへ列挙する。配列の順序は任意。\nprocessingがUNRESOLVEDなら、pending_notice_idsにそのnotice_idを入れ、channel=UNKNOWN、channel_status=PENDING。対象不明の撤回が共同判断の根拠へ影響し得るためである。MATCHEDならpending_notice_idsは空で、A/Bどちらかの共同観測がREVOKEDならchannel=UNKNOWN、channel_status=WITHDRAWN。\n未解決も失効もなく、両観測者でALLの媒体が一つだけならそれをchannelへ、channel_status=READY。媒体が一意でない場合もchannel=UNKNOWNとする。保留の場合も、本人の好みや有効な観測行は読み取って答える。\n{\"type\": \"object\", \"properties\": {\"mascot\": {\"enum\": [\"DOG\", \"CAT\", \"UNKNOWN\"]}, \"customer_origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"channel\": {\"enum\": [\"PAPER\", \"DIGITAL\", \"UNKNOWN\"]}, \"channel_status\": {\"enum\": [\"READY\", \"WITHDRAWN\", \"PENDING\"]}, \"active_coverage\": {\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"observer\": {\"enum\": [\"A\", \"B\", \"UNKNOWN\"]}, \"paper\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"digital\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"revision\": {\"enum\": [1, 2, 3, 4, \"UNKNOWN\"]}, \"status\": {\"enum\": [\"ACTIVE\", \"REVOKED\"]}}, \"required\": [\"observer\", \"paper\", \"digital\", \"origin_id\", \"revision\", \"status\"], \"additionalProperties\": false}, \"maxItems\": 2, \"uniqueItems\": true}, \"revoked_observers\": {\"type\": \"array\", \"items\": {\"enum\": [\"A\", \"B\"]}, \"maxItems\": 2, \"uniqueItems\": true}, \"pending_notice_ids\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"maxItems\": 1, \"uniqueItems\": true}}, \"required\": [\"mascot\", \"customer_origin_id\", \"channel\", \"channel_status\", \"active_coverage\", \"revoked_observers\", \"pending_notice_ids\"], \"additionalProperties\": false}\n",
+          "type": "input_text"
+        }
+      ],
+      "role": "developer",
+      "type": "message"
+    },
+    {
+      "content": [
+        {
+          "text": "\n資料JSON:\n{\"holder\":\"B\",\"item\":\"個別の案内カード\",\"memory\":{\"private_note\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"RF6FAE7A64FD102A\",\"paper\":\"NOT_ALL\",\"revision\":2,\"status\":\"ACTIVE\"},\"customer\":{\"animal\":\"DOG\",\"origin_id\":\"R5578DFD88129245\",\"subject\":\"B\"}},\"shared_note\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R79350A8794056FF\",\"paper\":\"NOT_ALL\",\"revision\":3,\"status\":\"ACTIVE\"},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"RF6FAE7A64FD102A\",\"paper\":\"NOT_ALL\",\"revision\":2,\"status\":\"ACTIVE\"}}}},\"processing\":{\"basis\":\"NONE\",\"matched_observer\":\"UNKNOWN\",\"notice_id\":\"R07D126D1015A6A8\",\"resolution\":\"UNRESOLVED\",\"target_origin_id\":\"RFA9D5690AED9B4C\"},\"scene\":\"科学工作展・撤回診断用の別開催\"}",
+          "type": "input_text"
+        }
+      ],
+      "role": "user",
+      "type": "message"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "tools": [],
+  "tool_choice": "none",
+  "parallel_tool_calls": false,
+  "store": false,
+  "stream": true
+}

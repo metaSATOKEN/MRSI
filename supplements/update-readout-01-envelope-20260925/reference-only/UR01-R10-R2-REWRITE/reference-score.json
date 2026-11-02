@@ -1,0 +1,120 @@
+{
+  "case": "UR01-R10",
+  "condition": "REWRITE",
+  "id": "UR01-R10-R2-REWRITE",
+  "replicate": 2,
+  "set": "REPAIR",
+  "cohort": "RECOVERED_FENCE",
+  "role": "B",
+  "notice_relation": "PARTNER",
+  "notice_target": "A",
+  "notice_catalog_position": 2,
+  "source_condition": "SELECT",
+  "source_group": "E1-G40",
+  "normalization": {
+    "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+    "status": "UNWRAPPED",
+    "reason": "EXACT_ENVELOPE_ONLY",
+    "raw_sha256": "c018fb310abaa36245cd929bc2147e8cb81d4303c6e4f7ba2b47c3a6a37f26be",
+    "raw_bytes": 678,
+    "normalized_sha256": "16305ce27d704896be784c473d7061d7923a0856212ff08885e8e98bbbc8e281",
+    "normalized_bytes_length": 666,
+    "removed_prefix_bytes": 8,
+    "removed_suffix_bytes": 4,
+    "value_repair": false
+  },
+  "formal_update": {
+    "choice_trace": [],
+    "errors": [
+      "JSON"
+    ],
+    "format_valid": false,
+    "gate": "REJECT",
+    "joint_state_exact": null,
+    "memory": null,
+    "parse_valid": false,
+    "private_customer_exact": null,
+    "private_observation_exact": null,
+    "shared_latest_exact": null,
+    "shared_provenance_exact": null,
+    "shared_row_matches_input": {
+      "A": null,
+      "B": null
+    },
+    "shared_rows_exact": {
+      "A": null,
+      "B": null
+    },
+    "shared_values_exact": null
+  },
+  "reference_update": {
+    "gate": "PASS",
+    "parse_valid": true,
+    "format_valid": true,
+    "memory": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "RE805060DD291F7C"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "RCBB36D573C6670C",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "R028EA1CBAF3EFD4",
+            "revision": 4
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "RCBB36D573C6670C",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "choice_trace": [],
+    "private_customer_exact": true,
+    "private_observation_exact": true,
+    "shared_rows_exact": {
+      "A": true,
+      "B": true
+    },
+    "shared_values_exact": true,
+    "shared_provenance_exact": true,
+    "shared_latest_exact": true,
+    "shared_row_matches_input": {
+      "A": true,
+      "B": true
+    },
+    "joint_state_exact": true,
+    "errors": []
+  },
+  "observed_read": {
+    "channel_latest": null,
+    "channel_note": null,
+    "dependency_missing": true,
+    "format_valid": null,
+    "four_exact": null
+  },
+  "reference_end_to_end_observed": null,
+  "static_note_calculation": {
+    "kind": "DETERMINISTIC_FROM_RECONSTRUCTED_NOTE_NOT_LLM_READOUT",
+    "channel": "PAPER",
+    "latest_channel": "PAPER",
+    "matches_latest": true,
+    "read_was_run": false
+  }
+}

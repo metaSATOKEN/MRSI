@@ -1,0 +1,1 @@
+{"files_sha256":{"dependency.json":"7f4a422ac6e5cdb98f3bbf1f9a6b1a5bb45626251a3dfa0f891150a0db484fc1"},"finished_at":"2026-09-25T09:03:45.783138+00:00","gate":"NOT_RUN","id":"UR01-G02-R2-SELECT-READ","score":{"channel_latest":null,"channel_note":null,"dependency_missing":true,"format_valid":null,"four_exact":null},"status":"DEPENDENCY_MISSING"}

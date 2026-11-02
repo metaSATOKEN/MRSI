@@ -1,0 +1,6242 @@
+[
+  {
+    "branch": null,
+    "case": "T03",
+    "id": "TB01-T03-R1-FORM-C",
+    "parents": [],
+    "repeat": 1,
+    "role": "C",
+    "seed": 2002275384,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ],
+        "holder": "C",
+        "recommendation": "PAPER"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 591,
+    "output_tokens": 37,
+    "answer_bytes": 92
+  },
+  {
+    "branch": null,
+    "case": "T03",
+    "id": "TB01-T03-R1-FORM-A",
+    "parents": [],
+    "repeat": 1,
+    "role": "A",
+    "seed": 917157209,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ],
+        "holder": "A",
+        "recommendation": "PAPER"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 595,
+    "output_tokens": 39,
+    "answer_bytes": 92
+  },
+  {
+    "branch": null,
+    "case": "T03",
+    "id": "TB01-T03-R1-FORM-B",
+    "parents": [],
+    "repeat": 1,
+    "role": "B",
+    "seed": 411504641,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 591,
+    "output_tokens": 38,
+    "answer_bytes": 94
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R1-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T03-R1-FORM-C"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 1339727675,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 102,
+    "answer_bytes": 209
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R1-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T03-R1-FORM-B"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 1139726049,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 102,
+    "answer_bytes": 211
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R1-LOWER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T03-R1-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 435244183,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1402,
+    "output_tokens": 124,
+    "answer_bytes": 269
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R1-LOWER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T03-R1-FORM-A",
+    "parents": [
+      "TB01-T03-R1-FORM-A",
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1662659622,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1406,
+    "output_tokens": 126,
+    "answer_bytes": 269
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R1-LOWER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T03-R1-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T03-R1-LOWER-VOTE-B",
+      "TB01-T03-R1-LOWER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 603096852,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1402,
+    "output_tokens": 124,
+    "answer_bytes": 271
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R1-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T03-R1-FORM-A"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 73190521,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1180,
+    "output_tokens": 104,
+    "answer_bytes": 209
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R1-LOWER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T03-R1-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-B",
+      "TB01-T03-R1-LOWER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 390667069,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-B",
+      "TB01-T03-R1-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1424,
+    "output_tokens": 124,
+    "answer_bytes": 266
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R1-LOWER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T03-R1-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T03-R1-LOWER-VOTE-A",
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1268218668,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-B",
+      "TB01-T03-R1-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1428,
+    "output_tokens": 118,
+    "answer_bytes": 248
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R1-LOWER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T03-R1-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T03-R1-LOWER-VOTE-B",
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 932848371,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-LOWER-VOTE-C",
+      "TB01-T03-R1-LOWER-VOTE-B",
+      "TB01-T03-R1-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1424,
+    "output_tokens": 116,
+    "answer_bytes": 250
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R1-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T03-R1-FORM-C"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 1414634726,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 101,
+    "answer_bytes": 211
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R1-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T03-R1-FORM-B"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 1766827179,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 93,
+    "answer_bytes": 195
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R1-HIGHER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T03-R1-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 610522139,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1400,
+    "output_tokens": 122,
+    "answer_bytes": 273
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R1-HIGHER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T03-R1-FORM-A",
+    "parents": [
+      "TB01-T03-R1-FORM-A",
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 433038279,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1404,
+    "output_tokens": 124,
+    "answer_bytes": 273
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R1-HIGHER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T03-R1-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T03-R1-HIGHER-VOTE-B",
+      "TB01-T03-R1-HIGHER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 676011173,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1400,
+    "output_tokens": 122,
+    "answer_bytes": 275
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R1-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T03-R1-FORM-A"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1843540743,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1180,
+    "output_tokens": 103,
+    "answer_bytes": 211
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R1-HIGHER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T03-R1-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-B",
+      "TB01-T03-R1-HIGHER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 593727571,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-B",
+      "TB01-T03-R1-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1421,
+    "output_tokens": 122,
+    "answer_bytes": 272
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R1-HIGHER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T03-R1-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T03-R1-HIGHER-VOTE-A",
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 957853350,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-B",
+      "TB01-T03-R1-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1425,
+    "output_tokens": 124,
+    "answer_bytes": 274
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R1-HIGHER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T03-R1-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T03-R1-HIGHER-VOTE-B",
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 1966337406,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R1-HIGHER-VOTE-C",
+      "TB01-T03-R1-HIGHER-VOTE-B",
+      "TB01-T03-R1-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1421,
+    "output_tokens": 122,
+    "answer_bytes": 276
+  },
+  {
+    "branch": null,
+    "case": "T01",
+    "id": "TB01-T01-R2-FORM-A",
+    "parents": [],
+    "repeat": 2,
+    "role": "A",
+    "seed": 2008391414,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 594,
+    "output_tokens": 40,
+    "answer_bytes": 92
+  },
+  {
+    "branch": null,
+    "case": "T01",
+    "id": "TB01-T01-R2-FORM-B",
+    "parents": [],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1735505806,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 594,
+    "output_tokens": 40,
+    "answer_bytes": 92
+  },
+  {
+    "branch": null,
+    "case": "T01",
+    "id": "TB01-T01-R2-FORM-C",
+    "parents": [],
+    "repeat": 2,
+    "role": "C",
+    "seed": 52716307,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 596,
+    "output_tokens": 41,
+    "answer_bytes": 94
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R2-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T01-R2-FORM-A"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1984239204,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 59,
+    "answer_bytes": 147
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R2-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T01-R2-FORM-C"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1742851124,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1196,
+    "output_tokens": 60,
+    "answer_bytes": 149
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R2-HIGHER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T01-R2-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1139867800,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1418,
+    "output_tokens": 124,
+    "answer_bytes": 273
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R2-HIGHER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T01-R2-FORM-B",
+    "parents": [
+      "TB01-T01-R2-FORM-B",
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 589693351,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1418,
+    "output_tokens": 116,
+    "answer_bytes": 255
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R2-HIGHER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T01-R2-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T01-R2-HIGHER-VOTE-C",
+      "TB01-T01-R2-HIGHER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1792593037,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1420,
+    "output_tokens": 125,
+    "answer_bytes": 275
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R2-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T01-R2-FORM-B"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 668891253,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 95,
+    "answer_bytes": 193
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R2-HIGHER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T01-R2-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-C",
+      "TB01-T01-R2-HIGHER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 253854097,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-C",
+      "TB01-T01-R2-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1439,
+    "output_tokens": 124,
+    "answer_bytes": 272
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R2-HIGHER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T01-R2-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T01-R2-HIGHER-VOTE-B",
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1369015492,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-C",
+      "TB01-T01-R2-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1439,
+    "output_tokens": 124,
+    "answer_bytes": 274
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R2-HIGHER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T01-R2-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T01-R2-HIGHER-VOTE-C",
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1734965963,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-HIGHER-VOTE-A",
+      "TB01-T01-R2-HIGHER-VOTE-C",
+      "TB01-T01-R2-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1441,
+    "output_tokens": 125,
+    "answer_bytes": 276
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R2-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T01-R2-FORM-A"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 414896427,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 60,
+    "answer_bytes": 145
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R2-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T01-R2-FORM-C"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 450749861,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1196,
+    "output_tokens": 61,
+    "answer_bytes": 147
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R2-LOWER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T01-R2-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 784976659,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1420,
+    "output_tokens": 126,
+    "answer_bytes": 269
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R2-LOWER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T01-R2-FORM-B",
+    "parents": [
+      "TB01-T01-R2-FORM-B",
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 397802078,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1420,
+    "output_tokens": 126,
+    "answer_bytes": 269
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R2-LOWER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T01-R2-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T01-R2-LOWER-VOTE-C",
+      "TB01-T01-R2-LOWER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1438024047,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1422,
+    "output_tokens": 127,
+    "answer_bytes": 271
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R2-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T01-R2-FORM-B"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 185051630,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 96,
+    "answer_bytes": 191
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R2-LOWER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T01-R2-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-C",
+      "TB01-T01-R2-LOWER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1848910344,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-C",
+      "TB01-T01-R2-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1442,
+    "output_tokens": 126,
+    "answer_bytes": 266
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R2-LOWER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T01-R2-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T01-R2-LOWER-VOTE-B",
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 965668803,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-C",
+      "TB01-T01-R2-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1442,
+    "output_tokens": 126,
+    "answer_bytes": 266
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R2-LOWER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T01-R2-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T01-R2-LOWER-VOTE-C",
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1219782849,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R2-LOWER-VOTE-A",
+      "TB01-T01-R2-LOWER-VOTE-C",
+      "TB01-T01-R2-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1444,
+    "output_tokens": 127,
+    "answer_bytes": 268
+  },
+  {
+    "branch": null,
+    "case": "T02",
+    "id": "TB01-T02-R1-FORM-B",
+    "parents": [],
+    "repeat": 1,
+    "role": "B",
+    "seed": 2000860871,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ],
+        "holder": "B",
+        "recommendation": "DIGITAL"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 593,
+    "output_tokens": 38,
+    "answer_bytes": 94
+  },
+  {
+    "branch": null,
+    "case": "T02",
+    "id": "TB01-T02-R1-FORM-C",
+    "parents": [],
+    "repeat": 1,
+    "role": "C",
+    "seed": 1295661732,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 597,
+    "output_tokens": 41,
+    "answer_bytes": 94
+  },
+  {
+    "branch": null,
+    "case": "T02",
+    "id": "TB01-T02-R1-FORM-A",
+    "parents": [],
+    "repeat": 1,
+    "role": "A",
+    "seed": 754132083,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 594,
+    "output_tokens": 40,
+    "answer_bytes": 92
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R1-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T02-R1-FORM-B"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 1342776735,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1189,
+    "output_tokens": 100,
+    "answer_bytes": 213
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R1-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T02-R1-FORM-A"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 903847222,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1191,
+    "output_tokens": 101,
+    "answer_bytes": 211
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R1-HIGHER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T02-R1-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 1321248403,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "agreement": "PENDING",
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "joint_action": "HOLD",
+      "own": {
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ],
+        "holder": "B",
+        "recommendation": "DIGITAL"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1409,
+    "output_tokens": 66,
+    "answer_bytes": 197
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R1-HIGHER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T02-R1-FORM-C",
+    "parents": [
+      "TB01-T02-R1-FORM-C",
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 44197913,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "agreement": "PENDING",
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "joint_action": "HOLD",
+      "own": {
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ],
+        "holder": "C",
+        "recommendation": "DIGITAL"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1413,
+    "output_tokens": 68,
+    "answer_bytes": 197
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R1-HIGHER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T02-R1-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T02-R1-HIGHER-VOTE-A",
+      "TB01-T02-R1-HIGHER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 950390028,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1411,
+    "output_tokens": 68,
+    "answer_bytes": 195
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R1-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T02-R1-FORM-C"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 1224915157,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": false
+    },
+    "strict": false,
+    "input_tokens": 1193,
+    "output_tokens": 95,
+    "answer_bytes": 193
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R1-HIGHER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T02-R1-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-A",
+      "TB01-T02-R1-HIGHER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 1133669470,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-A",
+      "TB01-T02-R1-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1429,
+    "output_tokens": 67,
+    "answer_bytes": 194
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R1-HIGHER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T02-R1-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T02-R1-HIGHER-VOTE-C",
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 817177603,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-A",
+      "TB01-T02-R1-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1433,
+    "output_tokens": 125,
+    "answer_bytes": 272
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R1-HIGHER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T02-R1-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T02-R1-HIGHER-VOTE-A",
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 737739197,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-HIGHER-VOTE-B",
+      "TB01-T02-R1-HIGHER-VOTE-A",
+      "TB01-T02-R1-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1431,
+    "output_tokens": 124,
+    "answer_bytes": 270
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R1-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T02-R1-FORM-B"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 1956963119,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1190,
+    "output_tokens": 102,
+    "answer_bytes": 211
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R1-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T02-R1-FORM-A"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 173393383,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1192,
+    "output_tokens": 59,
+    "answer_bytes": 145
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R1-LOWER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T02-R1-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 790819605,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1414,
+    "output_tokens": 69,
+    "answer_bytes": 193
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R1-LOWER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T02-R1-FORM-C",
+    "parents": [
+      "TB01-T02-R1-FORM-C",
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 971370553,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1418,
+    "output_tokens": 127,
+    "answer_bytes": 271
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R1-LOWER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T02-R1-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T02-R1-LOWER-VOTE-A",
+      "TB01-T02-R1-LOWER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1195299112,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1416,
+    "output_tokens": 126,
+    "answer_bytes": 269
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R1-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T02-R1-FORM-C"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 911740426,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 60,
+    "answer_bytes": 147
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R1-LOWER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T02-R1-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-A",
+      "TB01-T02-R1-LOWER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 167762722,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-A",
+      "TB01-T02-R1-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1435,
+    "output_tokens": 125,
+    "answer_bytes": 268
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R1-LOWER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T02-R1-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T02-R1-LOWER-VOTE-C",
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 1210413259,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-A",
+      "TB01-T02-R1-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1439,
+    "output_tokens": 127,
+    "answer_bytes": 268
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R1-LOWER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T02-R1-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T02-R1-LOWER-VOTE-A",
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1594314926,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R1-LOWER-VOTE-B",
+      "TB01-T02-R1-LOWER-VOTE-A",
+      "TB01-T02-R1-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1437,
+    "output_tokens": 126,
+    "answer_bytes": 266
+  },
+  {
+    "branch": null,
+    "case": "T03",
+    "id": "TB01-T03-R2-FORM-C",
+    "parents": [],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1373890775,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ],
+        "holder": "C",
+        "recommendation": "PAPER"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 591,
+    "output_tokens": 37,
+    "answer_bytes": 92
+  },
+  {
+    "branch": null,
+    "case": "T03",
+    "id": "TB01-T03-R2-FORM-A",
+    "parents": [],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1301715270,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 595,
+    "output_tokens": 40,
+    "answer_bytes": 92
+  },
+  {
+    "branch": null,
+    "case": "T03",
+    "id": "TB01-T03-R2-FORM-B",
+    "parents": [],
+    "repeat": 2,
+    "role": "B",
+    "seed": 719270461,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ],
+        "holder": "B",
+        "recommendation": "DIGITAL"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 591,
+    "output_tokens": 37,
+    "answer_bytes": 94
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R2-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T03-R2-FORM-C"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1602643030,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 93,
+    "answer_bytes": 193
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R2-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T03-R2-FORM-B"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1861422806,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 101,
+    "answer_bytes": 213
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R2-HIGHER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T03-R2-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 425792907,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1400,
+    "output_tokens": 122,
+    "answer_bytes": 273
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R2-HIGHER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T03-R2-FORM-A",
+    "parents": [
+      "TB01-T03-R2-FORM-A",
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 301276457,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1404,
+    "output_tokens": 124,
+    "answer_bytes": 273
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R2-HIGHER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T03-R2-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T03-R2-HIGHER-VOTE-B",
+      "TB01-T03-R2-HIGHER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1320189365,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1400,
+    "output_tokens": 122,
+    "answer_bytes": 275
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R2-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T03-R2-FORM-A"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1887964583,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1180,
+    "output_tokens": 103,
+    "answer_bytes": 211
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R2-HIGHER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T03-R2-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-B",
+      "TB01-T03-R2-HIGHER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 132649507,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-B",
+      "TB01-T03-R2-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1421,
+    "output_tokens": 122,
+    "answer_bytes": 272
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R2-HIGHER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T03-R2-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T03-R2-HIGHER-VOTE-A",
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 159252666,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-B",
+      "TB01-T03-R2-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1425,
+    "output_tokens": 116,
+    "answer_bytes": 256
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TB01-T03-R2-HIGHER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T03-R2-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T03-R2-HIGHER-VOTE-B",
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1858229889,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-HIGHER-VOTE-C",
+      "TB01-T03-R2-HIGHER-VOTE-B",
+      "TB01-T03-R2-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1421,
+    "output_tokens": 122,
+    "answer_bytes": 276
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R2-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T03-R2-FORM-C"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 161473108,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 102,
+    "answer_bytes": 209
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R2-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T03-R2-FORM-B"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 31703792,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 58,
+    "answer_bytes": 147
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R2-LOWER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T03-R2-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1249026812,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1402,
+    "output_tokens": 124,
+    "answer_bytes": 269
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R2-LOWER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T03-R2-FORM-A",
+    "parents": [
+      "TB01-T03-R2-FORM-A",
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 302382983,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1406,
+    "output_tokens": 126,
+    "answer_bytes": 269
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R2-LOWER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T03-R2-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T03-R2-LOWER-VOTE-B",
+      "TB01-T03-R2-LOWER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1257224175,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "MISSING",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1402,
+    "output_tokens": 124,
+    "answer_bytes": 271
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R2-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T03-R2-FORM-A"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 148307468,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1180,
+    "output_tokens": 104,
+    "answer_bytes": 209
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R2-LOWER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T03-R2-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-B",
+      "TB01-T03-R2-LOWER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1351753017,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-B",
+      "TB01-T03-R2-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1424,
+    "output_tokens": 124,
+    "answer_bytes": 266
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R2-LOWER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T03-R2-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T03-R2-LOWER-VOTE-A",
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1238357987,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-B",
+      "TB01-T03-R2-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1428,
+    "output_tokens": 126,
+    "answer_bytes": 266
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TB01-T03-R2-LOWER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T03-R2-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T03-R2-LOWER-VOTE-B",
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 2124617247,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T03-R2-LOWER-VOTE-C",
+      "TB01-T03-R2-LOWER-VOTE-B",
+      "TB01-T03-R2-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1424,
+    "output_tokens": 124,
+    "answer_bytes": 268
+  },
+  {
+    "branch": null,
+    "case": "T01",
+    "id": "TB01-T01-R1-FORM-A",
+    "parents": [],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1575118853,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 594,
+    "output_tokens": 40,
+    "answer_bytes": 92
+  },
+  {
+    "branch": null,
+    "case": "T01",
+    "id": "TB01-T01-R1-FORM-B",
+    "parents": [],
+    "repeat": 1,
+    "role": "B",
+    "seed": 121057844,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 594,
+    "output_tokens": 40,
+    "answer_bytes": 92
+  },
+  {
+    "branch": null,
+    "case": "T01",
+    "id": "TB01-T01-R1-FORM-C",
+    "parents": [],
+    "repeat": 1,
+    "role": "C",
+    "seed": 2104142153,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ],
+        "holder": "C",
+        "recommendation": "DIGITAL"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 596,
+    "output_tokens": 40,
+    "answer_bytes": 94
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R1-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T01-R1-FORM-A"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1286581711,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 104,
+    "answer_bytes": 209
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R1-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T01-R1-FORM-C"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 2118667274,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ],
+        "holder": "C",
+        "recommendation": "DIGITAL"
+      },
+      "vote": {
+        "decision": "HOLD",
+        "proposal_id": "Pb2f047c7"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1196,
+    "output_tokens": 60,
+    "answer_bytes": 147
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R1-LOWER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T01-R1-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1525850999,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1420,
+    "output_tokens": 126,
+    "answer_bytes": 269
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R1-LOWER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T01-R1-FORM-B",
+    "parents": [
+      "TB01-T01-R1-FORM-B",
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 666472404,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1420,
+    "output_tokens": 126,
+    "answer_bytes": 269
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R1-LOWER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T01-R1-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T01-R1-LOWER-VOTE-C",
+      "TB01-T01-R1-LOWER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 923880185,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "MISSING",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1422,
+    "output_tokens": 127,
+    "answer_bytes": 271
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R1-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T01-R1-FORM-B"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 1120911589,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 104,
+    "answer_bytes": 209
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R1-LOWER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T01-R1-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-C",
+      "TB01-T01-R1-LOWER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1092209328,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-C",
+      "TB01-T01-R1-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1442,
+    "output_tokens": 126,
+    "answer_bytes": 266
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R1-LOWER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T01-R1-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T01-R1-LOWER-VOTE-B",
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 552676918,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-C",
+      "TB01-T01-R1-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1442,
+    "output_tokens": 126,
+    "answer_bytes": 266
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TB01-T01-R1-LOWER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T01-R1-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T01-R1-LOWER-VOTE-C",
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 756971820,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-LOWER-VOTE-A",
+      "TB01-T01-R1-LOWER-VOTE-C",
+      "TB01-T01-R1-LOWER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1444,
+    "output_tokens": 127,
+    "answer_bytes": 268
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R1-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T01-R1-FORM-A"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 527820107,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 59,
+    "answer_bytes": 147
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R1-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T01-R1-FORM-C"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 1238421136,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1196,
+    "output_tokens": 104,
+    "answer_bytes": 213
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R1-HIGHER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T01-R1-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1257313547,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1418,
+    "output_tokens": 124,
+    "answer_bytes": 273
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R1-HIGHER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T01-R1-FORM-B",
+    "parents": [
+      "TB01-T01-R1-FORM-B",
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 345733939,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1418,
+    "output_tokens": 124,
+    "answer_bytes": 273
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R1-HIGHER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T01-R1-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T01-R1-HIGHER-VOTE-C",
+      "TB01-T01-R1-HIGHER-VOTE-A"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 1343649127,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "agreement": "PENDING",
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "joint_action": "HOLD",
+      "own": {
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ],
+        "holder": "C",
+        "recommendation": "DIGITAL"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1420,
+    "output_tokens": 68,
+    "answer_bytes": 197
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R1-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T01-R1-FORM-B"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 51121907,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "vote": {
+        "decision": "ACCEPT",
+        "proposal_id": "P3c0262f9"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 59,
+    "answer_bytes": 147
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R1-HIGHER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T01-R1-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-C",
+      "TB01-T01-R1-HIGHER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1500668836,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-C",
+      "TB01-T01-R1-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1439,
+    "output_tokens": 124,
+    "answer_bytes": 272
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R1-HIGHER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T01-R1-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T01-R1-HIGHER-VOTE-B",
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-C"
+    ],
+    "repeat": 1,
+    "role": "B",
+    "seed": 2104048989,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-C",
+      "TB01-T01-R1-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1439,
+    "output_tokens": 124,
+    "answer_bytes": 274
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TB01-T01-R1-HIGHER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T01-R1-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T01-R1-HIGHER-VOTE-C",
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-B"
+    ],
+    "repeat": 1,
+    "role": "C",
+    "seed": 1317653911,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T01-R1-HIGHER-VOTE-A",
+      "TB01-T01-R1-HIGHER-VOTE-C",
+      "TB01-T01-R1-HIGHER-VOTE-B"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1441,
+    "output_tokens": 125,
+    "answer_bytes": 276
+  },
+  {
+    "branch": null,
+    "case": "T02",
+    "id": "TB01-T02-R2-FORM-B",
+    "parents": [],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1069636156,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ],
+        "holder": "B",
+        "recommendation": "DIGITAL"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 593,
+    "output_tokens": 38,
+    "answer_bytes": 94
+  },
+  {
+    "branch": null,
+    "case": "T02",
+    "id": "TB01-T02-R2-FORM-C",
+    "parents": [],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1483147470,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 597,
+    "output_tokens": 41,
+    "answer_bytes": 94
+  },
+  {
+    "branch": null,
+    "case": "T02",
+    "id": "TB01-T02-R2-FORM-A",
+    "parents": [],
+    "repeat": 2,
+    "role": "A",
+    "seed": 51336771,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "input_tokens": 594,
+    "output_tokens": 40,
+    "answer_bytes": 92
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R2-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T02-R2-FORM-B"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 569470013,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ],
+        "holder": "B",
+        "recommendation": "DIGITAL"
+      },
+      "vote": {
+        "decision": "HOLD",
+        "proposal_id": "Pb2ff2018"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1190,
+    "output_tokens": 57,
+    "answer_bytes": 147
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R2-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T02-R2-FORM-A"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 588778348,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "vote": {
+        "decision": "HOLD",
+        "proposal_id": "Pb2ff2018"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1192,
+    "output_tokens": 59,
+    "answer_bytes": 145
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R2-LOWER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T02-R2-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 192089826,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1414,
+    "output_tokens": 125,
+    "answer_bytes": 271
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R2-LOWER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T02-R2-FORM-C",
+    "parents": [
+      "TB01-T02-R2-FORM-C",
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 356555578,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1418,
+    "output_tokens": 71,
+    "answer_bytes": 193
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R2-LOWER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T02-R2-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T02-R2-LOWER-VOTE-A",
+      "TB01-T02-R2-LOWER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1307518315,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-A"
+    ],
+    "answer": {
+      "agreement": "PENDING",
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "joint_action": "HOLD",
+      "own": {
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ],
+        "holder": "A",
+        "recommendation": "PAPER"
+      }
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1416,
+    "output_tokens": 69,
+    "answer_bytes": 191
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R2-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T02-R2-FORM-C"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1269737620,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 104,
+    "answer_bytes": 211
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R2-LOWER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T02-R2-LOWER-VOTE-B",
+    "parents": [
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-A",
+      "TB01-T02-R2-LOWER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 328717935,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-A",
+      "TB01-T02-R2-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1435,
+    "output_tokens": 69,
+    "answer_bytes": 190
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R2-LOWER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T02-R2-LOWER-VOTE-C",
+    "parents": [
+      "TB01-T02-R2-LOWER-VOTE-C",
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 550844556,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-A",
+      "TB01-T02-R2-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1439,
+    "output_tokens": 127,
+    "answer_bytes": 268
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TB01-T02-R2-LOWER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T02-R2-LOWER-VOTE-A",
+    "parents": [
+      "TB01-T02-R2-LOWER-VOTE-A",
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1433387575,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-LOWER-VOTE-B",
+      "TB01-T02-R2-LOWER-VOTE-A",
+      "TB01-T02-R2-LOWER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "HOLD",
+        "B": "HOLD",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1437,
+    "output_tokens": 70,
+    "answer_bytes": 188
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R2-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T02-R2-FORM-B"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 602110541,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1189,
+    "output_tokens": 56,
+    "answer_bytes": 149
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R2-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T02-R2-FORM-A"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 2045818538,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "vote": {
+        "decision": "ACCEPT",
+        "proposal_id": "Pf2bf9e54"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1191,
+    "output_tokens": 57,
+    "answer_bytes": 147
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R2-HIGHER-TWO_RECEIVED-B",
+    "own_parent": "TB01-T02-R2-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 493973345,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1409,
+    "output_tokens": 123,
+    "answer_bytes": 275
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R2-HIGHER-TWO_RECEIVED-C",
+    "own_parent": "TB01-T02-R2-FORM-C",
+    "parents": [
+      "TB01-T02-R2-FORM-C",
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 65089841,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1413,
+    "output_tokens": 125,
+    "answer_bytes": 275
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R2-HIGHER-TWO_RECEIVED-A",
+    "own_parent": "TB01-T02-R2-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T02-R2-HIGHER-VOTE-A",
+      "TB01-T02-R2-HIGHER-VOTE-B"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1998218752,
+    "snapshot": "TWO_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-A"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1411,
+    "output_tokens": 124,
+    "answer_bytes": 273
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R2-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T02-R2-FORM-C"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 2033413053,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "expected_read": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1193,
+    "output_tokens": 94,
+    "answer_bytes": 195
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R2-HIGHER-THREE_RECEIVED-B",
+    "own_parent": "TB01-T02-R2-HIGHER-VOTE-B",
+    "parents": [
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-A",
+      "TB01-T02-R2-HIGHER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "B",
+    "seed": 43456053,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-A",
+      "TB01-T02-R2-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1428,
+    "output_tokens": 123,
+    "answer_bytes": 276
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R2-HIGHER-THREE_RECEIVED-C",
+    "own_parent": "TB01-T02-R2-HIGHER-VOTE-C",
+    "parents": [
+      "TB01-T02-R2-HIGHER-VOTE-C",
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-A"
+    ],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1641649452,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-A",
+      "TB01-T02-R2-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1432,
+    "output_tokens": 125,
+    "answer_bytes": 274
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TB01-T02-R2-HIGHER-THREE_RECEIVED-A",
+    "own_parent": "TB01-T02-R2-HIGHER-VOTE-A",
+    "parents": [
+      "TB01-T02-R2-HIGHER-VOTE-A",
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-C"
+    ],
+    "repeat": 2,
+    "role": "A",
+    "seed": 162392741,
+    "snapshot": "THREE_RECEIVED",
+    "stage": "READ",
+    "vote_parents": [
+      "TB01-T02-R2-HIGHER-VOTE-B",
+      "TB01-T02-R2-HIGHER-VOTE-A",
+      "TB01-T02-R2-HIGHER-VOTE-C"
+    ],
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "expected_vote": null,
+    "expected_read": {
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "input_tokens": 1430,
+    "output_tokens": 124,
+    "answer_bytes": 272
+  }
+]

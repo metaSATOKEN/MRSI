@@ -1,0 +1,370 @@
+[
+  {
+    "figure": "fig01-record-trace-en-v1",
+    "edges": [
+      [
+        "I",
+        "P"
+      ],
+      [
+        "P",
+        "T"
+      ],
+      [
+        "T",
+        "S"
+      ],
+      [
+        "S",
+        "N"
+      ],
+      [
+        "N",
+        "U"
+      ],
+      [
+        "P",
+        "A"
+      ],
+      [
+        "T",
+        "A"
+      ],
+      [
+        "S",
+        "A"
+      ],
+      [
+        "N",
+        "A"
+      ],
+      [
+        "U",
+        "A"
+      ]
+    ],
+    "layout_checks": [
+      {
+        "text": "Input materials + previous saved artifacts",
+        "inside_box": true
+      },
+      {
+        "text": "Model-generated proposal",
+        "inside_box": true
+      },
+      {
+        "text": "Checks, transformations,\nand storage decisions",
+        "inside_box": true
+      },
+      {
+        "text": "Actual saved state",
+        "inside_box": true
+      },
+      {
+        "text": "Input supplied to the next stage",
+        "inside_box": true
+      },
+      {
+        "text": "Subsequent judgment and use",
+        "inside_box": true
+      },
+      {
+        "text": "Retain the raw proposal",
+        "inside_box": true
+      },
+      {
+        "text": "Log transformations and\nexecution / inapplicability",
+        "inside_box": true
+      },
+      {
+        "text": "Record saved contents",
+        "inside_box": true
+      },
+      {
+        "text": "Match input to its parent record",
+        "inside_box": true
+      },
+      {
+        "text": "Evaluate for the intended use",
+        "inside_box": true
+      },
+      {
+        "text": "Trace records across stage boundaries",
+        "inside_canvas": true
+      },
+      {
+        "text": "Observation framework  |  Separate generation, saved state, and subsequent use.",
+        "inside_canvas": true
+      },
+      {
+        "text": "Input materials + previous saved artifacts",
+        "inside_canvas": true
+      },
+      {
+        "text": "Model-generated proposal",
+        "inside_canvas": true
+      },
+      {
+        "text": "Checks, transformations,\nand storage decisions",
+        "inside_canvas": true
+      },
+      {
+        "text": "Actual saved state",
+        "inside_canvas": true
+      },
+      {
+        "text": "Input supplied to the next stage",
+        "inside_canvas": true
+      },
+      {
+        "text": "Subsequent judgment and use",
+        "inside_canvas": true
+      },
+      {
+        "text": "CORRESPONDENCE AUDIT",
+        "inside_canvas": true
+      },
+      {
+        "text": "Retain the raw proposal",
+        "inside_canvas": true
+      },
+      {
+        "text": "Log transformations and\nexecution / inapplicability",
+        "inside_canvas": true
+      },
+      {
+        "text": "Record saved contents",
+        "inside_canvas": true
+      },
+      {
+        "text": "Match input to its parent record",
+        "inside_canvas": true
+      },
+      {
+        "text": "Evaluate for the intended use",
+        "inside_canvas": true
+      },
+      {
+        "text": "Solid arrows: material passed onward     Dashed arrows: records used in the audit",
+        "inside_canvas": true
+      },
+      {
+        "text": "Distinguish a defect inherited from a saved artifact from a new error introduced downstream.",
+        "inside_canvas": true
+      }
+    ],
+    "size_inches": [
+      10.2,
+      8.8
+    ],
+    "dpi": 300
+  },
+  {
+    "figure": "fig02-reference-architecture-en-v1",
+    "edges": [
+      [
+        "I",
+        "U"
+      ],
+      [
+        "U",
+        "W"
+      ],
+      [
+        "I",
+        "W"
+      ],
+      [
+        "W",
+        "P"
+      ],
+      [
+        "W",
+        "S"
+      ],
+      [
+        "W",
+        "H"
+      ],
+      [
+        "P",
+        "D"
+      ],
+      [
+        "S",
+        "D"
+      ],
+      [
+        "D",
+        "J"
+      ],
+      [
+        "D",
+        "Q"
+      ],
+      [
+        "J",
+        "Q"
+      ],
+      [
+        "Q",
+        "G"
+      ],
+      [
+        "G",
+        "A"
+      ],
+      [
+        "G",
+        "H"
+      ],
+      [
+        "A",
+        "R"
+      ],
+      [
+        "J",
+        "R"
+      ],
+      [
+        "H",
+        "R"
+      ],
+      [
+        "R",
+        "V"
+      ]
+    ],
+    "layout_checks": [
+      {
+        "text": "Input materials\nTarget, origin ID, and revision",
+        "inside_box": true
+      },
+      {
+        "text": "LLM update proposal",
+        "inside_box": true
+      },
+      {
+        "text": "Pre-storage checks\nSelect and copy rows in the designated fields",
+        "inside_box": true
+      },
+      {
+        "text": "Separate private states\nfor roles A and B",
+        "inside_box": true
+      },
+      {
+        "text": "Shared observations",
+        "inside_box": true
+      },
+      {
+        "text": "Purpose-specific own-experience summaries\nand joint candidate tables",
+        "inside_box": true
+      },
+      {
+        "text": "Each role's own judgment",
+        "inside_box": true
+      },
+      {
+        "text": "Joint proposal\nand peer response",
+        "inside_box": true
+      },
+      {
+        "text": "Common check before\nagreement commitment",
+        "inside_box": true
+      },
+      {
+        "text": "Agreement bound to proposal version,\nevidence, and confirmation",
+        "inside_box": true
+      },
+      {
+        "text": "Subsequent use for the intended purpose",
+        "inside_box": true
+      },
+      {
+        "text": "Compare actual use with intended use",
+        "inside_box": true
+      },
+      {
+        "text": "Unresolved\nitems and\nhold reasons",
+        "inside_box": true
+      },
+      {
+        "text": "Two boundaries: record updates and agreement commitment",
+        "inside_canvas": true
+      },
+      {
+        "text": "Proposed architecture  |  The complete connected system has not been evaluated.",
+        "inside_canvas": true
+      },
+      {
+        "text": "Input materials\nTarget, origin ID, and revision",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM update proposal",
+        "inside_canvas": true
+      },
+      {
+        "text": "Pre-storage checks\nSelect and copy rows in the designated fields",
+        "inside_canvas": true
+      },
+      {
+        "text": "Separate private states\nfor roles A and B",
+        "inside_canvas": true
+      },
+      {
+        "text": "Shared observations",
+        "inside_canvas": true
+      },
+      {
+        "text": "Purpose-specific own-experience summaries\nand joint candidate tables",
+        "inside_canvas": true
+      },
+      {
+        "text": "Each role's own judgment",
+        "inside_canvas": true
+      },
+      {
+        "text": "Joint proposal\nand peer response",
+        "inside_canvas": true
+      },
+      {
+        "text": "Common check before\nagreement commitment",
+        "inside_canvas": true
+      },
+      {
+        "text": "Agreement bound to proposal version,\nevidence, and confirmation",
+        "inside_canvas": true
+      },
+      {
+        "text": "Subsequent use for the intended purpose",
+        "inside_canvas": true
+      },
+      {
+        "text": "Compare actual use with intended use",
+        "inside_canvas": true
+      },
+      {
+        "text": "Unresolved\nitems and\nhold reasons",
+        "inside_canvas": true
+      },
+      {
+        "text": "Pass",
+        "inside_canvas": true
+      },
+      {
+        "text": "Hold",
+        "inside_canvas": true
+      },
+      {
+        "text": "Hold state is carried\nforward to delimit\nusable work.\nIt does not authorize\nthe deferred task.",
+        "inside_canvas": true
+      }
+    ],
+    "size_inches": [
+      11.2,
+      14.5
+    ],
+    "dpi": 300
+  }
+]

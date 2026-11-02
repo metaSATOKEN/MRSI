@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-5A0B3D43EA",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local", "/answer/team"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "answerのlocalとteamに定義されたプロパティのみが含まれ、追加キーや型違反がない。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/experiences", "/payload/joint_records"],
+      "reason": "subjectはholder(A)と一致。local.evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/projected_success_per_40"],
+      "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高く、答案はPAPERを選択しているため合致。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Bの提案(A:DIGITAL, B:PAPER)に対しAがACCEPT。この割付は予測合計49で最大であり、SHARED_DECISIONとして適切。"
+    }
+  }
+}

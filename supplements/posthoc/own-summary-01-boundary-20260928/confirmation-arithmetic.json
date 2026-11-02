@@ -1,0 +1,254 @@
+[
+  {
+    "id": "OS01-M11-REVERSE-F0-CONFIRM",
+    "holder": "B",
+    "local_choice": "PAPER",
+    "projected": {
+      "A": {
+        "PAPER": "26",
+        "DIGITAL": "20"
+      },
+      "B": {
+        "PAPER": "27",
+        "DIGITAL": "23"
+      }
+    },
+    "feasible_candidates": [
+      {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "expected_total": "49"
+      },
+      {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "expected_total": "47"
+      }
+    ],
+    "proposed": {
+      "A": "PAPER",
+      "B": "DIGITAL"
+    },
+    "counter": {
+      "A": "PAPER",
+      "B": "PAPER"
+    },
+    "both_match_confirmers_local_choice": true,
+    "local_reference_correct": true,
+    "source": "unchanged original input and answer; no generated explanation"
+  },
+  {
+    "id": "OS01-M11-REVERSE-F1-CONFIRM",
+    "holder": "B",
+    "local_choice": "PAPER",
+    "projected": {
+      "A": {
+        "PAPER": "26",
+        "DIGITAL": "20"
+      },
+      "B": {
+        "PAPER": "27",
+        "DIGITAL": "23"
+      }
+    },
+    "feasible_candidates": [
+      {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "expected_total": "49"
+      },
+      {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "expected_total": "47"
+      }
+    ],
+    "proposed": {
+      "A": "PAPER",
+      "B": "DIGITAL"
+    },
+    "counter": {
+      "A": "PAPER",
+      "B": "PAPER"
+    },
+    "both_match_confirmers_local_choice": true,
+    "local_reference_correct": true,
+    "source": "unchanged original input and answer; no generated explanation"
+  },
+  {
+    "id": "OS01-M12-REINFORCE-F1-CONFIRM",
+    "holder": "B",
+    "local_choice": "DIGITAL",
+    "projected": {
+      "A": {
+        "PAPER": "21",
+        "DIGITAL": "24"
+      },
+      "B": {
+        "PAPER": "23",
+        "DIGITAL": "27"
+      }
+    },
+    "feasible_candidates": [
+      {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "expected_total": "48"
+      },
+      {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "expected_total": "47"
+      }
+    ],
+    "proposed": {
+      "A": "PAPER",
+      "B": "DIGITAL"
+    },
+    "counter": {
+      "A": "DIGITAL",
+      "B": "DIGITAL"
+    },
+    "both_match_confirmers_local_choice": true,
+    "local_reference_correct": true,
+    "source": "unchanged original input and answer; no generated explanation"
+  },
+  {
+    "id": "OS01-M12-REINFORCE-F0-CONFIRM",
+    "holder": "B",
+    "local_choice": "DIGITAL",
+    "projected": {
+      "A": {
+        "PAPER": "21",
+        "DIGITAL": "24"
+      },
+      "B": {
+        "PAPER": "23",
+        "DIGITAL": "27"
+      }
+    },
+    "feasible_candidates": [
+      {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "expected_total": "48"
+      },
+      {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "expected_total": "47"
+      }
+    ],
+    "proposed": {
+      "A": "PAPER",
+      "B": "DIGITAL"
+    },
+    "counter": {
+      "A": "DIGITAL",
+      "B": "DIGITAL"
+    },
+    "both_match_confirmers_local_choice": true,
+    "local_reference_correct": true,
+    "source": "unchanged original input and answer; no generated explanation"
+  },
+  {
+    "id": "OS01-M14-REVERSE-F0-CONFIRM",
+    "holder": "A",
+    "local_choice": "PAPER",
+    "projected": {
+      "A": {
+        "PAPER": "27",
+        "DIGITAL": "23"
+      },
+      "B": {
+        "PAPER": "24",
+        "DIGITAL": "22"
+      }
+    },
+    "feasible_candidates": [
+      {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "expected_total": "49"
+      },
+      {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "expected_total": "47"
+      }
+    ],
+    "proposed": {
+      "A": "PAPER",
+      "B": "DIGITAL"
+    },
+    "counter": {
+      "A": "PAPER",
+      "B": "PAPER"
+    },
+    "both_match_confirmers_local_choice": true,
+    "local_reference_correct": false,
+    "source": "unchanged original input and answer; no generated explanation"
+  },
+  {
+    "id": "OS01-M14-REVERSE-F1-CONFIRM",
+    "holder": "A",
+    "local_choice": "PAPER",
+    "projected": {
+      "A": {
+        "PAPER": "27",
+        "DIGITAL": "23"
+      },
+      "B": {
+        "PAPER": "24",
+        "DIGITAL": "22"
+      }
+    },
+    "feasible_candidates": [
+      {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "expected_total": "49"
+      },
+      {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "expected_total": "47"
+      }
+    ],
+    "proposed": {
+      "A": "PAPER",
+      "B": "DIGITAL"
+    },
+    "counter": {
+      "A": "PAPER",
+      "B": "PAPER"
+    },
+    "both_match_confirmers_local_choice": true,
+    "local_reference_correct": false,
+    "source": "unchanged original input and answer; no generated explanation"
+  }
+]

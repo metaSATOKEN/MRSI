@@ -1,0 +1,47 @@
+{
+  "scene": "小さな展示会",
+  "item": "受付名札",
+  "holder": "B",
+  "records": [
+    {
+      "record_id": "PRIVATE",
+      "author": "B",
+      "body": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "PM"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "UNKNOWN",
+          "digital": "UNKNOWN",
+          "origin_id": "VE"
+        }
+      }
+    },
+    {
+      "record_id": "GROUP",
+      "author": "B",
+      "body": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "NC"
+          },
+          "B": {
+            "observer": "B",
+            "paper": "UNKNOWN",
+            "digital": "UNKNOWN",
+            "origin_id": "VE"
+          }
+        },
+        "channel": "UNKNOWN",
+        "channel_read_refs": [],
+        "channel_origin_ids": []
+      }
+    }
+  ]
+}

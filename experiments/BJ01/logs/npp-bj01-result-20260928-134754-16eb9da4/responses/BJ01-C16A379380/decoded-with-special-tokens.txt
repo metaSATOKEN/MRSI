@@ -1,0 +1,51 @@
+{
+  "judgment_id": "BJ01-C16A379380",
+  "checks": {
+    "output_contract": {
+      "verdict": "VIOLATION",
+      "answer_pointers": [
+        "/answer/local/own_experience_summary"
+      ],
+      "evidence_pointers": [
+        "/contract/schema/properties/local"
+      ],
+      "reason": "localオブジェクトにschema未定義のown_experience_summaryが存在し、追加プロパティ禁止規則に違反。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/local/subject",
+        "/answer/local/evidence_refs",
+        "/answer/team/evidence_refs"
+      ],
+      "evidence_pointers": [
+        "/payload/holder",
+        "/facts/roles/B/episode_ids",
+        "/payload/joint_records"
+      ],
+      "reason": "subjectはBで一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/local/choice"
+      ],
+      "evidence_pointers": [
+        "/facts/roles/B/projected_success_per_40"
+      ],
+      "reason": "Bの累積成功率はPAPER(27)がDIGITAL(23)より高く、PAPER選択は正しい。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/team/allocation",
+        "/answer/team/basis"
+      ],
+      "evidence_pointers": [
+        "/payload/joint_records",
+        "/facts/feasible_allocations"
+      ],
+      "reason": "Aの提案とBのACCEPTがあり、割付は予測合計最大(50)の最適解と一致。SHARED_DECISIONは適切。"
+    }
+  }
+}<|im_end|>

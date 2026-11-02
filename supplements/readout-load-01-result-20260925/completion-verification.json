@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE_FIXED_96_READOUT_FOOTHOLD_NOT_MET",
+  "zip_sha256": "f5274b555f37fd515a8f783fe5c69f4c10fb8b9abcb29df59f448d7a54ab8a88",
+  "manifest_files_verified": 605,
+  "responses_recomputed": 96,
+  "saved_reports_equal": 2,
+  "independent_raw_checks": 96,
+  "all_eos": true,
+  "all_channel_evaluable": true,
+  "format_pass": 95,
+  "format_reject": 1,
+  "design_and_connection_anchors_unchanged": true,
+  "main_correct": {
+    "FULL": 3,
+    "DUAL": 7,
+    "CHANNEL": 7
+  },
+  "H1_predefined_descriptive_signal": true,
+  "H2_predefined_descriptive_signal": false,
+  "readout_foothold_all_conditions": false,
+  "new_model_generations": 0,
+  "original_answer_edits": 0,
+  "formal_scoring_changes": 0,
+  "p_value": null,
+  "confidence_interval": null
+}

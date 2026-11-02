@@ -1,0 +1,62 @@
+{
+  "status": "COMPLETED",
+  "reviewer": "Primary assistant, unblinded; no additional model calls",
+  "protocol": "CS01 design section 5",
+  "formal_scores_changed": false,
+  "raw_answers_changed": false,
+  "free_form_reasons_requested": false,
+  "specified_nonpassing_or_unknown_responses": [
+    "CS01-M01-REVERSE-BASE-CONFIRM",
+    "CS01-M02-REVERSE-BASE-CONFIRM",
+    "CS01-M05-REINFORCE-BASE-CONFIRM",
+    "CS01-M11-REVERSE-BASE-CONFIRM",
+    "CS01-M16-REVERSE-CONTROL-BASE-CONFIRM",
+    "CS01-M07-REINFORCE-CONTROL-BASE-CONFIRM",
+    "CS01-M03-REVERSE-CONTROL-BASE-CONFIRM",
+    "CS01-M12-REINFORCE-CONTROL-BASE-CONFIRM",
+    "CS01-M04-REVERSE-CONTROL-BASE-CONFIRM",
+    "CS01-M15-REVERSE-CONTROL-BASE-CONFIRM",
+    "CS01-M15-REVERSE-CONTROL-SUPPORT-CONFIRM",
+    "CS01-M13-REINFORCE-CONTROL-BASE-CONFIRM"
+  ],
+  "specified_normal_paths": [
+    "CS01-M03-REINFORCE-SUPPORT",
+    "CS01-M10-REINFORCE-SUPPORT",
+    "CS01-M16-REVERSE-SUPPORT",
+    "CS01-M01-REINFORCE-SUPPORT",
+    "CS01-M15-REVERSE-BASE",
+    "CS01-M13-REVERSE-SUPPORT",
+    "CS01-M10-REVERSE-SUPPORT",
+    "CS01-M01-REINFORCE-BASE"
+  ],
+  "specified_answer_count": 36,
+  "supplementary_ids": [
+    "CS01-M01-REVERSE-BASE-USE-A",
+    "CS01-M01-REVERSE-BASE-USE-B",
+    "CS01-M02-REINFORCE-CONTROL-BASE-CONFIRM",
+    "CS01-M02-REINFORCE-CONTROL-SUPPORT-CONFIRM",
+    "CS01-M02-REVERSE-BASE-USE-A",
+    "CS01-M02-REVERSE-BASE-USE-B",
+    "CS01-M03-REVERSE-CONTROL-SUPPORT-CONFIRM",
+    "CS01-M04-REVERSE-CONTROL-SUPPORT-CONFIRM",
+    "CS01-M05-REINFORCE-BASE-USE-A",
+    "CS01-M05-REINFORCE-BASE-USE-B",
+    "CS01-M07-REINFORCE-CONTROL-SUPPORT-CONFIRM",
+    "CS01-M11-REVERSE-BASE-USE-A",
+    "CS01-M11-REVERSE-BASE-USE-B",
+    "CS01-M12-REINFORCE-CONTROL-SUPPORT-CONFIRM",
+    "CS01-M13-REINFORCE-CONTROL-SUPPORT-CONFIRM",
+    "CS01-M16-REVERSE-CONTROL-SUPPORT-CONFIRM"
+  ],
+  "total_raw_answers_read": 52,
+  "finding": "No discrepancy requiring correction between fixed scores and source/input reading. See reason-review.md for case decisions.",
+  "residual_case": "CS01-M15-REVERSE-CONTROL-SUPPORT-CONFIRM",
+  "residual_facts": {
+    "input_illegal_duplicate_rejected": true,
+    "selected_legal_total": 47,
+    "supplied_optimal_total": 49,
+    "own_choice_and_references_correct": true,
+    "causal_mechanism_identified": false
+  },
+  "machine_report_pending_field_preserved": true
+}

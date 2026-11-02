@@ -1,0 +1,7 @@
+{
+  "scope": "High-confidence credential signatures and credential/database filenames; not a proof of absence of all private information",
+  "scanned_files": 55151,
+  "scanned_zip_members": 49331,
+  "matches": [],
+  "sensitive_filenames": []
+}

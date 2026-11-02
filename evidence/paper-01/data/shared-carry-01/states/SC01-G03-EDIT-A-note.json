@@ -1,0 +1,21 @@
+{
+  "coverage": {
+    "A": {
+      "observer": "A",
+      "paper": "NOT_ALL",
+      "digital": "ALL",
+      "source_id": "YC"
+    },
+    "B": {
+      "observer": "B",
+      "paper": "ALL",
+      "digital": "ALL",
+      "source_id": "VE"
+    }
+  },
+  "channel": "DIGITAL",
+  "channel_sources": [
+    "YC",
+    "VE"
+  ]
+}

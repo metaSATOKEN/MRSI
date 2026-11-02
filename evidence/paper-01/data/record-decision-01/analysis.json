@@ -1,0 +1,2236 @@
+{
+  "protocol": "RECORD-DECISION-01",
+  "kind": "FIXED_SAMPLE_DESCRIPTIVE",
+  "summaries": {
+    "ALL_ALL": {
+      "WITH_RULE": {
+        "planned": 8,
+        "statuses": {
+          "VALID": 8
+        },
+        "metrics": {
+          "H": [
+            0.125,
+            0.125
+          ],
+          "V": [
+            0.125,
+            0.125
+          ],
+          "BOTH_UNKNOWN": [
+            0.875,
+            0.875
+          ],
+          "ANY_UNKNOWN": [
+            0.875,
+            0.875
+          ],
+          "I": [
+            1.0,
+            1.0
+          ],
+          "O": [
+            1.0,
+            1.0
+          ],
+          "J": [
+            0.125,
+            0.125
+          ]
+        },
+        "fields": {
+          "customer.subject": [
+            1.0,
+            1.0
+          ],
+          "customer.animal": [
+            1.0,
+            1.0
+          ],
+          "customer.origin_id": [
+            1.0,
+            1.0
+          ],
+          "coverage.observer": [
+            1.0,
+            1.0
+          ],
+          "coverage.paper": [
+            0.125,
+            0.125
+          ],
+          "coverage.digital": [
+            0.125,
+            0.125
+          ],
+          "coverage.origin_id": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "RECORD_ONLY": {
+        "planned": 8,
+        "statuses": {
+          "VALID": 8
+        },
+        "metrics": {
+          "H": [
+            1.0,
+            1.0
+          ],
+          "V": [
+            1.0,
+            1.0
+          ],
+          "BOTH_UNKNOWN": [
+            0.0,
+            0.0
+          ],
+          "ANY_UNKNOWN": [
+            0.0,
+            0.0
+          ],
+          "I": [
+            1.0,
+            1.0
+          ],
+          "O": [
+            1.0,
+            1.0
+          ],
+          "J": [
+            1.0,
+            1.0
+          ]
+        },
+        "fields": {
+          "customer.subject": [
+            1.0,
+            1.0
+          ],
+          "customer.animal": [
+            1.0,
+            1.0
+          ],
+          "customer.origin_id": [
+            1.0,
+            1.0
+          ],
+          "coverage.observer": [
+            1.0,
+            1.0
+          ],
+          "coverage.paper": [
+            1.0,
+            1.0
+          ],
+          "coverage.digital": [
+            1.0,
+            1.0
+          ],
+          "coverage.origin_id": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "MIXED": {
+      "WITH_RULE": {
+        "planned": 8,
+        "statuses": {
+          "VALID": 8
+        },
+        "metrics": {
+          "H": [
+            1.0,
+            1.0
+          ],
+          "V": [
+            1.0,
+            1.0
+          ],
+          "BOTH_UNKNOWN": [
+            0.0,
+            0.0
+          ],
+          "ANY_UNKNOWN": [
+            0.0,
+            0.0
+          ],
+          "I": [
+            1.0,
+            1.0
+          ],
+          "O": [
+            1.0,
+            1.0
+          ],
+          "J": [
+            1.0,
+            1.0
+          ]
+        },
+        "fields": {
+          "customer.subject": [
+            1.0,
+            1.0
+          ],
+          "customer.animal": [
+            1.0,
+            1.0
+          ],
+          "customer.origin_id": [
+            1.0,
+            1.0
+          ],
+          "coverage.observer": [
+            1.0,
+            1.0
+          ],
+          "coverage.paper": [
+            1.0,
+            1.0
+          ],
+          "coverage.digital": [
+            1.0,
+            1.0
+          ],
+          "coverage.origin_id": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "RECORD_ONLY": {
+        "planned": 8,
+        "statuses": {
+          "VALID": 8
+        },
+        "metrics": {
+          "H": [
+            1.0,
+            1.0
+          ],
+          "V": [
+            1.0,
+            1.0
+          ],
+          "BOTH_UNKNOWN": [
+            0.0,
+            0.0
+          ],
+          "ANY_UNKNOWN": [
+            0.0,
+            0.0
+          ],
+          "I": [
+            1.0,
+            1.0
+          ],
+          "O": [
+            1.0,
+            1.0
+          ],
+          "J": [
+            1.0,
+            1.0
+          ]
+        },
+        "fields": {
+          "customer.subject": [
+            1.0,
+            1.0
+          ],
+          "customer.animal": [
+            1.0,
+            1.0
+          ],
+          "customer.origin_id": [
+            1.0,
+            1.0
+          ],
+          "coverage.observer": [
+            1.0,
+            1.0
+          ],
+          "coverage.paper": [
+            1.0,
+            1.0
+          ],
+          "coverage.digital": [
+            1.0,
+            1.0
+          ],
+          "coverage.origin_id": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "ALL": {
+      "WITH_RULE": {
+        "planned": 16,
+        "statuses": {
+          "VALID": 16
+        },
+        "metrics": {
+          "H": [
+            0.5625,
+            0.5625
+          ],
+          "V": [
+            0.5625,
+            0.5625
+          ],
+          "BOTH_UNKNOWN": [
+            0.4375,
+            0.4375
+          ],
+          "ANY_UNKNOWN": [
+            0.4375,
+            0.4375
+          ],
+          "I": [
+            1.0,
+            1.0
+          ],
+          "O": [
+            1.0,
+            1.0
+          ],
+          "J": [
+            0.5625,
+            0.5625
+          ]
+        },
+        "fields": {
+          "customer.subject": [
+            1.0,
+            1.0
+          ],
+          "customer.animal": [
+            1.0,
+            1.0
+          ],
+          "customer.origin_id": [
+            1.0,
+            1.0
+          ],
+          "coverage.observer": [
+            1.0,
+            1.0
+          ],
+          "coverage.paper": [
+            0.5625,
+            0.5625
+          ],
+          "coverage.digital": [
+            0.5625,
+            0.5625
+          ],
+          "coverage.origin_id": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "RECORD_ONLY": {
+        "planned": 16,
+        "statuses": {
+          "VALID": 16
+        },
+        "metrics": {
+          "H": [
+            1.0,
+            1.0
+          ],
+          "V": [
+            1.0,
+            1.0
+          ],
+          "BOTH_UNKNOWN": [
+            0.0,
+            0.0
+          ],
+          "ANY_UNKNOWN": [
+            0.0,
+            0.0
+          ],
+          "I": [
+            1.0,
+            1.0
+          ],
+          "O": [
+            1.0,
+            1.0
+          ],
+          "J": [
+            1.0,
+            1.0
+          ]
+        },
+        "fields": {
+          "customer.subject": [
+            1.0,
+            1.0
+          ],
+          "customer.animal": [
+            1.0,
+            1.0
+          ],
+          "customer.origin_id": [
+            1.0,
+            1.0
+          ],
+          "coverage.observer": [
+            1.0,
+            1.0
+          ],
+          "coverage.paper": [
+            1.0,
+            1.0
+          ],
+          "coverage.digital": [
+            1.0,
+            1.0
+          ],
+          "coverage.origin_id": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  },
+  "primary_delta_H": [
+    0.875,
+    0.875
+  ],
+  "prediction_status": "LOCAL_POSITIVE",
+  "sign": "POSITIVE",
+  "next_design_gate": "CANDIDATE_FOR_SHARED_DESIGN",
+  "case_pairs": [
+    {
+      "case": "RD01-G01-A",
+      "stratum": "MIXED",
+      "repetition_H_differences": [
+        0,
+        0
+      ],
+      "H_by_arm": {
+        "WITH_RULE": [
+          1.0,
+          1.0
+        ],
+        "RECORD_ONLY": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "case": "RD01-G01-B",
+      "stratum": "ALL_ALL",
+      "repetition_H_differences": [
+        1,
+        1
+      ],
+      "H_by_arm": {
+        "WITH_RULE": [
+          0.0,
+          0.0
+        ],
+        "RECORD_ONLY": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "case": "RD01-G02-A",
+      "stratum": "ALL_ALL",
+      "repetition_H_differences": [
+        1,
+        1
+      ],
+      "H_by_arm": {
+        "WITH_RULE": [
+          0.0,
+          0.0
+        ],
+        "RECORD_ONLY": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "case": "RD01-G02-B",
+      "stratum": "MIXED",
+      "repetition_H_differences": [
+        0,
+        0
+      ],
+      "H_by_arm": {
+        "WITH_RULE": [
+          1.0,
+          1.0
+        ],
+        "RECORD_ONLY": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "case": "RD01-G03-A",
+      "stratum": "MIXED",
+      "repetition_H_differences": [
+        0,
+        0
+      ],
+      "H_by_arm": {
+        "WITH_RULE": [
+          1.0,
+          1.0
+        ],
+        "RECORD_ONLY": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "case": "RD01-G03-B",
+      "stratum": "ALL_ALL",
+      "repetition_H_differences": [
+        1,
+        0
+      ],
+      "H_by_arm": {
+        "WITH_RULE": [
+          0.5,
+          0.5
+        ],
+        "RECORD_ONLY": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "case": "RD01-G04-A",
+      "stratum": "ALL_ALL",
+      "repetition_H_differences": [
+        1,
+        1
+      ],
+      "H_by_arm": {
+        "WITH_RULE": [
+          0.0,
+          0.0
+        ],
+        "RECORD_ONLY": [
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "case": "RD01-G04-B",
+      "stratum": "MIXED",
+      "repetition_H_differences": [
+        0,
+        0
+      ],
+      "H_by_arm": {
+        "WITH_RULE": [
+          1.0,
+          1.0
+        ],
+        "RECORD_ONLY": [
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "repeats": [
+    {
+      "case": "RD01-G01-A",
+      "arm": "WITH_RULE",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G01-A",
+      "arm": "RECORD_ONLY",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G01-B",
+      "arm": "WITH_RULE",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G01-B",
+      "arm": "RECORD_ONLY",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G02-A",
+      "arm": "WITH_RULE",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G02-A",
+      "arm": "RECORD_ONLY",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G02-B",
+      "arm": "WITH_RULE",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G02-B",
+      "arm": "RECORD_ONLY",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G03-A",
+      "arm": "WITH_RULE",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G03-A",
+      "arm": "RECORD_ONLY",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G03-B",
+      "arm": "WITH_RULE",
+      "both_observed": true,
+      "same_note": false
+    },
+    {
+      "case": "RD01-G03-B",
+      "arm": "RECORD_ONLY",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G04-A",
+      "arm": "WITH_RULE",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G04-A",
+      "arm": "RECORD_ONLY",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G04-B",
+      "arm": "WITH_RULE",
+      "both_observed": true,
+      "same_note": true
+    },
+    {
+      "case": "RD01-G04-B",
+      "arm": "RECORD_ONLY",
+      "both_observed": true,
+      "same_note": true
+    }
+  ],
+  "rows": [
+    {
+      "case": "RD01-G04-A",
+      "group": "RD01-G04",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G04-A-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 1,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": false,
+        "V": false,
+        "BOTH_UNKNOWN": true,
+        "ANY_UNKNOWN": true,
+        "I": true,
+        "O": true,
+        "J": false
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": false,
+        "coverage.digital": false,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "HN"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "UNKNOWN",
+          "digital": "UNKNOWN",
+          "origin_id": "KJ"
+        }
+      }
+    },
+    {
+      "case": "RD01-G04-A",
+      "group": "RD01-G04",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G04-A-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 2,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "HN"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "KJ"
+        }
+      }
+    },
+    {
+      "case": "RD01-G04-B",
+      "group": "RD01-G04",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G04-B-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 3,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "ZR"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "BW"
+        }
+      }
+    },
+    {
+      "case": "RD01-G04-B",
+      "group": "RD01-G04",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G04-B-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 4,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "ZR"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "BW"
+        }
+      }
+    },
+    {
+      "case": "RD01-G02-A",
+      "group": "RD01-G02",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G02-A-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 5,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "BK"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SZ"
+        }
+      }
+    },
+    {
+      "case": "RD01-G02-A",
+      "group": "RD01-G02",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G02-A-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 6,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": false,
+        "V": false,
+        "BOTH_UNKNOWN": true,
+        "ANY_UNKNOWN": true,
+        "I": true,
+        "O": true,
+        "J": false
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": false,
+        "coverage.digital": false,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "BK"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "UNKNOWN",
+          "digital": "UNKNOWN",
+          "origin_id": "SZ"
+        }
+      }
+    },
+    {
+      "case": "RD01-G02-B",
+      "group": "RD01-G02",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G02-B-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 7,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "WH"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "FU"
+        }
+      }
+    },
+    {
+      "case": "RD01-G02-B",
+      "group": "RD01-G02",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G02-B-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 8,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "WH"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "FU"
+        }
+      }
+    },
+    {
+      "case": "RD01-G01-B",
+      "group": "RD01-G01",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G01-B-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 9,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": false,
+        "V": false,
+        "BOTH_UNKNOWN": true,
+        "ANY_UNKNOWN": true,
+        "I": true,
+        "O": true,
+        "J": false
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": false,
+        "coverage.digital": false,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "JV"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "UNKNOWN",
+          "digital": "UNKNOWN",
+          "origin_id": "NR"
+        }
+      }
+    },
+    {
+      "case": "RD01-G01-B",
+      "group": "RD01-G01",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G01-B-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 10,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "JV"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "NR"
+        }
+      }
+    },
+    {
+      "case": "RD01-G01-A",
+      "group": "RD01-G01",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G01-A-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 11,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "QX"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "LT"
+        }
+      }
+    },
+    {
+      "case": "RD01-G01-A",
+      "group": "RD01-G01",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G01-A-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 12,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "QX"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "LT"
+        }
+      }
+    },
+    {
+      "case": "RD01-G03-B",
+      "group": "RD01-G03",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G03-B-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 13,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "PM"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "VE"
+        }
+      }
+    },
+    {
+      "case": "RD01-G03-B",
+      "group": "RD01-G03",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G03-B-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 14,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": false,
+        "V": false,
+        "BOTH_UNKNOWN": true,
+        "ANY_UNKNOWN": true,
+        "I": true,
+        "O": true,
+        "J": false
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": false,
+        "coverage.digital": false,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "PM"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "UNKNOWN",
+          "digital": "UNKNOWN",
+          "origin_id": "VE"
+        }
+      }
+    },
+    {
+      "case": "RD01-G03-A",
+      "group": "RD01-G03",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G03-A-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 15,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "GD"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "YC"
+        }
+      }
+    },
+    {
+      "case": "RD01-G03-A",
+      "group": "RD01-G03",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G03-A-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 16,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "GD"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "YC"
+        }
+      }
+    },
+    {
+      "case": "RD01-G03-A",
+      "group": "RD01-G03",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G03-A-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 17,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "GD"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "YC"
+        }
+      }
+    },
+    {
+      "case": "RD01-G03-A",
+      "group": "RD01-G03",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G03-A-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 18,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "GD"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "YC"
+        }
+      }
+    },
+    {
+      "case": "RD01-G03-B",
+      "group": "RD01-G03",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G03-B-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 19,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "PM"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "VE"
+        }
+      }
+    },
+    {
+      "case": "RD01-G03-B",
+      "group": "RD01-G03",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G03-B-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 20,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "PM"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "VE"
+        }
+      }
+    },
+    {
+      "case": "RD01-G01-A",
+      "group": "RD01-G01",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G01-A-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 21,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "QX"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "LT"
+        }
+      }
+    },
+    {
+      "case": "RD01-G01-A",
+      "group": "RD01-G01",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G01-A-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 22,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "QX"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "LT"
+        }
+      }
+    },
+    {
+      "case": "RD01-G01-B",
+      "group": "RD01-G01",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G01-B-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 23,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "JV"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "NR"
+        }
+      }
+    },
+    {
+      "case": "RD01-G01-B",
+      "group": "RD01-G01",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G01-B-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 24,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": false,
+        "V": false,
+        "BOTH_UNKNOWN": true,
+        "ANY_UNKNOWN": true,
+        "I": true,
+        "O": true,
+        "J": false
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": false,
+        "coverage.digital": false,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "JV"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "UNKNOWN",
+          "digital": "UNKNOWN",
+          "origin_id": "NR"
+        }
+      }
+    },
+    {
+      "case": "RD01-G02-B",
+      "group": "RD01-G02",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G02-B-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 25,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "WH"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "FU"
+        }
+      }
+    },
+    {
+      "case": "RD01-G02-B",
+      "group": "RD01-G02",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G02-B-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 26,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "WH"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "FU"
+        }
+      }
+    },
+    {
+      "case": "RD01-G02-A",
+      "group": "RD01-G02",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G02-A-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 27,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": false,
+        "V": false,
+        "BOTH_UNKNOWN": true,
+        "ANY_UNKNOWN": true,
+        "I": true,
+        "O": true,
+        "J": false
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": false,
+        "coverage.digital": false,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "BK"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "UNKNOWN",
+          "digital": "UNKNOWN",
+          "origin_id": "SZ"
+        }
+      }
+    },
+    {
+      "case": "RD01-G02-A",
+      "group": "RD01-G02",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G02-A-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 28,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "BK"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SZ"
+        }
+      }
+    },
+    {
+      "case": "RD01-G04-B",
+      "group": "RD01-G04",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G04-B-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 29,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "ZR"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "BW"
+        }
+      }
+    },
+    {
+      "case": "RD01-G04-B",
+      "group": "RD01-G04",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G04-B-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 30,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "ZR"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "BW"
+        }
+      }
+    },
+    {
+      "case": "RD01-G04-A",
+      "group": "RD01-G04",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G04-A-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 31,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": true,
+        "V": true,
+        "BOTH_UNKNOWN": false,
+        "ANY_UNKNOWN": false,
+        "I": true,
+        "O": true,
+        "J": true
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": true,
+        "coverage.digital": true,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "HN"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "KJ"
+        }
+      }
+    },
+    {
+      "case": "RD01-G04-A",
+      "group": "RD01-G04",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G04-A-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 32,
+      "parents": [],
+      "status": "VALID",
+      "metrics": {
+        "H": false,
+        "V": false,
+        "BOTH_UNKNOWN": true,
+        "ANY_UNKNOWN": true,
+        "I": true,
+        "O": true,
+        "J": false
+      },
+      "fields": {
+        "customer.subject": true,
+        "customer.animal": true,
+        "customer.origin_id": true,
+        "coverage.observer": true,
+        "coverage.paper": false,
+        "coverage.digital": false,
+        "coverage.origin_id": true
+      },
+      "parsed": {
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "HN"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "UNKNOWN",
+          "digital": "UNKNOWN",
+          "origin_id": "KJ"
+        }
+      }
+    }
+  ],
+  "status_counts": {
+    "VALID": 32
+  },
+  "all_slot_statuses": [
+    {
+      "id": "RD01-G04-A-WITH_RULE-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G04-A-RECORD_ONLY-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G04-B-WITH_RULE-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G04-B-RECORD_ONLY-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G02-A-RECORD_ONLY-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G02-A-WITH_RULE-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G02-B-RECORD_ONLY-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G02-B-WITH_RULE-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G01-B-WITH_RULE-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G01-B-RECORD_ONLY-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G01-A-WITH_RULE-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G01-A-RECORD_ONLY-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G03-B-RECORD_ONLY-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G03-B-WITH_RULE-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G03-A-RECORD_ONLY-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G03-A-WITH_RULE-R1",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G03-A-WITH_RULE-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G03-A-RECORD_ONLY-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G03-B-WITH_RULE-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G03-B-RECORD_ONLY-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G01-A-RECORD_ONLY-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G01-A-WITH_RULE-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G01-B-RECORD_ONLY-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G01-B-WITH_RULE-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G02-B-WITH_RULE-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G02-B-RECORD_ONLY-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G02-A-WITH_RULE-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G02-A-RECORD_ONLY-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G04-B-RECORD_ONLY-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G04-B-WITH_RULE-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G04-A-RECORD_ONLY-R2",
+      "status": "VALID"
+    },
+    {
+      "id": "RD01-G04-A-WITH_RULE-R2",
+      "status": "VALID"
+    }
+  ],
+  "repeat_input_comparison": [
+    {
+      "left": "RD01-G01-A-WITH_RULE-R1",
+      "right": "RD01-G01-A-WITH_RULE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G01-A-RECORD_ONLY-R1",
+      "right": "RD01-G01-A-RECORD_ONLY-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G01-B-WITH_RULE-R1",
+      "right": "RD01-G01-B-WITH_RULE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G01-B-RECORD_ONLY-R1",
+      "right": "RD01-G01-B-RECORD_ONLY-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G02-A-WITH_RULE-R1",
+      "right": "RD01-G02-A-WITH_RULE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G02-A-RECORD_ONLY-R1",
+      "right": "RD01-G02-A-RECORD_ONLY-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G02-B-WITH_RULE-R1",
+      "right": "RD01-G02-B-WITH_RULE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G02-B-RECORD_ONLY-R1",
+      "right": "RD01-G02-B-RECORD_ONLY-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G03-A-WITH_RULE-R1",
+      "right": "RD01-G03-A-WITH_RULE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G03-A-RECORD_ONLY-R1",
+      "right": "RD01-G03-A-RECORD_ONLY-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G03-B-WITH_RULE-R1",
+      "right": "RD01-G03-B-WITH_RULE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G03-B-RECORD_ONLY-R1",
+      "right": "RD01-G03-B-RECORD_ONLY-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G04-A-WITH_RULE-R1",
+      "right": "RD01-G04-A-WITH_RULE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G04-A-RECORD_ONLY-R1",
+      "right": "RD01-G04-A-RECORD_ONLY-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G04-B-WITH_RULE-R1",
+      "right": "RD01-G04-B-WITH_RULE-R2",
+      "observed": true,
+      "same_bytes": true
+    },
+    {
+      "left": "RD01-G04-B-RECORD_ONLY-R1",
+      "right": "RD01-G04-B-RECORD_ONLY-R2",
+      "observed": true,
+      "same_bytes": true
+    }
+  ]
+}

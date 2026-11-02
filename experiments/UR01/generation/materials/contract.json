@@ -1,0 +1,26 @@
+{
+  "automatic_regenerations": 0,
+  "checkpoint_every_closed_slots": 24,
+  "cloud_drive": "not_used",
+  "delivery": "zip_download",
+  "dependency_policy": "Actual saved memory only; structurally invalid UPDATE blocks its READ only.",
+  "design_sha256": "c896e08550dcdc0f2b338437456044957858f7d9d92746e34330844692ddb8aa",
+  "eos_policy": "Remove one final im_end only, retaining raw token IDs; no text repair.",
+  "max_generations": 144,
+  "max_reads": 72,
+  "max_updates": 72,
+  "protocol": "UPDATE-READOUT-01-RUN-v0.1",
+  "requests_sha256": "2f19596f163b2e50c3f27258c285bfad907053ecc5fd0a4d610bb9559cc37792",
+  "resume_generation": false,
+  "retention": "private_no_deletion_deadline",
+  "seconds_including_setup": 5400,
+  "source_hashes": {
+    "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "saved_readout_01_scoring.py": "771585161c56963b938bb13ef36decafdaa9711125adfc1f3abc5eef4a73525a",
+    "update_readout_01_bootstrap.py": "639d7abf6fb293687e73dcc213708cdedccb91a2d9f976caa144081bad5cfe69",
+    "update_readout_01_runtime.py": "66d7a7947a540c5153bba6e26a073650b54dfd29be51ebdd5672afd2cd69dc7c",
+    "update_readout_01_scoring.py": "b7ec099775e4065297a2a98e95239dc0f07422cc918c93f07b1871dacff41b85"
+  }
+}

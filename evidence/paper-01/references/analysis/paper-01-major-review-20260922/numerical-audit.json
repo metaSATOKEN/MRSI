@@ -1,0 +1,900 @@
+{
+  "status": "POST_REVIEW_OFFLINE_AUDIT",
+  "python": "3.13.5 (main, Jun 11 2025, 15:36:57) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "scipy": "1.17.0",
+  "new_research_requests": 0,
+  "source_hashes": {
+    "throughline/audits/paper-01-pair-resume1-20260921/combined-analysis.json": "ec27dc84af2d1ab318221f416d7aebc1fd184da301fb409021a00c5bb21f7db5",
+    "study2/designs/paper-01-pair-20260921/materials.json": "36f7378633be3e081013ae81cf628c68e686b27db08a65ba9f098c7984dc6d84",
+    "throughline/audits/paper-01-estimate-20260920/estimate.json": "83a8b53f9306381bc9c13e0d362ab1350ceb1ddc283afc2fa37e0c94f379a4a6"
+  },
+  "E1": {
+    "strict": {
+      "completions": [
+        {
+          "unknown_assignments": {
+            "E1-G23": {
+              "REWRITE": false,
+              "SELECT": true
+            }
+          },
+          "SELECT_only": 5,
+          "REWRITE_only": 5,
+          "SELECT_L": 0.021602575412027966,
+          "SELECT_U": 0.18762296537990952,
+          "REWRITE_L": 0.021602575412027966,
+          "REWRITE_U": 0.18762296537990952,
+          "delta": 0.0,
+          "ci95": [
+            -0.16602038996788154,
+            0.16602038996788154
+          ]
+        },
+        {
+          "unknown_assignments": {
+            "E1-G23": {
+              "REWRITE": true,
+              "SELECT": true
+            }
+          },
+          "SELECT_only": 4,
+          "REWRITE_only": 5,
+          "SELECT_L": 0.013986065939819662,
+          "SELECT_U": 0.1664468309709648,
+          "REWRITE_L": 0.021602575412027966,
+          "REWRITE_U": 0.18762296537990952,
+          "delta": -0.015625,
+          "ci95": [
+            -0.17363689944008986,
+            0.14484425555893682
+          ]
+        }
+      ],
+      "envelope": [
+        -0.17363689944008986,
+        0.16602038996788154
+      ],
+      "delta_bounds": [
+        -0.015625,
+        0.0
+      ]
+    },
+    "content": {
+      "completions": [
+        {
+          "unknown_assignments": {
+            "E1-G23": {
+              "REWRITE": false,
+              "SELECT": true
+            }
+          },
+          "SELECT_only": 4,
+          "REWRITE_only": 2,
+          "SELECT_L": 0.013986065939819662,
+          "SELECT_U": 0.1664468309709648,
+          "REWRITE_L": 0.0026282127482369797,
+          "REWRITE_U": 0.12098875154151734,
+          "delta": 0.03125,
+          "ci95": [
+            -0.10700268560169768,
+            0.1638186182227278
+          ]
+        },
+        {
+          "unknown_assignments": {
+            "E1-G23": {
+              "REWRITE": true,
+              "SELECT": true
+            }
+          },
+          "SELECT_only": 3,
+          "REWRITE_only": 2,
+          "SELECT_L": 0.007497834701725013,
+          "SELECT_U": 0.14435628574313641,
+          "REWRITE_L": 0.0026282127482369797,
+          "REWRITE_U": 0.12098875154151734,
+          "delta": 0.015625,
+          "ci95": [
+            -0.11349091683979232,
+            0.14172807299489942
+          ]
+        }
+      ],
+      "envelope": [
+        -0.11349091683979232,
+        0.1638186182227278
+      ],
+      "delta_bounds": [
+        0.015625,
+        0.03125
+      ]
+    }
+  },
+  "label_strata": {
+    "scene_name": [
+      {
+        "label": "図書交換会",
+        "n": 8,
+        "groups": [
+          "E1-G03",
+          "E1-G11",
+          "E1-G19",
+          "E1-G27",
+          "E1-G35",
+          "E1-G43",
+          "E1-G51",
+          "E1-G59"
+        ],
+        "both": 5,
+        "REWRITE_only": 2,
+        "SELECT_only": 1,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "地域園芸講座",
+        "n": 8,
+        "groups": [
+          "E1-G02",
+          "E1-G10",
+          "E1-G18",
+          "E1-G26",
+          "E1-G34",
+          "E1-G42",
+          "E1-G50",
+          "E1-G58"
+        ],
+        "both": 7,
+        "REWRITE_only": 0,
+        "SELECT_only": 1,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "天体観察会",
+        "n": 8,
+        "groups": [
+          "E1-G05",
+          "E1-G13",
+          "E1-G21",
+          "E1-G29",
+          "E1-G37",
+          "E1-G45",
+          "E1-G53",
+          "E1-G61"
+        ],
+        "both": 7,
+        "REWRITE_only": 1,
+        "SELECT_only": 0,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "料理体験会",
+        "n": 8,
+        "groups": [
+          "E1-G06",
+          "E1-G14",
+          "E1-G22",
+          "E1-G30",
+          "E1-G38",
+          "E1-G46",
+          "E1-G54",
+          "E1-G62"
+        ],
+        "both": 7,
+        "REWRITE_only": 0,
+        "SELECT_only": 1,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "歴史散策会",
+        "n": 8,
+        "groups": [
+          "E1-G07",
+          "E1-G15",
+          "E1-G23",
+          "E1-G31",
+          "E1-G39",
+          "E1-G47",
+          "E1-G55",
+          "E1-G63"
+        ],
+        "both": 7,
+        "REWRITE_only": 0,
+        "SELECT_only": 0,
+        "neither": 0,
+        "unknown": 1
+      },
+      {
+        "label": "科学工作展",
+        "n": 8,
+        "groups": [
+          "E1-G01",
+          "E1-G09",
+          "E1-G17",
+          "E1-G25",
+          "E1-G33",
+          "E1-G41",
+          "E1-G49",
+          "E1-G57"
+        ],
+        "both": 7,
+        "REWRITE_only": 1,
+        "SELECT_only": 0,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "防災学習会",
+        "n": 8,
+        "groups": [
+          "E1-G04",
+          "E1-G12",
+          "E1-G20",
+          "E1-G28",
+          "E1-G36",
+          "E1-G44",
+          "E1-G52",
+          "E1-G60"
+        ],
+        "both": 7,
+        "REWRITE_only": 0,
+        "SELECT_only": 1,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "音楽鑑賞会",
+        "n": 8,
+        "groups": [
+          "E1-G08",
+          "E1-G16",
+          "E1-G24",
+          "E1-G32",
+          "E1-G40",
+          "E1-G48",
+          "E1-G56",
+          "E1-G64"
+        ],
+        "both": 7,
+        "REWRITE_only": 1,
+        "SELECT_only": 0,
+        "neither": 0,
+        "unknown": 0
+      }
+    ],
+    "area": [
+      {
+        "label": "丘の会場",
+        "n": 8,
+        "groups": [
+          "E1-G49",
+          "E1-G50",
+          "E1-G51",
+          "E1-G52",
+          "E1-G53",
+          "E1-G54",
+          "E1-G55",
+          "E1-G56"
+        ],
+        "both": 7,
+        "REWRITE_only": 1,
+        "SELECT_only": 0,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "中央会場",
+        "n": 8,
+        "groups": [
+          "E1-G33",
+          "E1-G34",
+          "E1-G35",
+          "E1-G36",
+          "E1-G37",
+          "E1-G38",
+          "E1-G39",
+          "E1-G40"
+        ],
+        "both": 7,
+        "REWRITE_only": 0,
+        "SELECT_only": 1,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "北会場",
+        "n": 8,
+        "groups": [
+          "E1-G25",
+          "E1-G26",
+          "E1-G27",
+          "E1-G28",
+          "E1-G29",
+          "E1-G30",
+          "E1-G31",
+          "E1-G32"
+        ],
+        "both": 7,
+        "REWRITE_only": 1,
+        "SELECT_only": 0,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "南会場",
+        "n": 8,
+        "groups": [
+          "E1-G17",
+          "E1-G18",
+          "E1-G19",
+          "E1-G20",
+          "E1-G21",
+          "E1-G22",
+          "E1-G23",
+          "E1-G24"
+        ],
+        "both": 7,
+        "REWRITE_only": 0,
+        "SELECT_only": 0,
+        "neither": 0,
+        "unknown": 1
+      },
+      {
+        "label": "川辺会場",
+        "n": 8,
+        "groups": [
+          "E1-G41",
+          "E1-G42",
+          "E1-G43",
+          "E1-G44",
+          "E1-G45",
+          "E1-G46",
+          "E1-G47",
+          "E1-G48"
+        ],
+        "both": 7,
+        "REWRITE_only": 1,
+        "SELECT_only": 0,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "東会場",
+        "n": 8,
+        "groups": [
+          "E1-G01",
+          "E1-G02",
+          "E1-G03",
+          "E1-G04",
+          "E1-G05",
+          "E1-G06",
+          "E1-G07",
+          "E1-G08"
+        ],
+        "both": 5,
+        "REWRITE_only": 1,
+        "SELECT_only": 2,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "西会場",
+        "n": 8,
+        "groups": [
+          "E1-G09",
+          "E1-G10",
+          "E1-G11",
+          "E1-G12",
+          "E1-G13",
+          "E1-G14",
+          "E1-G15",
+          "E1-G16"
+        ],
+        "both": 6,
+        "REWRITE_only": 1,
+        "SELECT_only": 1,
+        "neither": 0,
+        "unknown": 0
+      },
+      {
+        "label": "駅前会場",
+        "n": 8,
+        "groups": [
+          "E1-G57",
+          "E1-G58",
+          "E1-G59",
+          "E1-G60",
+          "E1-G61",
+          "E1-G62",
+          "E1-G63",
+          "E1-G64"
+        ],
+        "both": 8,
+        "REWRITE_only": 0,
+        "SELECT_only": 0,
+        "neither": 0,
+        "unknown": 0
+      }
+    ]
+  },
+  "shared_row_groups": {
+    "REWRITE": {
+      "groups": {
+        "E1-G01": true,
+        "E1-G02": true,
+        "E1-G03": true,
+        "E1-G04": true,
+        "E1-G05": true,
+        "E1-G06": false,
+        "E1-G07": true,
+        "E1-G08": true,
+        "E1-G09": true,
+        "E1-G10": true,
+        "E1-G11": false,
+        "E1-G12": true,
+        "E1-G13": true,
+        "E1-G14": true,
+        "E1-G15": true,
+        "E1-G16": true,
+        "E1-G17": true,
+        "E1-G18": true,
+        "E1-G19": true,
+        "E1-G20": true,
+        "E1-G21": true,
+        "E1-G22": true,
+        "E1-G23": true,
+        "E1-G24": true,
+        "E1-G25": true,
+        "E1-G26": true,
+        "E1-G27": true,
+        "E1-G28": true,
+        "E1-G29": true,
+        "E1-G30": true,
+        "E1-G31": true,
+        "E1-G32": true,
+        "E1-G33": true,
+        "E1-G34": true,
+        "E1-G35": true,
+        "E1-G36": false,
+        "E1-G37": true,
+        "E1-G38": true,
+        "E1-G39": true,
+        "E1-G40": true,
+        "E1-G41": true,
+        "E1-G42": true,
+        "E1-G43": true,
+        "E1-G44": true,
+        "E1-G45": true,
+        "E1-G46": true,
+        "E1-G47": true,
+        "E1-G48": true,
+        "E1-G49": true,
+        "E1-G50": true,
+        "E1-G51": true,
+        "E1-G52": true,
+        "E1-G53": true,
+        "E1-G54": true,
+        "E1-G55": true,
+        "E1-G56": true,
+        "E1-G57": true,
+        "E1-G58": true,
+        "E1-G59": true,
+        "E1-G60": true,
+        "E1-G61": true,
+        "E1-G62": true,
+        "E1-G63": true,
+        "E1-G64": true
+      },
+      "pass": 61,
+      "fail": [
+        "E1-G06",
+        "E1-G11",
+        "E1-G36"
+      ],
+      "unknown": []
+    },
+    "SELECT": {
+      "groups": {
+        "E1-G01": true,
+        "E1-G02": true,
+        "E1-G03": true,
+        "E1-G04": true,
+        "E1-G05": true,
+        "E1-G06": true,
+        "E1-G07": true,
+        "E1-G08": true,
+        "E1-G09": true,
+        "E1-G10": true,
+        "E1-G11": true,
+        "E1-G12": true,
+        "E1-G13": true,
+        "E1-G14": true,
+        "E1-G15": true,
+        "E1-G16": true,
+        "E1-G17": true,
+        "E1-G18": true,
+        "E1-G19": true,
+        "E1-G20": true,
+        "E1-G21": true,
+        "E1-G22": true,
+        "E1-G23": true,
+        "E1-G24": true,
+        "E1-G25": true,
+        "E1-G26": true,
+        "E1-G27": true,
+        "E1-G28": true,
+        "E1-G29": true,
+        "E1-G30": true,
+        "E1-G31": true,
+        "E1-G32": true,
+        "E1-G33": true,
+        "E1-G34": true,
+        "E1-G35": true,
+        "E1-G36": true,
+        "E1-G37": true,
+        "E1-G38": true,
+        "E1-G39": true,
+        "E1-G40": true,
+        "E1-G41": true,
+        "E1-G42": true,
+        "E1-G43": true,
+        "E1-G44": true,
+        "E1-G45": true,
+        "E1-G46": true,
+        "E1-G47": true,
+        "E1-G48": true,
+        "E1-G49": true,
+        "E1-G50": true,
+        "E1-G51": true,
+        "E1-G52": true,
+        "E1-G53": true,
+        "E1-G54": true,
+        "E1-G55": true,
+        "E1-G56": true,
+        "E1-G57": true,
+        "E1-G58": true,
+        "E1-G59": true,
+        "E1-G60": true,
+        "E1-G61": true,
+        "E1-G62": true,
+        "E1-G63": true,
+        "E1-G64": true
+      },
+      "pass": 64,
+      "fail": [],
+      "unknown": []
+    }
+  },
+  "E2_nominal_descriptive_intervals": [
+    {
+      "cell": "ABSENT/DETAILS",
+      "completion": {
+        "k": 8,
+        "n": 8,
+        "cp95": [
+          0.6305833524471809,
+          1.0
+        ]
+      },
+      "evidence_appropriate": {
+        "k": 8,
+        "n": 8,
+        "cp95": [
+          0.6305833524471809,
+          1.0
+        ]
+      }
+    },
+    {
+      "cell": "ABSENT/ID_ONLY",
+      "completion": {
+        "k": 0,
+        "n": 8,
+        "cp95": [
+          0.0,
+          0.3694166475528191
+        ]
+      },
+      "evidence_appropriate": {
+        "k": 8,
+        "n": 8,
+        "cp95": [
+          0.6305833524471809,
+          1.0
+        ]
+      }
+    },
+    {
+      "cell": "CORRECT/DETAILS",
+      "completion": {
+        "k": 8,
+        "n": 8,
+        "cp95": [
+          0.6305833524471809,
+          1.0
+        ]
+      },
+      "evidence_appropriate": {
+        "k": 8,
+        "n": 8,
+        "cp95": [
+          0.6305833524471809,
+          1.0
+        ]
+      }
+    },
+    {
+      "cell": "CORRECT/ID_ONLY",
+      "completion": {
+        "k": 8,
+        "n": 8,
+        "cp95": [
+          0.6305833524471809,
+          1.0
+        ]
+      },
+      "evidence_appropriate": {
+        "k": 8,
+        "n": 8,
+        "cp95": [
+          0.6305833524471809,
+          1.0
+        ]
+      }
+    },
+    {
+      "cell": "OLD/DETAILS",
+      "completion": {
+        "k": 8,
+        "n": 8,
+        "cp95": [
+          0.6305833524471809,
+          1.0
+        ]
+      },
+      "evidence_appropriate": {
+        "k": 8,
+        "n": 8,
+        "cp95": [
+          0.6305833524471809,
+          1.0
+        ]
+      }
+    },
+    {
+      "cell": "OLD/ID_ONLY",
+      "completion": {
+        "k": 0,
+        "n": 8,
+        "cp95": [
+          0.0,
+          0.3694166475528191
+        ]
+      },
+      "evidence_appropriate": {
+        "k": 8,
+        "n": 8,
+        "cp95": [
+          0.6305833524471809,
+          1.0
+        ]
+      }
+    }
+  ],
+  "preexisting_power": [
+    {
+      "groups": 64,
+      "delta": 0.1,
+      "discordance": 0.3,
+      "power": 0.23593484736773132,
+      "normal_planning_halfwidth": 0.13193653777479533
+    },
+    {
+      "groups": 64,
+      "delta": 0.2,
+      "discordance": 0.3,
+      "power": 0.8268945432491974,
+      "normal_planning_halfwidth": 0.12492597808302323
+    },
+    {
+      "groups": 64,
+      "delta": 0.2,
+      "discordance": 0.4,
+      "power": 0.6675649314947069,
+      "normal_planning_halfwidth": 0.147
+    }
+  ],
+  "checks": [
+    {
+      "name": "CP n=64 k=5 c=0.975: three implementations",
+      "pass": true
+    },
+    {
+      "name": "CP n=64 k=5 c=0.975: three implementations",
+      "pass": true
+    },
+    {
+      "name": "CP n=64 k=4 c=0.975: three implementations",
+      "pass": true
+    },
+    {
+      "name": "CP n=64 k=5 c=0.975: three implementations",
+      "pass": true
+    },
+    {
+      "name": "strict interval unchanged",
+      "pass": true
+    },
+    {
+      "name": "strict missing bounds unchanged",
+      "pass": true
+    },
+    {
+      "name": "strict formal p absent",
+      "pass": true
+    },
+    {
+      "name": "CP n=64 k=4 c=0.975: three implementations",
+      "pass": true
+    },
+    {
+      "name": "CP n=64 k=2 c=0.975: three implementations",
+      "pass": true
+    },
+    {
+      "name": "CP n=64 k=3 c=0.975: three implementations",
+      "pass": true
+    },
+    {
+      "name": "CP n=64 k=2 c=0.975: three implementations",
+      "pass": true
+    },
+    {
+      "name": "content interval unchanged",
+      "pass": true
+    },
+    {
+      "name": "content missing bounds unchanged",
+      "pass": true
+    },
+    {
+      "name": "content formal p absent",
+      "pass": true
+    },
+    {
+      "name": "scene_name partition",
+      "pass": true
+    },
+    {
+      "name": "scene_name totals",
+      "pass": true
+    },
+    {
+      "name": "area partition",
+      "pass": true
+    },
+    {
+      "name": "area totals",
+      "pass": true
+    },
+    {
+      "name": "shared groups REWRITE",
+      "pass": true
+    },
+    {
+      "name": "shared groups SELECT",
+      "pass": true
+    },
+    {
+      "name": "ABSENT/DETAILS/completion observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=8 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "ABSENT/DETAILS/evidence_appropriate observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=8 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "ABSENT/ID_ONLY/completion observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=0 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "ABSENT/ID_ONLY/evidence_appropriate observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=8 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "CORRECT/DETAILS/completion observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=8 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "CORRECT/DETAILS/evidence_appropriate observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=8 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "CORRECT/ID_ONLY/completion observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=8 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "CORRECT/ID_ONLY/evidence_appropriate observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=8 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "OLD/DETAILS/completion observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=8 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "OLD/DETAILS/evidence_appropriate observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=8 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "OLD/ID_ONLY/completion observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=0 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "OLD/ID_ONLY/evidence_appropriate observed eight",
+      "pass": true
+    },
+    {
+      "name": "CP n=8 k=8 c=0.95: three implementations",
+      "pass": true
+    },
+    {
+      "name": "prior power (0.1, 0.3)",
+      "pass": true
+    },
+    {
+      "name": "prior power (0.2, 0.3)",
+      "pass": true
+    },
+    {
+      "name": "prior power (0.2, 0.4)",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"shared_note":{"coverage":{"A":{"observer":"A","paper":"NOT_ALL","digital":"ALL","origin_id":"YC"},"B":{"observer":"B","paper":"ALL","digital":"ALL","origin_id":"VE"}},"channel":"DIGITAL","channel_read_refs":["OBS_A","OBS_B"],"channel_origin_ids":["YC","VE"]}}

@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-F53F084968",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local", "/answer/reply"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "追加プロパティなし、必須フィールドと型がschemaに一致する。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/reply/reply_to", "/answer/reply/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/facts/roles/A/episode_ids", "/facts/roles/B/episode_ids", "/proposal/record_id"],
+      "reason": "subjectはholder、evidence_refsは全経験IDと一致、reply_toは提案ID、共同evidenceは両役全ID。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/success_totals"],
+      "reason": "Aの成功率はDIGITAL(27)がPAPER(23)より高く、選択は正しい。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/reply/action", "/answer/reply/allocation"],
+      "evidence_pointers": ["/facts/feasible_allocations", "/proposal/body/allocation"],
+      "reason": "提案(A:DIGITAL,B:PAPER)は合計53で最大、実行可能なのでACCEPTで一致する。"
+    }
+  }
+}<|im_end|>

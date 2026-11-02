@@ -1,0 +1,25 @@
+{
+  "note": {
+    "coverage": {
+      "A": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "ALL",
+        "source_id": "SZ"
+      },
+      "B": {
+        "observer": "B",
+        "paper": "NOT_ALL",
+        "digital": "ALL",
+        "source_id": "FU"
+      }
+    },
+    "channel": "DIGITAL",
+    "channel_sources": [
+      "OBS_A",
+      "OBS_B"
+    ]
+  },
+  "continuable": true,
+  "status": "VALID"
+}

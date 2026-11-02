@@ -1,0 +1,24 @@
+{
+  "local": {
+    "subject": "B",
+    "choice": "PAPER",
+    "evidence_refs": [
+      "E1C60625B3D",
+      "EC9F2F8942D",
+      "E2ED7213532"
+    ]
+  },
+  "proposal": {
+    "allocation": {
+      "A": "DIGITAL",
+      "B": "PAPER"
+    },
+    "evidence_refs": [
+      "E1C60625B3D",
+      "EC9F2F8942D",
+      "E719F39C5D6",
+      "EAB5D8DF0D3",
+      "E2ED7213532"
+    ]
+  }
+}<|im_end|>

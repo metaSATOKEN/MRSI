@@ -1,0 +1,11 @@
+{
+  "own": {
+    "holder": "A",
+    "recommendation": "DIGITAL",
+    "evidence_ids": ["Ebb143df426", "E0f37be6560"]
+  },
+  "vote": {
+    "proposal_id": "P5cbc89f3",
+    "decision": "ACCEPT"
+  }
+}<|im_end|>

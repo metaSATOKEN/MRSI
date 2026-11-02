@@ -1,0 +1,5121 @@
+{
+  "elapsed_seconds": 711.3085991819999,
+  "environment": {
+    "capability": [
+      12,
+      0
+    ],
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "driver": "580.82.07",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "packages": {
+      "accelerate": "1.15.0",
+      "causal-conv1d": null,
+      "fla-core": null,
+      "flash-linear-attention": null,
+      "huggingface-hub": "1.29.0",
+      "kernels": null,
+      "numpy": "2.1.3",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.23.1",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.17.0",
+      "triton": "3.6.0"
+    },
+    "python": "3.13.15",
+    "total_vram": 101974081536
+  },
+  "normalization": {
+    "FORM": {
+      "answered": 16,
+      "status": {
+        "UNCHANGED": 16
+      },
+      "raw_schema_accepted": 16,
+      "normalized_schema_accepted": 16,
+      "removed_bytes": 0
+    },
+    "CONFIRM": {
+      "answered": 24,
+      "status": {
+        "UNCHANGED": 24
+      },
+      "raw_schema_accepted": 24,
+      "normalized_schema_accepted": 24,
+      "removed_bytes": 0
+    },
+    "RECHECK": {
+      "answered": 17,
+      "status": {
+        "UNCHANGED": 17
+      },
+      "raw_schema_accepted": 17,
+      "normalized_schema_accepted": 17,
+      "removed_bytes": 0
+    },
+    "USE": {
+      "answered": 48,
+      "status": {
+        "UNCHANGED": 48
+      },
+      "raw_schema_accepted": 48,
+      "normalized_schema_accepted": 48,
+      "removed_bytes": 0
+    },
+    "RECHECK_DIAGNOSTIC": {
+      "answered": 12,
+      "status": {
+        "UNCHANGED": 12
+      },
+      "raw_schema_accepted": 12,
+      "normalized_schema_accepted": 12,
+      "removed_bytes": 0
+    }
+  },
+  "stage_components": {
+    "FORM": {
+      "planned": 16,
+      "skipped_by_protocol": 0,
+      "metrics": {
+        "format_valid": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "L": {
+          "n": 16,
+          "correct": 14,
+          "incorrect": 2,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.875,
+            0.875
+          ]
+        },
+        "Z_local": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "V": {
+          "n": 16,
+          "correct": 14,
+          "incorrect": 2,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.875,
+            0.875
+          ]
+        }
+      }
+    },
+    "CONFIRM": {
+      "planned": 24,
+      "skipped_by_protocol": 0,
+      "metrics": {
+        "format_valid": {
+          "n": 24,
+          "correct": 24,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "L": {
+          "n": 24,
+          "correct": 21,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.875,
+            0.875
+          ]
+        },
+        "Z_local": {
+          "n": 24,
+          "correct": 24,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "V": {
+          "n": 24,
+          "correct": 21,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.875,
+            0.875
+          ]
+        },
+        "action_contract": {
+          "n": 24,
+          "correct": 23,
+          "incorrect": 1,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.9583333333333334,
+            0.9583333333333334
+          ]
+        },
+        "reply_reference": {
+          "n": 24,
+          "correct": 24,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "experience_references": {
+          "n": 24,
+          "correct": 24,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "RECHECK": {
+      "planned": 24,
+      "skipped_by_protocol": 7,
+      "metrics": {
+        "format_valid": {
+          "n": 17,
+          "correct": 17,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "L": {
+          "n": 17,
+          "correct": 15,
+          "incorrect": 2,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.8823529411764706,
+            0.8823529411764706
+          ]
+        },
+        "Z_local": {
+          "n": 17,
+          "correct": 17,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "V": {
+          "n": 17,
+          "correct": 15,
+          "incorrect": 2,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.8823529411764706,
+            0.8823529411764706
+          ]
+        },
+        "action_contract": {
+          "n": 17,
+          "correct": 17,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "reply_reference": {
+          "n": 17,
+          "correct": 17,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "experience_references": {
+          "n": 17,
+          "correct": 17,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "USE": {
+      "planned": 48,
+      "skipped_by_protocol": 0,
+      "metrics": {
+        "format_valid": {
+          "n": 48,
+          "correct": 48,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "L": {
+          "n": 48,
+          "correct": 48,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "Z_local": {
+          "n": 48,
+          "correct": 48,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "V": {
+          "n": 48,
+          "correct": 48,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "H": {
+          "n": 48,
+          "correct": 48,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "Z_team": {
+          "n": 48,
+          "correct": 48,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "RECHECK_DIAGNOSTIC": {
+      "planned": 12,
+      "skipped_by_protocol": 0,
+      "metrics": {
+        "format_valid": {
+          "n": 12,
+          "correct": 12,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "L": {
+          "n": 12,
+          "correct": 9,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.75,
+            0.75
+          ]
+        },
+        "Z_local": {
+          "n": 12,
+          "correct": 12,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "V": {
+          "n": 12,
+          "correct": 8,
+          "incorrect": 4,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.6666666666666666,
+            0.6666666666666666
+          ]
+        },
+        "action_contract": {
+          "n": 12,
+          "correct": 11,
+          "incorrect": 1,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.9166666666666666,
+            0.9166666666666666
+          ]
+        },
+        "reply_reference": {
+          "n": 12,
+          "correct": 12,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "experience_references": {
+          "n": 12,
+          "correct": 12,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  },
+  "paths": [
+    {
+      "id": "CR01-N07-OPTIMAL",
+      "case": "N07",
+      "initial_type": "OPTIMAL",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N07-LOWER",
+      "case": "N07",
+      "initial_type": "LOWER",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N07-DUPLICATE",
+      "case": "N07",
+      "initial_type": "DUPLICATE",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N04-OPTIMAL",
+      "case": "N04",
+      "initial_type": "OPTIMAL",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N04-DUPLICATE",
+      "case": "N04",
+      "initial_type": "DUPLICATE",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N04-LOWER",
+      "case": "N04",
+      "initial_type": "LOWER",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N05-LOWER",
+      "case": "N05",
+      "initial_type": "LOWER",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N05-OPTIMAL",
+      "case": "N05",
+      "initial_type": "OPTIMAL",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N05-DUPLICATE",
+      "case": "N05",
+      "initial_type": "DUPLICATE",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N06-LOWER",
+      "case": "N06",
+      "initial_type": "LOWER",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N06-DUPLICATE",
+      "case": "N06",
+      "initial_type": "DUPLICATE",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N06-OPTIMAL",
+      "case": "N06",
+      "initial_type": "OPTIMAL",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N02-DUPLICATE",
+      "case": "N02",
+      "initial_type": "DUPLICATE",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N02-OPTIMAL",
+      "case": "N02",
+      "initial_type": "OPTIMAL",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N02-LOWER",
+      "case": "N02",
+      "initial_type": "LOWER",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N03-DUPLICATE",
+      "case": "N03",
+      "initial_type": "DUPLICATE",
+      "J": false,
+      "I": false,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N03-LOWER",
+      "case": "N03",
+      "initial_type": "LOWER",
+      "J": false,
+      "I": false,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N03-OPTIMAL",
+      "case": "N03",
+      "initial_type": "OPTIMAL",
+      "J": false,
+      "I": false,
+      "K": false,
+      "G": false,
+      "wrong_agreement": false,
+      "category": "APPROPRIATE_HOLD"
+    },
+    {
+      "id": "CR01-N01-OPTIMAL",
+      "case": "N01",
+      "initial_type": "OPTIMAL",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N01-LOWER",
+      "case": "N01",
+      "initial_type": "LOWER",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N01-DUPLICATE",
+      "case": "N01",
+      "initial_type": "DUPLICATE",
+      "J": true,
+      "I": true,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N08-LOWER",
+      "case": "N08",
+      "initial_type": "LOWER",
+      "J": false,
+      "I": false,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N08-DUPLICATE",
+      "case": "N08",
+      "initial_type": "DUPLICATE",
+      "J": false,
+      "I": false,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    },
+    {
+      "id": "CR01-N08-OPTIMAL",
+      "case": "N08",
+      "initial_type": "OPTIMAL",
+      "J": false,
+      "I": false,
+      "K": true,
+      "G": true,
+      "wrong_agreement": false,
+      "category": "CORRECT_AGREEMENT"
+    }
+  ],
+  "nonpassing": [
+    {
+      "id": "CR01-N03-FORM-B",
+      "stage": "FORM",
+      "case": "N03",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "EC1822CA588",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 17,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "E4553017BC5",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 5,
+            "digital_success": 11
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"PAPER\",\"evidence_refs\":[\"EC1822CA588\",\"E4553017BC5\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "EC1822CA588",
+            "E4553017BC5"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "19",
+          "DIGITAL": "18"
+        },
+        "B": {
+          "PAPER": "22",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N08-FORM-B",
+      "stage": "FORM",
+      "case": "N08",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E787FED353C",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 18
+          },
+          {
+            "episode_id": "E5ED4D0A13A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EB78F6CD72E",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 36,
+            "paper_success": 22
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EB78F6CD72E\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EB78F6CD72E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "15",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "26",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N03-DUPLICATE-CONFIRM",
+      "stage": "CONFIRM",
+      "case": "N03",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E837D9C0A7F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 9
+          },
+          {
+            "episode_id": "E803DE431C3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 4,
+            "digital_success": 18
+          },
+          {
+            "episode_id": "EC1822CA588",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 17,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "E4553017BC5",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 5,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E2B2525699D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 25,
+            "digital_success": 9
+          }
+        ],
+        "own_judgment": {
+          "record_id": "Q6EB2A0941C",
+          "author": "B",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "EC1822CA588",
+              "E4553017BC5"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q08D6040F05",
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E837D9C0A7F",
+              "E803DE431C3",
+              "EC1822CA588",
+              "E4553017BC5",
+              "E2B2525699D"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 40
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 42
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"PAPER\",\"evidence_refs\":[\"EC1822CA588\",\"E4553017BC5\"]},\"reply\":{\"action\":\"COUNTER\",\"reply_to\":\"Q08D6040F05\",\"allocation\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\"},\"evidence_refs\":[\"E837D9C0A7F\",\"E803DE431C3\",\"EC1822CA588\",\"E4553017BC5\",\"E2B2525699D\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "EC1822CA588",
+            "E4553017BC5"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q08D6040F05",
+          "allocation": {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E837D9C0A7F",
+            "E803DE431C3",
+            "EC1822CA588",
+            "E4553017BC5",
+            "E2B2525699D"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "19",
+          "DIGITAL": "18"
+        },
+        "B": {
+          "PAPER": "22",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N03-LOWER-CONFIRM",
+      "stage": "CONFIRM",
+      "case": "N03",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E837D9C0A7F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 9
+          },
+          {
+            "episode_id": "E803DE431C3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 4,
+            "digital_success": 18
+          },
+          {
+            "episode_id": "EC1822CA588",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 17,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "E4553017BC5",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 5,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E2B2525699D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 25,
+            "digital_success": 9
+          }
+        ],
+        "own_judgment": {
+          "record_id": "Q6EB2A0941C",
+          "author": "B",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "EC1822CA588",
+              "E4553017BC5"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q08D6040F05",
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E837D9C0A7F",
+              "E803DE431C3",
+              "EC1822CA588",
+              "E4553017BC5",
+              "E2B2525699D"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 40
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 42
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"PAPER\",\"evidence_refs\":[\"EC1822CA588\",\"E4553017BC5\"]},\"reply\":{\"action\":\"COUNTER\",\"reply_to\":\"Q08D6040F05\",\"allocation\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\"},\"evidence_refs\":[\"E837D9C0A7F\",\"E803DE431C3\",\"EC1822CA588\",\"E4553017BC5\",\"E2B2525699D\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "EC1822CA588",
+            "E4553017BC5"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q08D6040F05",
+          "allocation": {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E837D9C0A7F",
+            "E803DE431C3",
+            "EC1822CA588",
+            "E4553017BC5",
+            "E2B2525699D"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "19",
+          "DIGITAL": "18"
+        },
+        "B": {
+          "PAPER": "22",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N03-OPTIMAL-CONFIRM",
+      "stage": "CONFIRM",
+      "case": "N03",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E837D9C0A7F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 9
+          },
+          {
+            "episode_id": "E803DE431C3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 4,
+            "digital_success": 18
+          },
+          {
+            "episode_id": "EC1822CA588",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 17,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "E4553017BC5",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 5,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E2B2525699D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 25,
+            "digital_success": 9
+          }
+        ],
+        "own_judgment": {
+          "record_id": "Q6EB2A0941C",
+          "author": "B",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "EC1822CA588",
+              "E4553017BC5"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q08D6040F05",
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E837D9C0A7F",
+              "E803DE431C3",
+              "EC1822CA588",
+              "E4553017BC5",
+              "E2B2525699D"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 40
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 42
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"PAPER\",\"evidence_refs\":[\"EC1822CA588\",\"E4553017BC5\"]},\"reply\":{\"action\":\"COUNTER\",\"reply_to\":\"Q08D6040F05\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"E837D9C0A7F\",\"E803DE431C3\",\"EC1822CA588\",\"E4553017BC5\",\"E2B2525699D\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "EC1822CA588",
+            "E4553017BC5"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q08D6040F05",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E837D9C0A7F",
+            "E803DE431C3",
+            "EC1822CA588",
+            "E4553017BC5",
+            "E2B2525699D"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "19",
+          "DIGITAL": "18"
+        },
+        "B": {
+          "PAPER": "22",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N08-LOWER-RECHECK",
+      "stage": "RECHECK",
+      "case": "N08",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E787FED353C",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 18
+          },
+          {
+            "episode_id": "E5ED4D0A13A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EE5B2283C3D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 9,
+            "paper_success": 8
+          },
+          {
+            "episode_id": "EBA722BAC5F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 7
+          },
+          {
+            "episode_id": "EB78F6CD72E",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 36,
+            "paper_success": 22
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QAB11020B7D",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EB78F6CD72E"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q7A1F084817",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "counter_record": {
+          "record_id": "Q650A8F11D7",
+          "author": "A",
+          "body": {
+            "action": "COUNTER",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ],
+            "reply_to": "Q7A1F084817"
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 46
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 38
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EB78F6CD72E\"]},\"reply\":{\"action\":\"ACCEPT\",\"reply_to\":\"Q650A8F11D7\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EE5B2283C3D\",\"EBA722BAC5F\",\"EB78F6CD72E\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EB78F6CD72E"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "Q650A8F11D7",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EE5B2283C3D",
+            "EBA722BAC5F",
+            "EB78F6CD72E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "15",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "26",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "counter_valid": true,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N08-DUPLICATE-RECHECK",
+      "stage": "RECHECK",
+      "case": "N08",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E787FED353C",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 18
+          },
+          {
+            "episode_id": "E5ED4D0A13A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EE5B2283C3D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 9,
+            "paper_success": 8
+          },
+          {
+            "episode_id": "EBA722BAC5F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 7
+          },
+          {
+            "episode_id": "EB78F6CD72E",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 36,
+            "paper_success": 22
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QAB11020B7D",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EB78F6CD72E"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q7A1F084817",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "counter_record": {
+          "record_id": "Q650A8F11D7",
+          "author": "A",
+          "body": {
+            "action": "COUNTER",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ],
+            "reply_to": "Q7A1F084817"
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 46
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 38
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EB78F6CD72E\"]},\"reply\":{\"action\":\"ACCEPT\",\"reply_to\":\"Q650A8F11D7\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EE5B2283C3D\",\"EBA722BAC5F\",\"EB78F6CD72E\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EB78F6CD72E"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "Q650A8F11D7",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EE5B2283C3D",
+            "EBA722BAC5F",
+            "EB78F6CD72E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "15",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "26",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "counter_valid": true,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N01-DIAG-LOWER-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N01",
+      "role": "A",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "ED81AAE200D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 6,
+            "digital_success": 10
+          },
+          {
+            "episode_id": "EFB9B239791",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 16
+          },
+          {
+            "episode_id": "E5A03A1A255",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 7
+          },
+          {
+            "episode_id": "E6A5E6E3A8F",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 18,
+            "digital_success": 15
+          },
+          {
+            "episode_id": "E22BFDC1C77",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 21,
+            "digital_success": 4
+          }
+        ],
+        "own_judgment": {
+          "record_id": "Q067ED3F4F7",
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E22BFDC1C77"
+            ],
+            "subject": "A"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q950C0CA176",
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E5A03A1A255",
+              "E6A5E6E3A8F",
+              "E22BFDC1C77"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "B",
+          "record_id": "Q41E1275B06",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q950C0CA176",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E5A03A1A255",
+              "E6A5E6E3A8F",
+              "E22BFDC1C77"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 40
+          },
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 42
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"PAPER\",\"evidence_refs\":[\"ED81AAE200D\",\"EFB9B239791\",\"E22BFDC1C77\"]},\"reply\":{\"action\":\"ACCEPT\",\"reply_to\":\"Q41E1275B06\",\"allocation\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\"},\"evidence_refs\":[\"ED81AAE200D\",\"EFB9B239791\",\"E5A03A1A255\",\"E6A5E6E3A8F\",\"E22BFDC1C77\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "ED81AAE200D",
+            "EFB9B239791",
+            "E22BFDC1C77"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "Q41E1275B06",
+          "allocation": {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "ED81AAE200D",
+            "EFB9B239791",
+            "E5A03A1A255",
+            "E6A5E6E3A8F",
+            "E22BFDC1C77"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "18",
+          "DIGITAL": "15"
+        },
+        "B": {
+          "PAPER": "27",
+          "DIGITAL": "22"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": true,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N08-DIAG-DUPLICATE-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N08",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E787FED353C",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 18
+          },
+          {
+            "episode_id": "E5ED4D0A13A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EE5B2283C3D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 9,
+            "paper_success": 8
+          },
+          {
+            "episode_id": "EBA722BAC5F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 7
+          },
+          {
+            "episode_id": "EB78F6CD72E",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 36,
+            "paper_success": 22
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QAB11020B7D",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EB78F6CD72E"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q7A1F084817",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "A",
+          "record_id": "QE45F2257AE",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q7A1F084817",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 46
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 38
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EB78F6CD72E\"]},\"reply\":{\"action\":\"HOLD\",\"reply_to\":\"QE45F2257AE\",\"allocation\":{\"A\":\"UNDECIDED\",\"B\":\"UNDECIDED\"},\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EE5B2283C3D\",\"EBA722BAC5F\",\"EB78F6CD72E\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EB78F6CD72E"
+          ]
+        },
+        "reply": {
+          "action": "HOLD",
+          "reply_to": "QE45F2257AE",
+          "allocation": {
+            "A": "UNDECIDED",
+            "B": "UNDECIDED"
+          },
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EE5B2283C3D",
+            "EBA722BAC5F",
+            "EB78F6CD72E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "15",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "26",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N08-DIAG-LOWER-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N08",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E787FED353C",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 18
+          },
+          {
+            "episode_id": "E5ED4D0A13A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EE5B2283C3D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 9,
+            "paper_success": 8
+          },
+          {
+            "episode_id": "EBA722BAC5F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 7
+          },
+          {
+            "episode_id": "EB78F6CD72E",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 36,
+            "paper_success": 22
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QAB11020B7D",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EB78F6CD72E"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q7A1F084817",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "A",
+          "record_id": "QE45F2257AE",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q7A1F084817",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 46
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 38
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EB78F6CD72E\"]},\"reply\":{\"action\":\"HOLD\",\"reply_to\":\"QE45F2257AE\",\"allocation\":{\"A\":\"UNDECIDED\",\"B\":\"UNDECIDED\"},\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EE5B2283C3D\",\"EBA722BAC5F\",\"EB78F6CD72E\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EB78F6CD72E"
+          ]
+        },
+        "reply": {
+          "action": "HOLD",
+          "reply_to": "QE45F2257AE",
+          "allocation": {
+            "A": "UNDECIDED",
+            "B": "UNDECIDED"
+          },
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EE5B2283C3D",
+            "EBA722BAC5F",
+            "EB78F6CD72E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "15",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "26",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N08-DIAG-OPTIMAL-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N08",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E787FED353C",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 18
+          },
+          {
+            "episode_id": "E5ED4D0A13A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EE5B2283C3D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 9,
+            "paper_success": 8
+          },
+          {
+            "episode_id": "EBA722BAC5F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 7
+          },
+          {
+            "episode_id": "EB78F6CD72E",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 36,
+            "paper_success": 22
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QAB11020B7D",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EB78F6CD72E"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q7A1F084817",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "A",
+          "record_id": "QE45F2257AE",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q7A1F084817",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 46
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 38
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EB78F6CD72E\"]},\"reply\":{\"action\":\"ACCEPT\",\"reply_to\":\"QE45F2257AE\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EE5B2283C3D\",\"EBA722BAC5F\",\"EB78F6CD72E\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EB78F6CD72E"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "QE45F2257AE",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EE5B2283C3D",
+            "EBA722BAC5F",
+            "EB78F6CD72E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "15",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "26",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "counter_valid": true,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": false
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "CR01-N01-DIAG-LOWER-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N01",
+      "role": "A",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "ED81AAE200D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 6,
+            "digital_success": 10
+          },
+          {
+            "episode_id": "EFB9B239791",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 16
+          },
+          {
+            "episode_id": "E5A03A1A255",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 7
+          },
+          {
+            "episode_id": "E6A5E6E3A8F",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 18,
+            "digital_success": 15
+          },
+          {
+            "episode_id": "E22BFDC1C77",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 21,
+            "digital_success": 4
+          }
+        ],
+        "own_judgment": {
+          "record_id": "Q067ED3F4F7",
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E22BFDC1C77"
+            ],
+            "subject": "A"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q950C0CA176",
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E5A03A1A255",
+              "E6A5E6E3A8F",
+              "E22BFDC1C77"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "B",
+          "record_id": "Q41E1275B06",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q950C0CA176",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E5A03A1A255",
+              "E6A5E6E3A8F",
+              "E22BFDC1C77"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 40
+          },
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 42
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"PAPER\",\"evidence_refs\":[\"ED81AAE200D\",\"EFB9B239791\",\"E22BFDC1C77\"]},\"reply\":{\"action\":\"ACCEPT\",\"reply_to\":\"Q41E1275B06\",\"allocation\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\"},\"evidence_refs\":[\"ED81AAE200D\",\"EFB9B239791\",\"E5A03A1A255\",\"E6A5E6E3A8F\",\"E22BFDC1C77\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "ED81AAE200D",
+            "EFB9B239791",
+            "E22BFDC1C77"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "Q41E1275B06",
+          "allocation": {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "ED81AAE200D",
+            "EFB9B239791",
+            "E5A03A1A255",
+            "E6A5E6E3A8F",
+            "E22BFDC1C77"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "18",
+          "DIGITAL": "15"
+        },
+        "B": {
+          "PAPER": "27",
+          "DIGITAL": "22"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": true,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N01-DIAG-OPTIMAL-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N01",
+      "role": "A",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "ED81AAE200D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 6,
+            "digital_success": 10
+          },
+          {
+            "episode_id": "EFB9B239791",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 16
+          },
+          {
+            "episode_id": "E5A03A1A255",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 7
+          },
+          {
+            "episode_id": "E6A5E6E3A8F",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 18,
+            "digital_success": 15
+          },
+          {
+            "episode_id": "E22BFDC1C77",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 21,
+            "digital_success": 4
+          }
+        ],
+        "own_judgment": {
+          "record_id": "Q067ED3F4F7",
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E22BFDC1C77"
+            ],
+            "subject": "A"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q950C0CA176",
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E5A03A1A255",
+              "E6A5E6E3A8F",
+              "E22BFDC1C77"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "B",
+          "record_id": "Q41E1275B06",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q950C0CA176",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E5A03A1A255",
+              "E6A5E6E3A8F",
+              "E22BFDC1C77"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 40
+          },
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 42
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"PAPER\",\"evidence_refs\":[\"ED81AAE200D\",\"EFB9B239791\",\"E22BFDC1C77\"]},\"reply\":{\"action\":\"ACCEPT\",\"reply_to\":\"Q41E1275B06\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"ED81AAE200D\",\"EFB9B239791\",\"E5A03A1A255\",\"E6A5E6E3A8F\",\"E22BFDC1C77\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "ED81AAE200D",
+            "EFB9B239791",
+            "E22BFDC1C77"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "Q41E1275B06",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "ED81AAE200D",
+            "EFB9B239791",
+            "E5A03A1A255",
+            "E6A5E6E3A8F",
+            "E22BFDC1C77"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "18",
+          "DIGITAL": "15"
+        },
+        "B": {
+          "PAPER": "27",
+          "DIGITAL": "22"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": true,
+        "Z_local": true,
+        "counter_valid": true,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true
+      }
+    },
+    {
+      "id": "CR01-N01-DIAG-DUPLICATE-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N01",
+      "role": "A",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "ED81AAE200D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 6,
+            "digital_success": 10
+          },
+          {
+            "episode_id": "EFB9B239791",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 16
+          },
+          {
+            "episode_id": "E5A03A1A255",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 9,
+            "digital_success": 7
+          },
+          {
+            "episode_id": "E6A5E6E3A8F",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 18,
+            "digital_success": 15
+          },
+          {
+            "episode_id": "E22BFDC1C77",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 21,
+            "digital_success": 4
+          }
+        ],
+        "own_judgment": {
+          "record_id": "Q067ED3F4F7",
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E22BFDC1C77"
+            ],
+            "subject": "A"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q950C0CA176",
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E5A03A1A255",
+              "E6A5E6E3A8F",
+              "E22BFDC1C77"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "B",
+          "record_id": "Q41E1275B06",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q950C0CA176",
+            "allocation": {
+              "A": "PAPER",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "ED81AAE200D",
+              "EFB9B239791",
+              "E5A03A1A255",
+              "E6A5E6E3A8F",
+              "E22BFDC1C77"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 40
+          },
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 42
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"PAPER\",\"evidence_refs\":[\"ED81AAE200D\",\"EFB9B239791\",\"E22BFDC1C77\"]},\"reply\":{\"action\":\"HOLD\",\"reply_to\":\"Q41E1275B06\",\"allocation\":{\"A\":\"UNDECIDED\",\"B\":\"UNDECIDED\"},\"evidence_refs\":[\"ED81AAE200D\",\"EFB9B239791\",\"E5A03A1A255\",\"E6A5E6E3A8F\",\"E22BFDC1C77\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "ED81AAE200D",
+            "EFB9B239791",
+            "E22BFDC1C77"
+          ]
+        },
+        "reply": {
+          "action": "HOLD",
+          "reply_to": "Q41E1275B06",
+          "allocation": {
+            "A": "UNDECIDED",
+            "B": "UNDECIDED"
+          },
+          "evidence_refs": [
+            "ED81AAE200D",
+            "EFB9B239791",
+            "E5A03A1A255",
+            "E6A5E6E3A8F",
+            "E22BFDC1C77"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "18",
+          "DIGITAL": "15"
+        },
+        "B": {
+          "PAPER": "27",
+          "DIGITAL": "22"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": true,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true
+      }
+    },
+    {
+      "id": "CR01-N04-DIAG-OPTIMAL-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N04",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E3B183581A6",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 8,
+            "paper_success": 6
+          },
+          {
+            "episode_id": "EB81AB667C9",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 6
+          },
+          {
+            "episode_id": "E8401940C46",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 10,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "EB4F4D790F8",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 6,
+            "paper_success": 6
+          },
+          {
+            "episode_id": "E705EF7401A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 17,
+            "paper_success": 16
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QD88E52C4FF",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E3B183581A6",
+              "EB81AB667C9",
+              "E705EF7401A"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q3945A865E1",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E3B183581A6",
+              "EB81AB667C9",
+              "E8401940C46",
+              "EB4F4D790F8",
+              "E705EF7401A"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "A",
+          "record_id": "QA20CE4E012",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q3945A865E1",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E3B183581A6",
+              "EB81AB667C9",
+              "E8401940C46",
+              "EB4F4D790F8",
+              "E705EF7401A"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 32
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 30
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E3B183581A6\",\"EB81AB667C9\",\"E705EF7401A\"]},\"reply\":{\"action\":\"ACCEPT\",\"reply_to\":\"QA20CE4E012\",\"allocation\":{\"A\":\"PAPER\",\"B\":\"DIGITAL\"},\"evidence_refs\":[\"E3B183581A6\",\"EB81AB667C9\",\"E8401940C46\",\"EB4F4D790F8\",\"E705EF7401A\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E3B183581A6",
+            "EB81AB667C9",
+            "E705EF7401A"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "QA20CE4E012",
+          "allocation": {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E3B183581A6",
+            "EB81AB667C9",
+            "E8401940C46",
+            "EB4F4D790F8",
+            "E705EF7401A"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "17",
+          "DIGITAL": "16"
+        },
+        "B": {
+          "PAPER": "14",
+          "DIGITAL": "15"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "components": {
+        "L": true,
+        "Z_local": true,
+        "counter_valid": true,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true
+      }
+    },
+    {
+      "id": "CR01-N04-DIAG-DUPLICATE-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N04",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E3B183581A6",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 8,
+            "paper_success": 6
+          },
+          {
+            "episode_id": "EB81AB667C9",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 6
+          },
+          {
+            "episode_id": "E8401940C46",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 10,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "EB4F4D790F8",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 6,
+            "paper_success": 6
+          },
+          {
+            "episode_id": "E705EF7401A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 17,
+            "paper_success": 16
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QD88E52C4FF",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E3B183581A6",
+              "EB81AB667C9",
+              "E705EF7401A"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q3945A865E1",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E3B183581A6",
+              "EB81AB667C9",
+              "E8401940C46",
+              "EB4F4D790F8",
+              "E705EF7401A"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "A",
+          "record_id": "QA20CE4E012",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q3945A865E1",
+            "allocation": {
+              "A": "PAPER",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E3B183581A6",
+              "EB81AB667C9",
+              "E8401940C46",
+              "EB4F4D790F8",
+              "E705EF7401A"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 32
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 30
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E3B183581A6\",\"EB81AB667C9\",\"E705EF7401A\"]},\"reply\":{\"action\":\"HOLD\",\"reply_to\":\"QA20CE4E012\",\"allocation\":{\"A\":\"UNDECIDED\",\"B\":\"UNDECIDED\"},\"evidence_refs\":[\"E3B183581A6\",\"EB81AB667C9\",\"E8401940C46\",\"EB4F4D790F8\",\"E705EF7401A\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E3B183581A6",
+            "EB81AB667C9",
+            "E705EF7401A"
+          ]
+        },
+        "reply": {
+          "action": "HOLD",
+          "reply_to": "QA20CE4E012",
+          "allocation": {
+            "A": "UNDECIDED",
+            "B": "UNDECIDED"
+          },
+          "evidence_refs": [
+            "E3B183581A6",
+            "EB81AB667C9",
+            "E8401940C46",
+            "EB4F4D790F8",
+            "E705EF7401A"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "17",
+          "DIGITAL": "16"
+        },
+        "B": {
+          "PAPER": "14",
+          "DIGITAL": "15"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "components": {
+        "L": true,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true
+      }
+    },
+    {
+      "id": "CR01-N04-DIAG-LOWER-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N04",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E3B183581A6",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 8,
+            "paper_success": 6
+          },
+          {
+            "episode_id": "EB81AB667C9",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 6
+          },
+          {
+            "episode_id": "E8401940C46",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 10,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "EB4F4D790F8",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 6,
+            "paper_success": 6
+          },
+          {
+            "episode_id": "E705EF7401A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 17,
+            "paper_success": 16
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QD88E52C4FF",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E3B183581A6",
+              "EB81AB667C9",
+              "E705EF7401A"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q3945A865E1",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E3B183581A6",
+              "EB81AB667C9",
+              "E8401940C46",
+              "EB4F4D790F8",
+              "E705EF7401A"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "A",
+          "record_id": "QA20CE4E012",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q3945A865E1",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E3B183581A6",
+              "EB81AB667C9",
+              "E8401940C46",
+              "EB4F4D790F8",
+              "E705EF7401A"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 32
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 30
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E3B183581A6\",\"EB81AB667C9\",\"E705EF7401A\"]},\"reply\":{\"action\":\"HOLD\",\"reply_to\":\"QA20CE4E012\",\"allocation\":{\"A\":\"UNDECIDED\",\"B\":\"UNDECIDED\"},\"evidence_refs\":[\"E3B183581A6\",\"EB81AB667C9\",\"E8401940C46\",\"EB4F4D790F8\",\"E705EF7401A\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E3B183581A6",
+            "EB81AB667C9",
+            "E705EF7401A"
+          ]
+        },
+        "reply": {
+          "action": "HOLD",
+          "reply_to": "QA20CE4E012",
+          "allocation": {
+            "A": "UNDECIDED",
+            "B": "UNDECIDED"
+          },
+          "evidence_refs": [
+            "E3B183581A6",
+            "EB81AB667C9",
+            "E8401940C46",
+            "EB4F4D790F8",
+            "E705EF7401A"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "17",
+          "DIGITAL": "16"
+        },
+        "B": {
+          "PAPER": "14",
+          "DIGITAL": "15"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "components": {
+        "L": true,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true
+      }
+    },
+    {
+      "id": "CR01-N08-DIAG-DUPLICATE-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N08",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E787FED353C",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 18
+          },
+          {
+            "episode_id": "E5ED4D0A13A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EE5B2283C3D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 9,
+            "paper_success": 8
+          },
+          {
+            "episode_id": "EBA722BAC5F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 7
+          },
+          {
+            "episode_id": "EB78F6CD72E",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 36,
+            "paper_success": 22
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QAB11020B7D",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EB78F6CD72E"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q7A1F084817",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "A",
+          "record_id": "QE45F2257AE",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q7A1F084817",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 46
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 38
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EB78F6CD72E\"]},\"reply\":{\"action\":\"HOLD\",\"reply_to\":\"QE45F2257AE\",\"allocation\":{\"A\":\"UNDECIDED\",\"B\":\"UNDECIDED\"},\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EE5B2283C3D\",\"EBA722BAC5F\",\"EB78F6CD72E\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EB78F6CD72E"
+          ]
+        },
+        "reply": {
+          "action": "HOLD",
+          "reply_to": "QE45F2257AE",
+          "allocation": {
+            "A": "UNDECIDED",
+            "B": "UNDECIDED"
+          },
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EE5B2283C3D",
+            "EBA722BAC5F",
+            "EB78F6CD72E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "15",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "26",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N08-DIAG-LOWER-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N08",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E787FED353C",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 18
+          },
+          {
+            "episode_id": "E5ED4D0A13A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EE5B2283C3D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 9,
+            "paper_success": 8
+          },
+          {
+            "episode_id": "EBA722BAC5F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 7
+          },
+          {
+            "episode_id": "EB78F6CD72E",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 36,
+            "paper_success": 22
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QAB11020B7D",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EB78F6CD72E"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q7A1F084817",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "A",
+          "record_id": "QE45F2257AE",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q7A1F084817",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 46
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 38
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EB78F6CD72E\"]},\"reply\":{\"action\":\"HOLD\",\"reply_to\":\"QE45F2257AE\",\"allocation\":{\"A\":\"UNDECIDED\",\"B\":\"UNDECIDED\"},\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EE5B2283C3D\",\"EBA722BAC5F\",\"EB78F6CD72E\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EB78F6CD72E"
+          ]
+        },
+        "reply": {
+          "action": "HOLD",
+          "reply_to": "QE45F2257AE",
+          "allocation": {
+            "A": "UNDECIDED",
+            "B": "UNDECIDED"
+          },
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EE5B2283C3D",
+            "EBA722BAC5F",
+            "EB78F6CD72E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "15",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "26",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N08-DIAG-OPTIMAL-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N08",
+      "role": "B",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E787FED353C",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 18
+          },
+          {
+            "episode_id": "E5ED4D0A13A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 5,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EE5B2283C3D",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 9,
+            "paper_success": 8
+          },
+          {
+            "episode_id": "EBA722BAC5F",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 7
+          },
+          {
+            "episode_id": "EB78F6CD72E",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 36,
+            "paper_success": 22
+          }
+        ],
+        "own_judgment": {
+          "record_id": "QAB11020B7D",
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EB78F6CD72E"
+            ],
+            "subject": "B"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q7A1F084817",
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "A",
+          "record_id": "QE45F2257AE",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q7A1F084817",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E787FED353C",
+              "E5ED4D0A13A",
+              "EE5B2283C3D",
+              "EBA722BAC5F",
+              "EB78F6CD72E"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 46
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 38
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EB78F6CD72E\"]},\"reply\":{\"action\":\"ACCEPT\",\"reply_to\":\"QE45F2257AE\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EE5B2283C3D\",\"EBA722BAC5F\",\"EB78F6CD72E\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EB78F6CD72E"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "QE45F2257AE",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E787FED353C",
+            "E5ED4D0A13A",
+            "EE5B2283C3D",
+            "EBA722BAC5F",
+            "EB78F6CD72E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "15",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "26",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": false,
+        "Z_local": true,
+        "counter_valid": true,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": false
+      }
+    },
+    {
+      "id": "CR01-N05-DIAG-LOWER-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N05",
+      "role": "A",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "EC35E47448B",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 5,
+            "digital_success": 5
+          },
+          {
+            "episode_id": "EB4316EB4AA",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 18,
+            "digital_success": 7
+          },
+          {
+            "episode_id": "EBCA7CF3A61",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 7,
+            "digital_success": 4
+          },
+          {
+            "episode_id": "E5B9820C89A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 8,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "EA2C8D25663",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 5,
+            "digital_success": 36
+          }
+        ],
+        "own_judgment": {
+          "record_id": "Q7E1AA75DB0",
+          "author": "A",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "EC35E47448B",
+              "EB4316EB4AA",
+              "EA2C8D25663"
+            ],
+            "subject": "A"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q4A67A15B6A",
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "EC35E47448B",
+              "EB4316EB4AA",
+              "EBCA7CF3A61",
+              "E5B9820C89A",
+              "EA2C8D25663"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "B",
+          "record_id": "QAA9DF10342",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q4A67A15B6A",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "EC35E47448B",
+              "EB4316EB4AA",
+              "EBCA7CF3A61",
+              "E5B9820C89A",
+              "EA2C8D25663"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 39
+          },
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 31
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"EC35E47448B\",\"EB4316EB4AA\",\"EA2C8D25663\"]},\"reply\":{\"action\":\"HOLD\",\"reply_to\":\"QAA9DF10342\",\"allocation\":{\"A\":\"UNDECIDED\",\"B\":\"UNDECIDED\"},\"evidence_refs\":[\"EC35E47448B\",\"EB4316EB4AA\",\"EBCA7CF3A61\",\"E5B9820C89A\",\"EA2C8D25663\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "EC35E47448B",
+            "EB4316EB4AA",
+            "EA2C8D25663"
+          ]
+        },
+        "reply": {
+          "action": "HOLD",
+          "reply_to": "QAA9DF10342",
+          "allocation": {
+            "A": "UNDECIDED",
+            "B": "UNDECIDED"
+          },
+          "evidence_refs": [
+            "EC35E47448B",
+            "EB4316EB4AA",
+            "EBCA7CF3A61",
+            "E5B9820C89A",
+            "EA2C8D25663"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "14",
+          "DIGITAL": "24"
+        },
+        "B": {
+          "PAPER": "15",
+          "DIGITAL": "17"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": true,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true
+      }
+    },
+    {
+      "id": "CR01-N05-DIAG-OPTIMAL-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N05",
+      "role": "A",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "EC35E47448B",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 5,
+            "digital_success": 5
+          },
+          {
+            "episode_id": "EB4316EB4AA",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 18,
+            "digital_success": 7
+          },
+          {
+            "episode_id": "EBCA7CF3A61",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 7,
+            "digital_success": 4
+          },
+          {
+            "episode_id": "E5B9820C89A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 8,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "EA2C8D25663",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 5,
+            "digital_success": 36
+          }
+        ],
+        "own_judgment": {
+          "record_id": "Q7E1AA75DB0",
+          "author": "A",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "EC35E47448B",
+              "EB4316EB4AA",
+              "EA2C8D25663"
+            ],
+            "subject": "A"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q4A67A15B6A",
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "EC35E47448B",
+              "EB4316EB4AA",
+              "EBCA7CF3A61",
+              "E5B9820C89A",
+              "EA2C8D25663"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "B",
+          "record_id": "QAA9DF10342",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q4A67A15B6A",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "EC35E47448B",
+              "EB4316EB4AA",
+              "EBCA7CF3A61",
+              "E5B9820C89A",
+              "EA2C8D25663"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 39
+          },
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 31
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"EC35E47448B\",\"EB4316EB4AA\",\"EA2C8D25663\"]},\"reply\":{\"action\":\"ACCEPT\",\"reply_to\":\"QAA9DF10342\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"EC35E47448B\",\"EB4316EB4AA\",\"EBCA7CF3A61\",\"E5B9820C89A\",\"EA2C8D25663\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "EC35E47448B",
+            "EB4316EB4AA",
+            "EA2C8D25663"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "QAA9DF10342",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "EC35E47448B",
+            "EB4316EB4AA",
+            "EBCA7CF3A61",
+            "E5B9820C89A",
+            "EA2C8D25663"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "14",
+          "DIGITAL": "24"
+        },
+        "B": {
+          "PAPER": "15",
+          "DIGITAL": "17"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": true,
+        "Z_local": true,
+        "counter_valid": true,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true
+      }
+    },
+    {
+      "id": "CR01-N05-DIAG-DUPLICATE-RECHECK",
+      "stage": "RECHECK_DIAGNOSTIC",
+      "case": "N05",
+      "role": "A",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "EC35E47448B",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 5,
+            "digital_success": 5
+          },
+          {
+            "episode_id": "EB4316EB4AA",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 18,
+            "digital_success": 7
+          },
+          {
+            "episode_id": "EBCA7CF3A61",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 7,
+            "digital_success": 4
+          },
+          {
+            "episode_id": "E5B9820C89A",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 8,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "EA2C8D25663",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 5,
+            "digital_success": 36
+          }
+        ],
+        "own_judgment": {
+          "record_id": "Q7E1AA75DB0",
+          "author": "A",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "EC35E47448B",
+              "EB4316EB4AA",
+              "EA2C8D25663"
+            ],
+            "subject": "A"
+          }
+        },
+        "initial_proposal": {
+          "record_id": "Q4A67A15B6A",
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "EC35E47448B",
+              "EB4316EB4AA",
+              "EBCA7CF3A61",
+              "E5B9820C89A",
+              "EA2C8D25663"
+            ]
+          }
+        },
+        "counter_record": {
+          "author": "B",
+          "record_id": "QAA9DF10342",
+          "body": {
+            "action": "COUNTER",
+            "reply_to": "Q4A67A15B6A",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "EC35E47448B",
+              "EB4316EB4AA",
+              "EBCA7CF3A61",
+              "E5B9820C89A",
+              "EA2C8D25663"
+            ]
+          }
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 39
+          },
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 31
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"EC35E47448B\",\"EB4316EB4AA\",\"EA2C8D25663\"]},\"reply\":{\"action\":\"HOLD\",\"reply_to\":\"QAA9DF10342\",\"allocation\":{\"A\":\"UNDECIDED\",\"B\":\"UNDECIDED\"},\"evidence_refs\":[\"EC35E47448B\",\"EB4316EB4AA\",\"EBCA7CF3A61\",\"E5B9820C89A\",\"EA2C8D25663\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "EC35E47448B",
+            "EB4316EB4AA",
+            "EA2C8D25663"
+          ]
+        },
+        "reply": {
+          "action": "HOLD",
+          "reply_to": "QAA9DF10342",
+          "allocation": {
+            "A": "UNDECIDED",
+            "B": "UNDECIDED"
+          },
+          "evidence_refs": [
+            "EC35E47448B",
+            "EB4316EB4AA",
+            "EBCA7CF3A61",
+            "E5B9820C89A",
+            "EA2C8D25663"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "14",
+          "DIGITAL": "24"
+        },
+        "B": {
+          "PAPER": "15",
+          "DIGITAL": "17"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "components": {
+        "L": true,
+        "Z_local": true,
+        "counter_valid": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true
+      }
+    }
+  ],
+  "saved_to_use": [
+    {
+      "route": "CR01-N07-OPTIMAL",
+      "role": "A",
+      "saved_response_id": "CR01-N07-FORM-A",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N07-OPTIMAL",
+      "role": "B",
+      "saved_response_id": "CR01-N07-OPTIMAL-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N07-LOWER",
+      "role": "A",
+      "saved_response_id": "CR01-N07-LOWER-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N07-LOWER",
+      "role": "B",
+      "saved_response_id": "CR01-N07-LOWER-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N07-DUPLICATE",
+      "role": "A",
+      "saved_response_id": "CR01-N07-DUPLICATE-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N07-DUPLICATE",
+      "role": "B",
+      "saved_response_id": "CR01-N07-DUPLICATE-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N04-OPTIMAL",
+      "role": "A",
+      "saved_response_id": "CR01-N04-OPTIMAL-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N04-OPTIMAL",
+      "role": "B",
+      "saved_response_id": "CR01-N04-FORM-B",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N04-DUPLICATE",
+      "role": "A",
+      "saved_response_id": "CR01-N04-DUPLICATE-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N04-DUPLICATE",
+      "role": "B",
+      "saved_response_id": "CR01-N04-DUPLICATE-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N04-LOWER",
+      "role": "A",
+      "saved_response_id": "CR01-N04-LOWER-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N04-LOWER",
+      "role": "B",
+      "saved_response_id": "CR01-N04-LOWER-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N05-LOWER",
+      "role": "A",
+      "saved_response_id": "CR01-N05-LOWER-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N05-LOWER",
+      "role": "B",
+      "saved_response_id": "CR01-N05-LOWER-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N05-OPTIMAL",
+      "role": "A",
+      "saved_response_id": "CR01-N05-FORM-A",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N05-OPTIMAL",
+      "role": "B",
+      "saved_response_id": "CR01-N05-OPTIMAL-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N05-DUPLICATE",
+      "role": "A",
+      "saved_response_id": "CR01-N05-DUPLICATE-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N05-DUPLICATE",
+      "role": "B",
+      "saved_response_id": "CR01-N05-DUPLICATE-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N06-LOWER",
+      "role": "A",
+      "saved_response_id": "CR01-N06-LOWER-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N06-LOWER",
+      "role": "B",
+      "saved_response_id": "CR01-N06-LOWER-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N06-DUPLICATE",
+      "role": "A",
+      "saved_response_id": "CR01-N06-DUPLICATE-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N06-DUPLICATE",
+      "role": "B",
+      "saved_response_id": "CR01-N06-DUPLICATE-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N06-OPTIMAL",
+      "role": "A",
+      "saved_response_id": "CR01-N06-OPTIMAL-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N06-OPTIMAL",
+      "role": "B",
+      "saved_response_id": "CR01-N06-FORM-B",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N02-DUPLICATE",
+      "role": "A",
+      "saved_response_id": "CR01-N02-DUPLICATE-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N02-DUPLICATE",
+      "role": "B",
+      "saved_response_id": "CR01-N02-DUPLICATE-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N02-OPTIMAL",
+      "role": "A",
+      "saved_response_id": "CR01-N02-OPTIMAL-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N02-OPTIMAL",
+      "role": "B",
+      "saved_response_id": "CR01-N02-FORM-B",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N02-LOWER",
+      "role": "A",
+      "saved_response_id": "CR01-N02-LOWER-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N02-LOWER",
+      "role": "B",
+      "saved_response_id": "CR01-N02-LOWER-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N03-DUPLICATE",
+      "role": "A",
+      "saved_response_id": "CR01-N03-DUPLICATE-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N03-DUPLICATE",
+      "role": "B",
+      "saved_response_id": "CR01-N03-DUPLICATE-CONFIRM",
+      "saved_L": false,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "FALSE_TRUE"
+    },
+    {
+      "route": "CR01-N03-LOWER",
+      "role": "A",
+      "saved_response_id": "CR01-N03-LOWER-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N03-LOWER",
+      "role": "B",
+      "saved_response_id": "CR01-N03-LOWER-CONFIRM",
+      "saved_L": false,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "FALSE_TRUE"
+    },
+    {
+      "route": "CR01-N03-OPTIMAL",
+      "role": "A",
+      "saved_response_id": "CR01-N03-OPTIMAL-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N03-OPTIMAL",
+      "role": "B",
+      "saved_response_id": "CR01-N03-OPTIMAL-CONFIRM",
+      "saved_L": false,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "FALSE_TRUE"
+    },
+    {
+      "route": "CR01-N01-OPTIMAL",
+      "role": "A",
+      "saved_response_id": "CR01-N01-FORM-A",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N01-OPTIMAL",
+      "role": "B",
+      "saved_response_id": "CR01-N01-OPTIMAL-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N01-LOWER",
+      "role": "A",
+      "saved_response_id": "CR01-N01-LOWER-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N01-LOWER",
+      "role": "B",
+      "saved_response_id": "CR01-N01-LOWER-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N01-DUPLICATE",
+      "role": "A",
+      "saved_response_id": "CR01-N01-DUPLICATE-RECHECK",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N01-DUPLICATE",
+      "role": "B",
+      "saved_response_id": "CR01-N01-DUPLICATE-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N08-LOWER",
+      "role": "A",
+      "saved_response_id": "CR01-N08-LOWER-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N08-LOWER",
+      "role": "B",
+      "saved_response_id": "CR01-N08-LOWER-RECHECK",
+      "saved_L": false,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "FALSE_TRUE"
+    },
+    {
+      "route": "CR01-N08-DUPLICATE",
+      "role": "A",
+      "saved_response_id": "CR01-N08-DUPLICATE-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N08-DUPLICATE",
+      "role": "B",
+      "saved_response_id": "CR01-N08-DUPLICATE-RECHECK",
+      "saved_L": false,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "FALSE_TRUE"
+    },
+    {
+      "route": "CR01-N08-OPTIMAL",
+      "role": "A",
+      "saved_response_id": "CR01-N08-OPTIMAL-CONFIRM",
+      "saved_L": true,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "TRUE_TRUE"
+    },
+    {
+      "route": "CR01-N08-OPTIMAL",
+      "role": "B",
+      "saved_response_id": "CR01-N08-FORM-B",
+      "saved_L": false,
+      "use_L": true,
+      "saved_Z_local": true,
+      "use_Z_local": true,
+      "transition": "FALSE_TRUE"
+    }
+  ],
+  "performance": {
+    "FORM": {
+      "planned_responses": 16,
+      "responses": 16,
+      "input_tokens": {
+        "min": 302,
+        "max": 352,
+        "sum": 5234
+      },
+      "prompt_bytes": {
+        "min": 1315,
+        "max": 1475,
+        "sum": 22315
+      },
+      "output_tokens": {
+        "min": 39,
+        "max": 53,
+        "sum": 719
+      },
+      "raw_bytes": {
+        "min": 88,
+        "max": 104,
+        "sum": 1536
+      },
+      "generation_seconds": {
+        "min": 2.0766364589999284,
+        "max": 2.80691039300018,
+        "sum": 38.713998573000026
+      }
+    },
+    "CONFIRM": {
+      "planned_responses": 24,
+      "responses": 24,
+      "input_tokens": {
+        "min": 1057,
+        "max": 1077,
+        "sum": 25695
+      },
+      "prompt_bytes": {
+        "min": 4348,
+        "max": 4356,
+        "sum": 104451
+      },
+      "output_tokens": {
+        "min": 123,
+        "max": 215,
+        "sum": 3462
+      },
+      "raw_bytes": {
+        "min": 270,
+        "max": 408,
+        "sum": 7009
+      },
+      "generation_seconds": {
+        "min": 6.551360499999646,
+        "max": 11.254037476000121,
+        "sum": 183.31733097699998
+      }
+    },
+    "RECHECK": {
+      "planned_responses": 24,
+      "responses": 17,
+      "input_tokens": {
+        "min": 1203,
+        "max": 1235,
+        "sum": 20835
+      },
+      "prompt_bytes": {
+        "min": 4839,
+        "max": 4846,
+        "sum": 82323
+      },
+      "output_tokens": {
+        "min": 132,
+        "max": 151,
+        "sum": 2399
+      },
+      "raw_bytes": {
+        "min": 284,
+        "max": 288,
+        "sum": 4852
+      },
+      "generation_seconds": {
+        "min": 7.039324602000306,
+        "max": 8.021540055000514,
+        "sum": 127.73855451999862
+      }
+    },
+    "USE": {
+      "planned_responses": 48,
+      "responses": 48,
+      "input_tokens": {
+        "min": 1278,
+        "max": 1447,
+        "sum": 66537
+      },
+      "prompt_bytes": {
+        "min": 5067,
+        "max": 5368,
+        "sum": 253048
+      },
+      "output_tokens": {
+        "min": 85,
+        "max": 103,
+        "sum": 4451
+      },
+      "raw_bytes": {
+        "min": 210,
+        "max": 226,
+        "sum": 10466
+      },
+      "generation_seconds": {
+        "min": 4.64888302899999,
+        "max": 5.620557753999492,
+        "sum": 243.78438424900196
+      }
+    },
+    "RECHECK_DIAGNOSTIC": {
+      "planned_responses": 12,
+      "responses": 12,
+      "input_tokens": {
+        "min": 1220,
+        "max": 1233,
+        "sum": 14718
+      },
+      "prompt_bytes": {
+        "min": 4837,
+        "max": 4847,
+        "sum": 58101
+      },
+      "output_tokens": {
+        "min": 138,
+        "max": 148,
+        "sum": 1721
+      },
+      "raw_bytes": {
+        "min": 284,
+        "max": 290,
+        "sum": 3454
+      },
+      "generation_seconds": {
+        "min": 7.354010476999974,
+        "max": 7.866497820000404,
+        "sum": 91.57280256800095
+      }
+    }
+  }
+}

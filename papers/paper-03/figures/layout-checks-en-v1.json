@@ -1,0 +1,248 @@
+[
+  {
+    "figure": "fig01-support-timing-en-v1",
+    "checks": [
+      {
+        "text": "Observations from roles A and B",
+        "inside_box": true
+      },
+      {
+        "text": "LLM · Form each role's own judgment\nSave the actual response",
+        "inside_box": true
+      },
+      {
+        "text": "Researcher-fixed initial proposal\nOptimal / suboptimal / resource-violating",
+        "inside_box": true
+      },
+      {
+        "text": "LLM · Confirm the joint proposal\nACCEPT / COUNTER / HOLD",
+        "inside_box": true
+      },
+      {
+        "text": "LLM · Recheck once\nAccept or hold the counterproposal",
+        "inside_box": true
+      },
+      {
+        "text": "Save actual role-specific and joint records",
+        "inside_box": true
+      },
+      {
+        "text": "LLM · Subsequent use by both roles\nOwn recommendation + agreed allocation\nDefer the joint task if no agreement exists",
+        "inside_box": true
+      },
+      {
+        "text": "Joint candidate totals\nBoth conditions: confirmation + recheck\nNot supplied at subsequent use",
+        "inside_box": true
+      },
+      {
+        "text": "Execution paths and timing of computational support",
+        "inside_canvas": true
+      },
+      {
+        "text": "ST01 / ST02  ·  Generated records are carried forward between fresh-context model calls.",
+        "inside_canvas": true
+      },
+      {
+        "text": "Observations from roles A and B",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM · Form each role's own judgment\nSave the actual response",
+        "inside_canvas": true
+      },
+      {
+        "text": "Researcher-fixed initial proposal\nOptimal / suboptimal / resource-violating",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM · Confirm the joint proposal\nACCEPT / COUNTER / HOLD",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM · Recheck once\nAccept or hold the counterproposal",
+        "inside_canvas": true
+      },
+      {
+        "text": "Save actual role-specific and joint records",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM · Subsequent use by both roles\nOwn recommendation + agreed allocation\nDefer the joint task if no agreement exists",
+        "inside_canvas": true
+      },
+      {
+        "text": "COUNTER only",
+        "inside_canvas": true
+      },
+      {
+        "text": "ACCEPT / HOLD",
+        "inside_canvas": true
+      },
+      {
+        "text": "CODE-SUPPLIED EVIDENCE",
+        "inside_canvas": true
+      },
+      {
+        "text": "Own-experience summary",
+        "inside_canvas": true
+      },
+      {
+        "text": "Stage",
+        "inside_canvas": true
+      },
+      {
+        "text": "LATE",
+        "inside_canvas": true
+      },
+      {
+        "text": "EARLY",
+        "inside_canvas": true
+      },
+      {
+        "text": "Formation",
+        "inside_canvas": true
+      },
+      {
+        "text": "—",
+        "inside_canvas": true
+      },
+      {
+        "text": "Supplied",
+        "inside_canvas": true
+      },
+      {
+        "text": "Confirmation",
+        "inside_canvas": true
+      },
+      {
+        "text": "—",
+        "inside_canvas": true
+      },
+      {
+        "text": "Supplied",
+        "inside_canvas": true
+      },
+      {
+        "text": "Recheck",
+        "inside_canvas": true
+      },
+      {
+        "text": "—",
+        "inside_canvas": true
+      },
+      {
+        "text": "Supplied",
+        "inside_canvas": true
+      },
+      {
+        "text": "Use",
+        "inside_canvas": true
+      },
+      {
+        "text": "Supplied",
+        "inside_canvas": true
+      },
+      {
+        "text": "Supplied",
+        "inside_canvas": true
+      },
+      {
+        "text": "Joint candidate totals\nBoth conditions: confirmation + recheck\nNot supplied at subsequent use",
+        "inside_canvas": true
+      },
+      {
+        "text": "Recheck is conditional.",
+        "inside_canvas": true
+      },
+      {
+        "text": "Only a counterproposal activates it.\nAcceptance of an initial proposal\nbypasses this stage.",
+        "inside_canvas": true
+      },
+      {
+        "text": "Separate constructed-counterproposal diagnostics do not feed the execution paths shown here.",
+        "inside_canvas": true
+      }
+    ]
+  },
+  {
+    "figure": "fig02-fixed-input-panels-en-v1",
+    "checks": [
+      {
+        "text": "32 fixed ST02 inputs\n16 LATE + 16 EARLY\nOriginal experience and summary condition",
+        "inside_box": true
+      },
+      {
+        "text": "LLM · Three fresh seeds per input\nSame messages on every repetition",
+        "inside_box": true
+      },
+      {
+        "text": "96 new formation responses\nNew judgments stay within this panel",
+        "inside_box": true
+      },
+      {
+        "text": "48 fixed ST02 confirmation inputs\n24 LATE + 24 EARLY\nIncludes original saved ST02 own notes",
+        "inside_box": true
+      },
+      {
+        "text": "LLM · Three fresh seeds per input\nSame messages on every repetition",
+        "inside_box": true
+      },
+      {
+        "text": "144 new confirmation responses\nOriginal own notes remain fixed",
+        "inside_box": true
+      },
+      {
+        "text": "Two separate panels of fixed-input repetitions",
+        "inside_canvas": true
+      },
+      {
+        "text": "JR01  ·  Original ST02 inputs are replayed; new formation outputs are not passed to confirmation.",
+        "inside_canvas": true
+      },
+      {
+        "text": "1 · Judgment formation",
+        "inside_canvas": true
+      },
+      {
+        "text": "32 fixed ST02 inputs\n16 LATE + 16 EARLY\nOriginal experience and summary condition",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM · Three fresh seeds per input\nSame messages on every repetition",
+        "inside_canvas": true
+      },
+      {
+        "text": "96 new formation responses\nNew judgments stay within this panel",
+        "inside_canvas": true
+      },
+      {
+        "text": "2 · Joint confirmation",
+        "inside_canvas": true
+      },
+      {
+        "text": "48 fixed ST02 confirmation inputs\n24 LATE + 24 EARLY\nIncludes original saved ST02 own notes",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM · Three fresh seeds per input\nSame messages on every repetition",
+        "inside_canvas": true
+      },
+      {
+        "text": "144 new confirmation responses\nOriginal own notes remain fixed",
+        "inside_canvas": true
+      },
+      {
+        "text": "80 fixed inputs  ×  3 repetitions  =  240 fresh responses",
+        "inside_canvas": true
+      },
+      {
+        "text": "No new formation-to-confirmation connection.",
+        "inside_canvas": true
+      },
+      {
+        "text": "No recheck or subsequent-use calls are included in JR01.",
+        "inside_canvas": true
+      }
+    ]
+  }
+]

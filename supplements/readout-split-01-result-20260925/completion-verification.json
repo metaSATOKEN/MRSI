@@ -1,0 +1,58 @@
+{
+  "status": "FIXED_96_COMPLETED_AND_CLOSED",
+  "checked_at": "2026-09-25T17:03:29.562071+09:00",
+  "archive_sha256": "61a29b9fb11879c7ac76db18ffe5e61f3d10a10f991c683fbc2724f248caa1c4",
+  "manifest_files_verified": 636,
+  "rescored_responses": 96,
+  "saved_reports_matched": 2,
+  "independent_raw_checks": 96,
+  "extraction_artifacts_checked": 32,
+  "format_accepted": 96,
+  "missing_responses": 0,
+  "main_channel_correct": {
+    "DIRECT": 11,
+    "EXTRACT": 24,
+    "RULE": 15
+  },
+  "extraction_exact": {
+    "correct": 32,
+    "n": 32,
+    "field_correct": 128,
+    "field_n": 128
+  },
+  "ledger_section": 272,
+  "new_model_calls": 0,
+  "raw_repairs": 0,
+  "prior_anchors_unchanged": {
+    "study2/designs/readout-split-01-20260925/README.md": "e98d48ddc3331fc262e1b97b4919070a4f88f69ea6ffc1150375d5ddb5361b12",
+    "study2/designs/readout-split-01-20260925/design.json": "1ec12f121c464b19c6df258d9069480bedb94c1013a90a4000ca1e74c56e06df",
+    "study2/designs/readout-split-01-20260925/prompt-direct.txt": "e95cc28d85c20d42f649c29ba9adad9c3e89e36b8cc3d7fc4f934af919594427",
+    "study2/designs/readout-split-01-20260925/prompt-extract.txt": "2b772077e095b51b1ea1e5caa0ba26bdd24efd1276b450e27358f80820090b7b",
+    "study2/designs/readout-split-01-20260925/prompt-rule.txt": "14386f57134b8b3808d413a32f6cb71bcab297a7385fdd7c5b88dac4e7989f17",
+    "study2/designs/readout-split-01-20260925/readout_split_01_design.py": "ae4a5c715c7c0abc005e2ae26522f240a6302eba14d3f3880c1907fff03524ea",
+    "study2/designs/readout-split-01-20260925/requests.json": "d01b038ea3503cbf984c94f860bad1c22bb32a631b595a82d7e0a4dc3e63960c",
+    "study2/designs/readout-split-01-20260925/verification.json": "ce2b7805962faf15497316c01176b85d01ad384a175388412652609915bcc22f",
+    "study2/readout-split-01-plan-v0.1-2026-09-25.md": "b43539cb0b2b4bbb3d0600727991119130a139eaff913277cb217015af40fd68",
+    "scripts/readout_split_01_design.py": "ae4a5c715c7c0abc005e2ae26522f240a6302eba14d3f3880c1907fff03524ea",
+    "tests/test_readout_split_01_design.py": "8f00cad0d3c86fe99e0250f15178c5d8adfdce9bf04c3c0fb2e5fd715f8ed0b6",
+    "throughline/audits/prereg/readout-split-01-v0.1.md": "7836b3abe70f475e1885fb05c1210cf533e14a77f026c9d29522179a8858c004",
+    "scripts/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "scripts/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "scripts/readout_split_01_bootstrap.py": "ae54017b03e5832c6002925a6ade9e13212aeb0b7ae5587f0c3b4f602c73e80f",
+    "scripts/readout_split_01_runtime.py": "396822521e77680f4a04d38b7b402043108a329395ecbb8d94bd92be550eff33",
+    "scripts/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "scripts/build_readout_split_01_cell.py": "e19613740fbb10114dd16e4cd5ef1d401acf442f805af5df5ce1a8b9eaf43258",
+    "scripts/aggregate_readout_split_01.py": "e7a20cd9499c7fce673e0793f2e449a35b9b6d9823c04937021f19e9fbe1ab3f",
+    "tests/test_readout_split_01_runtime.py": "8dc22e06ae35a65759d6607fc3fa8ff91d6ba4d68615775e5da0dd2eb84c1a54",
+    "study2/colab/readout_split_01_onecell.py": "bcd2c0553b2d81abeb2287ea7907b60501b842d0a6d24b9558fc863699331f25",
+    "study2/readout-split-01-connection-v0.1-2026-09-25.md": "0e5b6b0a70df09a27e31678ff93263ecea84fcd169217e231c98493a04506d0f"
+  },
+  "prior_result_report_unchanged": true,
+  "current_files": {
+    "study2/readout-split-01-result-2026-09-25.md": "4b643747700e6fc010c603ce34836cc5ba5a64f29fd28f5341383c9a0cb400f8",
+    "throughline/audits/readout-split-01-result-20260925/analyze.py": "ba48402031f938e608acf77776d2493ccc16653c65cb2d0df9a740fedb4b2024"
+  },
+  "archive_code_executed": false,
+  "inferential_statistics": null,
+  "next_design_created": false
+}

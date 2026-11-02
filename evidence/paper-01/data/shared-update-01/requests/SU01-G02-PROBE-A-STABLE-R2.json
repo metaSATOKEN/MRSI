@@ -1,0 +1,33 @@
+{
+  "input": [
+    {
+      "content": [
+        {
+          "text": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n保存されたPRIVATEとGROUPだけから、自分の担当客の絵柄と現在の全体案内を判断してください。自分の絵柄はPRIVATEのcustomer、全体案内はGROUPのA/B両観測を確認します。共同ノートの推奨だけで根拠を省略しません。\n出力はmascot（DOG/CAT/UNKNOWN）、mascot_read_refs、mascot_origin_ids、channel（PAPER/DIGITAL/UNKNOWN）、channel_read_refs、channel_origin_idsの6欄のみ。\n絵柄が特定できればmascot_read_refsはPRIVATE、mascot_origin_idsはその元予約票IDを配列にします。案内が特定できればchannel_read_refsはGROUP、channel_origin_idsはその両観測の元観測票IDを配列にします。UNKNOWNなら対応する二つの配列は空。配列は順不同、重複なし。\nノート内部のread_refsはその版を作った過去の参照です。今直接読めるのはPRIVATE/GROUPだけです。人物・原票IDと直接参照名を区別します。\n",
+          "type": "input_text"
+        }
+      ],
+      "role": "developer",
+      "type": "message"
+    },
+    {
+      "content": [
+        {
+          "text": "\n資料JSON:\n{\"scene\":\"地域工作会\",\"item\":\"持帰り袋\",\"holder\":\"A\",\"records\":[{\"record_id\":\"PRIVATE\",\"author\":\"A\",\"body\":{\"customer\":{\"subject\":\"A\",\"animal\":\"CAT\",\"origin_id\":\"BK\"},\"coverage\":{\"observer\":\"A\",\"paper\":\"UNKNOWN\",\"digital\":\"UNKNOWN\",\"origin_id\":\"SZ\"}}},{\"record_id\":\"GROUP\",\"author\":\"A\",\"body\":{\"coverage\":{\"A\":{\"observer\":\"A\",\"paper\":\"UNKNOWN\",\"digital\":\"UNKNOWN\",\"origin_id\":\"SZ\"},\"B\":{\"observer\":\"B\",\"paper\":\"NOT_ALL\",\"digital\":\"ALL\",\"origin_id\":\"NB\"}},\"channel\":\"UNKNOWN\",\"channel_read_refs\":[],\"channel_origin_ids\":[]}}]}",
+          "type": "input_text"
+        }
+      ],
+      "role": "user",
+      "type": "message"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "tools": [],
+  "tool_choice": "none",
+  "parallel_tool_calls": false,
+  "store": false,
+  "stream": true
+}

@@ -1,0 +1,2 @@
+# Offline scoring environment tested with Python 3.13.5.
+scipy==1.17.0

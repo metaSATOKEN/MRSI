@@ -1,0 +1,1717 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "RS01 main direct/extract/rule",
+      "actual": [
+        11,
+        24,
+        15
+      ],
+      "expected": [
+        11,
+        24,
+        15
+      ],
+      "pass": true
+    },
+    {
+      "check": "RS01 main sample denominators",
+      "actual": [
+        24,
+        24,
+        24
+      ],
+      "expected": [
+        24,
+        24,
+        24
+      ],
+      "pass": true
+    },
+    {
+      "check": "RS01 extraction main + boundaries",
+      "actual": 32,
+      "expected": 32,
+      "pass": true
+    },
+    {
+      "check": "Table 6 RS01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "SVR01 main direct/extract",
+      "actual": [
+        11,
+        32
+      ],
+      "expected": [
+        11,
+        32
+      ],
+      "pass": true
+    },
+    {
+      "check": "SVR01 stale note/latest",
+      "actual": [
+        20,
+        4
+      ],
+      "expected": [
+        20,
+        4
+      ],
+      "pass": true
+    },
+    {
+      "check": "Table 6 SVR01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 G0P0",
+      "actual": [
+        32,
+        25,
+        28,
+        25
+      ],
+      "expected": [
+        32,
+        25,
+        28,
+        25
+      ],
+      "pass": true
+    },
+    {
+      "check": "Table 7 なし",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 G1P0",
+      "actual": [
+        32,
+        36,
+        36,
+        32
+      ],
+      "expected": [
+        32,
+        36,
+        36,
+        32
+      ],
+      "pass": true
+    },
+    {
+      "check": "Table 7 共同のみ",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 G0P1",
+      "actual": [
+        36,
+        25,
+        28,
+        25
+      ],
+      "expected": [
+        36,
+        25,
+        28,
+        25
+      ],
+      "pass": true
+    },
+    {
+      "check": "Table 7 本人のみ",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 G1P1",
+      "actual": [
+        36,
+        36,
+        36,
+        36
+      ],
+      "expected": [
+        36,
+        36,
+        36,
+        36
+      ],
+      "pass": true
+    },
+    {
+      "check": "Table 7 両方",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 actual calls",
+      "actual": 91,
+      "expected": 91,
+      "pass": true
+    },
+    {
+      "check": "OR01 logical reads",
+      "actual": 144,
+      "expected": 144,
+      "pass": true
+    },
+    {
+      "check": "SX01 full paths",
+      "actual": {
+        "correct": 16,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 16
+      },
+      "expected": {
+        "correct": 16,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 16
+      },
+      "pass": true
+    },
+    {
+      "check": "SX01 bad proposals",
+      "actual": 17,
+      "expected": 17,
+      "pass": true
+    },
+    {
+      "check": "SX01 saved states",
+      "actual": 96,
+      "expected": 96,
+      "pass": true
+    },
+    {
+      "check": "SX01 retained customer",
+      "actual": 96,
+      "expected": 96,
+      "pass": true
+    },
+    {
+      "check": "SX01 proposal row locations",
+      "actual": 24,
+      "expected": 24,
+      "pass": true
+    },
+    {
+      "check": "Table 8 SX01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "SX02 full paths",
+      "actual": {
+        "correct": 16,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 16
+      },
+      "expected": {
+        "correct": 16,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 16
+      },
+      "pass": true
+    },
+    {
+      "check": "SX02 bad proposals",
+      "actual": 23,
+      "expected": 23,
+      "pass": true
+    },
+    {
+      "check": "SX02 saved states",
+      "actual": 96,
+      "expected": 96,
+      "pass": true
+    },
+    {
+      "check": "SX02 retained customer",
+      "actual": 96,
+      "expected": 96,
+      "pass": true
+    },
+    {
+      "check": "SX02 proposal row locations",
+      "actual": 32,
+      "expected": 32,
+      "pass": true
+    },
+    {
+      "check": "Table 8 SX02",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "RU01 all conditions",
+      "actual": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "expected": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "pass": true
+    },
+    {
+      "check": "RU01 full paths",
+      "actual": 16,
+      "expected": 16,
+      "pass": true
+    },
+    {
+      "check": "RU01 example identity",
+      "actual": "RU01-C07-R1",
+      "expected": "RU01-C07-R1",
+      "pass": true
+    },
+    {
+      "check": "RU01 example actions",
+      "actual": [
+        [
+          "DOG",
+          "CAT",
+          "PAPER"
+        ],
+        [
+          "CAT",
+          "DOG",
+          "PAPER"
+        ],
+        [
+          "DOG",
+          "CAT",
+          "DIGITAL"
+        ],
+        [
+          "CAT",
+          "DOG",
+          "DIGITAL"
+        ]
+      ],
+      "expected": [
+        [
+          "DOG",
+          "CAT",
+          "PAPER"
+        ],
+        [
+          "CAT",
+          "DOG",
+          "PAPER"
+        ],
+        [
+          "DOG",
+          "CAT",
+          "DIGITAL"
+        ],
+        [
+          "CAT",
+          "DOG",
+          "DIGITAL"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 target change / nontarget / delay",
+      "actual": [
+        16,
+        32,
+        2
+      ],
+      "expected": [
+        16,
+        32,
+        2
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 full paths",
+      "actual": {
+        "correct": 2,
+        "incorrect": 14,
+        "unresolved": 0,
+        "n": 16
+      },
+      "expected": {
+        "correct": 2,
+        "incorrect": 14,
+        "unresolved": 0,
+        "n": 16
+      },
+      "pass": true
+    },
+    {
+      "check": "CU01 closure",
+      "actual": "NOT_MET",
+      "expected": "NOT_MET",
+      "pass": true
+    },
+    {
+      "check": "CU01 rollback",
+      "actual": {
+        "ROLLED_BACK_TO_INITIAL": 14,
+        "KEPT_LATEST": 2
+      },
+      "expected": {
+        "ROLLED_BACK_TO_INITIAL": 14,
+        "KEPT_LATEST": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "CU01 read fidelity",
+      "actual": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "expected": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 read latest",
+      "actual": 18,
+      "expected": 18,
+      "pass": true
+    },
+    {
+      "check": "CU01 worked example",
+      "actual": "CU01-C06-R1",
+      "expected": "CU01-C06-R1",
+      "pass": true
+    },
+    {
+      "check": "CU01 change saved",
+      "actual": {
+        "animal": "DOG",
+        "origin_id": "K0D9B80C5A23D1363",
+        "revision": 77,
+        "subject": "A"
+      },
+      "expected": {
+        "animal": "DOG",
+        "origin_id": "K0D9B80C5A23D1363",
+        "revision": 77,
+        "subject": "A"
+      },
+      "pass": true
+    },
+    {
+      "check": "CU01 delay saved",
+      "actual": {
+        "animal": "CAT",
+        "origin_id": "K5E1ED87EFA479493",
+        "revision": 76,
+        "subject": "A"
+      },
+      "expected": {
+        "animal": "CAT",
+        "origin_id": "K5E1ED87EFA479493",
+        "revision": 76,
+        "subject": "A"
+      },
+      "pass": true
+    },
+    {
+      "check": "CU01 raw read excerpt",
+      "actual": {
+        "subject": "A",
+        "animal": "CAT"
+      },
+      "expected": {
+        "subject": "A",
+        "animal": "CAT"
+      },
+      "pass": true
+    },
+    {
+      "check": "CU01 exact manuscript excerpt K5E1ED87EFA479493",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "CU01 exact manuscript excerpt K0D9B80C5A23D1363",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "CU01 exact manuscript excerpt {\"customer\":{\"subject\":\"A\",\"animal\":\"CAT\"}}",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "CU01 complete rollback traces",
+      "actual": 14,
+      "expected": 14,
+      "pass": true
+    },
+    {
+      "check": "CU01 old row preserved through all failures",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts RS01",
+      "actual": [
+        0,
+        96,
+        0
+      ],
+      "expected": [
+        0,
+        96,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS RS01",
+      "actual": {
+        "EOS": 96
+      },
+      "expected": {
+        "EOS": 96
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript RS01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts SVR01",
+      "actual": [
+        0,
+        104,
+        0
+      ],
+      "expected": [
+        0,
+        104,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS SVR01",
+      "actual": {
+        "EOS": 104
+      },
+      "expected": {
+        "EOS": 104
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript SVR01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts OR01",
+      "actual": [
+        36,
+        55,
+        20
+      ],
+      "expected": [
+        36,
+        55,
+        20
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS OR01",
+      "actual": {
+        "EOS": 91
+      },
+      "expected": {
+        "EOS": 91
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript OR01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts SX01",
+      "actual": [
+        96,
+        32,
+        54
+      ],
+      "expected": [
+        96,
+        32,
+        54
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS SX01",
+      "actual": {
+        "EOS": 128
+      },
+      "expected": {
+        "EOS": 128
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript SX01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts RU01",
+      "actual": [
+        0,
+        128,
+        125
+      ],
+      "expected": [
+        0,
+        128,
+        125
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS RU01",
+      "actual": {
+        "EOS": 128
+      },
+      "expected": {
+        "EOS": 128
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript RU01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts SX02",
+      "actual": [
+        96,
+        32,
+        79
+      ],
+      "expected": [
+        96,
+        32,
+        79
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS SX02",
+      "actual": {
+        "EOS": 128
+      },
+      "expected": {
+        "EOS": 128
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript SX02",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts CU01",
+      "actual": [
+        64,
+        32,
+        75
+      ],
+      "expected": [
+        64,
+        32,
+        75
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS CU01",
+      "actual": {
+        "EOS": 96
+      },
+      "expected": {
+        "EOS": 96
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript CU01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "RS01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "RS01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "RS01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "RS01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "RS01 raw ZIP unchanged",
+      "actual": "61a29b9fb11879c7ac76db18ffe5e61f3d10a10f991c683fbc2724f248caa1c4",
+      "expected": "61a29b9fb11879c7ac76db18ffe5e61f3d10a10f991c683fbc2724f248caa1c4",
+      "pass": true
+    },
+    {
+      "check": "SVR01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "SVR01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "SVR01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "SVR01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "SVR01 raw ZIP unchanged",
+      "actual": "7e9b6f8f79053841f48a329d4e954e3457a8c976c6ea591ef2c4234f1b401b06",
+      "expected": "7e9b6f8f79053841f48a329d4e954e3457a8c976c6ea591ef2c4234f1b401b06",
+      "pass": true
+    },
+    {
+      "check": "OR01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "OR01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "OR01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "OR01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "OR01 raw ZIP unchanged",
+      "actual": "f80f1d81a62f07cf0940ee318b4dccf6a283f5fb7f5ed4d0ed5688a1c2875565",
+      "expected": "f80f1d81a62f07cf0940ee318b4dccf6a283f5fb7f5ed4d0ed5688a1c2875565",
+      "pass": true
+    },
+    {
+      "check": "SX01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "SX01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX01 raw ZIP unchanged",
+      "actual": "6655aab50dead38cea2e4060475366db88e83c3351c524e10052ad067945ee36",
+      "expected": "6655aab50dead38cea2e4060475366db88e83c3351c524e10052ad067945ee36",
+      "pass": true
+    },
+    {
+      "check": "RU01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "RU01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "RU01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "RU01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "RU01 raw ZIP unchanged",
+      "actual": "6333e83dfe41d717b27183aad33d4bf2df8f9082001253cc0af4011e7ede6121",
+      "expected": "6333e83dfe41d717b27183aad33d4bf2df8f9082001253cc0af4011e7ede6121",
+      "pass": true
+    },
+    {
+      "check": "SX02 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "SX02 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX02 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX02 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX02 raw ZIP unchanged",
+      "actual": "fcbd9fdff7a3d3a0fdc98e6033638e0338b97c9084e0bde87b29e35336c530ee",
+      "expected": "fcbd9fdff7a3d3a0fdc98e6033638e0338b97c9084e0bde87b29e35336c530ee",
+      "pass": true
+    },
+    {
+      "check": "CU01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "CU01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 raw ZIP unchanged",
+      "actual": "3b75f91c68a9e4c17635f505ee0b13226f45e9767015eb59d28da6f5e4813ca9",
+      "expected": "3b75f91c68a9e4c17635f505ee0b13226f45e9767015eb59d28da6f5e4813ca9",
+      "pass": true
+    },
+    {
+      "check": "frozen input changes",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "old ledger prefix",
+      "actual": "7555f5bb83d1922ba33b1e7bf7ff6e94401d2c7a8a893eaa4053a901734dfb01",
+      "expected": "7555f5bb83d1922ba33b1e7bf7ff6e94401d2c7a8a893eaa4053a901734dfb01",
+      "pass": true
+    },
+    {
+      "check": "balanced fences manuscript-ja-v0.3-2026-09-27.md",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "no local absolute paths manuscript-ja-v0.3-2026-09-27.md",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "balanced fences evidence-index-v0.3-2026-09-27.md",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "no local absolute paths evidence-index-v0.3-2026-09-27.md",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "balanced fences revision-notes-v0.3-2026-09-27.md",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "no local absolute paths revision-notes-v0.3-2026-09-27.md",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "balanced fences README.md",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "no local absolute paths README.md",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "balanced fences related-work-review-v0.1-2026-09-27.md",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "no local absolute paths related-work-review-v0.1-2026-09-27.md",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "broken local links",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "main section count",
+      "actual": 9,
+      "expected": 9,
+      "pass": true
+    },
+    {
+      "check": "tables 1 through 10",
+      "actual": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "expected": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "pass": true
+    },
+    {
+      "check": "figure captions",
+      "actual": [
+        "1",
+        "2"
+      ],
+      "expected": [
+        "1",
+        "2"
+      ],
+      "pass": true
+    },
+    {
+      "check": "unchanged data rows table 3",
+      "actual": [
+        "| 保存先 | 内容 | 更新時の担当 | 後続での用途 |",
+        "| --- | --- | --- | --- |",
+        "| 担当客情報 | 担当役、犬猫希望、元ID。希望更新診断では専用の版も追加 | LLMが記述した内容を保存 | LLMが担当役と希望を抽出し、その希望を絵柄に使う |",
+        "| 本人観測 | 自分の紙・デジタル観測、観測者、元ID、版 | 入力候補から自分の最新版をコードが選び、一行全体を複製 | 本人観測の保持・更新を確認し、相手への交換に使う |",
+        "| 共同観測 | A/Bそれぞれの観測行 | 人物別の最新版をコードが選び、一行全体を複製 | LLMが四値を抽出し、コードが共同案内を計算 |"
+      ],
+      "expected": [
+        "| 保存先 | 内容 | 更新時の担当 | 後続での用途 |",
+        "| --- | --- | --- | --- |",
+        "| 担当客情報 | 担当役、犬猫希望、元ID。希望更新診断では専用の版も追加 | LLMが記述した内容を保存 | LLMが担当役と希望を抽出し、その希望を絵柄に使う |",
+        "| 本人観測 | 自分の紙・デジタル観測、観測者、元ID、版 | 入力候補から自分の最新版をコードが選び、一行全体を複製 | 本人観測の保持・更新を確認し、相手への交換に使う |",
+        "| 共同観測 | A/Bそれぞれの観測行 | 人物別の最新版をコードが選び、一行全体を複製 | LLMが四値を抽出し、コードが共同案内を計算 |"
+      ],
+      "pass": true
+    },
+    {
+      "check": "unchanged data rows table 4",
+      "actual": [
+        "| 段階 | 犬猫希望 | 版 | 元ID |",
+        "| --- | --- | ---: | --- |",
+        "| 初期ノート | 猫 | 76 | `K5E1ED87EFA479493` |",
+        "| 新通知 | 犬 | 77 | `K0D9B80C5A23D1363` |",
+        "| 新通知後の実保存 | **犬** | **77** | **`K0D9B80C5A23D1363`** |",
+        "| 後から届く古い通知 | 猫 | 76 | `K5E1ED87EFA479493` |",
+        "| 古い通知後の原案・実保存 | **猫** | **76** | **`K5E1ED87EFA479493`** |",
+        "| 最後の絵柄回答 | **猫** | 再引用は求めない | 再引用は求めない |"
+      ],
+      "expected": [
+        "| 段階 | 犬猫希望 | 版 | 元ID |",
+        "| --- | --- | ---: | --- |",
+        "| 初期ノート | 猫 | 76 | `K5E1ED87EFA479493` |",
+        "| 新通知 | 犬 | 77 | `K0D9B80C5A23D1363` |",
+        "| 新通知後の実保存 | **犬** | **77** | **`K0D9B80C5A23D1363`** |",
+        "| 後から届く古い通知 | 猫 | 76 | `K5E1ED87EFA479493` |",
+        "| 古い通知後の原案・実保存 | **猫** | **76** | **`K5E1ED87EFA479493`** |",
+        "| 最後の絵柄回答 | **猫** | 再引用は求めない | 再引用は求めない |"
+      ],
+      "pass": true
+    },
+    {
+      "check": "unchanged data rows table 5",
+      "actual": [
+        "| 呼び名 | 略号 | 材料と反復 | 比較・経路 |",
+        "| --- | --- | --- | --- |",
+        "| 読出し分離 | RS01 | 主12材料＋境界4入力、各2反復 | 直接判断／抽出＋計算／正しい四値だけからのモデル判断 |",
+        "| 実保存読出し | SVR01 | 最新16保存入力＋古い10保存入力、各2反復 | 直接判断／抽出＋計算 |",
+        "| 保存先比較 | OR01 | 既知18材料、各2反復 | 共通更新案36件を、本人・共同の処理有無で四分岐 |",
+        "| 一巡目 | SX01 | 新規8組、各2反復 | 本人観測の更新→交換→古い通知→共同読出し |",
+        "| 用途分離 | RU01 | 一巡目の最終32ノート | 元のまま／希望だけ変更／観測だけ変更／両方変更 |",
+        "| 二巡目 | SX02 | 一巡目の最終32ノート | 次の更新→交換→古い通知→本人・共同の同時読出し |",
+        "| 希望更新診断 | CU01 | 別の新規8組、各2反復 | 担当客の新希望→古い通知→本人・共同の同時読出し |"
+      ],
+      "expected": [
+        "| 呼び名 | 略号 | 材料と反復 | 比較・経路 |",
+        "| --- | --- | --- | --- |",
+        "| 読出し分離 | RS01 | 主12材料＋境界4入力、各2反復 | 直接判断／抽出＋計算／正しい四値だけからのモデル判断 |",
+        "| 実保存読出し | SVR01 | 最新16保存入力＋古い10保存入力、各2反復 | 直接判断／抽出＋計算 |",
+        "| 保存先比較 | OR01 | 既知18材料、各2反復 | 共通更新案36件を、本人・共同の処理有無で四分岐 |",
+        "| 一巡目 | SX01 | 新規8組、各2反復 | 本人観測の更新→交換→古い通知→共同読出し |",
+        "| 用途分離 | RU01 | 一巡目の最終32ノート | 元のまま／希望だけ変更／観測だけ変更／両方変更 |",
+        "| 二巡目 | SX02 | 一巡目の最終32ノート | 次の更新→交換→古い通知→本人・共同の同時読出し |",
+        "| 希望更新診断 | CU01 | 別の新規8組、各2反復 | 担当客の新希望→古い通知→本人・共同の同時読出し |"
+      ],
+      "pass": true
+    },
+    {
+      "check": "unchanged data rows table 6",
+      "actual": [
+        "| 試験・材料 | モデルの直接判断 | 抽出＋コード計算 | 正しい四値からのモデル判断 |",
+        "| --- | ---: | ---: | ---: |",
+        "| 読出し分離：主12材料×2反復 | 11/24 | **24/24** | 15/24 |",
+        "| 同：利用可能な方法がゼロ | 4/4 | 4/4 | 4/4 |",
+        "| 同：利用可能な方法が二つ | 2/4 | 4/4 | 4/4 |",
+        "| 実保存読出し：最新16入力×2反復 | 11/32 | **32/32** | 実施せず |"
+      ],
+      "expected": [
+        "| 試験・材料 | モデルの直接判断 | 抽出＋コード計算 | 正しい四値からのモデル判断 |",
+        "| --- | ---: | ---: | ---: |",
+        "| 読出し分離：主12材料×2反復 | 11/24 | **24/24** | 15/24 |",
+        "| 同：利用可能な方法がゼロ | 4/4 | 4/4 | 4/4 |",
+        "| 同：利用可能な方法が二つ | 2/4 | 4/4 | 4/4 |",
+        "| 実保存読出し：最新16入力×2反復 | 11/32 | **32/32** | 実施せず |"
+      ],
+      "pass": true
+    },
+    {
+      "check": "unchanged data rows table 7",
+      "actual": [
+        "| 保存処理 | 本人観測が正しい | 共同観測が正しい | 最新状態に合う共同案内 | 全工程成立 |",
+        "| --- | ---: | ---: | ---: | ---: |",
+        "| なし | 32/36 | 25/36 | 28/36 | 25/36 |",
+        "| 共同のみ | 32/36 | **36/36** | **36/36** | 32/36 |",
+        "| 本人のみ | **36/36** | 25/36 | 28/36 | 25/36 |",
+        "| 両方 | **36/36** | **36/36** | **36/36** | **36/36** |"
+      ],
+      "expected": [
+        "| 保存処理 | 本人観測が正しい | 共同観測が正しい | 最新状態に合う共同案内 | 全工程成立 |",
+        "| --- | ---: | ---: | ---: | ---: |",
+        "| なし | 32/36 | 25/36 | 28/36 | 25/36 |",
+        "| 共同のみ | 32/36 | **36/36** | **36/36** | 32/36 |",
+        "| 本人のみ | **36/36** | 25/36 | 28/36 | 25/36 |",
+        "| 両方 | **36/36** | **36/36** | **36/36** | **36/36** |"
+      ],
+      "pass": true
+    },
+    {
+      "check": "unchanged data rows table 8",
+      "actual": [
+        "| 系列 | 原案に不備のあった更新 | 不一致の観測欄 | 保存後の全欄一致 | 二役の全工程 |",
+        "| --- | ---: | ---: | ---: | ---: |",
+        "| 一巡目 | 17/96 | 24欄 | 96/96 | 16/16 |",
+        "| 二巡目 | 23/96 | 32欄 | 96/96 | 16/16 |"
+      ],
+      "expected": [
+        "| 系列 | 原案に不備のあった更新 | 不一致の観測欄 | 保存後の全欄一致 | 二役の全工程 |",
+        "| --- | ---: | ---: | ---: | ---: |",
+        "| 一巡目 | 17/96 | 24欄 | 96/96 | 16/16 |",
+        "| 二巡目 | 23/96 | 32欄 | 96/96 | 16/16 |"
+      ],
+      "pass": true
+    },
+    {
+      "check": "unchanged data rows table 9",
+      "actual": [
+        "| 入力条件 | Aの担当客への絵柄 | Bの担当客への絵柄 | 共同案内 |",
+        "| --- | --- | --- | --- |",
+        "| 元のまま | 犬 | 猫 | 紙 |",
+        "| 希望だけ変更 | 猫 | 犬 | 紙 |",
+        "| 観測だけ変更 | 犬 | 猫 | デジタル |",
+        "| 両方変更 | 猫 | 犬 | デジタル |"
+      ],
+      "expected": [
+        "| 入力条件 | Aの担当客への絵柄 | Bの担当客への絵柄 | 共同案内 |",
+        "| --- | --- | --- | --- |",
+        "| 元のまま | 犬 | 猫 | 紙 |",
+        "| 希望だけ変更 | 猫 | 犬 | 紙 |",
+        "| 観測だけ変更 | 犬 | 猫 | デジタル |",
+        "| 両方変更 | 猫 | 犬 | デジタル |"
+      ],
+      "pass": true
+    },
+    {
+      "check": "unchanged data rows table 10",
+      "actual": [
+        "| 工程・評価対象 | 成立 | 分母の意味 |",
+        "| --- | ---: | --- |",
+        "| 対象役が新しい希望へ更新 | **16/16** | 対象役、一組一回の新通知 |",
+        "| 非対象役の担当情報を保持 | **32/32** | 非対象役、新通知と古い通知の二回 |",
+        "| 対象役が古い通知後も新版を維持 | **2/16** | 対象役、一組一回の古い通知 |",
+        "| 保存ノートへの忠実な読出し | **32/32** | 両役の最終回答 |",
+        "| 最新の担当情報と共同情報を同時利用 | **18/32** | 非対象16＋新版を維持した対象2 |",
+        "| 二役の全工程 | **2/16** | 両役の新通知・古い通知・読出し |"
+      ],
+      "expected": [
+        "| 工程・評価対象 | 成立 | 分母の意味 |",
+        "| --- | ---: | --- |",
+        "| 対象役が新しい希望へ更新 | **16/16** | 対象役、一組一回の新通知 |",
+        "| 非対象役の担当情報を保持 | **32/32** | 非対象役、新通知と古い通知の二回 |",
+        "| 対象役が古い通知後も新版を維持 | **2/16** | 対象役、一組一回の古い通知 |",
+        "| 保存ノートへの忠実な読出し | **32/32** | 両役の最終回答 |",
+        "| 最新の担当情報と共同情報を同時利用 | **18/32** | 非対象16＋新版を維持した対象2 |",
+        "| 二役の全工程 | **2/16** | 両役の新通知・古い通知・読出し |"
+      ],
+      "pass": true
+    },
+    {
+      "check": "unchanged scientific text ## 3. 課題とシステム",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "unchanged scientific text ## 7. 測定範囲と限界",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "unchanged scientific text ## 付録A.",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "title abstract and introduction unchanged",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "unchanged except S1 link ## 9. データ可用性と申告",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "unchanged except S1 link ## 付録B.",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2410.10813v2",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2410.10813v2",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2507.05257v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2507.05257v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2606.27472v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2606.27472v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2605.06527v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2605.06527v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2501.13956v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2501.13956v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2605.20926v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2605.20926v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2511.03506v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2511.03506v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2607.01935v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2607.01935v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2606.24595v2",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2606.24595v2",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2605.28732v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2605.28732v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2606.17328v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2606.17328v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2605.14498v2",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2605.14498v2",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2606.01435v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2606.01435v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "related work source cited 2608.01619v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "bibliography title 2608.01619v1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "MemAudit v2 title correct",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "two MemTrace sources kept distinct",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 same 36 proposals in all branches",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 private failure count",
+      "actual": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "check": "OR01 shared-only correct answer with old private on SAME four",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 private-only repairs SAME four with overlapping shared failure",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 no joint outcome changes off vs private-only",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 paired joint successes",
+      "actual": 25,
+      "expected": 25,
+      "pass": true
+    },
+    {
+      "check": "retrospective synthesis marked",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "CU01 criterion failure remains",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "original adaptive selection/protocol account retained",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "no unresolvable pasted-review references",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "evidence index table mapping",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    }
+  ],
+  "checked_frozen_anchors": 3025,
+  "local_links_checked": 92,
+  "new_inference_calls": 0,
+  "rescored_research_responses": 0,
+  "scope": "Existing aggregate and trace checks, manuscript values and links; not independent blind scientific review.",
+  "manuscript_sha256": "eb4beafdcebc8f3bef71c0d4596891d290de97b26f4741534ac3dae598250064"
+}

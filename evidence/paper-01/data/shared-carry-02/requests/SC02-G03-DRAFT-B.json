@@ -1,0 +1,33 @@
+{
+  "input": [
+    {
+      "content": [
+        {
+          "text": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n両役が保存した観測カードOBS_A/OBS_Bから初期共同ノートを下書きします。元の原票は見えません。観測内容とorigin_idを維持し、案内を判断してください。channel_read_refsはOBS_AとOBS_B、channel_origin_idsは両カード内部のorigin_idです。出力トップ欄はshared_noteだけ。\nshared_noteはcoverage（A/Bそれぞれの観測オブジェクト）、channel（PAPER/DIGITAL/UNKNOWN）、channel_read_refs（直接読んだ記録名の配列）、channel_origin_ids（根拠となる二つの元観測票IDの配列）の4欄。観測オブジェクトはobserver・paper・digital・origin_idの4欄です。channelがUNKNOWNならその二つの配列は空にします。\nread_refsには外側のrecord_id、origin_idsには観測オブジェクト内のorigin_idを記録します。この二種類を交換しません。各配列は順不同、重複なし。元観測IDを直接参照欄へ、直接記録名を元観測ID欄へ入れません。",
+          "type": "input_text"
+        }
+      ],
+      "role": "developer",
+      "type": "message"
+    },
+    {
+      "content": [
+        {
+          "text": "\n資料JSON:\n{\"scene\":\"小さな展示会\",\"item\":\"受付名札\",\"holder\":\"B\",\"records\":[{\"record_id\":\"OBS_A\",\"author\":\"A\",\"body\":{\"observer\":\"A\",\"paper\":\"NOT_ALL\",\"digital\":\"ALL\",\"origin_id\":\"YC\"}},{\"record_id\":\"OBS_B\",\"author\":\"B\",\"body\":{\"observer\":\"B\",\"paper\":\"ALL\",\"digital\":\"ALL\",\"origin_id\":\"VE\"}}]}",
+          "type": "input_text"
+        }
+      ],
+      "role": "user",
+      "type": "message"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "tools": [],
+  "tool_choice": "none",
+  "parallel_tool_calls": false,
+  "store": false,
+  "stream": true
+}

@@ -1,0 +1,1402 @@
+{
+  "planned_groups": 4,
+  "planned_slots": 32,
+  "E_PAIR": [
+    0.0,
+    0.0
+  ],
+  "E_PAIR_CONTENT": [
+    1.0,
+    1.0
+  ],
+  "prediction_status": "NOT_MET_IN_FIXED_SAMPLE",
+  "conditions": {
+    "OLD_NEW": {
+      "E": [
+        0.0,
+        0.0
+      ],
+      "E_CONTENT": [
+        1.0,
+        1.0
+      ],
+      "repeat_agreement": [
+        1.0,
+        1.0
+      ],
+      "I": [
+        1.0,
+        1.0
+      ],
+      "G": [
+        1.0,
+        1.0
+      ],
+      "final_unknown": [
+        0.0,
+        0.0
+      ],
+      "final_old_choice": [
+        0.0,
+        0.0
+      ],
+      "state_full": [
+        0.0,
+        0.0
+      ],
+      "state_content": [
+        1.0,
+        1.0
+      ],
+      "revision_latest": [
+        1.0,
+        1.0
+      ],
+      "state_old_content": [
+        0.0,
+        0.0
+      ],
+      "latest_tag_old_content": [
+        0.0,
+        0.0
+      ]
+    },
+    "NEW_OLD": {
+      "E": [
+        0.75,
+        0.75
+      ],
+      "E_CONTENT": [
+        1.0,
+        1.0
+      ],
+      "repeat_agreement": [
+        1.0,
+        1.0
+      ],
+      "I": [
+        1.0,
+        1.0
+      ],
+      "G": [
+        1.0,
+        1.0
+      ],
+      "final_unknown": [
+        0.0,
+        0.0
+      ],
+      "final_old_choice": [
+        0.0,
+        0.0
+      ],
+      "state_full": [
+        0.75,
+        0.75
+      ],
+      "state_content": [
+        1.0,
+        1.0
+      ],
+      "revision_latest": [
+        1.0,
+        1.0
+      ],
+      "state_old_content": [
+        0.0,
+        0.0
+      ],
+      "latest_tag_old_content": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "delta_E": [
+    0.75,
+    0.75
+  ],
+  "blocks": {
+    "SR01-G01": {
+      "full": {
+        "arms": {
+          "OLD_NEW": {
+            "S1": false,
+            "S2": false,
+            "J": [
+              true,
+              true
+            ],
+            "E": false
+          },
+          "NEW_OLD": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          }
+        },
+        "paired": false
+      },
+      "content": {
+        "arms": {
+          "OLD_NEW": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          },
+          "NEW_OLD": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          }
+        },
+        "paired": true
+      }
+    },
+    "SR01-G02": {
+      "full": {
+        "arms": {
+          "OLD_NEW": {
+            "S1": false,
+            "S2": false,
+            "J": [
+              true,
+              true
+            ],
+            "E": false
+          },
+          "NEW_OLD": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          }
+        },
+        "paired": false
+      },
+      "content": {
+        "arms": {
+          "OLD_NEW": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          },
+          "NEW_OLD": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          }
+        },
+        "paired": true
+      }
+    },
+    "SR01-G03": {
+      "full": {
+        "arms": {
+          "OLD_NEW": {
+            "S1": false,
+            "S2": false,
+            "J": [
+              true,
+              true
+            ],
+            "E": false
+          },
+          "NEW_OLD": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          }
+        },
+        "paired": false
+      },
+      "content": {
+        "arms": {
+          "OLD_NEW": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          },
+          "NEW_OLD": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          }
+        },
+        "paired": true
+      }
+    },
+    "SR01-G04": {
+      "full": {
+        "arms": {
+          "OLD_NEW": {
+            "S1": false,
+            "S2": false,
+            "J": [
+              true,
+              true
+            ],
+            "E": false
+          },
+          "NEW_OLD": {
+            "S1": false,
+            "S2": false,
+            "J": [
+              true,
+              true
+            ],
+            "E": false
+          }
+        },
+        "paired": false
+      },
+      "content": {
+        "arms": {
+          "OLD_NEW": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          },
+          "NEW_OLD": {
+            "S1": true,
+            "S2": true,
+            "J": [
+              true,
+              true
+            ],
+            "E": true
+          }
+        },
+        "paired": true
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "SR01-G02-SAVE1-A-NEW_OLD",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "SAVE1",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G03-SAVE1-B-NEW_OLD",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "SAVE1",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G01-SAVE1-B-NEW_OLD",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "SAVE1",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G04-SAVE1-A-OLD_NEW",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "SAVE1",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "full": false,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": false,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G03-SAVE1-B-OLD_NEW",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "SAVE1",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "full": false,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": false,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G01-SAVE1-B-OLD_NEW",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "SAVE1",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "full": false,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": false,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G02-SAVE1-A-OLD_NEW",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "SAVE1",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "full": false,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": false,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G04-SAVE1-A-NEW_OLD",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "SAVE1",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "full": false,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": false,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G04-SAVE2-A-NEW_OLD",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "SAVE2",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "full": false,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": false,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G01-SAVE2-B-NEW_OLD",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "SAVE2",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G02-SAVE2-A-NEW_OLD",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "SAVE2",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G04-SAVE2-A-OLD_NEW",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "SAVE2",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "full": false,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": false,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G03-SAVE2-B-OLD_NEW",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "SAVE2",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "full": false,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": false,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G01-SAVE2-B-OLD_NEW",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "SAVE2",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "full": false,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": false,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G02-SAVE2-A-OLD_NEW",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "SAVE2",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "full": false,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": false,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G03-SAVE2-B-NEW_OLD",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "SAVE2",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "content_components": {
+        "private_note": true,
+        "shared_note": true,
+        "shared_revision": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {}
+    },
+    {
+      "id": "SR01-G03-PROBE-B-OLD_NEW-R1",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "repetition": 1,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G03-PROBE-B-NEW_OLD-R1",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "repetition": 1,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G01-PROBE-B-NEW_OLD-R1",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "repetition": 1,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G01-PROBE-B-OLD_NEW-R1",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "repetition": 1,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G04-PROBE-A-OLD_NEW-R1",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "repetition": 1,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G04-PROBE-A-NEW_OLD-R1",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "repetition": 1,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G02-PROBE-A-NEW_OLD-R1",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "repetition": 1,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G02-PROBE-A-OLD_NEW-R1",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "repetition": 1,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G02-PROBE-A-OLD_NEW-R2",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "repetition": 2,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G02-PROBE-A-NEW_OLD-R2",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "repetition": 2,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G04-PROBE-A-NEW_OLD-R2",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "repetition": 2,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G04-PROBE-A-OLD_NEW-R2",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "repetition": 2,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G01-PROBE-B-OLD_NEW-R2",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "repetition": 2,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G01-PROBE-B-NEW_OLD-R2",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "repetition": 2,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G03-PROBE-B-NEW_OLD-R2",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "repetition": 2,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    },
+    {
+      "id": "SR01-G03-PROBE-B-OLD_NEW-R2",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "repetition": 2,
+      "full": true,
+      "content": true,
+      "full_components": {
+        "mascot": true,
+        "mascot_read_refs": true,
+        "mascot_origin_ids": true,
+        "channel": true,
+        "channel_read_refs": true,
+        "channel_origin_ids": true
+      },
+      "content_components": {
+        "mascot": true,
+        "channel": true
+      },
+      "structural_complete": true,
+      "dependency_unissued": false,
+      "input_support": {
+        "mascot": true,
+        "channel": true
+      }
+    }
+  ],
+  "stage_scores": {
+    "SAVE1": {
+      "full": [
+        0.375,
+        0.375
+      ],
+      "content": [
+        1.0,
+        1.0
+      ]
+    },
+    "SAVE2": {
+      "full": [
+        0.375,
+        0.375
+      ],
+      "content": [
+        1.0,
+        1.0
+      ]
+    },
+    "PROBE": {
+      "full": [
+        1.0,
+        1.0
+      ],
+      "content": [
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "scope": "Four fixed receivers, official revision cues added externally, sequential delivery and externally saved state; no new sender behavior or formation replication.",
+  "inferential_tests": null,
+  "status_counts": {
+    "VALID": 32
+  },
+  "valid_states": 16,
+  "note_components": {
+    "private_note": 16,
+    "shared_note": 16,
+    "shared_revision": 16
+  },
+  "decision_components": {
+    "mascot": 16,
+    "mascot_read_refs": 16,
+    "mascot_origin_ids": 16,
+    "channel": 16,
+    "channel_read_refs": 16,
+    "channel_origin_ids": 16
+  },
+  "repeat_input_comparison": [
+    {
+      "left": "SR01-G03-PROBE-B-OLD_NEW-R1",
+      "right": "SR01-G03-PROBE-B-OLD_NEW-R2",
+      "observed": true,
+      "same_bytes": true,
+      "same_response": true
+    },
+    {
+      "left": "SR01-G03-PROBE-B-NEW_OLD-R1",
+      "right": "SR01-G03-PROBE-B-NEW_OLD-R2",
+      "observed": true,
+      "same_bytes": true,
+      "same_response": true
+    },
+    {
+      "left": "SR01-G01-PROBE-B-NEW_OLD-R1",
+      "right": "SR01-G01-PROBE-B-NEW_OLD-R2",
+      "observed": true,
+      "same_bytes": true,
+      "same_response": true
+    },
+    {
+      "left": "SR01-G01-PROBE-B-OLD_NEW-R1",
+      "right": "SR01-G01-PROBE-B-OLD_NEW-R2",
+      "observed": true,
+      "same_bytes": true,
+      "same_response": true
+    },
+    {
+      "left": "SR01-G04-PROBE-A-OLD_NEW-R1",
+      "right": "SR01-G04-PROBE-A-OLD_NEW-R2",
+      "observed": true,
+      "same_bytes": true,
+      "same_response": true
+    },
+    {
+      "left": "SR01-G04-PROBE-A-NEW_OLD-R1",
+      "right": "SR01-G04-PROBE-A-NEW_OLD-R2",
+      "observed": true,
+      "same_bytes": true,
+      "same_response": true
+    },
+    {
+      "left": "SR01-G02-PROBE-A-NEW_OLD-R1",
+      "right": "SR01-G02-PROBE-A-NEW_OLD-R2",
+      "observed": true,
+      "same_bytes": true,
+      "same_response": true
+    },
+    {
+      "left": "SR01-G02-PROBE-A-OLD_NEW-R1",
+      "right": "SR01-G02-PROBE-A-OLD_NEW-R2",
+      "observed": true,
+      "same_bytes": true,
+      "same_response": true
+    }
+  ],
+  "all_slot_statuses": [
+    {
+      "id": "SR01-G02-SAVE1-A-NEW_OLD",
+      "stage": "SAVE1",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G03-SAVE1-B-NEW_OLD",
+      "stage": "SAVE1",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G01-SAVE1-B-NEW_OLD",
+      "stage": "SAVE1",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G04-SAVE1-A-OLD_NEW",
+      "stage": "SAVE1",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G03-SAVE1-B-OLD_NEW",
+      "stage": "SAVE1",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G01-SAVE1-B-OLD_NEW",
+      "stage": "SAVE1",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G02-SAVE1-A-OLD_NEW",
+      "stage": "SAVE1",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G04-SAVE1-A-NEW_OLD",
+      "stage": "SAVE1",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G04-SAVE2-A-NEW_OLD",
+      "stage": "SAVE2",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G01-SAVE2-B-NEW_OLD",
+      "stage": "SAVE2",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G02-SAVE2-A-NEW_OLD",
+      "stage": "SAVE2",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G04-SAVE2-A-OLD_NEW",
+      "stage": "SAVE2",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G03-SAVE2-B-OLD_NEW",
+      "stage": "SAVE2",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G01-SAVE2-B-OLD_NEW",
+      "stage": "SAVE2",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G02-SAVE2-A-OLD_NEW",
+      "stage": "SAVE2",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G03-SAVE2-B-NEW_OLD",
+      "stage": "SAVE2",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G03-PROBE-B-OLD_NEW-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G03-PROBE-B-NEW_OLD-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G01-PROBE-B-NEW_OLD-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G01-PROBE-B-OLD_NEW-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G04-PROBE-A-OLD_NEW-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G04-PROBE-A-NEW_OLD-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G02-PROBE-A-NEW_OLD-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G02-PROBE-A-OLD_NEW-R1",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G02-PROBE-A-OLD_NEW-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G02-PROBE-A-NEW_OLD-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G04-PROBE-A-NEW_OLD-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G04-PROBE-A-OLD_NEW-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G01-PROBE-B-OLD_NEW-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G01-PROBE-B-NEW_OLD-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G03-PROBE-B-NEW_OLD-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    },
+    {
+      "id": "SR01-G03-PROBE-B-OLD_NEW-R2",
+      "stage": "PROBE",
+      "status": "VALID"
+    }
+  ]
+}

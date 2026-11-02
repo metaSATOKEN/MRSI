@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "date": "2026-10-14",
+  "checks": {
+    "unchanged_original_sources": 156,
+    "baseline_files_preserved": 55160,
+    "baseline_files_edited": [
+      "README_ja.md",
+      "CITATION.cff",
+      "RELEASE_CHECKLIST.md",
+      "NOTICE",
+      "EXPERIMENTS.json",
+      "README.md",
+      "VERIFICATION.md",
+      "replay.py",
+      "PUBLICATION_SCOPE.md",
+      "experiments/README.md",
+      "verification/README.md",
+      "manifests/SOURCE_MAP.json",
+      "manifests/UNBUNDLED_REFERENCES.json",
+      "papers/two-role-failure-design/README.md",
+      "papers/two-role-failure-design/S1.md",
+      "papers/two-role-failure-design/figures/README.md",
+      "CONTACT_CORRECTION.md"
+    ],
+    "source_map_destinations_verified": 60783,
+    "new_browser_files_equal_zip_members": 5744,
+    "local_markdown_targets_exist": 2182,
+    "absolute_markdown_file_targets": 0,
+    "manuscript_text_equal_except_navigation": [
+      "papers/paper-04/manuscript-ja-v0.2-2026-10-13.md",
+      "papers/paper-04/manuscript-en-v0.1-2026-10-13.md",
+      "papers/two-role-failure-design/manuscript-ja-v0.6-2026-10-13.md",
+      "papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.md"
+    ],
+    "trial_count": 28,
+    "response_file_inventory": 5080,
+    "completed_archive_inventory": 29,
+    "preparation_attempt_generations": 0,
+    "disclosure_scan": {
+      "file_and_member_count": 11988,
+      "zip_members": 5974,
+      "matched_locations": [],
+      "scope": "New and changed candidate files, plus every member of newly included original ZIPs; existing files retain the previous bounded scan."
+    }
+  },
+  "new_model_requests": 0,
+  "external_publication": false
+}

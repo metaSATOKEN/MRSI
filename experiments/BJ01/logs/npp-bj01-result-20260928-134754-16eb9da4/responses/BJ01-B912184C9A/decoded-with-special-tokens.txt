@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-B912184C9A",
+  "checks": {
+    "output_contract": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer"],
+      "evidence_pointers": ["/contract/schema/properties"],
+      "reason": "答案に/answer/own_experience_summaryが存在するが、schemaのpropertiesに定義されていないため、追加プロパティ違反である。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/experiences", "/payload/joint_records"],
+      "reason": "local.subjectはBで一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_recordsの全IDと一致し、重複・架空はない。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/projected_success_per_40"],
+      "reason": "Bの予測成功率はPAPER23、DIGITAL27。DIGITALが最も高いため、DIGITALを選択したことは規則に合致する。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Aの提案とBのACCEPTがあり、割付はA:DIGITAL/B:PAPER。factsよりこの割付が合計49で最大であり、正しくリンクした合意であるためSHARED_DECISIONは適切。"
+    }
+  }
+}<|im_end|>

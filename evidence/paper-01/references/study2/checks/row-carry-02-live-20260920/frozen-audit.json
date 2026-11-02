@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": 2422,
+  "physical_requests": 24,
+  "M_CONT": [
+    1.0,
+    1.0
+  ],
+  "M_CONT_CONTENT": [
+    1.0,
+    1.0
+  ],
+  "scope": "Same-author separate saved-evidence reader; not independent human/model review"
+}

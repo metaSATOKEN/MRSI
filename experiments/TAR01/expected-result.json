@@ -1,0 +1,4130 @@
+{
+  "archive_sha256": "88f38a17a92140779aaf76637e441a87cfdf8a4d0e13bfcad34eea4c59db643a",
+  "files": 687,
+  "report": {
+    "unit": "3 reused triads; 27 distinct inputs x 2 technical replicates; 18 matched condition triplets.",
+    "totals": {
+      "planned": 54,
+      "correct": 53,
+      "incorrect": 1,
+      "unresolved": 0
+    },
+    "metrics": {
+      "own_holder": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      },
+      "own_recommendation": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      },
+      "own_sources": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      },
+      "approval_state": {
+        "planned": 54,
+        "correct": 53,
+        "incorrect": 1,
+        "unresolved": 0
+      },
+      "agreement": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      },
+      "execution": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      }
+    },
+    "by_arm": {
+      "MISSING": {
+        "strict": {
+          "planned": 18,
+          "correct": 17,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "approval_state": {
+            "planned": 18,
+            "correct": 17,
+            "incorrect": 1,
+            "unresolved": 0
+          },
+          "agreement": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "execution": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          }
+        },
+        "error_counts": {
+          "focal_false_accept": 0,
+          "false_agreement": 0,
+          "premature_action": 0,
+          "over_hold_agreement": 0,
+          "over_hold_action": 0,
+          "focal_state_other_error": 1
+        },
+        "interpretable_responses": 18
+      },
+      "HOLD": {
+        "strict": {
+          "planned": 18,
+          "correct": 18,
+          "incorrect": 0,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "approval_state": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "agreement": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "execution": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          }
+        },
+        "error_counts": {
+          "focal_false_accept": 0,
+          "false_agreement": 0,
+          "premature_action": 0,
+          "over_hold_agreement": 0,
+          "over_hold_action": 0,
+          "focal_state_other_error": 0
+        },
+        "interpretable_responses": 18
+      },
+      "ACCEPT": {
+        "strict": {
+          "planned": 18,
+          "correct": 18,
+          "incorrect": 0,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "approval_state": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "agreement": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "execution": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          }
+        },
+        "error_counts": {
+          "focal_false_accept": 0,
+          "false_agreement": 0,
+          "premature_action": 0,
+          "over_hold_agreement": 0,
+          "over_hold_action": 0,
+          "focal_state_other_error": 0
+        },
+        "interpretable_responses": 18
+      }
+    },
+    "triplets": [
+      {
+        "id": "TAR01-N03-B-R2",
+        "case": "N03",
+        "role": "B",
+        "repeat": 2,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N02-B-R2",
+        "case": "N02",
+        "role": "B",
+        "repeat": 2,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N03-C-R2",
+        "case": "N03",
+        "role": "C",
+        "repeat": 2,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N01-C-R2",
+        "case": "N01",
+        "role": "C",
+        "repeat": 2,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N03-C-R1",
+        "case": "N03",
+        "role": "C",
+        "repeat": 1,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N03-B-R1",
+        "case": "N03",
+        "role": "B",
+        "repeat": 1,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N01-A-R1",
+        "case": "N01",
+        "role": "A",
+        "repeat": 1,
+        "strict": false,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": false,
+        "agreement_execution_all_states": false
+      },
+      {
+        "id": "TAR01-N02-C-R1",
+        "case": "N02",
+        "role": "C",
+        "repeat": 1,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N03-A-R1",
+        "case": "N03",
+        "role": "A",
+        "repeat": 1,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N01-A-R2",
+        "case": "N01",
+        "role": "A",
+        "repeat": 2,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N01-B-R1",
+        "case": "N01",
+        "role": "B",
+        "repeat": 1,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N02-A-R2",
+        "case": "N02",
+        "role": "A",
+        "repeat": 2,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N02-B-R1",
+        "case": "N02",
+        "role": "B",
+        "repeat": 1,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N01-B-R2",
+        "case": "N01",
+        "role": "B",
+        "repeat": 2,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N01-C-R1",
+        "case": "N01",
+        "role": "C",
+        "repeat": 1,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N02-A-R1",
+        "case": "N02",
+        "role": "A",
+        "repeat": 1,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N03-A-R2",
+        "case": "N03",
+        "role": "A",
+        "repeat": 2,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      },
+      {
+        "id": "TAR01-N02-C-R2",
+        "case": "N02",
+        "role": "C",
+        "repeat": 2,
+        "strict": true,
+        "own_correct_all_states": true,
+        "own_fields_identical": true,
+        "missing_hold_discrimination": true,
+        "agreement_execution_all_states": true
+      }
+    ],
+    "case_replicates": [
+      {
+        "case": "N01",
+        "repeat": 1,
+        "strict": false
+      },
+      {
+        "case": "N01",
+        "repeat": 2,
+        "strict": true
+      },
+      {
+        "case": "N02",
+        "repeat": 1,
+        "strict": true
+      },
+      {
+        "case": "N02",
+        "repeat": 2,
+        "strict": true
+      },
+      {
+        "case": "N03",
+        "repeat": 1,
+        "strict": true
+      },
+      {
+        "case": "N03",
+        "repeat": 2,
+        "strict": true
+      }
+    ],
+    "triplet_totals": {
+      "planned": 18,
+      "correct": 17,
+      "incorrect": 1,
+      "unresolved": 0
+    },
+    "paired_metrics": {
+      "own_correct_all_states": {
+        "planned": 18,
+        "correct": 18,
+        "incorrect": 0,
+        "unresolved": 0
+      },
+      "own_fields_identical": {
+        "planned": 18,
+        "correct": 18,
+        "incorrect": 0,
+        "unresolved": 0
+      },
+      "missing_hold_discrimination": {
+        "planned": 18,
+        "correct": 17,
+        "incorrect": 1,
+        "unresolved": 0
+      },
+      "agreement_execution_all_states": {
+        "planned": 18,
+        "correct": 17,
+        "incorrect": 1,
+        "unresolved": 0
+      }
+    },
+    "case_replicate_totals": {
+      "planned": 6,
+      "correct": 5,
+      "incorrect": 1,
+      "unresolved": 0
+    },
+    "gate": "FAIL",
+    "observed_failed_responses": 1,
+    "unresolved_responses": 0,
+    "gate_definition": "All 54 responses interpretable and correct on all six axes. Fixed diagnostic, not population inference.",
+    "provenance": {
+      "real_receipt_projection_responses": 36,
+      "constructed_HOLD_responses": 18,
+      "new_FORM": 0,
+      "new_VOTE": 0
+    },
+    "protocol": "THREE-ROLE-APPROVAL-READOUT-01-RUN-v0.1",
+    "planned_responses": 54,
+    "attempted_generations": 54,
+    "status_counts": {
+      "EOS": 54
+    },
+    "stage_counts": {
+      "READ": 54
+    },
+    "evidence_kind": "MODEL_RUN_EVIDENCE",
+    "output_tokens": 6337,
+    "generation_seconds": 348.2662335360003,
+    "by_slot": [
+      {
+        "arm": "HOLD",
+        "arm_position": 1,
+        "case": "N03",
+        "id": "TAR01-N03-B-R2-HOLD",
+        "input_key": "N03-B-HOLD",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1111167071,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-B-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "HOLD"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Efb7d497429",
+                "E384d0dd850"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 270,
+            "normalized_sha256": "09de2524178c427e9b42ad206bb0e47b472938d9f8727298a4c443f917467624",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 270,
+            "raw_sha256": "09de2524178c427e9b42ad206bb0e47b472938d9f8727298a4c443f917467624",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 2,
+        "case": "N03",
+        "id": "TAR01-N03-B-R2-ACCEPT",
+        "input_key": "N03-B-ACCEPT",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1111167071,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-B-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "PAPER",
+            "own": {
+              "evidence_ids": [
+                "Efb7d497429",
+                "E384d0dd850"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 254,
+            "normalized_sha256": "36e035df321e452640c1266fb03bc990bb5f8cf0bff575a728bb7d33113cf430",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 254,
+            "raw_sha256": "36e035df321e452640c1266fb03bc990bb5f8cf0bff575a728bb7d33113cf430",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 3,
+        "case": "N03",
+        "id": "TAR01-N03-B-R2-MISSING",
+        "input_key": "N03-B-MISSING",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1111167071,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-B-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "MISSING"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Efb7d497429",
+                "E384d0dd850"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 273,
+            "normalized_sha256": "2ab68bf92db0bb7beb77d62b8b487cde5c69157bf99ace1498fdda37cb9de727",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 273,
+            "raw_sha256": "2ab68bf92db0bb7beb77d62b8b487cde5c69157bf99ace1498fdda37cb9de727",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 1,
+        "case": "N02",
+        "id": "TAR01-N02-B-R2-HOLD",
+        "input_key": "N02-B-HOLD",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1040124473,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-B-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "HOLD",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E071faf1313",
+                "Eb98c255e0b"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 270,
+            "normalized_sha256": "42d7b6bb4fa8be0d27cf61ec3b81c4610aa9ff0517e2e4b5f2ac60188af420a2",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 270,
+            "raw_sha256": "42d7b6bb4fa8be0d27cf61ec3b81c4610aa9ff0517e2e4b5f2ac60188af420a2",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 2,
+        "case": "N02",
+        "id": "TAR01-N02-B-R2-MISSING",
+        "input_key": "N02-B-MISSING",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1040124473,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-B-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "MISSING",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E071faf1313",
+                "Eb98c255e0b"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 273,
+            "normalized_sha256": "8397a1f0eabf0257c736330a8fb1ce7d33fdfa06997e4ccc5d1a63a98b0005e3",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 273,
+            "raw_sha256": "8397a1f0eabf0257c736330a8fb1ce7d33fdfa06997e4ccc5d1a63a98b0005e3",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 3,
+        "case": "N02",
+        "id": "TAR01-N02-B-R2-ACCEPT",
+        "input_key": "N02-B-ACCEPT",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1040124473,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-B-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "DIGITAL",
+            "own": {
+              "evidence_ids": [
+                "E071faf1313",
+                "Eb98c255e0b"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 274,
+            "normalized_sha256": "5934838545d6d032cec61f99f05c5aadcef36287da150268fa56511960b45d66",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 274,
+            "raw_sha256": "5934838545d6d032cec61f99f05c5aadcef36287da150268fa56511960b45d66",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 1,
+        "case": "N03",
+        "id": "TAR01-N03-C-R2-MISSING",
+        "input_key": "N03-C-MISSING",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 760160808,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-C-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "MISSING"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ee2df090cf3",
+                "E3ff8e475ec"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 275,
+            "normalized_sha256": "152b3069414fd0d8e14d42281cca5e2bde01569fbbdfe7794b9853ce3e7c17cd",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 275,
+            "raw_sha256": "152b3069414fd0d8e14d42281cca5e2bde01569fbbdfe7794b9853ce3e7c17cd",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 2,
+        "case": "N03",
+        "id": "TAR01-N03-C-R2-HOLD",
+        "input_key": "N03-C-HOLD",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 760160808,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-C-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "HOLD"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ee2df090cf3",
+                "E3ff8e475ec"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "41e2191bdedd1d7ad3e61052db55587223df5eb600ded7eb7887d834e4e1ece2",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "41e2191bdedd1d7ad3e61052db55587223df5eb600ded7eb7887d834e4e1ece2",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 3,
+        "case": "N03",
+        "id": "TAR01-N03-C-R2-ACCEPT",
+        "input_key": "N03-C-ACCEPT",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 760160808,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-C-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "PAPER",
+            "own": {
+              "evidence_ids": [
+                "Ee2df090cf3",
+                "E3ff8e475ec"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 274,
+            "normalized_sha256": "30185db2dd062874d51968902d81425c2ba168bffeac2a5415b7fe1d6613e496",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 274,
+            "raw_sha256": "30185db2dd062874d51968902d81425c2ba168bffeac2a5415b7fe1d6613e496",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 1,
+        "case": "N01",
+        "id": "TAR01-N01-C-R2-ACCEPT",
+        "input_key": "N01-C-ACCEPT",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1269176804,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-C-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "PAPER",
+            "own": {
+              "evidence_ids": [
+                "E38538feae6",
+                "Edce1fe0a32"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "9c95356e4545876900839fde860b3e245758df141a82db54a99c5ef1ea98156a",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "9c95356e4545876900839fde860b3e245758df141a82db54a99c5ef1ea98156a",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 2,
+        "case": "N01",
+        "id": "TAR01-N01-C-R2-MISSING",
+        "input_key": "N01-C-MISSING",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1269176804,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-C-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "MISSING",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E38538feae6",
+                "Edce1fe0a32"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 273,
+            "normalized_sha256": "da7c99f0b2cba1d42de814b891d0fe2b2cddb3afcdfc5b2efe581034065138cb",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 273,
+            "raw_sha256": "da7c99f0b2cba1d42de814b891d0fe2b2cddb3afcdfc5b2efe581034065138cb",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 3,
+        "case": "N01",
+        "id": "TAR01-N01-C-R2-HOLD",
+        "input_key": "N01-C-HOLD",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1269176804,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-C-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "HOLD",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E38538feae6",
+                "Edce1fe0a32"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 270,
+            "normalized_sha256": "e147839ebc71404facedc381b3077beab88a45612785671705d01c4d03baf2f9",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 270,
+            "raw_sha256": "e147839ebc71404facedc381b3077beab88a45612785671705d01c4d03baf2f9",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 1,
+        "case": "N03",
+        "id": "TAR01-N03-C-R1-ACCEPT",
+        "input_key": "N03-C-ACCEPT",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1944025102,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-C-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "PAPER",
+            "own": {
+              "evidence_ids": [
+                "Ee2df090cf3",
+                "E3ff8e475ec"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 274,
+            "normalized_sha256": "30185db2dd062874d51968902d81425c2ba168bffeac2a5415b7fe1d6613e496",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 274,
+            "raw_sha256": "30185db2dd062874d51968902d81425c2ba168bffeac2a5415b7fe1d6613e496",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 2,
+        "case": "N03",
+        "id": "TAR01-N03-C-R1-MISSING",
+        "input_key": "N03-C-MISSING",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1944025102,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-C-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "MISSING"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ee2df090cf3",
+                "E3ff8e475ec"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 275,
+            "normalized_sha256": "152b3069414fd0d8e14d42281cca5e2bde01569fbbdfe7794b9853ce3e7c17cd",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 275,
+            "raw_sha256": "152b3069414fd0d8e14d42281cca5e2bde01569fbbdfe7794b9853ce3e7c17cd",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 3,
+        "case": "N03",
+        "id": "TAR01-N03-C-R1-HOLD",
+        "input_key": "N03-C-HOLD",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1944025102,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-C-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "HOLD"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ee2df090cf3",
+                "E3ff8e475ec"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "41e2191bdedd1d7ad3e61052db55587223df5eb600ded7eb7887d834e4e1ece2",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "41e2191bdedd1d7ad3e61052db55587223df5eb600ded7eb7887d834e4e1ece2",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 1,
+        "case": "N03",
+        "id": "TAR01-N03-B-R1-MISSING",
+        "input_key": "N03-B-MISSING",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1809403929,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-B-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "MISSING"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Efb7d497429",
+                "E384d0dd850"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 195,
+            "normalized_sha256": "1fcdc7059e4d0794e45957af58809c87047bc28aad2e2ff0eb0ac22c7aa3d953",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 195,
+            "raw_sha256": "1fcdc7059e4d0794e45957af58809c87047bc28aad2e2ff0eb0ac22c7aa3d953",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 2,
+        "case": "N03",
+        "id": "TAR01-N03-B-R1-ACCEPT",
+        "input_key": "N03-B-ACCEPT",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1809403929,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-B-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "PAPER",
+            "own": {
+              "evidence_ids": [
+                "Efb7d497429",
+                "E384d0dd850"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "f205a2f2ef66b14498fa2d5514f993ca8533426f2d20bfb6052d43db4c06bbda",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "f205a2f2ef66b14498fa2d5514f993ca8533426f2d20bfb6052d43db4c06bbda",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 3,
+        "case": "N03",
+        "id": "TAR01-N03-B-R1-HOLD",
+        "input_key": "N03-B-HOLD",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1809403929,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-B-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "HOLD"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Efb7d497429",
+                "E384d0dd850"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 192,
+            "normalized_sha256": "d1c976b1011aa52dbf6bb1a4aabbb8d55eee2d654a4c350c5d93ac54e9c16ee9",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 192,
+            "raw_sha256": "d1c976b1011aa52dbf6bb1a4aabbb8d55eee2d654a4c350c5d93ac54e9c16ee9",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 1,
+        "case": "N01",
+        "id": "TAR01-N01-A-R1-MISSING",
+        "input_key": "N01-A-MISSING",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 230410795,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "HOLD",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E79c8f7f51e",
+                "Ee4703603d4"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": false,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "e9857c880e0af72339274c033955de326d2f62ab4f93a57a3c8ecb6750197e27",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "e9857c880e0af72339274c033955de326d2f62ab4f93a57a3c8ecb6750197e27",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": false,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 2,
+        "case": "N01",
+        "id": "TAR01-N01-A-R1-ACCEPT",
+        "input_key": "N01-A-ACCEPT",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 230410795,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "PAPER",
+            "own": {
+              "evidence_ids": [
+                "E79c8f7f51e",
+                "Ee4703603d4"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 274,
+            "normalized_sha256": "8b9f4ce839670a90ce24bc8b14246a6e7c8aba539dbe34f5736a7980b133769d",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 274,
+            "raw_sha256": "8b9f4ce839670a90ce24bc8b14246a6e7c8aba539dbe34f5736a7980b133769d",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 3,
+        "case": "N01",
+        "id": "TAR01-N01-A-R1-HOLD",
+        "input_key": "N01-A-HOLD",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 230410795,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "HOLD",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E79c8f7f51e",
+                "Ee4703603d4"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "e9857c880e0af72339274c033955de326d2f62ab4f93a57a3c8ecb6750197e27",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "e9857c880e0af72339274c033955de326d2f62ab4f93a57a3c8ecb6750197e27",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 1,
+        "case": "N02",
+        "id": "TAR01-N02-C-R1-MISSING",
+        "input_key": "N02-C-MISSING",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1999027225,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-C-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "MISSING",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ed066f6647d",
+                "Ea380e5d282"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 273,
+            "normalized_sha256": "668c1fb688be7dfddb5f62094b52849c25fd00802b87a76a61a0591153136138",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 273,
+            "raw_sha256": "668c1fb688be7dfddb5f62094b52849c25fd00802b87a76a61a0591153136138",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 2,
+        "case": "N02",
+        "id": "TAR01-N02-C-R1-ACCEPT",
+        "input_key": "N02-C-ACCEPT",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1999027225,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-C-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "PAPER",
+            "own": {
+              "evidence_ids": [
+                "Ed066f6647d",
+                "Ea380e5d282"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "95a95dcfcace9b10089cbaaf1d6fe545a5e42eacd7e2b04a330a5f361a45787e",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "95a95dcfcace9b10089cbaaf1d6fe545a5e42eacd7e2b04a330a5f361a45787e",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 3,
+        "case": "N02",
+        "id": "TAR01-N02-C-R1-HOLD",
+        "input_key": "N02-C-HOLD",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1999027225,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-C-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "HOLD",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ed066f6647d",
+                "Ea380e5d282"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 270,
+            "normalized_sha256": "f5f0dd01e27b2d7a9beaa8bc89eb2f2983c08fac916d8d882d0b6e3ca0f50a1c",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 270,
+            "raw_sha256": "f5f0dd01e27b2d7a9beaa8bc89eb2f2983c08fac916d8d882d0b6e3ca0f50a1c",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 1,
+        "case": "N03",
+        "id": "TAR01-N03-A-R1-ACCEPT",
+        "input_key": "N03-A-ACCEPT",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 5979242,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-A-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "DIGITAL",
+            "own": {
+              "evidence_ids": [
+                "Ebb143df426",
+                "E0f37be6560"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 276,
+            "normalized_sha256": "ec37e0ddc8c8abb7e19d7e8129737e8437676a180bcb322761ca6a13360a57f6",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 276,
+            "raw_sha256": "ec37e0ddc8c8abb7e19d7e8129737e8437676a180bcb322761ca6a13360a57f6",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 2,
+        "case": "N03",
+        "id": "TAR01-N03-A-R1-HOLD",
+        "input_key": "N03-A-HOLD",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 5979242,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-A-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "HOLD"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ebb143df426",
+                "E0f37be6560"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "f49b4d0743a139d1f2abdab8bb0b5e631e38f6c6f74b4228d343e8eb40d33d2a",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "f49b4d0743a139d1f2abdab8bb0b5e631e38f6c6f74b4228d343e8eb40d33d2a",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 3,
+        "case": "N03",
+        "id": "TAR01-N03-A-R1-MISSING",
+        "input_key": "N03-A-MISSING",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 5979242,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-A-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "MISSING"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ebb143df426",
+                "E0f37be6560"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 275,
+            "normalized_sha256": "ad4edae2601e82c46bcc9eb7b57be43dd62f21200f90c4610d85b1e046688848",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 275,
+            "raw_sha256": "ad4edae2601e82c46bcc9eb7b57be43dd62f21200f90c4610d85b1e046688848",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 1,
+        "case": "N01",
+        "id": "TAR01-N01-A-R2-HOLD",
+        "input_key": "N01-A-HOLD",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 2039158309,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "HOLD",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E79c8f7f51e",
+                "Ee4703603d4"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "e9857c880e0af72339274c033955de326d2f62ab4f93a57a3c8ecb6750197e27",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "e9857c880e0af72339274c033955de326d2f62ab4f93a57a3c8ecb6750197e27",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 2,
+        "case": "N01",
+        "id": "TAR01-N01-A-R2-MISSING",
+        "input_key": "N01-A-MISSING",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 2039158309,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "MISSING",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E79c8f7f51e",
+                "Ee4703603d4"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 275,
+            "normalized_sha256": "824f46919f470d478001274a6b9838f9a373928cddd37917de6304a18a840010",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 275,
+            "raw_sha256": "824f46919f470d478001274a6b9838f9a373928cddd37917de6304a18a840010",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 3,
+        "case": "N01",
+        "id": "TAR01-N01-A-R2-ACCEPT",
+        "input_key": "N01-A-ACCEPT",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 2039158309,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "PAPER",
+            "own": {
+              "evidence_ids": [
+                "E79c8f7f51e",
+                "Ee4703603d4"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 274,
+            "normalized_sha256": "8b9f4ce839670a90ce24bc8b14246a6e7c8aba539dbe34f5736a7980b133769d",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 274,
+            "raw_sha256": "8b9f4ce839670a90ce24bc8b14246a6e7c8aba539dbe34f5736a7980b133769d",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 1,
+        "case": "N01",
+        "id": "TAR01-N01-B-R1-HOLD",
+        "input_key": "N01-B-HOLD",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1574967027,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-B-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "HOLD",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E818b6f8fd9",
+                "Ea1d5080754"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "cbad41dcfec70a0c4954ede4cef4e839012e45414a1872c82d3681dbd6f1369a",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "cbad41dcfec70a0c4954ede4cef4e839012e45414a1872c82d3681dbd6f1369a",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 2,
+        "case": "N01",
+        "id": "TAR01-N01-B-R1-ACCEPT",
+        "input_key": "N01-B-ACCEPT",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1574967027,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-B-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "DIGITAL",
+            "own": {
+              "evidence_ids": [
+                "E818b6f8fd9",
+                "Ea1d5080754"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 276,
+            "normalized_sha256": "08b6199fec9867e3e96b2268f64a3affa2e4e0ce234da2e9f387038d4ef5ebf5",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 276,
+            "raw_sha256": "08b6199fec9867e3e96b2268f64a3affa2e4e0ce234da2e9f387038d4ef5ebf5",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 3,
+        "case": "N01",
+        "id": "TAR01-N01-B-R1-MISSING",
+        "input_key": "N01-B-MISSING",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1574967027,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-B-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "MISSING",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E818b6f8fd9",
+                "Ea1d5080754"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 275,
+            "normalized_sha256": "c45114faa7dae4c1fd12d3c0b72a27b9863fec618e547fe97b8a65b1c9b3f990",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 275,
+            "raw_sha256": "c45114faa7dae4c1fd12d3c0b72a27b9863fec618e547fe97b8a65b1c9b3f990",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 1,
+        "case": "N02",
+        "id": "TAR01-N02-A-R2-ACCEPT",
+        "input_key": "N02-A-ACCEPT",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1454467944,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-A-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "DIGITAL",
+            "own": {
+              "evidence_ids": [
+                "E65c6dfe39d",
+                "Ea008828431"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 276,
+            "normalized_sha256": "89cd2d6bf0962106d1b0604dc76cd4818d8adfdd11e51cebe2b3a067b7cb026f",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 276,
+            "raw_sha256": "89cd2d6bf0962106d1b0604dc76cd4818d8adfdd11e51cebe2b3a067b7cb026f",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 2,
+        "case": "N02",
+        "id": "TAR01-N02-A-R2-HOLD",
+        "input_key": "N02-A-HOLD",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1454467944,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-A-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "HOLD",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E65c6dfe39d",
+                "Ea008828431"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "859fc35b9ad291aaa5855bf9de8d475e0c56c995ca72edc0f9304881797c99b4",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "859fc35b9ad291aaa5855bf9de8d475e0c56c995ca72edc0f9304881797c99b4",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 3,
+        "case": "N02",
+        "id": "TAR01-N02-A-R2-MISSING",
+        "input_key": "N02-A-MISSING",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1454467944,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-A-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "MISSING",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E65c6dfe39d",
+                "Ea008828431"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 275,
+            "normalized_sha256": "c0895c68e1c64617888443ee1d8f230ed1e82959a971eafe566ff295dd63eeaa",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 275,
+            "raw_sha256": "c0895c68e1c64617888443ee1d8f230ed1e82959a971eafe566ff295dd63eeaa",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 1,
+        "case": "N02",
+        "id": "TAR01-N02-B-R1-ACCEPT",
+        "input_key": "N02-B-ACCEPT",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1953784284,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-B-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "DIGITAL",
+            "own": {
+              "evidence_ids": [
+                "E071faf1313",
+                "Eb98c255e0b"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 274,
+            "normalized_sha256": "5934838545d6d032cec61f99f05c5aadcef36287da150268fa56511960b45d66",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 274,
+            "raw_sha256": "5934838545d6d032cec61f99f05c5aadcef36287da150268fa56511960b45d66",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 2,
+        "case": "N02",
+        "id": "TAR01-N02-B-R1-MISSING",
+        "input_key": "N02-B-MISSING",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1953784284,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-B-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "MISSING",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E071faf1313",
+                "Eb98c255e0b"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 273,
+            "normalized_sha256": "8397a1f0eabf0257c736330a8fb1ce7d33fdfa06997e4ccc5d1a63a98b0005e3",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 273,
+            "raw_sha256": "8397a1f0eabf0257c736330a8fb1ce7d33fdfa06997e4ccc5d1a63a98b0005e3",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 3,
+        "case": "N02",
+        "id": "TAR01-N02-B-R1-HOLD",
+        "input_key": "N02-B-HOLD",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1953784284,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-B-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "HOLD",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E071faf1313",
+                "Eb98c255e0b"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 270,
+            "normalized_sha256": "42d7b6bb4fa8be0d27cf61ec3b81c4610aa9ff0517e2e4b5f2ac60188af420a2",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 270,
+            "raw_sha256": "42d7b6bb4fa8be0d27cf61ec3b81c4610aa9ff0517e2e4b5f2ac60188af420a2",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 1,
+        "case": "N01",
+        "id": "TAR01-N01-B-R2-ACCEPT",
+        "input_key": "N01-B-ACCEPT",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1571172178,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-B-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "DIGITAL",
+            "own": {
+              "evidence_ids": [
+                "E818b6f8fd9",
+                "Ea1d5080754"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 276,
+            "normalized_sha256": "08b6199fec9867e3e96b2268f64a3affa2e4e0ce234da2e9f387038d4ef5ebf5",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 276,
+            "raw_sha256": "08b6199fec9867e3e96b2268f64a3affa2e4e0ce234da2e9f387038d4ef5ebf5",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 2,
+        "case": "N01",
+        "id": "TAR01-N01-B-R2-HOLD",
+        "input_key": "N01-B-HOLD",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1571172178,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-B-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "HOLD",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E818b6f8fd9",
+                "Ea1d5080754"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "cbad41dcfec70a0c4954ede4cef4e839012e45414a1872c82d3681dbd6f1369a",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "cbad41dcfec70a0c4954ede4cef4e839012e45414a1872c82d3681dbd6f1369a",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 3,
+        "case": "N01",
+        "id": "TAR01-N01-B-R2-MISSING",
+        "input_key": "N01-B-MISSING",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1571172178,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-B-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "MISSING",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E818b6f8fd9",
+                "Ea1d5080754"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 197,
+            "normalized_sha256": "7aaa019ce481243923424870be38fa11c21db59d1a0f9ecd3f5c21a1f8dd472f",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 197,
+            "raw_sha256": "7aaa019ce481243923424870be38fa11c21db59d1a0f9ecd3f5c21a1f8dd472f",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 1,
+        "case": "N01",
+        "id": "TAR01-N01-C-R1-MISSING",
+        "input_key": "N01-C-MISSING",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1151245723,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-C-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "MISSING",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E38538feae6",
+                "Edce1fe0a32"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 195,
+            "normalized_sha256": "a42704cdd982d950b6752b2673fe0108f3f70f24efda52c270189f607ec9b8ed",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 195,
+            "raw_sha256": "a42704cdd982d950b6752b2673fe0108f3f70f24efda52c270189f607ec9b8ed",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 2,
+        "case": "N01",
+        "id": "TAR01-N01-C-R1-HOLD",
+        "input_key": "N01-C-HOLD",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1151245723,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-C-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "HOLD",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E38538feae6",
+                "Edce1fe0a32"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 270,
+            "normalized_sha256": "e147839ebc71404facedc381b3077beab88a45612785671705d01c4d03baf2f9",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 270,
+            "raw_sha256": "e147839ebc71404facedc381b3077beab88a45612785671705d01c4d03baf2f9",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 3,
+        "case": "N01",
+        "id": "TAR01-N01-C-R1-ACCEPT",
+        "input_key": "N01-C-ACCEPT",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1151245723,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-C-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "PAPER",
+            "own": {
+              "evidence_ids": [
+                "E38538feae6",
+                "Edce1fe0a32"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "9c95356e4545876900839fde860b3e245758df141a82db54a99c5ef1ea98156a",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "9c95356e4545876900839fde860b3e245758df141a82db54a99c5ef1ea98156a",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 1,
+        "case": "N02",
+        "id": "TAR01-N02-A-R1-MISSING",
+        "input_key": "N02-A-MISSING",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 38540070,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-A-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "MISSING",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E65c6dfe39d",
+                "Ea008828431"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 197,
+            "normalized_sha256": "5dd03ad684224ec815652cf7bd0870b651d673c0c3c9951eefaa3d8d6b48350b",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 197,
+            "raw_sha256": "5dd03ad684224ec815652cf7bd0870b651d673c0c3c9951eefaa3d8d6b48350b",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 2,
+        "case": "N02",
+        "id": "TAR01-N02-A-R1-HOLD",
+        "input_key": "N02-A-HOLD",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 38540070,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-A-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "HOLD",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "E65c6dfe39d",
+                "Ea008828431"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 194,
+            "normalized_sha256": "8a7d7a143aa673c793c1ece7cebb762258ee984de52b689f9a61ee480b68b966",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 194,
+            "raw_sha256": "8a7d7a143aa673c793c1ece7cebb762258ee984de52b689f9a61ee480b68b966",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 3,
+        "case": "N02",
+        "id": "TAR01-N02-A-R1-ACCEPT",
+        "input_key": "N02-A-ACCEPT",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 38540070,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-A-R1",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "DIGITAL",
+            "own": {
+              "evidence_ids": [
+                "E65c6dfe39d",
+                "Ea008828431"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 198,
+            "normalized_sha256": "0cc27fb6fd49759463b7a48d45ee74e4726e4bddea92d543aebe0e3856b15d22",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 198,
+            "raw_sha256": "0cc27fb6fd49759463b7a48d45ee74e4726e4bddea92d543aebe0e3856b15d22",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 1,
+        "case": "N03",
+        "id": "TAR01-N03-A-R2-HOLD",
+        "input_key": "N03-A-HOLD",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1805138878,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-A-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "HOLD"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ebb143df426",
+                "E0f37be6560"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "f49b4d0743a139d1f2abdab8bb0b5e631e38f6c6f74b4228d343e8eb40d33d2a",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "f49b4d0743a139d1f2abdab8bb0b5e631e38f6c6f74b4228d343e8eb40d33d2a",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 2,
+        "case": "N03",
+        "id": "TAR01-N03-A-R2-MISSING",
+        "input_key": "N03-A-MISSING",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1805138878,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-A-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "MISSING"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ebb143df426",
+                "E0f37be6560"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 275,
+            "normalized_sha256": "ad4edae2601e82c46bcc9eb7b57be43dd62f21200f90c4610d85b1e046688848",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 275,
+            "raw_sha256": "ad4edae2601e82c46bcc9eb7b57be43dd62f21200f90c4610d85b1e046688848",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 3,
+        "case": "N03",
+        "id": "TAR01-N03-A-R2-ACCEPT",
+        "input_key": "N03-A-ACCEPT",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1805138878,
+        "stage": "READ",
+        "triplet_id": "TAR01-N03-A-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "DIGITAL",
+            "own": {
+              "evidence_ids": [
+                "Ebb143df426",
+                "E0f37be6560"
+              ],
+              "holder": "A",
+              "recommendation": "DIGITAL"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 276,
+            "normalized_sha256": "ec37e0ddc8c8abb7e19d7e8129737e8437676a180bcb322761ca6a13360a57f6",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 276,
+            "raw_sha256": "ec37e0ddc8c8abb7e19d7e8129737e8437676a180bcb322761ca6a13360a57f6",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "HOLD",
+        "arm_position": 1,
+        "case": "N02",
+        "id": "TAR01-N02-C-R2-HOLD",
+        "input_key": "N02-C-HOLD",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 986345353,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-C-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "HOLD",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ed066f6647d",
+                "Ea380e5d282"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 270,
+            "normalized_sha256": "f5f0dd01e27b2d7a9beaa8bc89eb2f2983c08fac916d8d882d0b6e3ca0f50a1c",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 270,
+            "raw_sha256": "f5f0dd01e27b2d7a9beaa8bc89eb2f2983c08fac916d8d882d0b6e3ca0f50a1c",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "ACCEPT",
+        "arm_position": 2,
+        "case": "N02",
+        "id": "TAR01-N02-C-R2-ACCEPT",
+        "input_key": "N02-C-ACCEPT",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 986345353,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-C-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "AGREED",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "ACCEPT",
+              "C": "ACCEPT"
+            },
+            "joint_action": "PAPER",
+            "own": {
+              "evidence_ids": [
+                "Ed066f6647d",
+                "Ea380e5d282"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 272,
+            "normalized_sha256": "95a95dcfcace9b10089cbaaf1d6fe545a5e42eacd7e2b04a330a5f361a45787e",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 272,
+            "raw_sha256": "95a95dcfcace9b10089cbaaf1d6fe545a5e42eacd7e2b04a330a5f361a45787e",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      },
+      {
+        "arm": "MISSING",
+        "arm_position": 3,
+        "case": "N02",
+        "id": "TAR01-N02-C-R2-MISSING",
+        "input_key": "N02-C-MISSING",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 986345353,
+        "stage": "READ",
+        "triplet_id": "TAR01-N02-C-R2",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "agreement": "PENDING",
+            "approval_state": {
+              "A": "ACCEPT",
+              "B": "MISSING",
+              "C": "ACCEPT"
+            },
+            "joint_action": "HOLD",
+            "own": {
+              "evidence_ids": [
+                "Ed066f6647d",
+                "Ea380e5d282"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [],
+          "false_agreement": false,
+          "format_valid": true,
+          "metrics": {
+            "agreement": true,
+            "approval_state": true,
+            "execution": true,
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 273,
+            "normalized_sha256": "668c1fb688be7dfddb5f62094b52849c25fd00802b87a76a61a0591153136138",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 273,
+            "raw_sha256": "668c1fb688be7dfddb5f62094b52849c25fd00802b87a76a61a0591153136138",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": false,
+          "unwarranted_hold": false
+        }
+      }
+    ]
+  }
+}

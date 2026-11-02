@@ -1,0 +1,296 @@
+{
+  "status": "COMPLETED_OFFLINE_REVIEW",
+  "reviewer": "Codex main assistant; open-label source inspection, not an independent blinded judge",
+  "selection": "Preregistered mismatch/unknown 11 plus fixed clean-match sample 8",
+  "reviewed_cases": 19,
+  "reviewed_axes": 76,
+  "new_model_requests": 0,
+  "score_changes": 0,
+  "reason_meaning_caveat": "成功件数または40人当たり予測人数を「成功率」と略記した説明がある。比較する本人内で分母が同じため選択方向は一致するが、率そのものの数値表示とは区別する。",
+  "observations": [
+    {
+      "judgment_id": "BJ01-10E1114146",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M11-REVERSE-F1-CONFIRM",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "attribution",
+          "kind": "JUDGE_EVIDENCE_CONTRACT_FAILURE",
+          "note": "ラベル自体は四軸とも参照と一致。根拠pointerの件数または場所の不備により正式には案件未判定。修復・再採点しない。",
+          "details": [
+            "array-length:/checks/attribution/evidence_pointers"
+          ]
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-3DC1DA56D3",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M16-REINFORCE-F1-U1-USE-B",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "output_contract",
+          "kind": "UNSUPPORTED_ABSENCE_ASSERTION",
+          "note": "schemaで許されない追加欄が実答案に存在するが、理由は追加欄なしと記述している。",
+          "answer_paths": [
+            "/local/self_stats"
+          ],
+          "quote": "スキーマ定義の必須キーと型、追加プロパティ制限を全て満たしている。"
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-57860E60DB",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M13-REVERSE-F1-CONFIRM",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "attribution",
+          "kind": "JUDGE_EVIDENCE_CONTRACT_FAILURE",
+          "note": "ラベル自体は四軸とも参照と一致。根拠pointerの件数または場所の不備により正式には案件未判定。修復・再採点しない。",
+          "details": [
+            "pointer:attribution:/proposal/record_id",
+            "pointer:joint_action:/proposal/body/allocation"
+          ]
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-5A0B3D43EA",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M06-REVERSE-F1-U1-USE-A",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "output_contract",
+          "kind": "UNSUPPORTED_ABSENCE_ASSERTION",
+          "note": "schemaで許されない追加欄が実答案に存在するが、理由は追加欄なしと記述している。",
+          "answer_paths": [
+            "/local/private_calc"
+          ],
+          "quote": "answerのlocalとteamに定義されたプロパティのみが含まれ、追加キーや型違反がない。"
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-5E451D7DA8",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M16-REINFORCE-F1-CONFIRM",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "attribution",
+          "kind": "JUDGE_EVIDENCE_CONTRACT_FAILURE",
+          "note": "ラベル自体は四軸とも参照と一致。根拠pointerの件数または場所の不備により正式には案件未判定。修復・再採点しない。",
+          "details": [
+            "array-length:/checks/attribution/evidence_pointers"
+          ]
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-8652B8E734",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M12-REVERSE-F1-U0-USE-A",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "output_contract",
+          "kind": "UNSUPPORTED_ABSENCE_ASSERTION",
+          "note": "schemaで許されない追加欄が実答案に存在するが、理由は追加欄なしと記述している。",
+          "answer_paths": [
+            "/local/own_experience_summary"
+          ],
+          "quote": "答案はschemaの必須フィールドと型を満たし、追加プロパティも存在しない。"
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-8BDE68FBE7",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M12-REINFORCE-F1-CONFIRM",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "attribution",
+          "kind": "JUDGE_EVIDENCE_CONTRACT_FAILURE",
+          "note": "ラベル自体は四軸とも参照と一致。根拠pointerの件数または場所の不備により正式には案件未判定。修復・再採点しない。",
+          "details": [
+            "array-length:/checks/attribution/evidence_pointers"
+          ]
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-D1E22B6739",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M02-REVERSE-F1-CONFIRM",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "attribution",
+          "kind": "JUDGE_EVIDENCE_CONTRACT_FAILURE",
+          "note": "ラベル自体は四軸とも参照と一致。根拠pointerの件数または場所の不備により正式には案件未判定。修復・再採点しない。",
+          "details": [
+            "array-length:/checks/attribution/evidence_pointers"
+          ]
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-D2F2F20934",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M16-REINFORCE-F1-U1-USE-B",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "output_contract",
+          "kind": "UNSUPPORTED_ABSENCE_ASSERTION",
+          "note": "schemaで許されない追加欄が実答案に存在するが、理由は追加欄なしと記述している。",
+          "answer_paths": [
+            "/team/metadata"
+          ],
+          "quote": "answerの構造はschemaのrequiredフィールドと型定義に準拠しており、追加プロパティも存在しない。"
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-F53F084968",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M08-REVERSE-F1-CONFIRM",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "attribution",
+          "kind": "JUDGE_EVIDENCE_CONTRACT_FAILURE",
+          "note": "ラベル自体は四軸とも参照と一致。根拠pointerの件数または場所の不備により正式には案件未判定。修復・再採点しない。",
+          "details": [
+            "pointer:attribution:/proposal/record_id",
+            "pointer:joint_action:/proposal/body/allocation"
+          ]
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-FE5101CF9D",
+      "review_selection": "MISMATCH_OR_UNKNOWN",
+      "source_slot": "OS01-M03-REVERSE-F1-CONFIRM",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "attribution",
+          "kind": "JUDGE_EVIDENCE_CONTRACT_FAILURE",
+          "note": "ラベル自体は四軸とも参照と一致。根拠pointerの件数または場所の不備により正式には案件未判定。修復・再採点しない。",
+          "details": [
+            "pointer:attribution:/proposal/record_id",
+            "pointer:joint_action:/proposal/body/allocation"
+          ]
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-A480FEED23",
+      "review_selection": "FIXED_NORMAL_SAMPLE",
+      "source_slot": "OS01-M13-REINFORCE-F1-U0-USE-A",
+      "axis_count": 4,
+      "observations": [],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-A8F3CA47C2",
+      "review_selection": "FIXED_NORMAL_SAMPLE",
+      "source_slot": "OS01-M02-REINFORCE-F1-U0-USE-B",
+      "axis_count": 4,
+      "observations": [],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-793ECEA60D",
+      "review_selection": "FIXED_NORMAL_SAMPLE",
+      "source_slot": "OS01-M06-REVERSE-F1-U1-USE-A",
+      "axis_count": 4,
+      "observations": [],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-5E1D1F05D5",
+      "review_selection": "FIXED_NORMAL_SAMPLE",
+      "source_slot": "OS01-M11-REVERSE-F1-U0-USE-A",
+      "axis_count": 4,
+      "observations": [
+        {
+          "axis": "joint_action",
+          "kind": "WORDING_AMBIGUITY",
+          "note": "「合意提案」は未合意の提案という入力状態を曖昧にする。ただし同じ文でCOUNTERと合意不在を認識し、保留が適切という結論は資料に合う。",
+          "quote": "合意提案(A:PAPER,B:DIGITAL)とCOUNTER(A:PAPER,B:PAPER)があり、合法同一割付の合意がないためUNDECIDED/UNRESOLVEDは適切。"
+        }
+      ],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-30BBED081B",
+      "review_selection": "FIXED_NORMAL_SAMPLE",
+      "source_slot": "OS01-M04-REVERSE-F1-CONFIRM",
+      "axis_count": 4,
+      "observations": [],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-4262428E39",
+      "review_selection": "FIXED_NORMAL_SAMPLE",
+      "source_slot": "OS01-M16-REINFORCE-F1-U0-USE-B",
+      "axis_count": 4,
+      "observations": [],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-9EF518886F",
+      "review_selection": "FIXED_NORMAL_SAMPLE",
+      "source_slot": "OS01-M02-REVERSE-F1-U1-USE-B",
+      "axis_count": 4,
+      "observations": [],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    },
+    {
+      "judgment_id": "BJ01-2CDFAEA4C5",
+      "review_selection": "FIXED_NORMAL_SAMPLE",
+      "source_slot": "OS01-M04-REINFORCE-F1-U0-USE-A",
+      "axis_count": 4,
+      "observations": [],
+      "content_check": "出力契約の4件の見逃しを除き、点検した本人ID・数値の比較・提案確認状態と各理由の結論は資料に対応する。参照形式の不備と軽微な表現の懸念は別記。",
+      "changes_primary_labels": false
+    }
+  ]
+}

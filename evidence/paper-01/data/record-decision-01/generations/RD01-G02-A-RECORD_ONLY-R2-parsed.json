@@ -1,0 +1,16 @@
+{
+  "private_note": {
+    "customer": {
+      "subject": "A",
+      "animal": "CAT",
+      "origin_id": "BK"
+    },
+    "coverage": {
+      "observer": "A",
+      "paper": "ALL",
+      "digital": "ALL",
+      "origin_id": "SZ"
+    }
+  },
+  "status": "VALID"
+}

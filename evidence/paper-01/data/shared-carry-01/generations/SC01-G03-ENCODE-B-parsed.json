@@ -1,0 +1,17 @@
+{
+  "note": {
+    "customer": {
+      "subject": "B",
+      "animal": "DOG",
+      "source_id": "PM"
+    },
+    "coverage": {
+      "observer": "B",
+      "paper": "ALL",
+      "digital": "ALL",
+      "source_id": "VE"
+    }
+  },
+  "continuable": true,
+  "status": "VALID"
+}

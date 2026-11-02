@@ -1,0 +1,2041 @@
+{
+  "selection": "Post-result exhaustive six responses for the failed case/reader; no resampling.",
+  "records": [
+    {
+      "slot": {
+        "arm": "MISSING",
+        "arm_position": 1,
+        "case": "N01",
+        "id": "TAR01-N01-A-R1-MISSING",
+        "input_key": "N01-A-MISSING",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 230410795,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R1"
+      },
+      "input": {
+        "candidates": [
+          {
+            "assignment": {
+              "A": "PAPER",
+              "B": "DIGITAL",
+              "C": "PAPER"
+            },
+            "candidate_id": "C2",
+            "expected_success_by_role": {
+              "A": 24,
+              "B": 35,
+              "C": 32
+            },
+            "expected_total": 91,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          },
+          {
+            "assignment": {
+              "A": "DIGITAL",
+              "B": "PAPER",
+              "C": "PAPER"
+            },
+            "candidate_id": "C1",
+            "expected_success_by_role": {
+              "A": 29,
+              "B": 24,
+              "C": 32
+            },
+            "expected_total": 85,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          }
+        ],
+        "experiences": [
+          {
+            "id": "E818b6f8fd9",
+            "observed": {
+              "DIGITAL": {
+                "success": 19,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 1
+          },
+          {
+            "id": "Ea1d5080754",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 2
+          },
+          {
+            "id": "E79c8f7f51e",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 1
+          },
+          {
+            "id": "Ee4703603d4",
+            "observed": {
+              "DIGITAL": {
+                "success": 13,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 2
+          },
+          {
+            "id": "E38538feae6",
+            "observed": {
+              "DIGITAL": {
+                "success": 10,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 1
+          },
+          {
+            "id": "Edce1fe0a32",
+            "observed": {
+              "DIGITAL": {
+                "success": 6,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 18,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 2
+          }
+        ],
+        "holder": "A",
+        "own_experience_summary": {
+          "by_medium": {
+            "DIGITAL": {
+              "expected_success_for_40": 29,
+              "success": 29,
+              "trials": 40
+            },
+            "PAPER": {
+              "expected_success_for_40": 24,
+              "success": 24,
+              "trials": 40
+            }
+          },
+          "owner": "A",
+          "source_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "own_saved_note": {
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ],
+          "holder": "A",
+          "recommendation": "DIGITAL"
+        },
+        "proposal": {
+          "candidate_id": "C2",
+          "proposal_id": "P767912cb"
+        },
+        "resource_count": {
+          "DIGITAL": 1,
+          "PAPER": 2
+        },
+        "scene": "地域の修理相談会",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "agreement": {
+              "enum": [
+                "AGREED",
+                "PENDING"
+              ],
+              "type": "string"
+            },
+            "approval_state": {
+              "additionalProperties": false,
+              "properties": {
+                "A": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "B": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "C": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "A",
+                "B",
+                "C"
+              ],
+              "type": "object"
+            },
+            "joint_action": {
+              "enum": [
+                "PAPER",
+                "DIGITAL",
+                "HOLD"
+              ],
+              "type": "string"
+            },
+            "own": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_ids": {
+                  "items": {
+                    "maxLength": 128,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "maxItems": 6,
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "holder": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C"
+                  ],
+                  "type": "string"
+                },
+                "recommendation": {
+                  "enum": [
+                    "PAPER",
+                    "DIGITAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "holder",
+                "recommendation",
+                "evidence_ids"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "own",
+            "approval_state",
+            "agreement",
+            "joint_action"
+          ],
+          "type": "object"
+        },
+        "receipts": [
+          {
+            "sender": "B",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          },
+          {
+            "sender": "C",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          }
+        ]
+      },
+      "raw_answer": "{\n  \"own\": {\n    \"holder\": \"A\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"E79c8f7f51e\",\n      \"Ee4703603d4\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"HOLD\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"ACCEPT\"\n  },\n  \"agreement\": \"PENDING\",\n  \"joint_action\": \"HOLD\"\n}",
+      "expected": {
+        "own": {
+          "holder": "A",
+          "recommendation": "DIGITAL",
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "approval_state": {
+          "A": "MISSING",
+          "B": "ACCEPT",
+          "C": "ACCEPT"
+        },
+        "agreement": "PENDING",
+        "joint_action": "HOLD"
+      },
+      "metrics": {
+        "own_holder": true,
+        "own_recommendation": true,
+        "own_sources": true,
+        "approval_state": false,
+        "agreement": true,
+        "execution": true
+      },
+      "archive_members": {
+        "input": "responses/TAR01-N01-A-R1-MISSING/input.json",
+        "answer": "responses/TAR01-N01-A-R1-MISSING/answer.txt"
+      },
+      "prepared_sha256": "851943884ebd7490b3fb8ba8b5dcefb191fd6baff46d068c2ae88565cb70b10c"
+    },
+    {
+      "slot": {
+        "arm": "ACCEPT",
+        "arm_position": 2,
+        "case": "N01",
+        "id": "TAR01-N01-A-R1-ACCEPT",
+        "input_key": "N01-A-ACCEPT",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 230410795,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R1"
+      },
+      "input": {
+        "candidates": [
+          {
+            "assignment": {
+              "A": "PAPER",
+              "B": "DIGITAL",
+              "C": "PAPER"
+            },
+            "candidate_id": "C2",
+            "expected_success_by_role": {
+              "A": 24,
+              "B": 35,
+              "C": 32
+            },
+            "expected_total": 91,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          },
+          {
+            "assignment": {
+              "A": "DIGITAL",
+              "B": "PAPER",
+              "C": "PAPER"
+            },
+            "candidate_id": "C1",
+            "expected_success_by_role": {
+              "A": 29,
+              "B": 24,
+              "C": 32
+            },
+            "expected_total": 85,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          }
+        ],
+        "experiences": [
+          {
+            "id": "E818b6f8fd9",
+            "observed": {
+              "DIGITAL": {
+                "success": 19,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 1
+          },
+          {
+            "id": "Ea1d5080754",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 2
+          },
+          {
+            "id": "E79c8f7f51e",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 1
+          },
+          {
+            "id": "Ee4703603d4",
+            "observed": {
+              "DIGITAL": {
+                "success": 13,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 2
+          },
+          {
+            "id": "E38538feae6",
+            "observed": {
+              "DIGITAL": {
+                "success": 10,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 1
+          },
+          {
+            "id": "Edce1fe0a32",
+            "observed": {
+              "DIGITAL": {
+                "success": 6,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 18,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 2
+          }
+        ],
+        "holder": "A",
+        "own_experience_summary": {
+          "by_medium": {
+            "DIGITAL": {
+              "expected_success_for_40": 29,
+              "success": 29,
+              "trials": 40
+            },
+            "PAPER": {
+              "expected_success_for_40": 24,
+              "success": 24,
+              "trials": 40
+            }
+          },
+          "owner": "A",
+          "source_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "own_saved_note": {
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ],
+          "holder": "A",
+          "recommendation": "DIGITAL"
+        },
+        "proposal": {
+          "candidate_id": "C2",
+          "proposal_id": "P767912cb"
+        },
+        "resource_count": {
+          "DIGITAL": 1,
+          "PAPER": 2
+        },
+        "scene": "地域の修理相談会",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "agreement": {
+              "enum": [
+                "AGREED",
+                "PENDING"
+              ],
+              "type": "string"
+            },
+            "approval_state": {
+              "additionalProperties": false,
+              "properties": {
+                "A": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "B": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "C": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "A",
+                "B",
+                "C"
+              ],
+              "type": "object"
+            },
+            "joint_action": {
+              "enum": [
+                "PAPER",
+                "DIGITAL",
+                "HOLD"
+              ],
+              "type": "string"
+            },
+            "own": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_ids": {
+                  "items": {
+                    "maxLength": 128,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "maxItems": 6,
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "holder": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C"
+                  ],
+                  "type": "string"
+                },
+                "recommendation": {
+                  "enum": [
+                    "PAPER",
+                    "DIGITAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "holder",
+                "recommendation",
+                "evidence_ids"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "own",
+            "approval_state",
+            "agreement",
+            "joint_action"
+          ],
+          "type": "object"
+        },
+        "receipts": [
+          {
+            "sender": "A",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          },
+          {
+            "sender": "B",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          },
+          {
+            "sender": "C",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          }
+        ]
+      },
+      "raw_answer": "{\n  \"own\": {\n    \"holder\": \"A\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"E79c8f7f51e\",\n      \"Ee4703603d4\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"ACCEPT\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"ACCEPT\"\n  },\n  \"agreement\": \"AGREED\",\n  \"joint_action\": \"PAPER\"\n}",
+      "expected": {
+        "own": {
+          "holder": "A",
+          "recommendation": "DIGITAL",
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "approval_state": {
+          "A": "ACCEPT",
+          "B": "ACCEPT",
+          "C": "ACCEPT"
+        },
+        "agreement": "AGREED",
+        "joint_action": "PAPER"
+      },
+      "metrics": {
+        "own_holder": true,
+        "own_recommendation": true,
+        "own_sources": true,
+        "approval_state": true,
+        "agreement": true,
+        "execution": true
+      },
+      "archive_members": {
+        "input": "responses/TAR01-N01-A-R1-ACCEPT/input.json",
+        "answer": "responses/TAR01-N01-A-R1-ACCEPT/answer.txt"
+      },
+      "prepared_sha256": "4fa682a3069f81f1f62d07f7431e0055caf2ee0924b632d7b55620b89c97ac33"
+    },
+    {
+      "slot": {
+        "arm": "HOLD",
+        "arm_position": 3,
+        "case": "N01",
+        "id": "TAR01-N01-A-R1-HOLD",
+        "input_key": "N01-A-HOLD",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 230410795,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R1"
+      },
+      "input": {
+        "candidates": [
+          {
+            "assignment": {
+              "A": "PAPER",
+              "B": "DIGITAL",
+              "C": "PAPER"
+            },
+            "candidate_id": "C2",
+            "expected_success_by_role": {
+              "A": 24,
+              "B": 35,
+              "C": 32
+            },
+            "expected_total": 91,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          },
+          {
+            "assignment": {
+              "A": "DIGITAL",
+              "B": "PAPER",
+              "C": "PAPER"
+            },
+            "candidate_id": "C1",
+            "expected_success_by_role": {
+              "A": 29,
+              "B": 24,
+              "C": 32
+            },
+            "expected_total": 85,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          }
+        ],
+        "experiences": [
+          {
+            "id": "E818b6f8fd9",
+            "observed": {
+              "DIGITAL": {
+                "success": 19,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 1
+          },
+          {
+            "id": "Ea1d5080754",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 2
+          },
+          {
+            "id": "E79c8f7f51e",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 1
+          },
+          {
+            "id": "Ee4703603d4",
+            "observed": {
+              "DIGITAL": {
+                "success": 13,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 2
+          },
+          {
+            "id": "E38538feae6",
+            "observed": {
+              "DIGITAL": {
+                "success": 10,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 1
+          },
+          {
+            "id": "Edce1fe0a32",
+            "observed": {
+              "DIGITAL": {
+                "success": 6,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 18,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 2
+          }
+        ],
+        "holder": "A",
+        "own_experience_summary": {
+          "by_medium": {
+            "DIGITAL": {
+              "expected_success_for_40": 29,
+              "success": 29,
+              "trials": 40
+            },
+            "PAPER": {
+              "expected_success_for_40": 24,
+              "success": 24,
+              "trials": 40
+            }
+          },
+          "owner": "A",
+          "source_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "own_saved_note": {
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ],
+          "holder": "A",
+          "recommendation": "DIGITAL"
+        },
+        "proposal": {
+          "candidate_id": "C2",
+          "proposal_id": "P767912cb"
+        },
+        "resource_count": {
+          "DIGITAL": 1,
+          "PAPER": 2
+        },
+        "scene": "地域の修理相談会",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "agreement": {
+              "enum": [
+                "AGREED",
+                "PENDING"
+              ],
+              "type": "string"
+            },
+            "approval_state": {
+              "additionalProperties": false,
+              "properties": {
+                "A": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "B": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "C": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "A",
+                "B",
+                "C"
+              ],
+              "type": "object"
+            },
+            "joint_action": {
+              "enum": [
+                "PAPER",
+                "DIGITAL",
+                "HOLD"
+              ],
+              "type": "string"
+            },
+            "own": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_ids": {
+                  "items": {
+                    "maxLength": 128,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "maxItems": 6,
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "holder": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C"
+                  ],
+                  "type": "string"
+                },
+                "recommendation": {
+                  "enum": [
+                    "PAPER",
+                    "DIGITAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "holder",
+                "recommendation",
+                "evidence_ids"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "own",
+            "approval_state",
+            "agreement",
+            "joint_action"
+          ],
+          "type": "object"
+        },
+        "receipts": [
+          {
+            "sender": "A",
+            "decision": "HOLD",
+            "proposal_id": "P767912cb"
+          },
+          {
+            "sender": "B",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          },
+          {
+            "sender": "C",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          }
+        ]
+      },
+      "raw_answer": "{\n  \"own\": {\n    \"holder\": \"A\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"E79c8f7f51e\",\n      \"Ee4703603d4\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"HOLD\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"ACCEPT\"\n  },\n  \"agreement\": \"PENDING\",\n  \"joint_action\": \"HOLD\"\n}",
+      "expected": {
+        "own": {
+          "holder": "A",
+          "recommendation": "DIGITAL",
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "approval_state": {
+          "A": "HOLD",
+          "B": "ACCEPT",
+          "C": "ACCEPT"
+        },
+        "agreement": "PENDING",
+        "joint_action": "HOLD"
+      },
+      "metrics": {
+        "own_holder": true,
+        "own_recommendation": true,
+        "own_sources": true,
+        "approval_state": true,
+        "agreement": true,
+        "execution": true
+      },
+      "archive_members": {
+        "input": "responses/TAR01-N01-A-R1-HOLD/input.json",
+        "answer": "responses/TAR01-N01-A-R1-HOLD/answer.txt"
+      },
+      "prepared_sha256": "ede586a3921493e2af177c4070132b67aef399cbae5380e4552842c7610f4fd7"
+    },
+    {
+      "slot": {
+        "arm": "HOLD",
+        "arm_position": 1,
+        "case": "N01",
+        "id": "TAR01-N01-A-R2-HOLD",
+        "input_key": "N01-A-HOLD",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 2039158309,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R2"
+      },
+      "input": {
+        "candidates": [
+          {
+            "assignment": {
+              "A": "PAPER",
+              "B": "DIGITAL",
+              "C": "PAPER"
+            },
+            "candidate_id": "C2",
+            "expected_success_by_role": {
+              "A": 24,
+              "B": 35,
+              "C": 32
+            },
+            "expected_total": 91,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          },
+          {
+            "assignment": {
+              "A": "DIGITAL",
+              "B": "PAPER",
+              "C": "PAPER"
+            },
+            "candidate_id": "C1",
+            "expected_success_by_role": {
+              "A": 29,
+              "B": 24,
+              "C": 32
+            },
+            "expected_total": 85,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          }
+        ],
+        "experiences": [
+          {
+            "id": "E818b6f8fd9",
+            "observed": {
+              "DIGITAL": {
+                "success": 19,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 1
+          },
+          {
+            "id": "Ea1d5080754",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 2
+          },
+          {
+            "id": "E79c8f7f51e",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 1
+          },
+          {
+            "id": "Ee4703603d4",
+            "observed": {
+              "DIGITAL": {
+                "success": 13,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 2
+          },
+          {
+            "id": "E38538feae6",
+            "observed": {
+              "DIGITAL": {
+                "success": 10,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 1
+          },
+          {
+            "id": "Edce1fe0a32",
+            "observed": {
+              "DIGITAL": {
+                "success": 6,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 18,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 2
+          }
+        ],
+        "holder": "A",
+        "own_experience_summary": {
+          "by_medium": {
+            "DIGITAL": {
+              "expected_success_for_40": 29,
+              "success": 29,
+              "trials": 40
+            },
+            "PAPER": {
+              "expected_success_for_40": 24,
+              "success": 24,
+              "trials": 40
+            }
+          },
+          "owner": "A",
+          "source_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "own_saved_note": {
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ],
+          "holder": "A",
+          "recommendation": "DIGITAL"
+        },
+        "proposal": {
+          "candidate_id": "C2",
+          "proposal_id": "P767912cb"
+        },
+        "resource_count": {
+          "DIGITAL": 1,
+          "PAPER": 2
+        },
+        "scene": "地域の修理相談会",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "agreement": {
+              "enum": [
+                "AGREED",
+                "PENDING"
+              ],
+              "type": "string"
+            },
+            "approval_state": {
+              "additionalProperties": false,
+              "properties": {
+                "A": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "B": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "C": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "A",
+                "B",
+                "C"
+              ],
+              "type": "object"
+            },
+            "joint_action": {
+              "enum": [
+                "PAPER",
+                "DIGITAL",
+                "HOLD"
+              ],
+              "type": "string"
+            },
+            "own": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_ids": {
+                  "items": {
+                    "maxLength": 128,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "maxItems": 6,
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "holder": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C"
+                  ],
+                  "type": "string"
+                },
+                "recommendation": {
+                  "enum": [
+                    "PAPER",
+                    "DIGITAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "holder",
+                "recommendation",
+                "evidence_ids"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "own",
+            "approval_state",
+            "agreement",
+            "joint_action"
+          ],
+          "type": "object"
+        },
+        "receipts": [
+          {
+            "sender": "A",
+            "decision": "HOLD",
+            "proposal_id": "P767912cb"
+          },
+          {
+            "sender": "B",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          },
+          {
+            "sender": "C",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          }
+        ]
+      },
+      "raw_answer": "{\n  \"own\": {\n    \"holder\": \"A\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"E79c8f7f51e\",\n      \"Ee4703603d4\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"HOLD\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"ACCEPT\"\n  },\n  \"agreement\": \"PENDING\",\n  \"joint_action\": \"HOLD\"\n}",
+      "expected": {
+        "own": {
+          "holder": "A",
+          "recommendation": "DIGITAL",
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "approval_state": {
+          "A": "HOLD",
+          "B": "ACCEPT",
+          "C": "ACCEPT"
+        },
+        "agreement": "PENDING",
+        "joint_action": "HOLD"
+      },
+      "metrics": {
+        "own_holder": true,
+        "own_recommendation": true,
+        "own_sources": true,
+        "approval_state": true,
+        "agreement": true,
+        "execution": true
+      },
+      "archive_members": {
+        "input": "responses/TAR01-N01-A-R2-HOLD/input.json",
+        "answer": "responses/TAR01-N01-A-R2-HOLD/answer.txt"
+      },
+      "prepared_sha256": "ede586a3921493e2af177c4070132b67aef399cbae5380e4552842c7610f4fd7"
+    },
+    {
+      "slot": {
+        "arm": "MISSING",
+        "arm_position": 2,
+        "case": "N01",
+        "id": "TAR01-N01-A-R2-MISSING",
+        "input_key": "N01-A-MISSING",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 2039158309,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R2"
+      },
+      "input": {
+        "candidates": [
+          {
+            "assignment": {
+              "A": "PAPER",
+              "B": "DIGITAL",
+              "C": "PAPER"
+            },
+            "candidate_id": "C2",
+            "expected_success_by_role": {
+              "A": 24,
+              "B": 35,
+              "C": 32
+            },
+            "expected_total": 91,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          },
+          {
+            "assignment": {
+              "A": "DIGITAL",
+              "B": "PAPER",
+              "C": "PAPER"
+            },
+            "candidate_id": "C1",
+            "expected_success_by_role": {
+              "A": 29,
+              "B": 24,
+              "C": 32
+            },
+            "expected_total": 85,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          }
+        ],
+        "experiences": [
+          {
+            "id": "E818b6f8fd9",
+            "observed": {
+              "DIGITAL": {
+                "success": 19,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 1
+          },
+          {
+            "id": "Ea1d5080754",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 2
+          },
+          {
+            "id": "E79c8f7f51e",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 1
+          },
+          {
+            "id": "Ee4703603d4",
+            "observed": {
+              "DIGITAL": {
+                "success": 13,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 2
+          },
+          {
+            "id": "E38538feae6",
+            "observed": {
+              "DIGITAL": {
+                "success": 10,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 1
+          },
+          {
+            "id": "Edce1fe0a32",
+            "observed": {
+              "DIGITAL": {
+                "success": 6,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 18,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 2
+          }
+        ],
+        "holder": "A",
+        "own_experience_summary": {
+          "by_medium": {
+            "DIGITAL": {
+              "expected_success_for_40": 29,
+              "success": 29,
+              "trials": 40
+            },
+            "PAPER": {
+              "expected_success_for_40": 24,
+              "success": 24,
+              "trials": 40
+            }
+          },
+          "owner": "A",
+          "source_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "own_saved_note": {
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ],
+          "holder": "A",
+          "recommendation": "DIGITAL"
+        },
+        "proposal": {
+          "candidate_id": "C2",
+          "proposal_id": "P767912cb"
+        },
+        "resource_count": {
+          "DIGITAL": 1,
+          "PAPER": 2
+        },
+        "scene": "地域の修理相談会",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "agreement": {
+              "enum": [
+                "AGREED",
+                "PENDING"
+              ],
+              "type": "string"
+            },
+            "approval_state": {
+              "additionalProperties": false,
+              "properties": {
+                "A": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "B": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "C": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "A",
+                "B",
+                "C"
+              ],
+              "type": "object"
+            },
+            "joint_action": {
+              "enum": [
+                "PAPER",
+                "DIGITAL",
+                "HOLD"
+              ],
+              "type": "string"
+            },
+            "own": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_ids": {
+                  "items": {
+                    "maxLength": 128,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "maxItems": 6,
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "holder": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C"
+                  ],
+                  "type": "string"
+                },
+                "recommendation": {
+                  "enum": [
+                    "PAPER",
+                    "DIGITAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "holder",
+                "recommendation",
+                "evidence_ids"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "own",
+            "approval_state",
+            "agreement",
+            "joint_action"
+          ],
+          "type": "object"
+        },
+        "receipts": [
+          {
+            "sender": "B",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          },
+          {
+            "sender": "C",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          }
+        ]
+      },
+      "raw_answer": "{\n  \"own\": {\n    \"holder\": \"A\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"E79c8f7f51e\",\n      \"Ee4703603d4\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"MISSING\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"ACCEPT\"\n  },\n  \"agreement\": \"PENDING\",\n  \"joint_action\": \"HOLD\"\n}",
+      "expected": {
+        "own": {
+          "holder": "A",
+          "recommendation": "DIGITAL",
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "approval_state": {
+          "A": "MISSING",
+          "B": "ACCEPT",
+          "C": "ACCEPT"
+        },
+        "agreement": "PENDING",
+        "joint_action": "HOLD"
+      },
+      "metrics": {
+        "own_holder": true,
+        "own_recommendation": true,
+        "own_sources": true,
+        "approval_state": true,
+        "agreement": true,
+        "execution": true
+      },
+      "archive_members": {
+        "input": "responses/TAR01-N01-A-R2-MISSING/input.json",
+        "answer": "responses/TAR01-N01-A-R2-MISSING/answer.txt"
+      },
+      "prepared_sha256": "851943884ebd7490b3fb8ba8b5dcefb191fd6baff46d068c2ae88565cb70b10c"
+    },
+    {
+      "slot": {
+        "arm": "ACCEPT",
+        "arm_position": 3,
+        "case": "N01",
+        "id": "TAR01-N01-A-R2-ACCEPT",
+        "input_key": "N01-A-ACCEPT",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 2039158309,
+        "stage": "READ",
+        "triplet_id": "TAR01-N01-A-R2"
+      },
+      "input": {
+        "candidates": [
+          {
+            "assignment": {
+              "A": "PAPER",
+              "B": "DIGITAL",
+              "C": "PAPER"
+            },
+            "candidate_id": "C2",
+            "expected_success_by_role": {
+              "A": 24,
+              "B": 35,
+              "C": 32
+            },
+            "expected_total": 91,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          },
+          {
+            "assignment": {
+              "A": "DIGITAL",
+              "B": "PAPER",
+              "C": "PAPER"
+            },
+            "candidate_id": "C1",
+            "expected_success_by_role": {
+              "A": 29,
+              "B": 24,
+              "C": 32
+            },
+            "expected_total": 85,
+            "source_ids": [
+              "E818b6f8fd9",
+              "Ea1d5080754",
+              "E79c8f7f51e",
+              "Ee4703603d4",
+              "E38538feae6",
+              "Edce1fe0a32"
+            ]
+          }
+        ],
+        "experiences": [
+          {
+            "id": "E818b6f8fd9",
+            "observed": {
+              "DIGITAL": {
+                "success": 19,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 1
+          },
+          {
+            "id": "Ea1d5080754",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "B",
+            "session": 2
+          },
+          {
+            "id": "E79c8f7f51e",
+            "observed": {
+              "DIGITAL": {
+                "success": 16,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 10,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 1
+          },
+          {
+            "id": "Ee4703603d4",
+            "observed": {
+              "DIGITAL": {
+                "success": 13,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "A",
+            "session": 2
+          },
+          {
+            "id": "E38538feae6",
+            "observed": {
+              "DIGITAL": {
+                "success": 10,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 14,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 1
+          },
+          {
+            "id": "Edce1fe0a32",
+            "observed": {
+              "DIGITAL": {
+                "success": 6,
+                "trials": 20
+              },
+              "PAPER": {
+                "success": 18,
+                "trials": 20
+              }
+            },
+            "owner": "C",
+            "session": 2
+          }
+        ],
+        "holder": "A",
+        "own_experience_summary": {
+          "by_medium": {
+            "DIGITAL": {
+              "expected_success_for_40": 29,
+              "success": 29,
+              "trials": 40
+            },
+            "PAPER": {
+              "expected_success_for_40": 24,
+              "success": 24,
+              "trials": 40
+            }
+          },
+          "owner": "A",
+          "source_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "own_saved_note": {
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ],
+          "holder": "A",
+          "recommendation": "DIGITAL"
+        },
+        "proposal": {
+          "candidate_id": "C2",
+          "proposal_id": "P767912cb"
+        },
+        "resource_count": {
+          "DIGITAL": 1,
+          "PAPER": 2
+        },
+        "scene": "地域の修理相談会",
+        "schema": {
+          "additionalProperties": false,
+          "properties": {
+            "agreement": {
+              "enum": [
+                "AGREED",
+                "PENDING"
+              ],
+              "type": "string"
+            },
+            "approval_state": {
+              "additionalProperties": false,
+              "properties": {
+                "A": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "B": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                },
+                "C": {
+                  "enum": [
+                    "ACCEPT",
+                    "HOLD",
+                    "MISSING",
+                    "WRONG_PROPOSAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "A",
+                "B",
+                "C"
+              ],
+              "type": "object"
+            },
+            "joint_action": {
+              "enum": [
+                "PAPER",
+                "DIGITAL",
+                "HOLD"
+              ],
+              "type": "string"
+            },
+            "own": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_ids": {
+                  "items": {
+                    "maxLength": 128,
+                    "minLength": 1,
+                    "type": "string"
+                  },
+                  "maxItems": 6,
+                  "minItems": 1,
+                  "type": "array"
+                },
+                "holder": {
+                  "enum": [
+                    "A",
+                    "B",
+                    "C"
+                  ],
+                  "type": "string"
+                },
+                "recommendation": {
+                  "enum": [
+                    "PAPER",
+                    "DIGITAL"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "holder",
+                "recommendation",
+                "evidence_ids"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "own",
+            "approval_state",
+            "agreement",
+            "joint_action"
+          ],
+          "type": "object"
+        },
+        "receipts": [
+          {
+            "sender": "A",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          },
+          {
+            "sender": "B",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          },
+          {
+            "sender": "C",
+            "decision": "ACCEPT",
+            "proposal_id": "P767912cb"
+          }
+        ]
+      },
+      "raw_answer": "{\n  \"own\": {\n    \"holder\": \"A\",\n    \"recommendation\": \"DIGITAL\",\n    \"evidence_ids\": [\n      \"E79c8f7f51e\",\n      \"Ee4703603d4\"\n    ]\n  },\n  \"approval_state\": {\n    \"A\": \"ACCEPT\",\n    \"B\": \"ACCEPT\",\n    \"C\": \"ACCEPT\"\n  },\n  \"agreement\": \"AGREED\",\n  \"joint_action\": \"PAPER\"\n}",
+      "expected": {
+        "own": {
+          "holder": "A",
+          "recommendation": "DIGITAL",
+          "evidence_ids": [
+            "E79c8f7f51e",
+            "Ee4703603d4"
+          ]
+        },
+        "approval_state": {
+          "A": "ACCEPT",
+          "B": "ACCEPT",
+          "C": "ACCEPT"
+        },
+        "agreement": "AGREED",
+        "joint_action": "PAPER"
+      },
+      "metrics": {
+        "own_holder": true,
+        "own_recommendation": true,
+        "own_sources": true,
+        "approval_state": true,
+        "agreement": true,
+        "execution": true
+      },
+      "archive_members": {
+        "input": "responses/TAR01-N01-A-R2-ACCEPT/input.json",
+        "answer": "responses/TAR01-N01-A-R2-ACCEPT/answer.txt"
+      },
+      "prepared_sha256": "4fa682a3069f81f1f62d07f7431e0055caf2ee0924b632d7b55620b89c97ac33"
+    }
+  ]
+}

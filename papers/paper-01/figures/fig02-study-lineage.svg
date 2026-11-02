@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="747pt" height="423.54pt" viewBox="0 0 747 423.54" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-20T19:53:04.385378</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 423.54 
+L 747 423.54 
+L 747 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 33.12 145.5192 
+L 175.41 145.5192 
+Q 179.874 145.5192 179.874 141.084 
+L 179.874 80.1 
+Q 179.874 75.6648 175.41 75.6648 
+L 33.12 75.6648 
+Q 28.656 75.6648 28.656 80.1 
+L 28.656 141.084 
+Q 28.656 145.5192 33.12 145.5192 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #e8f1fa; stroke: #8797a6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 231.21 145.5192 
+L 373.5 145.5192 
+Q 377.964 145.5192 377.964 141.084 
+L 377.964 80.1 
+Q 377.964 75.6648 373.5 75.6648 
+L 231.21 75.6648 
+Q 226.746 75.6648 226.746 80.1 
+L 226.746 141.084 
+Q 226.746 145.5192 231.21 145.5192 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #e8f1fa; stroke: #8797a6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 429.3 145.5192 
+L 571.59 145.5192 
+Q 576.054 145.5192 576.054 141.084 
+L 576.054 80.1 
+Q 576.054 75.6648 571.59 75.6648 
+L 429.3 75.6648 
+Q 424.836 75.6648 424.836 80.1 
+L 424.836 141.084 
+Q 424.836 145.5192 429.3 145.5192 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #e8f1fa; stroke: #8797a6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 184.662569 110.592 
+Q 203.309201 110.592 220.558291 110.592 
+" clip-path="url(#p19a774d8ae)" style="fill: none; stroke: #566b7e; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 215.358291 107.992 
+L 220.558291 110.592 
+L 215.358291 113.192 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #566b7e; stroke: #566b7e; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 382.752569 110.592 
+Q 401.399201 110.592 418.648291 110.592 
+" clip-path="url(#p19a774d8ae)" style="fill: none; stroke: #566b7e; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 413.448291 107.992 
+L 418.648291 110.592 
+L 413.448291 113.192 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #566b7e; stroke: #566b7e; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 552.06 253.6272 
+L 713.88 253.6272 
+Q 718.344 253.6272 718.344 249.192 
+L 718.344 188.208 
+Q 718.344 183.7728 713.88 183.7728 
+L 552.06 183.7728 
+Q 547.596 183.7728 547.596 188.208 
+L 547.596 249.192 
+Q 547.596 253.6272 552.06 253.6272 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #fce9e5; stroke: #8797a6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 539.809475 147.674877 
+Q 566.009464 163.81407 591.019551 179.220283 
+" clip-path="url(#p19a774d8ae)" style="fill: none; stroke: #566b7e; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 587.955785 174.279297 
+L 591.019551 179.220283 
+L 585.228503 178.706704 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #566b7e; stroke: #566b7e; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 264.69 253.6272 
+L 459.99 253.6272 
+Q 464.454 253.6272 464.454 249.192 
+L 464.454 188.208 
+Q 464.454 183.7728 459.99 183.7728 
+L 264.69 183.7728 
+Q 260.226 183.7728 260.226 188.208 
+L 260.226 249.192 
+Q 260.226 253.6272 264.69 253.6272 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #e5f3ec; stroke: #8797a6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 439.198165 148.18258 
+Q 426.509105 163.815502 414.700794 178.363341 
+" clip-path="url(#p19a774d8ae)" style="fill: none; stroke: #566b7e; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 419.9966 175.964499 
+L 414.700794 178.363341 
+L 415.959204 172.687391 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #566b7e; stroke: #566b7e; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 264.69 364.5072 
+L 459.99 364.5072 
+Q 464.454 364.5072 464.454 360.072 
+L 464.454 301.86 
+Q 464.454 297.4248 459.99 297.4248 
+L 264.69 297.4248 
+Q 260.226 297.4248 260.226 301.86 
+L 260.226 360.072 
+Q 260.226 364.5072 264.69 364.5072 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #e5f3ec; stroke: #8797a6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 362.34 257.848477 
+Q 362.34 275.526833 362.34 291.807646 
+" clip-path="url(#p19a774d8ae)" style="fill: none; stroke: #566b7e; stroke-width: 1.25; stroke-linecap: round"/>
+    <path d="M 364.94 286.607646 
+L 362.34 291.807646 
+L 359.74 286.607646 
+z
+" clip-path="url(#p19a774d8ae)" style="fill: #566b7e; stroke: #566b7e; stroke-width: 1.25; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #192b3a" x="27.54" y="42.217988" transform="rotate(-0 27.54 42.217988)">2  Lineage of the main evidence</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526270" x="27.54" y="64.239159" transform="rotate(-0 27.54 64.239159)">Arrows represent actual saved-state dependencies. All branches reuse the same four known groups.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(90.585469 99.737051)">SC03</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(60.342188 113.489344)">Private + shared</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(78.75082 127.241637)">formation</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(287.119141 106.42373)">SM01</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(244.220859 120.830895)">Update / merge / use</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(461.810078 106.42373)">SM02 UPDATE</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(451.306797 120.830895)">New observations</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(572.551641 214.53173)">SM02 completed path</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(572.495781 228.938895)">Strict 3/4; content 4/4</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(283.083047 207.66573)">RC01: new paired generations</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(293.356641 221.484633)">REWRITE 3/4 | SELECT 4/4</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(315.975117 235.528957)">Content: both 4/4</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_13">
+     <path d="M 325.859766 161.383556 
+L 409.980234 161.383556 
+L 409.980234 149.613244 
+L 325.859766 149.613244 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #526270" x="367.92" y="157.981837" transform="rotate(-0 367.92 157.981837)">pre-MERGE inputs</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(293.26 326.79773)">RC02: SELECT notes only</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(302.006719 341.204895)">One further cycle: 4/4</text>
+   </g>
+   <g id="text_10">
+    <g id="patch_14">
+     <path d="M 404.414297 281.411156 
+L 498.825703 281.411156 
+L 498.825703 269.640844 
+L 404.414297 269.640844 
+z
+" style="fill: #ffffff"/>
+    </g>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #526270" x="451.62" y="278.009437" transform="rotate(-0 451.62 278.009437)">saved SELECT notes</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(33.12 240.918281)">Earlier / supporting studies</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(33.12 256.579187)">SC01, SU01, RD01, SC02,</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(33.12 272.240094)">SU02, SR01</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(33.12 287.901)"/>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(33.12 303.561906)">All retained in the inventory.</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(518.58 297.707742)">RC02 does not continue</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(518.58 312.257871)">the failed SM02 note.</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #192b3a" transform="translate(518.58 326.808)">No new REWRITE control.</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #526270" x="33.12" y="397.7712" transform="rotate(-0 33.12 397.7712)">This is a branching exploratory sequence, not 11 independent replications or one uninterrupted flawless run.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p19a774d8ae">
+   <rect x="10.8" y="10.8" width="725.4" height="401.94"/>
+  </clipPath>
+ </defs>
+</svg>

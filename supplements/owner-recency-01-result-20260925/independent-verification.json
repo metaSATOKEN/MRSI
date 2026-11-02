@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "archived_reports_equal_recomputed": 2,
+  "source_files_checked": 54,
+  "physical_generations": 91,
+  "parents": 36,
+  "unique_READ": 55,
+  "logical_READ": 144,
+  "totals": {
+    "G0P0": {
+      "joint": 25,
+      "channel_latest": 28,
+      "private": 32,
+      "shared": 25
+    },
+    "G1P0": {
+      "joint": 32,
+      "channel_latest": 36,
+      "private": 32,
+      "shared": 36
+    },
+    "G0P1": {
+      "joint": 25,
+      "channel_latest": 28,
+      "private": 36,
+      "shared": 25
+    },
+    "G1P1": {
+      "joint": 36,
+      "channel_latest": 36,
+      "private": 36,
+      "shared": 36
+    }
+  },
+  "normalization": {
+    "READ:UNCHANGED": 55,
+    "UPDATE:UNWRAPPED": 20,
+    "UPDATE:UNCHANGED": 16
+  },
+  "update_format_by_quality": {
+    "UNWRAPPED:correct": 11,
+    "UNWRAPPED:incorrect": 9,
+    "UNCHANGED:correct": 14,
+    "UNCHANGED:incorrect": 2
+  },
+  "parent_unique_read_distribution": {
+    "1": 25,
+    "4": 4,
+    "2": 7
+  },
+  "physical_read_use_distribution": {
+    "4": 25,
+    "1": 16,
+    "2": 14
+  },
+  "bad_parent_count": 11,
+  "private_bad_count": 4,
+  "bad_memory_correct_channel": [
+    "OR01-G06-R1",
+    "OR01-G03-R1",
+    "OR01-G06-R2"
+  ],
+  "elapsed_seconds": 631.7676590320007,
+  "generation_seconds": 606.1813039040017,
+  "scope": "Saved evidence and deterministic rules; no new model generation; no archived executable imported."
+}

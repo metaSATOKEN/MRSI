@@ -1,0 +1,7 @@
+{
+  "configuration_sha256": "6304c6015c60e77c651276d6fcf3f271b990189293b01b54273e688c09d71fcc",
+  "package": "paper-01/reproducibility-v0.5",
+  "reference_style_content_included": false,
+  "reference_style_file": "phase_d10b_qwen36_m_int5.py",
+  "reference_style_sha256": "e39a10faf1a263d84976dfe88f3c57b1fbe087f5fea385277a4a3521e5b4664d"
+}

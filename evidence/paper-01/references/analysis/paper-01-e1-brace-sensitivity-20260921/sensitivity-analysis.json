@@ -1,0 +1,800 @@
+{
+  "status": "POST_HOC_SINGLE_TRAILING_BRACE_SENSITIVITY",
+  "source_analysis_sha256": "ec27dc84af2d1ab318221f416d7aebc1fd184da301fb409021a00c5bb21f7db5",
+  "modified_slot": "E1-G23-REWRITE-PROBE-B",
+  "only_score_changed": true,
+  "analysis": {
+    "E1": {
+      "strict": {
+        "groups": {
+          "E1-G01": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G02": {
+            "REWRITE": false,
+            "SELECT": true
+          },
+          "E1-G03": {
+            "REWRITE": true,
+            "SELECT": false
+          },
+          "E1-G04": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G05": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G06": {
+            "REWRITE": false,
+            "SELECT": true
+          },
+          "E1-G07": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G08": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G09": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G10": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G11": {
+            "REWRITE": false,
+            "SELECT": true
+          },
+          "E1-G12": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G13": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G14": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G15": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G16": {
+            "REWRITE": true,
+            "SELECT": false
+          },
+          "E1-G17": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G18": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G19": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G20": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G21": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G22": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G23": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G24": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G25": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G26": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G27": {
+            "REWRITE": true,
+            "SELECT": false
+          },
+          "E1-G28": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G29": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G30": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G31": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G32": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G33": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G34": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G35": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G36": {
+            "REWRITE": false,
+            "SELECT": true
+          },
+          "E1-G37": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G38": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G39": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G40": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G41": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G42": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G43": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G44": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G45": {
+            "REWRITE": true,
+            "SELECT": false
+          },
+          "E1-G46": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G47": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G48": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G49": {
+            "REWRITE": true,
+            "SELECT": false
+          },
+          "E1-G50": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G51": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G52": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G53": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G54": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G55": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G56": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G57": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G58": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G59": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G60": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G61": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G62": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G63": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G64": {
+            "REWRITE": true,
+            "SELECT": true
+          }
+        },
+        "statistics": {
+          "n": 64,
+          "missing_pairs": 0,
+          "delta_bounds": [
+            -0.015625,
+            -0.015625
+          ],
+          "conservative_ci95": [
+            -0.17363689944009003,
+            0.14484425555893682
+          ],
+          "exact_mcnemar_two_sided_p": 1.0,
+          "compatible_discordance_counts": 1
+        }
+      },
+      "content": {
+        "groups": {
+          "E1-G01": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G02": {
+            "REWRITE": false,
+            "SELECT": true
+          },
+          "E1-G03": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G04": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G05": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G06": {
+            "REWRITE": false,
+            "SELECT": true
+          },
+          "E1-G07": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G08": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G09": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G10": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G11": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G12": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G13": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G14": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G15": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G16": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G17": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G18": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G19": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G20": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G21": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G22": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G23": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G24": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G25": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G26": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G27": {
+            "REWRITE": true,
+            "SELECT": false
+          },
+          "E1-G28": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G29": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G30": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G31": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G32": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G33": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G34": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G35": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G36": {
+            "REWRITE": false,
+            "SELECT": true
+          },
+          "E1-G37": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G38": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G39": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G40": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G41": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G42": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G43": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G44": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G45": {
+            "REWRITE": true,
+            "SELECT": false
+          },
+          "E1-G46": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G47": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G48": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G49": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G50": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G51": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G52": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G53": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G54": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G55": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G56": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G57": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G58": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G59": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G60": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G61": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G62": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G63": {
+            "REWRITE": true,
+            "SELECT": true
+          },
+          "E1-G64": {
+            "REWRITE": true,
+            "SELECT": true
+          }
+        },
+        "statistics": {
+          "n": 64,
+          "missing_pairs": 0,
+          "delta_bounds": [
+            0.015625,
+            0.015625
+          ],
+          "conservative_ci95": [
+            -0.1134909168397925,
+            0.14172807299489953
+          ],
+          "exact_mcnemar_two_sided_p": null,
+          "compatible_discordance_counts": 1,
+          "test_policy": "DESCRIPTIVE_SENSITIVITY_NO_SECOND_TEST"
+        }
+      }
+    },
+    "E2": {
+      "CORRECT/ID_ONLY": {
+        "evidence_appropriate": {
+          "groups": {
+            "E2-G01": true,
+            "E2-G02": true,
+            "E2-G03": true,
+            "E2-G04": true,
+            "E2-G05": true,
+            "E2-G06": true,
+            "E2-G07": true,
+            "E2-G08": true
+          },
+          "fixed_n": 8,
+          "bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "completion": {
+          "groups": {
+            "E2-G01": true,
+            "E2-G02": true,
+            "E2-G03": true,
+            "E2-G04": true,
+            "E2-G05": true,
+            "E2-G06": true,
+            "E2-G07": true,
+            "E2-G08": true
+          },
+          "fixed_n": 8,
+          "bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "CORRECT/DETAILS": {
+        "evidence_appropriate": {
+          "groups": {
+            "E2-G01": true,
+            "E2-G02": true,
+            "E2-G03": true,
+            "E2-G04": true,
+            "E2-G05": true,
+            "E2-G06": true,
+            "E2-G07": true,
+            "E2-G08": true
+          },
+          "fixed_n": 8,
+          "bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "completion": {
+          "groups": {
+            "E2-G01": true,
+            "E2-G02": true,
+            "E2-G03": true,
+            "E2-G04": true,
+            "E2-G05": true,
+            "E2-G06": true,
+            "E2-G07": true,
+            "E2-G08": true
+          },
+          "fixed_n": 8,
+          "bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "OLD/ID_ONLY": {
+        "evidence_appropriate": {
+          "groups": {
+            "E2-G01": true,
+            "E2-G02": true,
+            "E2-G03": true,
+            "E2-G04": true,
+            "E2-G05": true,
+            "E2-G06": true,
+            "E2-G07": true,
+            "E2-G08": true
+          },
+          "fixed_n": 8,
+          "bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "completion": {
+          "groups": {
+            "E2-G01": false,
+            "E2-G02": false,
+            "E2-G03": false,
+            "E2-G04": false,
+            "E2-G05": false,
+            "E2-G06": false,
+            "E2-G07": false,
+            "E2-G08": false
+          },
+          "fixed_n": 8,
+          "bounds": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "OLD/DETAILS": {
+        "evidence_appropriate": {
+          "groups": {
+            "E2-G01": true,
+            "E2-G02": true,
+            "E2-G03": true,
+            "E2-G04": true,
+            "E2-G05": true,
+            "E2-G06": true,
+            "E2-G07": true,
+            "E2-G08": true
+          },
+          "fixed_n": 8,
+          "bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "completion": {
+          "groups": {
+            "E2-G01": true,
+            "E2-G02": true,
+            "E2-G03": true,
+            "E2-G04": true,
+            "E2-G05": true,
+            "E2-G06": true,
+            "E2-G07": true,
+            "E2-G08": true
+          },
+          "fixed_n": 8,
+          "bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "ABSENT/ID_ONLY": {
+        "evidence_appropriate": {
+          "groups": {
+            "E2-G01": true,
+            "E2-G02": true,
+            "E2-G03": true,
+            "E2-G04": true,
+            "E2-G05": true,
+            "E2-G06": true,
+            "E2-G07": true,
+            "E2-G08": true
+          },
+          "fixed_n": 8,
+          "bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "completion": {
+          "groups": {
+            "E2-G01": false,
+            "E2-G02": false,
+            "E2-G03": false,
+            "E2-G04": false,
+            "E2-G05": false,
+            "E2-G06": false,
+            "E2-G07": false,
+            "E2-G08": false
+          },
+          "fixed_n": 8,
+          "bounds": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "ABSENT/DETAILS": {
+        "evidence_appropriate": {
+          "groups": {
+            "E2-G01": true,
+            "E2-G02": true,
+            "E2-G03": true,
+            "E2-G04": true,
+            "E2-G05": true,
+            "E2-G06": true,
+            "E2-G07": true,
+            "E2-G08": true
+          },
+          "fixed_n": 8,
+          "bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "completion": {
+          "groups": {
+            "E2-G01": true,
+            "E2-G02": true,
+            "E2-G03": true,
+            "E2-G04": true,
+            "E2-G05": true,
+            "E2-G06": true,
+            "E2-G07": true,
+            "E2-G08": true
+          },
+          "fixed_n": 8,
+          "bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "E2_control_gate": {
+      "ID_ONLY": "ESTABLISHED",
+      "DETAILS": "ESTABLISHED"
+    }
+  },
+  "pair_tables": {
+    "strict": {
+      "True/True": 55,
+      "False/True": 4,
+      "True/False": 5
+    },
+    "content": {
+      "True/True": 59,
+      "False/True": 3,
+      "True/False": 2
+    }
+  },
+  "exact_p_fraction": {
+    "numerator": 512,
+    "denominator": 512
+  },
+  "formal_primary_p": null,
+  "new_model_requests": 0,
+  "E2_unchanged": true
+}

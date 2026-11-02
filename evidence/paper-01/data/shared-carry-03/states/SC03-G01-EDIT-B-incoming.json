@@ -1,0 +1,56 @@
+{
+  "scene": "地域工作会",
+  "item": "持帰り袋",
+  "holder": "B",
+  "records": [
+    {
+      "record_id": "OBS_A",
+      "author": "A",
+      "body": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "NOT_ALL",
+        "origin_id": "LT"
+      }
+    },
+    {
+      "record_id": "OBS_B",
+      "author": "B",
+      "body": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "NR"
+      }
+    },
+    {
+      "record_id": "DRAFT",
+      "author": "A",
+      "body": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "LT"
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "NR"
+          }
+        },
+        "channel": "PAPER",
+        "channel_read_refs": [
+          "OBS_A",
+          "OBS_B"
+        ],
+        "channel_origin_ids": [
+          "LT",
+          "NR"
+        ]
+      }
+    }
+  ]
+}

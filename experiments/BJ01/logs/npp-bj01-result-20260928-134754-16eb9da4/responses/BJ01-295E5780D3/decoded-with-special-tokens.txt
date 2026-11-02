@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-295E5780D3",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local", "/answer/team"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "答案は許可されたスキーマに従い、追加プロパティや不正な値が含まれていない。"
+    },
+    "attribution": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/local/evidence_refs"],
+      "evidence_pointers": ["/payload/experiences", "/facts/roles/B/episode_ids"],
+      "reason": "local.evidence_refsにE719F39C5D6（Aの経験）が含まれており、holder B自身の全経験IDと一致しない。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/projected_success_per_40"],
+      "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高く、DIGITALを選択しているため規則を満たす。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "合意記録が存在し、A=DIGITAL/B=PAPERの割付は予測合計48で最適解かつ実行可能である。"
+    }
+  }
+}<|im_end|>

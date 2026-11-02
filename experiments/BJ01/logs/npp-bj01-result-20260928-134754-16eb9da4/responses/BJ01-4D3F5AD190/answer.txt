@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-4D3F5AD190",
+  "checks": {
+    "output_contract": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/local/experience_digest"],
+      "evidence_pointers": ["/contract/schema/properties/local"],
+      "reason": "localオブジェクトにschema未定義のexperience_digestキーが存在し、additionalProperties:false違反。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/experiences", "/payload/joint_records"],
+      "reason": "subjectはB、evidence_refsはBの全経験、team.evidence_refsは全joint_recordsと一致し、規則を満たす。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/projected_success_per_40"],
+      "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高く、DIGITAL選択は規則に合致する。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Aの提案とBのACCEPTがあり、割付は予測合計最大(49)の合法案と一致し、SHARED_DECISIONは適切。"
+    }
+  }
+}

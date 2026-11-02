@@ -1,0 +1,4385 @@
+{
+  "archive_sha256": "f5274b555f37fd515a8f783fe5c69f4c10fb8b9abcb29df59f448d7a54ab8a88",
+  "manifest_files": 605,
+  "kind": "FINAL",
+  "report": {
+    "kind": "DESCRIPTIVE_READOUT_COMPONENT_COMPARISON",
+    "main_materials": 12,
+    "boundary_inputs": 4,
+    "planned_responses": 96,
+    "supplied_results": 96,
+    "methods": {
+      "FULL": {
+        "main": {
+          "correct": 3,
+          "incorrect": 21,
+          "unresolved": 0,
+          "n": 24
+        },
+        "bounds": [
+          0.125,
+          0.125
+        ],
+        "by_replicate": {
+          "1": {
+            "correct": 1,
+            "incorrect": 11,
+            "unresolved": 0,
+            "n": 12
+          },
+          "2": {
+            "correct": 2,
+            "incorrect": 10,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "by_truth": {
+          "PAPER": {
+            "correct": 3,
+            "incorrect": 9,
+            "unresolved": 0,
+            "n": 12
+          },
+          "DIGITAL": {
+            "correct": 0,
+            "incorrect": 12,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "boundary": {
+          "ZERO": {
+            "correct": 3,
+            "incorrect": 1,
+            "unresolved": 0,
+            "n": 4
+          },
+          "TWO": {
+            "correct": 1,
+            "incorrect": 3,
+            "unresolved": 0,
+            "n": 4
+          }
+        },
+        "readout_foothold": false
+      },
+      "DUAL": {
+        "main": {
+          "correct": 7,
+          "incorrect": 17,
+          "unresolved": 0,
+          "n": 24
+        },
+        "bounds": [
+          0.2916666666666667,
+          0.2916666666666667
+        ],
+        "by_replicate": {
+          "1": {
+            "correct": 2,
+            "incorrect": 10,
+            "unresolved": 0,
+            "n": 12
+          },
+          "2": {
+            "correct": 5,
+            "incorrect": 7,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "by_truth": {
+          "PAPER": {
+            "correct": 6,
+            "incorrect": 6,
+            "unresolved": 0,
+            "n": 12
+          },
+          "DIGITAL": {
+            "correct": 1,
+            "incorrect": 11,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "boundary": {
+          "ZERO": {
+            "correct": 2,
+            "incorrect": 2,
+            "unresolved": 0,
+            "n": 4
+          },
+          "TWO": {
+            "correct": 3,
+            "incorrect": 1,
+            "unresolved": 0,
+            "n": 4
+          }
+        },
+        "readout_foothold": false
+      },
+      "CHANNEL": {
+        "main": {
+          "correct": 7,
+          "incorrect": 17,
+          "unresolved": 0,
+          "n": 24
+        },
+        "bounds": [
+          0.2916666666666667,
+          0.2916666666666667
+        ],
+        "by_replicate": {
+          "1": {
+            "correct": 4,
+            "incorrect": 8,
+            "unresolved": 0,
+            "n": 12
+          },
+          "2": {
+            "correct": 3,
+            "incorrect": 9,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "by_truth": {
+          "PAPER": {
+            "correct": 6,
+            "incorrect": 6,
+            "unresolved": 0,
+            "n": 12
+          },
+          "DIGITAL": {
+            "correct": 1,
+            "incorrect": 11,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "boundary": {
+          "ZERO": {
+            "correct": 2,
+            "incorrect": 2,
+            "unresolved": 0,
+            "n": 4
+          },
+          "TWO": {
+            "correct": 0,
+            "incorrect": 4,
+            "unresolved": 0,
+            "n": 4
+          }
+        },
+        "readout_foothold": false
+      }
+    },
+    "contrasts": {
+      "DUAL-FULL": {
+        "bounds": [
+          0.16666666666666669,
+          0.16666666666666669
+        ],
+        "positive_signal": true,
+        "negative_signal": false
+      },
+      "CHANNEL-DUAL": {
+        "bounds": [
+          0.0,
+          0.0
+        ],
+        "positive_signal": false,
+        "negative_signal": false
+      }
+    },
+    "p_value": null,
+    "confidence_interval": null,
+    "protocol": "READOUT-LOAD-01-RUN-v0.1",
+    "status_counts": {
+      "EOS": 95,
+      "FORMAT_REJECT": 1
+    },
+    "closed_responses": 96,
+    "attempted_generations": 96,
+    "components": {
+      "FULL": {
+        "all_format": {
+          "correct": 31,
+          "incorrect": 1,
+          "unresolved": 0,
+          "n": 32
+        },
+        "all_parse": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "main_mascot": {
+          "correct": 24,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 24
+        },
+        "main_confusion": {
+          "DIGITAL->PAPER": 4,
+          "PAPER->PAPER": 3,
+          "DIGITAL->UNKNOWN": 8,
+          "PAPER->UNKNOWN": 9
+        },
+        "main_by_role": {
+          "A": {
+            "correct": 1,
+            "incorrect": 11,
+            "unresolved": 0,
+            "n": 12
+          },
+          "B": {
+            "correct": 2,
+            "incorrect": 10,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "main_repeats_by_case": {
+          "RL01-M01": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M02": [
+            "PAPER",
+            "UNKNOWN"
+          ],
+          "RL01-M03": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M04": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RL01-M05": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M06": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RL01-M07": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RL01-M08": [
+            "PAPER",
+            "UNKNOWN"
+          ],
+          "RL01-M09": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M10": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M11": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RL01-M12": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ]
+        },
+        "attribution": {
+          "mascot": {
+            "refs_exact": {
+              "correct": 32,
+              "incorrect": 0,
+              "unresolved": 0,
+              "n": 32
+            },
+            "origins_exact": {
+              "correct": 32,
+              "incorrect": 0,
+              "unresolved": 0,
+              "n": 32
+            }
+          },
+          "channel": {
+            "refs_exact": {
+              "correct": 1,
+              "incorrect": 31,
+              "unresolved": 0,
+              "n": 32
+            },
+            "origins_exact": {
+              "correct": 8,
+              "incorrect": 24,
+              "unresolved": 0,
+              "n": 32
+            }
+          }
+        },
+        "channel_reference_patterns": {
+          "[\"PRIVATE\", \"GROUP\"]|origins_exact=True": 8,
+          "[\"PRIVATE\"]|origins_exact=False": 1,
+          "[]|origins_exact=False": 21,
+          "[\"GROUP\"]|origins_exact=False": 1,
+          "[\"PRIVATE\", \"GROUP\"]|origins_exact=False": 1
+        }
+      },
+      "DUAL": {
+        "all_format": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "all_parse": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "main_mascot": {
+          "correct": 24,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 24
+        },
+        "main_confusion": {
+          "DIGITAL->PAPER": 4,
+          "PAPER->PAPER": 6,
+          "DIGITAL->UNKNOWN": 7,
+          "PAPER->UNKNOWN": 6,
+          "DIGITAL->DIGITAL": 1
+        },
+        "main_by_role": {
+          "A": {
+            "correct": 4,
+            "incorrect": 8,
+            "unresolved": 0,
+            "n": 12
+          },
+          "B": {
+            "correct": 3,
+            "incorrect": 9,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "main_repeats_by_case": {
+          "RL01-M01": [
+            "PAPER",
+            "UNKNOWN"
+          ],
+          "RL01-M02": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RL01-M03": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RL01-M04": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RL01-M05": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M06": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RL01-M07": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RL01-M08": [
+            "PAPER",
+            "UNKNOWN"
+          ],
+          "RL01-M09": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M10": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M11": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RL01-M12": [
+            "UNKNOWN",
+            "DIGITAL"
+          ]
+        }
+      },
+      "CHANNEL": {
+        "all_format": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "all_parse": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "main_mascot": null,
+        "main_confusion": {
+          "DIGITAL->UNKNOWN": 8,
+          "PAPER->UNKNOWN": 6,
+          "DIGITAL->PAPER": 3,
+          "PAPER->PAPER": 6,
+          "DIGITAL->DIGITAL": 1
+        },
+        "main_by_role": {
+          "A": {
+            "correct": 2,
+            "incorrect": 10,
+            "unresolved": 0,
+            "n": 12
+          },
+          "B": {
+            "correct": 5,
+            "incorrect": 7,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "main_repeats_by_case": {
+          "RL01-M01": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RL01-M02": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M03": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M04": [
+            "PAPER",
+            "UNKNOWN"
+          ],
+          "RL01-M05": [
+            "PAPER",
+            "UNKNOWN"
+          ],
+          "RL01-M06": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RL01-M07": [
+            "PAPER",
+            "UNKNOWN"
+          ],
+          "RL01-M08": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M09": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M10": [
+            "PAPER",
+            "UNKNOWN"
+          ],
+          "RL01-M11": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RL01-M12": [
+            "PAPER",
+            "DIGITAL"
+          ]
+        }
+      }
+    },
+    "by_response": [
+      {
+        "case": "RL01-M08",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M08-R1-FULL",
+        "replicate": 1,
+        "seed": 2036879994,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "RF37413030426206",
+            "R4C3EB2EA5EE46B8"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RD62B3DCE445A3C9"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": true,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M08",
+        "condition": "DUAL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M08-R1-DUAL",
+        "replicate": 1,
+        "seed": 2036879994,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "RF37413030426206",
+            "R4C3EB2EA5EE46B8"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RD62B3DCE445A3C9"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M08",
+        "condition": "CHANNEL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M08-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 2036879994,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "RF37413030426206",
+            "R4C3EB2EA5EE46B8"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RD62B3DCE445A3C9"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M02",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M02-R1-FULL",
+        "replicate": 1,
+        "seed": 1410708038,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RC33F91208C09148",
+            "RA19FFE11B0C55B9"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R42FCC084BA840EA"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": true,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M02",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M02-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 1410708038,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RC33F91208C09148",
+            "RA19FFE11B0C55B9"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R42FCC084BA840EA"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M02",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M02-R1-DUAL",
+        "replicate": 1,
+        "seed": 1410708038,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RC33F91208C09148",
+            "RA19FFE11B0C55B9"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R42FCC084BA840EA"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M11",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M11-R1-DUAL",
+        "replicate": 1,
+        "seed": 1154709615,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R72F19F5179337D8",
+            "R4BD4A2A787CE295"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R6C71BC634F436D4"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M11",
+        "condition": "FULL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M11-R1-FULL",
+        "replicate": 1,
+        "seed": 1154709615,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R72F19F5179337D8",
+            "R4BD4A2A787CE295"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R6C71BC634F436D4"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M11",
+        "condition": "CHANNEL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M11-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 1154709615,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R72F19F5179337D8",
+            "R4BD4A2A787CE295"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R6C71BC634F436D4"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B01",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-B01-R1-FULL",
+        "replicate": 1,
+        "seed": 788459471,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL65A29C0418C740",
+            "RLE5C4133F053BE1"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R1E0944421C96096"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B01",
+        "condition": "DUAL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-B01-R1-DUAL",
+        "replicate": 1,
+        "seed": 788459471,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL65A29C0418C740",
+            "RLE5C4133F053BE1"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R1E0944421C96096"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B01",
+        "condition": "CHANNEL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-B01-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 788459471,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL65A29C0418C740",
+            "RLE5C4133F053BE1"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R1E0944421C96096"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M12",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M12-R1-DUAL",
+        "replicate": 1,
+        "seed": 2010550164,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R2B544B4380FFEF7",
+            "R907AA427A60A9F8"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R4C9D60D1BCA293F"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M12",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M12-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 2010550164,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R2B544B4380FFEF7",
+            "R907AA427A60A9F8"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R4C9D60D1BCA293F"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M12",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M12-R1-FULL",
+        "replicate": 1,
+        "seed": 2010550164,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R2B544B4380FFEF7",
+            "R907AA427A60A9F8"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R4C9D60D1BCA293F"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M04",
+        "condition": "CHANNEL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M04-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 976350417,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R25D5EFCB5FB95EC",
+            "R8070240ACC359BB"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R447D0AD6C2DCD0B"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M04",
+        "condition": "FULL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M04-R1-FULL",
+        "replicate": 1,
+        "seed": 976350417,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R25D5EFCB5FB95EC",
+            "R8070240ACC359BB"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R447D0AD6C2DCD0B"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M04",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M04-R1-DUAL",
+        "replicate": 1,
+        "seed": 976350417,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R25D5EFCB5FB95EC",
+            "R8070240ACC359BB"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R447D0AD6C2DCD0B"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M01",
+        "condition": "CHANNEL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M01-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 1624256529,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA9BA2DA3ED83049",
+            "R92758D5F6F982E3"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R12EBFAEB4F63707"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M01",
+        "condition": "DUAL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M01-R1-DUAL",
+        "replicate": 1,
+        "seed": 1624256529,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA9BA2DA3ED83049",
+            "R92758D5F6F982E3"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R12EBFAEB4F63707"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M01",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M01-R1-FULL",
+        "replicate": 1,
+        "seed": 1624256529,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA9BA2DA3ED83049",
+            "R92758D5F6F982E3"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R12EBFAEB4F63707"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B02",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-B02-R1-FULL",
+        "replicate": 1,
+        "seed": 2076313988,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL58829D13B28B49",
+            "RL1C287FEA277562"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RCCA63A769B5233E"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": true
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B02",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-B02-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 2076313988,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL58829D13B28B49",
+            "RL1C287FEA277562"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RCCA63A769B5233E"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B02",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-B02-R1-DUAL",
+        "replicate": 1,
+        "seed": 2076313988,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL58829D13B28B49",
+            "RL1C287FEA277562"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RCCA63A769B5233E"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M07",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M07-R1-FULL",
+        "replicate": 1,
+        "seed": 1001050639,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R7230DF0CA0F426A",
+            "R191E00633AA0FFF"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RAD1108204DAFE92"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M07",
+        "condition": "DUAL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M07-R1-DUAL",
+        "replicate": 1,
+        "seed": 1001050639,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R7230DF0CA0F426A",
+            "R191E00633AA0FFF"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RAD1108204DAFE92"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M07",
+        "condition": "CHANNEL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M07-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 1001050639,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R7230DF0CA0F426A",
+            "R191E00633AA0FFF"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RAD1108204DAFE92"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M10",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M10-R1-FULL",
+        "replicate": 1,
+        "seed": 1259305477,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R287A6768CF0F0F2",
+            "R16AE21BD30965FA"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R93691C2DD1BFB3D"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M10",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M10-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 1259305477,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R287A6768CF0F0F2",
+            "R16AE21BD30965FA"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R93691C2DD1BFB3D"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M10",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M10-R1-DUAL",
+        "replicate": 1,
+        "seed": 1259305477,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R287A6768CF0F0F2",
+            "R16AE21BD30965FA"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R93691C2DD1BFB3D"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M05",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M05-R1-DUAL",
+        "replicate": 1,
+        "seed": 1697776722,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA5367F3428283DC",
+            "REBDA1A1CB50A2F1"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R31420A001C36B16"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M05",
+        "condition": "FULL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M05-R1-FULL",
+        "replicate": 1,
+        "seed": 1697776722,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA5367F3428283DC",
+            "REBDA1A1CB50A2F1"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R31420A001C36B16"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M05",
+        "condition": "CHANNEL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M05-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 1697776722,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA5367F3428283DC",
+            "REBDA1A1CB50A2F1"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R31420A001C36B16"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B03",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-B03-R1-DUAL",
+        "replicate": 1,
+        "seed": 597340313,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RLB87C95641B8494",
+            "RL9B05CA54A4E305"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R42BFCD43387295D"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B03",
+        "condition": "FULL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-B03-R1-FULL",
+        "replicate": 1,
+        "seed": 597340313,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RLB87C95641B8494",
+            "RL9B05CA54A4E305"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R42BFCD43387295D"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": true,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B03",
+        "condition": "CHANNEL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-B03-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 597340313,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RLB87C95641B8494",
+            "RL9B05CA54A4E305"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R42BFCD43387295D"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M06",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M06-R1-DUAL",
+        "replicate": 1,
+        "seed": 2004987838,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RCBD2A0D9E157043",
+            "R9C738FCE7FAE44A"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RE2E7E09A1EABD31"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M06",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M06-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 2004987838,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RCBD2A0D9E157043",
+            "R9C738FCE7FAE44A"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RE2E7E09A1EABD31"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M06",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M06-R1-FULL",
+        "replicate": 1,
+        "seed": 2004987838,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RCBD2A0D9E157043",
+            "R9C738FCE7FAE44A"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RE2E7E09A1EABD31"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M03",
+        "condition": "CHANNEL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M03-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 1677411238,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R24379CBBE83F0A7",
+            "R65C72D5DD99C58F"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R0242E35FCF65894"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M03",
+        "condition": "FULL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M03-R1-FULL",
+        "replicate": 1,
+        "seed": 1677411238,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R24379CBBE83F0A7",
+            "R65C72D5DD99C58F"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R0242E35FCF65894"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M03",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M03-R1-DUAL",
+        "replicate": 1,
+        "seed": 1677411238,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R24379CBBE83F0A7",
+            "R65C72D5DD99C58F"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R0242E35FCF65894"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M09",
+        "condition": "CHANNEL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M09-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 1823121750,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R88C776C21CAD481",
+            "R1A31171BE9A8A40"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R99DB15A8285E83A"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M09",
+        "condition": "DUAL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M09-R1-DUAL",
+        "replicate": 1,
+        "seed": 1823121750,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R88C776C21CAD481",
+            "R1A31171BE9A8A40"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R99DB15A8285E83A"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M09",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M09-R1-FULL",
+        "replicate": 1,
+        "seed": 1823121750,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R88C776C21CAD481",
+            "R1A31171BE9A8A40"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R99DB15A8285E83A"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B04",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-B04-R1-DUAL",
+        "replicate": 1,
+        "seed": 1233115401,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL1FFFAB59207F54",
+            "RLE1209F5E2F677C"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RED652413E27715E"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B04",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-B04-R1-CHANNEL",
+        "replicate": 1,
+        "seed": 1233115401,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL1FFFAB59207F54",
+            "RLE1209F5E2F677C"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RED652413E27715E"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B04",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-B04-R1-FULL",
+        "replicate": 1,
+        "seed": 1233115401,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL1FFFAB59207F54",
+            "RLE1209F5E2F677C"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RED652413E27715E"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [
+            "$.origin_ids.channel:DUPLICATE_REF"
+          ],
+          "format_valid": false,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "FORMAT_REJECT"
+      },
+      {
+        "case": "RL01-M08",
+        "condition": "CHANNEL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M08-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 4293912,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "RF37413030426206",
+            "R4C3EB2EA5EE46B8"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RD62B3DCE445A3C9"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M08",
+        "condition": "DUAL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M08-R2-DUAL",
+        "replicate": 2,
+        "seed": 4293912,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "RF37413030426206",
+            "R4C3EB2EA5EE46B8"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RD62B3DCE445A3C9"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M08",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M08-R2-FULL",
+        "replicate": 2,
+        "seed": 4293912,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "RF37413030426206",
+            "R4C3EB2EA5EE46B8"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RD62B3DCE445A3C9"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M02",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M02-R2-DUAL",
+        "replicate": 2,
+        "seed": 860054174,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RC33F91208C09148",
+            "RA19FFE11B0C55B9"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R42FCC084BA840EA"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M02",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M02-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 860054174,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RC33F91208C09148",
+            "RA19FFE11B0C55B9"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R42FCC084BA840EA"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M02",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M02-R2-FULL",
+        "replicate": 2,
+        "seed": 860054174,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RC33F91208C09148",
+            "RA19FFE11B0C55B9"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R42FCC084BA840EA"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M11",
+        "condition": "CHANNEL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M11-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 1225341389,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R72F19F5179337D8",
+            "R4BD4A2A787CE295"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R6C71BC634F436D4"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M11",
+        "condition": "FULL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M11-R2-FULL",
+        "replicate": 2,
+        "seed": 1225341389,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R72F19F5179337D8",
+            "R4BD4A2A787CE295"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R6C71BC634F436D4"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": true,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M11",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M11-R2-DUAL",
+        "replicate": 2,
+        "seed": 1225341389,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R72F19F5179337D8",
+            "R4BD4A2A787CE295"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R6C71BC634F436D4"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B01",
+        "condition": "CHANNEL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-B01-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 785515281,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL65A29C0418C740",
+            "RLE5C4133F053BE1"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R1E0944421C96096"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B01",
+        "condition": "DUAL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-B01-R2-DUAL",
+        "replicate": 2,
+        "seed": 785515281,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL65A29C0418C740",
+            "RLE5C4133F053BE1"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R1E0944421C96096"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B01",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-B01-R2-FULL",
+        "replicate": 2,
+        "seed": 785515281,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL65A29C0418C740",
+            "RLE5C4133F053BE1"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R1E0944421C96096"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M12",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M12-R2-FULL",
+        "replicate": 2,
+        "seed": 2145401886,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R2B544B4380FFEF7",
+            "R907AA427A60A9F8"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R4C9D60D1BCA293F"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M12",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M12-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 2145401886,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R2B544B4380FFEF7",
+            "R907AA427A60A9F8"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R4C9D60D1BCA293F"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M12",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M12-R2-DUAL",
+        "replicate": 2,
+        "seed": 2145401886,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R2B544B4380FFEF7",
+            "R907AA427A60A9F8"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R4C9D60D1BCA293F"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M04",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M04-R2-DUAL",
+        "replicate": 2,
+        "seed": 905024123,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R25D5EFCB5FB95EC",
+            "R8070240ACC359BB"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R447D0AD6C2DCD0B"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M04",
+        "condition": "FULL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M04-R2-FULL",
+        "replicate": 2,
+        "seed": 905024123,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R25D5EFCB5FB95EC",
+            "R8070240ACC359BB"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R447D0AD6C2DCD0B"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": true,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M04",
+        "condition": "CHANNEL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M04-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 905024123,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R25D5EFCB5FB95EC",
+            "R8070240ACC359BB"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R447D0AD6C2DCD0B"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M01",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M01-R2-FULL",
+        "replicate": 2,
+        "seed": 445852953,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA9BA2DA3ED83049",
+            "R92758D5F6F982E3"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R12EBFAEB4F63707"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M01",
+        "condition": "DUAL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M01-R2-DUAL",
+        "replicate": 2,
+        "seed": 445852953,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA9BA2DA3ED83049",
+            "R92758D5F6F982E3"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R12EBFAEB4F63707"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M01",
+        "condition": "CHANNEL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M01-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 445852953,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA9BA2DA3ED83049",
+            "R92758D5F6F982E3"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "R12EBFAEB4F63707"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B02",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-B02-R2-DUAL",
+        "replicate": 2,
+        "seed": 530934110,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL58829D13B28B49",
+            "RL1C287FEA277562"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RCCA63A769B5233E"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B02",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-B02-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 530934110,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL58829D13B28B49",
+            "RL1C287FEA277562"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RCCA63A769B5233E"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B02",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-B02-R2-FULL",
+        "replicate": 2,
+        "seed": 530934110,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL58829D13B28B49",
+            "RL1C287FEA277562"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "RCCA63A769B5233E"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M07",
+        "condition": "CHANNEL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M07-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 1966753444,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R7230DF0CA0F426A",
+            "R191E00633AA0FFF"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RAD1108204DAFE92"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M07",
+        "condition": "DUAL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M07-R2-DUAL",
+        "replicate": 2,
+        "seed": 1966753444,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R7230DF0CA0F426A",
+            "R191E00633AA0FFF"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RAD1108204DAFE92"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M07",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M07-R2-FULL",
+        "replicate": 2,
+        "seed": 1966753444,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R7230DF0CA0F426A",
+            "R191E00633AA0FFF"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RAD1108204DAFE92"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": true,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M10",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M10-R2-DUAL",
+        "replicate": 2,
+        "seed": 1870071487,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R287A6768CF0F0F2",
+            "R16AE21BD30965FA"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R93691C2DD1BFB3D"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M10",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M10-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 1870071487,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R287A6768CF0F0F2",
+            "R16AE21BD30965FA"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R93691C2DD1BFB3D"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M10",
+        "condition": "FULL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M10-R2-FULL",
+        "replicate": 2,
+        "seed": 1870071487,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R287A6768CF0F0F2",
+            "R16AE21BD30965FA"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R93691C2DD1BFB3D"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M05",
+        "condition": "CHANNEL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M05-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 1672230258,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA5367F3428283DC",
+            "REBDA1A1CB50A2F1"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R31420A001C36B16"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M05",
+        "condition": "FULL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M05-R2-FULL",
+        "replicate": 2,
+        "seed": 1672230258,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA5367F3428283DC",
+            "REBDA1A1CB50A2F1"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R31420A001C36B16"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M05",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M05-R2-DUAL",
+        "replicate": 2,
+        "seed": 1672230258,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RA5367F3428283DC",
+            "REBDA1A1CB50A2F1"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R31420A001C36B16"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B03",
+        "condition": "CHANNEL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-B03-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 322161440,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RLB87C95641B8494",
+            "RL9B05CA54A4E305"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R42BFCD43387295D"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B03",
+        "condition": "FULL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-B03-R2-FULL",
+        "replicate": 2,
+        "seed": 322161440,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RLB87C95641B8494",
+            "RL9B05CA54A4E305"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R42BFCD43387295D"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": true,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B03",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-B03-R2-DUAL",
+        "replicate": 2,
+        "seed": 322161440,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RLB87C95641B8494",
+            "RL9B05CA54A4E305"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R42BFCD43387295D"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M06",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M06-R2-FULL",
+        "replicate": 2,
+        "seed": 526257885,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RCBD2A0D9E157043",
+            "R9C738FCE7FAE44A"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RE2E7E09A1EABD31"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": true,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M06",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M06-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 526257885,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RCBD2A0D9E157043",
+            "R9C738FCE7FAE44A"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RE2E7E09A1EABD31"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M06",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M06-R2-DUAL",
+        "replicate": 2,
+        "seed": 526257885,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "RCBD2A0D9E157043",
+            "R9C738FCE7FAE44A"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RE2E7E09A1EABD31"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M03",
+        "condition": "DUAL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M03-R2-DUAL",
+        "replicate": 2,
+        "seed": 704640284,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R24379CBBE83F0A7",
+            "R65C72D5DD99C58F"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R0242E35FCF65894"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M03",
+        "condition": "FULL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M03-R2-FULL",
+        "replicate": 2,
+        "seed": 704640284,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R24379CBBE83F0A7",
+            "R65C72D5DD99C58F"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R0242E35FCF65894"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M03",
+        "condition": "CHANNEL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M03-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 704640284,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "channel_origins": [
+            "R24379CBBE83F0A7",
+            "R65C72D5DD99C58F"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R0242E35FCF65894"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M09",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-M09-R2-FULL",
+        "replicate": 2,
+        "seed": 1097433866,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R88C776C21CAD481",
+            "R1A31171BE9A8A40"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R99DB15A8285E83A"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M09",
+        "condition": "DUAL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-M09-R2-DUAL",
+        "replicate": 2,
+        "seed": 1097433866,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R88C776C21CAD481",
+            "R1A31171BE9A8A40"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R99DB15A8285E83A"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-M09",
+        "condition": "CHANNEL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-M09-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 1097433866,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "channel_origins": [
+            "R88C776C21CAD481",
+            "R1A31171BE9A8A40"
+          ],
+          "mascot": "CAT",
+          "mascot_origins": [
+            "R99DB15A8285E83A"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B04",
+        "condition": "FULL",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RL01-B04-R2-FULL",
+        "replicate": 2,
+        "seed": 1619724331,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL1FFFAB59207F54",
+            "RLE1209F5E2F677C"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RED652413E27715E"
+          ]
+        },
+        "score": {
+          "attribution": {
+            "channel": {
+              "origins_exact": false,
+              "refs_exact": false
+            },
+            "mascot": {
+              "origins_exact": true,
+              "refs_exact": true
+            }
+          },
+          "attribution_applicable": true,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B04",
+        "condition": "CHANNEL",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RL01-B04-R2-CHANNEL",
+        "replicate": 2,
+        "seed": 1619724331,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL1FFFAB59207F54",
+            "RLE1209F5E2F677C"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RED652413E27715E"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": false,
+          "channel_output": "PAPER",
+          "errors": [],
+          "format_valid": true,
+          "mascot": null,
+          "mascot_applicable": false,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RL01-B04",
+        "condition": "DUAL",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RL01-B04-R2-DUAL",
+        "replicate": 2,
+        "seed": 1619724331,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "channel_origins": [
+            "RL1FFFAB59207F54",
+            "RLE1209F5E2F677C"
+          ],
+          "mascot": "DOG",
+          "mascot_origins": [
+            "RED652413E27715E"
+          ]
+        },
+        "score": {
+          "attribution": null,
+          "attribution_applicable": false,
+          "channel": true,
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "format_valid": true,
+          "mascot": true,
+          "mascot_applicable": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      }
+    ],
+    "performance": {
+      "FULL": {
+        "responses": 32,
+        "input_tokens": [
+          736,
+          735,
+          741,
+          742,
+          742,
+          733,
+          733,
+          738,
+          734,
+          735,
+          736,
+          738,
+          738,
+          742,
+          740,
+          735,
+          736,
+          735,
+          741,
+          742,
+          742,
+          733,
+          733,
+          738,
+          734,
+          735,
+          736,
+          738,
+          738,
+          742,
+          740,
+          735
+        ],
+        "output_tokens": [
+          165,
+          164,
+          143,
+          114,
+          113,
+          112,
+          111,
+          143,
+          110,
+          112,
+          114,
+          166,
+          112,
+          113,
+          113,
+          167,
+          112,
+          111,
+          168,
+          114,
+          113,
+          163,
+          111,
+          112,
+          162,
+          112,
+          114,
+          166,
+          165,
+          113,
+          113,
+          112
+        ],
+        "generation_seconds": [
+          10.038384721000511,
+          8.533659599999737,
+          7.465637690999756,
+          5.985230773999319,
+          5.935273494999819,
+          5.884274425000513,
+          5.830677715999627,
+          7.464400599999863,
+          5.7803330259994254,
+          5.882523674999902,
+          5.9860097240007235,
+          8.636499418999847,
+          5.8839359650000915,
+          5.936982565000108,
+          5.935017294999852,
+          8.685833718999675,
+          5.884859754999525,
+          5.83220610600074,
+          8.737532557999657,
+          5.985650394000004,
+          5.934593174999463,
+          8.481291910999971,
+          5.830622925999705,
+          5.883618994999779,
+          8.429986852000184,
+          5.88315475499985,
+          5.986625624000226,
+          8.636160359000314,
+          8.584540980000384,
+          5.934883975000048,
+          5.935700474000441,
+          5.883184764999896
+        ]
+      },
+      "DUAL": {
+        "responses": 32,
+        "input_tokens": [
+          405,
+          404,
+          410,
+          411,
+          411,
+          402,
+          402,
+          407,
+          403,
+          404,
+          405,
+          407,
+          407,
+          411,
+          409,
+          404,
+          405,
+          404,
+          410,
+          411,
+          411,
+          402,
+          402,
+          407,
+          403,
+          404,
+          405,
+          407,
+          407,
+          411,
+          409,
+          404
+        ],
+        "output_tokens": [
+          32,
+          32,
+          32,
+          32,
+          31,
+          31,
+          32,
+          32,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          31,
+          32,
+          31,
+          32,
+          32,
+          31,
+          32,
+          32,
+          31,
+          31,
+          32,
+          31,
+          31,
+          31,
+          32,
+          32,
+          31,
+          31
+        ],
+        "generation_seconds": [
+          1.7308066040004633,
+          1.7296878740007742,
+          1.7289006040000459,
+          1.7297349030004625,
+          1.6784806450004908,
+          1.6791233040003135,
+          1.7295211440005005,
+          1.7291960940001445,
+          1.6785442640002657,
+          1.6791153940002914,
+          1.6786580939997293,
+          1.6785757039997407,
+          1.6788253340000665,
+          1.6788109549997898,
+          1.6786706749999212,
+          1.729623313999582,
+          1.6786470650004048,
+          1.7296564240004955,
+          1.7294181340002979,
+          1.6784547939996628,
+          1.7313773740006582,
+          1.7296680240006026,
+          1.6783215340001334,
+          1.678568114999507,
+          1.7292611440007022,
+          1.678618383999492,
+          1.6788565840006413,
+          1.6786303140006567,
+          1.7296664639998198,
+          1.7293788440001663,
+          1.6788690240000506,
+          1.6787971749999997
+        ]
+      },
+      "CHANNEL": {
+        "responses": 32,
+        "input_tokens": [
+          372,
+          371,
+          377,
+          378,
+          378,
+          369,
+          369,
+          374,
+          370,
+          371,
+          372,
+          374,
+          374,
+          378,
+          376,
+          371,
+          372,
+          371,
+          377,
+          378,
+          378,
+          369,
+          369,
+          374,
+          370,
+          371,
+          372,
+          374,
+          374,
+          378,
+          376,
+          371
+        ],
+        "output_tokens": [
+          21,
+          21,
+          8,
+          21,
+          22,
+          9,
+          22,
+          21,
+          9,
+          9,
+          22,
+          22,
+          22,
+          21,
+          21,
+          22,
+          21,
+          21,
+          8,
+          22,
+          22,
+          8,
+          22,
+          22,
+          21,
+          21,
+          8,
+          22,
+          22,
+          8,
+          21,
+          22
+        ],
+        "generation_seconds": [
+          1.1558421390000149,
+          1.1554581990003499,
+          0.49458804599998984,
+          1.1567358090005655,
+          1.2075140889992326,
+          0.5443708549992152,
+          1.2062093489994368,
+          1.1556460689998858,
+          0.5445472440005688,
+          0.5445196149994445,
+          1.2065391090000048,
+          1.2067777689999275,
+          1.2066291889996137,
+          1.1568168089997926,
+          1.156237350000083,
+          1.2063928690004104,
+          1.1557829499997752,
+          1.1555601190002562,
+          0.4947636959996089,
+          1.2074725889997353,
+          1.2076919880000787,
+          0.4934794459995828,
+          1.2064253290000124,
+          1.2067906379998021,
+          1.1558207790003507,
+          1.1556335389996093,
+          0.49399816499953886,
+          1.206594299000244,
+          1.206776589000583,
+          0.4948993159996462,
+          1.156140158999733,
+          1.2064778490002936
+        ]
+      }
+    }
+  }
+}

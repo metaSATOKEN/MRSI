@@ -1,0 +1,1 @@
+{"mascot":"CAT","mascot_read_refs":["PRIVATE"],"mascot_origin_ids":["JV"],"channel":"PAPER","channel_read_refs":["GROUP"],"channel_origin_ids":["LT","NR"]}

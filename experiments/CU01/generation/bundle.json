@@ -1,0 +1,103 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "1986caed431e49108fda663de4d6a8fa5fe3088df2b29b6527b6312a6db85a8c",
+    "design.md": "ee42c13b0f49f3c0696de5715330b80c37b47b790ab100f657064d8959f57f3f",
+    "materials/contract.json": "280df1cd3bc35c80d0e1179bfcc7042209c9426db4f8176a3d067763de401711",
+    "materials/frozen.json": "b33feb1855c0d7b939bc4b40995f87fc3ad5d2fc58a8a70ba52a1087cfdf1c09",
+    "requests.jsonl": "92ae04521e8dfd9557e8ec5cb7f0058cd70f4ca22a3e454a72cb8cd7c2e0d758",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/customer_update_01_bootstrap.py": "ef8d1ad1aedfbcea4746e52de011e6748ba65c2b79af8866d37ce926f5b3c226",
+    "source/customer_update_01_design.py": "c13e874252a685dbce375a4ccd3460da8ff1ead29115dadcc98b6ff32ca86be1",
+    "source/customer_update_01_runtime.py": "35b9463cf20a2a7902a0b2563ddd9fe0f879c0bac19e443df49c94ad56e0110d",
+    "source/owner_recency_01_scoring.py": "ac7c106f9f187b03b97ff2870fa1dab484b6545790eadaa81c3f4cc9d7c54d93",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/role_shared_use_01_design.py": "4bed01f5c3f1bb5ae0c9d460e7dbd08957647ea09cf945790ef5e0d41b64fb73",
+    "source/saved_readout_01_scoring.py": "771585161c56963b938bb13ef36decafdaa9711125adfc1f3abc5eef4a73525a",
+    "source/self_update_exchange_01_scoring.py": "fd16676eeaba1ece236552395fc8b5955e051b73feb10a3f43d5771a3bf53784",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "source/update_readout_01_scoring.py": "b7ec099775e4065297a2a98e95239dc0f07422cc918c93f07b1871dacff41b85",
+    "supervisor.py": "0444bf08ddbdbb19007f3d224b17c46ea0e68fb0c1e5bf285c78fe4e819cc826"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "3f0ac622b34f129c0acf6b4a855ea0c0f49f8c16074a37ccc93a912aa68cec01",
+  "original_payload_sha256": "408ad662c284e4d468f2ac0906664c693d90ee3019d8e40a593f6e6cd9573d13",
+  "original_supervisor_sha256": "ef8d1ad1aedfbcea4746e52de011e6748ba65c2b79af8866d37ce926f5b3c226",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "customer_update_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/customer_update_01_bootstrap.py"
+          },
+          "customer_update_01_design.py": {
+            "kind": "text",
+            "path": "source/customer_update_01_design.py"
+          },
+          "customer_update_01_runtime.py": {
+            "kind": "text",
+            "path": "source/customer_update_01_runtime.py"
+          },
+          "owner_recency_01_scoring.py": {
+            "kind": "text",
+            "path": "source/owner_recency_01_scoring.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "role_shared_use_01_design.py": {
+            "kind": "text",
+            "path": "source/role_shared_use_01_design.py"
+          },
+          "saved_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/saved_readout_01_scoring.py"
+          },
+          "self_update_exchange_01_scoring.py": {
+            "kind": "text",
+            "path": "source/self_update_exchange_01_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          },
+          "update_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_scoring.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "CU01"
+}

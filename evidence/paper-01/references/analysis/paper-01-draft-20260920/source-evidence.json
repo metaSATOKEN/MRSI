@@ -1,0 +1,972 @@
+{
+  "at": "2026-09-20T10:17:20.601640+00:00",
+  "basis": "Checkpoint manifest verified (17 anchors); 11 reports and 11 analyses match saved checkpoint hashes. Existing metrics only; no reanalysis.",
+  "checkpoint_source": "throughline/audits/checkpoints/shared-state-20260920/source-verification.json",
+  "studies": [
+    {
+      "study": "shared-carry-01",
+      "manifests": [
+        {
+          "path": "study2/runs/shared-carry-01-prepared-20260918/completion.json",
+          "sha256": "3ac3b49ca9e7c4868e2350cf223e5f5743f7fd877d44b65de513959646da6ec1",
+          "files": 2500,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/shared-carry-01-live-20260918/live-completion.json",
+          "sha256": "be64ccb66973df4777b94f2cffdf61f944560dc2c2c82cc6172eaf5643516a2b",
+          "files": 31,
+          "errors": []
+        }
+      ],
+      "report": "study2/shared-carry-01-results-v0.1-2026-09-18.md",
+      "report_sha256": "447f5c421575eb34c3f32b50c20771672243ee3b9dfdab81235d8e6c47025e99",
+      "analysis": "study2/runs/shared-carry-01-prepared-20260918/analysis.json",
+      "analysis_sha256": "39265fd7b72e142dbedf4c30742f0ee09e1e09ed2575e52c20669bb64baade90",
+      "saved_summary": {
+        "planned_groups": 4,
+        "planned_slots": 64,
+        "prediction_status": "NOT_MET_IN_FIXED_SAMPLE",
+        "status_counts": {
+          "VALID": 64
+        },
+        "F": [
+          0.5,
+          0.5
+        ],
+        "E_BOTH": [
+          0.5,
+          0.5
+        ],
+        "E_VALUE": [
+          0.5,
+          0.5
+        ]
+      },
+      "acquisition_closure": {
+        "at": "2026-09-18T07:38:53.290889+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_DESCRIPTIVE",
+        "planned_slots": 64,
+        "claimed_physical_requests": 64,
+        "invoked_sender_requests": 64,
+        "overload_resends": 0,
+        "seconds": 559.0289703346789,
+        "completed_logical_outputs": 64,
+        "automatic_resume": false
+      }
+    },
+    {
+      "study": "shared-update-01",
+      "manifests": [
+        {
+          "path": "study2/runs/shared-update-01-prepared-20260918/completion.json",
+          "sha256": "77d74f1ca6451a9987b5379e290d9419843795678c01a8b87ba3a94753cf8c1f",
+          "files": 2655,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/shared-update-01-live-20260918/live-completion.json",
+          "sha256": "fc5ad7e9a8816a9c6dec2751c6d54bb17e9e3e2145b5079bd3cbd0bce96e8e36",
+          "files": 36,
+          "errors": []
+        }
+      ],
+      "report": "study2/shared-update-01-results-v0.1-2026-09-18.md",
+      "report_sha256": "8e06ff99474009d36d64a691837f2dab401461ccc293d36d40df58d0123d667c",
+      "analysis": "study2/runs/shared-update-01-prepared-20260918/analysis.json",
+      "analysis_sha256": "c8a619a845f773b76cc7bb5beba74e9b58cd706a19df248b2778530d95945f5e",
+      "saved_summary": {
+        "planned_groups": 4,
+        "planned_slots": 72,
+        "prediction_status": "NOT_MET_IN_FIXED_SAMPLE",
+        "status_counts": {
+          "VALID": 66,
+          "STRUCTURAL_MISSING": 1,
+          "DEPENDENCY_UNISSUED": 5
+        },
+        "C_PAIR": [
+          0.0,
+          0.0
+        ],
+        "C_PAIR_CONTENT": [
+          0.0,
+          0.25
+        ]
+      },
+      "acquisition_closure": {
+        "at": "2026-09-18T08:53:52.877247+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_WITH_STRUCTURAL_MISSINGNESS",
+        "planned_slots": 72,
+        "claimed_physical_requests": 67,
+        "invoked_sender_requests": 67,
+        "overload_resends": 0,
+        "seconds": 578.6411173306406,
+        "completed_logical_outputs": 67,
+        "automatic_resume": false
+      }
+    },
+    {
+      "study": "record-decision-01",
+      "manifests": [
+        {
+          "path": "study2/runs/record-decision-01-prepared-20260918/completion.json",
+          "sha256": "889376f91c2f239c1f138820f68e04cdb8f4163e242c89c3e4855f01abfc68b7",
+          "files": 1255,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/record-decision-01-live-20260918/live-completion.json",
+          "sha256": "ac0f7ec83264ade1d71ebe59b93c5dfc810e4d924a8f111739add5cf56f494c2",
+          "files": 37,
+          "errors": []
+        }
+      ],
+      "report": "study2/record-decision-01-results-v0.1-2026-09-18.md",
+      "report_sha256": "351cba3371764ca6f4753fbc8f5ff0342dd20aacb45e8ea3340b30fd064c6a37",
+      "analysis": "study2/runs/record-decision-01-prepared-20260918/analysis.json",
+      "analysis_sha256": "976c35ada0aa32bd4f15afda4c79cf379abad011aa26a6725a69240e270f5c8e",
+      "saved_summary": {
+        "prediction_status": "LOCAL_POSITIVE",
+        "status_counts": {
+          "VALID": 32
+        },
+        "summaries": {
+          "ALL_ALL": {
+            "WITH_RULE": {
+              "planned": 8,
+              "statuses": {
+                "VALID": 8
+              },
+              "metrics": {
+                "H": [
+                  0.125,
+                  0.125
+                ],
+                "V": [
+                  0.125,
+                  0.125
+                ],
+                "BOTH_UNKNOWN": [
+                  0.875,
+                  0.875
+                ],
+                "ANY_UNKNOWN": [
+                  0.875,
+                  0.875
+                ],
+                "I": [
+                  1.0,
+                  1.0
+                ],
+                "O": [
+                  1.0,
+                  1.0
+                ],
+                "J": [
+                  0.125,
+                  0.125
+                ]
+              },
+              "fields": {
+                "customer.subject": [
+                  1.0,
+                  1.0
+                ],
+                "customer.animal": [
+                  1.0,
+                  1.0
+                ],
+                "customer.origin_id": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.observer": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.paper": [
+                  0.125,
+                  0.125
+                ],
+                "coverage.digital": [
+                  0.125,
+                  0.125
+                ],
+                "coverage.origin_id": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "RECORD_ONLY": {
+              "planned": 8,
+              "statuses": {
+                "VALID": 8
+              },
+              "metrics": {
+                "H": [
+                  1.0,
+                  1.0
+                ],
+                "V": [
+                  1.0,
+                  1.0
+                ],
+                "BOTH_UNKNOWN": [
+                  0.0,
+                  0.0
+                ],
+                "ANY_UNKNOWN": [
+                  0.0,
+                  0.0
+                ],
+                "I": [
+                  1.0,
+                  1.0
+                ],
+                "O": [
+                  1.0,
+                  1.0
+                ],
+                "J": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "fields": {
+                "customer.subject": [
+                  1.0,
+                  1.0
+                ],
+                "customer.animal": [
+                  1.0,
+                  1.0
+                ],
+                "customer.origin_id": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.observer": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.paper": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.digital": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.origin_id": [
+                  1.0,
+                  1.0
+                ]
+              }
+            }
+          },
+          "MIXED": {
+            "WITH_RULE": {
+              "planned": 8,
+              "statuses": {
+                "VALID": 8
+              },
+              "metrics": {
+                "H": [
+                  1.0,
+                  1.0
+                ],
+                "V": [
+                  1.0,
+                  1.0
+                ],
+                "BOTH_UNKNOWN": [
+                  0.0,
+                  0.0
+                ],
+                "ANY_UNKNOWN": [
+                  0.0,
+                  0.0
+                ],
+                "I": [
+                  1.0,
+                  1.0
+                ],
+                "O": [
+                  1.0,
+                  1.0
+                ],
+                "J": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "fields": {
+                "customer.subject": [
+                  1.0,
+                  1.0
+                ],
+                "customer.animal": [
+                  1.0,
+                  1.0
+                ],
+                "customer.origin_id": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.observer": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.paper": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.digital": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.origin_id": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "RECORD_ONLY": {
+              "planned": 8,
+              "statuses": {
+                "VALID": 8
+              },
+              "metrics": {
+                "H": [
+                  1.0,
+                  1.0
+                ],
+                "V": [
+                  1.0,
+                  1.0
+                ],
+                "BOTH_UNKNOWN": [
+                  0.0,
+                  0.0
+                ],
+                "ANY_UNKNOWN": [
+                  0.0,
+                  0.0
+                ],
+                "I": [
+                  1.0,
+                  1.0
+                ],
+                "O": [
+                  1.0,
+                  1.0
+                ],
+                "J": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "fields": {
+                "customer.subject": [
+                  1.0,
+                  1.0
+                ],
+                "customer.animal": [
+                  1.0,
+                  1.0
+                ],
+                "customer.origin_id": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.observer": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.paper": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.digital": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.origin_id": [
+                  1.0,
+                  1.0
+                ]
+              }
+            }
+          },
+          "ALL": {
+            "WITH_RULE": {
+              "planned": 16,
+              "statuses": {
+                "VALID": 16
+              },
+              "metrics": {
+                "H": [
+                  0.5625,
+                  0.5625
+                ],
+                "V": [
+                  0.5625,
+                  0.5625
+                ],
+                "BOTH_UNKNOWN": [
+                  0.4375,
+                  0.4375
+                ],
+                "ANY_UNKNOWN": [
+                  0.4375,
+                  0.4375
+                ],
+                "I": [
+                  1.0,
+                  1.0
+                ],
+                "O": [
+                  1.0,
+                  1.0
+                ],
+                "J": [
+                  0.5625,
+                  0.5625
+                ]
+              },
+              "fields": {
+                "customer.subject": [
+                  1.0,
+                  1.0
+                ],
+                "customer.animal": [
+                  1.0,
+                  1.0
+                ],
+                "customer.origin_id": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.observer": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.paper": [
+                  0.5625,
+                  0.5625
+                ],
+                "coverage.digital": [
+                  0.5625,
+                  0.5625
+                ],
+                "coverage.origin_id": [
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            "RECORD_ONLY": {
+              "planned": 16,
+              "statuses": {
+                "VALID": 16
+              },
+              "metrics": {
+                "H": [
+                  1.0,
+                  1.0
+                ],
+                "V": [
+                  1.0,
+                  1.0
+                ],
+                "BOTH_UNKNOWN": [
+                  0.0,
+                  0.0
+                ],
+                "ANY_UNKNOWN": [
+                  0.0,
+                  0.0
+                ],
+                "I": [
+                  1.0,
+                  1.0
+                ],
+                "O": [
+                  1.0,
+                  1.0
+                ],
+                "J": [
+                  1.0,
+                  1.0
+                ]
+              },
+              "fields": {
+                "customer.subject": [
+                  1.0,
+                  1.0
+                ],
+                "customer.animal": [
+                  1.0,
+                  1.0
+                ],
+                "customer.origin_id": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.observer": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.paper": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.digital": [
+                  1.0,
+                  1.0
+                ],
+                "coverage.origin_id": [
+                  1.0,
+                  1.0
+                ]
+              }
+            }
+          }
+        }
+      },
+      "acquisition_closure": {
+        "at": "2026-09-18T10:28:01.129575+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_DESCRIPTIVE",
+        "planned_slots": 32,
+        "claimed_physical_requests": 32,
+        "invoked_sender_requests": 32,
+        "overload_resends": 0,
+        "seconds": 253.79458233341575,
+        "completed_logical_outputs": 32,
+        "automatic_resume": false
+      }
+    },
+    {
+      "study": "shared-carry-02",
+      "manifests": [
+        {
+          "path": "study2/runs/shared-carry-02-prepared-20260918/completion.json",
+          "sha256": "9321d59c983b3d966fbbc7c97cd18b1a362c0622ad525c5083fa638ccc601f1c",
+          "files": 555,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/shared-carry-02-live-20260918/live-completion.json",
+          "sha256": "b26825635bec439b175975f5f9cf7818a5ee82e859674ed5e4c28c85eb60d529",
+          "files": 38,
+          "errors": []
+        }
+      ],
+      "report": "study2/shared-carry-02-results-v0.1-2026-09-18.md",
+      "report_sha256": "857c355bf161435b805ff8f820148a6fabc146669ba9b32ad7e5091e3f6d5fdc",
+      "analysis": "study2/runs/shared-carry-02-prepared-20260918/analysis.json",
+      "analysis_sha256": "4c6956f9addfa75e5706b3d75f7b2d941bdb8423ab17ff3500b993e01b6b213b",
+      "saved_summary": {
+        "prediction_status": "INCONCLUSIVE",
+        "status_counts": {
+          "VALID": 8,
+          "STRUCTURAL_MISSING": 4,
+          "DEPENDENCY_UNISSUED": 36
+        },
+        "F": [
+          0.0,
+          1.0
+        ],
+        "E_BOTH": [
+          0.0,
+          1.0
+        ],
+        "E_NOREF": [
+          0.0,
+          1.0
+        ]
+      },
+      "acquisition_closure": {
+        "at": "2026-09-18T13:12:14.589549+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_WITH_STRUCTURAL_MISSINGNESS",
+        "planned_slots": 48,
+        "claimed_physical_requests": 12,
+        "invoked_sender_requests": 12,
+        "overload_resends": 0,
+        "seconds": 119.71868266910315,
+        "completed_logical_outputs": 12,
+        "automatic_resume": false
+      }
+    },
+    {
+      "study": "shared-carry-03",
+      "manifests": [
+        {
+          "path": "study2/runs/shared-carry-03-prepared-20260918/completion.json",
+          "sha256": "531a9df9cb413584744a0b99d3556c46d7438e05d769e372a334a54231e7c086",
+          "files": 1915,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/shared-carry-03-live-20260918/live-completion.json",
+          "sha256": "af8f92fbde36996c72f0aa8b4b042d47ed656f1790b8a0407245f83d703eceff",
+          "files": 36,
+          "errors": []
+        }
+      ],
+      "report": "study2/shared-carry-03-results-v0.1-2026-09-18.md",
+      "report_sha256": "b6f77e1ea04bd7062405b713fb6fb14a98ee42cad421a0040cd4bbf8ae247125",
+      "analysis": "study2/runs/shared-carry-03-prepared-20260918/analysis.json",
+      "analysis_sha256": "e008252ba7efb43b393f6b57fd8dceb4b5dadebc4e3ecae9cd0f4ca8c1e04ee8",
+      "saved_summary": {
+        "prediction_status": "MET_IN_FIXED_SAMPLE",
+        "status_counts": {
+          "VALID": 48
+        },
+        "F": [
+          1.0,
+          1.0
+        ],
+        "E_BOTH": [
+          1.0,
+          1.0
+        ],
+        "E_NOREF": [
+          1.0,
+          1.0
+        ]
+      },
+      "acquisition_closure": {
+        "at": "2026-09-18T14:13:36.387422+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_DESCRIPTIVE",
+        "planned_slots": 48,
+        "claimed_physical_requests": 48,
+        "invoked_sender_requests": 48,
+        "overload_resends": 0,
+        "seconds": 426.04286262393,
+        "completed_logical_outputs": 48,
+        "automatic_resume": false
+      }
+    },
+    {
+      "study": "shared-update-02",
+      "manifests": [
+        {
+          "path": "study2/runs/shared-update-02-prepared-20260919/completion.json",
+          "sha256": "fcd481d0ba00aaa818f657f566d89afd7a33c2b04b98a06033220a560bf522eb",
+          "files": 1925,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/shared-update-02-live-20260919/live-completion.json",
+          "sha256": "782965bf79d522add59a1581a19923e360e2231f0cd6add170be4ae65c2380b6",
+          "files": 36,
+          "errors": []
+        }
+      ],
+      "report": "study2/shared-update-02-results-v0.1-2026-09-19.md",
+      "report_sha256": "80ba1c1d5e73161e9dcb538ccef6f53d660b10e5a7bbf0404cfac479d9fb01af",
+      "analysis": "study2/runs/shared-update-02-prepared-20260919/analysis.json",
+      "analysis_sha256": "5c3ae052ad874f518adda22fdd5ed35434aabf167ebe57d17fa2ccc47da652f8",
+      "saved_summary": {
+        "planned_groups": 4,
+        "planned_slots": 48,
+        "prediction_status": "NOT_MET_IN_FIXED_SAMPLE",
+        "status_counts": {
+          "VALID": 48
+        },
+        "C_PAIR": [
+          0.75,
+          0.75
+        ],
+        "C_PAIR_CONTENT": [
+          0.75,
+          0.75
+        ]
+      },
+      "acquisition_closure": {
+        "at": "2026-09-19T07:40:02.011462+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_DESCRIPTIVE",
+        "planned_slots": 48,
+        "claimed_physical_requests": 48,
+        "invoked_sender_requests": 48,
+        "overload_resends": 0,
+        "seconds": 545.8031358793378,
+        "completed_logical_outputs": 48,
+        "automatic_resume": false
+      }
+    },
+    {
+      "study": "shared-recency-01",
+      "manifests": [
+        {
+          "path": "study2/runs/shared-recency-01-prepared-20260919/completion.json",
+          "sha256": "a5b7428e3485ebcbf2e914bbcb42f5a3950401daa5f65bd87b2c22e84dc13fd9",
+          "files": 1321,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/shared-recency-01-live-20260919/live-completion.json",
+          "sha256": "0c54c27352121e31d8224379c448afcd6100e86d0c055489e4bdd3e9f20d5f07",
+          "files": 40,
+          "errors": []
+        }
+      ],
+      "report": "study2/shared-recency-01-results-v0.1-2026-09-19.md",
+      "report_sha256": "74ca696a67bf67f12a36fe2145a1557b8e86336c38dfaeea42c022ba36a14600",
+      "analysis": "study2/runs/shared-recency-01-prepared-20260919/analysis.json",
+      "analysis_sha256": "5ac5c4d76c68c6947ab07b093c73a83db61a8e455e821fdbe1c17e98911b8498",
+      "saved_summary": {
+        "planned_groups": 4,
+        "planned_slots": 32,
+        "prediction_status": "NOT_MET_IN_FIXED_SAMPLE",
+        "status_counts": {
+          "VALID": 32
+        },
+        "E_PAIR": [
+          0.0,
+          0.0
+        ],
+        "E_PAIR_CONTENT": [
+          1.0,
+          1.0
+        ]
+      },
+      "acquisition_closure": {
+        "at": "2026-09-19T08:25:38.419160+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_DESCRIPTIVE",
+        "planned_slots": 32,
+        "claimed_physical_requests": 32,
+        "invoked_sender_requests": 32,
+        "overload_resends": 0,
+        "seconds": 377.16082533076406,
+        "completed_logical_outputs": 32,
+        "automatic_resume": false
+      }
+    },
+    {
+      "study": "shared-merge-01",
+      "manifests": [
+        {
+          "path": "study2/runs/shared-merge-01-prepared-20260919/completion.json",
+          "sha256": "f8026b6effa5362dbb77db56bbf4eb15bd0aaf3669e1c6ddfa2713f549ea74ec",
+          "files": 1360,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/shared-merge-01-live-20260919/live-completion.json",
+          "sha256": "5c7f1620ed994b2e5f572558c2260a868b93262fcea4c51e2d42c03e11299214",
+          "files": 31,
+          "errors": []
+        }
+      ],
+      "report": "study2/shared-merge-01-results-v0.1-2026-09-19.md",
+      "report_sha256": "b40ee6dd392f8f2a69afde861af2a00eb0f3086dcef5c1eec6fee5075d41009d",
+      "analysis": "study2/runs/shared-merge-01-prepared-20260919/analysis.json",
+      "analysis_sha256": "70956b0d952131ff1d49e293f31d78aa208068dccef3f16eee35f413007866b6",
+      "saved_summary": {
+        "planned_groups": 4,
+        "planned_slots": 32,
+        "prediction_status": "MET_IN_FIXED_SAMPLE",
+        "status_counts": {
+          "VALID": 32
+        },
+        "M_PAIR": [
+          1.0,
+          1.0
+        ],
+        "M_PAIR_CONTENT": [
+          1.0,
+          1.0
+        ]
+      },
+      "acquisition_closure": {
+        "at": "2026-09-19T11:42:08.636395+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_DESCRIPTIVE",
+        "planned_slots": 32,
+        "claimed_physical_requests": 32,
+        "invoked_sender_requests": 32,
+        "overload_resends": 0,
+        "seconds": 354.3973921686411,
+        "completed_logical_outputs": 32,
+        "automatic_resume": false
+      }
+    },
+    {
+      "study": "shared-merge-02",
+      "manifests": [
+        {
+          "path": "study2/runs/shared-merge-02-prepared-20260919/completion.json",
+          "sha256": "8d9fc3ac88ae6ac37113623f0147bc65c4ca1a285dfa5655776bd9e1fca503d5",
+          "files": 1356,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/shared-merge-02-live-20260919/live-completion.json",
+          "sha256": "5a033080956b459c462498c4cc90538b3f6b3d350dd23e462c2f290b29ddf150",
+          "files": 33,
+          "errors": []
+        }
+      ],
+      "report": "study2/shared-merge-02-results-v0.1-2026-09-19.md",
+      "report_sha256": "baeb15194a4d2e494b15f1639a48c5e1c95c72fce73aa8a69652394380c24f99",
+      "analysis": "study2/runs/shared-merge-02-prepared-20260919/analysis.json",
+      "analysis_sha256": "59c751ecd4e9473597aede8fc96bc403037a6114bddf5e40acd62de4d33a4f53",
+      "saved_summary": {
+        "planned_groups": 4,
+        "planned_slots": 32,
+        "prediction_status": "MET_IN_FIXED_SAMPLE",
+        "status_counts": {
+          "VALID": 32
+        },
+        "M_PAIR_2": [
+          0.75,
+          0.75
+        ],
+        "M_PAIR_2_CONTENT": [
+          1.0,
+          1.0
+        ]
+      },
+      "acquisition_closure": {
+        "at": "2026-09-19T12:26:45.538967+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_DESCRIPTIVE",
+        "planned_slots": 32,
+        "claimed_physical_requests": 32,
+        "invoked_sender_requests": 32,
+        "overload_resends": 0,
+        "seconds": 399.8410747535527,
+        "completed_logical_outputs": 32,
+        "automatic_resume": false
+      }
+    },
+    {
+      "study": "row-carry-01",
+      "manifests": [
+        {
+          "path": "study2/runs/row-carry-01-prepared-20260919/completion.json",
+          "sha256": "143a0453c80ddd8d642827526e4e10150d58f7d53f7b79196596cf0d46dabcda",
+          "files": 1399,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/row-carry-01-live-20260919/live-completion.json",
+          "sha256": "6be2b1a238835450db0899db0029dc407c57609eaddbbe5e50b1b38099b93d20",
+          "files": 35,
+          "errors": []
+        }
+      ],
+      "report": "study2/row-carry-01-results-v0.1-2026-09-19.md",
+      "report_sha256": "32025402920105ce0bc814bcbc0df3f45ced7c8b95868b3a910a6400116e6a4c",
+      "analysis": "study2/runs/row-carry-01-prepared-20260919/analysis.json",
+      "analysis_sha256": "485ccbb338646bc7bd965a1ebf5fe0b94711d1377638cbabe3df9d8427e36588",
+      "saved_summary": {
+        "planned_groups": 4,
+        "planned_slots": 32,
+        "prediction_status": "MET_IN_FIXED_SAMPLE",
+        "status_counts": {
+          "VALID": 32
+        },
+        "M_END": {
+          "REWRITE": [
+            0.75,
+            0.75
+          ],
+          "SELECT": [
+            1.0,
+            1.0
+          ]
+        },
+        "M_END_CONTENT": {
+          "REWRITE": [
+            1.0,
+            1.0
+          ],
+          "SELECT": [
+            1.0,
+            1.0
+          ]
+        },
+        "DELTA": [
+          0.25,
+          0.25
+        ],
+        "DELTA_CONTENT": [
+          0.0,
+          0.0
+        ]
+      },
+      "acquisition_closure": {
+        "at": "2026-09-19T13:13:48.651213+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_DESCRIPTIVE",
+        "planned_slots": 32,
+        "claimed_physical_requests": 32,
+        "invoked_sender_requests": 32,
+        "overload_resends": 0,
+        "seconds": 453.2234586700797,
+        "completed_logical_outputs": 32,
+        "automatic_resume": false
+      }
+    },
+    {
+      "study": "row-carry-02",
+      "manifests": [
+        {
+          "path": "study2/runs/row-carry-02-prepared-20260920/completion.json",
+          "sha256": "50297326ac32b3768d2222f97b2393267a0e7be4d64c91e6694bb073394b7a12",
+          "files": 1069,
+          "errors": []
+        },
+        {
+          "path": "study2/checks/row-carry-02-live-20260920/live-completion.json",
+          "sha256": "52796ba29d2645a66e6b19ea26ef5fc6e5ccc92d8d53700f9e239d76542afaa1",
+          "files": 34,
+          "errors": []
+        }
+      ],
+      "report": "study2/row-carry-02-results-v0.1-2026-09-20.md",
+      "report_sha256": "855862e1fb3ddde99d4387fcd287e85fbf2b34cc1d45a7b976bfe51affe9f3fb",
+      "analysis": "study2/runs/row-carry-02-prepared-20260920/analysis.json",
+      "analysis_sha256": "09d97afbeeff28c7eeff79eccfabb1eb42594a24c609cbccfdee0cbec7907f02",
+      "saved_summary": {
+        "planned_groups": 4,
+        "planned_slots": 24,
+        "prediction_status": "MET_IN_FIXED_SAMPLE",
+        "status_counts": {
+          "VALID": 24
+        },
+        "M_CONT": [
+          1.0,
+          1.0
+        ],
+        "M_CONT_CONTENT": [
+          1.0,
+          1.0
+        ]
+      },
+      "acquisition_closure": {
+        "at": "2026-09-20T05:21:08.385661+00:00",
+        "mode": "LIVE_PENDING_GO",
+        "status": "COMPLETE_DESCRIPTIVE",
+        "planned_slots": 24,
+        "claimed_physical_requests": 24,
+        "invoked_sender_requests": 24,
+        "overload_resends": 0,
+        "seconds": 259.2822311632335,
+        "completed_logical_outputs": 24,
+        "automatic_resume": false
+      }
+    }
+  ]
+}

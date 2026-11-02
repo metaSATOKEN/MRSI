@@ -1,0 +1,970 @@
+[
+  {
+    "parent": "OR01-G04-R1",
+    "case": "UR01-G04",
+    "source_group": "E1-G33",
+    "set": "GUARD",
+    "holder": "B",
+    "shared_bad": [
+      "B"
+    ],
+    "private_bad": true,
+    "proposal": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "R9F60A5F93AF9EB5"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "RC8F75EA53DB1A52",
+          "revision": 1
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "RE4CA1D76FE86E82",
+            "revision": 4
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "RC8F75EA53DB1A52",
+            "revision": 1
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "CAT",
+          "origin_id": "R9F60A5F93AF9EB5",
+          "subject": "B"
+        },
+        "coverage": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "RCB37DA81492D2B6",
+          "paper": "NOT_ALL",
+          "revision": 4
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RE4CA1D76FE86E82",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RCB37DA81492D2B6",
+            "paper": "NOT_ALL",
+            "revision": 4
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "ALL",
+      "observer": "B",
+      "origin_id": "RC8F75EA53DB1A52",
+      "paper": "ALL",
+      "revision": 1
+    },
+    "channel_output": "UNKNOWN",
+    "channel_latest": "DIGITAL"
+  },
+  {
+    "parent": "OR01-G06-R1",
+    "case": "UR01-G06",
+    "source_group": "E1-G26",
+    "set": "GUARD",
+    "holder": "A",
+    "shared_bad": [
+      "B"
+    ],
+    "private_bad": false,
+    "proposal": {
+      "private_note": {
+        "coverage": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "RAE8036BB2390796",
+          "revision": 4
+        },
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "R7174F175DF7D116"
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "RAE8036BB2390796",
+            "revision": 4
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "RE396B9D8A3C4888",
+            "revision": 1
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "DOG",
+          "origin_id": "R7174F175DF7D116",
+          "subject": "A"
+        },
+        "coverage": {
+          "digital": "ALL",
+          "observer": "A",
+          "origin_id": "RAE8036BB2390796",
+          "paper": "NOT_ALL",
+          "revision": 4
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RAE8036BB2390796",
+            "paper": "NOT_ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R0A0516AA4DF587E",
+            "paper": "NOT_ALL",
+            "revision": 2
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "ALL",
+      "observer": "B",
+      "origin_id": "RE396B9D8A3C4888",
+      "paper": "ALL",
+      "revision": 1
+    },
+    "channel_output": "DIGITAL",
+    "channel_latest": "DIGITAL"
+  },
+  {
+    "parent": "OR01-R09-R1",
+    "case": "UR01-R09",
+    "source_group": "E1-G55",
+    "set": "REPAIR",
+    "holder": "B",
+    "shared_bad": [
+      "A"
+    ],
+    "private_bad": false,
+    "proposal": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "R4C9D60D1BCA293F"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "R907AA427A60A9F8",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "R3A72B1FCC8ACEAA",
+            "revision": 3
+          },
+          "B": {
+            "observer": "B",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "R907AA427A60A9F8",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "DOG",
+          "origin_id": "R4C9D60D1BCA293F",
+          "subject": "B"
+        },
+        "coverage": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "R907AA427A60A9F8",
+          "paper": "NOT_ALL",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R2B544B4380FFEF7",
+            "paper": "NOT_ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R907AA427A60A9F8",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "ALL",
+      "observer": "A",
+      "origin_id": "R2B544B4380FFEF7",
+      "paper": "NOT_ALL",
+      "revision": 4
+    },
+    "channel_output": "UNKNOWN",
+    "channel_latest": "DIGITAL"
+  },
+  {
+    "parent": "OR01-G08-R1",
+    "case": "UR01-G08",
+    "source_group": "E1-G08",
+    "set": "GUARD",
+    "holder": "B",
+    "shared_bad": [
+      "B"
+    ],
+    "private_bad": true,
+    "proposal": {
+      "private_note": {
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "R3D690D25783387D",
+          "revision": 2
+        },
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "RF19AFC3E963FF8F"
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "R7F7CAACC59B5227",
+            "revision": 3
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "R3D690D25783387D",
+            "revision": 2
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "CAT",
+          "origin_id": "RF19AFC3E963FF8F",
+          "subject": "B"
+        },
+        "coverage": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "RDE15C95CA5FD9CC",
+          "paper": "NOT_ALL",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R7F7CAACC59B5227",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RDE15C95CA5FD9CC",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "NOT_ALL",
+      "observer": "B",
+      "origin_id": "R3D690D25783387D",
+      "paper": "ALL",
+      "revision": 2
+    },
+    "channel_output": "PAPER",
+    "channel_latest": "DIGITAL"
+  },
+  {
+    "parent": "OR01-R01-R1",
+    "case": "UR01-R01",
+    "source_group": "E1-G60",
+    "set": "REPAIR",
+    "holder": "B",
+    "shared_bad": [
+      "A"
+    ],
+    "private_bad": false,
+    "proposal": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "R6DF375DE1A114CF"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "R983A548B9171ED5",
+          "revision": 4
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "RB7D1987111B02F0",
+            "revision": 2
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "R983A548B9171ED5",
+            "revision": 4
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "CAT",
+          "origin_id": "R6DF375DE1A114CF",
+          "subject": "B"
+        },
+        "coverage": {
+          "digital": "NOT_ALL",
+          "observer": "B",
+          "origin_id": "R983A548B9171ED5",
+          "paper": "ALL",
+          "revision": 4
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R546A13A578E7075",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R983A548B9171ED5",
+            "paper": "ALL",
+            "revision": 4
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "NOT_ALL",
+      "observer": "A",
+      "origin_id": "R546A13A578E7075",
+      "paper": "ALL",
+      "revision": 3
+    },
+    "channel_output": "UNKNOWN",
+    "channel_latest": "PAPER"
+  },
+  {
+    "parent": "OR01-G03-R1",
+    "case": "UR01-G03",
+    "source_group": "E1-G01",
+    "set": "GUARD",
+    "holder": "B",
+    "shared_bad": [
+      "A"
+    ],
+    "private_bad": false,
+    "proposal": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "RA480F80168B1AD9"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "R6CCEB586936FAEA",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "R5E60E2B639F2DAC",
+            "revision": 3
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "R6CCEB586936FAEA",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "CAT",
+          "origin_id": "RA480F80168B1AD9",
+          "subject": "B"
+        },
+        "coverage": {
+          "digital": "NOT_ALL",
+          "observer": "B",
+          "origin_id": "R6CCEB586936FAEA",
+          "paper": "ALL",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R0BA1E40A1C18294",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R6CCEB586936FAEA",
+            "paper": "ALL",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "NOT_ALL",
+      "observer": "A",
+      "origin_id": "R5E60E2B639F2DAC",
+      "paper": "ALL",
+      "revision": 3
+    },
+    "channel_output": "PAPER",
+    "channel_latest": "PAPER"
+  },
+  {
+    "parent": "OR01-R01-R2",
+    "case": "UR01-R01",
+    "source_group": "E1-G60",
+    "set": "REPAIR",
+    "holder": "B",
+    "shared_bad": [
+      "A"
+    ],
+    "private_bad": false,
+    "proposal": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "R6DF375DE1A114CF"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "R983A548B9171ED5",
+          "revision": 4
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "RB7D1987111B02F0",
+            "revision": 2
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "R983A548B9171ED5",
+            "revision": 4
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "CAT",
+          "origin_id": "R6DF375DE1A114CF",
+          "subject": "B"
+        },
+        "coverage": {
+          "digital": "NOT_ALL",
+          "observer": "B",
+          "origin_id": "R983A548B9171ED5",
+          "paper": "ALL",
+          "revision": 4
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R546A13A578E7075",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R983A548B9171ED5",
+            "paper": "ALL",
+            "revision": 4
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "NOT_ALL",
+      "observer": "A",
+      "origin_id": "R546A13A578E7075",
+      "paper": "ALL",
+      "revision": 3
+    },
+    "channel_output": "UNKNOWN",
+    "channel_latest": "PAPER"
+  },
+  {
+    "parent": "OR01-G08-R2",
+    "case": "UR01-G08",
+    "source_group": "E1-G08",
+    "set": "GUARD",
+    "holder": "B",
+    "shared_bad": [
+      "B"
+    ],
+    "private_bad": true,
+    "proposal": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "RF19AFC3E963FF8F"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "R3D690D25783387D",
+          "revision": 2
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "R7F7CAACC59B5227",
+            "revision": 3
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "R3D690D25783387D",
+            "revision": 2
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "CAT",
+          "origin_id": "RF19AFC3E963FF8F",
+          "subject": "B"
+        },
+        "coverage": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "RDE15C95CA5FD9CC",
+          "paper": "NOT_ALL",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R7F7CAACC59B5227",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RDE15C95CA5FD9CC",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "NOT_ALL",
+      "observer": "B",
+      "origin_id": "R3D690D25783387D",
+      "paper": "ALL",
+      "revision": 2
+    },
+    "channel_output": "PAPER",
+    "channel_latest": "DIGITAL"
+  },
+  {
+    "parent": "OR01-R09-R2",
+    "case": "UR01-R09",
+    "source_group": "E1-G55",
+    "set": "REPAIR",
+    "holder": "B",
+    "shared_bad": [
+      "A"
+    ],
+    "private_bad": false,
+    "proposal": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "R4C9D60D1BCA293F"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "R907AA427A60A9F8",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "R3A72B1FCC8ACEAA",
+            "revision": 3
+          },
+          "B": {
+            "observer": "B",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "R907AA427A60A9F8",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "DOG",
+          "origin_id": "R4C9D60D1BCA293F",
+          "subject": "B"
+        },
+        "coverage": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "R907AA427A60A9F8",
+          "paper": "NOT_ALL",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R2B544B4380FFEF7",
+            "paper": "NOT_ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R907AA427A60A9F8",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "ALL",
+      "observer": "A",
+      "origin_id": "R2B544B4380FFEF7",
+      "paper": "NOT_ALL",
+      "revision": 4
+    },
+    "channel_output": "UNKNOWN",
+    "channel_latest": "DIGITAL"
+  },
+  {
+    "parent": "OR01-G06-R2",
+    "case": "UR01-G06",
+    "source_group": "E1-G26",
+    "set": "GUARD",
+    "holder": "A",
+    "shared_bad": [
+      "B"
+    ],
+    "private_bad": false,
+    "proposal": {
+      "private_note": {
+        "coverage": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "RAE8036BB2390796",
+          "revision": 4
+        },
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "R7174F175DF7D116"
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "RAE8036BB2390796",
+            "revision": 4
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "RE396B9D8A3C4888",
+            "revision": 1
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "DOG",
+          "origin_id": "R7174F175DF7D116",
+          "subject": "A"
+        },
+        "coverage": {
+          "digital": "ALL",
+          "observer": "A",
+          "origin_id": "RAE8036BB2390796",
+          "paper": "NOT_ALL",
+          "revision": 4
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RAE8036BB2390796",
+            "paper": "NOT_ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R0A0516AA4DF587E",
+            "paper": "NOT_ALL",
+            "revision": 2
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "ALL",
+      "observer": "B",
+      "origin_id": "RE396B9D8A3C4888",
+      "paper": "ALL",
+      "revision": 1
+    },
+    "channel_output": "DIGITAL",
+    "channel_latest": "DIGITAL"
+  },
+  {
+    "parent": "OR01-G04-R2",
+    "case": "UR01-G04",
+    "source_group": "E1-G33",
+    "set": "GUARD",
+    "holder": "B",
+    "shared_bad": [
+      "B"
+    ],
+    "private_bad": true,
+    "proposal": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "R9F60A5F93AF9EB5"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "RC8F75EA53DB1A52",
+          "revision": 1
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "RE4CA1D76FE86E82",
+            "revision": 4
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "RC8F75EA53DB1A52",
+            "revision": 1
+          }
+        }
+      }
+    },
+    "expected": {
+      "private_note": {
+        "customer": {
+          "animal": "CAT",
+          "origin_id": "R9F60A5F93AF9EB5",
+          "subject": "B"
+        },
+        "coverage": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "RCB37DA81492D2B6",
+          "paper": "NOT_ALL",
+          "revision": 4
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RE4CA1D76FE86E82",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RCB37DA81492D2B6",
+            "paper": "NOT_ALL",
+            "revision": 4
+          }
+        }
+      }
+    },
+    "notice": {
+      "digital": "ALL",
+      "observer": "B",
+      "origin_id": "RC8F75EA53DB1A52",
+      "paper": "ALL",
+      "revision": 1
+    },
+    "channel_output": "UNKNOWN",
+    "channel_latest": "DIGITAL"
+  }
+]

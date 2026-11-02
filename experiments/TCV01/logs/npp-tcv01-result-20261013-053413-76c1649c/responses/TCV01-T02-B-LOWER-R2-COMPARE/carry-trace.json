@@ -1,0 +1,1 @@
+{"condition":"COMPARE","fixed_source_input_sha256":"e8f7f63cd53193301cc2def9b855eeafc0d34d301158d754e36b8206dee699d3","fixed_source_slot_id":"TB01-T02-R1-LOWER-VOTE-B","host_agreement_supplied":false,"own_parent":null,"parents":{},"payload_sha256":"933c9520a2f3bb5b5b7cd2e9c27bbf0e425f151cb9dfa7b578f54687126d51fe","receipt_parents":[],"schema_changed":true,"semantic_repair":false}

@@ -1,0 +1,113 @@
+{
+  "entrypoint": "run_main_colab",
+  "files": {
+    "README.md": "9c46880a254e57ba4130ccf495e02d42513714369d4b00d49cce765453da6f05",
+    "materials/bundle-base_slots.json": "d08b41a333601623ec34faf1c34a21da5a7e93156f12e11ee48a21db03047662",
+    "materials/bundle-kind.json": "9d460785ac72952d6ff9fb0b2fd7e40316677553365891d7cfff033a09a9c658",
+    "materials/bundle-materials.json": "46f5c8476ddb1e1ebe03c1eb4292e9b8f3640a60827b66ef9c3901bc0b5bf277",
+    "materials/bundle-prompt_hashes.json": "aa6acba8319ceca7656d5fe07f7f45ecd63a79b47ef70172c26d5c3c6b2fe91a",
+    "materials/bundle-prompts.json": "ae6246dda1a78db778c44a00cd50e34f3bfde27dc8172f8bf7779dbaa4acd653",
+    "materials/bundle-provenance.json": "d686098a5abb2af65ed6a8e98a20f1824f435965f00ba826fbdb930936895854",
+    "materials/bundle-source_hashes.json": "3bde9466ed6e5bfc11ba1ca6750292b36273881f1cc166cf11f5a66fc4f4194a",
+    "materials/bundle-sources/6bc7223a9ffa-row_carry_02_design_v1.py": "632be2d8e79ef5ac1b81bfe980dea2d4d8fc22a6588739a6734f3dabcba64820",
+    "materials/bundle-sources/9e094971b062-note_provenance_split_v1.py": "25ce03a8f4f784cd9ab7a9a23f4c42197094b8a009d528f17b13b35af3e2dbda",
+    "materials/bundle-sources/9eb81c052473-paper01_pair_design_v1.py": "2c7ad6309d1a11617f6fd45898f8e02588726ecd46f9802e0488c936f6d95f4d",
+    "materials/contracts.json": "75478878a810f05edf97c075166074b077085e6dd8c0cd7230b1b73a7ff5179f",
+    "materials/partition.json": "e962d61e017f01e9dbf0050ef09a3b06ecbe375c7d0af3918d02a84c8ba9ecf2",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_main_bootstrap.py": "3b61c901c703611e9add56acccfcf42a6f4c524ca6c2bdf4caa16a82730dae4e",
+    "source/cross_model_e1_01_main_runtime.py": "ac31b080a2d0a32634edea43a7e434c102d86411ee0d208e50aa3a40e335183c",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "supervisor.py": "5216c0ffcb8153810c92f5d8f519365f88a6a58976ca726e2774e8325e919d5a"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "fd735084f6da4755cab05fad08a0ddedac4cab147668159dfb90b795729862cd",
+  "original_payload_sha256": "625ba4e4befeec78f67f3fcc66de2abc3d6f5cd17fe69b36e40234fa4d8b51be",
+  "original_supervisor_sha256": "3b61c901c703611e9add56acccfcf42a6f4c524ca6c2bdf4caa16a82730dae4e",
+  "payload": {
+    "items": {
+      "bundle": {
+        "items": {
+          "base_slots": {
+            "kind": "json",
+            "path": "materials/bundle-base_slots.json"
+          },
+          "kind": {
+            "kind": "json",
+            "path": "materials/bundle-kind.json"
+          },
+          "materials": {
+            "kind": "json",
+            "path": "materials/bundle-materials.json"
+          },
+          "prompt_hashes": {
+            "kind": "json",
+            "path": "materials/bundle-prompt_hashes.json"
+          },
+          "prompts": {
+            "kind": "json",
+            "path": "materials/bundle-prompts.json"
+          },
+          "provenance": {
+            "kind": "json",
+            "path": "materials/bundle-provenance.json"
+          },
+          "source_hashes": {
+            "kind": "json",
+            "path": "materials/bundle-source_hashes.json"
+          },
+          "sources": {
+            "items": {
+              "note_provenance_split_v1.py": {
+                "kind": "text",
+                "path": "materials/bundle-sources/9e094971b062-note_provenance_split_v1.py"
+              },
+              "paper01_pair_design_v1.py": {
+                "kind": "text",
+                "path": "materials/bundle-sources/9eb81c052473-paper01_pair_design_v1.py"
+              },
+              "row_carry_02_design_v1.py": {
+                "kind": "text",
+                "path": "materials/bundle-sources/6bc7223a9ffa-row_carry_02_design_v1.py"
+              }
+            },
+            "kind": "mapping"
+          }
+        },
+        "kind": "mapping"
+      },
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_main_bootstrap.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_main_bootstrap.py"
+          },
+          "cross_model_e1_01_main_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_main_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contracts": {
+        "kind": "json",
+        "path": "materials/contracts.json"
+      },
+      "partition": {
+        "kind": "json",
+        "path": "materials/partition.json"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "XM01"
+}

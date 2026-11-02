@@ -1,0 +1,743 @@
+{
+  "protocol": "SHARED-MERGE-02",
+  "version": "shared-merge-02-v0.1",
+  "limits": {
+    "logical_requests": 32,
+    "physical_requests": 36,
+    "overload_retries": 4,
+    "per_logical_attempts": 2,
+    "active_seconds": 1800,
+    "reserve_seconds": 200,
+    "response_utf8_bytes": 4096,
+    "input_text_utf8_bytes": 32768
+  },
+  "allocation": [
+    {
+      "id": "SM02-G03-UPDATE-A",
+      "group": "SM02-G03",
+      "stage": "UPDATE",
+      "role": "A",
+      "rep": null,
+      "dependencies": [],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G04-UPDATE-B",
+      "group": "SM02-G04",
+      "stage": "UPDATE",
+      "role": "B",
+      "rep": null,
+      "dependencies": [],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G02-UPDATE-A",
+      "group": "SM02-G02",
+      "stage": "UPDATE",
+      "role": "A",
+      "rep": null,
+      "dependencies": [],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G01-UPDATE-A",
+      "group": "SM02-G01",
+      "stage": "UPDATE",
+      "role": "A",
+      "rep": null,
+      "dependencies": [],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G02-UPDATE-B",
+      "group": "SM02-G02",
+      "stage": "UPDATE",
+      "role": "B",
+      "rep": null,
+      "dependencies": [],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G03-UPDATE-B",
+      "group": "SM02-G03",
+      "stage": "UPDATE",
+      "role": "B",
+      "rep": null,
+      "dependencies": [],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G04-UPDATE-A",
+      "group": "SM02-G04",
+      "stage": "UPDATE",
+      "role": "A",
+      "rep": null,
+      "dependencies": [],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G01-UPDATE-B",
+      "group": "SM02-G01",
+      "stage": "UPDATE",
+      "role": "B",
+      "rep": null,
+      "dependencies": [],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G02-MERGE-A",
+      "group": "SM02-G02",
+      "stage": "MERGE",
+      "role": "A",
+      "rep": null,
+      "dependencies": [
+        "SM02-G02-UPDATE-A",
+        "SM02-G02-UPDATE-B"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G01-MERGE-A",
+      "group": "SM02-G01",
+      "stage": "MERGE",
+      "role": "A",
+      "rep": null,
+      "dependencies": [
+        "SM02-G01-UPDATE-A",
+        "SM02-G01-UPDATE-B"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G01-MERGE-B",
+      "group": "SM02-G01",
+      "stage": "MERGE",
+      "role": "B",
+      "rep": null,
+      "dependencies": [
+        "SM02-G01-UPDATE-A",
+        "SM02-G01-UPDATE-B"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G04-MERGE-B",
+      "group": "SM02-G04",
+      "stage": "MERGE",
+      "role": "B",
+      "rep": null,
+      "dependencies": [
+        "SM02-G04-UPDATE-A",
+        "SM02-G04-UPDATE-B"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G03-MERGE-A",
+      "group": "SM02-G03",
+      "stage": "MERGE",
+      "role": "A",
+      "rep": null,
+      "dependencies": [
+        "SM02-G03-UPDATE-A",
+        "SM02-G03-UPDATE-B"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G03-MERGE-B",
+      "group": "SM02-G03",
+      "stage": "MERGE",
+      "role": "B",
+      "rep": null,
+      "dependencies": [
+        "SM02-G03-UPDATE-A",
+        "SM02-G03-UPDATE-B"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G04-MERGE-A",
+      "group": "SM02-G04",
+      "stage": "MERGE",
+      "role": "A",
+      "rep": null,
+      "dependencies": [
+        "SM02-G04-UPDATE-A",
+        "SM02-G04-UPDATE-B"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G02-MERGE-B",
+      "group": "SM02-G02",
+      "stage": "MERGE",
+      "role": "B",
+      "rep": null,
+      "dependencies": [
+        "SM02-G02-UPDATE-A",
+        "SM02-G02-UPDATE-B"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G01-PROBE-B-R1",
+      "group": "SM02-G01",
+      "stage": "PROBE",
+      "role": "B",
+      "rep": 1,
+      "dependencies": [
+        "SM02-G01-MERGE-B"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G04-PROBE-A-R1",
+      "group": "SM02-G04",
+      "stage": "PROBE",
+      "role": "A",
+      "rep": 1,
+      "dependencies": [
+        "SM02-G04-MERGE-A"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G02-PROBE-A-R1",
+      "group": "SM02-G02",
+      "stage": "PROBE",
+      "role": "A",
+      "rep": 1,
+      "dependencies": [
+        "SM02-G02-MERGE-A"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G02-PROBE-B-R1",
+      "group": "SM02-G02",
+      "stage": "PROBE",
+      "role": "B",
+      "rep": 1,
+      "dependencies": [
+        "SM02-G02-MERGE-B"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G01-PROBE-A-R1",
+      "group": "SM02-G01",
+      "stage": "PROBE",
+      "role": "A",
+      "rep": 1,
+      "dependencies": [
+        "SM02-G01-MERGE-A"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G03-PROBE-A-R1",
+      "group": "SM02-G03",
+      "stage": "PROBE",
+      "role": "A",
+      "rep": 1,
+      "dependencies": [
+        "SM02-G03-MERGE-A"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G03-PROBE-B-R1",
+      "group": "SM02-G03",
+      "stage": "PROBE",
+      "role": "B",
+      "rep": 1,
+      "dependencies": [
+        "SM02-G03-MERGE-B"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G04-PROBE-B-R1",
+      "group": "SM02-G04",
+      "stage": "PROBE",
+      "role": "B",
+      "rep": 1,
+      "dependencies": [
+        "SM02-G04-MERGE-B"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G03-PROBE-A-R2",
+      "group": "SM02-G03",
+      "stage": "PROBE",
+      "role": "A",
+      "rep": 2,
+      "dependencies": [
+        "SM02-G03-MERGE-A"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G02-PROBE-B-R2",
+      "group": "SM02-G02",
+      "stage": "PROBE",
+      "role": "B",
+      "rep": 2,
+      "dependencies": [
+        "SM02-G02-MERGE-B"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G02-PROBE-A-R2",
+      "group": "SM02-G02",
+      "stage": "PROBE",
+      "role": "A",
+      "rep": 2,
+      "dependencies": [
+        "SM02-G02-MERGE-A"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G04-PROBE-A-R2",
+      "group": "SM02-G04",
+      "stage": "PROBE",
+      "role": "A",
+      "rep": 2,
+      "dependencies": [
+        "SM02-G04-MERGE-A"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G03-PROBE-B-R2",
+      "group": "SM02-G03",
+      "stage": "PROBE",
+      "role": "B",
+      "rep": 2,
+      "dependencies": [
+        "SM02-G03-MERGE-B"
+      ],
+      "group_order": "LOCAL_FIRST"
+    },
+    {
+      "id": "SM02-G04-PROBE-B-R2",
+      "group": "SM02-G04",
+      "stage": "PROBE",
+      "role": "B",
+      "rep": 2,
+      "dependencies": [
+        "SM02-G04-MERGE-B"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G01-PROBE-A-R2",
+      "group": "SM02-G01",
+      "stage": "PROBE",
+      "role": "A",
+      "rep": 2,
+      "dependencies": [
+        "SM02-G01-MERGE-A"
+      ],
+      "group_order": "PARTNER_FIRST"
+    },
+    {
+      "id": "SM02-G01-PROBE-B-R2",
+      "group": "SM02-G01",
+      "stage": "PROBE",
+      "role": "B",
+      "rep": 2,
+      "dependencies": [
+        "SM02-G01-MERGE-B"
+      ],
+      "group_order": "LOCAL_FIRST"
+    }
+  ],
+  "materials": {
+    "SM02-G01": {
+      "group": "SM02-G01",
+      "scene": "地域工作会",
+      "item": "持帰り袋",
+      "source_group": "SM01-G01",
+      "original_source_group": "SC03-G01",
+      "baseline_by_role": {
+        "A": {
+          "private_note": {
+            "customer": {
+              "subject": "A",
+              "animal": "DOG",
+              "origin_id": "QX"
+            },
+            "coverage": {
+              "observer": "A",
+              "paper": "ALL",
+              "digital": "ALL",
+              "origin_id": "SM1A",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM1A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "NOT_ALL",
+                "digital": "ALL",
+                "origin_id": "SM1B",
+                "revision": 2
+              }
+            }
+          }
+        },
+        "B": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "CAT",
+              "origin_id": "JV"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "NOT_ALL",
+              "digital": "ALL",
+              "origin_id": "SM1B",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM1A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "NOT_ALL",
+                "digital": "ALL",
+                "origin_id": "SM1B",
+                "revision": 2
+              }
+            }
+          }
+        }
+      },
+      "notices": {
+        "A": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "SM2G1A",
+          "revision": 3
+        },
+        "B": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G1B",
+          "revision": 3
+        }
+      },
+      "initial_channel": "DIGITAL",
+      "final_channel": "PAPER"
+    },
+    "SM02-G02": {
+      "group": "SM02-G02",
+      "scene": "地域工作会",
+      "item": "持帰り袋",
+      "source_group": "SM01-G02",
+      "original_source_group": "SC03-G02",
+      "baseline_by_role": {
+        "A": {
+          "private_note": {
+            "customer": {
+              "subject": "A",
+              "animal": "CAT",
+              "origin_id": "BK"
+            },
+            "coverage": {
+              "observer": "A",
+              "paper": "ALL",
+              "digital": "NOT_ALL",
+              "origin_id": "SM2A",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "NOT_ALL",
+                "origin_id": "SM2A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM2B",
+                "revision": 2
+              }
+            }
+          }
+        },
+        "B": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "DOG",
+              "origin_id": "WH"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "ALL",
+              "digital": "ALL",
+              "origin_id": "SM2B",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "NOT_ALL",
+                "origin_id": "SM2A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM2B",
+                "revision": 2
+              }
+            }
+          }
+        }
+      },
+      "notices": {
+        "A": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G2A",
+          "revision": 3
+        },
+        "B": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G2B",
+          "revision": 3
+        }
+      },
+      "initial_channel": "PAPER",
+      "final_channel": "DIGITAL"
+    },
+    "SM02-G03": {
+      "group": "SM02-G03",
+      "scene": "小さな展示会",
+      "item": "受付名札",
+      "source_group": "SM01-G03",
+      "original_source_group": "SC03-G03",
+      "baseline_by_role": {
+        "A": {
+          "private_note": {
+            "customer": {
+              "subject": "A",
+              "animal": "CAT",
+              "origin_id": "GD"
+            },
+            "coverage": {
+              "observer": "A",
+              "paper": "ALL",
+              "digital": "ALL",
+              "origin_id": "SM3A",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM3A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "NOT_ALL",
+                "origin_id": "SM3B",
+                "revision": 2
+              }
+            }
+          }
+        },
+        "B": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "DOG",
+              "origin_id": "PM"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "ALL",
+              "digital": "NOT_ALL",
+              "origin_id": "SM3B",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM3A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "NOT_ALL",
+                "origin_id": "SM3B",
+                "revision": 2
+              }
+            }
+          }
+        }
+      },
+      "notices": {
+        "A": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G3A",
+          "revision": 3
+        },
+        "B": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G3B",
+          "revision": 3
+        }
+      },
+      "initial_channel": "PAPER",
+      "final_channel": "DIGITAL"
+    },
+    "SM02-G04": {
+      "group": "SM02-G04",
+      "scene": "小さな展示会",
+      "item": "受付名札",
+      "source_group": "SM01-G04",
+      "original_source_group": "SC03-G04",
+      "baseline_by_role": {
+        "A": {
+          "private_note": {
+            "customer": {
+              "subject": "A",
+              "animal": "DOG",
+              "origin_id": "HN"
+            },
+            "coverage": {
+              "observer": "A",
+              "paper": "NOT_ALL",
+              "digital": "ALL",
+              "origin_id": "SM4A",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "NOT_ALL",
+                "digital": "ALL",
+                "origin_id": "SM4A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM4B",
+                "revision": 2
+              }
+            }
+          }
+        },
+        "B": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "CAT",
+              "origin_id": "ZR"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "ALL",
+              "digital": "ALL",
+              "origin_id": "SM4B",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "NOT_ALL",
+                "digital": "ALL",
+                "origin_id": "SM4A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM4B",
+                "revision": 2
+              }
+            }
+          }
+        }
+      },
+      "notices": {
+        "A": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G4A",
+          "revision": 3
+        },
+        "B": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "SM2G4B",
+          "revision": 3
+        }
+      },
+      "initial_channel": "DIGITAL",
+      "final_channel": "PAPER"
+    }
+  },
+  "retention_expires_at": "2026-10-12T17:41:23+09:00"
+}

@@ -1,0 +1,1 @@
+{"local":{"subject":"B","choice":"PAPER","evidence_refs":["E1C60625B3D","EC9F2F8942D","EDBC6D6F344"]},"proposal":{"candidate_id":"X","evidence_refs":["E1C60625B3D","EC9F2F8942D","E719F39C5D6","EAB5D8DF0D3","EDBC6D6F344"]}}<|im_end|>

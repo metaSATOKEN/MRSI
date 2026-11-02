@@ -1,0 +1,33 @@
+{
+  "input": [
+    {
+      "content": [
+        {
+          "text": "資料だけを使い、指定schemaのJSONを一つ返す。A/Bは役が担当する対象の区別で、人物を統合しない。origin_idは観測原票の出典である。版は観測者ごとに比較し、出典IDの字面から人物・版を推測しない。全必須欄を出力する。説明文、操作、外部参照は禁止。\nPRIVATE相当のprivate_noteと共同のshared_noteに、現在の記録を保存している。noticeは信頼できる発行元からの観測撤回であり、対象はcoverageだけ。顧客customerの情報は撤回対象ではない。\nまずtarget_origin_idが現在の観測のorigin_idと完全一致すれば、その観測者をIDで特定する。一致がなくdetailsがある場合、observer・revision・paper・digitalがすべて一致する一種類の観測を特定できればDETAILSで照合する。同じ観測のprivate/sharedコピーは同一種類と数える。この照合は異なる出典IDを同一内容の撤回対象へ結び付けるために許可される。\n特定できたら、対象観測の全コピーをREVOKEDにする。観測内容・版・元の出典IDは履歴として保持し、正しいIDへの書換えや代替観測の創作はしない。対象外の観測とcustomerは全欄保持する。processingはMATCHED、該当するbasis、matched_observerを記録する。\n特定できなければ記録の全内容とACTIVE状態を維持し、processingをUNRESOLVED/NONE/UNKNOWNにする。通知IDと対象出典IDを保存し、後続の共同判断を保留できるようにする。手当たり次第の削除や推測での対象決定をしない。\n{\"type\": \"object\", \"properties\": {\"memory\": {\"type\": \"object\", \"properties\": {\"private_note\": {\"type\": \"object\", \"properties\": {\"customer\": {\"type\": \"object\", \"properties\": {\"subject\": {\"enum\": [\"A\", \"B\", \"UNKNOWN\"]}, \"animal\": {\"enum\": [\"DOG\", \"CAT\", \"UNKNOWN\"]}, \"origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}}, \"required\": [\"subject\", \"animal\", \"origin_id\"], \"additionalProperties\": false}, \"coverage\": {\"type\": \"object\", \"properties\": {\"observer\": {\"enum\": [\"A\", \"B\", \"UNKNOWN\"]}, \"paper\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"digital\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"revision\": {\"enum\": [1, 2, 3, 4, \"UNKNOWN\"]}, \"status\": {\"enum\": [\"ACTIVE\", \"REVOKED\"]}}, \"required\": [\"observer\", \"paper\", \"digital\", \"origin_id\", \"revision\", \"status\"], \"additionalProperties\": false}}, \"required\": [\"customer\", \"coverage\"], \"additionalProperties\": false}, \"shared_note\": {\"type\": \"object\", \"properties\": {\"coverage\": {\"type\": \"object\", \"properties\": {\"A\": {\"type\": \"object\", \"properties\": {\"observer\": {\"enum\": [\"A\", \"B\", \"UNKNOWN\"]}, \"paper\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"digital\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"revision\": {\"enum\": [1, 2, 3, 4, \"UNKNOWN\"]}, \"status\": {\"enum\": [\"ACTIVE\", \"REVOKED\"]}}, \"required\": [\"observer\", \"paper\", \"digital\", \"origin_id\", \"revision\", \"status\"], \"additionalProperties\": false}, \"B\": {\"type\": \"object\", \"properties\": {\"observer\": {\"enum\": [\"A\", \"B\", \"UNKNOWN\"]}, \"paper\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"digital\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"revision\": {\"enum\": [1, 2, 3, 4, \"UNKNOWN\"]}, \"status\": {\"enum\": [\"ACTIVE\", \"REVOKED\"]}}, \"required\": [\"observer\", \"paper\", \"digital\", \"origin_id\", \"revision\", \"status\"], \"additionalProperties\": false}}, \"required\": [\"A\", \"B\"], \"additionalProperties\": false}}, \"required\": [\"coverage\"], \"additionalProperties\": false}}, \"required\": [\"private_note\", \"shared_note\"], \"additionalProperties\": false}, \"processing\": {\"type\": \"object\", \"properties\": {\"notice_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"target_origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"resolution\": {\"enum\": [\"MATCHED\", \"UNRESOLVED\"]}, \"basis\": {\"enum\": [\"ID\", \"DETAILS\", \"NONE\"]}, \"matched_observer\": {\"enum\": [\"A\", \"B\", \"UNKNOWN\"]}}, \"required\": [\"notice_id\", \"target_origin_id\", \"resolution\", \"basis\", \"matched_observer\"], \"additionalProperties\": false}}, \"required\": [\"memory\", \"processing\"], \"additionalProperties\": false}\n",
+          "type": "input_text"
+        }
+      ],
+      "role": "developer",
+      "type": "message"
+    },
+    {
+      "content": [
+        {
+          "text": "\n資料JSON:\n{\"holder\":\"B\",\"item\":\"個別の案内カード\",\"memory\":{\"private_note\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"RF6FAE7A64FD102A\",\"paper\":\"NOT_ALL\",\"revision\":2,\"status\":\"ACTIVE\"},\"customer\":{\"animal\":\"DOG\",\"origin_id\":\"R5578DFD88129245\",\"subject\":\"B\"}},\"shared_note\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R79350A8794056FF\",\"paper\":\"NOT_ALL\",\"revision\":3,\"status\":\"ACTIVE\"},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"RF6FAE7A64FD102A\",\"paper\":\"NOT_ALL\",\"revision\":2,\"status\":\"ACTIVE\"}}}},\"notice\":{\"notice_id\":\"R07D126D1015A6A8\",\"target_origin_id\":\"RFA9D5690AED9B4C\"},\"scene\":\"科学工作展・撤回診断用の別開催\"}",
+          "type": "input_text"
+        }
+      ],
+      "role": "user",
+      "type": "message"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "tools": [],
+  "tool_choice": "none",
+  "parallel_tool_calls": false,
+  "store": false,
+  "stream": true
+}

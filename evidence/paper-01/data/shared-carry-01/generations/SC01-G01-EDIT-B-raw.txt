@@ -1,0 +1,1 @@
+{"shared_note":{"coverage":{"A":{"observer":"A","paper":"ALL","digital":"NOT_ALL","source_id":"LT"},"B":{"observer":"B","paper":"ALL","digital":"ALL","source_id":"NR"}},"channel":"PAPER","channel_sources":["LT","NR"]}}

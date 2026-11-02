@@ -1,0 +1,26 @@
+{
+  "scene": "地域工作会",
+  "item": "持帰り袋",
+  "holder": "B",
+  "records": [
+    {
+      "record_id": "CUSTOMER",
+      "author": "B",
+      "body": {
+        "subject": "B",
+        "animal": "DOG",
+        "origin_id": "WH"
+      }
+    },
+    {
+      "record_id": "OBSERVATION",
+      "author": "B",
+      "body": {
+        "observer": "B",
+        "paper": "NOT_ALL",
+        "digital": "ALL",
+        "origin_id": "FU"
+      }
+    }
+  ]
+}

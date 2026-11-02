@@ -1,0 +1,794 @@
+{
+  "status": "PASS",
+  "checks": 58,
+  "passed": 58,
+  "immutable_anchors": 3087,
+  "prior_sealed_files": 26,
+  "table_numeric_cells": 88,
+  "local_links": 113,
+  "figures": [
+    {
+      "name": "fig01-update-control-en-v1",
+      "png_size": [
+        4350,
+        3030
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "6869834efb5ef56cc09860cc00f156bdc77b6374e5dab105328f046c20765d0f",
+      "svg_sha256": "509a247ce3565622c561c19f742170da001f023ea4d585261b0e069dc229ca7c"
+    },
+    {
+      "name": "fig02-study-connections-en-v1",
+      "png_size": [
+        4350,
+        2850
+      ],
+      "png_dpi": [
+        299.9994,
+        299.9994
+      ],
+      "png_sha256": "4da801d6579d66db0889f2b3d7ce425b2efe93930410858c10bef6062c8e5d51",
+      "svg_sha256": "aef803d5f10805a00d5d7c8d45bcc9a14e7370dedc7fa78174956d12f6d838f3"
+    }
+  ],
+  "research_inference_calls": 0,
+  "research_rescoring": 0,
+  "method": "Source-hash, section/table, literal-example, URL, archive, link and asset checks; editorial meaning review recorded separately.",
+  "details": [
+    {
+      "check": "approved Japanese source unchanged",
+      "actual": "e369c3335335d455d201866b90a0cfc53abe98cbcf7ee2e33b46425d465c10fb",
+      "expected": "e369c3335335d455d201866b90a0cfc53abe98cbcf7ee2e33b46425d465c10fb",
+      "pass": true
+    },
+    {
+      "check": "immutable source anchors",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "prior Japanese v0.4 audit seal",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "old ledger prefix unchanged",
+      "actual": "9a36389323f7ec258d379dfb15338598c7ee044c9450ce680d361aaba46e1bcd",
+      "expected": "9a36389323f7ec258d379dfb15338598c7ee044c9450ce680d361aaba46e1bcd",
+      "pass": true
+    },
+    {
+      "check": "numbered section/subsection coverage",
+      "actual": [
+        "1",
+        "2",
+        "2.1",
+        "2.2",
+        "2.3",
+        "3",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "5",
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "6",
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "7",
+        "8",
+        "9"
+      ],
+      "expected": [
+        "1",
+        "2",
+        "2.1",
+        "2.2",
+        "2.3",
+        "3",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "4",
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5",
+        "5",
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "6",
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "7",
+        "8",
+        "9"
+      ],
+      "pass": true
+    },
+    {
+      "check": "appendix subsection coverage",
+      "actual": [
+        "A.1",
+        "A.2",
+        "B.1",
+        "B.2",
+        "B.3"
+      ],
+      "expected": [
+        "A.1",
+        "A.2",
+        "B.1",
+        "B.2",
+        "B.3"
+      ],
+      "pass": true
+    },
+    {
+      "check": "table caption numbering",
+      "actual": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "expected": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "pass": true
+    },
+    {
+      "check": "all table blocks including Appendix B",
+      "actual": [
+        11,
+        11
+      ],
+      "expected": [
+        11,
+        11
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 1 row and column structure",
+      "actual": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 1 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "table 2 row and column structure",
+      "actual": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 2 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "table 3 row and column structure",
+      "actual": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "expected": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 3 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "table 4 row and column structure",
+      "actual": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 4 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "table 5 row and column structure",
+      "actual": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 5 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "table 6 row and column structure",
+      "actual": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 6 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "table 7 row and column structure",
+      "actual": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "expected": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 7 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "table 8 row and column structure",
+      "actual": [
+        5,
+        5,
+        5
+      ],
+      "expected": [
+        5,
+        5,
+        5
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 8 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "table 9 row and column structure",
+      "actual": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 9 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "table 10 row and column structure",
+      "actual": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 10 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "table 11 row and column structure",
+      "actual": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "expected": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "pass": true
+    },
+    {
+      "check": "table 11 numeric cells",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "fraction notation differences",
+      "actual": [
+        {
+          "32/32": 2
+        },
+        {}
+      ],
+      "expected": [
+        {
+          "32/32": 2
+        },
+        {}
+      ],
+      "pass": true
+    },
+    {
+      "check": "two all-32 equivalents preserve the fractions",
+      "actual": [
+        true,
+        true
+      ],
+      "expected": [
+        true,
+        true
+      ],
+      "pass": true
+    },
+    {
+      "check": "literal code/ID tokens unchanged",
+      "actual": {
+        "info@mataclan.jp": 1,
+        "K5E1ED87EFA479493": 3,
+        "K0D9B80C5A23D1363": 2,
+        "fc05daec18b0a78c049392ed2e771dde82bdf654": 1,
+        "json": 1
+      },
+      "expected": {
+        "info@mataclan.jp": 1,
+        "K5E1ED87EFA479493": 3,
+        "K0D9B80C5A23D1363": 2,
+        "fc05daec18b0a78c049392ed2e771dde82bdf654": 1,
+        "json": 1
+      },
+      "pass": true
+    },
+    {
+      "check": "JSON example unchanged",
+      "actual": [
+        "{\"customer\":{\"subject\":\"A\",\"animal\":\"CAT\"}}"
+      ],
+      "expected": [
+        "{\"customer\":{\"subject\":\"A\",\"animal\":\"CAT\"}}"
+      ],
+      "pass": true
+    },
+    {
+      "check": "all external URLs and occurrence counts",
+      "actual": {
+        "https://arxiv.org/abs/2410.10813v2": 2,
+        "https://arxiv.org/abs/2507.05257v1": 2,
+        "https://arxiv.org/abs/2606.27472v1": 2,
+        "https://arxiv.org/abs/2605.06527v1": 2,
+        "https://arxiv.org/abs/2501.13956v1": 2,
+        "https://arxiv.org/abs/2605.20926v1": 2,
+        "https://arxiv.org/abs/2511.03506v1": 2,
+        "https://arxiv.org/abs/2607.01935v1": 2,
+        "https://arxiv.org/abs/2606.24595v2": 2,
+        "https://arxiv.org/abs/2605.28732v1": 2,
+        "https://arxiv.org/abs/2606.17328v1": 2,
+        "https://arxiv.org/abs/2310.08560v2": 2,
+        "https://arxiv.org/abs/2505.18279v1": 2,
+        "https://arxiv.org/abs/2605.14498v2": 2,
+        "https://www.w3.org/TR/prov-dm/": 2,
+        "https://arxiv.org/abs/2606.01435v1": 2,
+        "https://arxiv.org/abs/2608.01619v1": 2,
+        "https://arxiv.org/abs/2503.18813v2": 2,
+        "https://huggingface.co/Qwen/Qwen3.5-27B": 2
+      },
+      "expected": {
+        "https://arxiv.org/abs/2410.10813v2": 2,
+        "https://arxiv.org/abs/2507.05257v1": 2,
+        "https://arxiv.org/abs/2606.27472v1": 2,
+        "https://arxiv.org/abs/2605.06527v1": 2,
+        "https://arxiv.org/abs/2501.13956v1": 2,
+        "https://arxiv.org/abs/2605.20926v1": 2,
+        "https://arxiv.org/abs/2511.03506v1": 2,
+        "https://arxiv.org/abs/2607.01935v1": 2,
+        "https://arxiv.org/abs/2606.24595v2": 2,
+        "https://arxiv.org/abs/2605.28732v1": 2,
+        "https://arxiv.org/abs/2606.17328v1": 2,
+        "https://arxiv.org/abs/2310.08560v2": 2,
+        "https://arxiv.org/abs/2505.18279v1": 2,
+        "https://arxiv.org/abs/2605.14498v2": 2,
+        "https://www.w3.org/TR/prov-dm/": 2,
+        "https://arxiv.org/abs/2606.01435v1": 2,
+        "https://arxiv.org/abs/2608.01619v1": 2,
+        "https://arxiv.org/abs/2503.18813v2": 2,
+        "https://huggingface.co/Qwen/Qwen3.5-27B": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "reference count and order",
+      "actual": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "expected": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "pass": true
+    },
+    {
+      "check": "author and contact",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "English manuscript has no untranslated CJK text",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "abstract proposal denominator retained",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "abstract diagnostic denominator retained",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "model and customer-field scopes retained",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "archive hash table unchanged",
+      "actual": [
+        "61a29b9fb11879c7ac76db18ffe5e61f3d10a10f991c683fbc2724f248caa1c4",
+        "7e9b6f8f79053841f48a329d4e954e3457a8c976c6ea591ef2c4234f1b401b06",
+        "f80f1d81a62f07cf0940ee318b4dccf6a283f5fb7f5ed4d0ed5688a1c2875565",
+        "6655aab50dead38cea2e4060475366db88e83c3351c524e10052ad067945ee36",
+        "6333e83dfe41d717b27183aad33d4bf2df8f9082001253cc0af4011e7ede6121",
+        "fcbd9fdff7a3d3a0fdc98e6033638e0338b97c9084e0bde87b29e35336c530ee",
+        "3b75f91c68a9e4c17635f505ee0b13226f45e9767015eb59d28da6f5e4813ca9"
+      ],
+      "expected": [
+        "61a29b9fb11879c7ac76db18ffe5e61f3d10a10f991c683fbc2724f248caa1c4",
+        "7e9b6f8f79053841f48a329d4e954e3457a8c976c6ea591ef2c4234f1b401b06",
+        "f80f1d81a62f07cf0940ee318b4dccf6a283f5fb7f5ed4d0ed5688a1c2875565",
+        "6655aab50dead38cea2e4060475366db88e83c3351c524e10052ad067945ee36",
+        "6333e83dfe41d717b27183aad33d4bf2df8f9082001253cc0af4011e7ede6121",
+        "fcbd9fdff7a3d3a0fdc98e6033638e0338b97c9084e0bde87b29e35336c530ee",
+        "3b75f91c68a9e4c17635f505ee0b13226f45e9767015eb59d28da6f5e4813ca9"
+      ],
+      "pass": true
+    },
+    {
+      "check": "seven original archive hashes match the index",
+      "actual": [
+        "61a29b9fb11879c7ac76db18ffe5e61f3d10a10f991c683fbc2724f248caa1c4",
+        "7e9b6f8f79053841f48a329d4e954e3457a8c976c6ea591ef2c4234f1b401b06",
+        "f80f1d81a62f07cf0940ee318b4dccf6a283f5fb7f5ed4d0ed5688a1c2875565",
+        "6655aab50dead38cea2e4060475366db88e83c3351c524e10052ad067945ee36",
+        "6333e83dfe41d717b27183aad33d4bf2df8f9082001253cc0af4011e7ede6121",
+        "fcbd9fdff7a3d3a0fdc98e6033638e0338b97c9084e0bde87b29e35336c530ee",
+        "3b75f91c68a9e4c17635f505ee0b13226f45e9767015eb59d28da6f5e4813ca9"
+      ],
+      "expected": [
+        "61a29b9fb11879c7ac76db18ffe5e61f3d10a10f991c683fbc2724f248caa1c4",
+        "7e9b6f8f79053841f48a329d4e954e3457a8c976c6ea591ef2c4234f1b401b06",
+        "f80f1d81a62f07cf0940ee318b4dccf6a283f5fb7f5ed4d0ed5688a1c2875565",
+        "6655aab50dead38cea2e4060475366db88e83c3351c524e10052ad067945ee36",
+        "6333e83dfe41d717b27183aad33d4bf2df8f9082001253cc0af4011e7ede6121",
+        "fcbd9fdff7a3d3a0fdc98e6033638e0338b97c9084e0bde87b29e35336c530ee",
+        "3b75f91c68a9e4c17635f505ee0b13226f45e9767015eb59d28da6f5e4813ca9"
+      ],
+      "pass": true
+    },
+    {
+      "check": "source trials mapped in English S1",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "relative deliverable links resolve",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "fig01-update-control-en-v1 PNG dimensions",
+      "actual": [
+        4350,
+        3030
+      ],
+      "expected": [
+        4350,
+        3030
+      ],
+      "pass": true
+    },
+    {
+      "check": "fig01-update-control-en-v1 300-dpi metadata",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "fig01-update-control-en-v1 SVG root",
+      "actual": "{http://www.w3.org/2000/svg}svg",
+      "expected": "{http://www.w3.org/2000/svg}svg",
+      "pass": true
+    },
+    {
+      "check": "fig01-update-control-en-v1 SVG resources are self-contained",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "fig01-update-control-en-v1 PNG is embedded in manuscript",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "fig02-study-connections-en-v1 PNG dimensions",
+      "actual": [
+        4350,
+        2850
+      ],
+      "expected": [
+        4350,
+        2850
+      ],
+      "pass": true
+    },
+    {
+      "check": "fig02-study-connections-en-v1 300-dpi metadata",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "fig02-study-connections-en-v1 SVG root",
+      "actual": "{http://www.w3.org/2000/svg}svg",
+      "expected": "{http://www.w3.org/2000/svg}svg",
+      "pass": true
+    },
+    {
+      "check": "fig02-study-connections-en-v1 SVG resources are self-contained",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "fig02-study-connections-en-v1 PNG is embedded in manuscript",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "figure text fits boxes",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "English body has exactly two image figures",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "check": "no PDF in paper-02",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    }
+  ]
+}

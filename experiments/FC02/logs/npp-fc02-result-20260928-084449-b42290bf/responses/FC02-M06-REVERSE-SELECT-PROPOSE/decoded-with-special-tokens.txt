@@ -1,0 +1,21 @@
+{
+  "local": {
+    "subject": "B",
+    "choice": "PAPER",
+    "evidence_refs": [
+      "E1C60625B3D",
+      "EC9F2F8942D",
+      "E5D0AC1641C"
+    ]
+  },
+  "proposal": {
+    "candidate_id": "Y",
+    "evidence_refs": [
+      "E1C60625B3D",
+      "EC9F2F8942D",
+      "E719F39C5D6",
+      "EAB5D8DF0D3",
+      "E5D0AC1641C"
+    ]
+  }
+}<|im_end|>

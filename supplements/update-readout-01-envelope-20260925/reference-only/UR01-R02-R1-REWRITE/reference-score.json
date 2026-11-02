@@ -1,0 +1,175 @@
+{
+  "case": "UR01-R02",
+  "condition": "REWRITE",
+  "id": "UR01-R02-R1-REWRITE",
+  "replicate": 1,
+  "set": "REPAIR",
+  "cohort": "ORIGINAL_ACCEPTED",
+  "role": "B",
+  "notice_relation": "SELF",
+  "notice_target": "B",
+  "notice_catalog_position": 2,
+  "source_condition": "SELECT",
+  "source_group": "E1-G31",
+  "normalization": {
+    "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+    "status": "UNCHANGED",
+    "reason": "BARE_JSON",
+    "raw_sha256": "39e0fb025a57d215efff64c91b4f4a146fcc53e84a270eecb7b254e5eddf8a44",
+    "raw_bytes": 666,
+    "normalized_sha256": "39e0fb025a57d215efff64c91b4f4a146fcc53e84a270eecb7b254e5eddf8a44",
+    "normalized_bytes_length": 666,
+    "removed_prefix_bytes": 0,
+    "removed_suffix_bytes": 0,
+    "value_repair": false
+  },
+  "formal_update": {
+    "choice_trace": [],
+    "errors": [],
+    "format_valid": true,
+    "gate": "PASS",
+    "joint_state_exact": false,
+    "memory": {
+      "private_note": {
+        "coverage": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "R7BE2DF52784584B",
+          "paper": "NOT_ALL",
+          "revision": 2
+        },
+        "customer": {
+          "animal": "CAT",
+          "origin_id": "R950710B9F6152C2",
+          "subject": "B"
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R7A0CDB5AEA5206B",
+            "paper": "NOT_ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "RBC9FFC9ECA7014B",
+            "paper": "ALL",
+            "revision": 1
+          }
+        }
+      }
+    },
+    "parse_valid": true,
+    "private_customer_exact": true,
+    "private_observation_exact": true,
+    "shared_latest_exact": false,
+    "shared_provenance_exact": false,
+    "shared_row_matches_input": {
+      "A": true,
+      "B": true
+    },
+    "shared_rows_exact": {
+      "A": true,
+      "B": false
+    },
+    "shared_values_exact": false
+  },
+  "reference_update": {
+    "gate": "PASS",
+    "parse_valid": true,
+    "format_valid": true,
+    "memory": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "R950710B9F6152C2"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "R7BE2DF52784584B",
+          "revision": 2
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "R7A0CDB5AEA5206B",
+            "revision": 3
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "RBC9FFC9ECA7014B",
+            "revision": 1
+          }
+        }
+      }
+    },
+    "choice_trace": [],
+    "private_customer_exact": true,
+    "private_observation_exact": true,
+    "shared_rows_exact": {
+      "A": true,
+      "B": false
+    },
+    "shared_values_exact": false,
+    "shared_provenance_exact": false,
+    "shared_latest_exact": false,
+    "shared_row_matches_input": {
+      "A": true,
+      "B": true
+    },
+    "joint_state_exact": false,
+    "errors": []
+  },
+  "observed_read": {
+    "channel": true,
+    "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+    "channel_latest": false,
+    "channel_note": true,
+    "channel_output": "UNKNOWN",
+    "dependency_missing": false,
+    "errors": [],
+    "extracted_values": {
+      "A": {
+        "digital": "ALL",
+        "paper": "NOT_ALL"
+      },
+      "B": {
+        "digital": "NOT_ALL",
+        "paper": "ALL"
+      }
+    },
+    "extraction_applicable": true,
+    "fields": {
+      "A.digital": true,
+      "A.paper": true,
+      "B.digital": true,
+      "B.paper": true
+    },
+    "format_valid": true,
+    "four_exact": true,
+    "four_latest_exact": false,
+    "four_valid": true,
+    "parse_valid": true
+  },
+  "reference_end_to_end_observed": false,
+  "static_note_calculation": {
+    "kind": "DETERMINISTIC_FROM_RECONSTRUCTED_NOTE_NOT_LLM_READOUT",
+    "channel": "UNKNOWN",
+    "latest_channel": "DIGITAL",
+    "matches_latest": false,
+    "read_was_run": true
+  }
+}

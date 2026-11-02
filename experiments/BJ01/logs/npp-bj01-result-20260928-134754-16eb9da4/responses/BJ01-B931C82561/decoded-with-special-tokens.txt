@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-B931C82561",
+  "checks": {
+    "output_contract": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/local/personal_totals"],
+      "evidence_pointers": ["/contract/schema/properties/local"],
+      "reason": "localオブジェクトにschema未定義のpersonal_totalsキーが存在し、追加プロパティ禁止規則に違反。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/experiences", "/payload/joint_records"],
+      "reason": "subjectはAで一致。evidence_refsはAの経験IDと完全一致。team.evidence_refsはjoint_records全IDと一致。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/projected_success_per_40"],
+      "reason": "Aの予測成功率はDIGITAL(27)がPAPER(23)より高く、DIGITAL選択は規則に合致。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Bの提案とAのACCEPTがあり、最適割付(A:PAPER, B:DIGITAL)が合意。SHARED_DECISIONで実行は正しい。"
+    }
+  }
+}<|im_end|>

@@ -1,0 +1,22 @@
+```json
+{
+  "private_note": {
+    "customer": {
+      "subject": "A",
+      "animal": "CAT",
+      "origin_id": "RD62B3DCE445A3C9"
+    },
+    "coverage": {
+      "observer": "A",
+      "paper": "ALL",
+      "digital": "ALL",
+      "origin_id": "RF37413030426206",
+      "revision": 4
+    }
+  },
+  "shared_choice": {
+    "A": "C2",
+    "B": "C3"
+  }
+}
+```

@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-42B4A6C62A",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "答案はschemaのrequiredキー(local, team)と型、列挙値を遵守し、追加プロパティがない。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/experiences", "/payload/joint_records"],
+      "reason": "subjectはholder(B)と一致。localの証拠はBの全経験IDと一致。teamの証拠はjoint_records全IDと一致。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/projected_success_per_40"],
+      "reason": "Bの予測成功率はDIGITAL(26)がPAPER(20)より高いため、DIGITAL選択は正しい。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "AとBで同一割付(A:PAPER, B:DIGITAL)のACCEPTが記録され、factsで最適解(49)と一致するためSHARED_DECISIONは正当。"
+    }
+  }
+}<|im_end|>

@@ -1,0 +1,566 @@
+{
+  "kind": "POSTHOC_OS01_SINGLE_FIELD_QUARANTINE_REFERENCE_ONLY",
+  "model_calls": 0,
+  "reference_only": true,
+  "response_count": 384,
+  "candidate_status_counts": {
+    "UNCHANGED": 328,
+    "QUARANTINED": 56
+  },
+  "quarantined_required_semantics_correct": 54,
+  "quarantined_required_semantics_incorrect": 2,
+  "extra_numeric_rows_correct": 36,
+  "extra_numeric_rows_incorrect": 20,
+  "reference_differences": {
+    "F0_U0": {
+      "U_target": {
+        "formal": {
+          "n": 32,
+          "correct": 22,
+          "incorrect": 0,
+          "unresolved": 10,
+          "fraction_missing_bounds": [
+            0.6875,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 31,
+          "incorrect": 1,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.96875,
+            0.96875
+          ]
+        }
+      },
+      "U_peer": {
+        "formal": {
+          "n": 32,
+          "correct": 14,
+          "incorrect": 0,
+          "unresolved": 18,
+          "fraction_missing_bounds": [
+            0.4375,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "J": {
+        "formal": {
+          "n": 32,
+          "correct": 12,
+          "incorrect": 0,
+          "unresolved": 20,
+          "fraction_missing_bounds": [
+            0.375,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 28,
+          "incorrect": 4,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.875,
+            0.875
+          ]
+        }
+      },
+      "Q": {
+        "formal": {
+          "n": 16,
+          "correct": 5,
+          "incorrect": 0,
+          "unresolved": 11,
+          "fraction_missing_bounds": [
+            0.3125,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 13,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.8125,
+            0.8125
+          ]
+        }
+      },
+      "S_target": {
+        "formal": {
+          "n": 16,
+          "correct": 10,
+          "incorrect": 0,
+          "unresolved": 6,
+          "fraction_missing_bounds": [
+            0.625,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 15,
+          "incorrect": 1,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.9375,
+            0.9375
+          ]
+        }
+      },
+      "I_peer": {
+        "formal": {
+          "n": 16,
+          "correct": 5,
+          "incorrect": 0,
+          "unresolved": 11,
+          "fraction_missing_bounds": [
+            0.3125,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "F0_U1": {
+      "U_target": {
+        "formal": {
+          "n": 32,
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "U_peer": {
+        "formal": {
+          "n": 32,
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "J": {
+        "formal": {
+          "n": 32,
+          "correct": 29,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.90625,
+            0.90625
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 29,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.90625,
+            0.90625
+          ]
+        }
+      },
+      "Q": {
+        "formal": {
+          "n": 16,
+          "correct": 13,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.8125,
+            0.8125
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 13,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.8125,
+            0.8125
+          ]
+        }
+      },
+      "S_target": {
+        "formal": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "I_peer": {
+        "formal": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "F1_U0": {
+      "U_target": {
+        "formal": {
+          "n": 32,
+          "correct": 22,
+          "incorrect": 0,
+          "unresolved": 10,
+          "fraction_missing_bounds": [
+            0.6875,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 31,
+          "incorrect": 1,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.96875,
+            0.96875
+          ]
+        }
+      },
+      "U_peer": {
+        "formal": {
+          "n": 32,
+          "correct": 14,
+          "incorrect": 0,
+          "unresolved": 18,
+          "fraction_missing_bounds": [
+            0.4375,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "J": {
+        "formal": {
+          "n": 32,
+          "correct": 12,
+          "incorrect": 0,
+          "unresolved": 20,
+          "fraction_missing_bounds": [
+            0.375,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 28,
+          "incorrect": 4,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.875,
+            0.875
+          ]
+        }
+      },
+      "Q": {
+        "formal": {
+          "n": 16,
+          "correct": 5,
+          "incorrect": 0,
+          "unresolved": 11,
+          "fraction_missing_bounds": [
+            0.3125,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 13,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.8125,
+            0.8125
+          ]
+        }
+      },
+      "S_target": {
+        "formal": {
+          "n": 16,
+          "correct": 10,
+          "incorrect": 0,
+          "unresolved": 6,
+          "fraction_missing_bounds": [
+            0.625,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 15,
+          "incorrect": 1,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.9375,
+            0.9375
+          ]
+        }
+      },
+      "I_peer": {
+        "formal": {
+          "n": 16,
+          "correct": 5,
+          "incorrect": 0,
+          "unresolved": 11,
+          "fraction_missing_bounds": [
+            0.3125,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "F1_U1": {
+      "U_target": {
+        "formal": {
+          "n": 32,
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "U_peer": {
+        "formal": {
+          "n": 32,
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "J": {
+        "formal": {
+          "n": 32,
+          "correct": 29,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.90625,
+            0.90625
+          ]
+        },
+        "reference": {
+          "n": 32,
+          "correct": 29,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.90625,
+            0.90625
+          ]
+        }
+      },
+      "Q": {
+        "formal": {
+          "n": 16,
+          "correct": 13,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.8125,
+            0.8125
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 13,
+          "incorrect": 3,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            0.8125,
+            0.8125
+          ]
+        }
+      },
+      "S_target": {
+        "formal": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "I_peer": {
+        "formal": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        },
+        "reference": {
+          "n": 16,
+          "correct": 16,
+          "incorrect": 0,
+          "unresolved": 0,
+          "fraction_missing_bounds": [
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  },
+  "use_semantic_failure_ids": [
+    "OS01-M12-REVERSE-F0-U0-USE-A",
+    "OS01-M12-REVERSE-F1-U0-USE-A"
+  ],
+  "confirm_failure_ids": [
+    "OS01-M11-REVERSE-F0-CONFIRM",
+    "OS01-M11-REVERSE-F1-CONFIRM",
+    "OS01-M12-REINFORCE-F1-CONFIRM",
+    "OS01-M12-REINFORCE-F0-CONFIRM",
+    "OS01-M14-REVERSE-F0-CONFIRM",
+    "OS01-M14-REVERSE-F1-CONFIRM"
+  ],
+  "formal_source_sha256": "032c58ecf60408873ca37df1ea37efa23de029219d3f391fb6e7c971014e40cf",
+  "not_an_independent_replication": true
+}

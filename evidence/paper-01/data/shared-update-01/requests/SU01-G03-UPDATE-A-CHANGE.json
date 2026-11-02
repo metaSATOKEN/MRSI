@@ -1,0 +1,33 @@
+{
+  "input": [
+    {
+      "content": [
+        {
+          "text": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\nNOTICEは今回正式に再確認したあなたの担当範囲の最新観測で、古い同じ範囲の観測に置き換わります。通知は観測だけを扱い、担当客の希望を変更しません。以前と同じ値であっても最新のorigin_idを記録します。\nPRIVATEの担当客を保持し、自分のcoverageをNOTICEに基づき更新してprivate_noteを出力します。GROUPの相方の観測を保持し、自分範囲を最新観測に更新してshared_noteを出力します。このshared_noteだけが相方へ送られ、あなた自身にも保存されます。後で相方の編集が自動反映されることはありません。\n全体案内のchannel_read_refsはNOTICEとGROUP、channel_origin_idsは自分の最新観測と相方の観測の元ID。ノートの以前のread_refsは過去の来歴なので今の参照としてコピーしません。出力トップ欄はprivate_noteとshared_noteの2欄。\nprivate_noteはcustomerとcoverageの2欄。customerはsubject（A/B/UNKNOWN）、animal（DOG/CAT/UNKNOWN）、origin_id（元の予約票ID）。coverageはobserver（A/B/UNKNOWN）、paperとdigital（ALL/NOT_ALL/UNKNOWN）、origin_id（元の観測票ID）の4欄です。\nshared_noteはcoverage（A/Bそれぞれの観測オブジェクト）、channel（PAPER/DIGITAL/UNKNOWN）、channel_read_refs（直接読んだ記録名の配列）、channel_origin_ids（根拠となる二つの元観測票IDの配列）の4欄。観測オブジェクトはobserver・paper・digital・origin_idの4欄です。channelがUNKNOWNならその二つの配列は空にします。\nread_refsには外側のrecord_id、origin_idsには観測オブジェクト内のorigin_idを記録します。この二種類を交換しません。各配列は順不同、重複なし。元観測IDを直接参照欄へ、直接記録名を元観測ID欄へ入れません。",
+          "type": "input_text"
+        }
+      ],
+      "role": "developer",
+      "type": "message"
+    },
+    {
+      "content": [
+        {
+          "text": "\n資料JSON:\n{\"scene\":\"小さな展示会\",\"item\":\"受付名札\",\"holder\":\"A\",\"records\":[{\"record_id\":\"PRIVATE\",\"author\":\"A\",\"body\":{\"customer\":{\"subject\":\"A\",\"animal\":\"CAT\",\"origin_id\":\"GD\"},\"coverage\":{\"observer\":\"A\",\"paper\":\"NOT_ALL\",\"digital\":\"ALL\",\"origin_id\":\"YC\"}}},{\"record_id\":\"GROUP\",\"author\":\"A\",\"body\":{\"coverage\":{\"A\":{\"observer\":\"A\",\"paper\":\"NOT_ALL\",\"digital\":\"ALL\",\"origin_id\":\"YC\"},\"B\":{\"observer\":\"B\",\"paper\":\"UNKNOWN\",\"digital\":\"UNKNOWN\",\"origin_id\":\"VE\"}},\"channel\":\"UNKNOWN\",\"channel_read_refs\":[],\"channel_origin_ids\":[]}},{\"record_id\":\"NOTICE\",\"author\":\"A\",\"body\":{\"observer\":\"A\",\"paper\":\"ALL\",\"digital\":\"NOT_ALL\",\"origin_id\":\"NC\"}}]}",
+          "type": "input_text"
+        }
+      ],
+      "role": "user",
+      "type": "message"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "tools": [],
+  "tool_choice": "none",
+  "parallel_tool_calls": false,
+  "store": false,
+  "stream": true
+}

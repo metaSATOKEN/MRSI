@@ -1,0 +1,1 @@
+{"mascot":"CAT","customer_origin_id":"RD859AA140D57CA8","channel":"UNKNOWN","channel_status":"WITHDRAWN","active_coverage":[{"observer":"A","paper":"ALL","digital":"NOT_ALL","origin_id":"R1860784DF2A1BCB","revision":3,"status":"ACTIVE"}],"revoked_observers":["B"],"pending_notice_ids":[]}

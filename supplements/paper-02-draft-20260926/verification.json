@@ -1,0 +1,1255 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "RS01 main direct/extract/rule",
+      "actual": [
+        11,
+        24,
+        15
+      ],
+      "expected": [
+        11,
+        24,
+        15
+      ],
+      "pass": true
+    },
+    {
+      "check": "RS01 main sample denominators",
+      "actual": [
+        24,
+        24,
+        24
+      ],
+      "expected": [
+        24,
+        24,
+        24
+      ],
+      "pass": true
+    },
+    {
+      "check": "RS01 extraction main + boundaries",
+      "actual": 32,
+      "expected": 32,
+      "pass": true
+    },
+    {
+      "check": "Table 6 RS01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "SVR01 main direct/extract",
+      "actual": [
+        11,
+        32
+      ],
+      "expected": [
+        11,
+        32
+      ],
+      "pass": true
+    },
+    {
+      "check": "SVR01 stale note/latest",
+      "actual": [
+        20,
+        4
+      ],
+      "expected": [
+        20,
+        4
+      ],
+      "pass": true
+    },
+    {
+      "check": "Table 6 SVR01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 G0P0",
+      "actual": [
+        32,
+        25,
+        28,
+        25
+      ],
+      "expected": [
+        32,
+        25,
+        28,
+        25
+      ],
+      "pass": true
+    },
+    {
+      "check": "Table 7 なし",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 G1P0",
+      "actual": [
+        32,
+        36,
+        36,
+        32
+      ],
+      "expected": [
+        32,
+        36,
+        36,
+        32
+      ],
+      "pass": true
+    },
+    {
+      "check": "Table 7 共同のみ",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 G0P1",
+      "actual": [
+        36,
+        25,
+        28,
+        25
+      ],
+      "expected": [
+        36,
+        25,
+        28,
+        25
+      ],
+      "pass": true
+    },
+    {
+      "check": "Table 7 本人のみ",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 G1P1",
+      "actual": [
+        36,
+        36,
+        36,
+        36
+      ],
+      "expected": [
+        36,
+        36,
+        36,
+        36
+      ],
+      "pass": true
+    },
+    {
+      "check": "Table 7 両方",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "OR01 actual calls",
+      "actual": 91,
+      "expected": 91,
+      "pass": true
+    },
+    {
+      "check": "OR01 logical reads",
+      "actual": 144,
+      "expected": 144,
+      "pass": true
+    },
+    {
+      "check": "SX01 full paths",
+      "actual": {
+        "correct": 16,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 16
+      },
+      "expected": {
+        "correct": 16,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 16
+      },
+      "pass": true
+    },
+    {
+      "check": "SX01 bad proposals",
+      "actual": 17,
+      "expected": 17,
+      "pass": true
+    },
+    {
+      "check": "SX01 saved states",
+      "actual": 96,
+      "expected": 96,
+      "pass": true
+    },
+    {
+      "check": "SX01 retained customer",
+      "actual": 96,
+      "expected": 96,
+      "pass": true
+    },
+    {
+      "check": "SX01 proposal row locations",
+      "actual": 24,
+      "expected": 24,
+      "pass": true
+    },
+    {
+      "check": "Table 9 SX01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "SX02 full paths",
+      "actual": {
+        "correct": 16,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 16
+      },
+      "expected": {
+        "correct": 16,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 16
+      },
+      "pass": true
+    },
+    {
+      "check": "SX02 bad proposals",
+      "actual": 23,
+      "expected": 23,
+      "pass": true
+    },
+    {
+      "check": "SX02 saved states",
+      "actual": 96,
+      "expected": 96,
+      "pass": true
+    },
+    {
+      "check": "SX02 retained customer",
+      "actual": 96,
+      "expected": 96,
+      "pass": true
+    },
+    {
+      "check": "SX02 proposal row locations",
+      "actual": 32,
+      "expected": 32,
+      "pass": true
+    },
+    {
+      "check": "Table 9 SX02",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "RU01 all conditions",
+      "actual": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "expected": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "pass": true
+    },
+    {
+      "check": "RU01 full paths",
+      "actual": 16,
+      "expected": 16,
+      "pass": true
+    },
+    {
+      "check": "RU01 example identity",
+      "actual": "RU01-C07-R1",
+      "expected": "RU01-C07-R1",
+      "pass": true
+    },
+    {
+      "check": "RU01 example actions",
+      "actual": [
+        [
+          "DOG",
+          "CAT",
+          "PAPER"
+        ],
+        [
+          "CAT",
+          "DOG",
+          "PAPER"
+        ],
+        [
+          "DOG",
+          "CAT",
+          "DIGITAL"
+        ],
+        [
+          "CAT",
+          "DOG",
+          "DIGITAL"
+        ]
+      ],
+      "expected": [
+        [
+          "DOG",
+          "CAT",
+          "PAPER"
+        ],
+        [
+          "CAT",
+          "DOG",
+          "PAPER"
+        ],
+        [
+          "DOG",
+          "CAT",
+          "DIGITAL"
+        ],
+        [
+          "CAT",
+          "DOG",
+          "DIGITAL"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 target change / nontarget / delay",
+      "actual": [
+        16,
+        32,
+        2
+      ],
+      "expected": [
+        16,
+        32,
+        2
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 full paths",
+      "actual": {
+        "correct": 2,
+        "incorrect": 14,
+        "unresolved": 0,
+        "n": 16
+      },
+      "expected": {
+        "correct": 2,
+        "incorrect": 14,
+        "unresolved": 0,
+        "n": 16
+      },
+      "pass": true
+    },
+    {
+      "check": "CU01 closure",
+      "actual": "NOT_MET",
+      "expected": "NOT_MET",
+      "pass": true
+    },
+    {
+      "check": "CU01 rollback",
+      "actual": {
+        "ROLLED_BACK_TO_INITIAL": 14,
+        "KEPT_LATEST": 2
+      },
+      "expected": {
+        "ROLLED_BACK_TO_INITIAL": 14,
+        "KEPT_LATEST": 2
+      },
+      "pass": true
+    },
+    {
+      "check": "CU01 read fidelity",
+      "actual": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "expected": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 read latest",
+      "actual": 18,
+      "expected": 18,
+      "pass": true
+    },
+    {
+      "check": "CU01 worked example",
+      "actual": "CU01-C06-R1",
+      "expected": "CU01-C06-R1",
+      "pass": true
+    },
+    {
+      "check": "CU01 change saved",
+      "actual": {
+        "animal": "DOG",
+        "origin_id": "K0D9B80C5A23D1363",
+        "revision": 77,
+        "subject": "A"
+      },
+      "expected": {
+        "animal": "DOG",
+        "origin_id": "K0D9B80C5A23D1363",
+        "revision": 77,
+        "subject": "A"
+      },
+      "pass": true
+    },
+    {
+      "check": "CU01 delay saved",
+      "actual": {
+        "animal": "CAT",
+        "origin_id": "K5E1ED87EFA479493",
+        "revision": 76,
+        "subject": "A"
+      },
+      "expected": {
+        "animal": "CAT",
+        "origin_id": "K5E1ED87EFA479493",
+        "revision": 76,
+        "subject": "A"
+      },
+      "pass": true
+    },
+    {
+      "check": "CU01 raw read excerpt",
+      "actual": {
+        "subject": "A",
+        "animal": "CAT"
+      },
+      "expected": {
+        "subject": "A",
+        "animal": "CAT"
+      },
+      "pass": true
+    },
+    {
+      "check": "CU01 exact manuscript excerpt K5E1ED87EFA479493",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "CU01 exact manuscript excerpt K0D9B80C5A23D1363",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "CU01 exact manuscript excerpt {\"customer\":{\"subject\":\"A\",\"animal\":\"CAT\"}}",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "CU01 complete rollback traces",
+      "actual": 14,
+      "expected": 14,
+      "pass": true
+    },
+    {
+      "check": "CU01 old row preserved through all failures",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts RS01",
+      "actual": [
+        0,
+        96,
+        0
+      ],
+      "expected": [
+        0,
+        96,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS RS01",
+      "actual": {
+        "EOS": 96
+      },
+      "expected": {
+        "EOS": 96
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript RS01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts SVR01",
+      "actual": [
+        0,
+        104,
+        0
+      ],
+      "expected": [
+        0,
+        104,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS SVR01",
+      "actual": {
+        "EOS": 104
+      },
+      "expected": {
+        "EOS": 104
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript SVR01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts OR01",
+      "actual": [
+        36,
+        55,
+        20
+      ],
+      "expected": [
+        36,
+        55,
+        20
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS OR01",
+      "actual": {
+        "EOS": 91
+      },
+      "expected": {
+        "EOS": 91
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript OR01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts SX01",
+      "actual": [
+        96,
+        32,
+        54
+      ],
+      "expected": [
+        96,
+        32,
+        54
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS SX01",
+      "actual": {
+        "EOS": 128
+      },
+      "expected": {
+        "EOS": 128
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript SX01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts RU01",
+      "actual": [
+        0,
+        128,
+        125
+      ],
+      "expected": [
+        0,
+        128,
+        125
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS RU01",
+      "actual": {
+        "EOS": 128
+      },
+      "expected": {
+        "EOS": 128
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript RU01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts SX02",
+      "actual": [
+        96,
+        32,
+        79
+      ],
+      "expected": [
+        96,
+        32,
+        79
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS SX02",
+      "actual": {
+        "EOS": 128
+      },
+      "expected": {
+        "EOS": 128
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript SX02",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "Appendix B counts CU01",
+      "actual": [
+        64,
+        32,
+        75
+      ],
+      "expected": [
+        64,
+        32,
+        75
+      ],
+      "pass": true
+    },
+    {
+      "check": "EOS CU01",
+      "actual": {
+        "EOS": 96
+      },
+      "expected": {
+        "EOS": 96
+      },
+      "pass": true
+    },
+    {
+      "check": "Appendix B manuscript CU01",
+      "actual": true,
+      "expected": true,
+      "pass": true
+    },
+    {
+      "check": "RS01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "RS01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "RS01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "RS01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "RS01 raw ZIP unchanged",
+      "actual": "61a29b9fb11879c7ac76db18ffe5e61f3d10a10f991c683fbc2724f248caa1c4",
+      "expected": "61a29b9fb11879c7ac76db18ffe5e61f3d10a10f991c683fbc2724f248caa1c4",
+      "pass": true
+    },
+    {
+      "check": "SVR01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "SVR01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "SVR01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "SVR01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "SVR01 raw ZIP unchanged",
+      "actual": "7e9b6f8f79053841f48a329d4e954e3457a8c976c6ea591ef2c4234f1b401b06",
+      "expected": "7e9b6f8f79053841f48a329d4e954e3457a8c976c6ea591ef2c4234f1b401b06",
+      "pass": true
+    },
+    {
+      "check": "OR01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "OR01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "OR01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "OR01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "OR01 raw ZIP unchanged",
+      "actual": "f80f1d81a62f07cf0940ee318b4dccf6a283f5fb7f5ed4d0ed5688a1c2875565",
+      "expected": "f80f1d81a62f07cf0940ee318b4dccf6a283f5fb7f5ed4d0ed5688a1c2875565",
+      "pass": true
+    },
+    {
+      "check": "SX01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "SX01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX01 raw ZIP unchanged",
+      "actual": "6655aab50dead38cea2e4060475366db88e83c3351c524e10052ad067945ee36",
+      "expected": "6655aab50dead38cea2e4060475366db88e83c3351c524e10052ad067945ee36",
+      "pass": true
+    },
+    {
+      "check": "RU01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "RU01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "RU01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "RU01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "RU01 raw ZIP unchanged",
+      "actual": "6333e83dfe41d717b27183aad33d4bf2df8f9082001253cc0af4011e7ede6121",
+      "expected": "6333e83dfe41d717b27183aad33d4bf2df8f9082001253cc0af4011e7ede6121",
+      "pass": true
+    },
+    {
+      "check": "SX02 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "SX02 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX02 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX02 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "SX02 raw ZIP unchanged",
+      "actual": "fcbd9fdff7a3d3a0fdc98e6033638e0338b97c9084e0bde87b29e35336c530ee",
+      "expected": "fcbd9fdff7a3d3a0fdc98e6033638e0338b97c9084e0bde87b29e35336c530ee",
+      "pass": true
+    },
+    {
+      "check": "CU01 revision",
+      "actual": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "expected": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+      "pass": true
+    },
+    {
+      "check": "CU01 model / mode",
+      "actual": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "expected": [
+        "Qwen/Qwen3.5-27B",
+        "bfloat16",
+        "sdpa",
+        false
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 generation",
+      "actual": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "expected": [
+        0.7,
+        0.8,
+        20,
+        1.0,
+        2048
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 environment",
+      "actual": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "expected": [
+        "3.13.15",
+        "2.11.0+cu128",
+        "5.17.0",
+        "1.15.0"
+      ],
+      "pass": true
+    },
+    {
+      "check": "CU01 raw ZIP unchanged",
+      "actual": "3b75f91c68a9e4c17635f505ee0b13226f45e9767015eb59d28da6f5e4813ca9",
+      "expected": "3b75f91c68a9e4c17635f505ee0b13226f45e9767015eb59d28da6f5e4813ca9",
+      "pass": true
+    },
+    {
+      "check": "frozen input changes",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "old ledger prefix",
+      "actual": "43d5f999c940b9c826a1102f383a63e0a90e7e48d2da51834bcb2c57fe70e74a",
+      "expected": "43d5f999c940b9c826a1102f383a63e0a90e7e48d2da51834bcb2c57fe70e74a",
+      "pass": true
+    },
+    {
+      "check": "balanced fences manuscript-ja-v0.1-2026-09-26.md",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "no local absolute paths manuscript-ja-v0.1-2026-09-26.md",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "balanced fences evidence-index-v0.1-2026-09-26.md",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "no local absolute paths evidence-index-v0.1-2026-09-26.md",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "balanced fences draft-notes-v0.1-2026-09-26.md",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "no local absolute paths draft-notes-v0.1-2026-09-26.md",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "balanced fences README.md",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "check": "no local absolute paths README.md",
+      "actual": false,
+      "expected": false,
+      "pass": true
+    },
+    {
+      "check": "broken local links",
+      "actual": [],
+      "expected": [],
+      "pass": true
+    },
+    {
+      "check": "main section count",
+      "actual": 9,
+      "expected": 9,
+      "pass": true
+    },
+    {
+      "check": "tables 1 through 10",
+      "actual": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "expected": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "pass": true
+    },
+    {
+      "check": "figure captions",
+      "actual": [
+        "1",
+        "2"
+      ],
+      "expected": [
+        "1",
+        "2"
+      ],
+      "pass": true
+    }
+  ],
+  "checked_frozen_anchors": 2967,
+  "local_links_checked": 76,
+  "new_inference_calls": 0,
+  "rescored_research_responses": 0,
+  "scope": "Existing aggregate and trace checks, manuscript values and links; not independent blind scientific review.",
+  "manuscript_sha256": "fdd1ca350a77e134165ffbb3a6f6252ba253aae49731b30139d93b704c748185"
+}

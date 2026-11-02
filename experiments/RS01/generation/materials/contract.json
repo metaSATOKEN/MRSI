@@ -1,0 +1,21 @@
+{
+  "automatic_regenerations": 0,
+  "checkpoint_every": 24,
+  "cloud_drive": "not_used",
+  "delivery": "zip_download",
+  "design_sha256": "1ec12f121c464b19c6df258d9069480bedb94c1013a90a4000ca1e74c56e06df",
+  "eos_policy": "Remove one final im_end only, retaining raw token IDs; no text repair.",
+  "max_generations": 96,
+  "protocol": "READOUT-SPLIT-01-RUN-v0.1",
+  "requests_sha256": "d01b038ea3503cbf984c94f860bad1c22bb32a631b595a82d7e0a4dc3e63960c",
+  "resume_generation": false,
+  "retention": "private_no_deletion_deadline",
+  "seconds_including_setup": 5400,
+  "source_hashes": {
+    "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "readout_split_01_bootstrap.py": "ae54017b03e5832c6002925a6ade9e13212aeb0b7ae5587f0c3b4f602c73e80f",
+    "readout_split_01_runtime.py": "396822521e77680f4a04d38b7b402043108a329395ecbb8d94bd92be550eff33",
+    "readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45"
+  }
+}

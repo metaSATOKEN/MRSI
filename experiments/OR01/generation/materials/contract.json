@@ -1,0 +1,29 @@
+{
+  "automatic_regenerations": 0,
+  "checkpoint_every_closed_parents": 6,
+  "cloud_drive": "not_used",
+  "deduplication": "Within common parent only; identical messages/schema/model/seed before generation.",
+  "delivery": "zip_download",
+  "design_sha256": "d4d72a6cbbb950d2cbddb63d91912d2b716dab3880cc91414205f4750ae40291",
+  "eos_policy": "Remove one final im_end only, preserving output tokens.",
+  "max_generations": 180,
+  "max_logical_reads": 144,
+  "max_updates": 36,
+  "normalization": "Strict bare JSON first; exact json LF fence only; no value repair.",
+  "protocol": "OWNER-RECENCY-01-RUN-v0.1",
+  "requests_sha256": "b430d4534f70c8fa8840f5e1a8d893c723238d59866a3ba3cd64deb727fc321e",
+  "resume_generation": false,
+  "retention": "private_no_deletion_deadline",
+  "seconds_including_setup": 5400,
+  "source_hashes": {
+    "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "owner_recency_01_bootstrap.py": "d910cd45a971d83c178647fa550dad01df00d45d09cde0847413e0c4a5b0de75",
+    "owner_recency_01_runtime.py": "9e45e87ffd67f9ba3ddc608244d071a9cdd71f1020061e83b9682608c9cc2d57",
+    "owner_recency_01_scoring.py": "ac7c106f9f187b03b97ff2870fa1dab484b6545790eadaa81c3f4cc9d7c54d93",
+    "readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "saved_readout_01_scoring.py": "771585161c56963b938bb13ef36decafdaa9711125adfc1f3abc5eef4a73525a",
+    "update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "update_readout_01_scoring.py": "b7ec099775e4065297a2a98e95239dc0f07422cc918c93f07b1871dacff41b85"
+  }
+}

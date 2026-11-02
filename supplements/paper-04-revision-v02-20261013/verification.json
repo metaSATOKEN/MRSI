@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_table_lines_unchanged": true,
+    "figures_and_code_blocks_unchanged": true,
+    "math_blocks_unchanged": true,
+    "numbers_except_version_unchanged": true,
+    "bibliography_unchanged": true,
+    "ledger_append_only": true,
+    "previous_sealed_files_unchanged": true,
+    "local_links_exist": true
+  },
+  "links_checked": 22,
+  "protected_sealed_files_checked": 19,
+  "new_model_calls": 0
+}

@@ -1,0 +1,53 @@
+{
+  "judgment_id": "BJ01-03F8F541CE",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/local",
+        "/answer/team"
+      ],
+      "evidence_pointers": [
+        "/contract/schema"
+      ],
+      "reason": "指定されたschemaに準拠し、追加プロパティや不正なキーは存在しない。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/local/subject",
+        "/answer/local/evidence_refs",
+        "/answer/team/evidence_refs"
+      ],
+      "evidence_pointers": [
+        "/payload/holder",
+        "/payload/experiences",
+        "/payload/joint_records"
+      ],
+      "reason": "subjectはholderと一致。localのevidence_refsはAの全経験IDと一致。teamのevidence_refsはjoint_records全IDと一致。"
+    },
+    "local_choice": {
+      "verdict": "VIOLATION",
+      "answer_pointers": [
+        "/answer/local/choice"
+      ],
+      "evidence_pointers": [
+        "/facts/roles/A/projected_success_per_40",
+        "/contract/rules/local_choice"
+      ],
+      "reason": "Aの予測成功率はDIGITAL(27)がPAPER(23)より高いが、答案はPAPERを選択しているため規則違反。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/team/allocation",
+        "/answer/team/basis"
+      ],
+      "evidence_pointers": [
+        "/payload/joint_records",
+        "/facts/feasible_allocations"
+      ],
+      "reason": "Bの提案とAのACCEPTが存在し、割付は予測合計最大(50)の最適解と一致するためSHARED_DECISIONは正当。"
+    }
+  }
+}

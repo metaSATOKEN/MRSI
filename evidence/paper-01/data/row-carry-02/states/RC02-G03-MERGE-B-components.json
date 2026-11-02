@@ -1,0 +1,28 @@
+{
+  "private_customer": {
+    "subject": "B",
+    "animal": "DOG",
+    "origin_id": "PM"
+  },
+  "private_coverage": {
+    "observer": "B",
+    "paper": "ALL",
+    "digital": "NOT_ALL",
+    "origin_id": "RC2G3B",
+    "revision": 4
+  },
+  "shared_A": {
+    "observer": "A",
+    "paper": "ALL",
+    "digital": "ALL",
+    "origin_id": "RC2G3A",
+    "revision": 4
+  },
+  "shared_B": {
+    "observer": "B",
+    "paper": "ALL",
+    "digital": "NOT_ALL",
+    "origin_id": "RC2G3B",
+    "revision": 4
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/row-carry-02-prepared-20260920/frozen/row_carry_02_design_v1.py": {
+    "source": "study2/runs/row-carry-02-prepared-20260920/frozen/row_carry_02_design_v1.py",
+    "sha256": "632be2d8e79ef5ac1b81bfe980dea2d4d8fc22a6588739a6734f3dabcba64820"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/row-carry-02-prepared-20260920/frozen/note_provenance_split_v1.py": {
+    "source": "study2/runs/row-carry-02-prepared-20260920/frozen/note_provenance_split_v1.py",
+    "sha256": "25ce03a8f4f784cd9ab7a9a23f4c42197094b8a009d528f17b13b35af3e2dbda"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/row-carry-01-prepared-20260919/frozen/shared_merge_02_design_v1.py": {
+    "source": "study2/runs/row-carry-01-prepared-20260919/frozen/shared_merge_02_design_v1.py",
+    "sha256": "67476f35d9cf0c87284f053b6fbdbe1fff20bea46d185b0ba6f020ff3b716bc8"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/row-carry-01-prepared-20260919/frozen/note_provenance_split_v1.py": {
+    "source": "study2/runs/row-carry-01-prepared-20260919/frozen/note_provenance_split_v1.py",
+    "sha256": "25ce03a8f4f784cd9ab7a9a23f4c42197094b8a009d528f17b13b35af3e2dbda"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/row-carry-01-prepared-20260919/frozen/row_carry_design_v1.py": {
+    "source": "study2/runs/row-carry-01-prepared-20260919/frozen/row_carry_design_v1.py",
+    "sha256": "a11eb022f20054082d7c072c0c29cf4b062c2583c805907e75d8abe537698064"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-merge-02-prepared-20260919/frozen/shared_merge_02_design_v1.py": {
+    "source": "study2/runs/shared-merge-02-prepared-20260919/frozen/shared_merge_02_design_v1.py",
+    "sha256": "67476f35d9cf0c87284f053b6fbdbe1fff20bea46d185b0ba6f020ff3b716bc8"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-merge-02-prepared-20260919/frozen/note_provenance_split_v1.py": {
+    "source": "study2/runs/shared-merge-02-prepared-20260919/frozen/note_provenance_split_v1.py",
+    "sha256": "25ce03a8f4f784cd9ab7a9a23f4c42197094b8a009d528f17b13b35af3e2dbda"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-merge-01-prepared-20260919/frozen/shared_merge_design_v1.py": {
+    "source": "study2/runs/shared-merge-01-prepared-20260919/frozen/shared_merge_design_v1.py",
+    "sha256": "2be10952a4f1661a30e61e579276978d87e538d1c621f8302fca95a5789a1fa9"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-merge-01-prepared-20260919/frozen/note_provenance_split_v1.py": {
+    "source": "study2/runs/shared-merge-01-prepared-20260919/frozen/note_provenance_split_v1.py",
+    "sha256": "25ce03a8f4f784cd9ab7a9a23f4c42197094b8a009d528f17b13b35af3e2dbda"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-recency-01-prepared-20260919/frozen/shared_update_analysis_v1.py": {
+    "source": "study2/runs/shared-recency-01-prepared-20260919/frozen/shared_update_analysis_v1.py",
+    "sha256": "2013708de58d5ba64e13a44e70c0baf0dcf2a8f89be75b78343a52c25f3d1ba7"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-recency-01-prepared-20260919/frozen/shared_update_design_v1.py": {
+    "source": "study2/runs/shared-recency-01-prepared-20260919/frozen/shared_update_design_v1.py",
+    "sha256": "9398c6e95cd849370b60deb4f4e08ae0d30787ffff7800c01d71ba220d017bb3"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-recency-01-prepared-20260919/frozen/shared_recency_design_v1.py": {
+    "source": "study2/runs/shared-recency-01-prepared-20260919/frozen/shared_recency_design_v1.py",
+    "sha256": "88c7cde3862f650ea7c5b2dd427b98896e60a564ea05941520bb27a77e70aa92"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-recency-01-prepared-20260919/frozen/shared_update_02_design_v1.py": {
+    "source": "study2/runs/shared-recency-01-prepared-20260919/frozen/shared_update_02_design_v1.py",
+    "sha256": "5c07174ad4257ad38ad8f65f1d23aea22443cdce5c4ace9c20c6c64c36701eaa"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-recency-01-prepared-20260919/frozen/shared_note_codec_v1.py": {
+    "source": "study2/runs/shared-recency-01-prepared-20260919/frozen/shared_note_codec_v1.py",
+    "sha256": "9831b0523db5e8dd693b0365eb314824dfd439de5017f52a68a4c87bbb621177"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-update-02-prepared-20260919/frozen/shared_update_analysis_v1.py": {
+    "source": "study2/runs/shared-update-02-prepared-20260919/frozen/shared_update_analysis_v1.py",
+    "sha256": "2013708de58d5ba64e13a44e70c0baf0dcf2a8f89be75b78343a52c25f3d1ba7"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-update-02-prepared-20260919/frozen/shared_update_design_v1.py": {
+    "source": "study2/runs/shared-update-02-prepared-20260919/frozen/shared_update_design_v1.py",
+    "sha256": "9398c6e95cd849370b60deb4f4e08ae0d30787ffff7800c01d71ba220d017bb3"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-update-02-prepared-20260919/frozen/shared_update_02_design_v1.py": {
+    "source": "study2/runs/shared-update-02-prepared-20260919/frozen/shared_update_02_design_v1.py",
+    "sha256": "5c07174ad4257ad38ad8f65f1d23aea22443cdce5c4ace9c20c6c64c36701eaa"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-update-02-prepared-20260919/frozen/shared_note_codec_v1.py": {
+    "source": "study2/runs/shared-update-02-prepared-20260919/frozen/shared_note_codec_v1.py",
+    "sha256": "9831b0523db5e8dd693b0365eb314824dfd439de5017f52a68a4c87bbb621177"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-carry-03-prepared-20260918/frozen/shared_note_codec_v1.py": {
+    "source": "study2/runs/shared-carry-03-prepared-20260918/frozen/shared_note_codec_v1.py",
+    "sha256": "9831b0523db5e8dd693b0365eb314824dfd439de5017f52a68a4c87bbb621177"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-carry-03-prepared-20260918/frozen/shared_carry_02_design_v1.py": {
+    "source": "study2/runs/shared-carry-03-prepared-20260918/frozen/shared_carry_02_design_v1.py",
+    "sha256": "7cb6466ef445b8dabc9dad8aa30e8654b6ac21e34d7d100a4459c525b5c37327"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-carry-03-prepared-20260918/frozen/record_decision_design_v1.py": {
+    "source": "study2/runs/shared-carry-03-prepared-20260918/frozen/record_decision_design_v1.py",
+    "sha256": "5b8ebdfb0a65c03f034f912f18ba1805ccbed5df074593fdd5083f3c11fb7054"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-carry-03-prepared-20260918/frozen/shared_update_design_v1.py": {
+    "source": "study2/runs/shared-carry-03-prepared-20260918/frozen/shared_update_design_v1.py",
+    "sha256": "9398c6e95cd849370b60deb4f4e08ae0d30787ffff7800c01d71ba220d017bb3"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-carry-03-prepared-20260918/frozen/shared_carry_03_design_v1.py": {
+    "source": "study2/runs/shared-carry-03-prepared-20260918/frozen/shared_carry_03_design_v1.py",
+    "sha256": "4e02db9c19e002cd0630f45c4fba4c38a6307241fde20e846f7997fe16ff72aa"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-carry-02-prepared-20260918/frozen/shared_carry_02_design_v1.py": {
+    "source": "study2/runs/shared-carry-02-prepared-20260918/frozen/shared_carry_02_design_v1.py",
+    "sha256": "7cb6466ef445b8dabc9dad8aa30e8654b6ac21e34d7d100a4459c525b5c37327"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-carry-02-prepared-20260918/frozen/record_decision_design_v1.py": {
+    "source": "study2/runs/shared-carry-02-prepared-20260918/frozen/record_decision_design_v1.py",
+    "sha256": "5b8ebdfb0a65c03f034f912f18ba1805ccbed5df074593fdd5083f3c11fb7054"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-carry-02-prepared-20260918/frozen/shared_update_design_v1.py": {
+    "source": "study2/runs/shared-carry-02-prepared-20260918/frozen/shared_update_design_v1.py",
+    "sha256": "9398c6e95cd849370b60deb4f4e08ae0d30787ffff7800c01d71ba220d017bb3"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/record-decision-01-prepared-20260918/frozen/record_decision_design_v1.py": {
+    "source": "study2/runs/record-decision-01-prepared-20260918/frozen/record_decision_design_v1.py",
+    "sha256": "5b8ebdfb0a65c03f034f912f18ba1805ccbed5df074593fdd5083f3c11fb7054"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-update-01-prepared-20260918/frozen/shared_update_analysis_v1.py": {
+    "source": "study2/runs/shared-update-01-prepared-20260918/frozen/shared_update_analysis_v1.py",
+    "sha256": "2013708de58d5ba64e13a44e70c0baf0dcf2a8f89be75b78343a52c25f3d1ba7"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-update-01-prepared-20260918/frozen/shared_update_design_v1.py": {
+    "source": "study2/runs/shared-update-01-prepared-20260918/frozen/shared_update_design_v1.py",
+    "sha256": "9398c6e95cd849370b60deb4f4e08ae0d30787ffff7800c01d71ba220d017bb3"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-carry-01-prepared-20260918/frozen/shared_carry_analysis_v1.py": {
+    "source": "study2/runs/shared-carry-01-prepared-20260918/frozen/shared_carry_analysis_v1.py",
+    "sha256": "a229432098aafb44c0ff52470d18b3a8144c9faa3fc6345975493b3fc9c8dd82"
+  },
+  "throughline/audits/paper-01-rereview-20260922/scorer-sources/study2/runs/shared-carry-01-prepared-20260918/frozen/shared_carry_design_v1.py": {
+    "source": "study2/runs/shared-carry-01-prepared-20260918/frozen/shared_carry_design_v1.py",
+    "sha256": "ab5d1206e0f49d5132c3d67a40820c349dd13b10c6b8df8730b9ad0209b652d8"
+  }
+}

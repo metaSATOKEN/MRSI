@@ -1,0 +1,1 @@
+{"own":{"holder":"B","recommendation":"PAPER","evidence_ids":["E071faf1313","Eb98c255e0b"]},"vote":{"proposal_id":"P64e80a12","decision":"ACCEPT"}}<|im_end|>

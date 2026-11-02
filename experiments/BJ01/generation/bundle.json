@@ -1,0 +1,58 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "1743557bd670b0e8a40a0fa82acb7ec90ba205a143f51c44f389be4216b6d7f9",
+    "materials/contract.json": "a694338c354f378cffba0858910f8a8ab8412dd5c64941e9ce2e6bad77f85a62",
+    "materials/frozen.json": "2ee4ec696eda46763c81f4a5a5f16609c5b9e4c2c721898d63167769a0c6a3d6",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/boundary_judge_01_bootstrap.py": "fa1633b366328482938e01ee9b5ee17a1b4f03c476611f4c61a68c6ae8fef9f0",
+    "source/boundary_judge_01_runtime.py": "ed8d90473453c0f06b158875c314441afdc93fff32763bec63fcc40806a0a18a",
+    "source/boundary_judge_01_scoring.py": "df0ab39999facd3294d46e24a8554c11f574d1175106acd1aa950a995cac9d18",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "supervisor.py": "e6d54d6fd0348e9887c0af3ede5a0cec5994ca40bf04a2c17f5f98f309732f9a"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "05448c644c1f4e16c82cd897c0c3c527262cf0b96b4c3c6021e598af1ffd9a4d",
+  "original_payload_sha256": "b0886f9931f3aa583ab972fe65bd65be897a03b5ac59ad4e6c7bd9167948d8b1",
+  "original_supervisor_sha256": "fa1633b366328482938e01ee9b5ee17a1b4f03c476611f4c61a68c6ae8fef9f0",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "boundary_judge_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/boundary_judge_01_bootstrap.py"
+          },
+          "boundary_judge_01_runtime.py": {
+            "kind": "text",
+            "path": "source/boundary_judge_01_runtime.py"
+          },
+          "boundary_judge_01_scoring.py": {
+            "kind": "text",
+            "path": "source/boundary_judge_01_scoring.py"
+          },
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "BJ01"
+}

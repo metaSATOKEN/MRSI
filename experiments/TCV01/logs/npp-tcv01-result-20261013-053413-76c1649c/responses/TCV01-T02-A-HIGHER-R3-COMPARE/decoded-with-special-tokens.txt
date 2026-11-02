@@ -1,0 +1,19 @@
+{
+  "own": {
+    "holder": "A",
+    "recommendation": "PAPER",
+    "evidence_ids": [
+      "E7ca852043d",
+      "E9ee9ef56a6"
+    ]
+  },
+  "comparison": {
+    "candidate_id": "C2",
+    "other_candidate_id": "C1",
+    "relation": "HIGHER"
+  },
+  "vote": {
+    "proposal_id": "Pf2bf9e54",
+    "decision": "ACCEPT"
+  }
+}<|im_end|>

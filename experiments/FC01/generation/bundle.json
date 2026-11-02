@@ -1,0 +1,88 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "f95e6dd1e4d9e0bb6e4d2ce3b564c473ffe1165858074c627ee4f8babc1f5985",
+    "design.md": "9d450e30b23d2e0012cf1ed53d9d5f5aed7b8e9968e8b66be6d7c32e8ff1fc9a",
+    "materials/contract.json": "cf2d6013cdaad88e44059f3f04046f5d536245dd821faecd5a1a322627254102",
+    "materials/frozen.json": "902ffe06c24589e812f238a01b31fdd5b64738ffc3efe3906c36f375c8fe39a3",
+    "requests.jsonl": "917fdf11c86c3b54420737e06f9f4058b0cb4f94953f096a96b5fdc441781cf3",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/experience_update_01_design.py": "0cae6a87b1355cdf29fb5f2ec2f1eb97fa294c076419eff5ec774d749551b3a1",
+    "source/feasible_choice_01_bootstrap.py": "25c00c1198fb4a7c1f3a007675d4daa6da89335bd104cab8a8f736d2ed7e0bcb",
+    "source/feasible_choice_01_design.py": "3a7e83934df835618d16702218fe2dffdd3466a073eb72be7b9981676e93dbd5",
+    "source/feasible_choice_01_fixtures.py": "8b9561bffce6685ead6966ba5ceca539b2bc0bdbb1913bd5128ec2f8362fcbdf",
+    "source/feasible_choice_01_runtime.py": "89c288376a2b40f1b6e5d3d18e948cdde3e49a86c14b4d3574d7afa86357f31e",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "supervisor.py": "4b8a7aa4b0688c9660d0497b09a596f6fcfa3d21d738766ffe2095e82f2f542c"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "1d0932d41c9db6cc071fd1b370de8356ccaf3ca6dba536364c27cd5a5410dfc0",
+  "original_payload_sha256": "7273a075d0cbe175f6f87875e654909404ddf312f15b30e0e7b795def1b088d9",
+  "original_supervisor_sha256": "25c00c1198fb4a7c1f3a007675d4daa6da89335bd104cab8a8f736d2ed7e0bcb",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "experience_update_01_design.py": {
+            "kind": "text",
+            "path": "source/experience_update_01_design.py"
+          },
+          "feasible_choice_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/feasible_choice_01_bootstrap.py"
+          },
+          "feasible_choice_01_design.py": {
+            "kind": "text",
+            "path": "source/feasible_choice_01_design.py"
+          },
+          "feasible_choice_01_fixtures.py": {
+            "kind": "text",
+            "path": "source/feasible_choice_01_fixtures.py"
+          },
+          "feasible_choice_01_runtime.py": {
+            "kind": "text",
+            "path": "source/feasible_choice_01_runtime.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "FC01"
+}

@@ -1,0 +1,93 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "b48cf80ceb36034b70931edf809ac33eb0ea9cc42eab8dc2609d6192c020262d",
+    "design.md": "74188ddeabadad000b3cf03b5710ccb1845e15ecdb8c1166579e8552b4ede923",
+    "materials/contract.json": "0afe4926a589c7e999643f308678460a05093fe20ebb12e06132c90106df0fe0",
+    "materials/frozen.json": "4ddc434a9d1f8b3e6ac0bc305f3ac6c6b771ca97dda3d8ed1c5a640e9790cb9e",
+    "requests.jsonl": "f747b48a288f31e9f96536923b66b7759037b928a3790a84aba01bffb3614544",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/owner_recency_01_scoring.py": "ac7c106f9f187b03b97ff2870fa1dab484b6545790eadaa81c3f4cc9d7c54d93",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/role_shared_use_01_bootstrap.py": "4c5bc34c36fa0c836682f514c1e01002b4b4bf55ddd75dc723a6b8ea3f69be24",
+    "source/role_shared_use_01_design.py": "4bed01f5c3f1bb5ae0c9d460e7dbd08957647ea09cf945790ef5e0d41b64fb73",
+    "source/role_shared_use_01_runtime.py": "692591c4df01e30e1bdec2601ed05815505fbb09f49097e9b02bb4a00eaa7c42",
+    "source/saved_readout_01_scoring.py": "771585161c56963b938bb13ef36decafdaa9711125adfc1f3abc5eef4a73525a",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "source/update_readout_01_scoring.py": "b7ec099775e4065297a2a98e95239dc0f07422cc918c93f07b1871dacff41b85",
+    "supervisor.py": "39a40e7efba87470b063937db40ccfb2b7edd04cad5dbd5f4fc7a838a04cee78"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "e284839222ad776524e7856ef52e0b0c8cb568520e5c460378f878ebc88fc1e0",
+  "original_payload_sha256": "10a0fac762ee2fd16f13d032095a7f47fa4b3d93099458e87dd39da7a220ff49",
+  "original_supervisor_sha256": "4c5bc34c36fa0c836682f514c1e01002b4b4bf55ddd75dc723a6b8ea3f69be24",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "owner_recency_01_scoring.py": {
+            "kind": "text",
+            "path": "source/owner_recency_01_scoring.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "role_shared_use_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/role_shared_use_01_bootstrap.py"
+          },
+          "role_shared_use_01_design.py": {
+            "kind": "text",
+            "path": "source/role_shared_use_01_design.py"
+          },
+          "role_shared_use_01_runtime.py": {
+            "kind": "text",
+            "path": "source/role_shared_use_01_runtime.py"
+          },
+          "saved_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/saved_readout_01_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          },
+          "update_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_scoring.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "RU01"
+}

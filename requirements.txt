@@ -1,0 +1,2 @@
+# Offline Paper 1 interval calculations; Qwen replay uses the standard library.
+scipy==1.17.0

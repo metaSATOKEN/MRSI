@@ -1,0 +1,75 @@
+{
+  "score": {
+    "strict": true,
+    "content": true,
+    "parts": {
+      "mascot": {
+        "strict": true,
+        "content": true
+      },
+      "channel": {
+        "strict": true,
+        "content": true
+      }
+    },
+    "gate": "PASS",
+    "shape_errors": [],
+    "ref_errors": []
+  },
+  "gate": "PASS",
+  "value": {
+    "decision": {
+      "mascot": "CAT",
+      "channel": "PAPER"
+    },
+    "read_receipt": {
+      "mascot_record_refs": [
+        "PRIVATE"
+      ],
+      "channel_record_refs": [
+        "GROUP"
+      ]
+    },
+    "origin_ids": {
+      "mascot": [
+        "ZR"
+      ],
+      "channel": [
+        "SM2G4A",
+        "SM2G4B"
+      ]
+    }
+  },
+  "normalized": {
+    "decision": {
+      "mascot": "CAT",
+      "channel": "PAPER"
+    },
+    "read_receipt": {
+      "mascot_record_refs": [
+        "PRIVATE"
+      ],
+      "channel_record_refs": [
+        "GROUP"
+      ]
+    },
+    "origin_ids": {
+      "mascot": [
+        "ZR"
+      ],
+      "channel": [
+        "SM2G4A",
+        "SM2G4B"
+      ]
+    }
+  },
+  "bindings": [],
+  "selection_errors": [],
+  "selection_shape_errors": [],
+  "status": "VALID",
+  "continuable": false,
+  "valid_components": {
+    "mascot": "CAT",
+    "channel": "PAPER"
+  }
+}

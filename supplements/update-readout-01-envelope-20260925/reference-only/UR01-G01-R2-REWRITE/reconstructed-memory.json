@@ -1,0 +1,40 @@
+{
+  "kind": "POSTHOC_RECONSTRUCTION_NOT_EXPERIMENT_SAVED_MEMORY",
+  "pipeline": "UR01-G01-R2-REWRITE",
+  "normalization_status": "UNCHANGED",
+  "memory": {
+    "private_note": {
+      "customer": {
+        "subject": "A",
+        "animal": "DOG",
+        "origin_id": "RF4ACDF1B1A395DC"
+      },
+      "coverage": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "R61617D53BF8CE8C",
+        "revision": 2
+      }
+    },
+    "shared_note": {
+      "coverage": {
+        "A": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "R61617D53BF8CE8C",
+          "revision": 2
+        },
+        "B": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "RB3F59383BD22E3B",
+          "revision": 3
+        }
+      }
+    }
+  },
+  "choice_trace": []
+}

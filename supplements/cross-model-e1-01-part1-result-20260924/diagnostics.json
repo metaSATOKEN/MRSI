@@ -1,0 +1,526 @@
+{
+  "counts": {
+    "REWRITE|MERGE": {
+      "any_invalid_current_refs": 115,
+      "all_invalid_refs_are_input_origin_ids": 115,
+      "raw_json_invalid": 32,
+      "outer_markdown_fence": 32
+    },
+    "SELECT|MERGE|selection_errors": {
+      "SELECTION_NOT_CURRENT:A": 68,
+      "SELECTION_NOT_CURRENT:B": 68
+    },
+    "SELECT|MERGE": {
+      "any_invalid_current_refs": 53,
+      "all_invalid_refs_are_input_origin_ids": 53,
+      "selection_cannot_resolve": 68,
+      "raw_json_invalid": 40,
+      "outer_markdown_fence": 40
+    },
+    "SELECT|PROBE": {
+      "channel_UNKNOWN": 58,
+      "channel_refs_[]": 58,
+      "exact_expected_refs_False": 75,
+      "exact_expected_origins_False": 62,
+      "channel_PAPER": 19,
+      "channel_refs_['PRIVATE', 'GROUP']": 15,
+      "exact_expected_origins_True": 15,
+      "channel_refs_['PRIVATE']": 2,
+      "correct_decisions_wrong_attribution": 6,
+      "channel_refs_['GROUP']": 2,
+      "exact_expected_refs_True": 2
+    },
+    "REWRITE|PROBE": {
+      "channel_PAPER": 14,
+      "channel_refs_['PRIVATE']": 5,
+      "exact_expected_refs_False": 45,
+      "exact_expected_origins_False": 39,
+      "correct_decisions_wrong_attribution": 11,
+      "channel_UNKNOWN": 31,
+      "channel_refs_[]": 31,
+      "channel_refs_['PRIVATE', 'GROUP']": 9,
+      "exact_expected_origins_True": 6
+    },
+    "SELECT|MERGE|selection_shape_errors": {
+      "JSON": 40
+    }
+  },
+  "unknown_examples": {
+    "SELECT": {
+      "id": "XM01-R1-E1-G51-SELECT-PROBE-A",
+      "input": {
+        "holder": "A",
+        "item": "個別の案内カード",
+        "records": [
+          {
+            "body": {
+              "coverage": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "R73B013F46A9CA9F",
+                "paper": "ALL",
+                "revision": 2
+              },
+              "customer": {
+                "animal": "CAT",
+                "origin_id": "R3D15F7D9D4FD6D0",
+                "subject": "A"
+              }
+            },
+            "record_id": "PRIVATE"
+          },
+          {
+            "body": {
+              "coverage": {
+                "A": {
+                  "digital": "ALL",
+                  "observer": "A",
+                  "origin_id": "R73B013F46A9CA9F",
+                  "paper": "ALL",
+                  "revision": 2
+                },
+                "B": {
+                  "digital": "NOT_ALL",
+                  "observer": "B",
+                  "origin_id": "RD1D3BE0964594A5",
+                  "paper": "ALL",
+                  "revision": 2
+                }
+              }
+            },
+            "record_id": "GROUP"
+          }
+        ],
+        "scene": "図書交換会・丘の会場"
+      },
+      "answer": {
+        "decision": {
+          "mascot": "CAT",
+          "channel": "UNKNOWN"
+        },
+        "read_receipt": {
+          "mascot_record_refs": [
+            "PRIVATE"
+          ],
+          "channel_record_refs": []
+        },
+        "origin_ids": {
+          "mascot": [
+            "R3D15F7D9D4FD6D0"
+          ],
+          "channel": []
+        }
+      },
+      "expected": {
+        "decision": {
+          "mascot": "CAT",
+          "channel": "PAPER"
+        },
+        "read_receipt": {
+          "mascot_record_refs": [
+            "PRIVATE"
+          ],
+          "channel_record_refs": [
+            "GROUP"
+          ]
+        },
+        "origin_ids": {
+          "mascot": [
+            "R3D15F7D9D4FD6D0"
+          ],
+          "channel": [
+            "R73B013F46A9CA9F",
+            "RD1D3BE0964594A5"
+          ]
+        }
+      }
+    },
+    "REWRITE": {
+      "id": "XM01-R1-E1-G64-REWRITE-PROBE-A",
+      "input": {
+        "holder": "A",
+        "item": "個別の案内カード",
+        "records": [
+          {
+            "body": {
+              "coverage": {
+                "digital": "NOT_ALL",
+                "observer": "A",
+                "origin_id": "R959B1D99FD83B72",
+                "paper": "ALL",
+                "revision": 4
+              },
+              "customer": {
+                "animal": "CAT",
+                "origin_id": "RB6E320C2DCBBEAB",
+                "subject": "A"
+              }
+            },
+            "record_id": "PRIVATE"
+          },
+          {
+            "body": {
+              "coverage": {
+                "A": {
+                  "digital": "NOT_ALL",
+                  "observer": "A",
+                  "origin_id": "R959B1D99FD83B72",
+                  "paper": "ALL",
+                  "revision": 4
+                },
+                "B": {
+                  "digital": "ALL",
+                  "observer": "B",
+                  "origin_id": "RFDE8B4C8B63DCAE",
+                  "paper": "ALL",
+                  "revision": 4
+                }
+              }
+            },
+            "record_id": "GROUP"
+          }
+        ],
+        "scene": "音楽鑑賞会・駅前会場"
+      },
+      "answer": {
+        "decision": {
+          "mascot": "CAT",
+          "channel": "UNKNOWN"
+        },
+        "read_receipt": {
+          "mascot_record_refs": [
+            "PRIVATE"
+          ],
+          "channel_record_refs": []
+        },
+        "origin_ids": {
+          "mascot": [
+            "RB6E320C2DCBBEAB"
+          ],
+          "channel": []
+        }
+      },
+      "expected": {
+        "decision": {
+          "mascot": "CAT",
+          "channel": "PAPER"
+        },
+        "read_receipt": {
+          "mascot_record_refs": [
+            "PRIVATE"
+          ],
+          "channel_record_refs": [
+            "GROUP"
+          ]
+        },
+        "origin_ids": {
+          "mascot": [
+            "RB6E320C2DCBBEAB"
+          ],
+          "channel": [
+            "R959B1D99FD83B72",
+            "RFDE8B4C8B63DCAE"
+          ]
+        }
+      }
+    }
+  },
+  "accepted_bad_merge": [
+    {
+      "id": "XM01-R1-E1-G60-SELECT-MERGE-B",
+      "score": {
+        "content": false,
+        "gate": "PASS",
+        "parts": {
+          "private_note.coverage": {
+            "content": true,
+            "strict": true
+          },
+          "private_note.customer": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.A": {
+            "content": false,
+            "strict": false
+          },
+          "shared_note.coverage.B": {
+            "content": true,
+            "strict": true
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": false
+      },
+      "answer": {
+        "memory": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "CAT",
+              "origin_id": "R6DF375DE1A114CF"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "ALL",
+              "digital": "NOT_ALL",
+              "origin_id": "R983A548B9171ED5",
+              "revision": 4
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "record_id": "LOCAL_GROUP",
+                "observer": "A"
+              },
+              "B": {
+                "record_id": "PRIVATE",
+                "observer": "B"
+              }
+            }
+          }
+        },
+        "read_receipt": {
+          "private_customer_refs": [
+            "PRIVATE"
+          ],
+          "private_coverage_refs": [
+            "PRIVATE"
+          ],
+          "shared_coverage_refs": {
+            "A": [
+              "LOCAL_GROUP"
+            ],
+            "B": [
+              "PRIVATE"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "XM01-R3-E1-G58-SELECT-MERGE-B",
+      "score": {
+        "content": false,
+        "gate": "PASS",
+        "parts": {
+          "private_note.coverage": {
+            "content": true,
+            "strict": true
+          },
+          "private_note.customer": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.A": {
+            "content": false,
+            "strict": false
+          },
+          "shared_note.coverage.B": {
+            "content": true,
+            "strict": true
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": false
+      },
+      "answer": {
+        "memory": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "CAT",
+              "origin_id": "R47750E29AA4E0EE"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "ALL",
+              "digital": "ALL",
+              "origin_id": "RA28E2181D92FA64",
+              "revision": 4
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "record_id": "LOCAL_GROUP",
+                "observer": "A"
+              },
+              "B": {
+                "record_id": "PRIVATE",
+                "observer": "B"
+              }
+            }
+          }
+        },
+        "read_receipt": {
+          "private_customer_refs": [
+            "PRIVATE"
+          ],
+          "private_coverage_refs": [
+            "PRIVATE"
+          ],
+          "shared_coverage_refs": {
+            "A": [
+              "LOCAL_GROUP"
+            ],
+            "B": [
+              "PRIVATE"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "XM01-R3-E1-G11-SELECT-MERGE-B",
+      "score": {
+        "content": false,
+        "gate": "PASS",
+        "parts": {
+          "private_note.coverage": {
+            "content": true,
+            "strict": true
+          },
+          "private_note.customer": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.A": {
+            "content": false,
+            "strict": false
+          },
+          "shared_note.coverage.B": {
+            "content": true,
+            "strict": true
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": false
+      },
+      "answer": {
+        "memory": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "CAT",
+              "origin_id": "R00C5F6F25AD7086"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "NOT_ALL",
+              "digital": "ALL",
+              "origin_id": "RBDAFB629739D1C7",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "record_id": "LOCAL_GROUP",
+                "observer": "A"
+              },
+              "B": {
+                "record_id": "LOCAL_GROUP",
+                "observer": "B"
+              }
+            }
+          }
+        },
+        "read_receipt": {
+          "private_customer_refs": [
+            "PRIVATE"
+          ],
+          "private_coverage_refs": [
+            "PRIVATE"
+          ],
+          "shared_coverage_refs": {
+            "A": [
+              "LOCAL_GROUP"
+            ],
+            "B": [
+              "LOCAL_GROUP"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "XM01-R3-E1-G31-SELECT-MERGE-B",
+      "score": {
+        "content": false,
+        "gate": "PASS",
+        "parts": {
+          "private_note.coverage": {
+            "content": true,
+            "strict": true
+          },
+          "private_note.customer": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.A": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.B": {
+            "content": false,
+            "strict": false
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": false
+      },
+      "answer": {
+        "memory": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "CAT",
+              "origin_id": "R950710B9F6152C2"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "NOT_ALL",
+              "digital": "ALL",
+              "origin_id": "R7BE2DF52784584B",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "record_id": "PARTNER_GROUP",
+                "observer": "A"
+              },
+              "B": {
+                "record_id": "PARTNER_GROUP",
+                "observer": "B"
+              }
+            }
+          }
+        },
+        "read_receipt": {
+          "private_customer_refs": [
+            "PRIVATE"
+          ],
+          "private_coverage_refs": [
+            "PRIVATE"
+          ],
+          "shared_coverage_refs": {
+            "A": [
+              "PARTNER_GROUP"
+            ],
+            "B": [
+              "PARTNER_GROUP"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"agreement":"PENDING","approval_state":{"A":"HOLD","B":"HOLD","C":"MISSING"},"joint_action":"HOLD","own":{"evidence_ids":["E7ca852043d","E9ee9ef56a6"],"holder":"A","recommendation":"PAPER"}}<|im_end|>

@@ -1,0 +1,1528 @@
+{
+  "status": "DESIGN_PROPOSAL_NOT_MODEL_PAYLOAD",
+  "experiment": "EXPERIENCE-SHARED-01",
+  "warning": "Contains expected answers; construct model payload with an allowlist in the later implementation.",
+  "independent_scope": "Four profile combinations crossed with two bundled presentation/proposer blocks; not eight independent real-world situations.",
+  "cases": [
+    {
+      "case_id": "C01",
+      "block": 1,
+      "first_proposer": "A",
+      "role_display_order": [
+        "A",
+        "B"
+      ],
+      "medium_display_order": [
+        "PAPER",
+        "DIGITAL"
+      ],
+      "records": [
+        {
+          "episode_id": "E94A9E91EF2",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EE766BA6019",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        },
+        {
+          "episode_id": "E7626AE2A21",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "E43F99F6F00",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ],
+      "expected_not_for_model": {
+        "local_choice": {
+          "A": "PAPER",
+          "B": "PAPER"
+        },
+        "local_totals": {
+          "A": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          },
+          "B": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          }
+        },
+        "allocation_totals": [
+          50,
+          50
+        ],
+        "optimal_allocations": [
+          {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "C02",
+      "block": 1,
+      "first_proposer": "A",
+      "role_display_order": [
+        "A",
+        "B"
+      ],
+      "medium_display_order": [
+        "PAPER",
+        "DIGITAL"
+      ],
+      "records": [
+        {
+          "episode_id": "E94A9E91EF2",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EE766BA6019",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        },
+        {
+          "episode_id": "E7626AE2A21",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "E43F99F6F00",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ],
+      "expected_not_for_model": {
+        "local_choice": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "local_totals": {
+          "A": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          },
+          "B": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          }
+        },
+        "allocation_totals": [
+          54,
+          46
+        ],
+        "optimal_allocations": [
+          {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "C03",
+      "block": 1,
+      "first_proposer": "A",
+      "role_display_order": [
+        "A",
+        "B"
+      ],
+      "medium_display_order": [
+        "PAPER",
+        "DIGITAL"
+      ],
+      "records": [
+        {
+          "episode_id": "E94A9E91EF2",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EE766BA6019",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        },
+        {
+          "episode_id": "E7626AE2A21",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "E43F99F6F00",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ],
+      "expected_not_for_model": {
+        "local_choice": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "local_totals": {
+          "A": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          },
+          "B": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          }
+        },
+        "allocation_totals": [
+          46,
+          54
+        ],
+        "optimal_allocations": [
+          {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "C04",
+      "block": 1,
+      "first_proposer": "A",
+      "role_display_order": [
+        "A",
+        "B"
+      ],
+      "medium_display_order": [
+        "PAPER",
+        "DIGITAL"
+      ],
+      "records": [
+        {
+          "episode_id": "E94A9E91EF2",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EE766BA6019",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        },
+        {
+          "episode_id": "E7626AE2A21",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "E43F99F6F00",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ],
+      "expected_not_for_model": {
+        "local_choice": {
+          "A": "DIGITAL",
+          "B": "DIGITAL"
+        },
+        "local_totals": {
+          "A": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          },
+          "B": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          }
+        },
+        "allocation_totals": [
+          50,
+          50
+        ],
+        "optimal_allocations": [
+          {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "C05",
+      "block": 2,
+      "first_proposer": "B",
+      "role_display_order": [
+        "B",
+        "A"
+      ],
+      "medium_display_order": [
+        "DIGITAL",
+        "PAPER"
+      ],
+      "records": [
+        {
+          "episode_id": "E719F39C5D6",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EAB5D8DF0D3",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        },
+        {
+          "episode_id": "E1C60625B3D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EC9F2F8942D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ],
+      "expected_not_for_model": {
+        "local_choice": {
+          "A": "PAPER",
+          "B": "PAPER"
+        },
+        "local_totals": {
+          "A": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          },
+          "B": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          }
+        },
+        "allocation_totals": [
+          50,
+          50
+        ],
+        "optimal_allocations": [
+          {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "C06",
+      "block": 2,
+      "first_proposer": "B",
+      "role_display_order": [
+        "B",
+        "A"
+      ],
+      "medium_display_order": [
+        "DIGITAL",
+        "PAPER"
+      ],
+      "records": [
+        {
+          "episode_id": "E719F39C5D6",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EAB5D8DF0D3",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        },
+        {
+          "episode_id": "E1C60625B3D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EC9F2F8942D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ],
+      "expected_not_for_model": {
+        "local_choice": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "local_totals": {
+          "A": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          },
+          "B": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          }
+        },
+        "allocation_totals": [
+          54,
+          46
+        ],
+        "optimal_allocations": [
+          {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "C07",
+      "block": 2,
+      "first_proposer": "B",
+      "role_display_order": [
+        "B",
+        "A"
+      ],
+      "medium_display_order": [
+        "DIGITAL",
+        "PAPER"
+      ],
+      "records": [
+        {
+          "episode_id": "E719F39C5D6",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EAB5D8DF0D3",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        },
+        {
+          "episode_id": "E1C60625B3D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EC9F2F8942D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ],
+      "expected_not_for_model": {
+        "local_choice": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "local_totals": {
+          "A": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          },
+          "B": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          }
+        },
+        "allocation_totals": [
+          46,
+          54
+        ],
+        "optimal_allocations": [
+          {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          }
+        ]
+      }
+    },
+    {
+      "case_id": "C08",
+      "block": 2,
+      "first_proposer": "B",
+      "role_display_order": [
+        "B",
+        "A"
+      ],
+      "medium_display_order": [
+        "DIGITAL",
+        "PAPER"
+      ],
+      "records": [
+        {
+          "episode_id": "E719F39C5D6",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EAB5D8DF0D3",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        },
+        {
+          "episode_id": "E1C60625B3D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EC9F2F8942D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ],
+      "expected_not_for_model": {
+        "local_choice": {
+          "A": "DIGITAL",
+          "B": "DIGITAL"
+        },
+        "local_totals": {
+          "A": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          },
+          "B": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          }
+        },
+        "allocation_totals": [
+          50,
+          50
+        ],
+        "optimal_allocations": [
+          {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          }
+        ]
+      }
+    }
+  ],
+  "self_generation_sources": [
+    {
+      "source_key": "B1-R1-A-PAPER",
+      "block": 1,
+      "repeat": 1,
+      "role": "A",
+      "profile_for_design_only": "PAPER",
+      "consumer_case_ids": [
+        "C01",
+        "C02"
+      ],
+      "records": [
+        {
+          "episode_id": "E94A9E91EF2",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EE766BA6019",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ]
+    },
+    {
+      "source_key": "B1-R1-A-DIGITAL",
+      "block": 1,
+      "repeat": 1,
+      "role": "A",
+      "profile_for_design_only": "DIGITAL",
+      "consumer_case_ids": [
+        "C03",
+        "C04"
+      ],
+      "records": [
+        {
+          "episode_id": "E94A9E91EF2",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EE766BA6019",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ]
+    },
+    {
+      "source_key": "B1-R1-B-PAPER",
+      "block": 1,
+      "repeat": 1,
+      "role": "B",
+      "profile_for_design_only": "PAPER",
+      "consumer_case_ids": [
+        "C01",
+        "C03"
+      ],
+      "records": [
+        {
+          "episode_id": "E7626AE2A21",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "E43F99F6F00",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ]
+    },
+    {
+      "source_key": "B1-R1-B-DIGITAL",
+      "block": 1,
+      "repeat": 1,
+      "role": "B",
+      "profile_for_design_only": "DIGITAL",
+      "consumer_case_ids": [
+        "C02",
+        "C04"
+      ],
+      "records": [
+        {
+          "episode_id": "E7626AE2A21",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "E43F99F6F00",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ]
+    },
+    {
+      "source_key": "B1-R2-A-PAPER",
+      "block": 1,
+      "repeat": 2,
+      "role": "A",
+      "profile_for_design_only": "PAPER",
+      "consumer_case_ids": [
+        "C01",
+        "C02"
+      ],
+      "records": [
+        {
+          "episode_id": "E94A9E91EF2",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EE766BA6019",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ]
+    },
+    {
+      "source_key": "B1-R2-A-DIGITAL",
+      "block": 1,
+      "repeat": 2,
+      "role": "A",
+      "profile_for_design_only": "DIGITAL",
+      "consumer_case_ids": [
+        "C03",
+        "C04"
+      ],
+      "records": [
+        {
+          "episode_id": "E94A9E91EF2",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EE766BA6019",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ]
+    },
+    {
+      "source_key": "B1-R2-B-PAPER",
+      "block": 1,
+      "repeat": 2,
+      "role": "B",
+      "profile_for_design_only": "PAPER",
+      "consumer_case_ids": [
+        "C01",
+        "C03"
+      ],
+      "records": [
+        {
+          "episode_id": "E7626AE2A21",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "E43F99F6F00",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ]
+    },
+    {
+      "source_key": "B1-R2-B-DIGITAL",
+      "block": 1,
+      "repeat": 2,
+      "role": "B",
+      "profile_for_design_only": "DIGITAL",
+      "consumer_case_ids": [
+        "C02",
+        "C04"
+      ],
+      "records": [
+        {
+          "episode_id": "E7626AE2A21",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "E43F99F6F00",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ]
+    },
+    {
+      "source_key": "B2-R1-A-PAPER",
+      "block": 2,
+      "repeat": 1,
+      "role": "A",
+      "profile_for_design_only": "PAPER",
+      "consumer_case_ids": [
+        "C05",
+        "C06"
+      ],
+      "records": [
+        {
+          "episode_id": "E719F39C5D6",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EAB5D8DF0D3",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ]
+    },
+    {
+      "source_key": "B2-R1-A-DIGITAL",
+      "block": 2,
+      "repeat": 1,
+      "role": "A",
+      "profile_for_design_only": "DIGITAL",
+      "consumer_case_ids": [
+        "C07",
+        "C08"
+      ],
+      "records": [
+        {
+          "episode_id": "E719F39C5D6",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EAB5D8DF0D3",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ]
+    },
+    {
+      "source_key": "B2-R1-B-PAPER",
+      "block": 2,
+      "repeat": 1,
+      "role": "B",
+      "profile_for_design_only": "PAPER",
+      "consumer_case_ids": [
+        "C05",
+        "C07"
+      ],
+      "records": [
+        {
+          "episode_id": "E1C60625B3D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EC9F2F8942D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ]
+    },
+    {
+      "source_key": "B2-R1-B-DIGITAL",
+      "block": 2,
+      "repeat": 1,
+      "role": "B",
+      "profile_for_design_only": "DIGITAL",
+      "consumer_case_ids": [
+        "C06",
+        "C08"
+      ],
+      "records": [
+        {
+          "episode_id": "E1C60625B3D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EC9F2F8942D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ]
+    },
+    {
+      "source_key": "B2-R2-A-PAPER",
+      "block": 2,
+      "repeat": 2,
+      "role": "A",
+      "profile_for_design_only": "PAPER",
+      "consumer_case_ids": [
+        "C05",
+        "C06"
+      ],
+      "records": [
+        {
+          "episode_id": "E719F39C5D6",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EAB5D8DF0D3",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ]
+    },
+    {
+      "source_key": "B2-R2-A-DIGITAL",
+      "block": 2,
+      "repeat": 2,
+      "role": "A",
+      "profile_for_design_only": "DIGITAL",
+      "consumer_case_ids": [
+        "C07",
+        "C08"
+      ],
+      "records": [
+        {
+          "episode_id": "E719F39C5D6",
+          "observer": "A",
+          "site": "区画1",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EAB5D8DF0D3",
+          "observer": "A",
+          "site": "区画1",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ]
+    },
+    {
+      "source_key": "B2-R2-B-PAPER",
+      "block": 2,
+      "repeat": 2,
+      "role": "B",
+      "profile_for_design_only": "PAPER",
+      "consumer_case_ids": [
+        "C05",
+        "C07"
+      ],
+      "records": [
+        {
+          "episode_id": "E1C60625B3D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 14,
+          "digital_success": 12
+        },
+        {
+          "episode_id": "EC9F2F8942D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 13,
+          "digital_success": 11
+        }
+      ]
+    },
+    {
+      "source_key": "B2-R2-B-DIGITAL",
+      "block": 2,
+      "repeat": 2,
+      "role": "B",
+      "profile_for_design_only": "DIGITAL",
+      "consumer_case_ids": [
+        "C06",
+        "C08"
+      ],
+      "records": [
+        {
+          "episode_id": "E1C60625B3D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 1,
+          "attempts_per_medium": 20,
+          "paper_success": 12,
+          "digital_success": 14
+        },
+        {
+          "episode_id": "EC9F2F8942D",
+          "observer": "B",
+          "site": "区画2",
+          "session": 2,
+          "attempts_per_medium": 20,
+          "paper_success": 11,
+          "digital_success": 13
+        }
+      ]
+    }
+  ],
+  "experience_contrasts_per_repeat": [
+    {
+      "block": 1,
+      "role": "A",
+      "peer_profile": "PAPER",
+      "paper_case": "C01",
+      "digital_case": "C03"
+    },
+    {
+      "block": 1,
+      "role": "A",
+      "peer_profile": "DIGITAL",
+      "paper_case": "C02",
+      "digital_case": "C04"
+    },
+    {
+      "block": 1,
+      "role": "B",
+      "peer_profile": "PAPER",
+      "paper_case": "C01",
+      "digital_case": "C02"
+    },
+    {
+      "block": 1,
+      "role": "B",
+      "peer_profile": "DIGITAL",
+      "paper_case": "C03",
+      "digital_case": "C04"
+    },
+    {
+      "block": 2,
+      "role": "A",
+      "peer_profile": "PAPER",
+      "paper_case": "C05",
+      "digital_case": "C07"
+    },
+    {
+      "block": 2,
+      "role": "A",
+      "peer_profile": "DIGITAL",
+      "paper_case": "C06",
+      "digital_case": "C08"
+    },
+    {
+      "block": 2,
+      "role": "B",
+      "peer_profile": "PAPER",
+      "paper_case": "C05",
+      "digital_case": "C06"
+    },
+    {
+      "block": 2,
+      "role": "B",
+      "peer_profile": "DIGITAL",
+      "paper_case": "C07",
+      "digital_case": "C08"
+    }
+  ],
+  "use_order_proposal": [
+    {
+      "repeat": 1,
+      "case_id": "C01",
+      "role": "A",
+      "arm_order": [
+        "FACTS",
+        "SHARED",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C01",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "PLAN_FLIP",
+        "FACTS"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C02",
+      "role": "A",
+      "arm_order": [
+        "PLAN_FLIP",
+        "FACTS",
+        "SHARED"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C02",
+      "role": "B",
+      "arm_order": [
+        "FACTS",
+        "PLAN_FLIP",
+        "SHARED"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C03",
+      "role": "A",
+      "arm_order": [
+        "PLAN_FLIP",
+        "SHARED",
+        "FACTS"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C03",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "FACTS",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C04",
+      "role": "A",
+      "arm_order": [
+        "FACTS",
+        "SHARED",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C04",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "PLAN_FLIP",
+        "FACTS"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C05",
+      "role": "A",
+      "arm_order": [
+        "PLAN_FLIP",
+        "FACTS",
+        "SHARED"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C05",
+      "role": "B",
+      "arm_order": [
+        "FACTS",
+        "PLAN_FLIP",
+        "SHARED"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C06",
+      "role": "A",
+      "arm_order": [
+        "PLAN_FLIP",
+        "SHARED",
+        "FACTS"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C06",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "FACTS",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C07",
+      "role": "A",
+      "arm_order": [
+        "FACTS",
+        "SHARED",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C07",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "PLAN_FLIP",
+        "FACTS"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C08",
+      "role": "A",
+      "arm_order": [
+        "PLAN_FLIP",
+        "FACTS",
+        "SHARED"
+      ]
+    },
+    {
+      "repeat": 1,
+      "case_id": "C08",
+      "role": "B",
+      "arm_order": [
+        "FACTS",
+        "PLAN_FLIP",
+        "SHARED"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C01",
+      "role": "A",
+      "arm_order": [
+        "PLAN_FLIP",
+        "SHARED",
+        "FACTS"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C01",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "FACTS",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C02",
+      "role": "A",
+      "arm_order": [
+        "FACTS",
+        "SHARED",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C02",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "PLAN_FLIP",
+        "FACTS"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C03",
+      "role": "A",
+      "arm_order": [
+        "PLAN_FLIP",
+        "FACTS",
+        "SHARED"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C03",
+      "role": "B",
+      "arm_order": [
+        "FACTS",
+        "PLAN_FLIP",
+        "SHARED"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C04",
+      "role": "A",
+      "arm_order": [
+        "PLAN_FLIP",
+        "SHARED",
+        "FACTS"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C04",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "FACTS",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C05",
+      "role": "A",
+      "arm_order": [
+        "FACTS",
+        "SHARED",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C05",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "PLAN_FLIP",
+        "FACTS"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C06",
+      "role": "A",
+      "arm_order": [
+        "PLAN_FLIP",
+        "FACTS",
+        "SHARED"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C06",
+      "role": "B",
+      "arm_order": [
+        "FACTS",
+        "PLAN_FLIP",
+        "SHARED"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C07",
+      "role": "A",
+      "arm_order": [
+        "PLAN_FLIP",
+        "SHARED",
+        "FACTS"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C07",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "FACTS",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C08",
+      "role": "A",
+      "arm_order": [
+        "FACTS",
+        "SHARED",
+        "PLAN_FLIP"
+      ]
+    },
+    {
+      "repeat": 2,
+      "case_id": "C08",
+      "role": "B",
+      "arm_order": [
+        "SHARED",
+        "PLAN_FLIP",
+        "FACTS"
+      ]
+    }
+  ],
+  "calls": {
+    "SELF": 16,
+    "FORM": 32,
+    "USE": 96,
+    "total": 144
+  },
+  "baseline_contrasts": {
+    "total": 8,
+    "per_repeat": 4
+  }
+}

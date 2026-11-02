@@ -1,0 +1,63 @@
+{
+  "scene": "小さな展示会",
+  "item": "受付名札",
+  "holder": "B",
+  "records": [
+    {
+      "record_id": "PRIVATE",
+      "author": "B",
+      "body": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "ZR"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "BW"
+        }
+      }
+    },
+    {
+      "record_id": "GROUP",
+      "author": "A",
+      "body": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "KJ"
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "BW"
+          }
+        },
+        "channel": "PAPER",
+        "channel_read_refs": [
+          "OBS_A",
+          "OBS_B"
+        ],
+        "channel_origin_ids": [
+          "KJ",
+          "BW"
+        ]
+      }
+    },
+    {
+      "record_id": "NOTICE",
+      "author": "B",
+      "body": {
+        "observer": "B",
+        "paper": "NOT_ALL",
+        "digital": "ALL",
+        "origin_id": "ND"
+      }
+    }
+  ]
+}

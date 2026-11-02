@@ -1,0 +1,902 @@
+{
+  "status": "PASS",
+  "checks": 224,
+  "details": [
+    {
+      "name": "not already sealed",
+      "pass": true
+    },
+    {
+      "name": "protected study2/results/own-summary-01-20260928/npp-os01-result-20260928-114016-19b98b69.zip",
+      "pass": true
+    },
+    {
+      "name": "protected study2/results/own-summary-01-20260928/reaggregated.json",
+      "pass": true
+    },
+    {
+      "name": "protected study2/own-summary-01-result-2026-09-28.md",
+      "pass": true
+    },
+    {
+      "name": "protected study2/colab/own_summary_01_onecell.py",
+      "pass": true
+    },
+    {
+      "name": "protected study2/own-summary-01-plan-v0.1-2026-09-28.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/prereg/own-summary-01-v0.1.md",
+      "pass": true
+    },
+    {
+      "name": "protected scripts/own_summary_01_design.py",
+      "pass": true
+    },
+    {
+      "name": "protected scripts/own_summary_01_runtime.py",
+      "pass": true
+    },
+    {
+      "name": "protected scripts/experience_update_01_design.py",
+      "pass": true
+    },
+    {
+      "name": "protected scripts/readout_split_01_scoring.py",
+      "pass": true
+    },
+    {
+      "name": "protected scripts/update_readout_01_envelope.py",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/README.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/confirmation-errors.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/connection-seal-check.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/delivery/study2/own-summary-01-result-2026-09-28.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/delivery/study2/results/own-summary-01-20260928/reaggregated.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/delivery-check.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/diagnostic-summary.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/examples.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/format-rejections.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/independent-attempt-01.log",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/independent-check.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/independent_audit.py",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/intake.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/ledger-before.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/ledger-entry.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/navigation-after/README.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/navigation-after/study2/README.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/navigation-after/study2/colab/README.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/navigation-after/throughline/PROJECT.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/navigation-before/README.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/navigation-before/study2/README.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/navigation-before/study2/colab/README.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/navigation-before/throughline/PROJECT.md",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/raw-local-errors.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/reaggregate.log",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/sources-before.json",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/verify_delivery.py",
+      "pass": true
+    },
+    {
+      "name": "protected throughline/audits/own-summary-01-result-20260928/MANIFEST.json",
+      "pass": true
+    },
+    {
+      "name": "before-run file scope.md",
+      "pass": true
+    },
+    {
+      "name": "before-run file receiver_candidate.py",
+      "pass": true
+    },
+    {
+      "name": "before-run file audit.py",
+      "pass": true
+    },
+    {
+      "name": "before-run file test_receiver.py",
+      "pass": true
+    },
+    {
+      "name": "before-run file test-attempt-01.log",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M05-REINFORCE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M05-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M05-REINFORCE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M05-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M06-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M06-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M06-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M06-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M06-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M06-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M07-REINFORCE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M07-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M07-REINFORCE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M07-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M07-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M07-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M07-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M07-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M08-REINFORCE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M08-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M08-REINFORCE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M08-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M08-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M08-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M08-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M08-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M09-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M09-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M09-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M09-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M10-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M10-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M11-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M11-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M11-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M11-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M12-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M12-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M12-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M12-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M12-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M12-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M14-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M14-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M14-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M14-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M14-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M14-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M15-REINFORCE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M15-REINFORCE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M15-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M15-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M16-REINFORCE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M16-REINFORCE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M16-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal candidates/OS01-M16-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal checks.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal comparison.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal per-response.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M05-REINFORCE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M05-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M05-REINFORCE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M05-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M06-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M06-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M06-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M06-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M06-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M06-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M07-REINFORCE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M07-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M07-REINFORCE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M07-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M07-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M07-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M07-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M07-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M08-REINFORCE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M08-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M08-REINFORCE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M08-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M08-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M08-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M08-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M08-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M09-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M09-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M09-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M09-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M10-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M10-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M11-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M11-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M11-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M11-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M12-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M12-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M12-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M12-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M12-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M12-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M14-REINFORCE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M14-REINFORCE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M14-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M14-REVERSE-F0-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M14-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M14-REVERSE-F1-U0-USE-B.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M15-REINFORCE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M15-REINFORCE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M15-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M15-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M16-REINFORCE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M16-REINFORCE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M16-REVERSE-F0-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantine/OS01-M16-REVERSE-F1-U0-USE-A.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal quarantined-value-audit.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal raw-choice-errors.json",
+      "pass": true
+    },
+    {
+      "name": "analysis seal reference-summary.json",
+      "pass": true
+    },
+    {
+      "name": "ledger prefix unchanged",
+      "pass": true
+    },
+    {
+      "name": "ledger exact append",
+      "pass": true
+    },
+    {
+      "name": "nav saved README.md",
+      "pass": true
+    },
+    {
+      "name": "nav old body README.md",
+      "pass": true
+    },
+    {
+      "name": "nav latest README.md",
+      "pass": true
+    },
+    {
+      "name": "nav saved study2/README.md",
+      "pass": true
+    },
+    {
+      "name": "nav old body study2/README.md",
+      "pass": true
+    },
+    {
+      "name": "nav latest study2/README.md",
+      "pass": true
+    },
+    {
+      "name": "nav saved study2/colab/README.md",
+      "pass": true
+    },
+    {
+      "name": "nav old body study2/colab/README.md",
+      "pass": true
+    },
+    {
+      "name": "nav latest study2/colab/README.md",
+      "pass": true
+    },
+    {
+      "name": "nav saved throughline/PROJECT.md",
+      "pass": true
+    },
+    {
+      "name": "nav old body throughline/PROJECT.md",
+      "pass": true
+    },
+    {
+      "name": "nav latest throughline/PROJECT.md",
+      "pass": true
+    },
+    {
+      "name": "report copy",
+      "pass": true
+    },
+    {
+      "name": "report link own-summary-01-result-2026-09-28.md",
+      "pass": true
+    },
+    {
+      "name": "report link ../throughline/audits/posthoc/own-summary-01-boundary-20260928/scope.md",
+      "pass": true
+    },
+    {
+      "name": "report link ../throughline/audits/posthoc/own-summary-01-boundary-20260928/analysis/reference-summary.json",
+      "pass": true
+    },
+    {
+      "name": "report link ../throughline/audits/posthoc/own-summary-01-boundary-20260928/analysis/comparison.json",
+      "pass": true
+    },
+    {
+      "name": "report link ../throughline/audits/posthoc/own-summary-01-boundary-20260928/analysis/per-response.json",
+      "pass": true
+    },
+    {
+      "name": "report link ../throughline/audits/posthoc/own-summary-01-boundary-20260928/analysis/raw-choice-errors.json",
+      "pass": true
+    },
+    {
+      "name": "report link ../throughline/audits/posthoc/own-summary-01-boundary-20260928/confirmation-arithmetic.json",
+      "pass": true
+    },
+    {
+      "name": "report link ../throughline/audits/posthoc/own-summary-01-boundary-20260928/receiver_candidate.py",
+      "pass": true
+    },
+    {
+      "name": "report link ../throughline/audits/posthoc/own-summary-01-boundary-20260928/audit.py",
+      "pass": true
+    },
+    {
+      "name": "report link ../throughline/audits/posthoc/own-summary-01-boundary-20260928/analysis/checks.json",
+      "pass": true
+    },
+    {
+      "name": "receipt counts",
+      "pass": true
+    },
+    {
+      "name": "semantic counts",
+      "pass": true
+    },
+    {
+      "name": "numeric error count",
+      "pass": true
+    },
+    {
+      "name": "model calls",
+      "pass": true
+    },
+    {
+      "name": "no promotion",
+      "pass": true
+    },
+    {
+      "name": "reported F0U0U_target",
+      "pass": true
+    },
+    {
+      "name": "reported F0U0U_peer",
+      "pass": true
+    },
+    {
+      "name": "reported F0U0J",
+      "pass": true
+    },
+    {
+      "name": "reported F0U0Q",
+      "pass": true
+    },
+    {
+      "name": "reported F0U0S_target",
+      "pass": true
+    },
+    {
+      "name": "reported F0U0I_peer",
+      "pass": true
+    },
+    {
+      "name": "reported F0U1U_target",
+      "pass": true
+    },
+    {
+      "name": "reported F0U1U_peer",
+      "pass": true
+    },
+    {
+      "name": "reported F0U1J",
+      "pass": true
+    },
+    {
+      "name": "reported F0U1Q",
+      "pass": true
+    },
+    {
+      "name": "reported F0U1S_target",
+      "pass": true
+    },
+    {
+      "name": "reported F0U1I_peer",
+      "pass": true
+    },
+    {
+      "name": "paired difference F0",
+      "pass": true
+    },
+    {
+      "name": "M12 overlap F0",
+      "pass": true
+    },
+    {
+      "name": "reported F1U0U_target",
+      "pass": true
+    },
+    {
+      "name": "reported F1U0U_peer",
+      "pass": true
+    },
+    {
+      "name": "reported F1U0J",
+      "pass": true
+    },
+    {
+      "name": "reported F1U0Q",
+      "pass": true
+    },
+    {
+      "name": "reported F1U0S_target",
+      "pass": true
+    },
+    {
+      "name": "reported F1U0I_peer",
+      "pass": true
+    },
+    {
+      "name": "reported F1U1U_target",
+      "pass": true
+    },
+    {
+      "name": "reported F1U1U_peer",
+      "pass": true
+    },
+    {
+      "name": "reported F1U1J",
+      "pass": true
+    },
+    {
+      "name": "reported F1U1Q",
+      "pass": true
+    },
+    {
+      "name": "reported F1U1S_target",
+      "pass": true
+    },
+    {
+      "name": "reported F1U1I_peer",
+      "pass": true
+    },
+    {
+      "name": "paired difference F1",
+      "pass": true
+    },
+    {
+      "name": "M12 overlap F1",
+      "pass": true
+    },
+    {
+      "name": "tests passed",
+      "pass": true
+    },
+    {
+      "name": "audit passed",
+      "pass": true
+    },
+    {
+      "name": "candidate artifacts",
+      "pass": true
+    }
+  ]
+}

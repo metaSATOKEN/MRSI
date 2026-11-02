@@ -1,0 +1,19 @@
+{
+  "mascot": "DOG",
+  "mascot_read_refs": [
+    "PRIVATE"
+  ],
+  "mascot_origin_ids": [
+    "HN"
+  ],
+  "channel": "PAPER",
+  "channel_read_refs": [
+    "GROUP"
+  ],
+  "channel_origin_ids": [
+    "KJ",
+    "BW"
+  ],
+  "status": "VALID",
+  "continuable": false
+}

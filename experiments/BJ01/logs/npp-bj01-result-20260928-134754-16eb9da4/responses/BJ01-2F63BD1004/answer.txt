@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-2F63BD1004",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "渡された答案はschemaで定義されたrequiredフィールド（local, team）と追加プロパティの制限を完全に満たしており、型や列挙値も正当である。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/experiences", "/payload/joint_records"],
+      "reason": "local.subjectはholder(B)と一致。local.evidence_refsはBの全経験IDと厳密一致。team.evidence_refsはjoint_recordsの全IDと一致しており、追加・欠落・架空はない。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/projected_success_per_40"],
+      "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高く、答案のchoiceがDIGITALであることは規則「累積成功率の高い媒体を選ぶ」に合致する。"
+    },
+    "joint_action": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/team/basis", "/answer/team/allocation"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "joint_recordsにはAの提案とBのCOUNTERがあり、合意（ACCEPT）が存在しない。規則により未合意時はUNRESOLVEDとするべきだが、答案はSHARED_DECISIONと最適でない割付を記載している。"
+    }
+  }
+}

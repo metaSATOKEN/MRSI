@@ -1,0 +1,591 @@
+{
+  "REWRITE": {
+    "type": "object",
+    "properties": {
+      "memory": {
+        "type": "object",
+        "properties": {
+          "private_note": {
+            "type": "object",
+            "properties": {
+              "customer": {
+                "type": "object",
+                "properties": {
+                  "subject": {
+                    "enum": [
+                      "A",
+                      "B",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "animal": {
+                    "enum": [
+                      "DOG",
+                      "CAT",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "origin_id": {
+                    "type": "string",
+                    "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                  }
+                },
+                "required": [
+                  "subject",
+                  "animal",
+                  "origin_id"
+                ],
+                "additionalProperties": false
+              },
+              "coverage": {
+                "type": "object",
+                "properties": {
+                  "observer": {
+                    "enum": [
+                      "A",
+                      "B",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "paper": {
+                    "enum": [
+                      "ALL",
+                      "NOT_ALL",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "digital": {
+                    "enum": [
+                      "ALL",
+                      "NOT_ALL",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "origin_id": {
+                    "type": "string",
+                    "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                  },
+                  "revision": {
+                    "enum": [
+                      1,
+                      2,
+                      3,
+                      4,
+                      "UNKNOWN"
+                    ]
+                  }
+                },
+                "required": [
+                  "observer",
+                  "paper",
+                  "digital",
+                  "origin_id",
+                  "revision"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "customer",
+              "coverage"
+            ],
+            "additionalProperties": false
+          },
+          "shared_note": {
+            "type": "object",
+            "properties": {
+              "coverage": {
+                "type": "object",
+                "properties": {
+                  "A": {
+                    "type": "object",
+                    "properties": {
+                      "observer": {
+                        "enum": [
+                          "A",
+                          "B",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "paper": {
+                        "enum": [
+                          "ALL",
+                          "NOT_ALL",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "digital": {
+                        "enum": [
+                          "ALL",
+                          "NOT_ALL",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "origin_id": {
+                        "type": "string",
+                        "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                      },
+                      "revision": {
+                        "enum": [
+                          1,
+                          2,
+                          3,
+                          4,
+                          "UNKNOWN"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "observer",
+                      "paper",
+                      "digital",
+                      "origin_id",
+                      "revision"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "B": {
+                    "type": "object",
+                    "properties": {
+                      "observer": {
+                        "enum": [
+                          "A",
+                          "B",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "paper": {
+                        "enum": [
+                          "ALL",
+                          "NOT_ALL",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "digital": {
+                        "enum": [
+                          "ALL",
+                          "NOT_ALL",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "origin_id": {
+                        "type": "string",
+                        "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                      },
+                      "revision": {
+                        "enum": [
+                          1,
+                          2,
+                          3,
+                          4,
+                          "UNKNOWN"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "observer",
+                      "paper",
+                      "digital",
+                      "origin_id",
+                      "revision"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "A",
+                  "B"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "coverage"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "private_note",
+          "shared_note"
+        ],
+        "additionalProperties": false
+      },
+      "read_receipt": {
+        "type": "object",
+        "properties": {
+          "private_customer_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+            },
+            "maxItems": 3,
+            "uniqueItems": true
+          },
+          "private_coverage_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+            },
+            "maxItems": 3,
+            "uniqueItems": true
+          },
+          "shared_coverage_refs": {
+            "type": "object",
+            "properties": {
+              "A": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                },
+                "maxItems": 3,
+                "uniqueItems": true
+              },
+              "B": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                },
+                "maxItems": 3,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "A",
+              "B"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "private_customer_refs",
+          "private_coverage_refs",
+          "shared_coverage_refs"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "memory",
+      "read_receipt"
+    ],
+    "additionalProperties": false
+  },
+  "SELECT": {
+    "type": "object",
+    "properties": {
+      "memory": {
+        "type": "object",
+        "properties": {
+          "private_note": {
+            "type": "object",
+            "properties": {
+              "customer": {
+                "type": "object",
+                "properties": {
+                  "subject": {
+                    "enum": [
+                      "A",
+                      "B",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "animal": {
+                    "enum": [
+                      "DOG",
+                      "CAT",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "origin_id": {
+                    "type": "string",
+                    "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                  }
+                },
+                "required": [
+                  "subject",
+                  "animal",
+                  "origin_id"
+                ],
+                "additionalProperties": false
+              },
+              "coverage": {
+                "type": "object",
+                "properties": {
+                  "observer": {
+                    "enum": [
+                      "A",
+                      "B",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "paper": {
+                    "enum": [
+                      "ALL",
+                      "NOT_ALL",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "digital": {
+                    "enum": [
+                      "ALL",
+                      "NOT_ALL",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "origin_id": {
+                    "type": "string",
+                    "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                  },
+                  "revision": {
+                    "enum": [
+                      1,
+                      2,
+                      3,
+                      4,
+                      "UNKNOWN"
+                    ]
+                  }
+                },
+                "required": [
+                  "observer",
+                  "paper",
+                  "digital",
+                  "origin_id",
+                  "revision"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "customer",
+              "coverage"
+            ],
+            "additionalProperties": false
+          },
+          "shared_note": {
+            "type": "object",
+            "properties": {
+              "coverage": {
+                "type": "object",
+                "properties": {
+                  "A": {
+                    "type": "object",
+                    "properties": {
+                      "record_id": {
+                        "type": "string",
+                        "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                      },
+                      "observer": {
+                        "enum": [
+                          "A",
+                          "B"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "record_id",
+                      "observer"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "B": {
+                    "type": "object",
+                    "properties": {
+                      "record_id": {
+                        "type": "string",
+                        "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                      },
+                      "observer": {
+                        "enum": [
+                          "A",
+                          "B"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "record_id",
+                      "observer"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "A",
+                  "B"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "coverage"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "private_note",
+          "shared_note"
+        ],
+        "additionalProperties": false
+      },
+      "read_receipt": {
+        "type": "object",
+        "properties": {
+          "private_customer_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+            },
+            "maxItems": 3,
+            "uniqueItems": true
+          },
+          "private_coverage_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+            },
+            "maxItems": 3,
+            "uniqueItems": true
+          },
+          "shared_coverage_refs": {
+            "type": "object",
+            "properties": {
+              "A": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                },
+                "maxItems": 3,
+                "uniqueItems": true
+              },
+              "B": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                },
+                "maxItems": 3,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "A",
+              "B"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "private_customer_refs",
+          "private_coverage_refs",
+          "shared_coverage_refs"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "memory",
+      "read_receipt"
+    ],
+    "additionalProperties": false
+  },
+  "PROBE": {
+    "type": "object",
+    "properties": {
+      "decision": {
+        "type": "object",
+        "properties": {
+          "mascot": {
+            "enum": [
+              "DOG",
+              "CAT",
+              "UNKNOWN"
+            ]
+          },
+          "channel": {
+            "enum": [
+              "PAPER",
+              "DIGITAL",
+              "UNKNOWN"
+            ]
+          }
+        },
+        "required": [
+          "mascot",
+          "channel"
+        ],
+        "additionalProperties": false
+      },
+      "read_receipt": {
+        "type": "object",
+        "properties": {
+          "mascot_record_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+            },
+            "maxItems": 3,
+            "uniqueItems": true
+          },
+          "channel_record_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+            },
+            "maxItems": 3,
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "mascot_record_refs",
+          "channel_record_refs"
+        ],
+        "additionalProperties": false
+      },
+      "origin_ids": {
+        "type": "object",
+        "properties": {
+          "mascot": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+            },
+            "maxItems": 2,
+            "uniqueItems": true
+          },
+          "channel": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+            },
+            "maxItems": 2,
+            "uniqueItems": true
+          }
+        },
+        "required": [
+          "mascot",
+          "channel"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "decision",
+      "read_receipt",
+      "origin_ids"
+    ],
+    "additionalProperties": false
+  }
+}

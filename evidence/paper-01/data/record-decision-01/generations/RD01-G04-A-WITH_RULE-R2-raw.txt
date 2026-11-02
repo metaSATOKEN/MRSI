@@ -1,0 +1,1 @@
+{"private_note":{"customer":{"subject":"A","animal":"DOG","origin_id":"HN"},"coverage":{"observer":"A","paper":"UNKNOWN","digital":"UNKNOWN","origin_id":"KJ"}}}

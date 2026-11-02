@@ -1,0 +1,14 @@
+{
+  "mascot": "CAT",
+  "mascot_sources": [
+    "PRIVATE"
+  ],
+  "channel": "PAPER",
+  "channel_sources": [
+    "GROUP"
+  ],
+  "choice_valid": true,
+  "sources_valid": true,
+  "continuable": false,
+  "status": "VALID"
+}

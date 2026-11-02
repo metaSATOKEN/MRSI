@@ -1,0 +1,20 @@
+{
+  "private_note": {
+    "coverage": {
+      "observer": "A",
+      "paper": "ALL",
+      "digital": "ALL",
+      "origin_id": "R750CADEA0EC64BB",
+      "revision": 3
+    },
+    "customer": {
+      "subject": "A",
+      "animal": "DOG",
+      "origin_id": "R320A60732439887"
+    }
+  },
+  "shared_choice": {
+    "A": "C2",
+    "B": "C3"
+  }
+}<|im_end|>

@@ -1,0 +1,8 @@
+{
+  "input_file": "npp-bj01-result-20260928-134754-16eb9da4.zip",
+  "bytes": 1052360,
+  "sha256": "f7c372fa2c2ac60d8a385c813e59da362bb66fd35008af08b8a28dc6d69e6621",
+  "manifest_files": 473,
+  "protocol": "BOUNDARY-JUDGE-01-RUN-v0.1",
+  "kind": "FINAL"
+}

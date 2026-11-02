@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-A480FEED23",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "答案のキー構成は許可schemaと一致し、追加プロパティや型違反はない。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/experiences", "/payload/joint_records"],
+      "reason": "subjectはholder(A)と一致。local.evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/success_totals"],
+      "reason": "Aの累積成功率は紙27、デジタル23。高い紙を選んだ。共同割付と一致する必要はないため適切。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Bの提案とAのACCEPTがあり、最適解(合計50)の割付(A:DIGITAL, B:PAPER)で合意。SHARED_DECISIONで適切。"
+    }
+  }
+}

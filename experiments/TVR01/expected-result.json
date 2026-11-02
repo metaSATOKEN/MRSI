@@ -1,0 +1,4960 @@
+{
+  "archive_sha256": "b631313a70cd56f9e4cb3c83832224edee24d692e6e0adbe12d5ba25c164f2bc",
+  "files": 686,
+  "report": {
+    "unit": "18 fixed inputs from 3 numeric triads; 3 new technical replicates; no FORM/READ rerun.",
+    "totals": {
+      "planned": 54,
+      "correct": 52,
+      "incorrect": 2,
+      "unresolved": 0
+    },
+    "metrics": {
+      "own_holder": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      },
+      "own_recommendation": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      },
+      "own_sources": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      },
+      "vote": {
+        "planned": 54,
+        "correct": 52,
+        "incorrect": 2,
+        "unresolved": 0
+      }
+    },
+    "by_repeat": {
+      "1": {
+        "strict": {
+          "planned": 18,
+          "correct": 18,
+          "incorrect": 0,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          }
+        }
+      },
+      "2": {
+        "strict": {
+          "planned": 18,
+          "correct": 17,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 18,
+            "correct": 17,
+            "incorrect": 1,
+            "unresolved": 0
+          }
+        }
+      },
+      "3": {
+        "strict": {
+          "planned": 18,
+          "correct": 17,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 18,
+            "correct": 17,
+            "incorrect": 1,
+            "unresolved": 0
+          }
+        }
+      }
+    },
+    "by_offer": {
+      "HIGHER": {
+        "strict": {
+          "planned": 27,
+          "correct": 26,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 27,
+            "correct": 27,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 27,
+            "correct": 27,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 27,
+            "correct": 27,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 27,
+            "correct": 26,
+            "incorrect": 1,
+            "unresolved": 0
+          }
+        }
+      },
+      "LOWER": {
+        "strict": {
+          "planned": 27,
+          "correct": 26,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 27,
+            "correct": 27,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 27,
+            "correct": 27,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 27,
+            "correct": 27,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 27,
+            "correct": 26,
+            "incorrect": 1,
+            "unresolved": 0
+          }
+        }
+      }
+    },
+    "by_role": {
+      "A": {
+        "strict": {
+          "planned": 18,
+          "correct": 17,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 18,
+            "correct": 17,
+            "incorrect": 1,
+            "unresolved": 0
+          }
+        }
+      },
+      "B": {
+        "strict": {
+          "planned": 18,
+          "correct": 18,
+          "incorrect": 0,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          }
+        }
+      },
+      "C": {
+        "strict": {
+          "planned": 18,
+          "correct": 17,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 18,
+            "correct": 17,
+            "incorrect": 1,
+            "unresolved": 0
+          }
+        }
+      }
+    },
+    "by_case": {
+      "T01": {
+        "strict": {
+          "planned": 18,
+          "correct": 18,
+          "incorrect": 0,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          }
+        }
+      },
+      "T02": {
+        "strict": {
+          "planned": 18,
+          "correct": 17,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 18,
+            "correct": 17,
+            "incorrect": 1,
+            "unresolved": 0
+          }
+        }
+      },
+      "T03": {
+        "strict": {
+          "planned": 18,
+          "correct": 17,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 18,
+            "incorrect": 0,
+            "unresolved": 0
+          },
+          "vote": {
+            "planned": 18,
+            "correct": 17,
+            "incorrect": 1,
+            "unresolved": 0
+          }
+        }
+      }
+    },
+    "by_own_assignment_match": {
+      "True": {
+        "inputs": 12,
+        "strict": {
+          "planned": 36,
+          "correct": 35,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "vote": {
+          "planned": 36,
+          "correct": 35,
+          "incorrect": 1,
+          "unresolved": 0
+        }
+      },
+      "False": {
+        "inputs": 6,
+        "strict": {
+          "planned": 18,
+          "correct": 17,
+          "incorrect": 1,
+          "unresolved": 0
+        },
+        "vote": {
+          "planned": 18,
+          "correct": 17,
+          "incorrect": 1,
+          "unresolved": 0
+        }
+      }
+    },
+    "by_input": [
+      {
+        "key": "T01-A-HIGHER",
+        "case": "T01",
+        "role": "A",
+        "offer": "HIGHER",
+        "source_slot_id": "TB01-T01-R1-HIGHER-VOTE-A",
+        "slots": [
+          "TVR01-T01-A-HIGHER-R1",
+          "TVR01-T01-A-HIGHER-R2",
+          "TVR01-T01-A-HIGHER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "ACCEPT",
+          "ACCEPT",
+          "ACCEPT"
+        ],
+        "vote_records": [
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P3c0262f9"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P3c0262f9"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P3c0262f9"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T01-A-LOWER",
+        "case": "T01",
+        "role": "A",
+        "offer": "LOWER",
+        "source_slot_id": "TB01-T01-R1-LOWER-VOTE-A",
+        "slots": [
+          "TVR01-T01-A-LOWER-R1",
+          "TVR01-T01-A-LOWER-R2",
+          "TVR01-T01-A-LOWER-R3"
+        ],
+        "own_assignment_match": false,
+        "decisions": [
+          "HOLD",
+          "HOLD",
+          "HOLD"
+        ],
+        "vote_records": [
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2f047c7"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2f047c7"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2f047c7"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T01-B-HIGHER",
+        "case": "T01",
+        "role": "B",
+        "offer": "HIGHER",
+        "source_slot_id": "TB01-T01-R1-HIGHER-VOTE-B",
+        "slots": [
+          "TVR01-T01-B-HIGHER-R1",
+          "TVR01-T01-B-HIGHER-R2",
+          "TVR01-T01-B-HIGHER-R3"
+        ],
+        "own_assignment_match": false,
+        "decisions": [
+          "ACCEPT",
+          "ACCEPT",
+          "ACCEPT"
+        ],
+        "vote_records": [
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P3c0262f9"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P3c0262f9"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P3c0262f9"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T01-B-LOWER",
+        "case": "T01",
+        "role": "B",
+        "offer": "LOWER",
+        "source_slot_id": "TB01-T01-R1-LOWER-VOTE-B",
+        "slots": [
+          "TVR01-T01-B-LOWER-R1",
+          "TVR01-T01-B-LOWER-R2",
+          "TVR01-T01-B-LOWER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "HOLD",
+          "HOLD",
+          "HOLD"
+        ],
+        "vote_records": [
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2f047c7"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2f047c7"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2f047c7"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T01-C-HIGHER",
+        "case": "T01",
+        "role": "C",
+        "offer": "HIGHER",
+        "source_slot_id": "TB01-T01-R1-HIGHER-VOTE-C",
+        "slots": [
+          "TVR01-T01-C-HIGHER-R1",
+          "TVR01-T01-C-HIGHER-R2",
+          "TVR01-T01-C-HIGHER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "ACCEPT",
+          "ACCEPT",
+          "ACCEPT"
+        ],
+        "vote_records": [
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P3c0262f9"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P3c0262f9"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P3c0262f9"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T01-C-LOWER",
+        "case": "T01",
+        "role": "C",
+        "offer": "LOWER",
+        "source_slot_id": "TB01-T01-R1-LOWER-VOTE-C",
+        "slots": [
+          "TVR01-T01-C-LOWER-R1",
+          "TVR01-T01-C-LOWER-R2",
+          "TVR01-T01-C-LOWER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "HOLD",
+          "HOLD",
+          "HOLD"
+        ],
+        "vote_records": [
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2f047c7"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2f047c7"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2f047c7"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T02-A-HIGHER",
+        "case": "T02",
+        "role": "A",
+        "offer": "HIGHER",
+        "source_slot_id": "TB01-T02-R1-HIGHER-VOTE-A",
+        "slots": [
+          "TVR01-T02-A-HIGHER-R1",
+          "TVR01-T02-A-HIGHER-R2",
+          "TVR01-T02-A-HIGHER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "ACCEPT",
+          "ACCEPT",
+          "ACCEPT"
+        ],
+        "vote_records": [
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "Pf2bf9e54"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "Pf2bf9e54"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "Pf2bf9e54"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T02-A-LOWER",
+        "case": "T02",
+        "role": "A",
+        "offer": "LOWER",
+        "source_slot_id": "TB01-T02-R1-LOWER-VOTE-A",
+        "slots": [
+          "TVR01-T02-A-LOWER-R1",
+          "TVR01-T02-A-LOWER-R2",
+          "TVR01-T02-A-LOWER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "HOLD",
+          "HOLD",
+          "HOLD"
+        ],
+        "vote_records": [
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2ff2018"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2ff2018"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2ff2018"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T02-B-HIGHER",
+        "case": "T02",
+        "role": "B",
+        "offer": "HIGHER",
+        "source_slot_id": "TB01-T02-R1-HIGHER-VOTE-B",
+        "slots": [
+          "TVR01-T02-B-HIGHER-R1",
+          "TVR01-T02-B-HIGHER-R2",
+          "TVR01-T02-B-HIGHER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "ACCEPT",
+          "ACCEPT",
+          "ACCEPT"
+        ],
+        "vote_records": [
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "Pf2bf9e54"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "Pf2bf9e54"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "Pf2bf9e54"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T02-B-LOWER",
+        "case": "T02",
+        "role": "B",
+        "offer": "LOWER",
+        "source_slot_id": "TB01-T02-R1-LOWER-VOTE-B",
+        "slots": [
+          "TVR01-T02-B-LOWER-R1",
+          "TVR01-T02-B-LOWER-R2",
+          "TVR01-T02-B-LOWER-R3"
+        ],
+        "own_assignment_match": false,
+        "decisions": [
+          "HOLD",
+          "HOLD",
+          "HOLD"
+        ],
+        "vote_records": [
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2ff2018"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2ff2018"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2ff2018"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T02-C-HIGHER",
+        "case": "T02",
+        "role": "C",
+        "offer": "HIGHER",
+        "source_slot_id": "TB01-T02-R1-HIGHER-VOTE-C",
+        "slots": [
+          "TVR01-T02-C-HIGHER-R1",
+          "TVR01-T02-C-HIGHER-R2",
+          "TVR01-T02-C-HIGHER-R3"
+        ],
+        "own_assignment_match": false,
+        "decisions": [
+          "ACCEPT",
+          "ACCEPT",
+          "HOLD"
+        ],
+        "vote_records": [
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "Pf2bf9e54"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "Pf2bf9e54"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pf2bf9e54"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          false
+        ],
+        "strict": [
+          true,
+          true,
+          false
+        ],
+        "vote_class": "MIXED",
+        "strict_class": "MIXED",
+        "identical_decisions": false,
+        "identical_votes": false,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            false
+          ]
+        }
+      },
+      {
+        "key": "T02-C-LOWER",
+        "case": "T02",
+        "role": "C",
+        "offer": "LOWER",
+        "source_slot_id": "TB01-T02-R1-LOWER-VOTE-C",
+        "slots": [
+          "TVR01-T02-C-LOWER-R1",
+          "TVR01-T02-C-LOWER-R2",
+          "TVR01-T02-C-LOWER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "HOLD",
+          "HOLD",
+          "HOLD"
+        ],
+        "vote_records": [
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2ff2018"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2ff2018"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "Pb2ff2018"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T03-A-HIGHER",
+        "case": "T03",
+        "role": "A",
+        "offer": "HIGHER",
+        "source_slot_id": "TB01-T03-R1-HIGHER-VOTE-A",
+        "slots": [
+          "TVR01-T03-A-HIGHER-R1",
+          "TVR01-T03-A-HIGHER-R2",
+          "TVR01-T03-A-HIGHER-R3"
+        ],
+        "own_assignment_match": false,
+        "decisions": [
+          "ACCEPT",
+          "ACCEPT",
+          "ACCEPT"
+        ],
+        "vote_records": [
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P9f054c99"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P9f054c99"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P9f054c99"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T03-A-LOWER",
+        "case": "T03",
+        "role": "A",
+        "offer": "LOWER",
+        "source_slot_id": "TB01-T03-R1-LOWER-VOTE-A",
+        "slots": [
+          "TVR01-T03-A-LOWER-R1",
+          "TVR01-T03-A-LOWER-R2",
+          "TVR01-T03-A-LOWER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "HOLD",
+          "ACCEPT",
+          "HOLD"
+        ],
+        "vote_records": [
+          {
+            "decision": "HOLD",
+            "proposal_id": "P28065e82"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P28065e82"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "P28065e82"
+          }
+        ],
+        "vote_correct": [
+          true,
+          false,
+          true
+        ],
+        "strict": [
+          true,
+          false,
+          true
+        ],
+        "vote_class": "MIXED",
+        "strict_class": "MIXED",
+        "identical_decisions": false,
+        "identical_votes": false,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            false,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T03-B-HIGHER",
+        "case": "T03",
+        "role": "B",
+        "offer": "HIGHER",
+        "source_slot_id": "TB01-T03-R1-HIGHER-VOTE-B",
+        "slots": [
+          "TVR01-T03-B-HIGHER-R1",
+          "TVR01-T03-B-HIGHER-R2",
+          "TVR01-T03-B-HIGHER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "ACCEPT",
+          "ACCEPT",
+          "ACCEPT"
+        ],
+        "vote_records": [
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P9f054c99"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P9f054c99"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P9f054c99"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T03-B-LOWER",
+        "case": "T03",
+        "role": "B",
+        "offer": "LOWER",
+        "source_slot_id": "TB01-T03-R1-LOWER-VOTE-B",
+        "slots": [
+          "TVR01-T03-B-LOWER-R1",
+          "TVR01-T03-B-LOWER-R2",
+          "TVR01-T03-B-LOWER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "HOLD",
+          "HOLD",
+          "HOLD"
+        ],
+        "vote_records": [
+          {
+            "decision": "HOLD",
+            "proposal_id": "P28065e82"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "P28065e82"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "P28065e82"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T03-C-HIGHER",
+        "case": "T03",
+        "role": "C",
+        "offer": "HIGHER",
+        "source_slot_id": "TB01-T03-R1-HIGHER-VOTE-C",
+        "slots": [
+          "TVR01-T03-C-HIGHER-R1",
+          "TVR01-T03-C-HIGHER-R2",
+          "TVR01-T03-C-HIGHER-R3"
+        ],
+        "own_assignment_match": true,
+        "decisions": [
+          "ACCEPT",
+          "ACCEPT",
+          "ACCEPT"
+        ],
+        "vote_records": [
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P9f054c99"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P9f054c99"
+          },
+          {
+            "decision": "ACCEPT",
+            "proposal_id": "P9f054c99"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      },
+      {
+        "key": "T03-C-LOWER",
+        "case": "T03",
+        "role": "C",
+        "offer": "LOWER",
+        "source_slot_id": "TB01-T03-R1-LOWER-VOTE-C",
+        "slots": [
+          "TVR01-T03-C-LOWER-R1",
+          "TVR01-T03-C-LOWER-R2",
+          "TVR01-T03-C-LOWER-R3"
+        ],
+        "own_assignment_match": false,
+        "decisions": [
+          "HOLD",
+          "HOLD",
+          "HOLD"
+        ],
+        "vote_records": [
+          {
+            "decision": "HOLD",
+            "proposal_id": "P28065e82"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "P28065e82"
+          },
+          {
+            "decision": "HOLD",
+            "proposal_id": "P28065e82"
+          }
+        ],
+        "vote_correct": [
+          true,
+          true,
+          true
+        ],
+        "strict": [
+          true,
+          true,
+          true
+        ],
+        "vote_class": "ALL_CORRECT",
+        "strict_class": "ALL_CORRECT",
+        "identical_decisions": true,
+        "identical_votes": true,
+        "metrics": {
+          "own_holder": [
+            true,
+            true,
+            true
+          ],
+          "own_recommendation": [
+            true,
+            true,
+            true
+          ],
+          "own_sources": [
+            true,
+            true,
+            true
+          ],
+          "vote": [
+            true,
+            true,
+            true
+          ]
+        }
+      }
+    ],
+    "vote_repeat_classes": {
+      "ALL_CORRECT": 16,
+      "MIXED": 2
+    },
+    "strict_repeat_classes": {
+      "ALL_CORRECT": 16,
+      "MIXED": 2
+    },
+    "errors_by_type": {
+      "HIGHER_HOLD": 1,
+      "LOWER_ACCEPT": 1
+    },
+    "prespecified_focus": {
+      "key": "T02-C-HIGHER",
+      "case": "T02",
+      "role": "C",
+      "offer": "HIGHER",
+      "source_slot_id": "TB01-T02-R1-HIGHER-VOTE-C",
+      "slots": [
+        "TVR01-T02-C-HIGHER-R1",
+        "TVR01-T02-C-HIGHER-R2",
+        "TVR01-T02-C-HIGHER-R3"
+      ],
+      "own_assignment_match": false,
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "Pf2bf9e54"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "Pf2bf9e54"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pf2bf9e54"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        false
+      ],
+      "strict": [
+        true,
+        true,
+        false
+      ],
+      "vote_class": "MIXED",
+      "strict_class": "MIXED",
+      "identical_decisions": false,
+      "identical_votes": false,
+      "metrics": {
+        "own_holder": [
+          true,
+          true,
+          true
+        ],
+        "own_recommendation": [
+          true,
+          true,
+          true
+        ],
+        "own_sources": [
+          true,
+          true,
+          true
+        ],
+        "vote": [
+          true,
+          true,
+          false
+        ]
+      }
+    },
+    "gate": "FAIL",
+    "observed_failed_responses": 2,
+    "unresolved_responses": 0,
+    "gate_definition": "All 54 new responses interpretable and all four axes correct; no old outcome pooling.",
+    "protocol": "THREE-ROLE-VOTE-REPEAT-01-RUN-v0.1",
+    "planned_responses": 54,
+    "attempted_generations": 54,
+    "status_counts": {
+      "EOS": 54
+    },
+    "evidence_kind": "MODEL_RUN_EVIDENCE",
+    "output_tokens": 4917,
+    "generation_seconds": 271.21856210100077,
+    "by_slot": [
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TVR01-T03-B-LOWER-R1",
+        "input_key": "T03-B-LOWER",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1246291344,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E073f46deb0",
+                "E3ea1e6bcd0"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "P28065e82"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "af021aa8dfbfbd7eb73661b3d2bbcf3570f0b820b4181c8e3757761dd781f4c6",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "af021aa8dfbfbd7eb73661b3d2bbcf3570f0b820b4181c8e3757761dd781f4c6",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TVR01-T03-B-HIGHER-R1",
+        "input_key": "T03-B-HIGHER",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 720685917,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E073f46deb0",
+                "E3ea1e6bcd0"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P9f054c99"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 195,
+            "normalized_sha256": "064546d125e373639957c427e6a2432ebfae4fbe22a8bafd9c58b4a72e2f5991",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 195,
+            "raw_sha256": "064546d125e373639957c427e6a2432ebfae4fbe22a8bafd9c58b4a72e2f5991",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TVR01-T02-C-HIGHER-R1",
+        "input_key": "T02-C-HIGHER",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 328504533,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E17a6811913",
+                "E7f43af16ff"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "Pf2bf9e54"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "eb706267936d51e8bf07b47b81af1ee01d81b29f202ca8bf6b637c2dd007fa07",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 213,
+            "raw_sha256": "eb706267936d51e8bf07b47b81af1ee01d81b29f202ca8bf6b637c2dd007fa07",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TVR01-T01-A-HIGHER-R1",
+        "input_key": "T01-A-HIGHER",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 784263180,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ea55ba252f4",
+                "Ec5c804fd41"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P3c0262f9"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "4ef0aa275ec11036d268783389f8d637f8ccb7801b8b377ed53290174ffc7b02",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "4ef0aa275ec11036d268783389f8d637f8ccb7801b8b377ed53290174ffc7b02",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TVR01-T02-C-LOWER-R1",
+        "input_key": "T02-C-LOWER",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 60915864,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E17a6811913",
+                "E7f43af16ff"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2ff2018"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 193,
+            "normalized_sha256": "488cb5fa9783e99e78f0ae1a543e1445a7f19586048c3c55348e88374c982efb",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 193,
+            "raw_sha256": "488cb5fa9783e99e78f0ae1a543e1445a7f19586048c3c55348e88374c982efb",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TVR01-T03-A-HIGHER-R1",
+        "input_key": "T03-A-HIGHER",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1273699334,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E36b8ee859b",
+                "E06004afa43"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P9f054c99"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "928eb46fcfd9232e05814d9584bd9ec550adaf652839199392e7d28115f44802",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "928eb46fcfd9232e05814d9584bd9ec550adaf652839199392e7d28115f44802",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TVR01-T01-C-HIGHER-R1",
+        "input_key": "T01-C-HIGHER",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 416125625,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E3c75273d5b",
+                "E4a7f20ecfb"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P3c0262f9"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 149,
+            "normalized_sha256": "0dbbfe83fdf4103012fbc4d73c41299eb5108629b76cea1cd9f1f890a061febc",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 149,
+            "raw_sha256": "0dbbfe83fdf4103012fbc4d73c41299eb5108629b76cea1cd9f1f890a061febc",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TVR01-T02-A-HIGHER-R1",
+        "input_key": "T02-A-HIGHER",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1358620296,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E7ca852043d",
+                "E9ee9ef56a6"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "Pf2bf9e54"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 193,
+            "normalized_sha256": "b1c6ce54ce7f42926168af1a7a5fac0b2b6e0e739ded1f84366c25c6cc89fec9",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 193,
+            "raw_sha256": "b1c6ce54ce7f42926168af1a7a5fac0b2b6e0e739ded1f84366c25c6cc89fec9",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TVR01-T03-C-HIGHER-R1",
+        "input_key": "T03-C-HIGHER",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 995534993,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Eb19c2b80cc",
+                "Ed4cd15ad90"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P9f054c99"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "be4992e1b2c0ebabeed75c099d1f86139ad04a2fb052f789456179535ecc9821",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "be4992e1b2c0ebabeed75c099d1f86139ad04a2fb052f789456179535ecc9821",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TVR01-T01-B-LOWER-R1",
+        "input_key": "T01-B-LOWER",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 631894500,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E9c6530feeb",
+                "Ebe68e2e764"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2f047c7"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 209,
+            "normalized_sha256": "e9e1e1c67ec8d8c2a0724ee1fa38c4367b85853c02813c1f5c797f6273630d55",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 209,
+            "raw_sha256": "e9e1e1c67ec8d8c2a0724ee1fa38c4367b85853c02813c1f5c797f6273630d55",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TVR01-T03-A-LOWER-R1",
+        "input_key": "T03-A-LOWER",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1270148460,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E36b8ee859b",
+                "E06004afa43"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "P28065e82"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 191,
+            "normalized_sha256": "61c992d182263692de4db6759053469c410f45ee7bf3bf3fc098ff1a939e0696",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 191,
+            "raw_sha256": "61c992d182263692de4db6759053469c410f45ee7bf3bf3fc098ff1a939e0696",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TVR01-T02-B-HIGHER-R1",
+        "input_key": "T02-B-HIGHER",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 668411182,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ed4f2ba7f2d",
+                "Ec85b5abf44"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "Pf2bf9e54"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 149,
+            "normalized_sha256": "96301fe441f6a81e59b57c31560b034baf80e2251ac4da800a406b66195dd029",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 149,
+            "raw_sha256": "96301fe441f6a81e59b57c31560b034baf80e2251ac4da800a406b66195dd029",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TVR01-T01-A-LOWER-R1",
+        "input_key": "T01-A-LOWER",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1845282165,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ea55ba252f4",
+                "Ec5c804fd41"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2f047c7"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 145,
+            "normalized_sha256": "5e2421302aed7735b713c6986a67a4fea9bb7fa86af05ab446541a22d91407dc",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 145,
+            "raw_sha256": "5e2421302aed7735b713c6986a67a4fea9bb7fa86af05ab446541a22d91407dc",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TVR01-T01-C-LOWER-R1",
+        "input_key": "T01-C-LOWER",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1543019650,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E3c75273d5b",
+                "E4a7f20ecfb"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2f047c7"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "8f92eb1dfbe8b877ccd4d4c1e33562e28868ff05ca3c4cea3eb7810691119e79",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "8f92eb1dfbe8b877ccd4d4c1e33562e28868ff05ca3c4cea3eb7810691119e79",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TVR01-T03-C-LOWER-R1",
+        "input_key": "T03-C-LOWER",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1737586002,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Eb19c2b80cc",
+                "Ed4cd15ad90"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "P28065e82"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 209,
+            "normalized_sha256": "e40616e0176acc3dba2e63e493c0996fb0a8b5743e5ca1ff2032f80023e5c703",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 209,
+            "raw_sha256": "e40616e0176acc3dba2e63e493c0996fb0a8b5743e5ca1ff2032f80023e5c703",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TVR01-T02-A-LOWER-R1",
+        "input_key": "T02-A-LOWER",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1087782168,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E7ca852043d",
+                "E9ee9ef56a6"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2ff2018"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 209,
+            "normalized_sha256": "eb219d0bfa1e3b0df974b21089999a65d3036f38f86d515468570ea26341e7b3",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 209,
+            "raw_sha256": "eb219d0bfa1e3b0df974b21089999a65d3036f38f86d515468570ea26341e7b3",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TVR01-T01-B-HIGHER-R1",
+        "input_key": "T01-B-HIGHER",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 889412056,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E9c6530feeb",
+                "Ebe68e2e764"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P3c0262f9"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "802359b48fbe64857df9620ba5ba7b1c16559ff836ef621791c0e1464da15c65",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "802359b48fbe64857df9620ba5ba7b1c16559ff836ef621791c0e1464da15c65",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TVR01-T02-B-LOWER-R1",
+        "input_key": "T02-B-LOWER",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 154125348,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ed4f2ba7f2d",
+                "Ec85b5abf44"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2ff2018"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "f986a5ea17499a7999d0d3f67a1221f894506851f04d0437fc20497edb0702d1",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "f986a5ea17499a7999d0d3f67a1221f894506851f04d0437fc20497edb0702d1",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TVR01-T01-A-LOWER-R2",
+        "input_key": "T01-A-LOWER",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 628758316,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ea55ba252f4",
+                "Ec5c804fd41"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2f047c7"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 191,
+            "normalized_sha256": "4e8a5c6b05b7d8dbaeb3a6a5426ce78386171c5cb8698fc8d33501130054c552",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 191,
+            "raw_sha256": "4e8a5c6b05b7d8dbaeb3a6a5426ce78386171c5cb8698fc8d33501130054c552",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TVR01-T01-B-LOWER-R2",
+        "input_key": "T01-B-LOWER",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1975519871,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E9c6530feeb",
+                "Ebe68e2e764"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2f047c7"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 145,
+            "normalized_sha256": "af6df4e8b5ea881c184568f3102227eea3eb53f8a94f3f1d18ffca99175beb9c",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 145,
+            "raw_sha256": "af6df4e8b5ea881c184568f3102227eea3eb53f8a94f3f1d18ffca99175beb9c",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TVR01-T01-A-HIGHER-R2",
+        "input_key": "T01-A-HIGHER",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 922890482,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ea55ba252f4",
+                "Ec5c804fd41"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P3c0262f9"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 147,
+            "normalized_sha256": "a64ab5acb13c0fc5b1c89a5c8bf27b709389b4337dfbf880aa4696e5633e30ad",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 147,
+            "raw_sha256": "a64ab5acb13c0fc5b1c89a5c8bf27b709389b4337dfbf880aa4696e5633e30ad",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TVR01-T03-B-LOWER-R2",
+        "input_key": "T03-B-LOWER",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 688961358,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E073f46deb0",
+                "E3ea1e6bcd0"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "P28065e82"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "af021aa8dfbfbd7eb73661b3d2bbcf3570f0b820b4181c8e3757761dd781f4c6",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "af021aa8dfbfbd7eb73661b3d2bbcf3570f0b820b4181c8e3757761dd781f4c6",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TVR01-T02-A-HIGHER-R2",
+        "input_key": "T02-A-HIGHER",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1765073304,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E7ca852043d",
+                "E9ee9ef56a6"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "Pf2bf9e54"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "a8dacf9c96d03c26d87279231cf1bafa340ae403e6a4e0816c1807442b59de11",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "a8dacf9c96d03c26d87279231cf1bafa340ae403e6a4e0816c1807442b59de11",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TVR01-T02-B-HIGHER-R2",
+        "input_key": "T02-B-HIGHER",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1550715100,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ed4f2ba7f2d",
+                "Ec85b5abf44"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "Pf2bf9e54"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "f492126a3969a7ea4cbf63094911dae598d3eeca88fc8170778df315d8d882ed",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 213,
+            "raw_sha256": "f492126a3969a7ea4cbf63094911dae598d3eeca88fc8170778df315d8d882ed",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TVR01-T01-C-LOWER-R2",
+        "input_key": "T01-C-LOWER",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 2126605073,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E3c75273d5b",
+                "E4a7f20ecfb"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2f047c7"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "8f92eb1dfbe8b877ccd4d4c1e33562e28868ff05ca3c4cea3eb7810691119e79",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "8f92eb1dfbe8b877ccd4d4c1e33562e28868ff05ca3c4cea3eb7810691119e79",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TVR01-T01-B-HIGHER-R2",
+        "input_key": "T01-B-HIGHER",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1291580702,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E9c6530feeb",
+                "Ebe68e2e764"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P3c0262f9"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 147,
+            "normalized_sha256": "2ab2441ae9c55426879bdf2fb6fd36428403b5a4dafbae0625f4aa56e42d6c1d",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 147,
+            "raw_sha256": "2ab2441ae9c55426879bdf2fb6fd36428403b5a4dafbae0625f4aa56e42d6c1d",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TVR01-T02-B-LOWER-R2",
+        "input_key": "T02-B-LOWER",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1676756565,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ed4f2ba7f2d",
+                "Ec85b5abf44"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2ff2018"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "f986a5ea17499a7999d0d3f67a1221f894506851f04d0437fc20497edb0702d1",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "f986a5ea17499a7999d0d3f67a1221f894506851f04d0437fc20497edb0702d1",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TVR01-T03-C-LOWER-R2",
+        "input_key": "T03-C-LOWER",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1312905741,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Eb19c2b80cc",
+                "Ed4cd15ad90"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "P28065e82"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 209,
+            "normalized_sha256": "e40616e0176acc3dba2e63e493c0996fb0a8b5743e5ca1ff2032f80023e5c703",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 209,
+            "raw_sha256": "e40616e0176acc3dba2e63e493c0996fb0a8b5743e5ca1ff2032f80023e5c703",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TVR01-T03-B-HIGHER-R2",
+        "input_key": "T03-B-HIGHER",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 154194591,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E073f46deb0",
+                "E3ea1e6bcd0"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P9f054c99"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 195,
+            "normalized_sha256": "064546d125e373639957c427e6a2432ebfae4fbe22a8bafd9c58b4a72e2f5991",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 195,
+            "raw_sha256": "064546d125e373639957c427e6a2432ebfae4fbe22a8bafd9c58b4a72e2f5991",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TVR01-T02-C-HIGHER-R2",
+        "input_key": "T02-C-HIGHER",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1825307105,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E17a6811913",
+                "E7f43af16ff"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "Pf2bf9e54"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "eb706267936d51e8bf07b47b81af1ee01d81b29f202ca8bf6b637c2dd007fa07",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 213,
+            "raw_sha256": "eb706267936d51e8bf07b47b81af1ee01d81b29f202ca8bf6b637c2dd007fa07",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TVR01-T03-A-LOWER-R2",
+        "input_key": "T03-A-LOWER",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 456373194,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E36b8ee859b",
+                "E06004afa43"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P28065e82"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": false
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "147c1e506e52634c08f2a9ee14cec604e9573cd2c318bd93bef684e30da58c80",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "147c1e506e52634c08f2a9ee14cec604e9573cd2c318bd93bef684e30da58c80",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": false,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TVR01-T03-A-HIGHER-R2",
+        "input_key": "T03-A-HIGHER",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 772254881,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E36b8ee859b",
+                "E06004afa43"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P9f054c99"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "928eb46fcfd9232e05814d9584bd9ec550adaf652839199392e7d28115f44802",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "928eb46fcfd9232e05814d9584bd9ec550adaf652839199392e7d28115f44802",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TVR01-T01-C-HIGHER-R2",
+        "input_key": "T01-C-HIGHER",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 786678935,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E3c75273d5b",
+                "E4a7f20ecfb"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P3c0262f9"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 149,
+            "normalized_sha256": "8748538d8e7405ba8f89510315d373c99884624c00bd35f794e4a824b54899f5",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 149,
+            "raw_sha256": "8748538d8e7405ba8f89510315d373c99884624c00bd35f794e4a824b54899f5",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TVR01-T02-C-LOWER-R2",
+        "input_key": "T02-C-LOWER",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 271420369,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E17a6811913",
+                "E7f43af16ff"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2ff2018"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 147,
+            "normalized_sha256": "d2a1954c4b49d0fdb0c60703427dc0dfb9842bb0a20066e64e51c17ff5a697b5",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 147,
+            "raw_sha256": "d2a1954c4b49d0fdb0c60703427dc0dfb9842bb0a20066e64e51c17ff5a697b5",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TVR01-T02-A-LOWER-R2",
+        "input_key": "T02-A-LOWER",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1788956370,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E7ca852043d",
+                "E9ee9ef56a6"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2ff2018"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 191,
+            "normalized_sha256": "4fb51664da5723fa471fddfde8bb026a87bc624f855abc19c47ba040386f7e26",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 191,
+            "raw_sha256": "4fb51664da5723fa471fddfde8bb026a87bc624f855abc19c47ba040386f7e26",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TVR01-T03-C-HIGHER-R2",
+        "input_key": "T03-C-HIGHER",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1915770149,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Eb19c2b80cc",
+                "Ed4cd15ad90"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P9f054c99"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 193,
+            "normalized_sha256": "f6f245c16b508af06b0cf37f815210794b63fa747216ba176bc12a0c4164fc30",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 193,
+            "raw_sha256": "f6f245c16b508af06b0cf37f815210794b63fa747216ba176bc12a0c4164fc30",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TVR01-T02-B-LOWER-R3",
+        "input_key": "T02-B-LOWER",
+        "parents": [],
+        "repeat": 3,
+        "role": "B",
+        "seed": 1481980444,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ed4f2ba7f2d",
+                "Ec85b5abf44"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2ff2018"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "f986a5ea17499a7999d0d3f67a1221f894506851f04d0437fc20497edb0702d1",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "f986a5ea17499a7999d0d3f67a1221f894506851f04d0437fc20497edb0702d1",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TVR01-T01-A-LOWER-R3",
+        "input_key": "T01-A-LOWER",
+        "parents": [],
+        "repeat": 3,
+        "role": "A",
+        "seed": 231433418,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ea55ba252f4",
+                "Ec5c804fd41"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2f047c7"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 145,
+            "normalized_sha256": "5e2421302aed7735b713c6986a67a4fea9bb7fa86af05ab446541a22d91407dc",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 145,
+            "raw_sha256": "5e2421302aed7735b713c6986a67a4fea9bb7fa86af05ab446541a22d91407dc",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TVR01-T01-A-HIGHER-R3",
+        "input_key": "T01-A-HIGHER",
+        "parents": [],
+        "repeat": 3,
+        "role": "A",
+        "seed": 115417833,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ea55ba252f4",
+                "Ec5c804fd41"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P3c0262f9"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "4ef0aa275ec11036d268783389f8d637f8ccb7801b8b377ed53290174ffc7b02",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "4ef0aa275ec11036d268783389f8d637f8ccb7801b8b377ed53290174ffc7b02",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TVR01-T03-C-LOWER-R3",
+        "input_key": "T03-C-LOWER",
+        "parents": [],
+        "repeat": 3,
+        "role": "C",
+        "seed": 176143692,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Eb19c2b80cc",
+                "Ed4cd15ad90"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "P28065e82"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 145,
+            "normalized_sha256": "2dd3b87473363e8975b68ef9661bffbf0b82ec24c931fd891cda576ff0fd7bf3",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 145,
+            "raw_sha256": "2dd3b87473363e8975b68ef9661bffbf0b82ec24c931fd891cda576ff0fd7bf3",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TVR01-T02-C-HIGHER-R3",
+        "input_key": "T02-C-HIGHER",
+        "parents": [],
+        "repeat": 3,
+        "role": "C",
+        "seed": 1747149796,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E17a6811913",
+                "E7f43af16ff"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pf2bf9e54"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": false
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "6413bb845ec6ab9956c7aae7ab1dbd658be9d1890ad63e85eb9d3c5a07c612a3",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "6413bb845ec6ab9956c7aae7ab1dbd658be9d1890ad63e85eb9d3c5a07c612a3",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": false,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TVR01-T01-C-LOWER-R3",
+        "input_key": "T01-C-LOWER",
+        "parents": [],
+        "repeat": 3,
+        "role": "C",
+        "seed": 1786997818,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E3c75273d5b",
+                "E4a7f20ecfb"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2f047c7"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 147,
+            "normalized_sha256": "2a9741d61f00bd5d9a4eda050603a89808c09055687308fffb460531c2c20037",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 147,
+            "raw_sha256": "2a9741d61f00bd5d9a4eda050603a89808c09055687308fffb460531c2c20037",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TVR01-T03-B-LOWER-R3",
+        "input_key": "T03-B-LOWER",
+        "parents": [],
+        "repeat": 3,
+        "role": "B",
+        "seed": 273926629,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E073f46deb0",
+                "E3ea1e6bcd0"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "P28065e82"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 193,
+            "normalized_sha256": "a19a2d5cc16ca4dcf34cf214fce2831424d730caec0e52ec71f9480a2efbfdc7",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 193,
+            "raw_sha256": "a19a2d5cc16ca4dcf34cf214fce2831424d730caec0e52ec71f9480a2efbfdc7",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TVR01-T03-C-HIGHER-R3",
+        "input_key": "T03-C-HIGHER",
+        "parents": [],
+        "repeat": 3,
+        "role": "C",
+        "seed": 260089420,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Eb19c2b80cc",
+                "Ed4cd15ad90"
+              ],
+              "holder": "C",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P9f054c99"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 193,
+            "normalized_sha256": "f6f245c16b508af06b0cf37f815210794b63fa747216ba176bc12a0c4164fc30",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 193,
+            "raw_sha256": "f6f245c16b508af06b0cf37f815210794b63fa747216ba176bc12a0c4164fc30",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TVR01-T01-B-HIGHER-R3",
+        "input_key": "T01-B-HIGHER",
+        "parents": [],
+        "repeat": 3,
+        "role": "B",
+        "seed": 687901082,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E9c6530feeb",
+                "Ebe68e2e764"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P3c0262f9"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "802359b48fbe64857df9620ba5ba7b1c16559ff836ef621791c0e1464da15c65",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "802359b48fbe64857df9620ba5ba7b1c16559ff836ef621791c0e1464da15c65",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TVR01-T01-B-LOWER-R3",
+        "input_key": "T01-B-LOWER",
+        "parents": [],
+        "repeat": 3,
+        "role": "B",
+        "seed": 2036790927,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E9c6530feeb",
+                "Ebe68e2e764"
+              ],
+              "holder": "B",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2f047c7"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 209,
+            "normalized_sha256": "e9e1e1c67ec8d8c2a0724ee1fa38c4367b85853c02813c1f5c797f6273630d55",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 209,
+            "raw_sha256": "e9e1e1c67ec8d8c2a0724ee1fa38c4367b85853c02813c1f5c797f6273630d55",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TVR01-T02-C-LOWER-R3",
+        "input_key": "T02-C-LOWER",
+        "parents": [],
+        "repeat": 3,
+        "role": "C",
+        "seed": 759809266,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E17a6811913",
+                "E7f43af16ff"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2ff2018"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "a8a67cc7dfe2f650d39e9051b1d23abeed413fb0bbb9764986e0e5e4c8667b00",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "a8a67cc7dfe2f650d39e9051b1d23abeed413fb0bbb9764986e0e5e4c8667b00",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TVR01-T03-A-HIGHER-R3",
+        "input_key": "T03-A-HIGHER",
+        "parents": [],
+        "repeat": 3,
+        "role": "A",
+        "seed": 552901096,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E36b8ee859b",
+                "E06004afa43"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P9f054c99"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 193,
+            "normalized_sha256": "c33c0bb3b6a45389bd401ca7a347a6f669593c3510101a6d990053d56dcaa6af",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 193,
+            "raw_sha256": "c33c0bb3b6a45389bd401ca7a347a6f669593c3510101a6d990053d56dcaa6af",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TVR01-T02-A-HIGHER-R3",
+        "input_key": "T02-A-HIGHER",
+        "parents": [],
+        "repeat": 3,
+        "role": "A",
+        "seed": 1313447572,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E7ca852043d",
+                "E9ee9ef56a6"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "Pf2bf9e54"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 211,
+            "normalized_sha256": "a8dacf9c96d03c26d87279231cf1bafa340ae403e6a4e0816c1807442b59de11",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 211,
+            "raw_sha256": "a8dacf9c96d03c26d87279231cf1bafa340ae403e6a4e0816c1807442b59de11",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TVR01-T02-B-HIGHER-R3",
+        "input_key": "T02-B-HIGHER",
+        "parents": [],
+        "repeat": 3,
+        "role": "B",
+        "seed": 1077437598,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "Ed4f2ba7f2d",
+                "Ec85b5abf44"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "Pf2bf9e54"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 195,
+            "normalized_sha256": "363d447266d8e2408e6f7007514d64736c6ed09316e2e915a96de34c2c278857",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 195,
+            "raw_sha256": "363d447266d8e2408e6f7007514d64736c6ed09316e2e915a96de34c2c278857",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TVR01-T03-A-LOWER-R3",
+        "input_key": "T03-A-LOWER",
+        "parents": [],
+        "repeat": 3,
+        "role": "A",
+        "seed": 1302859592,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E36b8ee859b",
+                "E06004afa43"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "P28065e82"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 209,
+            "normalized_sha256": "12fe0abdc62ecf62d0e62492af50a81d799238893ca741a67d1e7f1072552382",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 209,
+            "raw_sha256": "12fe0abdc62ecf62d0e62492af50a81d799238893ca741a67d1e7f1072552382",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TVR01-T02-A-LOWER-R3",
+        "input_key": "T02-A-LOWER",
+        "parents": [],
+        "repeat": 3,
+        "role": "A",
+        "seed": 179231638,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E7ca852043d",
+                "E9ee9ef56a6"
+              ],
+              "holder": "A",
+              "recommendation": "PAPER"
+            },
+            "vote": {
+              "decision": "HOLD",
+              "proposal_id": "Pb2ff2018"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 209,
+            "normalized_sha256": "eb219d0bfa1e3b0df974b21089999a65d3036f38f86d515468570ea26341e7b3",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 209,
+            "raw_sha256": "eb219d0bfa1e3b0df974b21089999a65d3036f38f86d515468570ea26341e7b3",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TVR01-T03-B-HIGHER-R3",
+        "input_key": "T03-B-HIGHER",
+        "parents": [],
+        "repeat": 3,
+        "role": "B",
+        "seed": 1605589147,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E073f46deb0",
+                "E3ea1e6bcd0"
+              ],
+              "holder": "B",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P9f054c99"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "81e4c43e25b06fbb9d7fbd2557a708054bfe4d80217e55108666297577d8723d",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 213,
+            "raw_sha256": "81e4c43e25b06fbb9d7fbd2557a708054bfe4d80217e55108666297577d8723d",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TVR01-T01-C-HIGHER-R3",
+        "input_key": "T01-C-HIGHER",
+        "parents": [],
+        "repeat": 3,
+        "role": "C",
+        "seed": 685071338,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "EOS",
+        "score": {
+          "answer": {
+            "own": {
+              "evidence_ids": [
+                "E3c75273d5b",
+                "E4a7f20ecfb"
+              ],
+              "holder": "C",
+              "recommendation": "DIGITAL"
+            },
+            "vote": {
+              "decision": "ACCEPT",
+              "proposal_id": "P3c0262f9"
+            }
+          },
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [],
+          "false_agreement": null,
+          "format_valid": true,
+          "metrics": {
+            "own_holder": true,
+            "own_recommendation": true,
+            "own_sources": true,
+            "vote": true
+          },
+          "normalization": {
+            "normalized_bytes_length": 149,
+            "normalized_sha256": "14e8c3eb4cd97b93e4a9f2915b6981c86e9b8784210728df458102cca4dac782",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 149,
+            "raw_sha256": "14e8c3eb4cd97b93e4a9f2915b6981c86e9b8784210728df458102cca4dac782",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "strict": true,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      }
+    ]
+  }
+}

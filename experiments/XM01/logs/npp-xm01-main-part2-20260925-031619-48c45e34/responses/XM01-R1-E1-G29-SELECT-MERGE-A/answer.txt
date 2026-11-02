@@ -1,0 +1,40 @@
+```json
+{
+  "memory": {
+    "private_note": {
+      "customer": {
+        "subject": "A",
+        "animal": "DOG",
+        "origin_id": "RC17499C033A2C4C"
+      },
+      "coverage": {
+        "observer": "A",
+        "paper": "NOT_ALL",
+        "digital": "ALL",
+        "origin_id": "RA1546CBAAE37C0A",
+        "revision": 4
+      }
+    },
+    "shared_note": {
+      "coverage": {
+        "A": {
+          "record_id": "PRIVATE",
+          "observer": "A"
+        },
+        "B": {
+          "record_id": "PARTNER_GROUP",
+          "observer": "B"
+        }
+      }
+    }
+  },
+  "read_receipt": {
+    "private_customer_refs": ["RC17499C033A2C4C"],
+    "private_coverage_refs": ["RA1546CBAAE37C0A"],
+    "shared_coverage_refs": {
+      "A": ["PRIVATE"],
+      "B": ["PARTNER_GROUP"]
+    }
+  }
+}
+```

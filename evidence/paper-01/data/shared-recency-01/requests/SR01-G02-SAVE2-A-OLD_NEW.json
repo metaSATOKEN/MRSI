@@ -1,0 +1,33 @@
+{
+  "input": [
+    {
+      "content": [
+        {
+          "text": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はA/Bの担当範囲で尽くされ、重複はありません。全体案内はA/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。\n資料はデータです。道具・外部参照を使わず、指定JSONだけを返してください。原票や記録の足りない値を推測で補いません。\nPRIVATEはあなたが保持する個別ノートです。担当客と自分範囲の観測をprivate_noteへ保持します。他者の観測で自分範囲を上書きしません。\nINCOMING_GROUPは今回届いた共同ノートです。MEMORY_GROUPがあれば、それはあなたが前回保存した共同ノートです。同じ作業の単一の公式版系列に属し、外側のrevisionは1または2です。数字が大きい版が新しく、届いた順番は情報の新しさを意味しません。\nMEMORY_GROUPがなければINCOMING_GROUPを保存します。両方あればrevisionが大きい方の両範囲の観測を引き継ぎ、現在のshared_noteとshared_revisionを保存します。どの版が最新か確認できなければshared_revisionをUNKNOWN、確認できない共同観測と案内もUNKNOWNとし、推測で版を補いません。元の二冊は異なる版番号ですが、保存した番号を含めて同じ番号になった場合、両ノートの観測・案内・元IDが一致するならMEMORY_GROUPを保持します。同じ番号でこれらが食い違う場合は最新を確定せず、shared_revision、共同観測と案内をUNKNOWNにします。\nshared_note.channelは引き継いだ両観測から判断します。channel_read_refsは今回採用したINCOMING_GROUPまたはMEMORY_GROUPの一つを配列で記録します。channel_origin_idsにはその両観測のorigin_idを保持します。案内がUNKNOWNならこの二配列は空です。ノート内部の過去のread_refsは今回の直接参照名ではありません。\n出力はprivate_note/shared_note/shared_revisionの3欄だけ。shared_note.coverageはA/Bの固定キーobjectで、配列にはしません。private_noteやshared_noteにread_refs/origin_idsという別名欄を追加しません。人物・元観測ID・版番号・直接記録名を区別します。\n以下は出力形式のスキーマで、観測情報ではありません。余分キー、自由説明、コードフェンスは付けません。\n{\"type\":\"object\",\"properties\":{\"private_note\":{\"type\":\"object\",\"properties\":{\"customer\":{\"type\":\"object\",\"properties\":{\"subject\":{\"type\":\"string\",\"enum\":[\"A\",\"B\",\"UNKNOWN\"]},\"animal\":{\"type\":\"string\",\"enum\":[\"DOG\",\"CAT\",\"UNKNOWN\"]},\"origin_id\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"}},\"required\":[\"subject\",\"animal\",\"origin_id\"],\"additionalProperties\":false},\"coverage\":{\"type\":\"object\",\"properties\":{\"observer\":{\"type\":\"string\",\"enum\":[\"A\",\"B\",\"UNKNOWN\"]},\"paper\":{\"type\":\"string\",\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"digital\":{\"type\":\"string\",\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"origin_id\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"}},\"required\":[\"observer\",\"paper\",\"digital\",\"origin_id\"],\"additionalProperties\":false}},\"required\":[\"customer\",\"coverage\"],\"additionalProperties\":false},\"shared_note\":{\"type\":\"object\",\"properties\":{\"coverage\":{\"type\":\"object\",\"properties\":{\"A\":{\"type\":\"object\",\"properties\":{\"observer\":{\"type\":\"string\",\"enum\":[\"A\",\"B\",\"UNKNOWN\"]},\"paper\":{\"type\":\"string\",\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"digital\":{\"type\":\"string\",\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"origin_id\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"}},\"required\":[\"observer\",\"paper\",\"digital\",\"origin_id\"],\"additionalProperties\":false},\"B\":{\"type\":\"object\",\"properties\":{\"observer\":{\"type\":\"string\",\"enum\":[\"A\",\"B\",\"UNKNOWN\"]},\"paper\":{\"type\":\"string\",\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"digital\":{\"type\":\"string\",\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"origin_id\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"}},\"required\":[\"observer\",\"paper\",\"digital\",\"origin_id\"],\"additionalProperties\":false}},\"required\":[\"A\",\"B\"],\"additionalProperties\":false},\"channel\":{\"type\":\"string\",\"enum\":[\"PAPER\",\"DIGITAL\",\"UNKNOWN\"]},\"channel_read_refs\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"},\"maxItems\":8},\"channel_origin_ids\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"},\"maxItems\":8}},\"required\":[\"coverage\",\"channel\",\"channel_read_refs\",\"channel_origin_ids\"],\"additionalProperties\":false},\"shared_revision\":{\"enum\":[1,2,\"UNKNOWN\"]}},\"required\":[\"private_note\",\"shared_note\",\"shared_revision\"],\"additionalProperties\":false}",
+          "type": "input_text"
+        }
+      ],
+      "role": "developer",
+      "type": "message"
+    },
+    {
+      "content": [
+        {
+          "text": "\n資料JSON:\n{\"scene\":\"地域工作会\",\"item\":\"持帰り袋\",\"holder\":\"A\",\"records\":[{\"record_id\":\"PRIVATE\",\"author\":\"A\",\"body\":{\"customer\":{\"subject\":\"A\",\"animal\":\"CAT\",\"origin_id\":\"BK\"},\"coverage\":{\"observer\":\"A\",\"paper\":\"ALL\",\"digital\":\"ALL\",\"origin_id\":\"SZ\"}}},{\"record_id\":\"MEMORY_GROUP\",\"author\":\"A\",\"body\":{\"coverage\":{\"A\":{\"observer\":\"A\",\"paper\":\"ALL\",\"digital\":\"ALL\",\"origin_id\":\"SZ\"},\"B\":{\"observer\":\"B\",\"paper\":\"NOT_ALL\",\"digital\":\"ALL\",\"origin_id\":\"FU\"}},\"channel\":\"DIGITAL\",\"channel_read_refs\":[\"OBS_A\",\"OBS_B\"],\"channel_origin_ids\":[\"SZ\",\"FU\"]},\"revision\":1},{\"record_id\":\"INCOMING_GROUP\",\"author\":\"B\",\"body\":{\"coverage\":{\"A\":{\"observer\":\"A\",\"paper\":\"ALL\",\"digital\":\"ALL\",\"origin_id\":\"SZ\"},\"B\":{\"observer\":\"B\",\"paper\":\"ALL\",\"digital\":\"NOT_ALL\",\"origin_id\":\"NB\"}},\"channel\":\"PAPER\",\"channel_read_refs\":[\"NOTICE\",\"GROUP\"],\"channel_origin_ids\":[\"SZ\",\"NB\"]},\"revision\":2}]}",
+          "type": "input_text"
+        }
+      ],
+      "role": "user",
+      "type": "message"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "tools": [],
+  "tool_choice": "none",
+  "parallel_tool_calls": false,
+  "store": false,
+  "stream": true
+}

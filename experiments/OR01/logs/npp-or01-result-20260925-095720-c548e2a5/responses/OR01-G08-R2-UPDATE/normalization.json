@@ -1,0 +1,1 @@
+{"normalized_bytes_length":662,"normalized_sha256":"10f7a17e9b92a43c6d57ab491c4370fa04b4e3395b25b284112d58da2b2e16cb","protocol":"UR01-ENVELOPE-REFERENCE-v0.1","raw_bytes":674,"raw_sha256":"ee1a4512b573aa19793a13feb30e82f6fee63c921ef3d06f7efdf9a09d7141f2","reason":"EXACT_ENVELOPE_ONLY","removed_prefix_bytes":8,"removed_suffix_bytes":4,"status":"UNWRAPPED","value_repair":false}

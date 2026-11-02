@@ -1,0 +1,905 @@
+{
+  "protocol": "SHARED-UPDATE-02",
+  "version": "shared-update-02-v0.1",
+  "limits": {
+    "logical_requests": 48,
+    "physical_requests": 52,
+    "overload_retries": 4,
+    "per_logical_attempts": 2,
+    "active_seconds": 2700,
+    "reserve_seconds": 200,
+    "response_utf8_bytes": 4096,
+    "input_text_utf8_bytes": 32768
+  },
+  "allocation": [
+    {
+      "id": "SU02-G02-UPDATE-B-STABLE",
+      "group": "SU02-G02",
+      "stage": "UPDATE",
+      "role": "B",
+      "arm": "STABLE",
+      "repetition": null,
+      "parents": [],
+      "source_group": "SC03-G02",
+      "position": 1
+    },
+    {
+      "id": "SU02-G04-UPDATE-B-STABLE",
+      "group": "SU02-G04",
+      "stage": "UPDATE",
+      "role": "B",
+      "arm": "STABLE",
+      "repetition": null,
+      "parents": [],
+      "source_group": "SC03-G04",
+      "position": 2
+    },
+    {
+      "id": "SU02-G03-UPDATE-A-STABLE",
+      "group": "SU02-G03",
+      "stage": "UPDATE",
+      "role": "A",
+      "arm": "STABLE",
+      "repetition": null,
+      "parents": [],
+      "source_group": "SC03-G03",
+      "position": 3
+    },
+    {
+      "id": "SU02-G01-UPDATE-A-CHANGE",
+      "group": "SU02-G01",
+      "stage": "UPDATE",
+      "role": "A",
+      "arm": "CHANGE",
+      "repetition": null,
+      "parents": [],
+      "source_group": "SC03-G01",
+      "position": 4
+    },
+    {
+      "id": "SU02-G04-UPDATE-B-CHANGE",
+      "group": "SU02-G04",
+      "stage": "UPDATE",
+      "role": "B",
+      "arm": "CHANGE",
+      "repetition": null,
+      "parents": [],
+      "source_group": "SC03-G04",
+      "position": 5
+    },
+    {
+      "id": "SU02-G02-UPDATE-B-CHANGE",
+      "group": "SU02-G02",
+      "stage": "UPDATE",
+      "role": "B",
+      "arm": "CHANGE",
+      "repetition": null,
+      "parents": [],
+      "source_group": "SC03-G02",
+      "position": 6
+    },
+    {
+      "id": "SU02-G01-UPDATE-A-STABLE",
+      "group": "SU02-G01",
+      "stage": "UPDATE",
+      "role": "A",
+      "arm": "STABLE",
+      "repetition": null,
+      "parents": [],
+      "source_group": "SC03-G01",
+      "position": 7
+    },
+    {
+      "id": "SU02-G03-UPDATE-A-CHANGE",
+      "group": "SU02-G03",
+      "stage": "UPDATE",
+      "role": "A",
+      "arm": "CHANGE",
+      "repetition": null,
+      "parents": [],
+      "source_group": "SC03-G03",
+      "position": 8
+    },
+    {
+      "id": "SU02-G04-RECEIVE-A-STABLE",
+      "group": "SU02-G04",
+      "stage": "RECEIVE",
+      "role": "A",
+      "arm": "STABLE",
+      "repetition": null,
+      "parents": [
+        "SU02-G04-UPDATE-B-STABLE"
+      ],
+      "source_group": "SC03-G04",
+      "position": 9
+    },
+    {
+      "id": "SU02-G04-RECEIVE-A-CHANGE",
+      "group": "SU02-G04",
+      "stage": "RECEIVE",
+      "role": "A",
+      "arm": "CHANGE",
+      "repetition": null,
+      "parents": [
+        "SU02-G04-UPDATE-B-CHANGE"
+      ],
+      "source_group": "SC03-G04",
+      "position": 10
+    },
+    {
+      "id": "SU02-G03-RECEIVE-B-CHANGE",
+      "group": "SU02-G03",
+      "stage": "RECEIVE",
+      "role": "B",
+      "arm": "CHANGE",
+      "repetition": null,
+      "parents": [
+        "SU02-G03-UPDATE-A-CHANGE"
+      ],
+      "source_group": "SC03-G03",
+      "position": 11
+    },
+    {
+      "id": "SU02-G02-RECEIVE-A-STABLE",
+      "group": "SU02-G02",
+      "stage": "RECEIVE",
+      "role": "A",
+      "arm": "STABLE",
+      "repetition": null,
+      "parents": [
+        "SU02-G02-UPDATE-B-STABLE"
+      ],
+      "source_group": "SC03-G02",
+      "position": 12
+    },
+    {
+      "id": "SU02-G01-RECEIVE-B-STABLE",
+      "group": "SU02-G01",
+      "stage": "RECEIVE",
+      "role": "B",
+      "arm": "STABLE",
+      "repetition": null,
+      "parents": [
+        "SU02-G01-UPDATE-A-STABLE"
+      ],
+      "source_group": "SC03-G01",
+      "position": 13
+    },
+    {
+      "id": "SU02-G02-RECEIVE-A-CHANGE",
+      "group": "SU02-G02",
+      "stage": "RECEIVE",
+      "role": "A",
+      "arm": "CHANGE",
+      "repetition": null,
+      "parents": [
+        "SU02-G02-UPDATE-B-CHANGE"
+      ],
+      "source_group": "SC03-G02",
+      "position": 14
+    },
+    {
+      "id": "SU02-G03-RECEIVE-B-STABLE",
+      "group": "SU02-G03",
+      "stage": "RECEIVE",
+      "role": "B",
+      "arm": "STABLE",
+      "repetition": null,
+      "parents": [
+        "SU02-G03-UPDATE-A-STABLE"
+      ],
+      "source_group": "SC03-G03",
+      "position": 15
+    },
+    {
+      "id": "SU02-G01-RECEIVE-B-CHANGE",
+      "group": "SU02-G01",
+      "stage": "RECEIVE",
+      "role": "B",
+      "arm": "CHANGE",
+      "repetition": null,
+      "parents": [
+        "SU02-G01-UPDATE-A-CHANGE"
+      ],
+      "source_group": "SC03-G01",
+      "position": 16
+    },
+    {
+      "group": "SU02-G01",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "CHANGE",
+      "source_group": "SC03-G01",
+      "parents": [
+        "SU02-G01-UPDATE-A-CHANGE",
+        "SU02-G01-RECEIVE-B-CHANGE"
+      ],
+      "id": "SU02-G01-PROBE-A-CHANGE-R1",
+      "repetition": 1,
+      "position": 17
+    },
+    {
+      "group": "SU02-G01",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "STABLE",
+      "source_group": "SC03-G01",
+      "parents": [
+        "SU02-G01-UPDATE-A-STABLE",
+        "SU02-G01-RECEIVE-B-STABLE"
+      ],
+      "id": "SU02-G01-PROBE-A-STABLE-R1",
+      "repetition": 1,
+      "position": 18
+    },
+    {
+      "group": "SU02-G01",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "STABLE",
+      "source_group": "SC03-G01",
+      "parents": [
+        "SU02-G01-UPDATE-A-STABLE",
+        "SU02-G01-RECEIVE-B-STABLE"
+      ],
+      "id": "SU02-G01-PROBE-B-STABLE-R1",
+      "repetition": 1,
+      "position": 19
+    },
+    {
+      "group": "SU02-G01",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "CHANGE",
+      "source_group": "SC03-G01",
+      "parents": [
+        "SU02-G01-UPDATE-A-CHANGE",
+        "SU02-G01-RECEIVE-B-CHANGE"
+      ],
+      "id": "SU02-G01-PROBE-B-CHANGE-R1",
+      "repetition": 1,
+      "position": 20
+    },
+    {
+      "group": "SU02-G04",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "CHANGE",
+      "source_group": "SC03-G04",
+      "parents": [
+        "SU02-G04-UPDATE-B-CHANGE",
+        "SU02-G04-RECEIVE-A-CHANGE"
+      ],
+      "id": "SU02-G04-PROBE-A-CHANGE-R1",
+      "repetition": 1,
+      "position": 21
+    },
+    {
+      "group": "SU02-G04",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "STABLE",
+      "source_group": "SC03-G04",
+      "parents": [
+        "SU02-G04-UPDATE-B-STABLE",
+        "SU02-G04-RECEIVE-A-STABLE"
+      ],
+      "id": "SU02-G04-PROBE-A-STABLE-R1",
+      "repetition": 1,
+      "position": 22
+    },
+    {
+      "group": "SU02-G02",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "STABLE",
+      "source_group": "SC03-G02",
+      "parents": [
+        "SU02-G02-UPDATE-B-STABLE",
+        "SU02-G02-RECEIVE-A-STABLE"
+      ],
+      "id": "SU02-G02-PROBE-A-STABLE-R1",
+      "repetition": 1,
+      "position": 23
+    },
+    {
+      "group": "SU02-G02",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "CHANGE",
+      "source_group": "SC03-G02",
+      "parents": [
+        "SU02-G02-UPDATE-B-CHANGE",
+        "SU02-G02-RECEIVE-A-CHANGE"
+      ],
+      "id": "SU02-G02-PROBE-A-CHANGE-R1",
+      "repetition": 1,
+      "position": 24
+    },
+    {
+      "group": "SU02-G03",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "CHANGE",
+      "source_group": "SC03-G03",
+      "parents": [
+        "SU02-G03-UPDATE-A-CHANGE",
+        "SU02-G03-RECEIVE-B-CHANGE"
+      ],
+      "id": "SU02-G03-PROBE-A-CHANGE-R1",
+      "repetition": 1,
+      "position": 25
+    },
+    {
+      "group": "SU02-G03",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "STABLE",
+      "source_group": "SC03-G03",
+      "parents": [
+        "SU02-G03-UPDATE-A-STABLE",
+        "SU02-G03-RECEIVE-B-STABLE"
+      ],
+      "id": "SU02-G03-PROBE-A-STABLE-R1",
+      "repetition": 1,
+      "position": 26
+    },
+    {
+      "group": "SU02-G03",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "STABLE",
+      "source_group": "SC03-G03",
+      "parents": [
+        "SU02-G03-UPDATE-A-STABLE",
+        "SU02-G03-RECEIVE-B-STABLE"
+      ],
+      "id": "SU02-G03-PROBE-B-STABLE-R1",
+      "repetition": 1,
+      "position": 27
+    },
+    {
+      "group": "SU02-G03",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "CHANGE",
+      "source_group": "SC03-G03",
+      "parents": [
+        "SU02-G03-UPDATE-A-CHANGE",
+        "SU02-G03-RECEIVE-B-CHANGE"
+      ],
+      "id": "SU02-G03-PROBE-B-CHANGE-R1",
+      "repetition": 1,
+      "position": 28
+    },
+    {
+      "group": "SU02-G02",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "CHANGE",
+      "source_group": "SC03-G02",
+      "parents": [
+        "SU02-G02-UPDATE-B-CHANGE",
+        "SU02-G02-RECEIVE-A-CHANGE"
+      ],
+      "id": "SU02-G02-PROBE-B-CHANGE-R1",
+      "repetition": 1,
+      "position": 29
+    },
+    {
+      "group": "SU02-G02",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "STABLE",
+      "source_group": "SC03-G02",
+      "parents": [
+        "SU02-G02-UPDATE-B-STABLE",
+        "SU02-G02-RECEIVE-A-STABLE"
+      ],
+      "id": "SU02-G02-PROBE-B-STABLE-R1",
+      "repetition": 1,
+      "position": 30
+    },
+    {
+      "group": "SU02-G04",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "STABLE",
+      "source_group": "SC03-G04",
+      "parents": [
+        "SU02-G04-UPDATE-B-STABLE",
+        "SU02-G04-RECEIVE-A-STABLE"
+      ],
+      "id": "SU02-G04-PROBE-B-STABLE-R1",
+      "repetition": 1,
+      "position": 31
+    },
+    {
+      "group": "SU02-G04",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "CHANGE",
+      "source_group": "SC03-G04",
+      "parents": [
+        "SU02-G04-UPDATE-B-CHANGE",
+        "SU02-G04-RECEIVE-A-CHANGE"
+      ],
+      "id": "SU02-G04-PROBE-B-CHANGE-R1",
+      "repetition": 1,
+      "position": 32
+    },
+    {
+      "group": "SU02-G04",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "CHANGE",
+      "source_group": "SC03-G04",
+      "parents": [
+        "SU02-G04-UPDATE-B-CHANGE",
+        "SU02-G04-RECEIVE-A-CHANGE"
+      ],
+      "id": "SU02-G04-PROBE-B-CHANGE-R2",
+      "repetition": 2,
+      "position": 33
+    },
+    {
+      "group": "SU02-G04",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "STABLE",
+      "source_group": "SC03-G04",
+      "parents": [
+        "SU02-G04-UPDATE-B-STABLE",
+        "SU02-G04-RECEIVE-A-STABLE"
+      ],
+      "id": "SU02-G04-PROBE-B-STABLE-R2",
+      "repetition": 2,
+      "position": 34
+    },
+    {
+      "group": "SU02-G02",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "STABLE",
+      "source_group": "SC03-G02",
+      "parents": [
+        "SU02-G02-UPDATE-B-STABLE",
+        "SU02-G02-RECEIVE-A-STABLE"
+      ],
+      "id": "SU02-G02-PROBE-B-STABLE-R2",
+      "repetition": 2,
+      "position": 35
+    },
+    {
+      "group": "SU02-G02",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "CHANGE",
+      "source_group": "SC03-G02",
+      "parents": [
+        "SU02-G02-UPDATE-B-CHANGE",
+        "SU02-G02-RECEIVE-A-CHANGE"
+      ],
+      "id": "SU02-G02-PROBE-B-CHANGE-R2",
+      "repetition": 2,
+      "position": 36
+    },
+    {
+      "group": "SU02-G03",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "CHANGE",
+      "source_group": "SC03-G03",
+      "parents": [
+        "SU02-G03-UPDATE-A-CHANGE",
+        "SU02-G03-RECEIVE-B-CHANGE"
+      ],
+      "id": "SU02-G03-PROBE-B-CHANGE-R2",
+      "repetition": 2,
+      "position": 37
+    },
+    {
+      "group": "SU02-G03",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "STABLE",
+      "source_group": "SC03-G03",
+      "parents": [
+        "SU02-G03-UPDATE-A-STABLE",
+        "SU02-G03-RECEIVE-B-STABLE"
+      ],
+      "id": "SU02-G03-PROBE-B-STABLE-R2",
+      "repetition": 2,
+      "position": 38
+    },
+    {
+      "group": "SU02-G03",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "STABLE",
+      "source_group": "SC03-G03",
+      "parents": [
+        "SU02-G03-UPDATE-A-STABLE",
+        "SU02-G03-RECEIVE-B-STABLE"
+      ],
+      "id": "SU02-G03-PROBE-A-STABLE-R2",
+      "repetition": 2,
+      "position": 39
+    },
+    {
+      "group": "SU02-G03",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "CHANGE",
+      "source_group": "SC03-G03",
+      "parents": [
+        "SU02-G03-UPDATE-A-CHANGE",
+        "SU02-G03-RECEIVE-B-CHANGE"
+      ],
+      "id": "SU02-G03-PROBE-A-CHANGE-R2",
+      "repetition": 2,
+      "position": 40
+    },
+    {
+      "group": "SU02-G02",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "CHANGE",
+      "source_group": "SC03-G02",
+      "parents": [
+        "SU02-G02-UPDATE-B-CHANGE",
+        "SU02-G02-RECEIVE-A-CHANGE"
+      ],
+      "id": "SU02-G02-PROBE-A-CHANGE-R2",
+      "repetition": 2,
+      "position": 41
+    },
+    {
+      "group": "SU02-G02",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "STABLE",
+      "source_group": "SC03-G02",
+      "parents": [
+        "SU02-G02-UPDATE-B-STABLE",
+        "SU02-G02-RECEIVE-A-STABLE"
+      ],
+      "id": "SU02-G02-PROBE-A-STABLE-R2",
+      "repetition": 2,
+      "position": 42
+    },
+    {
+      "group": "SU02-G04",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "STABLE",
+      "source_group": "SC03-G04",
+      "parents": [
+        "SU02-G04-UPDATE-B-STABLE",
+        "SU02-G04-RECEIVE-A-STABLE"
+      ],
+      "id": "SU02-G04-PROBE-A-STABLE-R2",
+      "repetition": 2,
+      "position": 43
+    },
+    {
+      "group": "SU02-G04",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "CHANGE",
+      "source_group": "SC03-G04",
+      "parents": [
+        "SU02-G04-UPDATE-B-CHANGE",
+        "SU02-G04-RECEIVE-A-CHANGE"
+      ],
+      "id": "SU02-G04-PROBE-A-CHANGE-R2",
+      "repetition": 2,
+      "position": 44
+    },
+    {
+      "group": "SU02-G01",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "CHANGE",
+      "source_group": "SC03-G01",
+      "parents": [
+        "SU02-G01-UPDATE-A-CHANGE",
+        "SU02-G01-RECEIVE-B-CHANGE"
+      ],
+      "id": "SU02-G01-PROBE-B-CHANGE-R2",
+      "repetition": 2,
+      "position": 45
+    },
+    {
+      "group": "SU02-G01",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "STABLE",
+      "source_group": "SC03-G01",
+      "parents": [
+        "SU02-G01-UPDATE-A-STABLE",
+        "SU02-G01-RECEIVE-B-STABLE"
+      ],
+      "id": "SU02-G01-PROBE-B-STABLE-R2",
+      "repetition": 2,
+      "position": 46
+    },
+    {
+      "group": "SU02-G01",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "STABLE",
+      "source_group": "SC03-G01",
+      "parents": [
+        "SU02-G01-UPDATE-A-STABLE",
+        "SU02-G01-RECEIVE-B-STABLE"
+      ],
+      "id": "SU02-G01-PROBE-A-STABLE-R2",
+      "repetition": 2,
+      "position": 47
+    },
+    {
+      "group": "SU02-G01",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "CHANGE",
+      "source_group": "SC03-G01",
+      "parents": [
+        "SU02-G01-UPDATE-A-CHANGE",
+        "SU02-G01-RECEIVE-B-CHANGE"
+      ],
+      "id": "SU02-G01-PROBE-A-CHANGE-R2",
+      "repetition": 2,
+      "position": 48
+    }
+  ],
+  "materials": [
+    {
+      "group": "SU02-G01",
+      "scene": "地域工作会",
+      "item": "持帰り袋",
+      "notifier": "A",
+      "receiver": "B",
+      "writer": "A",
+      "editor": "B",
+      "initial_channel": "PAPER",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "DOG",
+            "origin_id": "QX"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "LT"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "CAT",
+            "origin_id": "JV"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "NR"
+          }
+        }
+      },
+      "notices": {
+        "CHANGE": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "NA"
+        },
+        "STABLE": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "NA"
+        }
+      },
+      "source_group": "SC03-G01"
+    },
+    {
+      "group": "SU02-G02",
+      "scene": "地域工作会",
+      "item": "持帰り袋",
+      "notifier": "B",
+      "receiver": "A",
+      "writer": "A",
+      "editor": "B",
+      "initial_channel": "DIGITAL",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "CAT",
+            "origin_id": "BK"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "SZ"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "DOG",
+            "origin_id": "WH"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "FU"
+          }
+        }
+      },
+      "notices": {
+        "CHANGE": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "NB"
+        },
+        "STABLE": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "NB"
+        }
+      },
+      "source_group": "SC03-G02"
+    },
+    {
+      "group": "SU02-G03",
+      "scene": "小さな展示会",
+      "item": "受付名札",
+      "notifier": "A",
+      "receiver": "B",
+      "writer": "B",
+      "editor": "A",
+      "initial_channel": "DIGITAL",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "CAT",
+            "origin_id": "GD"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "YC"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "DOG",
+            "origin_id": "PM"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "VE"
+          }
+        }
+      },
+      "notices": {
+        "CHANGE": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "NC"
+        },
+        "STABLE": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "NC"
+        }
+      },
+      "source_group": "SC03-G03"
+    },
+    {
+      "group": "SU02-G04",
+      "scene": "小さな展示会",
+      "item": "受付名札",
+      "notifier": "B",
+      "receiver": "A",
+      "writer": "B",
+      "editor": "A",
+      "initial_channel": "PAPER",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "DOG",
+            "origin_id": "HN"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "KJ"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "CAT",
+            "origin_id": "ZR"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "BW"
+          }
+        }
+      },
+      "notices": {
+        "CHANGE": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "ND"
+        },
+        "STABLE": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "ND"
+        }
+      },
+      "source_group": "SC03-G04"
+    }
+  ],
+  "contract": {
+    "protocol": "SHARED-UPDATE-02",
+    "seed": 2026091901,
+    "limits": {
+      "logical_requests": 48,
+      "physical_requests": 52,
+      "active_seconds": 2700,
+      "reserve_seconds": 200,
+      "input_bytes": 32768,
+      "output_bytes": 4096
+    },
+    "retention_expires_at": "2026-10-12T17:41:23+09:00",
+    "baseline": "All four sealed SC03 groups; conditional trial, no formation score.",
+    "stages": {
+      "UPDATE": 8,
+      "RECEIVE": 8,
+      "PROBE": 32
+    },
+    "codec_stages": [],
+    "strict_parser": "shared_update_design_v1.parse",
+    "semantic_repair": false,
+    "planned_primary_denominator": 4,
+    "primary": "C_PAIR = both branch paths (U AND R AND both final paired repetitions), averaged over four groups",
+    "prediction": {
+      "C_PAIR": 1,
+      "CHANGE_C": 1,
+      "STABLE_C": 1,
+      "final_I": 1,
+      "final_G": 1
+    },
+    "automatic_resume": false,
+    "model_requests": 0,
+    "authentication_requests": 0
+  },
+  "retention_expires_at": "2026-10-12T17:41:23+09:00"
+}

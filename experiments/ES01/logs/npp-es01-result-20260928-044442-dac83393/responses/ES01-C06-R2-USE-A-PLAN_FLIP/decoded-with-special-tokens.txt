@@ -1,0 +1,1 @@
+{"local":{"subject":"A","choice":"PAPER","evidence_refs":["E719F39C5D6","EAB5D8DF0D3"]},"team":{"allocation":{"A":"DIGITAL","B":"PAPER"},"basis":"SHARED_DECISION","evidence_refs":["G07B0EB06D1","GC869B384F3"]}}<|im_end|>

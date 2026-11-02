@@ -1,0 +1,52 @@
+{
+  "memory": {
+    "private_note": {
+      "customer": {
+        "subject": "B",
+        "animal": "DOG",
+        "origin_id": "RBDD90D2F367843A"
+      },
+      "coverage": {
+        "observer": "B",
+        "paper": "NOT_ALL",
+        "digital": "ALL",
+        "origin_id": "R9C00B8A1FCEA2CD",
+        "revision": 3
+      }
+    },
+    "shared_note": {
+      "coverage": {
+        "A": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "R2FCD300A34D98E5",
+          "revision": 4
+        },
+        "B": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "R9C00B8A1FCEA2CD",
+          "revision": 3
+        }
+      }
+    }
+  },
+  "read_receipt": {
+    "private_customer_refs": [
+      "RBDD90D2F367843A"
+    ],
+    "private_coverage_refs": [
+      "R9C00B8A1FCEA2CD"
+    ],
+    "shared_coverage_refs": {
+      "A": [
+        "R2FCD300A34D98E5"
+      ],
+      "B": [
+        "R9C00B8A1FCEA2CD"
+      ]
+    }
+  }
+}<|im_end|>

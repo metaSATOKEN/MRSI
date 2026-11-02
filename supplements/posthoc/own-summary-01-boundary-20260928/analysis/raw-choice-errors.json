@@ -1,0 +1,24 @@
+[
+  {
+    "id": "OS01-M12-REVERSE-F0-U0-USE-A",
+    "choice": "DIGITAL",
+    "saved_choice": "PAPER",
+    "expected_choice": "PAPER",
+    "projected_success_per_40": {
+      "PAPER": "24",
+      "DIGITAL": "22"
+    },
+    "agreement": true
+  },
+  {
+    "id": "OS01-M12-REVERSE-F1-U0-USE-A",
+    "choice": "DIGITAL",
+    "saved_choice": "PAPER",
+    "expected_choice": "PAPER",
+    "projected_success_per_40": {
+      "PAPER": "24",
+      "DIGITAL": "22"
+    },
+    "agreement": true
+  }
+]

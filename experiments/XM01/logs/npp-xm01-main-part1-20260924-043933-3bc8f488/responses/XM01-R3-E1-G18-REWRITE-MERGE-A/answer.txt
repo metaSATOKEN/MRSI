@@ -1,0 +1,52 @@
+{
+  "memory": {
+    "private_note": {
+      "customer": {
+        "subject": "A",
+        "animal": "CAT",
+        "origin_id": "R6DAD9B796238478"
+      },
+      "coverage": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "NOT_ALL",
+        "origin_id": "RCBD2A0D9E157043",
+        "revision": 3
+      }
+    },
+    "shared_note": {
+      "coverage": {
+        "A": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "RCBD2A0D9E157043",
+          "revision": 3
+        },
+        "B": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "R9C738FCE7FAE44A",
+          "revision": 4
+        }
+      }
+    }
+  },
+  "read_receipt": {
+    "private_customer_refs": [
+      "R6DAD9B796238478"
+    ],
+    "private_coverage_refs": [
+      "RCBD2A0D9E157043"
+    ],
+    "shared_coverage_refs": {
+      "A": [
+        "RCBD2A0D9E157043"
+      ],
+      "B": [
+        "R9C738FCE7FAE44A"
+      ]
+    }
+  }
+}

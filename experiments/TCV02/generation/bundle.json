@@ -1,0 +1,103 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "a9dbf73ba5ec3c89714ba2142bcda15ec3d0e49452b87ee54349e8bbe692c0a8",
+    "design.md": "d9108a1adfbd56420aada321c22c203d1e601d7af96a3909fb2943de526486ff",
+    "materials/contract.json": "3e93b09929684a6123747434278eda006a0f89edd413140d404e0547f94e3285",
+    "materials/frozen.json": "2468137fbb91d29c9a613503d59ffeaf7758d7cee5951c50bb638acd5406d28e",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/three_role_boundary_01_design.py": "7fb22ed2ba322261cc6ff406018287d628e0e1ff6400610f46c4d31c4bfa9a94",
+    "source/three_role_boundary_01_fixtures.py": "7fbadec8fb66c61154505f85c64a293fbc2f469dbe79f530d43c5ba89e343132",
+    "source/three_role_boundary_01_scoring.py": "5a6f6a5f6a177bd3f733a06e93dd953fb6ecc0cd9d111251d3262ca1912bd249",
+    "source/three_role_comparison_vote_01_design.py": "369cb159c97685d25a945f83c8b0ad80756d11f4ffa6045c8c50c33fc95a50e2",
+    "source/three_role_comparison_vote_02_bootstrap.py": "5789e7f7911b56b8e929ff26dc28f2287203925731915bcd9631431f1ac19607",
+    "source/three_role_comparison_vote_02_design.py": "3d865b1d210bd0e75e3ee454df7be50e1a8f75c5f0b7515d54530c8a7df3c4a9",
+    "source/three_role_comparison_vote_02_fixtures.py": "8f81378412e8f97e55424600f841c618a1cd5504880a355c9f0358e3c800dcab",
+    "source/three_role_comparison_vote_02_runtime.py": "8215847d8c7ad7dbc17feebe67609ed882dcda195674ecf30336d42f2a26eaee",
+    "source/three_role_comparison_vote_02_scoring.py": "7ebf3dad3cbb9d6c55e08aa5e60560eba431aa2efb2040b6dd9b5af3c96658ab",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "supervisor.py": "01bf3e6bbc389af8d33007420f5bb9c2b748184c7a2e7d3a96a34668cdb3be22"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "7054e97b5491725591938439e12856799d17921a398ab3804eddaff1aed1d002",
+  "original_payload_sha256": "93eef280b84e461b06ac9b81855333fc4a86c2ade9d9df27d589fa046eaab815",
+  "original_supervisor_sha256": "5789e7f7911b56b8e929ff26dc28f2287203925731915bcd9631431f1ac19607",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "three_role_boundary_01_design.py": {
+            "kind": "text",
+            "path": "source/three_role_boundary_01_design.py"
+          },
+          "three_role_boundary_01_fixtures.py": {
+            "kind": "text",
+            "path": "source/three_role_boundary_01_fixtures.py"
+          },
+          "three_role_boundary_01_scoring.py": {
+            "kind": "text",
+            "path": "source/three_role_boundary_01_scoring.py"
+          },
+          "three_role_comparison_vote_01_design.py": {
+            "kind": "text",
+            "path": "source/three_role_comparison_vote_01_design.py"
+          },
+          "three_role_comparison_vote_02_bootstrap.py": {
+            "kind": "text",
+            "path": "source/three_role_comparison_vote_02_bootstrap.py"
+          },
+          "three_role_comparison_vote_02_design.py": {
+            "kind": "text",
+            "path": "source/three_role_comparison_vote_02_design.py"
+          },
+          "three_role_comparison_vote_02_fixtures.py": {
+            "kind": "text",
+            "path": "source/three_role_comparison_vote_02_fixtures.py"
+          },
+          "three_role_comparison_vote_02_runtime.py": {
+            "kind": "text",
+            "path": "source/three_role_comparison_vote_02_runtime.py"
+          },
+          "three_role_comparison_vote_02_scoring.py": {
+            "kind": "text",
+            "path": "source/three_role_comparison_vote_02_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "TCV02"
+}

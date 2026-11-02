@@ -1,0 +1,6 @@
+{
+  "decision": {
+    "mascot": "DOG",
+    "channel": "UNKNOWN"
+  }
+}<|im_end|>

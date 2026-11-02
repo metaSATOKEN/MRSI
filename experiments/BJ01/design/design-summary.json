@@ -1,0 +1,65 @@
+{
+  "protocol": "BOUNDARY-JUDGE-01/v0.1",
+  "cases": 64,
+  "real": 32,
+  "synthetic": 32,
+  "model_calls": 0,
+  "real_stage_counts": {
+    "USE": 16,
+    "CONFIRM": 16
+  },
+  "real_role_counts": {
+    "A": 16,
+    "B": 16
+  },
+  "class_counts": {
+    "REAL": {
+      "output_contract": {
+        "OK": 24,
+        "VIOLATION": 8
+      },
+      "attribution": {
+        "OK": 31,
+        "VIOLATION": 1
+      },
+      "local_choice": {
+        "OK": 31,
+        "VIOLATION": 1
+      },
+      "joint_action": {
+        "OK": 29,
+        "VIOLATION": 3
+      }
+    },
+    "SYNTHETIC": {
+      "output_contract": {
+        "OK": 24,
+        "VIOLATION": 8
+      },
+      "attribution": {
+        "OK": 24,
+        "VIOLATION": 8
+      },
+      "local_choice": {
+        "VIOLATION": 4,
+        "OK": 28
+      },
+      "joint_action": {
+        "OK": 28,
+        "VIOLATION": 4
+      }
+    }
+  },
+  "all_ok_controls": {
+    "REAL": 21,
+    "SYNTHETIC": 8
+  },
+  "synthetic_bases": [
+    "OS01-M06-REVERSE-F1-U1-USE-A",
+    "OS01-M08-REINFORCE-F1-U1-USE-A",
+    "OS01-M02-REVERSE-F1-U1-USE-B",
+    "OS01-M16-REINFORCE-F1-U1-USE-B"
+  ],
+  "max_request_utf8_bytes": 13062,
+  "source_zip_sha256": "26b40a51c11b2f72f6569483dba2b4240436d991e16b5c9046e41671b5606b4d"
+}

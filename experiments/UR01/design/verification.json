@@ -1,0 +1,26 @@
+{
+  "kind": "OFFLINE_DESIGN_FREEZE_NO_MODEL_RESULTS",
+  "files_sha256": {
+    "design.json": "c896e08550dcdc0f2b338437456044957858f7d9d92746e34330844692ddb8aa",
+    "update-requests.json": "2f19596f163b2e50c3f27258c285bfad907053ecc5fd0a4d610bb9559cc37792",
+    "update_readout_01_design.py": "d8e5173bd83b47f1eead14fb35bd7d970702e4f2d1d49f31c221eff252d87e7f",
+    "readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "saved_readout_01_scoring.py": "771585161c56963b938bb13ef36decafdaa9711125adfc1f3abc5eef4a73525a",
+    "prompt-rewrite.txt": "c4c23885a94c335b8ef6077d4b2ebb4949cd0f51810b628143e9634c87cf71b9",
+    "prompt-select.txt": "12bffc031c1c833d5a54ec949f6988f6d9fc3a10a81894128cd2706c30694a8b",
+    "prompt-read.txt": "2b772077e095b51b1ea1e5caa0ba26bdd24efd1276b450e27358f80820090b7b",
+    "README.md": "8fb2c518e562423891fd9289cbd256b582108ba113178933dd3b23dbedb60e48"
+  },
+  "materials": 18,
+  "planned_update_requests": 72,
+  "planned_conditional_read_requests": 72,
+  "model_generations": 0,
+  "tests_passed": 25,
+  "tests_log": "../../../throughline/audits/update-readout-01-design-20260925/tests.log",
+  "synthetic_fixture": "../../../throughline/audits/update-readout-01-design-20260925/synthetic-144.json",
+  "first_attempt_failures": 0,
+  "source_files": 54,
+  "read_prompt_unchanged": true,
+  "old_anchors_unchanged": 48,
+  "prepared_production_cell": false
+}

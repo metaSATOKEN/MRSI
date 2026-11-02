@@ -1,0 +1,51 @@
+{
+  "scene": "小さな展示会",
+  "item": "受付名札",
+  "holder": "A",
+  "observations": [
+    {
+      "id": "OBS_A",
+      "author": "A",
+      "content": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "ALL",
+        "source_id": "KJ"
+      }
+    },
+    {
+      "id": "OBS_B",
+      "author": "B",
+      "content": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "NOT_ALL",
+        "source_id": "BW"
+      }
+    }
+  ],
+  "draft": {
+    "author": "B",
+    "content": {
+      "coverage": {
+        "A": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "source_id": "KJ"
+        },
+        "B": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "source_id": "BW"
+        }
+      },
+      "channel": "PAPER",
+      "channel_sources": [
+        "OBS_A",
+        "OBS_B"
+      ]
+    }
+  }
+}

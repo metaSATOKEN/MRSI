@@ -1,0 +1,35 @@
+{
+  "private_note": {
+    "coverage": {
+      "observer": "B",
+      "paper": "ALL",
+      "digital": "ALL",
+      "origin_id": "V26CEB10E02FF9A19",
+      "revision": 353
+    },
+    "customer": {
+      "subject": "B",
+      "animal": "DOG",
+      "origin_id": "KC75013CE401A81D4",
+      "revision": 13
+    }
+  },
+  "shared_note": {
+    "coverage": {
+      "A": {
+        "observer": "A",
+        "paper": "NOT_ALL",
+        "digital": "ALL",
+        "origin_id": "VBB0B903F8D451299",
+        "revision": 303
+      },
+      "B": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "V26CEB10E02FF9A19",
+        "revision": 353
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "automatic_regenerations": 0,
+  "checkpoint_every": 24,
+  "cloud_drive": "not_used",
+  "delivery": "zip_download",
+  "design_sha256": "9144fbb4a2d69a716de9720fb7a54ed8371cb1446abd1ba253b5f6238f3ae960",
+  "eos_policy": "Remove one final im_end only, retaining raw token IDs; no text repair.",
+  "max_generations": 104,
+  "protocol": "SAVED-READOUT-01-RUN-v0.1",
+  "requests_sha256": "64ed807d780cc700a606f9c3d07c7faa97d6a2b3198ca943617e33c02efe901c",
+  "resume_generation": false,
+  "retention": "private_no_deletion_deadline",
+  "seconds_including_setup": 5400,
+  "source_hashes": {
+    "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "saved_readout_01_bootstrap.py": "c1be5ff5c08b4f6b262977b716e537eea521a0f046f5e8b8df6442f2fbaea45c",
+    "saved_readout_01_runtime.py": "56f88e44b5bc081203f831c68ebb6d2e42885063c85d343c9539427de6c928f9",
+    "saved_readout_01_scoring.py": "771585161c56963b938bb13ef36decafdaa9711125adfc1f3abc5eef4a73525a"
+  }
+}

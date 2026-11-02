@@ -1,0 +1,132 @@
+{
+  "analysis_timing": "Post-result descriptive audit; formal report unchanged.",
+  "agreement_and_execution_only_triplets": {
+    "planned": 18,
+    "correct": 18,
+    "incorrect": 0,
+    "unresolved": 0
+  },
+  "legacy_key_note": "agreement_execution_all_states includes approval_state, agreement, and execution; its 17/18 is not agreement/execution alone.",
+  "focal_state_confusion": {
+    "MISSING": {
+      "MISSING": 17,
+      "HOLD": 1
+    },
+    "HOLD": {
+      "HOLD": 18
+    },
+    "ACCEPT": {
+      "ACCEPT": 18
+    }
+  },
+  "all_own_joint_divergent_readouts": {
+    "planned": 18,
+    "correct": 17,
+    "incorrect": 1,
+    "unresolved": 0
+  },
+  "by_role": {
+    "A": {
+      "planned": 18,
+      "correct": 17,
+      "incorrect": 1,
+      "unresolved": 0
+    },
+    "B": {
+      "planned": 18,
+      "correct": 18,
+      "incorrect": 0,
+      "unresolved": 0
+    },
+    "C": {
+      "planned": 18,
+      "correct": 18,
+      "incorrect": 0,
+      "unresolved": 0
+    }
+  },
+  "by_case": {
+    "N01": {
+      "planned": 18,
+      "correct": 17,
+      "incorrect": 1,
+      "unresolved": 0
+    },
+    "N02": {
+      "planned": 18,
+      "correct": 18,
+      "incorrect": 0,
+      "unresolved": 0
+    },
+    "N03": {
+      "planned": 18,
+      "correct": 18,
+      "incorrect": 0,
+      "unresolved": 0
+    }
+  },
+  "by_repeat": {
+    "1": {
+      "planned": 27,
+      "correct": 26,
+      "incorrect": 1,
+      "unresolved": 0
+    },
+    "2": {
+      "planned": 27,
+      "correct": 27,
+      "incorrect": 0,
+      "unresolved": 0
+    }
+  },
+  "repeat_input_count": 27,
+  "repeat_inputs_with_mixed_correctness": 1,
+  "changed_answers": 1,
+  "costs": {
+    "MISSING": {
+      "responses": 18,
+      "output_tokens": 2021,
+      "generation_seconds": 111.04500832700012
+    },
+    "HOLD": {
+      "responses": 18,
+      "output_tokens": 2134,
+      "generation_seconds": 117.76140859499992
+    },
+    "ACCEPT": {
+      "responses": 18,
+      "output_tokens": 2182,
+      "generation_seconds": 119.45981661400026
+    }
+  },
+  "elapsed_seconds": 557.811954607,
+  "environment": {
+    "capability": [
+      12,
+      0
+    ],
+    "cuda": "13.0",
+    "cudnn": 92700,
+    "driver": "580.82.07",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "packages": {
+      "accelerate": "1.15.0",
+      "causal-conv1d": null,
+      "fla-core": null,
+      "flash-linear-attention": null,
+      "huggingface-hub": "1.33.0",
+      "kernels": null,
+      "numpy": "2.1.3",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.23.2",
+      "torch": "2.11.0+cu130",
+      "transformers": "5.17.0",
+      "triton": "3.6.0"
+    },
+    "python": "3.13.15",
+    "total_vram": 101974081536
+  },
+  "failure_ids": [
+    "TAR01-N01-A-R1-MISSING"
+  ]
+}

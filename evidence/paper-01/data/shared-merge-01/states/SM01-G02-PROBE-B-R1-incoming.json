@@ -1,0 +1,45 @@
+{
+  "scene": "地域工作会",
+  "item": "持帰り袋",
+  "holder": "B",
+  "records": [
+    {
+      "record_id": "PRIVATE",
+      "body": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "WH"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2B",
+          "revision": 2
+        }
+      }
+    },
+    {
+      "record_id": "GROUP",
+      "body": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "SM2A",
+            "revision": 2
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "SM2B",
+            "revision": 2
+          }
+        }
+      }
+    }
+  ]
+}

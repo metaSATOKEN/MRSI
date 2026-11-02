@@ -1,0 +1,1425 @@
+{
+  "status": "COMPLETED_PRIMARY_UNBLINDED_REVIEW",
+  "preregistered_response_count": 167,
+  "additional_response_count": 6,
+  "total_raw_responses_read": 173,
+  "nonpassing_count": 15,
+  "all_diagnostic_responses": 24,
+  "normal_pairs": [
+    "N04-LOWER",
+    "N04-OPTIMAL",
+    "N07-OPTIMAL",
+    "N07-LOWER",
+    "N01-LOWER",
+    "N02-DUPLICATE"
+  ],
+  "discordant_pairs": [
+    "N06-LOWER",
+    "N06-DUPLICATE",
+    "N06-OPTIMAL",
+    "N03-DUPLICATE",
+    "N03-LOWER",
+    "N03-OPTIMAL",
+    "N08-LOWER",
+    "N08-DUPLICATE",
+    "N08-OPTIMAL"
+  ],
+  "supplement_reason": "共同不備N02の両条件における後続再確認と利用を追加点検",
+  "scoring_disagreements": 0,
+  "score_changes": 0,
+  "new_model_calls": 0,
+  "machine_pending_preserved": true,
+  "reviews": [
+    {
+      "id": "ST01-EARLY-N07-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N07-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N07-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N07-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "本人経験の全回合計とlocal.choiceが不一致。全本人経験の参照IDは一致し、形成時点の本人判断不備として採点を維持。"
+    },
+    {
+      "id": "ST01-EARLY-N08-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N05-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N05-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N01-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N01-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N01-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N01-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "本人経験の全回合計とlocal.choiceが不一致。全本人経験の参照IDは一致し、形成時点の本人判断不備として採点を維持。"
+    },
+    {
+      "id": "ST01-EARLY-N06-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N02-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N02-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N02-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N02-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N03-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-FORM-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N03-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "本人経験の全回合計とlocal.choiceが不一致。全本人経験の参照IDは一致し、形成時点の本人判断不備として採点を維持。"
+    },
+    {
+      "id": "ST01-EARLY-N03-FORM-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N07-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N07-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N07-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N07-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N07-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N07-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N07-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N07-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N07-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N07-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N07-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N07-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N07-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N07-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同応答と参照は契約に適合するが、本人localにFORMからの誤選択が残る。本人判断を含むVは不成立のまま維持。"
+    },
+    {
+      "id": "ST01-LATE-N06-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-DUPLICATE-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-DUPLICATE-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-DUPLICATE-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-DUPLICATE-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同応答と参照は契約に適合するが、本人localにFORMからの誤選択が残る。本人判断を含むVは不成立のまま維持。"
+    },
+    {
+      "id": "ST01-LATE-N06-DUPLICATE-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-DUPLICATE-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N06-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N06-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N02-DUPLICATE-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N02-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N02-DUPLICATE-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N02-DUPLICATE-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N02-DUPLICATE-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N02-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N02-DUPLICATE-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N02-DUPLICATE-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N02-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同最適39人案への確認で37人のCOUNTERを返した。localは適切。全資料・候補表・参照を点検し、共同応答不備を維持。"
+    },
+    {
+      "id": "ST01-EARLY-N02-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同最適39人案への確認で37人のCOUNTERを返した。localは適切。全資料・候補表・参照を点検し、共同応答不備を維持。"
+    },
+    {
+      "id": "ST01-LATE-N03-DUPLICATE-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同応答と参照は契約に適合するが、本人localにFORMからの誤選択が残る。本人判断を含むVは不成立のまま維持。"
+    },
+    {
+      "id": "ST01-LATE-N03-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N03-DUPLICATE-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N03-DUPLICATE-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-DUPLICATE-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-DUPLICATE-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-DUPLICATE-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N03-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同応答と参照は契約に適合するが、本人localにFORMからの誤選択が残る。本人判断を含むVは不成立のまま維持。"
+    },
+    {
+      "id": "ST01-LATE-N03-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N03-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N03-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N03-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "本人は紙22対デジタル23に反して紙を保持し、共同42人案へ40人対案を返した。本人と共同の両方の不備を維持。"
+    },
+    {
+      "id": "ST01-LATE-N03-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N03-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N03-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N03-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N01-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N01-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N01-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N01-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N01-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N01-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N01-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N01-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同応答と参照は契約に適合するが、本人localにFORMからの誤選択が残る。本人判断を含むVは不成立のまま維持。"
+    },
+    {
+      "id": "ST01-LATE-N08-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-LOWER-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-LOWER-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-LOWER-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-DUPLICATE-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同応答と参照は契約に適合するが、本人localにFORMからの誤選択が残る。本人判断を含むVは不成立のまま維持。"
+    },
+    {
+      "id": "ST01-LATE-N08-DUPLICATE-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-DUPLICATE-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-DUPLICATE-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-DUPLICATE-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-DUPLICATE-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-OPTIMAL-CONFIRM",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N08-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N01-DIAG-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N01-DIAG-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N01-DIAG-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N01-DIAG-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N01-DIAG-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N01-DIAG-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-DIAG-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-DIAG-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-DIAG-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-DIAG-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N04-DIAG-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N04-DIAG-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-DIAG-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同応答と参照は契約に適合するが、本人localにFORMからの誤選択が残る。本人判断を含むVは不成立のまま維持。"
+    },
+    {
+      "id": "ST01-EARLY-N08-DIAG-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-DIAG-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同応答と参照は契約に適合するが、本人localにFORMからの誤選択が残る。本人判断を含むVは不成立のまま維持。"
+    },
+    {
+      "id": "ST01-EARLY-N08-DIAG-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N08-DIAG-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "共同応答と参照は契約に適合するが、本人localにFORMからの誤選択が残る。本人判断を含むVは不成立のまま維持。"
+    },
+    {
+      "id": "ST01-EARLY-N08-DIAG-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N05-DIAG-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N05-DIAG-LOWER-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N05-DIAG-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N05-DIAG-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N05-DIAG-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N05-DIAG-DUPLICATE-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N02-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N02-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-LATE-N02-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N02-OPTIMAL-RECHECK",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N02-OPTIMAL-USE-B",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    },
+    {
+      "id": "ST01-EARLY-N02-OPTIMAL-USE-A",
+      "reviewer": "primary_assistant",
+      "blind": false,
+      "status": "READ_AND_CHECKED",
+      "score_change": false,
+      "note": "原JSONの本人選択・本人参照と、該当する共同応答/利用・記録参照を材料・親記録に照らして読解。固定成分採点に訂正を要する相違なし。"
+    }
+  ],
+  "findings": [
+    "LATEのFORMはN03/B・N06/B・N08/Bで不適切、EARLYは全16適切。三つのFORMを各三経路に共用してI差9/24が生じた。",
+    "LATEの直近誤localを受け取るUSE9回答は全て適切へ回復。EARLYは全48で正しいlocalを維持。",
+    "N02最適開始の両条件で39人案へ37人の対案。BがHOLD、後続二人も共同UNRESOLVEDを保つ。",
+    "N03最適開始はLATEで40人への誤対案後HOLD、EARLYは42人案をACCEPT。",
+    "人工診断の共同応答は両条件12/12。D差3はN08/Bの本人localの差。旧CR01のN01誤承認は今回LATEでも出ていない。"
+  ]
+}

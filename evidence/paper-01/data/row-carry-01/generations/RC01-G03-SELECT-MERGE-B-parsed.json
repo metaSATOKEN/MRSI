@@ -1,0 +1,176 @@
+{
+  "score": {
+    "strict": true,
+    "content": true,
+    "parts": {
+      "private_note.customer": {
+        "strict": true,
+        "content": true
+      },
+      "private_note.coverage": {
+        "strict": true,
+        "content": true
+      },
+      "shared_note.coverage.A": {
+        "strict": true,
+        "content": true
+      },
+      "shared_note.coverage.B": {
+        "strict": true,
+        "content": true
+      }
+    },
+    "gate": "PASS",
+    "shape_errors": [],
+    "ref_errors": []
+  },
+  "gate": "PASS",
+  "value": {
+    "memory": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "PM"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G3B",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "record_id": "PARTNER_GROUP",
+            "observer": "A"
+          },
+          "B": {
+            "record_id": "LOCAL_GROUP",
+            "observer": "B"
+          }
+        }
+      }
+    },
+    "read_receipt": {
+      "private_customer_refs": [
+        "PRIVATE"
+      ],
+      "private_coverage_refs": [
+        "PRIVATE"
+      ],
+      "shared_coverage_refs": {
+        "A": [
+          "PARTNER_GROUP"
+        ],
+        "B": [
+          "LOCAL_GROUP"
+        ]
+      }
+    }
+  },
+  "normalized": {
+    "memory": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "PM"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G3B",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "SM2G3A",
+            "revision": 3
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "SM2G3B",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "read_receipt": {
+      "private_customer_refs": [
+        "PRIVATE"
+      ],
+      "private_coverage_refs": [
+        "PRIVATE"
+      ],
+      "shared_coverage_refs": {
+        "A": [
+          "PARTNER_GROUP"
+        ],
+        "B": [
+          "LOCAL_GROUP"
+        ]
+      }
+    }
+  },
+  "bindings": [
+    {
+      "destination": "A",
+      "selected": {
+        "record_id": "PARTNER_GROUP",
+        "observer": "A"
+      },
+      "body_sha256": "5250e4bb34545213e736546ac33c352c817750325bf78f9cf26a86306b7a7ba3"
+    },
+    {
+      "destination": "B",
+      "selected": {
+        "record_id": "LOCAL_GROUP",
+        "observer": "B"
+      },
+      "body_sha256": "280ebfe40bb63a4c875c81796c0f531bfab3fd4884c22387d17e67d8a6eff682"
+    }
+  ],
+  "selection_errors": [],
+  "selection_shape_errors": [],
+  "status": "VALID",
+  "continuable": true,
+  "valid_components": {
+    "private_customer": {
+      "subject": "B",
+      "animal": "DOG",
+      "origin_id": "PM"
+    },
+    "private_coverage": {
+      "observer": "B",
+      "paper": "ALL",
+      "digital": "ALL",
+      "origin_id": "SM2G3B",
+      "revision": 3
+    },
+    "shared_A": {
+      "observer": "A",
+      "paper": "NOT_ALL",
+      "digital": "ALL",
+      "origin_id": "SM2G3A",
+      "revision": 3
+    },
+    "shared_B": {
+      "observer": "B",
+      "paper": "ALL",
+      "digital": "ALL",
+      "origin_id": "SM2G3B",
+      "revision": 3
+    }
+  }
+}

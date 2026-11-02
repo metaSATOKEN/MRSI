@@ -1,0 +1,13 @@
+NPP: Memory, Approval, and Collaboration in Two- and Three-Role LLM Systems
+Copyright 2026 Kentaro Sato
+
+Independent Researcher
+Contact: info@metaclan.jp
+
+This repository contains research manuscripts, figures, synthetic task
+materials, experiment records, and code for NPP research on memory,
+approval, and collaboration in multi-role LLM systems.
+
+Referenced publications, model names, and software dependencies are
+identified in the manuscripts and experiment records. Third-party works,
+software, and model weights retain their own licenses and notices.

@@ -1,0 +1,6146 @@
+[
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G51",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G51-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G51",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G51-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G51",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G51-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G51",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G51-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G51-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G51",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G51-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G51-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G51",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G51-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G51-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G51",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G51-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G51-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G51",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G51-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G38",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G38-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G38",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G38-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G38",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G38-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G38",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G38-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G38-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G38",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G38-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G38-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G38",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G38-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G38-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G38",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G38-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G38-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G38",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G38-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G20",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G20-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G20",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G20-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G20",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G20-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G20",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G20-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G20-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G20",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G20-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G20-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G20",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G20-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G20-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G20",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G20-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G20-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G20",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G20-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G64",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G64-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G64",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G64-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G64",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G64-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G64",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G64-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G64-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G64",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G64-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G64-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G64",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G64-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G64-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G64",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G64-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G64-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G64",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G64-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G12",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G12-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G12",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G12-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G12",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G12-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G12",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G12-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G12-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G12",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G12-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G12-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G12",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G12-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G12-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G12",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G12-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G12-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G12",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G12-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G37",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G37-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G37",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G37-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G37",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G37-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G37",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G37-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G37-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G37",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G37-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G37-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G37",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G37-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G37-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G37",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G37-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G37-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G37",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G37-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G58",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G58-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G58",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G58-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G58",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G58-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G58",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G58-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G58-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G58",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G58-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G58-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G58",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G58-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G58-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G58",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G58-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G58-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G58",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G58-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G08",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G08-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G08",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G08-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G08",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G08-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G08",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G08-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G08-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G08",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G08-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G08-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G08",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G08-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G08-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G08",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G08-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G08-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G08",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G08-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G11",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G11-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G11",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G11-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G11",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G11-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G11",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G11-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G11-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G11",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G11-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G11-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G11",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G11-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G11-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G11",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G11-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G11-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G11",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G11-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G05",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G05-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G05",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G05-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G05",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G05-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G05",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G05-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G05-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G05",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G05-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G05-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G05",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G05-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G05-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G05",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G05-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G05-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G05",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G05-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G52",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G52-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G52",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G52-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G52",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G52-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G52",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G52-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G52-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G52",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G52-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G52-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G52",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G52-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G52-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G52",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G52-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G52-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G52",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G52-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G25",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G25-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G25",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G25-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G25",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G25-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G25",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G25-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G25-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G25",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G25-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G25-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G25",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G25-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G25-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G25",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G25-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G25-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G25",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G25-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G47",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G47-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G47",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G47-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G47",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G47-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G47",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G47-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G47-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G47",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G47-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G47-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G47",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G47-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G47-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G47",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G47-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G47-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G47",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G47-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G24",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G24-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G24",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G24-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G24",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G24-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G24",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G24-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G24-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G24",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G24-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G24-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G24",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G24-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G24-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G24",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G24-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G24-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G24",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G24-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G10",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G10-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G10",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G10-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G10",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G10-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G10",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G10-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G10-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G10",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G10-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G10-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G10",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G10-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G10-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G10",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G10-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G10-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G10",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G10-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G50",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G50-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G50",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G50-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G50",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G50-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G50",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G50-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G50-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G50",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G50-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G50-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G50",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G50-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G50-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G50",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G50-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G50-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G50",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G50-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 1
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G22",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G22-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G22",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G22-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G22",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G22-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G22",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G22-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G22-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G22",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G22-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G22-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G22",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G22-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G22-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G22",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G22-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G22-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G22",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G22-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G26",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G26-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G26",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G26-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G26",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G26-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G26",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G26-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G26-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G26",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G26-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G26-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G26",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G26-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G26-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G26",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G26-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G26-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G26",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G26-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G14",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G14-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G14",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G14-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G14",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G14-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G14",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G14-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G14-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G14",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G14-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G14-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G14",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G14-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G14-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G14",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G14-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G14-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G14",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G14-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G28",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G28-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G28",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G28-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G28",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G28-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G28",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G28-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G28-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G28",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G28-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G28-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G28",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G28-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G28-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G28",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G28-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G28-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G28",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G28-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G34",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G34-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G34",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G34-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G34",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G34-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G34",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G34-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G34-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G34",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G34-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G34-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G34",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G34-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G34-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G34",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G34-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G34-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G34",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G34-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G36",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G36-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G36",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G36-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G36",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G36-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G36",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G36-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G36-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G36",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G36-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G36-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G36",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G36-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G36-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G36",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G36-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G36-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G36",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G36-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G13",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G13-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G13",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G13-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G13",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G13-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G13",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G13-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G13-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G13",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G13-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G13-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G13",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G13-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G13-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G13",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G13-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G13-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G13",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G13-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G46",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G46-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G46",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G46-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G46",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G46-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G46",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G46-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G46-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G46",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G46-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G46-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G46",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G46-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G46-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G46",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G46-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G46-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G46",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G46-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G45",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G45-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G45",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G45-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G45",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G45-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G45",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G45-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G45-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G45",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G45-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G45-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G45",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G45-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G45-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G45",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G45-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G45-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G45",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G45-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G31",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G31-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G31",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G31-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G31",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G31-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G31",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G31-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G31-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G31",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G31-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G31-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G31",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G31-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G31-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G31",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G31-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G31-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G31",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G31-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G18",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G18-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G18",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G18-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G18",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G18-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G18",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G18-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G18-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G18",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G18-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G18-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G18",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G18-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G18-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G18",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G18-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G18-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G18",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G18-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G56",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G56-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G56",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G56-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G56",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G56-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G56",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G56-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G56-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G56",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G56-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G56-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G56",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G56-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G56-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G56",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G56-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G56-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G56",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G56-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G42",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G42-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G42",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G42-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G42",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G42-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G42",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G42-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G42-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G42",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G42-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G42-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G42",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G42-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G42-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G42",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G42-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G42-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G42",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G42-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G01",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G01-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G01",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G01-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G01",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G01-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G01",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G01-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G01-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G01",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G01-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G01-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G01",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G01-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G01-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G01",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G01-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G01-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G01",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G01-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G60",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G60-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G60",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G60-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G60",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G60-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G60",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G60-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G60-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G60",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G60-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G60-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G60",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G60-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G60-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G60",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G60-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G60-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G60",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G60-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G03",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G03-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G03",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G03-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G03",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G03-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G03",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G03-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G03-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G03",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G03-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G03-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G03",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G03-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G03-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G03",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G03-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G03-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G03",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G03-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 2
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G54",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G54-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G54",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G54-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G54",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G54-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G54",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G54-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G54-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G54",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G54-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G54-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G54",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G54-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G54-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G54",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G54-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G54-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G54",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G54-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G53",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G53-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G53",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G53-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G53",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G53-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G53",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G53-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G53-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G53",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G53-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G53-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G53",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G53-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G53-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G53",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G53-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G53-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G53",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G53-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G62",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G62-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G62",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G62-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G62",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G62-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G62",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G62-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G62-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G62",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G62-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G62-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G62",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G62-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G62-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G62",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G62-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G62-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G62",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G62-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G04",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G04-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G04",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G04-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G04",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G04-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G04",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G04-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G04-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G04",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G04-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G04-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G04",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G04-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G04-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G04",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G04-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G04-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G04",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G04-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G55",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G55-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G55",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G55-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G55",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G55-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G55",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G55-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G55-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G55",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G55-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G55-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G55",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G55-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G55-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G55",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G55-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G55-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G55",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G55-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G61",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G61-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G61",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G61-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G61",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G61-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G61",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G61-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G61-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G61",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G61-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G61-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G61",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G61-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G61-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G61",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G61-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G61-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G61",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G61-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G49",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G49-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G49",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G49-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G49",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G49-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G49",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G49-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G49-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G49",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G49-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G49-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G49",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G49-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G49-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G49",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G49-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G49-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G49",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G49-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G39",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G39-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G39",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G39-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G39",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G39-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G39",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G39-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G39-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G39",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G39-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G39-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G39",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G39-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G39-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G39",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G39-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G39-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G39",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G39-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G30",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G30-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G30",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G30-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G30",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G30-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G30",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G30-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G30-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G30",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G30-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G30-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G30",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G30-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G30-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G30",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G30-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G30-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G30",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G30-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G23",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G23-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G23",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G23-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G23",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G23-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G23",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G23-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G23-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G23",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G23-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G23-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G23",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G23-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G23-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G23",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G23-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G23-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G23",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G23-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G15",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G15-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G15",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G15-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G15",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G15-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G15",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G15-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G15-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G15",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G15-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G15-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G15",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G15-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G15-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G15",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G15-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G15-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G15",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G15-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G43",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G43-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G43",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G43-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G43",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G43-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G43",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G43-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G43-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G43",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G43-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G43-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G43",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G43-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G43-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G43",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G43-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G43-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G43",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G43-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G02",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G02-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G02",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G02-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G02",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G02-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G02",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G02-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G02-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G02",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G02-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G02-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G02",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G02-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G02-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G02",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G02-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G02-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G02",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G02-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G33",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G33-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G33",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G33-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G33",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G33-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G33",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G33-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G33-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G33",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G33-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G33-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G33",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G33-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G33-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G33",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G33-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G33-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G33",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G33-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G29",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G29-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G29",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G29-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G29",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G29-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G29",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G29-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G29-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G29",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G29-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G29-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G29",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G29-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G29-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G29",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G29-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G29-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G29",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G29-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G44",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G44-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G44",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G44-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G44",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G44-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G44",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G44-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G44-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G44",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G44-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G44-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G44",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G44-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G44-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G44",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G44-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G44-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G44",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G44-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 3
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G59",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G59-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G59",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G59-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G59",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G59-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G59",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G59-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G59-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G59",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G59-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G59-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G59",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G59-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G59-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G59",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G59-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G59-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G59",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G59-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G16",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G16-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G16",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G16-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G16",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G16-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G16",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G16-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G16-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G16",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G16-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G16-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G16",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G16-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G16-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G16",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G16-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G16-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G16",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G16-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G48",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G48-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G48",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G48-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G48",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G48-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G48",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G48-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G48-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G48",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G48-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G48-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G48",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G48-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G48-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G48",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G48-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G48-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G48",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G48-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G07",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G07-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G07",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G07-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G07",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G07-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G07",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G07-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G07-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G07",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G07-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G07-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G07",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G07-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G07-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G07",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G07-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G07-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G07",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G07-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G27",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G27-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G27",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G27-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G27",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G27-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G27",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G27-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G27-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G27",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G27-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G27-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G27",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G27-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G27-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G27",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G27-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G27-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G27",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G27-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G09",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G09-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G09",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G09-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G09",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G09-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G09",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G09-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G09-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G09",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G09-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G09-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G09",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G09-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G09-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G09",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G09-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G09-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G09",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G09-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G32",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G32-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G32",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G32-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G32",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G32-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G32",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G32-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G32-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G32",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G32-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G32-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G32",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G32-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G32-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G32",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G32-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G32-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G32",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G32-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G35",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G35-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G35",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G35-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G35",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G35-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G35",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G35-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G35-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G35",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G35-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G35-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G35",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G35-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G35-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G35",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G35-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G35-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G35",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G35-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G41",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G41-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G41",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G41-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G41",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G41-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G41",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G41-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G41-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G41",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G41-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G41-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G41",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G41-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G41-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G41",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G41-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G41-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G41",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G41-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G06",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G06-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G06",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G06-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G06",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G06-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G06",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G06-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G06-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G06",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G06-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G06-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G06",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G06-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G06-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G06",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G06-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G06-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G06",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G06-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G40",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G40-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G40",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G40-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G40",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G40-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G40",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G40-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G40-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G40",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G40-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G40-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G40",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G40-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G40-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G40",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G40-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G40-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G40",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G40-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G17",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G17-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G17",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G17-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G17",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G17-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G17",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G17-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G17-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G17",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G17-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G17-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G17",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G17-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G17-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G17",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G17-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G17-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G17",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G17-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G19",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G19-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G19",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G19-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G19",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G19-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G19",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G19-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G19-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G19",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G19-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G19-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G19",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G19-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G19-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G19",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G19-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G19-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G19",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G19-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G57",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G57-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G57",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G57-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G57",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G57-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G57",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G57-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G57-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G57",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G57-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G57-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G57",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G57-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G57-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G57",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G57-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G57-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G57",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G57-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G63",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G63-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G63",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G63-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G63",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G63-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G63",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G63-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G63-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G63",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G63-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G63-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G63",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G63-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G63-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G63",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G63-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G63-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G63",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G63-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G21",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G21-SELECT-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G21",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G21-SELECT-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G21",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G21-REWRITE-MERGE-B",
+    "role": "B",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [],
+    "experiment": "E1",
+    "group": "E1-G21",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G21-REWRITE-MERGE-A",
+    "role": "A",
+    "stage": "MERGE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G21-REWRITE-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G21",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G21-REWRITE-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "REWRITE",
+    "dependencies": [
+      "E1-G21-REWRITE-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G21",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G21-REWRITE-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G21-SELECT-MERGE-B"
+    ],
+    "experiment": "E1",
+    "group": "E1-G21",
+    "group_order": "LOCAL_FIRST",
+    "id": "E1-G21-SELECT-PROBE-B",
+    "role": "B",
+    "stage": "PROBE",
+    "window": 4
+  },
+  {
+    "condition": "SELECT",
+    "dependencies": [
+      "E1-G21-SELECT-MERGE-A"
+    ],
+    "experiment": "E1",
+    "group": "E1-G21",
+    "group_order": "PARTNER_FIRST",
+    "id": "E1-G21-SELECT-PROBE-A",
+    "role": "A",
+    "stage": "PROBE",
+    "window": 4
+  }
+]

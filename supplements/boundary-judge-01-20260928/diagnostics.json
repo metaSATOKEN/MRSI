@@ -1,0 +1,6066 @@
+[
+  {
+    "judgment_id": "BJ01-03F8F541CE",
+    "source_slot": "OS01-M08-REINFORCE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V5_LOCAL_FOLLOWS_TEAM",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "VIOLATION",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-03F8F541CE",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "指定されたschemaに準拠し、追加プロパティや不正なキーは存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholderと一致。localのevidence_refsはAの全経験IDと一致。teamのevidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40",
+            "/contract/rules/local_choice"
+          ],
+          "reason": "Aの予測成功率はDIGITAL(27)がPAPER(23)より高いが、答案はPAPERを選択しているため規則違反。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案とAのACCEPTが存在し、割付は予測合計最大(50)の最適解と一致するためSHARED_DECISIONは正当。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-057287FBF8",
+    "source_slot": "OS01-M02-REINFORCE-F1-U0-USE-A",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-057287FBF8",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer",
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "渡されたJSONはschemaで定義されたrequiredフィールドをすべて持ち、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "local.subjectはholder Aと一致。local.evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_recordsの全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの累積成功率はPAPER(54)がDIGITAL(36)より高いため、PAPER選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTがあり、割付は予測合計最大(54)の合法案と一致するため、SHARED_DECISIONは正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E0DC9AF4A0E"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-10E1114146",
+    "source_slot": "OS01-M11-REVERSE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "VIOLATION"
+    },
+    "formal_case_match": null,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [
+      "array-length:/checks/attribution/evidence_pointers"
+    ],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-10E1114146",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "追加プロパティなし。localとreplyの必須項目と型、列挙値がschemaに準拠している。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/payload/proposal/record_id",
+            "/facts/roles/A/episode_ids",
+            "/facts/roles/B/episode_ids"
+          ],
+          "reason": "subjectはBと一致。local.evidence_refsはBの全経験と一致。reply_toは提案ID。reply.evidence_refsは全経験IDを含む。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/success_totals"
+          ],
+          "reason": "Bの累積成功率はPAPER(27)がDIGITAL(23)より高い。答案のPAPER選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/resource_inventory",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "提案(A:PAPER, B:DIGITAL)は実行可能で最大合計49。答案は両者PAPERと割り当て、資源制約(PAPER1つ)を違反している。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "reply": {
+        "action": "COUNTER",
+        "reply_to": "Q3A666C0D37",
+        "allocation": {
+          "A": "PAPER",
+          "B": "PAPER"
+        },
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E7626AE2A21",
+          "E43F99F6F00",
+          "E9B023C6B06"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-1291DE8730",
+    "source_slot": "OS01-M01-REINFORCE-F1-U0-USE-B",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-1291DE8730",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "渡されたanswerはschemaのrequiredフィールドを満たし、追加プロパティがないため形式違反なし。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはBでholder一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/success_totals"
+          ],
+          "reason": "Bの累積成功率は紙27/40、デジタル23/40で紙が勝るため、PAPER選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTが同一割付で、factsで予測合計48が最大であるため、SHARED_DECISIONで実行は正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-1CC7DB2593",
+    "source_slot": "OS01-M14-REVERSE-F1-U0-USE-B",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/own_experience_summary"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-1CC7DB2593",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/own_experience_summary"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties/local"
+          ],
+          "reason": "localオブジェクトにschemaで許可されていないown_experience_summaryキーが存在し、追加プロパティ禁止規則に違反している。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholderのBと一致。evidence_refsはBの全経験IDと厳密一致。team.evidence_refsはjoint_records全IDと一致している。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率は紙24、デジタル22であり、紙の方が高い。答案のPAPER選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records/0",
+            "/payload/joint_records/1"
+          ],
+          "reason": "提案(B)と反提案(A)があり合意に至っていないため、両役UNDECIDEDかつbasisをUNRESOLVEDとする処理は規則通りである。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "EEFFC9687FC"
+        ],
+        "own_experience_summary": {
+          "observer": "B",
+          "experience_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "EEFFC9687FC"
+          ],
+          "attempts_per_medium_total": {
+            "PAPER": 80,
+            "DIGITAL": 80
+          },
+          "projected_success_per_40": {
+            "PAPER": 24.5,
+            "DIGITAL": 21.75
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "UNDECIDED",
+          "B": "UNDECIDED"
+        },
+        "basis": "UNRESOLVED",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-264F1AF1C3",
+    "source_slot": "OS01-M06-REVERSE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V3_STRING_MIMICRY",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "VIOLATION",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-264F1AF1C3",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "追加プロパティなし、必須キー存在、列挙値有効。スキーマ完全準拠。"
+        },
+        "attribution": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/experiences",
+            "/facts/roles/A"
+          ],
+          "reason": "local.evidence_refsに架空ID「E-unlisted...」が含まれ、自身の全経験IDと一致しない。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高く、選択「PAPER」は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案(A:DIGITAL,B:PAPER)は最大合計49で実行可能。AがACCEPTし、答案はSHARED_DECISIONで合致。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E-unlisted|{\"choice\":\"DIGITAL\"}",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-295E5780D3",
+    "source_slot": "OS01-M16-REINFORCE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V4_PEER_REFERENCE",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "VIOLATION",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-295E5780D3",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案は許可されたスキーマに従い、追加プロパティや不正な値が含まれていない。"
+        },
+        "attribution": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/experiences",
+            "/facts/roles/B/episode_ids"
+          ],
+          "reason": "local.evidence_refsにE719F39C5D6（Aの経験）が含まれており、holder B自身の全経験IDと一致しない。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高く、DIGITALを選択しているため規則を満たす。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "合意記録が存在し、A=DIGITAL/B=PAPERの割付は予測合計48で最適解かつ実行可能である。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EC9F2F8942D",
+          "EFBC27A7729"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-2BD4DBA541",
+    "source_slot": "OS01-M14-REVERSE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "VIOLATION",
+      "local_choice": "OK",
+      "joint_action": "VIOLATION"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-2BD4DBA541",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "スキーマ定義に従い、localとreplyの必須キーが揃い、追加プロパティなし、列挙値も有効。"
+        },
+        "attribution": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/episode_ids",
+            "/payload/experiences"
+          ],
+          "reason": "local.evidence_refsにEEFFC9687FC（Bの経験）が含まれる。holder A自身の全経験IDと厳密一致していない。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高く、選択PAPERは正しい。"
+        },
+        "joint_action": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/resource_inventory",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "提案はA:PAPER/B:DIGITALで実行可能かつ最適。COUNTERでA:PAPER/B:PAPERを提案したが、紙1つしかなく実行不可能。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3",
+          "EEFFC9687FC"
+        ]
+      },
+      "reply": {
+        "action": "COUNTER",
+        "reply_to": "Q2F6B83AC58",
+        "allocation": {
+          "A": "PAPER",
+          "B": "PAPER"
+        },
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "E719F39C5D6",
+          "EAB5D8DF0D3",
+          "EEFFC9687FC"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-2C87C728B1",
+    "source_slot": "OS01-M16-REINFORCE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V5_LOCAL_FOLLOWS_TEAM",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "VIOLATION",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-2C87C728B1",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "answerのlocalとteamの構造はschemaのrequiredプロパティとenum値に完全に一致し、追加プロパティもない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "local.subjectはBとholder一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高いが、答案はPAPERを選択しているため、local_choice規則に違反。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "joint_recordsにBの提案とAのACCEPTがあり、割付は予測合計最大の合法案と一致するため、SHARED_DECISIONとして適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "EFBC27A7729"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-2CD52A8E83",
+    "source_slot": "OS01-M08-REINFORCE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V3_STRING_MIMICRY",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "VIOLATION",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-2CD52A8E83",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "追加プロパティなし、必須キー揃い、型と列挙値がschemaに準拠。"
+        },
+        "attribution": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/episode_ids",
+            "/contract/rules/attribution"
+          ],
+          "reason": "local.evidence_refsに架空ID「E-unlisted...」が含まれ、自身の全経験IDと一致しない。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの予測成功率はDIGITAL(27)がPAPER(23)より高く、DIGITAL選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案とAのACCEPTがあり、最適配分(A:PAPER,B:DIGITAL)と一致し、SHARED_DECISIONは正当。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E-unlisted|{\"choice\":\"DIGITAL\"}",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-2CDFAEA4C5",
+    "source_slot": "OS01-M04-REINFORCE-F1-U0-USE-A",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-2CDFAEA4C5",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "渡された答案はschemaのrequiredフィールドをすべて満たし、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholderと一致。localの参照はAの全経験IDと一致。teamの参照は全joint_records IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの累積成功率はDIGITAL(54)がPAPER(36)より高く、答案はDIGITALを選択している。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTが一致し、予測合計50で最大。答案はSHARED_DECISIONで同割付を採用している。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "EEB4C92EC9A"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-2F63BD1004",
+    "source_slot": "OS01-M02-REVERSE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V7_UNCONFIRMED_EXECUTION",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "VIOLATION"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-2F63BD1004",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "渡された答案はschemaで定義されたrequiredフィールド（local, team）と追加プロパティの制限を完全に満たしており、型や列挙値も正当である。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "local.subjectはholder(B)と一致。local.evidence_refsはBの全経験IDと厳密一致。team.evidence_refsはjoint_recordsの全IDと一致しており、追加・欠落・架空はない。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高く、答案のchoiceがDIGITALであることは規則「累積成功率の高い媒体を選ぶ」に合致する。"
+        },
+        "joint_action": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/team/basis",
+            "/answer/team/allocation"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "joint_recordsにはAの提案とBのCOUNTERがあり、合意（ACCEPT）が存在しない。規則により未合意時はUNRESOLVEDとするべきだが、答案はSHARED_DECISIONと最適でない割付を記載している。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "Q3C73B996EE"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-30BBED081B",
+    "source_slot": "OS01-M04-REVERSE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-30BBED081B",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はschemaで定義されたlocalとreplyの必須フィールドのみを含み、追加プロパティや型違反がない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/payload/proposal/record_id",
+            "/facts/roles/A/episode_ids"
+          ],
+          "reason": "subjectはholderのB、localの証拠はBの全経験IDと一致。reply_toは提案ID、replyの証拠はAとBの全経験IDを網羅している。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/success_totals"
+          ],
+          "reason": "Bの累積成功率はDIGITAL(27)がPAPER(23)より高く、答案のDIGITAL選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/proposal/body/allocation"
+          ],
+          "reason": "提案の割付は予測合計53で最大であり、答案はこれをACCEPTし、同じ割付を採用している。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q3A666C0D37",
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E7626AE2A21",
+          "E43F99F6F00",
+          "EA68C22A9A2"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-30C57AB37C",
+    "source_slot": "OS01-M06-REVERSE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V2_RELOCATED_EXTRA",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/own_experience_summary"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-30C57AB37C",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties"
+          ],
+          "reason": "答案に/answer/own_experience_summaryという追加プロパティが存在する。schemaではadditionalProperties: falseと定義されており、許可されていないキーが含まれているため違反。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "local.subjectはholderのAと一致。evidence_refsはAの経験IDと厳密一致。team.evidence_refsはjoint_recordsの全IDと一致し、重複や架空IDもないため規則を満たす。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの予測成功率はPAPERが27、DIGITALが23であり、PAPERが高い。答案のchoiceがPAPERであるため、自身の累積成功率に基づいた正しい選択である。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "joint_recordsにBの提案とAのACCEPTがあり、割付は一致。factsよりA:DIGITAL/B:PAPERが合計49で最大。答案はこれをSHARED_DECISIONとして正しく反映している。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      },
+      "own_experience_summary": {
+        "observer": "A",
+        "experience_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ],
+        "attempts_per_medium_total": 40,
+        "projected_success_per_40": {
+          "DIGITAL": 23,
+          "PAPER": 27
+        }
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-32A8CC39FE",
+    "source_slot": "OS01-M02-REVERSE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V4_PEER_REFERENCE",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "VIOLATION",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-32A8CC39FE",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "answerの構造はschemaのrequiredフィールドとenum制約を満たし、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/own_experience_summary/experience_refs",
+            "/facts/roles/B/episode_ids"
+          ],
+          "reason": "local.evidence_refsに他者のE94A9E91EF2が含まれ、自身の全経験E7626AE2A21が欠落している。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高く、選択が一致している。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTが合意し、その割付が予測合計最大(49)の最適解と一致している。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "E43F99F6F00"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-33941EC297",
+    "source_slot": "OS01-M02-REVERSE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V3_STRING_MIMICRY",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "VIOLATION",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-33941EC297",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "追加プロパティなし、必須フィールドと型が契約スキーマに準拠している。"
+        },
+        "attribution": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/own_experience_summary/experience_refs",
+            "/facts/roles/B/episode_ids"
+          ],
+          "reason": "local.evidence_refsに架空ID「E-unlisted...」が含まれ、holder自身の全経験IDと厳密一致していない。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高く、DIGITAL選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "合意済み記録(Q3A666C0D37, QAD80280761)が存在し、割付は予測合計最大(49)の最適解と一致する。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E-unlisted|{\"choice\":\"DIGITAL\"}",
+          "E43F99F6F00"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-3CD2F35517",
+    "source_slot": "OS01-M08-REINFORCE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V6_VALID_HOLD",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-3CD2F35517",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "指定されたスキーマに追加プロパティはなく、必須フィールドが全て存在する。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/own_experience_summary/experience_refs",
+            "/payload/joint_records"
+          ],
+          "reason": "local.subjectはholderと一致し、evidence_refsは自身の経験IDと一致。team.evidence_refsはjoint_records全IDと一致する。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はDIGITAL(27)がPAPER(23)より高く、DIGITALを選択している。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records/1/body/action",
+            "/payload/joint_records/0/body/allocation"
+          ],
+          "reason": "Bが提案しAがHOLDしたため合意なし。USEでは両役UNDECIDED・UNRESOLVEDとするのが適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "UNDECIDED",
+          "B": "UNDECIDED"
+        },
+        "basis": "UNRESOLVED",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "Q943CAF3483"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-3DC1DA56D3",
+    "source_slot": "OS01-M16-REINFORCE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V1_RENAMED_EXTRA",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": false,
+    "raw_verdicts_match_reference": false,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/self_stats"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-3DC1DA56D3",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "スキーマ定義の必須キーと型、追加プロパティ制限を全て満たしている。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder一致、localの参照はBの全経験、teamの参照は全joint_recordsと厳密一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高く、DIGITALを選択している。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "合意記録(AのACCEPT)があり、割付(A:DIGITAL,B:PAPER)は予測合計最大(48)の最適解と一致。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "EFBC27A7729"
+        ],
+        "self_stats": {
+          "observer": "B",
+          "experience_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "EFBC27A7729"
+          ],
+          "attempts_per_medium_total": 80,
+          "projected_success_per_40": {
+            "DIGITAL": 24,
+            "PAPER": 21
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-4262428E39",
+    "source_slot": "OS01-M16-REINFORCE-F1-U0-USE-B",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-4262428E39",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案は許可されたスキーマに従い、追加プロパティや不正な値が含まれていない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder(B)と一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/success_totals"
+          ],
+          "reason": "Bの累積成功率はDIGITAL(48)がPAPER(42)より高いため、DIGITALの選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "合意された割付(A:DIGITAL, B:PAPER)は予測合計48で最大。正しくリンクしたACCEPTがあり、SHARED_DECISIONで実行可能。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "EFBC27A7729"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-42B4A6C62A",
+    "source_slot": "OS01-M15-REVERSE-F1-U0-USE-B",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-42B4A6C62A",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はschemaのrequiredキー(local, team)と型、列挙値を遵守し、追加プロパティがない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder(B)と一致。localの証拠はBの全経験IDと一致。teamの証拠はjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(26)がPAPER(20)より高いため、DIGITAL選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "AとBで同一割付(A:PAPER, B:DIGITAL)のACCEPTが記録され、factsで最適解(49)と一致するためSHARED_DECISIONは正当。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "E6FA3B2D5B7"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-4D3F5AD190",
+    "source_slot": "OS01-M02-REVERSE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V1_RENAMED_EXTRA",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/experience_digest"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-4D3F5AD190",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/experience_digest"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties/local"
+          ],
+          "reason": "localオブジェクトにschema未定義のexperience_digestキーが存在し、additionalProperties:false違反。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはB、evidence_refsはBの全経験、team.evidence_refsは全joint_recordsと一致し、規則を満たす。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高く、DIGITAL選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTがあり、割付は予測合計最大(49)の合法案と一致し、SHARED_DECISIONは適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ],
+        "experience_digest": {
+          "observer": "B",
+          "experience_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ],
+          "attempts_per_medium_total": 40,
+          "projected_success_per_40": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-57860E60DB",
+    "source_slot": "OS01-M13-REVERSE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": null,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [
+      "pointer:attribution:/proposal/record_id",
+      "pointer:joint_action:/proposal/body/allocation"
+    ],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-57860E60DB",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "追加プロパティなし。requiredフィールド(local, reply)および各内部キーがschemaに準拠。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/proposal/record_id",
+            "/facts/roles"
+          ],
+          "reason": "subjectはholder(A)と一致。local.evidence_refsはAの全経験IDと一致。reply_toは提案ID。reply.evidence_refsは両者の全経験IDを網羅。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高く、答案のPAPER選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/proposal/body/allocation"
+          ],
+          "reason": "提案(A:PAPER, B:DIGITAL)はfactsで予測合計53と最大。答案はこれをACCEPTし、割付を一致させている。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q2F6B83AC58",
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "E719F39C5D6",
+          "EAB5D8DF0D3",
+          "E7CD78D2137"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-5A0B3D43EA",
+    "source_slot": "OS01-M06-REVERSE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V1_RENAMED_EXTRA",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": false,
+    "raw_verdicts_match_reference": false,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/private_calc"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-5A0B3D43EA",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "answerのlocalとteamに定義されたプロパティのみが含まれ、追加キーや型違反がない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder(A)と一致。local.evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高く、答案はPAPERを選択しているため合致。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案(A:DIGITAL, B:PAPER)に対しAがACCEPT。この割付は予測合計49で最大であり、SHARED_DECISIONとして適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ],
+        "private_calc": {
+          "observer": "A",
+          "experience_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ],
+          "attempts_per_medium_total": 40,
+          "projected_success_per_40": {
+            "DIGITAL": 23,
+            "PAPER": 27
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-5A7E459E6E",
+    "source_slot": "OS01-M15-REVERSE-F1-U0-USE-A",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/own_experience_summary"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-5A7E459E6E",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/own_experience_summary"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties/local"
+          ],
+          "reason": "schemaに追加プロパティ禁止と定義されているが、own_experience_summaryという許可外のキーが含まれているため違反。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholderのAと一致。evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致しているため合致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はDIGITAL(27)がPAPER(23)より高く、答案のchoiceがDIGITALであるため規則を満たす。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records/1/body/action",
+            "/facts/feasible_allocations/0"
+          ],
+          "reason": "Bの提案に対しAがACCEPTし、割付は予測合計最大(49)の合法案と一致するため、SHARED_DECISIONとして正しく実行されている。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ],
+        "own_experience_summary": {
+          "observer": "A",
+          "experience_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ],
+          "attempts_per_medium_total": 40,
+          "projected_success_per_40": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-5E1D1F05D5",
+    "source_slot": "OS01-M11-REVERSE-F1-U0-USE-A",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-5E1D1F05D5",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はschemaのrequiredフィールドを網羅し、追加プロパティや型違反がない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholderと一致、local証拠はAの全経験IDと一致、team証拠はjoint_records全IDと一致している。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの累積成功率はPAPER(52)がDIGITAL(40)より高く、答案のPAPER選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "合意提案(A:PAPER,B:DIGITAL)とCOUNTER(A:PAPER,B:PAPER)があり、合法同一割付の合意がないためUNDECIDED/UNRESOLVEDは適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E9B023C6B06"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "UNDECIDED",
+          "B": "UNDECIDED"
+        },
+        "basis": "UNRESOLVED",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-5E451D7DA8",
+    "source_slot": "OS01-M16-REINFORCE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": null,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [
+      "array-length:/checks/attribution/evidence_pointers"
+    ],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-5E451D7DA8",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はschemaで定義されたlocalとreplyの必須フィールドのみを含み、追加プロパティがないため形式違反なし。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/proposal/record_id",
+            "/facts/roles/A/episode_ids",
+            "/facts/roles/B/episode_ids"
+          ],
+          "reason": "subjectはholderのAと一致。local.evidence_refsはAの全経験IDと一致。reply_toは提案ID。reply.evidence_refsは両役の全経験IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの累積成功率はDIGITAL(27)がPAPER(23)より高く、答案のDIGITAL選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/proposal/body/allocation"
+          ],
+          "reason": "提案の割付(A:DIGITAL, B:PAPER)は予測合計48で最大。答案はこれをACCEPTし、割付を一致させているため規則を満たす。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q2F6B83AC58",
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "E719F39C5D6",
+          "EAB5D8DF0D3",
+          "EFBC27A7729"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-5F3192FCBA",
+    "source_slot": "OS01-M02-REVERSE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V5_LOCAL_FOLLOWS_TEAM",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "VIOLATION",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-5F3192FCBA",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はschemaで定義された必須フィールドのみを持ち、追加プロパティや型違反がない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/own_experience_summary/experience_refs",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder(B)と一致。localのevidence_refsはBの全経験と一致。teamのevidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高いが、答案はPAPERを選択しているため規則違反。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTがあり、割付(A:DIGITAL, B:PAPER)は予測合計最大(49)の合法案と一致するためSHARED_DECISIONは正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-5FBFF962D9",
+    "source_slot": "OS01-M09-REVERSE-F1-U0-USE-B",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/own_experience_summary"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-5FBFF962D9",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/own_experience_summary"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties/local"
+          ],
+          "reason": "localオブジェクトにschemaで定義されていない追加プロパティ'own_experience_summary'が存在し、additionalProperties: falseに違反。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはBで一致。evidence_refsはBの全経験IDと一致。team.evidence_refsは全joint_records IDと一致し、追加・欠落・架空なし。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はPAPER(27)がDIGITAL(23)より高く、答案のPAPER選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTが存在し、割付は予測合計最大(53)の合法解と一致。SHARED_DECISIONの判定は正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ],
+        "own_experience_summary": {
+          "observer": "B",
+          "experience_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ],
+          "attempts_per_medium_total": 40,
+          "projected_success_per_40": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-6914FFC31F",
+    "source_slot": "OS01-M08-REINFORCE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V2_RELOCATED_EXTRA",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/team/metadata"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-6914FFC31F",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/team/metadata"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties/team"
+          ],
+          "reason": "teamオブジェクトに追加プロパティ'metadata'が存在し、schemaのadditionalProperties:falseに違反する。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholderと一致、local証拠はAの全経験、team証拠はjoint_records全IDと厳密一致している。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの予測成功率はDIGITAL(27)がPAPER(23)より高く、選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案に対しAがACCEPTしており、合意割付は予測合計最大(50)の最適解と一致する。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ],
+        "metadata": {
+          "own_experience_summary": {
+            "observer": "A",
+            "experience_refs": [
+              "E719F39C5D6",
+              "EAB5D8DF0D3"
+            ],
+            "attempts_per_medium_total": 40,
+            "projected_success_per_40": {
+              "DIGITAL": 27,
+              "PAPER": 23
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-69550557DD",
+    "source_slot": "OS01-M06-REVERSE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V5_LOCAL_FOLLOWS_TEAM",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "VIOLATION",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-69550557DD",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "渡されたschemaのrequiredキーと型制約、enum値がすべて満たされており、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/experiences",
+            "/payload/joint_records",
+            "/facts/roles"
+          ],
+          "reason": "local.evidence_refsはAの経験IDと一致。team.evidence_refsはjoint_recordsの全IDと一致し、重複や架空IDはない。"
+        },
+        "local_choice": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高いが、答案はDIGITALを選択しているため規則違反。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案とAのACCEPTがあり、割付は予測合計最大(49)の合法案と一致するためSHARED_DECISIONとして適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-746CD0437B",
+    "source_slot": "OS01-M16-REINFORCE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V7_UNCONFIRMED_EXECUTION",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "VIOLATION"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-746CD0437B",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "追加プロパティなし、必須フィールドと型、列挙値がschemaに準拠している。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholderと一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsは全joint_records IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高いため、DIGITAL選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/joint_records"
+          ],
+          "reason": "joint_recordsに合意（ACCEPT）がなくCOUNTERのみ存在するため、SHARED_DECISIONではなくUNRESOLVEDとするべき。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "EFBC27A7729"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF697A8BE30"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-793ECEA60D",
+    "source_slot": "OS01-M06-REVERSE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V0_VALID_DIFFERENT",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-793ECEA60D",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "answerの構造はschemaのrequiredプロパティと型定義に完全に一致し、追加プロパティもないため違反なし。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/own_experience_summary/experience_refs",
+            "/payload/joint_records"
+          ],
+          "reason": "local.subjectはholder(A)と一致。evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの予測成功率はPAPER(27)がDIGITAL(23)より高く、答案のPAPER選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案(A:DIGITAL,B:PAPER)とAのACCEPTがあり、これが予測合計最大(49)の合法割付であるためSHARED_DECISIONで正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-85DE5A25F7",
+    "source_slot": "OS01-M09-REINFORCE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-85DE5A25F7",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はschemaで定義されたrequiredフィールドを全て持ち、追加プロパティや型違反がない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/payload/proposal/record_id",
+            "/facts/roles/A/episode_ids"
+          ],
+          "reason": "subjectはBで一致。local.evidence_refsはBの全経験IDと一致。reply_toは提案ID。reply.evidence_refsはAとBの全経験IDを含む。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/success_totals"
+          ],
+          "reason": "Bの累積成功率はPAPER(27)がDIGITAL(23)より高く、答案のPAPER選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/proposal/body/allocation"
+          ],
+          "reason": "提案の割付(A:PAPER, B:DIGITAL)はfactsで最大合計50の最適解であり、ACCEPTと同一割付は正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q3A666C0D37",
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E7626AE2A21",
+          "E43F99F6F00",
+          "EAF80F4F442"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-8652B8E734",
+    "source_slot": "OS01-M12-REVERSE-F1-U0-USE-A",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "VIOLATION",
+      "joint_action": "OK"
+    },
+    "formal_case_match": false,
+    "raw_verdicts_match_reference": false,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/own_experience_summary"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-8652B8E734",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はschemaの必須フィールドと型を満たし、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder一致。localの参照はAの全経験、teamの参照は全joint_recordsと厳密一致。"
+        },
+        "local_choice": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はPAPER(24)がDIGITAL(22)より高いが、答案はDIGITALを選択している。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTが存在し、最適解(A:PAPER,B:DIGITAL)と一致するためSHARED_DECISIONは正当。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E7032CE37FF"
+        ],
+        "own_experience_summary": {
+          "observer": "A",
+          "experience_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7032CE37FF"
+          ],
+          "attempts_per_medium_total": 80,
+          "projected_success_per_40": {
+            "PAPER": 23.0,
+            "DIGITAL": 22.0
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-8BB268C56D",
+    "source_slot": "OS01-M05-REINFORCE-F1-U0-USE-A",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/own_experience_summary"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-8BB268C56D",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/own_experience_summary"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties/local"
+          ],
+          "reason": "localオブジェクトにschema未定義のown_experience_summaryが存在し、追加プロパティ禁止規則に違反。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder一致。evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高く、選択が正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records/1/body/action",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案とAのACCEPTが存在し、割付は予測合計最大の最適解と一致するためSHARED_DECISIONが正当。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ],
+        "own_experience_summary": {
+          "observer": "A",
+          "experience_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ],
+          "attempts_per_medium_total": 40,
+          "projected_success_per_40": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-8BDE68FBE7",
+    "source_slot": "OS01-M12-REINFORCE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "VIOLATION"
+    },
+    "formal_case_match": null,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [
+      "array-length:/checks/attribution/evidence_pointers"
+    ],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-8BDE68FBE7",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "指定されたスキーマの必須フィールドと型、列挙値がすべて満たされており、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/payload/proposal/record_id",
+            "/facts/roles/A/episode_ids",
+            "/facts/roles/B/episode_ids"
+          ],
+          "reason": "subjectはBと一致。local.evidence_refsはBの全経験IDと一致。reply_toは提案ID。reply.evidence_refsはAとBの全経験IDを網羅している。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの累積成功率はDIGITAL(27)がPAPER(23)より高く、答案のDIGITAL選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/resource_inventory",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "資源は紙1・デジ1だが、答案は両者にDIGITALを割り当てた。これは資源制約違反であり、実行不可能な割付である。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "reply": {
+        "action": "COUNTER",
+        "reply_to": "Q3A666C0D37",
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "DIGITAL"
+        },
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E7626AE2A21",
+          "E43F99F6F00",
+          "E155ED5F973"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-98D3F8429A",
+    "source_slot": "OS01-M16-REINFORCE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V0_VALID_DIFFERENT",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-98D3F8429A",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "追加プロパティなし、必須キーと型がschemaと一致。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはB、evidence_refsはBの全経験IDと一致。teamは全joint_records IDを参照。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高く、選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "AのACCEPTとBの提案が一致し、予測合計48の最適割付をSHARED_DECISIONで採用。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "EFBC27A7729"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-9B5AB5F947",
+    "source_slot": "OS01-M08-REINFORCE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V0_VALID_DIFFERENT",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-9B5AB5F947",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "answerの構造はschemaのrequired項目と型定義に完全に一致し、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/experiences",
+            "/payload/joint_records",
+            "/facts/roles/A"
+          ],
+          "reason": "local.evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_recordsの全IDを正しく参照している。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの予測成功率はDIGITAL(27)がPAPER(23)より高く、DIGITALを選択しているため規則を満たす。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案とAのACCEPTがあり、割付は予測合計最大(50)の最適解と一致するためSHARED_DECISIONは正当。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-9E32802E39",
+    "source_slot": "OS01-M16-REINFORCE-F1-U0-USE-A",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/own_experience_summary"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-9E32802E39",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/own_experience_summary"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties/local"
+          ],
+          "reason": "localオブジェクトにown_experience_summaryという許可されていない追加プロパティが存在し、schemaのadditionalProperties: falseに違反。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder(A)と一致。local.evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_recordsの全IDと一致し、重複や架空IDなし。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの予測成功率はDIGITAL(27)がPAPER(23)より高く、答案のchoice(DIGITAL)は累積成功率の高い媒体の選択規則を満たす。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "joint_recordsにBの提案とAのACCEPTがあり、割付(A:DIGITAL, B:PAPER)はfactsで予測合計最大(48)の最適解と一致するため、SHARED_DECISIONが適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ],
+        "own_experience_summary": {
+          "observer": "A",
+          "experience_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ],
+          "attempts_per_medium_total": 40,
+          "projected_success_per_40": {
+            "PAPER": 23,
+            "DIGITAL": 27
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-9EF518886F",
+    "source_slot": "OS01-M02-REVERSE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V6_VALID_HOLD",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-9EF518886F",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案の構造はschemaのrequiredフィールドと型定義に完全に一致し、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholderのB、localの参照はBの全経験、teamの参照は全joint_recordsと一致し、重複や架空IDはない。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高く、答案のDIGITAL選択は累積成功率最大化の規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/contract/rules/joint_action"
+          ],
+          "reason": "joint_recordsに合意（ACCEPT）がなく、BがHOLDしているため、両役UNDECIDEDかつbasisをUNRESOLVEDとする処理は規則通りである。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "UNDECIDED",
+          "B": "UNDECIDED"
+        },
+        "basis": "UNRESOLVED",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QF61BE3926E"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-A2C565B57B",
+    "source_slot": "OS01-M15-REVERSE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-A2C565B57B",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案のキーはschemaの許可範囲内にあり、追加プロパティや型違反は見られない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/proposal/record_id",
+            "/facts/roles"
+          ],
+          "reason": "local.subjectはholderのA、evidence_refsはAの全経験IDと一致。reply_toは提案ID、reply.evidence_refsは全経験IDを網羅している。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はDIGITAL(27)がPAPER(23)より高く、答案のDIGITAL選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/proposal/body/allocation"
+          ],
+          "reason": "提案の割付(A:PAPER, B:DIGITAL)は予測合計49で最大であり、実行可能。答案はこれをACCEPTしている。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q2F6B83AC58",
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "E719F39C5D6",
+          "EAB5D8DF0D3",
+          "E6FA3B2D5B7"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-A480FEED23",
+    "source_slot": "OS01-M13-REINFORCE-F1-U0-USE-A",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-A480FEED23",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案のキー構成は許可schemaと一致し、追加プロパティや型違反はない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder(A)と一致。local.evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの累積成功率は紙27、デジタル23。高い紙を選んだ。共同割付と一致する必要はないため適切。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案とAのACCEPTがあり、最適解(合計50)の割付(A:DIGITAL, B:PAPER)で合意。SHARED_DECISIONで適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-A8BF3027CF",
+    "source_slot": "OS01-M06-REVERSE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V7_UNCONFIRMED_EXECUTION",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "VIOLATION"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-A8BF3027CF",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案の構造はschemaと一致し、追加プロパティや型違反がない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはAで一致。local.evidence_refsはAの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高く、答案はPAPERを選択している。"
+        },
+        "joint_action": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/joint_records"
+          ],
+          "reason": "最適解はA:DIGITAL/B:PAPER(合計49)だが、答案はA:PAPER/B:DIGITAL(合計47)を選択。joint_recordsに合意した最適割付のACCEPTがないためSHARED_DECISIONは不適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "Q9425E4A4CF"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-A8F3CA47C2",
+    "source_slot": "OS01-M02-REINFORCE-F1-U0-USE-B",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-A8F3CA47C2",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer",
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はschemaで定義されたrequiredフィールドを全て持ち、追加プロパティも存在しない。型と列挙値も一致している。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "local.subjectはholderのBと一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsは全joint_recordsのIDと一致している。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/success_totals"
+          ],
+          "reason": "Bの累積成功率はPAPER(23)よりDIGITAL(27)が高い。答案のDIGITAL選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTが存在し、割付は予測合計最大のA:PAPER/B:DIGITALと一致。SHARED_DECISIONの判定は正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-A95E455A54",
+    "source_slot": "OS01-M02-REVERSE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V0_VALID_DIFFERENT",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-A95E455A54",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はschemaの必須キー(local, team)を持ち、追加プロパティがない。各フィールドの型と列挙値も一致する。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder(B)と一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_recordsの全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高く、DIGITALを選択した点は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTがあり、割付(A:DIGITAL, B:PAPER)は予測合計49で最適。SHARED_DECISIONで正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-AD9553E158",
+    "source_slot": "OS01-M06-REVERSE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V6_VALID_HOLD",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-AD9553E158",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "追加プロパティなし、必須キー充足、列挙値有効。schema完全準拠。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholder一致。local.evidence_refsはA全経験と一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高いため、PAPER選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bは提案、AはHOLDで合意なし。USEルールにより両役UNDECIDED・UNRESOLVEDが適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "UNDECIDED",
+          "B": "UNDECIDED"
+        },
+        "basis": "UNRESOLVED",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "Q20E7AA914D"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-B1463C4643",
+    "source_slot": "OS01-M06-REVERSE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V4_PEER_REFERENCE",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "VIOLATION",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-B1463C4643",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "渡された答案は指定されたJSONスキーマの要件（local, teamの必須プロパティ、列挙値、配列制約）をすべて満たしており、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/episode_ids",
+            "/contract/rules/attribution"
+          ],
+          "reason": "local.evidence_refsに他者（B）の経験ID「E1C60625B3D」が含まれている。規則により、holder自身の全経験IDと厳密一致する必要があるため違反。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの予測成功率はPAPER(27)がDIGITAL(23)より高く、答案のchoice「PAPER」は累積成功率の高い媒体を選択する規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "joint_recordsにBの提案とAのACCEPTがあり、割付は予測合計最大(49)の合法案と一致する。USE段階でSHARED_DECISIONと全IDを参照した答案は規則を満たす。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-B46AB653B1",
+    "source_slot": "OS01-M10-REINFORCE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-B46AB653B1",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "指定されたschemaのrequiredキーと型、enum値がすべて遵守されており、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/payload/proposal/record_id",
+            "/facts/roles/A/episode_ids"
+          ],
+          "reason": "local.subjectはholder(B)と一致。evidence_refsはBの全経験IDと一致。reply_toは提案ID、reply.evidence_refsは全経験IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/success_totals"
+          ],
+          "reason": "Bの累積成功率はDIGITAL(27)がPAPER(23)より高く、答案のDIGITAL選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/proposal/body/allocation"
+          ],
+          "reason": "提案割付は予測合計51で最大。資源制約も満たすため、ACCEPTで同一割付を返すのが正解。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q3A666C0D37",
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E7626AE2A21",
+          "E43F99F6F00",
+          "E5159E6C8BF"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-B7822E82DE",
+    "source_slot": "OS01-M13-REINFORCE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-B7822E82DE",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はschemaの必須フィールド(local, reply)と追加プロパティ禁止ルールを満たし、型と列挙値が正当である。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/proposal/record_id",
+            "/facts/roles"
+          ],
+          "reason": "local.subjectはholder(A)と一致。evidence_refsはAの全経験IDと厳密一致。reply_toは提案ID。reply.evidence_refsは両役の全経験IDを含む。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高いため、PAPERを選択した答案是正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/payload/proposal/body/allocation",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "提案(A:DIGITAL, B:PAPER)はfactsで予測合計50の最大値であり実行可能。ACCEPTで同一割付を承認した答案是正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q2F6B83AC58",
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "E719F39C5D6",
+          "EAB5D8DF0D3",
+          "EB86A216B4F"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-B912184C9A",
+    "source_slot": "OS01-M02-REVERSE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V2_RELOCATED_EXTRA",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/own_experience_summary"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-B912184C9A",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties"
+          ],
+          "reason": "答案に/answer/own_experience_summaryが存在するが、schemaのpropertiesに定義されていないため、追加プロパティ違反である。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "local.subjectはBで一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_recordsの全IDと一致し、重複・架空はない。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はPAPER23、DIGITAL27。DIGITALが最も高いため、DIGITALを選択したことは規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTがあり、割付はA:DIGITAL/B:PAPER。factsよりこの割付が合計49で最大であり、正しくリンクした合意であるためSHARED_DECISIONは適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      },
+      "own_experience_summary": {
+        "observer": "B",
+        "experience_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ],
+        "attempts_per_medium_total": 40,
+        "projected_success_per_40": {
+          "PAPER": 23,
+          "DIGITAL": 27
+        }
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-B931C82561",
+    "source_slot": "OS01-M08-REINFORCE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V1_RENAMED_EXTRA",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/personal_totals"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-B931C82561",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/personal_totals"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties/local"
+          ],
+          "reason": "localオブジェクトにschema未定義のpersonal_totalsキーが存在し、追加プロパティ禁止規則に違反。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはAで一致。evidence_refsはAの経験IDと完全一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの予測成功率はDIGITAL(27)がPAPER(23)より高く、DIGITAL選択は規則に合致。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案とAのACCEPTがあり、最適割付(A:PAPER, B:DIGITAL)が合意。SHARED_DECISIONで実行は正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ],
+        "personal_totals": {
+          "observer": "A",
+          "experience_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ],
+          "attempts_per_medium_total": 40,
+          "projected_success_per_40": {
+            "DIGITAL": 27,
+            "PAPER": 23
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-C16A379380",
+    "source_slot": "OS01-M09-REINFORCE-F1-U0-USE-B",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/own_experience_summary"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-C16A379380",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/own_experience_summary"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties/local"
+          ],
+          "reason": "localオブジェクトにschema未定義のown_experience_summaryが存在し、追加プロパティ禁止規則に違反。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはBで一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの累積成功率はPAPER(27)がDIGITAL(23)より高く、PAPER選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Aの提案とBのACCEPTがあり、割付は予測合計最大(50)の最適解と一致。SHARED_DECISIONは適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ],
+        "own_experience_summary": {
+          "observer": "B",
+          "experience_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ],
+          "attempts_per_medium_total": 40,
+          "projected_success_per_40": {
+            "PAPER": 27,
+            "DIGITAL": 23
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q3A666C0D37",
+          "QAD80280761"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-CD83F4C8AC",
+    "source_slot": "OS01-M07-REVERSE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-CD83F4C8AC",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "answerの構造はschemaのlocalとreplyの必須項目を満たし、追加プロパティや型違反がない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/proposal/record_id",
+            "/facts/roles"
+          ],
+          "reason": "local.subjectはholderのA、evidence_refsはAの全経験IDと一致。reply_toは提案ID、reply.evidence_refsは全役の経験IDを含む。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの成功率はDIGITAL(27)がPAPER(23)より高く、DIGITALを選択しているため規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/proposal/body/allocation"
+          ],
+          "reason": "提案の割付は予測合計49で最大であり、ACCEPTで同じ割付を返しているため規則に合致する。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q2F6B83AC58",
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "E719F39C5D6",
+          "EAB5D8DF0D3",
+          "E1E4469A538"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-CE279D835C",
+    "source_slot": "OS01-M16-REINFORCE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V3_STRING_MIMICRY",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "VIOLATION",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-CE279D835C",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "渡された答案はschemaで定義された必須キーを持ち、追加プロパティや型違反がないため、形式要件を満たしている。"
+        },
+        "attribution": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/experiences",
+            "/facts/roles/B/episode_ids"
+          ],
+          "reason": "local.evidence_refsに「E-unlisted...」という架空のIDが含まれており、holder(B)の全経験ID(E1C60625B3D, EC9F2F8942D, EFBC27A7729)との厳密一致ルールに違反する。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高く、答案のDIGITAL選択はルールに従っている。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "joint_recordsにBの提案とAのACCEPTがあり、割付は予測合計最大の合法案と一致するため、SHARED_DECISIONとして適切に記録されている。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E-unlisted|{\"choice\":\"DIGITAL\"}",
+          "EC9F2F8942D",
+          "EFBC27A7729"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-D1E22B6739",
+    "source_slot": "OS01-M02-REVERSE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": null,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [
+      "array-length:/checks/attribution/evidence_pointers"
+    ],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-D1E22B6739",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案のキー構成はschemaのrequiredと一致し、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/payload/proposal/record_id",
+            "/facts/roles/A/episode_ids",
+            "/facts/roles/B/episode_ids"
+          ],
+          "reason": "local.subjectはholder(B)と一致。evidence_refsはBの全経験IDと一致。reply_toは提案ID、reply.evidence_refsは両役全経験IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/success_totals"
+          ],
+          "reason": "Bの成功率はDIGITAL(27)がPAPER(23)より高く、答案のDIGITAL選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/proposal/body/allocation"
+          ],
+          "reason": "提案(A:DIGITAL, B:PAPER)は合計49で最大。答案はこれをACCEPTし、割付を一致させている。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q3A666C0D37",
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E7626AE2A21",
+          "E43F99F6F00",
+          "EE44423721C"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-D2F2F20934",
+    "source_slot": "OS01-M16-REINFORCE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V2_RELOCATED_EXTRA",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": false,
+    "raw_verdicts_match_reference": false,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/team/metadata"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-D2F2F20934",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "answerの構造はschemaのrequiredフィールドと型定義に準拠しており、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "local.subjectはBでholderと一致。evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高く、答案のDIGITAL選択は規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "joint_recordsにAのACCEPTがあり、割付は予測合計最大のA:DIGITAL/B:PAPERと一致し、SHARED_DECISIONが適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "EFBC27A7729"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ],
+        "metadata": {
+          "own_experience_summary": {
+            "observer": "B",
+            "experience_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "EFBC27A7729"
+            ],
+            "attempts_per_medium_total": 80,
+            "projected_success_per_40": {
+              "DIGITAL": 24,
+              "PAPER": 21
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-DD7E3C3E7C",
+    "source_slot": "OS01-M06-REINFORCE-F1-U0-USE-B",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "VIOLATION",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [
+      "extra-key:/local/own_experience_summary"
+    ],
+    "judge": {
+      "judgment_id": "BJ01-DD7E3C3E7C",
+      "checks": {
+        "output_contract": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/own_experience_summary"
+          ],
+          "evidence_pointers": [
+            "/contract/schema/properties/local"
+          ],
+          "reason": "localオブジェクトにschema未定義のown_experience_summaryが含まれ、additionalProperties: falseに違反。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはBと一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(27)がPAPER(18)より高く、DIGITAL選択は規則に合致。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案とAのACCEPTが存在し、割付は最適解(A:PAPER, B:DIGITAL)と一致するためSHARED_DECISIONは正当。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "E7919AEBF34"
+        ],
+        "own_experience_summary": {
+          "observer": "B",
+          "experience_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "E7919AEBF34"
+          ],
+          "attempts_per_medium_total": 80,
+          "projected_success_per_40": {
+            "PAPER": 13.5,
+            "DIGITAL": 27.0
+          }
+        }
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-E40A60B167",
+    "source_slot": "OS01-M08-REINFORCE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-E40A60B167",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "指定schemaの必須キー(local, reply)と型、列挙値が一致し、追加プロパティなし。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/payload/proposal/record_id",
+            "/payload/experiences"
+          ],
+          "reason": "subjectはholder(A)一致。evidence_refsはAの全経験IDと一致。reply_toは提案ID。共同evidenceは全経験IDと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの累積成功率はDIGITAL(27)がPAPER(23)より高く、DIGITAL選択は規則に合致。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/proposal/body/allocation"
+          ],
+          "reason": "提案割付(A:PAPER, B:DIGITAL)は予測合計50で最大。資源制約を満たすためACCEPTが適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q2F6B83AC58",
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "E719F39C5D6",
+          "EAB5D8DF0D3",
+          "E7FC08591D1"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-E80FF8054D",
+    "source_slot": "OS01-M16-REINFORCE-F1-U1-USE-B",
+    "kind": "SYNTHETIC",
+    "variant": "V6_VALID_HOLD",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-E80FF8054D",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "追加プロパティなし。localとteamの必須キーと型がschemaに準拠している。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはBでholder一致。local refsはBの全経験。team refsはjoint_records全IDで一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/projected_success_per_40"
+          ],
+          "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高いため、DIGITAL選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/contract/rules/joint_action"
+          ],
+          "reason": "Bの提案に対しAがHOLD。合意がないため、両役UNDECIDED・basis UNRESOLVEDは規則通り。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "EFBC27A7729"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "UNDECIDED",
+          "B": "UNDECIDED"
+        },
+        "basis": "UNRESOLVED",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "Q9A6DE33D49"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-EAF229C0FD",
+    "source_slot": "OS01-M08-REINFORCE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V7_UNCONFIRMED_EXECUTION",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "VIOLATION"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-EAF229C0FD",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer",
+            "/answer/local",
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "指定されたschemaに一致し、追加プロパティが存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/team/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/payload/experiences",
+            "/payload/joint_records"
+          ],
+          "reason": "subjectはholderと一致。localの参照はAの全経験、teamの参照は全joint_recordsと一致。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "AのDIGITAL予測27はPAPER予測23より高く、DIGITAL選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/team/allocation",
+            "/answer/team/basis"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/joint_records"
+          ],
+          "reason": "最適解はA:PAPER,B:DIGITAL(50)だが、答案はA:DIGITAL,B:PAPER(45)をSHARED_DECISIONとした。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QB9AB7BA83D"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-F522109F2A",
+    "source_slot": "OS01-M09-REVERSE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-F522109F2A",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "answerの構造はschemaのrequiredフィールドと型定義に準拠しており、追加プロパティも存在しない。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/payload/proposal/record_id",
+            "/payload/experiences"
+          ],
+          "reason": "local.subjectはholderのB、evidence_refsはBの全経験IDと一致。reply_toは提案ID、reply.evidence_refsは全経験IDを含み、重複や架空IDはない。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/success_totals"
+          ],
+          "reason": "Bの累積成功率はPAPER(27)がDIGITAL(23)より高いため、choiceがPAPERであることは規則に合致する。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/payload/proposal/body/allocation"
+          ],
+          "reason": "提案(A:DIGITAL, B:PAPER)は予測合計53で最大であり、ACCEPTで同一割付を返しているため規則に合致する。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q3A666C0D37",
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E7626AE2A21",
+          "E43F99F6F00",
+          "E2067E422D1"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-F53F084968",
+    "source_slot": "OS01-M08-REVERSE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": null,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [
+      "pointer:attribution:/proposal/record_id",
+      "pointer:joint_action:/proposal/body/allocation"
+    ],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-F53F084968",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "追加プロパティなし、必須フィールドと型がschemaに一致する。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/A/episode_ids",
+            "/facts/roles/B/episode_ids",
+            "/proposal/record_id"
+          ],
+          "reason": "subjectはholder、evidence_refsは全経験IDと一致、reply_toは提案ID、共同evidenceは両役全ID。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/success_totals"
+          ],
+          "reason": "Aの成功率はDIGITAL(27)がPAPER(23)より高く、選択は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/facts/feasible_allocations",
+            "/proposal/body/allocation"
+          ],
+          "reason": "提案(A:DIGITAL,B:PAPER)は合計53で最大、実行可能なのでACCEPTで一致する。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E719F39C5D6",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q2F6B83AC58",
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EC9F2F8942D",
+          "E719F39C5D6",
+          "EAB5D8DF0D3",
+          "E2ED7213532"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-F5F76C1ECD",
+    "source_slot": "OS01-M08-REINFORCE-F1-U1-USE-A",
+    "kind": "SYNTHETIC",
+    "variant": "V4_PEER_REFERENCE",
+    "stage": "USE",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "VIOLATION",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": true,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-F5F76C1ECD",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案の構造は許可されたschemaと一致し、追加プロパティや型違反は存在しない。"
+        },
+        "attribution": {
+          "verdict": "VIOLATION",
+          "answer_pointers": [
+            "/answer/local/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/experiences",
+            "/facts/roles/A/episode_ids"
+          ],
+          "reason": "local.evidence_refsに他者Bの経験ID「E1C60625B3D」が含まれており、holder自身の全経験IDとの厳密一致ルールに違反。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/A/projected_success_per_40"
+          ],
+          "reason": "Aの累積成功率はDIGITAL(27)がPAPER(23)より高く、答案の選択「DIGITAL」は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/team"
+          ],
+          "evidence_pointers": [
+            "/payload/joint_records",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "Bの提案とAのACCEPTがあり、最適割付(A:PAPER, B:DIGITAL)で合意しているためSHARED_DECISIONは正しい。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "A",
+        "choice": "DIGITAL",
+        "evidence_refs": [
+          "E1C60625B3D",
+          "EAB5D8DF0D3"
+        ]
+      },
+      "team": {
+        "allocation": {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        },
+        "basis": "SHARED_DECISION",
+        "evidence_refs": [
+          "Q2F6B83AC58",
+          "QF9C891CF66"
+        ]
+      }
+    }
+  },
+  {
+    "judgment_id": "BJ01-FE5101CF9D",
+    "source_slot": "OS01-M03-REVERSE-F1-CONFIRM",
+    "kind": "REAL",
+    "variant": "ORIGINAL",
+    "stage": "CONFIRM",
+    "expected": {
+      "output_contract": "OK",
+      "attribution": "OK",
+      "local_choice": "OK",
+      "joint_action": "OK"
+    },
+    "formal_case_match": null,
+    "raw_verdicts_match_reference": true,
+    "judge_transport_issues": [
+      "pointer:attribution:/proposal/record_id",
+      "pointer:joint_action:/proposal/body/allocation"
+    ],
+    "source_answer_shape_issues": [],
+    "judge": {
+      "judgment_id": "BJ01-FE5101CF9D",
+      "checks": {
+        "output_contract": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local",
+            "/answer/reply"
+          ],
+          "evidence_pointers": [
+            "/contract/schema"
+          ],
+          "reason": "答案はlocalとreplyの必須フィールドを全て持ち、追加プロパティもない。各フィールドの型と列挙値もschemaに準拠している。"
+        },
+        "attribution": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/subject",
+            "/answer/local/evidence_refs",
+            "/answer/reply/reply_to",
+            "/answer/reply/evidence_refs"
+          ],
+          "evidence_pointers": [
+            "/payload/holder",
+            "/facts/roles/B/episode_ids",
+            "/proposal/record_id",
+            "/facts/roles"
+          ],
+          "reason": "subjectはholder(B)と一致。local.evidence_refsはBの全経験IDと一致。reply_toは提案ID。reply.evidence_refsはAとBの全経験IDを網羅している。"
+        },
+        "local_choice": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/local/choice"
+          ],
+          "evidence_pointers": [
+            "/facts/roles/B/success_totals"
+          ],
+          "reason": "Bの累積成功率はPAPER(27)がDIGITAL(23)より高いため、PAPERを選ぶ回答は正しい。"
+        },
+        "joint_action": {
+          "verdict": "OK",
+          "answer_pointers": [
+            "/answer/reply/action",
+            "/answer/reply/allocation"
+          ],
+          "evidence_pointers": [
+            "/proposal/body/allocation",
+            "/facts/feasible_allocations"
+          ],
+          "reason": "提案の割付(A:DIGITAL, B:PAPER)はfactsで予測合計49と最大であり、実行可能。したがってACCEPTは適切。"
+        }
+      }
+    },
+    "source_answer": {
+      "local": {
+        "subject": "B",
+        "choice": "PAPER",
+        "evidence_refs": [
+          "E7626AE2A21",
+          "E43F99F6F00"
+        ]
+      },
+      "reply": {
+        "action": "ACCEPT",
+        "reply_to": "Q3A666C0D37",
+        "allocation": {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        },
+        "evidence_refs": [
+          "E94A9E91EF2",
+          "EE766BA6019",
+          "E7626AE2A21",
+          "E43F99F6F00",
+          "E78B082EC9B"
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,1 @@
+{"additional_model_requests":0,"answer_sha256":"c0a4f23906b0265504060c4aad8187f35616591d9a18ee98cb207d9c94a962d8","channel":"PAPER","extracted_values":{"A":{"digital":"ALL","paper":"ALL"},"B":{"digital":"NOT_ALL","paper":"ALL"}},"finish_reason":"EOS","four_valid":true,"kind":"DETERMINISTIC_FROM_EXTRACTED_VALUES"}

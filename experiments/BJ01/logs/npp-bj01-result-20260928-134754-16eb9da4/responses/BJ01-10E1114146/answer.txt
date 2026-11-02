@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-10E1114146",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "追加プロパティなし。localとreplyの必須項目と型、列挙値がschemaに準拠している。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/reply/reply_to", "/answer/reply/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/facts/roles/B/episode_ids", "/payload/proposal/record_id", "/facts/roles/A/episode_ids", "/facts/roles/B/episode_ids"],
+      "reason": "subjectはBと一致。local.evidence_refsはBの全経験と一致。reply_toは提案ID。reply.evidence_refsは全経験IDを含む。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/success_totals"],
+      "reason": "Bの累積成功率はPAPER(27)がDIGITAL(23)より高い。答案のPAPER選択は規則に合致する。"
+    },
+    "joint_action": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/reply/allocation"],
+      "evidence_pointers": ["/facts/resource_inventory", "/facts/feasible_allocations"],
+      "reason": "提案(A:PAPER, B:DIGITAL)は実行可能で最大合計49。答案は両者PAPERと割り当て、資源制約(PAPER1つ)を違反している。"
+    }
+  }
+}

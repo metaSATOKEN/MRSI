@@ -1,0 +1,1 @@
+{"local":{"subject":"B","choice":"PAPER","evidence_refs":["E1C60625B3D","EC9F2F8942D","EF91EE66C8B"]},"team":{"allocation":{"A":"UNDECIDED","B":"UNDECIDED"},"basis":"UNRESOLVED","evidence_refs":["Q2F6B83AC58","Q70306DC047"]}}

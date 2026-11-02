@@ -1,0 +1,201 @@
+{
+  "case": "UR01-G03",
+  "condition": "SELECT",
+  "id": "UR01-G03-R2-SELECT",
+  "replicate": 2,
+  "set": "GUARD",
+  "cohort": "ORIGINAL_ACCEPTED",
+  "role": "B",
+  "notice_relation": "PARTNER",
+  "notice_target": "A",
+  "notice_catalog_position": 3,
+  "source_condition": "REWRITE",
+  "source_group": "E1-G01",
+  "normalization": {
+    "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+    "status": "UNCHANGED",
+    "reason": "BARE_JSON",
+    "raw_sha256": "c1986f179e0cf563f3ca367d6a18740bc6820e8a61f798a55fc92774b897e29c",
+    "raw_bytes": 346,
+    "normalized_sha256": "c1986f179e0cf563f3ca367d6a18740bc6820e8a61f798a55fc92774b897e29c",
+    "normalized_bytes_length": 346,
+    "removed_prefix_bytes": 0,
+    "removed_suffix_bytes": 0,
+    "value_repair": false
+  },
+  "formal_update": {
+    "choice_trace": [
+      {
+        "location": "GROUP.coverage.A",
+        "row_id": "C1",
+        "source_row_sha256": "6656131f28c928262ed10c4c69109869afdee2e9879ee09c901e436ae0fa16cb",
+        "target": "A"
+      },
+      {
+        "location": "GROUP.coverage.B",
+        "row_id": "C2",
+        "source_row_sha256": "bb0f5e417861b46f23d4a1c75ff253e1dc1aecf20e6b083ca223af3f4ec4efd3",
+        "target": "B"
+      }
+    ],
+    "errors": [],
+    "format_valid": true,
+    "gate": "PASS",
+    "joint_state_exact": true,
+    "memory": {
+      "private_note": {
+        "coverage": {
+          "digital": "NOT_ALL",
+          "observer": "B",
+          "origin_id": "R6CCEB586936FAEA",
+          "paper": "ALL",
+          "revision": 3
+        },
+        "customer": {
+          "animal": "CAT",
+          "origin_id": "RA480F80168B1AD9",
+          "subject": "B"
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R0BA1E40A1C18294",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R6CCEB586936FAEA",
+            "paper": "ALL",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "parse_valid": true,
+    "private_customer_exact": true,
+    "private_observation_exact": true,
+    "shared_latest_exact": true,
+    "shared_provenance_exact": true,
+    "shared_row_matches_input": {
+      "A": true,
+      "B": true
+    },
+    "shared_rows_exact": {
+      "A": true,
+      "B": true
+    },
+    "shared_values_exact": true
+  },
+  "reference_update": {
+    "gate": "PASS",
+    "parse_valid": true,
+    "format_valid": true,
+    "memory": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "RA480F80168B1AD9"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "R6CCEB586936FAEA",
+          "revision": 3
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R0BA1E40A1C18294",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R6CCEB586936FAEA",
+            "paper": "ALL",
+            "revision": 3
+          }
+        }
+      }
+    },
+    "choice_trace": [
+      {
+        "target": "A",
+        "row_id": "C1",
+        "location": "GROUP.coverage.A",
+        "source_row_sha256": "6656131f28c928262ed10c4c69109869afdee2e9879ee09c901e436ae0fa16cb"
+      },
+      {
+        "target": "B",
+        "row_id": "C2",
+        "location": "GROUP.coverage.B",
+        "source_row_sha256": "bb0f5e417861b46f23d4a1c75ff253e1dc1aecf20e6b083ca223af3f4ec4efd3"
+      }
+    ],
+    "private_customer_exact": true,
+    "private_observation_exact": true,
+    "shared_rows_exact": {
+      "A": true,
+      "B": true
+    },
+    "shared_values_exact": true,
+    "shared_provenance_exact": true,
+    "shared_latest_exact": true,
+    "shared_row_matches_input": {
+      "A": true,
+      "B": true
+    },
+    "joint_state_exact": true,
+    "errors": []
+  },
+  "observed_read": {
+    "channel": true,
+    "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+    "channel_latest": true,
+    "channel_note": true,
+    "channel_output": "PAPER",
+    "dependency_missing": false,
+    "errors": [],
+    "extracted_values": {
+      "A": {
+        "digital": "ALL",
+        "paper": "ALL"
+      },
+      "B": {
+        "digital": "NOT_ALL",
+        "paper": "ALL"
+      }
+    },
+    "extraction_applicable": true,
+    "fields": {
+      "A.digital": true,
+      "A.paper": true,
+      "B.digital": true,
+      "B.paper": true
+    },
+    "format_valid": true,
+    "four_exact": true,
+    "four_latest_exact": true,
+    "four_valid": true,
+    "parse_valid": true
+  },
+  "reference_end_to_end_observed": true,
+  "static_note_calculation": {
+    "kind": "DETERMINISTIC_FROM_RECONSTRUCTED_NOTE_NOT_LLM_READOUT",
+    "channel": "PAPER",
+    "latest_channel": "PAPER",
+    "matches_latest": true,
+    "read_was_run": true
+  }
+}

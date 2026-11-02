@@ -1,0 +1,1 @@
+{"own":{"evidence_ids":["Eb19c2b80cc","Ed4cd15ad90"],"holder":"C","recommendation":"PAPER"}}

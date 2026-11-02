@@ -1,0 +1,98 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "5c9defacadbc818936d5340cff7d150890145f59b089fbf5336c98ee5482bca2",
+    "design.md": "2b8ac12256d09ae696a123349aad3ece01d731eac4979e41a1c87af4207dba0d",
+    "materials/contract.json": "a77543146e2091d9a62b40f71ba20a5513e7505a9900c22e0fe09a3834edce60",
+    "materials/frozen.json": "08ce74eb15102be262ab0f0754ef64d36d482abbf0c3ea7ea4a05de24fb7fc8e",
+    "requests.jsonl": "d6695472494ffe0f4212ddc5660f2fe4654977ec1d4242e03e9808ec6a6450b7",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/experience_update_01_design.py": "0cae6a87b1355cdf29fb5f2ec2f1eb97fa294c076419eff5ec774d749551b3a1",
+    "source/judgment_repeat_01_bootstrap.py": "7c75f17eff6627fc33ca8354516cbd8a8b2ff4be47e5584ad4053a7ee3dc1b15",
+    "source/judgment_repeat_01_fixtures.py": "b7c2f3ada17040f1e3be632b50f7f4c7f5e093048000e35202157c0ff2cf9982",
+    "source/judgment_repeat_01_runtime.py": "fff10b9df05400cb79166cb21aa22179fcce2a6c24d2999104ead80390cdb052",
+    "source/judgment_repeat_01_scoring.py": "04301c0178f788606d0fef565b4b405f01fbb44215575041e24bb225da8e4929",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/summary_timing_02_fixtures.py": "fb6bd787905fc84db39521a598b12139caf319d5e6ee707a9fadbc60bed31381",
+    "source/summary_timing_02_scoring.py": "1e0de34763b724229aada1f57fd95fb274093bc7ba42035f47b62dc7679a457c",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "supervisor.py": "5fdd149bbf1d8e59b2e0db6c91de0cda68280c772440d0cf58ddaca3d8a1555f"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "15c99ba788a37699817b809df1099aa7c4b69b8742afdc35b67786fb1ee60de6",
+  "original_payload_sha256": "4c3783631887a9fad2f75d8a005a6c7bc6c9f21006764add44041d6250efbfcc",
+  "original_supervisor_sha256": "7c75f17eff6627fc33ca8354516cbd8a8b2ff4be47e5584ad4053a7ee3dc1b15",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "experience_update_01_design.py": {
+            "kind": "text",
+            "path": "source/experience_update_01_design.py"
+          },
+          "judgment_repeat_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/judgment_repeat_01_bootstrap.py"
+          },
+          "judgment_repeat_01_fixtures.py": {
+            "kind": "text",
+            "path": "source/judgment_repeat_01_fixtures.py"
+          },
+          "judgment_repeat_01_runtime.py": {
+            "kind": "text",
+            "path": "source/judgment_repeat_01_runtime.py"
+          },
+          "judgment_repeat_01_scoring.py": {
+            "kind": "text",
+            "path": "source/judgment_repeat_01_scoring.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "summary_timing_02_fixtures.py": {
+            "kind": "text",
+            "path": "source/summary_timing_02_fixtures.py"
+          },
+          "summary_timing_02_scoring.py": {
+            "kind": "text",
+            "path": "source/summary_timing_02_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "JR01"
+}

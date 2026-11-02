@@ -1,0 +1,21 @@
+{
+  "local": {
+    "subject": "B",
+    "choice": "DIGITAL",
+    "evidence_refs": [
+      "E7626AE2A21",
+      "E43F99F6F00"
+    ]
+  },
+  "team": {
+    "allocation": {
+      "A": "PAPER",
+      "B": "DIGITAL"
+    },
+    "basis": "SHARED_DECISION",
+    "evidence_refs": [
+      "Q3A666C0D37",
+      "QAD80280761"
+    ]
+  }
+}<|im_end|>

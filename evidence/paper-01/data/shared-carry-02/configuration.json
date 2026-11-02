@@ -1,0 +1,841 @@
+{
+  "protocol": "SHARED-CARRY-02",
+  "version": "shared-carry-02-v0.1",
+  "limits": {
+    "logical_requests": 48,
+    "physical_requests": 52,
+    "overload_retries": 4,
+    "per_logical_attempts": 2,
+    "active_seconds": 2700,
+    "reserve_seconds": 200,
+    "response_utf8_bytes": 4096,
+    "input_text_utf8_bytes": 32768
+  },
+  "allocation": [
+    {
+      "id": "SC02-G03-ENCODE-A",
+      "group": "SC02-G03",
+      "stage": "ENCODE",
+      "role": "A",
+      "arm": null,
+      "repetition": null,
+      "parents": [],
+      "position": 1
+    },
+    {
+      "id": "SC02-G04-ENCODE-A",
+      "group": "SC02-G04",
+      "stage": "ENCODE",
+      "role": "A",
+      "arm": null,
+      "repetition": null,
+      "parents": [],
+      "position": 2
+    },
+    {
+      "id": "SC02-G03-ENCODE-B",
+      "group": "SC02-G03",
+      "stage": "ENCODE",
+      "role": "B",
+      "arm": null,
+      "repetition": null,
+      "parents": [],
+      "position": 3
+    },
+    {
+      "id": "SC02-G01-ENCODE-A",
+      "group": "SC02-G01",
+      "stage": "ENCODE",
+      "role": "A",
+      "arm": null,
+      "repetition": null,
+      "parents": [],
+      "position": 4
+    },
+    {
+      "id": "SC02-G04-ENCODE-B",
+      "group": "SC02-G04",
+      "stage": "ENCODE",
+      "role": "B",
+      "arm": null,
+      "repetition": null,
+      "parents": [],
+      "position": 5
+    },
+    {
+      "id": "SC02-G02-ENCODE-A",
+      "group": "SC02-G02",
+      "stage": "ENCODE",
+      "role": "A",
+      "arm": null,
+      "repetition": null,
+      "parents": [],
+      "position": 6
+    },
+    {
+      "id": "SC02-G01-ENCODE-B",
+      "group": "SC02-G01",
+      "stage": "ENCODE",
+      "role": "B",
+      "arm": null,
+      "repetition": null,
+      "parents": [],
+      "position": 7
+    },
+    {
+      "id": "SC02-G02-ENCODE-B",
+      "group": "SC02-G02",
+      "stage": "ENCODE",
+      "role": "B",
+      "arm": null,
+      "repetition": null,
+      "parents": [],
+      "position": 8
+    },
+    {
+      "id": "SC02-G01-DRAFT-A",
+      "group": "SC02-G01",
+      "stage": "DRAFT",
+      "role": "A",
+      "arm": null,
+      "repetition": null,
+      "parents": [
+        "SC02-G01-ENCODE-A",
+        "SC02-G01-ENCODE-B"
+      ],
+      "position": 9
+    },
+    {
+      "id": "SC02-G02-DRAFT-A",
+      "group": "SC02-G02",
+      "stage": "DRAFT",
+      "role": "A",
+      "arm": null,
+      "repetition": null,
+      "parents": [
+        "SC02-G02-ENCODE-A",
+        "SC02-G02-ENCODE-B"
+      ],
+      "position": 10
+    },
+    {
+      "id": "SC02-G03-DRAFT-B",
+      "group": "SC02-G03",
+      "stage": "DRAFT",
+      "role": "B",
+      "arm": null,
+      "repetition": null,
+      "parents": [
+        "SC02-G03-ENCODE-A",
+        "SC02-G03-ENCODE-B"
+      ],
+      "position": 11
+    },
+    {
+      "id": "SC02-G04-DRAFT-B",
+      "group": "SC02-G04",
+      "stage": "DRAFT",
+      "role": "B",
+      "arm": null,
+      "repetition": null,
+      "parents": [
+        "SC02-G04-ENCODE-A",
+        "SC02-G04-ENCODE-B"
+      ],
+      "position": 12
+    },
+    {
+      "id": "SC02-G04-EDIT-A",
+      "group": "SC02-G04",
+      "stage": "EDIT",
+      "role": "A",
+      "arm": null,
+      "repetition": null,
+      "parents": [
+        "SC02-G04-ENCODE-A",
+        "SC02-G04-ENCODE-B",
+        "SC02-G04-DRAFT-B"
+      ],
+      "position": 13
+    },
+    {
+      "id": "SC02-G01-EDIT-B",
+      "group": "SC02-G01",
+      "stage": "EDIT",
+      "role": "B",
+      "arm": null,
+      "repetition": null,
+      "parents": [
+        "SC02-G01-ENCODE-A",
+        "SC02-G01-ENCODE-B",
+        "SC02-G01-DRAFT-A"
+      ],
+      "position": 14
+    },
+    {
+      "id": "SC02-G02-EDIT-B",
+      "group": "SC02-G02",
+      "stage": "EDIT",
+      "role": "B",
+      "arm": null,
+      "repetition": null,
+      "parents": [
+        "SC02-G02-ENCODE-A",
+        "SC02-G02-ENCODE-B",
+        "SC02-G02-DRAFT-A"
+      ],
+      "position": 15
+    },
+    {
+      "id": "SC02-G03-EDIT-A",
+      "group": "SC02-G03",
+      "stage": "EDIT",
+      "role": "A",
+      "arm": null,
+      "repetition": null,
+      "parents": [
+        "SC02-G03-ENCODE-A",
+        "SC02-G03-ENCODE-B",
+        "SC02-G03-DRAFT-B"
+      ],
+      "position": 16
+    },
+    {
+      "group": "SC02-G02",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G02-ENCODE-A",
+        "SC02-G02-ENCODE-B",
+        "SC02-G02-EDIT-B"
+      ],
+      "id": "SC02-G02-PROBE-B-BOTH-R1",
+      "repetition": 1,
+      "position": 17
+    },
+    {
+      "group": "SC02-G02",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G02-ENCODE-A",
+        "SC02-G02-ENCODE-B",
+        "SC02-G02-EDIT-B"
+      ],
+      "id": "SC02-G02-PROBE-B-PRIVATE-R1",
+      "repetition": 1,
+      "position": 18
+    },
+    {
+      "group": "SC02-G03",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G03-ENCODE-A",
+        "SC02-G03-ENCODE-B",
+        "SC02-G03-EDIT-A"
+      ],
+      "id": "SC02-G03-PROBE-B-PRIVATE-R1",
+      "repetition": 1,
+      "position": 19
+    },
+    {
+      "group": "SC02-G03",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G03-ENCODE-A",
+        "SC02-G03-ENCODE-B",
+        "SC02-G03-EDIT-A"
+      ],
+      "id": "SC02-G03-PROBE-B-BOTH-R1",
+      "repetition": 1,
+      "position": 20
+    },
+    {
+      "group": "SC02-G03",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G03-ENCODE-A",
+        "SC02-G03-ENCODE-B",
+        "SC02-G03-EDIT-A"
+      ],
+      "id": "SC02-G03-PROBE-A-BOTH-R1",
+      "repetition": 1,
+      "position": 21
+    },
+    {
+      "group": "SC02-G03",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G03-ENCODE-A",
+        "SC02-G03-ENCODE-B",
+        "SC02-G03-EDIT-A"
+      ],
+      "id": "SC02-G03-PROBE-A-PRIVATE-R1",
+      "repetition": 1,
+      "position": 22
+    },
+    {
+      "group": "SC02-G01",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G01-ENCODE-A",
+        "SC02-G01-ENCODE-B",
+        "SC02-G01-EDIT-B"
+      ],
+      "id": "SC02-G01-PROBE-A-PRIVATE-R1",
+      "repetition": 1,
+      "position": 23
+    },
+    {
+      "group": "SC02-G01",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G01-ENCODE-A",
+        "SC02-G01-ENCODE-B",
+        "SC02-G01-EDIT-B"
+      ],
+      "id": "SC02-G01-PROBE-A-BOTH-R1",
+      "repetition": 1,
+      "position": 24
+    },
+    {
+      "group": "SC02-G02",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G02-ENCODE-A",
+        "SC02-G02-ENCODE-B",
+        "SC02-G02-EDIT-B"
+      ],
+      "id": "SC02-G02-PROBE-A-BOTH-R1",
+      "repetition": 1,
+      "position": 25
+    },
+    {
+      "group": "SC02-G02",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G02-ENCODE-A",
+        "SC02-G02-ENCODE-B",
+        "SC02-G02-EDIT-B"
+      ],
+      "id": "SC02-G02-PROBE-A-PRIVATE-R1",
+      "repetition": 1,
+      "position": 26
+    },
+    {
+      "group": "SC02-G04",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G04-ENCODE-A",
+        "SC02-G04-ENCODE-B",
+        "SC02-G04-EDIT-A"
+      ],
+      "id": "SC02-G04-PROBE-A-PRIVATE-R1",
+      "repetition": 1,
+      "position": 27
+    },
+    {
+      "group": "SC02-G04",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G04-ENCODE-A",
+        "SC02-G04-ENCODE-B",
+        "SC02-G04-EDIT-A"
+      ],
+      "id": "SC02-G04-PROBE-A-BOTH-R1",
+      "repetition": 1,
+      "position": 28
+    },
+    {
+      "group": "SC02-G04",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G04-ENCODE-A",
+        "SC02-G04-ENCODE-B",
+        "SC02-G04-EDIT-A"
+      ],
+      "id": "SC02-G04-PROBE-B-BOTH-R1",
+      "repetition": 1,
+      "position": 29
+    },
+    {
+      "group": "SC02-G04",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G04-ENCODE-A",
+        "SC02-G04-ENCODE-B",
+        "SC02-G04-EDIT-A"
+      ],
+      "id": "SC02-G04-PROBE-B-PRIVATE-R1",
+      "repetition": 1,
+      "position": 30
+    },
+    {
+      "group": "SC02-G01",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G01-ENCODE-A",
+        "SC02-G01-ENCODE-B",
+        "SC02-G01-EDIT-B"
+      ],
+      "id": "SC02-G01-PROBE-B-PRIVATE-R1",
+      "repetition": 1,
+      "position": 31
+    },
+    {
+      "group": "SC02-G01",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G01-ENCODE-A",
+        "SC02-G01-ENCODE-B",
+        "SC02-G01-EDIT-B"
+      ],
+      "id": "SC02-G01-PROBE-B-BOTH-R1",
+      "repetition": 1,
+      "position": 32
+    },
+    {
+      "group": "SC02-G01",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G01-ENCODE-A",
+        "SC02-G01-ENCODE-B",
+        "SC02-G01-EDIT-B"
+      ],
+      "id": "SC02-G01-PROBE-B-BOTH-R2",
+      "repetition": 2,
+      "position": 33
+    },
+    {
+      "group": "SC02-G01",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G01-ENCODE-A",
+        "SC02-G01-ENCODE-B",
+        "SC02-G01-EDIT-B"
+      ],
+      "id": "SC02-G01-PROBE-B-PRIVATE-R2",
+      "repetition": 2,
+      "position": 34
+    },
+    {
+      "group": "SC02-G04",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G04-ENCODE-A",
+        "SC02-G04-ENCODE-B",
+        "SC02-G04-EDIT-A"
+      ],
+      "id": "SC02-G04-PROBE-B-PRIVATE-R2",
+      "repetition": 2,
+      "position": 35
+    },
+    {
+      "group": "SC02-G04",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G04-ENCODE-A",
+        "SC02-G04-ENCODE-B",
+        "SC02-G04-EDIT-A"
+      ],
+      "id": "SC02-G04-PROBE-B-BOTH-R2",
+      "repetition": 2,
+      "position": 36
+    },
+    {
+      "group": "SC02-G04",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G04-ENCODE-A",
+        "SC02-G04-ENCODE-B",
+        "SC02-G04-EDIT-A"
+      ],
+      "id": "SC02-G04-PROBE-A-BOTH-R2",
+      "repetition": 2,
+      "position": 37
+    },
+    {
+      "group": "SC02-G04",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G04-ENCODE-A",
+        "SC02-G04-ENCODE-B",
+        "SC02-G04-EDIT-A"
+      ],
+      "id": "SC02-G04-PROBE-A-PRIVATE-R2",
+      "repetition": 2,
+      "position": 38
+    },
+    {
+      "group": "SC02-G02",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G02-ENCODE-A",
+        "SC02-G02-ENCODE-B",
+        "SC02-G02-EDIT-B"
+      ],
+      "id": "SC02-G02-PROBE-A-PRIVATE-R2",
+      "repetition": 2,
+      "position": 39
+    },
+    {
+      "group": "SC02-G02",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G02-ENCODE-A",
+        "SC02-G02-ENCODE-B",
+        "SC02-G02-EDIT-B"
+      ],
+      "id": "SC02-G02-PROBE-A-BOTH-R2",
+      "repetition": 2,
+      "position": 40
+    },
+    {
+      "group": "SC02-G01",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G01-ENCODE-A",
+        "SC02-G01-ENCODE-B",
+        "SC02-G01-EDIT-B"
+      ],
+      "id": "SC02-G01-PROBE-A-BOTH-R2",
+      "repetition": 2,
+      "position": 41
+    },
+    {
+      "group": "SC02-G01",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G01-ENCODE-A",
+        "SC02-G01-ENCODE-B",
+        "SC02-G01-EDIT-B"
+      ],
+      "id": "SC02-G01-PROBE-A-PRIVATE-R2",
+      "repetition": 2,
+      "position": 42
+    },
+    {
+      "group": "SC02-G03",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G03-ENCODE-A",
+        "SC02-G03-ENCODE-B",
+        "SC02-G03-EDIT-A"
+      ],
+      "id": "SC02-G03-PROBE-A-PRIVATE-R2",
+      "repetition": 2,
+      "position": 43
+    },
+    {
+      "group": "SC02-G03",
+      "stage": "PROBE",
+      "role": "A",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G03-ENCODE-A",
+        "SC02-G03-ENCODE-B",
+        "SC02-G03-EDIT-A"
+      ],
+      "id": "SC02-G03-PROBE-A-BOTH-R2",
+      "repetition": 2,
+      "position": 44
+    },
+    {
+      "group": "SC02-G03",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G03-ENCODE-A",
+        "SC02-G03-ENCODE-B",
+        "SC02-G03-EDIT-A"
+      ],
+      "id": "SC02-G03-PROBE-B-BOTH-R2",
+      "repetition": 2,
+      "position": 45
+    },
+    {
+      "group": "SC02-G03",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G03-ENCODE-A",
+        "SC02-G03-ENCODE-B",
+        "SC02-G03-EDIT-A"
+      ],
+      "id": "SC02-G03-PROBE-B-PRIVATE-R2",
+      "repetition": 2,
+      "position": 46
+    },
+    {
+      "group": "SC02-G02",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "PRIVATE",
+      "parents": [
+        "SC02-G02-ENCODE-A",
+        "SC02-G02-ENCODE-B",
+        "SC02-G02-EDIT-B"
+      ],
+      "id": "SC02-G02-PROBE-B-PRIVATE-R2",
+      "repetition": 2,
+      "position": 47
+    },
+    {
+      "group": "SC02-G02",
+      "stage": "PROBE",
+      "role": "B",
+      "arm": "BOTH",
+      "parents": [
+        "SC02-G02-ENCODE-A",
+        "SC02-G02-ENCODE-B",
+        "SC02-G02-EDIT-B"
+      ],
+      "id": "SC02-G02-PROBE-B-BOTH-R2",
+      "repetition": 2,
+      "position": 48
+    }
+  ],
+  "materials": [
+    {
+      "group": "SC02-G01",
+      "scene": "地域工作会",
+      "item": "持帰り袋",
+      "writer": "A",
+      "editor": "B",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "DOG",
+            "origin_id": "QX"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "LT"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "CAT",
+            "origin_id": "JV"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "NR"
+          }
+        }
+      },
+      "best_channel": "PAPER"
+    },
+    {
+      "group": "SC02-G02",
+      "scene": "地域工作会",
+      "item": "持帰り袋",
+      "writer": "A",
+      "editor": "B",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "CAT",
+            "origin_id": "BK"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "SZ"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "DOG",
+            "origin_id": "WH"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "FU"
+          }
+        }
+      },
+      "best_channel": "DIGITAL"
+    },
+    {
+      "group": "SC02-G03",
+      "scene": "小さな展示会",
+      "item": "受付名札",
+      "writer": "B",
+      "editor": "A",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "CAT",
+            "origin_id": "GD"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "YC"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "DOG",
+            "origin_id": "PM"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "VE"
+          }
+        }
+      },
+      "best_channel": "DIGITAL"
+    },
+    {
+      "group": "SC02-G04",
+      "scene": "小さな展示会",
+      "item": "受付名札",
+      "writer": "B",
+      "editor": "A",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "DOG",
+            "origin_id": "HN"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "KJ"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "CAT",
+            "origin_id": "ZR"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "BW"
+          }
+        }
+      },
+      "best_channel": "PAPER"
+    }
+  ],
+  "contract": {
+    "protocol": "SHARED-CARRY-02",
+    "mode": "DESIGN_ONLY",
+    "limits": {
+      "logical_requests": 48,
+      "physical_requests": 52,
+      "active_seconds": 2700,
+      "attempt_seconds": 180,
+      "reserve_seconds": 200,
+      "concurrency": 1,
+      "overload_retries_total": 4,
+      "overload_retries_per_slot": 1,
+      "input_bytes": 32768,
+      "output_bytes": 4096
+    },
+    "seed": 2026091807,
+    "root_inputs": 8,
+    "dependent_inputs": 40,
+    "stages": [
+      "ENCODE",
+      "DRAFT",
+      "EDIT",
+      "PROBE"
+    ],
+    "model": "gpt-5.6-luna",
+    "reasoning": "medium",
+    "endpoint": "https://chatgpt.com/backend-api/codex/responses",
+    "live_authorized": false,
+    "dispatch_connected": false,
+    "retention_deadline": "2026-10-12T17:41:23+09:00",
+    "primary": "E_BOTH",
+    "sensitivity": "E_NOREF",
+    "hypothesis": {
+      "F": 1,
+      "E_BOTH": 1,
+      "L": 0,
+      "A": 1
+    },
+    "max_ideal_input_bytes": 2316,
+    "ideal_inputs_are_synthetic": true,
+    "later_live_input_sizes_not_known": true
+  },
+  "retention_expires_at": "2026-10-12T17:41:23+09:00"
+}

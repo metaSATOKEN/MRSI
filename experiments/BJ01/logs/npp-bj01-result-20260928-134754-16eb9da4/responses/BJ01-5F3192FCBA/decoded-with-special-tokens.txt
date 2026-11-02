@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-5F3192FCBA",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local", "/answer/team"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "答案はschemaで定義された必須フィールドのみを持ち、追加プロパティや型違反がない。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/own_experience_summary/experience_refs", "/payload/joint_records"],
+      "reason": "subjectはholder(B)と一致。localのevidence_refsはBの全経験と一致。teamのevidence_refsはjoint_records全IDと一致。"
+    },
+    "local_choice": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/projected_success_per_40"],
+      "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高いが、答案はPAPERを選択しているため規則違反。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Aの提案とBのACCEPTがあり、割付(A:DIGITAL, B:PAPER)は予測合計最大(49)の合法案と一致するためSHARED_DECISIONは正しい。"
+    }
+  }
+}<|im_end|>

@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-2BD4DBA541",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local", "/answer/reply"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "スキーマ定義に従い、localとreplyの必須キーが揃い、追加プロパティなし、列挙値も有効。"
+    },
+    "attribution": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/local/evidence_refs"],
+      "evidence_pointers": ["/facts/roles/A/episode_ids", "/payload/experiences"],
+      "reason": "local.evidence_refsにEEFFC9687FC（Bの経験）が含まれる。holder A自身の全経験IDと厳密一致していない。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/success_totals"],
+      "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高く、選択PAPERは正しい。"
+    },
+    "joint_action": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/reply/allocation"],
+      "evidence_pointers": ["/facts/resource_inventory", "/facts/feasible_allocations"],
+      "reason": "提案はA:PAPER/B:DIGITALで実行可能かつ最適。COUNTERでA:PAPER/B:PAPERを提案したが、紙1つしかなく実行不可能。"
+    }
+  }
+}

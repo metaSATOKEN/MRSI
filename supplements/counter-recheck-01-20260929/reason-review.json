@@ -1,0 +1,684 @@
+{
+  "status": "COMPLETED",
+  "date": "2026-09-29",
+  "reviewer": "primary assistant, unblinded offline reading",
+  "new_research_model_calls": 0,
+  "formal_labels_changed": false,
+  "fixed_score_disagreements": [],
+  "selected_actual_responses": 70,
+  "required_nonpassing": [
+    "CR01-N03-FORM-B",
+    "CR01-N08-FORM-B",
+    "CR01-N03-DUPLICATE-CONFIRM",
+    "CR01-N03-LOWER-CONFIRM",
+    "CR01-N03-OPTIMAL-CONFIRM",
+    "CR01-N08-LOWER-RECHECK",
+    "CR01-N08-DUPLICATE-RECHECK",
+    "CR01-N01-DIAG-LOWER-RECHECK",
+    "CR01-N08-DIAG-DUPLICATE-RECHECK",
+    "CR01-N08-DIAG-LOWER-RECHECK",
+    "CR01-N08-DIAG-OPTIMAL-RECHECK"
+  ],
+  "normal_paths": [
+    "CR01-N07-LOWER",
+    "CR01-N01-OPTIMAL",
+    "CR01-N01-LOWER",
+    "CR01-N06-DUPLICATE",
+    "CR01-N05-LOWER",
+    "CR01-N07-OPTIMAL"
+  ],
+  "diagnostic_responses": [
+    "CR01-N01-DIAG-LOWER-RECHECK",
+    "CR01-N01-DIAG-OPTIMAL-RECHECK",
+    "CR01-N01-DIAG-DUPLICATE-RECHECK",
+    "CR01-N04-DIAG-OPTIMAL-RECHECK",
+    "CR01-N04-DIAG-DUPLICATE-RECHECK",
+    "CR01-N04-DIAG-LOWER-RECHECK",
+    "CR01-N08-DIAG-DUPLICATE-RECHECK",
+    "CR01-N08-DIAG-LOWER-RECHECK",
+    "CR01-N08-DIAG-OPTIMAL-RECHECK",
+    "CR01-N05-DIAG-LOWER-RECHECK",
+    "CR01-N05-DIAG-OPTIMAL-RECHECK",
+    "CR01-N05-DIAG-DUPLICATE-RECHECK"
+  ],
+  "protocol_skips_inspected": [
+    "CR01-N01-OPTIMAL-RECHECK",
+    "CR01-N07-OPTIMAL-RECHECK",
+    "CR01-N08-OPTIMAL-RECHECK"
+  ],
+  "selection_materials": "../../../throughline/audits/counter-recheck-01-results-20260929/review-materials.json",
+  "interpretation": "Input/output contract audit, not free-text reasoning evaluation or independent blinded judging. Initial private errors, later recovery, and one artificial counter false acceptance remain separate.",
+  "items": [
+    {
+      "id": "CR01-N07-FORM-A",
+      "raw_sha256": "58f9de268a18bd101e02d01c42fc56e1855b3c9841abdf8036125924469b0131",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N07-FORM-B",
+      "raw_sha256": "05f6e6a067e6e2a74dd04ffbadde2ea8524c87dd79b5f94d14e56b4b0ffb897a",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N06-FORM-B",
+      "raw_sha256": "99dbd0f4b84cee1369588a7c6e4e4c9b09efb10e4a94caa27747c1225fe0afbe",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N06-FORM-A",
+      "raw_sha256": "d3e9236ded5562178c62528bc703ab33f8af7177ab5876e456e10254a9bf5b39",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N05-FORM-A",
+      "raw_sha256": "22e5aac18f35c4e20ee387849c26b0be88a7ac4b96e686d3e2a9b538044e7d23",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N05-FORM-B",
+      "raw_sha256": "430f186c5e63932076ad784f00164fc59f5d0aeafc4b1c54afa5e769935f6ba3",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N03-FORM-A",
+      "raw_sha256": "0d9ecdd7afc765e662c9d3768ae1ec36732176752694ecb809bcc616ba446dd1",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N03-FORM-B",
+      "raw_sha256": "d535fdc297e5201a1b83abb1cba160d7ea86f96b57ce784afbc14587d034c3ad",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP22/D23。FORMとCONFIRMのPAPER不適合、USEのDIGITAL回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N04-FORM-B",
+      "raw_sha256": "faf17474979ef9c37680ade451d3e534d4df745c22a4d9d60b49cb62c07b05c8",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N01-FORM-A",
+      "raw_sha256": "c3f5eac73533f4c463d4e2fc5216e87eae9ab4fc4b3cbb5faa56b9d585a78830",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N01-FORM-B",
+      "raw_sha256": "29269b30d8be6ad58cdd7835b8cf8e19d9ee17fbf9151a41041aa56a177f7be9",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N08-FORM-B",
+      "raw_sha256": "034636169372fe0009e782b3408e3f6e004fc901c52a6d15c8eaa15d25448f3b",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP52/D46。FORMとRECHECKのDIGITAL不適合、USEのPAPER回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N08-FORM-A",
+      "raw_sha256": "67246431436f40d5569ef37748c98670b39decc841cfa7a7928f64d0bc1bd549",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N07-OPTIMAL-CONFIRM",
+      "raw_sha256": "d4a8ea9ecb7df0e153b78e420e957e5523ec12b0840dcf0cc6f5da501b898f92",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N07-OPTIMAL-USE-A",
+      "raw_sha256": "9b09daf3fd6eaffe1f64556a5703f55a01c17a2a4a17d4701e4428457810f566",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N07-OPTIMAL-USE-B",
+      "raw_sha256": "6b41b387a91d04ec81b1b0615830f459105a00398e0673ffbcf7baffcb2ef946",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N07-LOWER-CONFIRM",
+      "raw_sha256": "76e4c45ef5d72fa488dc99442d67ecbff966c7101c9de80482982f39f1019b0f",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N07-LOWER-RECHECK",
+      "raw_sha256": "8b49e4f448c9d3ed3d07b95a353a20fc80cfaa52efa50bef9bab5c3a2ab818a9",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N07-LOWER-USE-A",
+      "raw_sha256": "a42d3e6521324c79542f1ed0f2227ec1f073f524213dff35516d942cfedd8b6b",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N07-LOWER-USE-B",
+      "raw_sha256": "66b14da772d3d649bc90dd9eae820fc3dd45dc34f199c614f07f1c569e3c592a",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N05-LOWER-CONFIRM",
+      "raw_sha256": "422150f3d9c659ea92cdab29659334d7a3c93927ebb052fb3ee31f5288ad1cca",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N05-LOWER-RECHECK",
+      "raw_sha256": "dbbdf7f0ffcc1583a8d7e0c2ae4479712f226e4ced39ced45472cccbedd7a6b6",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N05-LOWER-USE-A",
+      "raw_sha256": "2e7353edd278422d3fe9e9d4563a9968045033e1630cc5839abd15803fa150d3",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N05-LOWER-USE-B",
+      "raw_sha256": "0e42c26e9f2d473f01e71e0ba29425d816e899c81819b39340a0cf9047ef1ca4",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N06-DUPLICATE-CONFIRM",
+      "raw_sha256": "0359b44a43a1162a9945f30d1381ce06d9d6c89b55925176221cc6de2522833c",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N06-DUPLICATE-RECHECK",
+      "raw_sha256": "a87c05af80844d93b5026808896ad927a47e923ca2f406bec79ef0ed8fa60f26",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N06-DUPLICATE-USE-B",
+      "raw_sha256": "d0e33dae06dcda0427f22b61db9822a03dec8a1fa84d524086cd083548df3932",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N06-DUPLICATE-USE-A",
+      "raw_sha256": "9541bd99a607e49c0df662b8b5db274e5e56b46e9c76163770621441be8a9fe4",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N03-DUPLICATE-CONFIRM",
+      "raw_sha256": "164781f337935fbab34c1b68b815e6fa3656259c2d52dfd573eb294235d94b97",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP22/D23。FORMとCONFIRMのPAPER不適合、USEのDIGITAL回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N03-DUPLICATE-RECHECK",
+      "raw_sha256": "f90001c77258a8ff7d08dfe155eba9f3b2cb768b5011d2d18e114175fcc9f35e",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N03-DUPLICATE-USE-A",
+      "raw_sha256": "61cbf1076c5fdda2ebd1d3d7e3d30e8d6e3e6de2adfc0af2e6e4212c84abc6ed",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N03-DUPLICATE-USE-B",
+      "raw_sha256": "1a7669f25976313ed62c951419fd419bca98f2f85a7cd39912c593a8231dfcc5",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP22/D23。FORMとCONFIRMのPAPER不適合、USEのDIGITAL回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N03-LOWER-CONFIRM",
+      "raw_sha256": "164781f337935fbab34c1b68b815e6fa3656259c2d52dfd573eb294235d94b97",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP22/D23。FORMとCONFIRMのPAPER不適合、USEのDIGITAL回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N03-LOWER-RECHECK",
+      "raw_sha256": "f90001c77258a8ff7d08dfe155eba9f3b2cb768b5011d2d18e114175fcc9f35e",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N03-LOWER-USE-A",
+      "raw_sha256": "61cbf1076c5fdda2ebd1d3d7e3d30e8d6e3e6de2adfc0af2e6e4212c84abc6ed",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N03-LOWER-USE-B",
+      "raw_sha256": "1a7669f25976313ed62c951419fd419bca98f2f85a7cd39912c593a8231dfcc5",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP22/D23。FORMとCONFIRMのPAPER不適合、USEのDIGITAL回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N03-OPTIMAL-CONFIRM",
+      "raw_sha256": "0d3fe1845d74ea69929605f7fabf10ec129be3e6d1f77ecdca605f91562e8631",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP22/D23。FORMとCONFIRMのPAPER不適合、USEのDIGITAL回復を区別。",
+        "適切な42人案に対し劣位40人案をCOUNTER。"
+      ]
+    },
+    {
+      "id": "CR01-N03-OPTIMAL-RECHECK",
+      "raw_sha256": "0876ef532cf77633f3f3d067a0ff40cff14bce001aeac3b31951e768bea9e4b5",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "実際に届いた劣位対案をHOLD。本人PAPERは適切。"
+      ]
+    },
+    {
+      "id": "CR01-N03-OPTIMAL-USE-A",
+      "raw_sha256": "42cc51e2dbe6453161f09897078f609e39d15386f271fdd80d81492e24701e30",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N03-OPTIMAL-USE-B",
+      "raw_sha256": "c678c22328eb12e78ad2e67d006fe766b04ad32b12c0fd1d76f7c9ad0e1e21ab",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP22/D23。FORMとCONFIRMのPAPER不適合、USEのDIGITAL回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N01-OPTIMAL-CONFIRM",
+      "raw_sha256": "e9c7faa8a28f6cef1f9d4d9809a86d8f4b123e7889da7ac7dcd11ce19640576b",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N01-OPTIMAL-USE-A",
+      "raw_sha256": "d44f02fbea9352394d261afa644dff4bcfb1c56eefbe555aa4df343b53a61234",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N01-OPTIMAL-USE-B",
+      "raw_sha256": "c0be32c19fbb0ece8a56f02b96f0734df7fcff1d46591acae11d0d03e63979b3",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N01-LOWER-CONFIRM",
+      "raw_sha256": "116c8adc97c16a4a4267bbb2cdcd7c667eb6070aaddb522ee077fc984ef81424",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N01-LOWER-RECHECK",
+      "raw_sha256": "c984ba67ab04b3075a38fc53389233ea26f3023b3c2940d558b93bdd77e5ce57",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N01-LOWER-USE-A",
+      "raw_sha256": "bc6be1383b15b05323001a315d27b84430901a89a225fd3b8613378f75c8ccfc",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N01-LOWER-USE-B",
+      "raw_sha256": "1f4626cdc87e8f680f9e008345202034644d3770f7c74cf91d7833bb76a16c40",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N08-LOWER-CONFIRM",
+      "raw_sha256": "2fbb41725fd35ed4cf1e3166522b5bedd0447845a2656caa0f9aa1a1e3d8308f",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N08-LOWER-RECHECK",
+      "raw_sha256": "e6aebe116e610a1238148a0ea3ebe8f727fe245bec3477227f8b634f877a962a",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP52/D46。FORMとRECHECKのDIGITAL不適合、USEのPAPER回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N08-LOWER-USE-B",
+      "raw_sha256": "71581e62ca8c928ab02fa16dbfcbca4ef46a83ef4a04098e3ab5a27a4202d5e8",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP52/D46。FORMとRECHECKのDIGITAL不適合、USEのPAPER回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N08-LOWER-USE-A",
+      "raw_sha256": "0dc3a988fbb34908bef18e01e4816b80a3736783ec6d50527af67da03ed503f6",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N08-DUPLICATE-CONFIRM",
+      "raw_sha256": "4b00ede25339fe3d2a013eef7a3dd39fcc34b8cf783a4666666ebde9c1e82543",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N08-DUPLICATE-RECHECK",
+      "raw_sha256": "e6aebe116e610a1238148a0ea3ebe8f727fe245bec3477227f8b634f877a962a",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP52/D46。FORMとRECHECKのDIGITAL不適合、USEのPAPER回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N08-DUPLICATE-USE-B",
+      "raw_sha256": "71581e62ca8c928ab02fa16dbfcbca4ef46a83ef4a04098e3ab5a27a4202d5e8",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP52/D46。FORMとRECHECKのDIGITAL不適合、USEのPAPER回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N08-DUPLICATE-USE-A",
+      "raw_sha256": "0dc3a988fbb34908bef18e01e4816b80a3736783ec6d50527af67da03ed503f6",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N08-OPTIMAL-CONFIRM",
+      "raw_sha256": "b24bce56e87a5e0095de9c93b5e5b1737b434e0621f686da3057580751e4400a",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N08-OPTIMAL-USE-B",
+      "raw_sha256": "e4aee95787ef3b103b4cac73093378e41b90036ea9b4e8209bf16989b907e009",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP52/D46。FORMとRECHECKのDIGITAL不適合、USEのPAPER回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N08-OPTIMAL-USE-A",
+      "raw_sha256": "4d1cb4539bd4d727a2cf56be74e670873aafdd92de3a6f1284d95e18dd570264",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N01-DIAG-LOWER-RECHECK",
+      "raw_sha256": "d6985b7d44c897f19d92dfeababf3d7637e783908b92959de2f1e83739bd0d63",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "最適42があるのに40の対案をACCEPT。本人・参照は適切。"
+      ]
+    },
+    {
+      "id": "CR01-N01-DIAG-OPTIMAL-RECHECK",
+      "raw_sha256": "156bbab14cd69e56a8aaa9b2845c3c3d21e8705eeead25a922a94b70cb0fd35c",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N01-DIAG-DUPLICATE-RECHECK",
+      "raw_sha256": "b92c5d8f446791171e082b88e5cc7bf016534652210336e23b26bf91382c7ab3",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N04-DIAG-OPTIMAL-RECHECK",
+      "raw_sha256": "395a2e0d8a8ab499606513d31f3f56f1ebef4f6ea952dbb64ded00716a2a8fc5",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N04-DIAG-DUPLICATE-RECHECK",
+      "raw_sha256": "bb762127cf4d0c55e7f332b600437709db863445ebb220716c2003f382d04aa5",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N04-DIAG-LOWER-RECHECK",
+      "raw_sha256": "bb762127cf4d0c55e7f332b600437709db863445ebb220716c2003f382d04aa5",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N08-DIAG-DUPLICATE-RECHECK",
+      "raw_sha256": "393b01ed4800da393c9a0db3263a1397d626f414005c94393159da874b9b158b",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP52/D46。FORMとRECHECKのDIGITAL不適合、USEのPAPER回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N08-DIAG-LOWER-RECHECK",
+      "raw_sha256": "393b01ed4800da393c9a0db3263a1397d626f414005c94393159da874b9b158b",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP52/D46。FORMとRECHECKのDIGITAL不適合、USEのPAPER回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N08-DIAG-OPTIMAL-RECHECK",
+      "raw_sha256": "8f712b6fdf2da1133946f17c7354330d7d665aaa9d896d45ef37403be3bd309a",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "本人経験はP52/D46。FORMとRECHECKのDIGITAL不適合、USEのPAPER回復を区別。"
+      ]
+    },
+    {
+      "id": "CR01-N05-DIAG-LOWER-RECHECK",
+      "raw_sha256": "f0b1d3c32daea160c6f8271fac07426dda0ff8aa0778f6c01df2abec4adfa4ab",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N05-DIAG-OPTIMAL-RECHECK",
+      "raw_sha256": "f97c5ee5596c6e87ccc53c91aa9ce152c5f450c8c27aeade011fdaa203c5756f",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    },
+    {
+      "id": "CR01-N05-DIAG-DUPLICATE-RECHECK",
+      "raw_sha256": "f0b1d3c32daea160c6f8271fac07426dda0ff8aa0778f6c01df2abec4adfa4ab",
+      "review_status": "COMPLETED",
+      "fixed_score_disagreement": false,
+      "notes": [
+        "入力の本人経験・共同候補または実決定記録と、回答の各欄・参照の対応を点検。"
+      ]
+    }
+  ]
+}

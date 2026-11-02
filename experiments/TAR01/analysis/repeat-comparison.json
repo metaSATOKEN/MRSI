@@ -1,0 +1,353 @@
+[
+  {
+    "input_key": "N03-B-HOLD",
+    "ids": [
+      "TAR01-N03-B-R1-HOLD",
+      "TAR01-N03-B-R2-HOLD"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N03-B-ACCEPT",
+    "ids": [
+      "TAR01-N03-B-R1-ACCEPT",
+      "TAR01-N03-B-R2-ACCEPT"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N03-B-MISSING",
+    "ids": [
+      "TAR01-N03-B-R1-MISSING",
+      "TAR01-N03-B-R2-MISSING"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N02-B-HOLD",
+    "ids": [
+      "TAR01-N02-B-R1-HOLD",
+      "TAR01-N02-B-R2-HOLD"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N02-B-MISSING",
+    "ids": [
+      "TAR01-N02-B-R1-MISSING",
+      "TAR01-N02-B-R2-MISSING"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N02-B-ACCEPT",
+    "ids": [
+      "TAR01-N02-B-R1-ACCEPT",
+      "TAR01-N02-B-R2-ACCEPT"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N03-C-MISSING",
+    "ids": [
+      "TAR01-N03-C-R1-MISSING",
+      "TAR01-N03-C-R2-MISSING"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N03-C-HOLD",
+    "ids": [
+      "TAR01-N03-C-R1-HOLD",
+      "TAR01-N03-C-R2-HOLD"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N03-C-ACCEPT",
+    "ids": [
+      "TAR01-N03-C-R1-ACCEPT",
+      "TAR01-N03-C-R2-ACCEPT"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N01-C-ACCEPT",
+    "ids": [
+      "TAR01-N01-C-R1-ACCEPT",
+      "TAR01-N01-C-R2-ACCEPT"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N01-C-MISSING",
+    "ids": [
+      "TAR01-N01-C-R1-MISSING",
+      "TAR01-N01-C-R2-MISSING"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N01-C-HOLD",
+    "ids": [
+      "TAR01-N01-C-R1-HOLD",
+      "TAR01-N01-C-R2-HOLD"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N01-A-MISSING",
+    "ids": [
+      "TAR01-N01-A-R1-MISSING",
+      "TAR01-N01-A-R2-MISSING"
+    ],
+    "strict": [
+      false,
+      true
+    ],
+    "answer_changed": true,
+    "approval_state_changed": true
+  },
+  {
+    "input_key": "N01-A-ACCEPT",
+    "ids": [
+      "TAR01-N01-A-R1-ACCEPT",
+      "TAR01-N01-A-R2-ACCEPT"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N01-A-HOLD",
+    "ids": [
+      "TAR01-N01-A-R1-HOLD",
+      "TAR01-N01-A-R2-HOLD"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N02-C-MISSING",
+    "ids": [
+      "TAR01-N02-C-R1-MISSING",
+      "TAR01-N02-C-R2-MISSING"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N02-C-ACCEPT",
+    "ids": [
+      "TAR01-N02-C-R1-ACCEPT",
+      "TAR01-N02-C-R2-ACCEPT"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N02-C-HOLD",
+    "ids": [
+      "TAR01-N02-C-R1-HOLD",
+      "TAR01-N02-C-R2-HOLD"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N03-A-ACCEPT",
+    "ids": [
+      "TAR01-N03-A-R1-ACCEPT",
+      "TAR01-N03-A-R2-ACCEPT"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N03-A-HOLD",
+    "ids": [
+      "TAR01-N03-A-R1-HOLD",
+      "TAR01-N03-A-R2-HOLD"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N03-A-MISSING",
+    "ids": [
+      "TAR01-N03-A-R1-MISSING",
+      "TAR01-N03-A-R2-MISSING"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N01-B-HOLD",
+    "ids": [
+      "TAR01-N01-B-R1-HOLD",
+      "TAR01-N01-B-R2-HOLD"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N01-B-ACCEPT",
+    "ids": [
+      "TAR01-N01-B-R1-ACCEPT",
+      "TAR01-N01-B-R2-ACCEPT"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N01-B-MISSING",
+    "ids": [
+      "TAR01-N01-B-R1-MISSING",
+      "TAR01-N01-B-R2-MISSING"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N02-A-ACCEPT",
+    "ids": [
+      "TAR01-N02-A-R1-ACCEPT",
+      "TAR01-N02-A-R2-ACCEPT"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N02-A-HOLD",
+    "ids": [
+      "TAR01-N02-A-R1-HOLD",
+      "TAR01-N02-A-R2-HOLD"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  },
+  {
+    "input_key": "N02-A-MISSING",
+    "ids": [
+      "TAR01-N02-A-R1-MISSING",
+      "TAR01-N02-A-R2-MISSING"
+    ],
+    "strict": [
+      true,
+      true
+    ],
+    "answer_changed": false,
+    "approval_state_changed": false
+  }
+]

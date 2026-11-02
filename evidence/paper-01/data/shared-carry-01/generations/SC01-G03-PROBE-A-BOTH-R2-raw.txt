@@ -1,0 +1,1 @@
+{"mascot":"CAT","mascot_sources":["PRIVATE"],"channel":"DIGITAL","channel_sources":["GROUP"]}

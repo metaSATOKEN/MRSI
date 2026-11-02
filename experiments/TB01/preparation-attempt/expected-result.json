@@ -1,0 +1,5704 @@
+{
+  "archive_sha256": "0f4dd32ba25c74cc9179072e9ca982627ba171ac083511110a97e270c4b0332c",
+  "files": 270,
+  "report": {
+    "unit": "3 numeric triads; 2 technical replicates; two offers share each replicate's FORM notes",
+    "by_stage": {
+      "FORM": {
+        "strict": {
+          "planned": 18,
+          "correct": 0,
+          "incorrect": 0,
+          "unresolved": 18
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 18
+          },
+          "own_recommendation": {
+            "planned": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 18
+          },
+          "own_sources": {
+            "planned": 18,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 18
+          }
+        }
+      },
+      "VOTE": {
+        "strict": {
+          "planned": 36,
+          "correct": 0,
+          "incorrect": 0,
+          "unresolved": 36
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 36,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 36
+          },
+          "own_recommendation": {
+            "planned": 36,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 36
+          },
+          "own_sources": {
+            "planned": 36,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 36
+          },
+          "vote": {
+            "planned": 36,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 36
+          }
+        }
+      },
+      "READ": {
+        "strict": {
+          "planned": 72,
+          "correct": 0,
+          "incorrect": 0,
+          "unresolved": 72
+        },
+        "metrics": {
+          "own_holder": {
+            "planned": 72,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 72
+          },
+          "own_recommendation": {
+            "planned": 72,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 72
+          },
+          "own_sources": {
+            "planned": 72,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 72
+          },
+          "approval_state": {
+            "planned": 72,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 72
+          },
+          "agreement": {
+            "planned": 72,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 72
+          },
+          "execution": {
+            "planned": 72,
+            "correct": 0,
+            "incorrect": 0,
+            "unresolved": 72
+          }
+        }
+      }
+    },
+    "read_by_snapshot_and_offer": {
+      "HIGHER/TWO_RECEIVED": {
+        "strict": {
+          "planned": 18,
+          "correct": 0,
+          "incorrect": 0,
+          "unresolved": 18
+        },
+        "false_agreements": 0,
+        "unsafe_commits": 0,
+        "unwarranted_holds": 0
+      },
+      "HIGHER/THREE_RECEIVED": {
+        "strict": {
+          "planned": 18,
+          "correct": 0,
+          "incorrect": 0,
+          "unresolved": 18
+        },
+        "false_agreements": 0,
+        "unsafe_commits": 0,
+        "unwarranted_holds": 0
+      },
+      "LOWER/TWO_RECEIVED": {
+        "strict": {
+          "planned": 18,
+          "correct": 0,
+          "incorrect": 0,
+          "unresolved": 18
+        },
+        "false_agreements": 0,
+        "unsafe_commits": 0,
+        "unwarranted_holds": 0
+      },
+      "LOWER/THREE_RECEIVED": {
+        "strict": {
+          "planned": 18,
+          "correct": 0,
+          "incorrect": 0,
+          "unresolved": 18
+        },
+        "false_agreements": 0,
+        "unsafe_commits": 0,
+        "unwarranted_holds": 0
+      }
+    },
+    "paths": [
+      {
+        "case": "T01",
+        "repeat": 1,
+        "offer": "HIGHER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T01",
+        "repeat": 1,
+        "offer": "LOWER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T01",
+        "repeat": 2,
+        "offer": "HIGHER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T01",
+        "repeat": 2,
+        "offer": "LOWER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T02",
+        "repeat": 1,
+        "offer": "HIGHER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T02",
+        "repeat": 1,
+        "offer": "LOWER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T02",
+        "repeat": 2,
+        "offer": "HIGHER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T02",
+        "repeat": 2,
+        "offer": "LOWER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T03",
+        "repeat": 1,
+        "offer": "HIGHER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T03",
+        "repeat": 1,
+        "offer": "LOWER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T03",
+        "repeat": 2,
+        "offer": "HIGHER",
+        "strict": null,
+        "own_preserved": null
+      },
+      {
+        "case": "T03",
+        "repeat": 2,
+        "offer": "LOWER",
+        "strict": null,
+        "own_preserved": null
+      }
+    ],
+    "triad_replicates": [
+      {
+        "case": "T01",
+        "repeat": 1,
+        "both_offers_strict": null
+      },
+      {
+        "case": "T01",
+        "repeat": 2,
+        "both_offers_strict": null
+      },
+      {
+        "case": "T02",
+        "repeat": 1,
+        "both_offers_strict": null
+      },
+      {
+        "case": "T02",
+        "repeat": 2,
+        "both_offers_strict": null
+      },
+      {
+        "case": "T03",
+        "repeat": 1,
+        "both_offers_strict": null
+      },
+      {
+        "case": "T03",
+        "repeat": 2,
+        "both_offers_strict": null
+      }
+    ],
+    "path_totals": {
+      "planned": 12,
+      "correct": 0,
+      "incorrect": 0,
+      "unresolved": 12
+    },
+    "triad_replicate_totals": {
+      "planned": 6,
+      "correct": 0,
+      "incorrect": 0,
+      "unresolved": 6
+    },
+    "gate": "INCONCLUSIVE",
+    "observed_failed_responses": 0,
+    "unresolved_responses": 126,
+    "gate_definition": "All 126 required responses interpretable and strict; no population claim or p-value.",
+    "protocol": "THREE-ROLE-BOUNDARY-01-RUN-v0.1",
+    "planned_responses": 126,
+    "attempted_generations": 0,
+    "status_counts": {
+      "PREPARATION_ERROR": 1,
+      "NOT_RUN": 17,
+      "DEPENDENCY_MISSING": 108
+    },
+    "evidence_kind": "NO_MODEL_RESPONSES",
+    "output_tokens": 0,
+    "generation_seconds": 0,
+    "by_slot": [
+      {
+        "branch": null,
+        "case": "T03",
+        "id": "TB01-T03-R1-FORM-C",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 2002275384,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "PREPARATION_ERROR",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T03",
+        "id": "TB01-T03-R1-FORM-A",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 917157209,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T03",
+        "id": "TB01-T03-R1-FORM-B",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 411504641,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R1-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T03-R1-FORM-C"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1339727675,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R1-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T03-R1-FORM-B"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1139726049,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R1-LOWER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T03-R1-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 435244183,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R1-LOWER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T03-R1-FORM-A",
+        "parents": [
+          "TB01-T03-R1-FORM-A",
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1662659622,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R1-LOWER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T03-R1-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T03-R1-LOWER-VOTE-B",
+          "TB01-T03-R1-LOWER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 603096852,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R1-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T03-R1-FORM-A"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 73190521,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R1-LOWER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T03-R1-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-B",
+          "TB01-T03-R1-LOWER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 390667069,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-B",
+          "TB01-T03-R1-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R1-LOWER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T03-R1-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T03-R1-LOWER-VOTE-A",
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1268218668,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-B",
+          "TB01-T03-R1-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R1-LOWER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T03-R1-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T03-R1-LOWER-VOTE-B",
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 932848371,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-LOWER-VOTE-C",
+          "TB01-T03-R1-LOWER-VOTE-B",
+          "TB01-T03-R1-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R1-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T03-R1-FORM-C"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1414634726,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R1-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T03-R1-FORM-B"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1766827179,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R1-HIGHER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T03-R1-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 610522139,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R1-HIGHER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T03-R1-FORM-A",
+        "parents": [
+          "TB01-T03-R1-FORM-A",
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 433038279,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R1-HIGHER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T03-R1-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T03-R1-HIGHER-VOTE-B",
+          "TB01-T03-R1-HIGHER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 676011173,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R1-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T03-R1-FORM-A"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1843540743,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R1-HIGHER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T03-R1-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-B",
+          "TB01-T03-R1-HIGHER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 593727571,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-B",
+          "TB01-T03-R1-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R1-HIGHER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T03-R1-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T03-R1-HIGHER-VOTE-A",
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 957853350,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-B",
+          "TB01-T03-R1-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R1-HIGHER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T03-R1-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T03-R1-HIGHER-VOTE-B",
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1966337406,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R1-HIGHER-VOTE-C",
+          "TB01-T03-R1-HIGHER-VOTE-B",
+          "TB01-T03-R1-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T01",
+        "id": "TB01-T01-R2-FORM-A",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 2008391414,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T01",
+        "id": "TB01-T01-R2-FORM-B",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1735505806,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T01",
+        "id": "TB01-T01-R2-FORM-C",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 52716307,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R2-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T01-R2-FORM-A"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1984239204,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R2-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T01-R2-FORM-C"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1742851124,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R2-HIGHER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T01-R2-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1139867800,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R2-HIGHER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T01-R2-FORM-B",
+        "parents": [
+          "TB01-T01-R2-FORM-B",
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 589693351,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R2-HIGHER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T01-R2-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T01-R2-HIGHER-VOTE-C",
+          "TB01-T01-R2-HIGHER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1792593037,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R2-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T01-R2-FORM-B"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 668891253,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R2-HIGHER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T01-R2-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-C",
+          "TB01-T01-R2-HIGHER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 253854097,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-C",
+          "TB01-T01-R2-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R2-HIGHER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T01-R2-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T01-R2-HIGHER-VOTE-B",
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1369015492,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-C",
+          "TB01-T01-R2-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R2-HIGHER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T01-R2-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T01-R2-HIGHER-VOTE-C",
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1734965963,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-HIGHER-VOTE-A",
+          "TB01-T01-R2-HIGHER-VOTE-C",
+          "TB01-T01-R2-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R2-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T01-R2-FORM-A"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 414896427,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R2-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T01-R2-FORM-C"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 450749861,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R2-LOWER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T01-R2-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 784976659,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R2-LOWER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T01-R2-FORM-B",
+        "parents": [
+          "TB01-T01-R2-FORM-B",
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 397802078,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R2-LOWER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T01-R2-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T01-R2-LOWER-VOTE-C",
+          "TB01-T01-R2-LOWER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1438024047,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R2-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T01-R2-FORM-B"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 185051630,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R2-LOWER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T01-R2-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-C",
+          "TB01-T01-R2-LOWER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1848910344,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-C",
+          "TB01-T01-R2-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R2-LOWER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T01-R2-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T01-R2-LOWER-VOTE-B",
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 965668803,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-C",
+          "TB01-T01-R2-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R2-LOWER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T01-R2-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T01-R2-LOWER-VOTE-C",
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1219782849,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R2-LOWER-VOTE-A",
+          "TB01-T01-R2-LOWER-VOTE-C",
+          "TB01-T01-R2-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T02",
+        "id": "TB01-T02-R1-FORM-B",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 2000860871,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T02",
+        "id": "TB01-T02-R1-FORM-C",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1295661732,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T02",
+        "id": "TB01-T02-R1-FORM-A",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 754132083,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R1-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T02-R1-FORM-B"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1342776735,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R1-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T02-R1-FORM-A"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 903847222,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R1-HIGHER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T02-R1-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1321248403,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R1-HIGHER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T02-R1-FORM-C",
+        "parents": [
+          "TB01-T02-R1-FORM-C",
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 44197913,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R1-HIGHER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T02-R1-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T02-R1-HIGHER-VOTE-A",
+          "TB01-T02-R1-HIGHER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 950390028,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R1-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T02-R1-FORM-C"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1224915157,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R1-HIGHER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T02-R1-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-A",
+          "TB01-T02-R1-HIGHER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1133669470,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-A",
+          "TB01-T02-R1-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R1-HIGHER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T02-R1-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T02-R1-HIGHER-VOTE-C",
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 817177603,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-A",
+          "TB01-T02-R1-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R1-HIGHER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T02-R1-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T02-R1-HIGHER-VOTE-A",
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 737739197,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-HIGHER-VOTE-B",
+          "TB01-T02-R1-HIGHER-VOTE-A",
+          "TB01-T02-R1-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R1-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T02-R1-FORM-B"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1956963119,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R1-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T02-R1-FORM-A"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 173393383,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R1-LOWER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T02-R1-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 790819605,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R1-LOWER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T02-R1-FORM-C",
+        "parents": [
+          "TB01-T02-R1-FORM-C",
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 971370553,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R1-LOWER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T02-R1-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T02-R1-LOWER-VOTE-A",
+          "TB01-T02-R1-LOWER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1195299112,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R1-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T02-R1-FORM-C"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 911740426,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R1-LOWER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T02-R1-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-A",
+          "TB01-T02-R1-LOWER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 167762722,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-A",
+          "TB01-T02-R1-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R1-LOWER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T02-R1-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T02-R1-LOWER-VOTE-C",
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1210413259,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-A",
+          "TB01-T02-R1-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R1-LOWER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T02-R1-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T02-R1-LOWER-VOTE-A",
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1594314926,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R1-LOWER-VOTE-B",
+          "TB01-T02-R1-LOWER-VOTE-A",
+          "TB01-T02-R1-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T03",
+        "id": "TB01-T03-R2-FORM-C",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1373890775,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T03",
+        "id": "TB01-T03-R2-FORM-A",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1301715270,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T03",
+        "id": "TB01-T03-R2-FORM-B",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 719270461,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R2-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T03-R2-FORM-C"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1602643030,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R2-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T03-R2-FORM-B"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1861422806,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R2-HIGHER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T03-R2-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 425792907,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R2-HIGHER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T03-R2-FORM-A",
+        "parents": [
+          "TB01-T03-R2-FORM-A",
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 301276457,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R2-HIGHER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T03-R2-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T03-R2-HIGHER-VOTE-B",
+          "TB01-T03-R2-HIGHER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1320189365,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R2-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T03-R2-FORM-A"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1887964583,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R2-HIGHER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T03-R2-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-B",
+          "TB01-T03-R2-HIGHER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 132649507,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-B",
+          "TB01-T03-R2-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R2-HIGHER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T03-R2-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T03-R2-HIGHER-VOTE-A",
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 159252666,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-B",
+          "TB01-T03-R2-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T03",
+        "id": "TB01-T03-R2-HIGHER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T03-R2-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T03-R2-HIGHER-VOTE-B",
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1858229889,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-HIGHER-VOTE-C",
+          "TB01-T03-R2-HIGHER-VOTE-B",
+          "TB01-T03-R2-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R2-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T03-R2-FORM-C"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 161473108,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R2-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T03-R2-FORM-B"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 31703792,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R2-LOWER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T03-R2-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1249026812,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R2-LOWER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T03-R2-FORM-A",
+        "parents": [
+          "TB01-T03-R2-FORM-A",
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 302382983,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R2-LOWER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T03-R2-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T03-R2-LOWER-VOTE-B",
+          "TB01-T03-R2-LOWER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1257224175,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R2-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T03-R2-FORM-A"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 148307468,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R2-LOWER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T03-R2-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-B",
+          "TB01-T03-R2-LOWER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1351753017,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-B",
+          "TB01-T03-R2-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R2-LOWER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T03-R2-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T03-R2-LOWER-VOTE-A",
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1238357987,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-B",
+          "TB01-T03-R2-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T03",
+        "id": "TB01-T03-R2-LOWER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T03-R2-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T03-R2-LOWER-VOTE-B",
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 2124617247,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T03-R2-LOWER-VOTE-C",
+          "TB01-T03-R2-LOWER-VOTE-B",
+          "TB01-T03-R2-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T01",
+        "id": "TB01-T01-R1-FORM-A",
+        "parents": [],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1575118853,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T01",
+        "id": "TB01-T01-R1-FORM-B",
+        "parents": [],
+        "repeat": 1,
+        "role": "B",
+        "seed": 121057844,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T01",
+        "id": "TB01-T01-R1-FORM-C",
+        "parents": [],
+        "repeat": 1,
+        "role": "C",
+        "seed": 2104142153,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R1-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T01-R1-FORM-A"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1286581711,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R1-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T01-R1-FORM-C"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 2118667274,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R1-LOWER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T01-R1-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1525850999,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R1-LOWER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T01-R1-FORM-B",
+        "parents": [
+          "TB01-T01-R1-FORM-B",
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 666472404,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R1-LOWER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T01-R1-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T01-R1-LOWER-VOTE-C",
+          "TB01-T01-R1-LOWER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 923880185,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R1-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T01-R1-FORM-B"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 1120911589,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R1-LOWER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T01-R1-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-C",
+          "TB01-T01-R1-LOWER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1092209328,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-C",
+          "TB01-T01-R1-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R1-LOWER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T01-R1-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T01-R1-LOWER-VOTE-B",
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 552676918,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-C",
+          "TB01-T01-R1-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T01",
+        "id": "TB01-T01-R1-LOWER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T01-R1-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T01-R1-LOWER-VOTE-C",
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 756971820,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-LOWER-VOTE-A",
+          "TB01-T01-R1-LOWER-VOTE-C",
+          "TB01-T01-R1-LOWER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R1-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T01-R1-FORM-A"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 527820107,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R1-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T01-R1-FORM-C"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1238421136,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R1-HIGHER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T01-R1-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1257313547,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R1-HIGHER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T01-R1-FORM-B",
+        "parents": [
+          "TB01-T01-R1-FORM-B",
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 345733939,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R1-HIGHER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T01-R1-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T01-R1-HIGHER-VOTE-C",
+          "TB01-T01-R1-HIGHER-VOTE-A"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1343649127,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R1-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T01-R1-FORM-B"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 51121907,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R1-HIGHER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T01-R1-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-C",
+          "TB01-T01-R1-HIGHER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "A",
+        "seed": 1500668836,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-C",
+          "TB01-T01-R1-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R1-HIGHER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T01-R1-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T01-R1-HIGHER-VOTE-B",
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-C"
+        ],
+        "repeat": 1,
+        "role": "B",
+        "seed": 2104048989,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-C",
+          "TB01-T01-R1-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T01",
+        "id": "TB01-T01-R1-HIGHER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T01-R1-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T01-R1-HIGHER-VOTE-C",
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-B"
+        ],
+        "repeat": 1,
+        "role": "C",
+        "seed": 1317653911,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T01-R1-HIGHER-VOTE-A",
+          "TB01-T01-R1-HIGHER-VOTE-C",
+          "TB01-T01-R1-HIGHER-VOTE-B"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T02",
+        "id": "TB01-T02-R2-FORM-B",
+        "parents": [],
+        "repeat": 2,
+        "role": "B",
+        "seed": 1069636156,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T02",
+        "id": "TB01-T02-R2-FORM-C",
+        "parents": [],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1483147470,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": null,
+        "case": "T02",
+        "id": "TB01-T02-R2-FORM-A",
+        "parents": [],
+        "repeat": 2,
+        "role": "A",
+        "seed": 51336771,
+        "snapshot": null,
+        "stage": "FORM",
+        "status": "NOT_RUN",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R2-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T02-R2-FORM-B"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 569470013,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R2-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T02-R2-FORM-A"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 588778348,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R2-LOWER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T02-R2-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 192089826,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R2-LOWER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T02-R2-FORM-C",
+        "parents": [
+          "TB01-T02-R2-FORM-C",
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 356555578,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R2-LOWER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T02-R2-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T02-R2-LOWER-VOTE-A",
+          "TB01-T02-R2-LOWER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1307518315,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R2-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T02-R2-FORM-C"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1269737620,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R2-LOWER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T02-R2-LOWER-VOTE-B",
+        "parents": [
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-A",
+          "TB01-T02-R2-LOWER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 328717935,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-A",
+          "TB01-T02-R2-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R2-LOWER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T02-R2-LOWER-VOTE-C",
+        "parents": [
+          "TB01-T02-R2-LOWER-VOTE-C",
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 550844556,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-A",
+          "TB01-T02-R2-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "LOWER",
+        "case": "T02",
+        "id": "TB01-T02-R2-LOWER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T02-R2-LOWER-VOTE-A",
+        "parents": [
+          "TB01-T02-R2-LOWER-VOTE-A",
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1433387575,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-LOWER-VOTE-B",
+          "TB01-T02-R2-LOWER-VOTE-A",
+          "TB01-T02-R2-LOWER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R2-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T02-R2-FORM-B"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 602110541,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R2-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T02-R2-FORM-A"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 2045818538,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R2-HIGHER-TWO_RECEIVED-B",
+        "own_parent": "TB01-T02-R2-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 493973345,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R2-HIGHER-TWO_RECEIVED-C",
+        "own_parent": "TB01-T02-R2-FORM-C",
+        "parents": [
+          "TB01-T02-R2-FORM-C",
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 65089841,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R2-HIGHER-TWO_RECEIVED-A",
+        "own_parent": "TB01-T02-R2-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T02-R2-HIGHER-VOTE-A",
+          "TB01-T02-R2-HIGHER-VOTE-B"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 1998218752,
+        "snapshot": "TWO_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-A"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R2-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T02-R2-FORM-C"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 2033413053,
+        "snapshot": null,
+        "stage": "VOTE",
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "vote"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null,
+            "vote": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R2-HIGHER-THREE_RECEIVED-B",
+        "own_parent": "TB01-T02-R2-HIGHER-VOTE-B",
+        "parents": [
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-A",
+          "TB01-T02-R2-HIGHER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "B",
+        "seed": 43456053,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-A",
+          "TB01-T02-R2-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R2-HIGHER-THREE_RECEIVED-C",
+        "own_parent": "TB01-T02-R2-HIGHER-VOTE-C",
+        "parents": [
+          "TB01-T02-R2-HIGHER-VOTE-C",
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-A"
+        ],
+        "repeat": 2,
+        "role": "C",
+        "seed": 1641649452,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-A",
+          "TB01-T02-R2-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      },
+      {
+        "branch": "HIGHER",
+        "case": "T02",
+        "id": "TB01-T02-R2-HIGHER-THREE_RECEIVED-A",
+        "own_parent": "TB01-T02-R2-HIGHER-VOTE-A",
+        "parents": [
+          "TB01-T02-R2-HIGHER-VOTE-A",
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-C"
+        ],
+        "repeat": 2,
+        "role": "A",
+        "seed": 162392741,
+        "snapshot": "THREE_RECEIVED",
+        "stage": "READ",
+        "vote_parents": [
+          "TB01-T02-R2-HIGHER-VOTE-B",
+          "TB01-T02-R2-HIGHER-VOTE-A",
+          "TB01-T02-R2-HIGHER-VOTE-C"
+        ],
+        "status": "DEPENDENCY_MISSING",
+        "score": {
+          "answer": null,
+          "applicable": [
+            "own_holder",
+            "own_recommendation",
+            "own_sources",
+            "approval_state",
+            "agreement",
+            "execution"
+          ],
+          "errors": [
+            "NO_RESPONSE"
+          ],
+          "false_agreement": null,
+          "format_valid": null,
+          "metrics": {
+            "agreement": null,
+            "approval_state": null,
+            "execution": null,
+            "own_holder": null,
+            "own_recommendation": null,
+            "own_sources": null
+          },
+          "strict": null,
+          "unsafe_commit": null,
+          "unwarranted_hold": null
+        }
+      }
+    ]
+  }
+}

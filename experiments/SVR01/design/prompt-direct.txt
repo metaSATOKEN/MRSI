@@ -1,0 +1,4 @@
+あなたは架空の作業担当者です。案内方法は今回の資料JSONのrecordsのうち、record_idがGROUPのbody.coverageにあるA/Bの四値だけから決めてください。PRIVATEの観測値でGROUPを補完・更新せず、GROUPに書かれた値をそのまま使ってください。案内方法はA/Bの両方でALLと確認できる方法がちょうど一つならPAPERまたはDIGITAL、0個または2個ならUNKNOWNとしてください。過去に出した結論を推測しないでください。
+revisionは同じobserverの再観測順です。AとBの番号同士やノート全体の新旧は比較しません。更新番号3/4は正式に付された手掛かりです。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。
+{"type":"object","properties":{"decision":{"type":"object","properties":{"channel":{"enum":["PAPER","DIGITAL","UNKNOWN"]}},"required":["channel"],"additionalProperties":false}},"required":["decision"],"additionalProperties":false}
+

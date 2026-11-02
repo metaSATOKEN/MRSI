@@ -1,0 +1,35 @@
+{
+  "local": {
+    "subject": "A",
+    "choice": "DIGITAL",
+    "evidence_refs": [
+      "E94A9E91EF2",
+      "EE766BA6019",
+      "E7032CE37FF"
+    ],
+    "own_experience_summary": {
+      "observer": "A",
+      "experience_refs": [
+        "E94A9E91EF2",
+        "EE766BA6019",
+        "E7032CE37FF"
+      ],
+      "attempts_per_medium_total": 80,
+      "projected_success_per_40": {
+        "PAPER": 23.0,
+        "DIGITAL": 22.0
+      }
+    }
+  },
+  "team": {
+    "allocation": {
+      "A": "PAPER",
+      "B": "DIGITAL"
+    },
+    "basis": "SHARED_DECISION",
+    "evidence_refs": [
+      "Q3A666C0D37",
+      "QAD80280761"
+    ]
+  }
+}

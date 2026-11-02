@@ -1,0 +1,28 @@
+{
+  "automatic_regenerations": 0,
+  "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "cloud_drive": "not_used",
+  "design_sha256": "73b620b6c0780b14c549d3a9116f04f6d79527f31c13c43daee49e5f1a8bb475",
+  "frozen_hashes": {
+    "design.json": "73b620b6c0780b14c549d3a9116f04f6d79527f31c13c43daee49e5f1a8bb475",
+    "prereg.md": "e02ea1ba64fee827cba5cc23337f26b5d1faa96fb9412a28505743ac722edb0e",
+    "render-fix.md": "ed50ffe8b2674326447492c3e73264f788a535f94852a330bda485dd460e10b3"
+  },
+  "implementation": "v0.1.1-render-guard",
+  "max_generations": 126,
+  "protocol": "THREE-ROLE-BOUNDARY-01-RUN-v0.1",
+  "resume_generation": false,
+  "retention": "private_no_deletion_deadline",
+  "seconds_including_setup": 2700,
+  "source_hashes": {
+    "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "three_role_boundary_01_bootstrap.py": "1da617dc344f3d3d8b4a60f26fc8ca93c280fa39229ddf81f29dfb91205a16aa",
+    "three_role_boundary_01_design.py": "7fb22ed2ba322261cc6ff406018287d628e0e1ff6400610f46c4d31c4bfa9a94",
+    "three_role_boundary_01_fixtures.py": "7fbadec8fb66c61154505f85c64a293fbc2f469dbe79f530d43c5ba89e343132",
+    "three_role_boundary_01_runtime.py": "a748d913a8c5047d7b15fab7bcda3632db292b35a710297d2f1017702ae4c0d6",
+    "three_role_boundary_01_scoring.py": "5a6f6a5f6a177bd3f733a06e93dd953fb6ecc0cd9d111251d3262ca1912bd249",
+    "update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8"
+  }
+}

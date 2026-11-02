@@ -1,0 +1,53 @@
+{
+  "kind": "POSTHOC_RECONSTRUCTION_NOT_EXPERIMENT_SAVED_MEMORY",
+  "pipeline": "UR01-G06-R1-SELECT",
+  "normalization_status": "UNWRAPPED",
+  "memory": {
+    "private_note": {
+      "coverage": {
+        "observer": "A",
+        "paper": "NOT_ALL",
+        "digital": "ALL",
+        "origin_id": "RAE8036BB2390796",
+        "revision": 4
+      },
+      "customer": {
+        "subject": "A",
+        "animal": "DOG",
+        "origin_id": "R7174F175DF7D116"
+      }
+    },
+    "shared_note": {
+      "coverage": {
+        "A": {
+          "digital": "ALL",
+          "observer": "A",
+          "origin_id": "RAE8036BB2390796",
+          "paper": "NOT_ALL",
+          "revision": 4
+        },
+        "B": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "R0A0516AA4DF587E",
+          "paper": "NOT_ALL",
+          "revision": 2
+        }
+      }
+    }
+  },
+  "choice_trace": [
+    {
+      "target": "A",
+      "row_id": "C3",
+      "location": "GROUP.coverage.A",
+      "source_row_sha256": "dfdb5c1f9eee6c64d6c11b8a8586ad8a8540079e9bec0a4274e108b31acb5033"
+    },
+    {
+      "target": "B",
+      "row_id": "C4",
+      "location": "GROUP.coverage.B",
+      "source_row_sha256": "ad6ea6b9b78033f1ed236fcc0280249e8af24d0008d8718d97fc82f98e445600"
+    }
+  ]
+}

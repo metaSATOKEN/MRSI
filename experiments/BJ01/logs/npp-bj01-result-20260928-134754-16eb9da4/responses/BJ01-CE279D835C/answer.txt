@@ -1,0 +1,50 @@
+{
+  "judgment_id": "BJ01-CE279D835C",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/local",
+        "/answer/team"
+      ],
+      "evidence_pointers": [
+        "/contract/schema"
+      ],
+      "reason": "渡された答案はschemaで定義された必須キーを持ち、追加プロパティや型違反がないため、形式要件を満たしている。"
+    },
+    "attribution": {
+      "verdict": "VIOLATION",
+      "answer_pointers": [
+        "/answer/local/evidence_refs"
+      ],
+      "evidence_pointers": [
+        "/payload/experiences",
+        "/facts/roles/B/episode_ids"
+      ],
+      "reason": "local.evidence_refsに「E-unlisted...」という架空のIDが含まれており、holder(B)の全経験ID(E1C60625B3D, EC9F2F8942D, EFBC27A7729)との厳密一致ルールに違反する。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/local/choice"
+      ],
+      "evidence_pointers": [
+        "/facts/roles/B/projected_success_per_40"
+      ],
+      "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高く、答案のDIGITAL選択はルールに従っている。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/team/allocation",
+        "/answer/team/basis",
+        "/answer/team/evidence_refs"
+      ],
+      "evidence_pointers": [
+        "/payload/joint_records",
+        "/facts/feasible_allocations"
+      ],
+      "reason": "joint_recordsにBの提案とAのACCEPTがあり、割付は予測合計最大の合法案と一致するため、SHARED_DECISIONとして適切に記録されている。"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "a8470fd382d9233c0847e0d1f9b1cadf3ff8d75ffcce79c127e319fde449a2d2",
+    "design.md": "d4d72a6cbbb950d2cbddb63d91912d2b716dab3880cc91414205f4750ae40291",
+    "materials/contract.json": "410001ed6eaafbf5584d33f6ec50b82efe0caf385e435193bc855e629fd13224",
+    "requests.jsonl": "b430d4534f70c8fa8840f5e1a8d893c723238d59866a3ba3cd64deb727fc321e",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/owner_recency_01_bootstrap.py": "d910cd45a971d83c178647fa550dad01df00d45d09cde0847413e0c4a5b0de75",
+    "source/owner_recency_01_runtime.py": "9e45e87ffd67f9ba3ddc608244d071a9cdd71f1020061e83b9682608c9cc2d57",
+    "source/owner_recency_01_scoring.py": "ac7c106f9f187b03b97ff2870fa1dab484b6545790eadaa81c3f4cc9d7c54d93",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/saved_readout_01_scoring.py": "771585161c56963b938bb13ef36decafdaa9711125adfc1f3abc5eef4a73525a",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "source/update_readout_01_scoring.py": "b7ec099775e4065297a2a98e95239dc0f07422cc918c93f07b1871dacff41b85",
+    "supervisor.py": "6dc00c1212f15abde9b58bdca071984e87eccd45382dc6fb6493a5ba002597b2"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "4f393cc599f2b2408928549b876aa2b59075fd07da7e65433771af521a53547c",
+  "original_payload_sha256": "6ae66f89836bfba2b158e5030e0e32e3bccf583ab50e87f8d47ce37874662de5",
+  "original_supervisor_sha256": "d910cd45a971d83c178647fa550dad01df00d45d09cde0847413e0c4a5b0de75",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "owner_recency_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/owner_recency_01_bootstrap.py"
+          },
+          "owner_recency_01_runtime.py": {
+            "kind": "text",
+            "path": "source/owner_recency_01_runtime.py"
+          },
+          "owner_recency_01_scoring.py": {
+            "kind": "text",
+            "path": "source/owner_recency_01_scoring.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "saved_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/saved_readout_01_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          },
+          "update_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_scoring.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "OR01"
+}

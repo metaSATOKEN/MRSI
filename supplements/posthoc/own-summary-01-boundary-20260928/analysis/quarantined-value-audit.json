@@ -1,0 +1,618 @@
+[
+  {
+    "id": "OS01-M05-REINFORCE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M05-REINFORCE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M05-REINFORCE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M05-REINFORCE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M06-REINFORCE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M06-REINFORCE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M06-REVERSE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M06-REVERSE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M06-REVERSE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M06-REVERSE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M07-REVERSE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M07-REVERSE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M07-REVERSE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M07-REVERSE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M07-REINFORCE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M07-REINFORCE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M07-REINFORCE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M07-REINFORCE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M08-REINFORCE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M08-REINFORCE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M08-REINFORCE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M08-REINFORCE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M08-REVERSE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M08-REVERSE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M08-REVERSE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M08-REVERSE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M09-REVERSE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M09-REVERSE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M09-REINFORCE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M09-REINFORCE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M10-REVERSE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M10-REVERSE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M11-REVERSE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M11-REVERSE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M11-REINFORCE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M11-REINFORCE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M12-REINFORCE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M12-REINFORCE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M12-REVERSE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M12-REVERSE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M12-REVERSE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M12-REVERSE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M14-REINFORCE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M14-REINFORCE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M14-REVERSE-F0-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": false,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M14-REVERSE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M14-REVERSE-F1-U0-USE-B",
+    "numeric_matches": {
+      "PAPER": false,
+      "DIGITAL": false
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": false,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M14-REVERSE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M15-REVERSE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M15-REVERSE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M15-REINFORCE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M15-REINFORCE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M16-REINFORCE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M16-REINFORCE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M16-REVERSE-F1-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  },
+  {
+    "id": "OS01-M16-REVERSE-F0-U0-USE-A",
+    "numeric_matches": {
+      "PAPER": true,
+      "DIGITAL": true
+    },
+    "observer_correct": true,
+    "refs_correct": true,
+    "denominator_correct": true,
+    "used_for_scoring": false
+  }
+]

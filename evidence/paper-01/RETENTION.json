@@ -1,0 +1,17 @@
+{
+  "status": "APPROVED_ACTIVE",
+  "retention": "NO_DELETION_DEADLINE",
+  "deletion_deadline": null,
+  "policy_id": "PAPER01-RETENTION-20260922-V1",
+  "approval_date_jst": "2026-09-22",
+  "authorization_quote": "あ、保存期間は削除期限なしにしてもらってOKだよー！",
+  "scope": "This v0.5 package and its ZIP, as repackaging of the same 1127 original answers and the approved supplemental scorers",
+  "manifest": "MANIFEST.json",
+  "previous_package_manifest_sha256": "537b2059ae8dbb817d8c9ebdbc5c080a06f0297a2fc874d4f7f4c13fb260a963",
+  "original_policy": "references/papers/paper-01/retention-policy-v0.1-2026-09-22.md",
+  "original_approved_scope": "references/throughline/audits/paper-01-retention-20260922/approved-scope.json",
+  "public_release_authorized": false,
+  "new_research_data_included": false,
+  "historical_deadlines": "Old dates in frozen configurations and reports remain historical evidence; this policy supersedes them for this package only.",
+  "user_deleted_v01_zip_record": "references/throughline/audits/paper-01-reader-claude-20260922/retention-availability.json"
+}

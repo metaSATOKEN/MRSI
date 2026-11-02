@@ -1,0 +1,61 @@
+"""E1 workflow, drawn from the fixed design. No experimental data generated."""
+from pathlib import Path
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch,FancyArrowPatch
+OUT=Path(__file__).resolve().parent
+plt.rcParams.update({'font.family':'Hiragino Sans','font.size':12,'svg.fonttype':'path','savefig.facecolor':'white'})
+fig,ax=plt.subplots(figsize=(14,8.2))
+ax.set(xlim=(0,14),ylim=(0,8.2));ax.axis('off')
+ink='#203647';blue='#e6eff9';green='#e5f3eb';gray='#f0f2f4'
+def box(x,y,w,h,text,fill=blue,size=12):
+ ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=0.08,rounding_size=0.08',lw=1,edgecolor='#93a1ad',facecolor=fill))
+ ax.text(x+w/2,y+h/2,text,ha='center',va='center',color=ink,fontsize=size,linespacing=1.6)
+def arrow(a,b,label=None,dashed=False):
+ ax.add_patch(FancyArrowPatch(a,b,arrowstyle='-|>',mutation_scale=15,lw=1.3,color='#536c7c',linestyle='--' if dashed else '-'))
+ if label:ax.text((a[0]+b[0])/2,(a[1]+b[1])/2+.18,label,ha='center',fontsize=10,color=ink,bbox={'facecolor':'white','edgecolor':'none','pad':2})
+ax.text(.3,7.9,'図1　同じ資料から、二つの保存方式を比較する',fontsize=20,color=ink,weight='bold',va='top')
+ax.text(.3,7.35,'転記方式比較（E1）・一役分　　資料は同一／指示と出力形式は方式ごとに異なる',fontsize=11.5,color='#526270')
+box(.35,3.05,2.5,2.5,'初回資料\n本人の個別ノート\n自分の共同コピー\n相手の共同コピー',gray)
+ax.text(3.65,6.85,'再記述',fontsize=14,color=ink,weight='bold')
+box(3.65,5.4,3,1.15,'モデルが記述\n個別ノート・共同観測・受領票',size=11)
+box(7.65,5.4,2,1.15,'生成ノートを\n保存',gray)
+box(10.5,5.4,3,1.15,'別コンテキストで後続判断\n犬／猫・紙／デジタル・出典',size=11)
+arrow((2.95,5.1),(3.55,5.98));arrow((6.75,5.98),(7.55,5.98));arrow((9.75,5.98),(10.4,5.98))
+ax.text(3.65,4.7,'選択＋複製',fontsize=14,color=ink,weight='bold')
+box(3.65,3.05,3,1.3,'モデルが共同観測の行を選ぶ\n個別ノート・受領票は記述',size=11)
+box(3.65,1.4,3,1,'保存器が指定行の全欄を複製\n対象は共同観測行のみ',green,11)
+box(7.65,2.35,2,1.5,'個別ノートと\n複製した共同観測を\n保存',gray,11)
+box(10.5,2.35,3,1.5,'別コンテキストで後続判断\n犬／猫・紙／デジタル・出典',size=11)
+arrow((2.95,3.7),(3.55,3.7));arrow((5.15,2.95),(5.15,2.5),'行の場所')
+arrow((6.75,3.72),(7.55,3.72),'個別ノート',True)
+arrow((6.75,1.95),(7.55,2.8));arrow((9.75,3.1),(10.4,3.1))
+ax.text(.35,2.55,'各呼出しは新規コンテキスト。\n相手の担当客情報は渡さない。',fontsize=10.5,color=ink,va='top',linespacing=1.7)
+box(.35,.22,13.15,.68,'両方式とも、各役が実際に保存したノートを次入力にする。受領票は別保存し、次入力には渡さない。',gray,11)
+for ext in ('png','svg'):fig.savefig(OUT/f'fig01-e1-flow-v10.{ext}',dpi=180,bbox_inches='tight',pad_inches=.16)
+plt.close(fig)
+print('Wrote E1 flow: PNG and SVG.')
+
+# Translate the existing two-case trace without changing its observations.
+fig,ax=plt.subplots(figsize=(14,8.2))
+ax.set(xlim=(0,14),ylim=(0,8.2));ax.axis('off')
+ax.text(.3,7.9,'図2　正しい判断とともに、誤った出典も引き継がれる',fontsize=20,color=ink,weight='bold',va='top')
+ax.text(.3,7.35,'同じ既知材料を使った別試験の例。一つの誤りを修正して再走した系列ではない。',fontsize=11.5,color='#526270')
+ax.text(.4,6.7,'更新をもう一巡した探索（SM02）：古い出典の残留',fontsize=14,color=ink,weight='bold')
+box(.4,4.9,3.6,1.35,'入力されたAの観測\n紙 NOT_ALL ／ デジタル ALL・版3\n元ID：SM2G3A',size=11)
+box(5.1,4.9,3.6,1.35,'保存されたAの観測\n値と版は正しい\n元ID：SM3A（旧ID）','#fce9e5',11)
+box(9.8,4.9,3.6,1.35,'後続判断は2回とも犬／デジタル\n判断は正しい\n出典にはSM3Aを継承','#fce9e5',11)
+arrow((4.1,5.575),(5,5.575));arrow((8.8,5.575),(9.7,5.575))
+ax.text(.4,4.1,'転記方式の探索比較（RC01）：入力にない出典への書き換え',fontsize=14,color=ink,weight='bold')
+box(.4,1.4,3.6,2,'両方式に同じ統合前資料\n\n正しい元ID：SM2G3A',size=11)
+box(5.1,2.7,3.6,.95,'再記述\n元ID：SM3G3A（入力にない）','#fce9e5',11)
+box(9.8,2.7,3.6,.95,'正答：犬／デジタル\n出典にはSM3G3Aを継承','#fce9e5',11)
+box(5.1,1,3.6,.95,'選択＋複製\n元ID：SM2G3A（正しい）',green,11)
+box(9.8,1,3.6,.95,'正答：犬／デジタル\n正しいSM2G3Aを継承',green,11)
+arrow((4.1,2.9),(5,3.175));arrow((4.1,1.8),(5,1.475))
+arrow((8.8,3.175),(9.7,3.175));arrow((8.8,1.475),(9.7,1.475))
+ax.text(.4,.3,'各試験の影響例は一組。後続で同じ誤IDが残ることを、新しい独立した誤記として数えない。',fontsize=11,color=ink)
+for ext in ('png','svg'):fig.savefig(OUT/f'fig02-provenance-trace-v10.{ext}',dpi=180,bbox_inches='tight',pad_inches=.16)
+plt.close(fig)
+print('Wrote provenance trace: PNG and SVG.')

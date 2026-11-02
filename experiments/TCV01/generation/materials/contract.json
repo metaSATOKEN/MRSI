@@ -1,0 +1,31 @@
+{
+  "automatic_regenerations": 0,
+  "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "cloud_drive": "not_used",
+  "design_sha256": "aade193ac5e1ac07c02761736cd7dbc8e3d43a7f6e6a435a9c385453076d8001",
+  "frozen_hashes": {
+    "design.json": "aade193ac5e1ac07c02761736cd7dbc8e3d43a7f6e6a435a9c385453076d8001",
+    "prereg.md": "1efac8a4e605803f789aad5b64295082bfa81e27128b190b038446fa26bd5cbb",
+    "source-inputs.json": "81b8d080cf0b75d65e4ce3757bbf105a575a7fd34763efc60678d3b354716c46"
+  },
+  "implementation": "v0.1-paired-comparison-vote",
+  "max_generations": 108,
+  "protocol": "THREE-ROLE-COMPARISON-VOTE-01-RUN-v0.1",
+  "resume_generation": false,
+  "retention": "private_no_deletion_deadline",
+  "seconds_including_setup": 1800,
+  "source_hashes": {
+    "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "three_role_boundary_01_design.py": "7fb22ed2ba322261cc6ff406018287d628e0e1ff6400610f46c4d31c4bfa9a94",
+    "three_role_boundary_01_fixtures.py": "7fbadec8fb66c61154505f85c64a293fbc2f469dbe79f530d43c5ba89e343132",
+    "three_role_boundary_01_scoring.py": "5a6f6a5f6a177bd3f733a06e93dd953fb6ecc0cd9d111251d3262ca1912bd249",
+    "three_role_comparison_vote_01_bootstrap.py": "98cca6774356cb467824e3ac8e2300b879782d9bf6e881f0503fca8da17efee4",
+    "three_role_comparison_vote_01_design.py": "369cb159c97685d25a945f83c8b0ad80756d11f4ffa6045c8c50c33fc95a50e2",
+    "three_role_comparison_vote_01_fixtures.py": "d67df2b728a8217e6b4a504efeefda7f713254cdbbbde0b2db4ca510b5a06dd9",
+    "three_role_comparison_vote_01_runtime.py": "d87813aa17325d8ab421ca6dd74d08bb46408e61afa5a07469a9c245e0126f50",
+    "three_role_comparison_vote_01_scoring.py": "54290725bc6800dfae1621aab6f1052426ea311f4caf0830dc3a3ba365ca9737",
+    "update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8"
+  }
+}

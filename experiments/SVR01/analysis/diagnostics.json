@@ -1,0 +1,5115 @@
+{
+  "kind": "INDEPENDENT_OFFLINE_RAW_ANSWER_AND_SOURCE_AUDIT",
+  "checked_responses": 104,
+  "exact_extraction_responses": 52,
+  "exact_extraction_field_values": 208,
+  "source_files_checked": 78,
+  "methods": {
+    "DIRECT": {
+      "MAIN": {
+        "n": 32,
+        "note_correct": 11,
+        "latest_correct": 11,
+        "outputs": {
+          "UNKNOWN": 18,
+          "DIGITAL": 1,
+          "PAPER": 13
+        },
+        "repeat_output_changed_materials": 3,
+        "note_latest_cross": {
+          "False|False": 21,
+          "True|True": 11
+        }
+      },
+      "STALE": {
+        "n": 20,
+        "note_correct": 9,
+        "latest_correct": 5,
+        "outputs": {
+          "UNKNOWN": 13,
+          "PAPER": 7
+        },
+        "repeat_output_changed_materials": 1,
+        "note_latest_cross": {
+          "False|False": 7,
+          "True|False": 8,
+          "False|True": 4,
+          "True|True": 1
+        }
+      },
+      "all_input_tokens": 21434,
+      "all_output_tokens": 437,
+      "generation_seconds": 27.888342929999453
+    },
+    "EXTRACT": {
+      "MAIN": {
+        "n": 32,
+        "note_correct": 32,
+        "latest_correct": 32,
+        "outputs": {
+          "PAPER": 16,
+          "DIGITAL": 16
+        },
+        "repeat_output_changed_materials": 0,
+        "note_latest_cross": {
+          "True|True": 32
+        }
+      },
+      "STALE": {
+        "n": 20,
+        "note_correct": 20,
+        "latest_correct": 4,
+        "outputs": {
+          "DIGITAL": 6,
+          "UNKNOWN": 12,
+          "PAPER": 2
+        },
+        "repeat_output_changed_materials": 0,
+        "note_latest_cross": {
+          "True|False": 16,
+          "True|True": 4
+        }
+      },
+      "all_input_tokens": 22578,
+      "all_output_tokens": 1822,
+      "generation_seconds": 98.39823262400023
+    }
+  },
+  "contrast": {
+    "paired_correctness": {
+      "False->True": 21,
+      "True->True": 11
+    },
+    "net_correct": 21,
+    "by_replicate": {
+      "1": 9,
+      "2": 12
+    },
+    "by_truth": {
+      "PAPER": 6,
+      "DIGITAL": 15
+    }
+  },
+  "elapsed_seconds": 149.63944278600002,
+  "generation_seconds": 126.28657555399968,
+  "other_seconds": 23.352867232000335,
+  "environment": {
+    "capability": [
+      12,
+      0
+    ],
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "driver": "580.82.07",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "packages": {
+      "accelerate": "1.15.0",
+      "causal-conv1d": null,
+      "fla-core": null,
+      "flash-linear-attention": null,
+      "huggingface-hub": "1.29.0",
+      "kernels": null,
+      "numpy": "2.1.3",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.23.1",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.17.0",
+      "triton": "3.6.0"
+    },
+    "python": "3.13.15",
+    "total_vram": 101974081536
+  },
+  "rows": [
+    {
+      "case": "SVR01-M02",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M02-R1-DIRECT",
+      "replicate": 1,
+      "seed": 30450815,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G12",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 408,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.8489497169998685
+    },
+    {
+      "case": "SVR01-M02",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M02-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 30450815,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G12",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 430,
+      "output_tokens": 64,
+      "output_bytes": 152,
+      "seconds": 3.408358143999976
+    },
+    {
+      "case": "SVR01-S01",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S01-R1-DIRECT",
+      "replicate": 1,
+      "seed": 2070137785,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G48",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 417,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5177381210000931
+    },
+    {
+      "case": "SVR01-S01",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S01-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 2070137785,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G48",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 439,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4475949359998594
+    },
+    {
+      "case": "SVR01-M11",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M11-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 310300861,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G50",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 437,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "seconds": 1.4997358149998945
+    },
+    {
+      "case": "SVR01-M11",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M11-R1-DIRECT",
+      "replicate": 1,
+      "seed": 310300861,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G50",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 415,
+      "output_tokens": 9,
+      "output_bytes": 34,
+      "seconds": 0.5673506009998164
+    },
+    {
+      "case": "SVR01-S02",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S02-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 924853188,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G31",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 434,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "seconds": 1.4955814149998332
+    },
+    {
+      "case": "SVR01-S02",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S02-R1-DIRECT",
+      "replicate": 1,
+      "seed": 924853188,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G31",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 412,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5117560409998987
+    },
+    {
+      "case": "SVR01-M15",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M15-R1-DIRECT",
+      "replicate": 1,
+      "seed": 262100248,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G23",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 413,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5124889419998908
+    },
+    {
+      "case": "SVR01-M15",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M15-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 262100248,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G23",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 435,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4381121060000623
+    },
+    {
+      "case": "SVR01-S03",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S03-R1-DIRECT",
+      "replicate": 1,
+      "seed": 323794755,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G55",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 416,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5116156909998608
+    },
+    {
+      "case": "SVR01-S03",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S03-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 323794755,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G55",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 438,
+      "output_tokens": 28,
+      "output_bytes": 98,
+      "seconds": 1.5409632549999515
+    },
+    {
+      "case": "SVR01-M07",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M07-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1104396321,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G37",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 438,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4296053470002335
+    },
+    {
+      "case": "SVR01-M07",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M07-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1104396321,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G37",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 416,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.509388170999955
+    },
+    {
+      "case": "SVR01-S04",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S04-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1289600134,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G11",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.429728786999931
+    },
+    {
+      "case": "SVR01-S04",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S04-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1289600134,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G11",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 411,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5091526219998741
+    },
+    {
+      "case": "SVR01-M03",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M03-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1986102472,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G43",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 412,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5089900920002037
+    },
+    {
+      "case": "SVR01-M03",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M03-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1986102472,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G43",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 434,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4284227960001772
+    },
+    {
+      "case": "SVR01-S05",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S05-R1-DIRECT",
+      "replicate": 1,
+      "seed": 430876973,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G58",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": false,
+      "correct_latest": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 411,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5599188009996396
+    },
+    {
+      "case": "SVR01-S05",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S05-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 430876973,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G58",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4288198060003197
+    },
+    {
+      "case": "SVR01-M13",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M13-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 174259935,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G17",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 440,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.428653647000374
+    },
+    {
+      "case": "SVR01-M13",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M13-R1-DIRECT",
+      "replicate": 1,
+      "seed": 174259935,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G17",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 418,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5600864809998711
+    },
+    {
+      "case": "SVR01-S06",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S06-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1816186871,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G30",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "PAPER",
+      "note_kind": "TWO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 433,
+      "output_tokens": 25,
+      "output_bytes": 86,
+      "seconds": 1.3778672970001935
+    },
+    {
+      "case": "SVR01-S06",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S06-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1816186871,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G30",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "PAPER",
+      "note_kind": "TWO",
+      "output": "PAPER",
+      "correct_note": false,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 411,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5594434109998474
+    },
+    {
+      "case": "SVR01-M12",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M12-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1769563351,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G26",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 414,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.559874180999941
+    },
+    {
+      "case": "SVR01-M12",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M12-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1769563351,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G26",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 436,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "seconds": 1.479702436000025
+    },
+    {
+      "case": "SVR01-S07",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S07-R1-DIRECT",
+      "replicate": 1,
+      "seed": 522350869,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G02",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 414,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5085388119996423
+    },
+    {
+      "case": "SVR01-S07",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S07-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 522350869,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G02",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 436,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "seconds": 1.4796565960000407
+    },
+    {
+      "case": "SVR01-M05",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M05-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1620427369,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G01",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 432,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4283964559999731
+    },
+    {
+      "case": "SVR01-M05",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M05-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1620427369,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G01",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 410,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5594695710001361
+    },
+    {
+      "case": "SVR01-S08",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S08-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1175035351,
+      "set": "STALE",
+      "role": "A",
+      "source_group": "E1-G62",
+      "source_condition": "REWRITE",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "TWO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 434,
+      "output_tokens": 25,
+      "output_bytes": 86,
+      "seconds": 1.3774722969997129
+    },
+    {
+      "case": "SVR01-S08",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S08-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1175035351,
+      "set": "STALE",
+      "role": "A",
+      "source_group": "E1-G62",
+      "source_condition": "REWRITE",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "TWO",
+      "output": "PAPER",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 412,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5595692809997672
+    },
+    {
+      "case": "SVR01-M09",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M09-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1508109066,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G39",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 407,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5594336409999414
+    },
+    {
+      "case": "SVR01-M09",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M09-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1508109066,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G39",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 429,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4284132760003558
+    },
+    {
+      "case": "SVR01-S09",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S09-R1-DIRECT",
+      "replicate": 1,
+      "seed": 751727951,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G60",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "PAPER",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 415,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.50874351199991
+    },
+    {
+      "case": "SVR01-S09",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S09-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 751727951,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G60",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "PAPER",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 437,
+      "output_tokens": 66,
+      "output_bytes": 160,
+      "seconds": 3.4690041039998505
+    },
+    {
+      "case": "SVR01-M01",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M01-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1714817965,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G54",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 429,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4284500769999795
+    },
+    {
+      "case": "SVR01-M01",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M01-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1714817965,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G54",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 407,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.508401201000197
+    },
+    {
+      "case": "SVR01-S10",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S10-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 410434330,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G40",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 436,
+      "output_tokens": 64,
+      "output_bytes": 152,
+      "seconds": 3.3679896150001696
+    },
+    {
+      "case": "SVR01-S10",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S10-R1-DIRECT",
+      "replicate": 1,
+      "seed": 410434330,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G40",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 414,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5595922600000449
+    },
+    {
+      "case": "SVR01-M04",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M04-R1-DIRECT",
+      "replicate": 1,
+      "seed": 928116632,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G57",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 413,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5084748920003221
+    },
+    {
+      "case": "SVR01-M04",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M04-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 928116632,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G57",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 435,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4276820860000043
+    },
+    {
+      "case": "SVR01-M16",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M16-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1162593098,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G08",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 428,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4279412159999083
+    },
+    {
+      "case": "SVR01-M16",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M16-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1162593098,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G08",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 406,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5083091019996573
+    },
+    {
+      "case": "SVR01-M08",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M08-R1-DIRECT",
+      "replicate": 1,
+      "seed": 984028853,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G33",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 410,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5081845310000972
+    },
+    {
+      "case": "SVR01-M08",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M08-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 984028853,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G33",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 432,
+      "output_tokens": 64,
+      "output_bytes": 152,
+      "seconds": 3.36835109499998
+    },
+    {
+      "case": "SVR01-M14",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M14-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1690656419,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G27",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 434,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4286727359999531
+    },
+    {
+      "case": "SVR01-M14",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M14-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1690656419,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G27",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 412,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5596195110001645
+    },
+    {
+      "case": "SVR01-M06",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M06-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1543674362,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G49",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 409,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.559494660999917
+    },
+    {
+      "case": "SVR01-M06",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M06-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1543674362,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G49",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 431,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "seconds": 1.4797684159998425
+    },
+    {
+      "case": "SVR01-M10",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M10-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 2003488706,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G38",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 436,
+      "output_tokens": 64,
+      "output_bytes": 152,
+      "seconds": 3.368539624999812
+    },
+    {
+      "case": "SVR01-M10",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M10-R1-DIRECT",
+      "replicate": 1,
+      "seed": 2003488706,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G38",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 414,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5598367500001586
+    },
+    {
+      "case": "SVR01-M02",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M02-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 726494036,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G12",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 430,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4286736969997946
+    },
+    {
+      "case": "SVR01-M02",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M02-R2-DIRECT",
+      "replicate": 2,
+      "seed": 726494036,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G12",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 408,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5084426419998636
+    },
+    {
+      "case": "SVR01-S01",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S01-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1322562400,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G48",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 439,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4287620469999638
+    },
+    {
+      "case": "SVR01-S01",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S01-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1322562400,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G48",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 417,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5089495020001777
+    },
+    {
+      "case": "SVR01-M11",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M11-R2-DIRECT",
+      "replicate": 2,
+      "seed": 761793530,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G50",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 415,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5596859510001195
+    },
+    {
+      "case": "SVR01-M11",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M11-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 761793530,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G50",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 437,
+      "output_tokens": 65,
+      "output_bytes": 156,
+      "seconds": 3.4184787939998387
+    },
+    {
+      "case": "SVR01-S02",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S02-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1501782408,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G31",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 412,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5085534210002152
+    },
+    {
+      "case": "SVR01-S02",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S02-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1501782408,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G31",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 434,
+      "output_tokens": 65,
+      "output_bytes": 156,
+      "seconds": 3.4206850040000063
+    },
+    {
+      "case": "SVR01-M15",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M15-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 242903462,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G23",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 435,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4285852670000168
+    },
+    {
+      "case": "SVR01-M15",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M15-R2-DIRECT",
+      "replicate": 2,
+      "seed": 242903462,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G23",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 413,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5086820920000719
+    },
+    {
+      "case": "SVR01-S03",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S03-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 795441682,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G55",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 438,
+      "output_tokens": 66,
+      "output_bytes": 160,
+      "seconds": 3.4705480929997066
+    },
+    {
+      "case": "SVR01-S03",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S03-R2-DIRECT",
+      "replicate": 2,
+      "seed": 795441682,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G55",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 416,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5094771620001666
+    },
+    {
+      "case": "SVR01-M07",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M07-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1495526537,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G37",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 416,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5090174609999849
+    },
+    {
+      "case": "SVR01-M07",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M07-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1495526537,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G37",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 438,
+      "output_tokens": 64,
+      "output_bytes": 152,
+      "seconds": 3.369086414999856
+    },
+    {
+      "case": "SVR01-S04",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S04-R2-DIRECT",
+      "replicate": 2,
+      "seed": 500821603,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G11",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 411,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5086212010000963
+    },
+    {
+      "case": "SVR01-S04",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S04-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 500821603,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G11",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4289061270001184
+    },
+    {
+      "case": "SVR01-M03",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M03-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 2073301350,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G43",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 434,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4286109670001679
+    },
+    {
+      "case": "SVR01-M03",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M03-R2-DIRECT",
+      "replicate": 2,
+      "seed": 2073301350,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G43",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 412,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5084289309997985
+    },
+    {
+      "case": "SVR01-S05",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S05-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 2011979074,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G58",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4288155560002451
+    },
+    {
+      "case": "SVR01-S05",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S05-R2-DIRECT",
+      "replicate": 2,
+      "seed": 2011979074,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G58",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": false,
+      "correct_latest": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 411,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.559537291000197
+    },
+    {
+      "case": "SVR01-M13",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M13-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1661629630,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G17",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 418,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5601611209999646
+    },
+    {
+      "case": "SVR01-M13",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M13-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1661629630,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G17",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 440,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4287701059997744
+    },
+    {
+      "case": "SVR01-S06",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S06-R2-DIRECT",
+      "replicate": 2,
+      "seed": 624251526,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G30",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "PAPER",
+      "note_kind": "TWO",
+      "output": "PAPER",
+      "correct_note": false,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 411,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.559583320999991
+    },
+    {
+      "case": "SVR01-S06",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S06-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 624251526,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G30",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "PAPER",
+      "note_kind": "TWO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 433,
+      "output_tokens": 25,
+      "output_bytes": 86,
+      "seconds": 1.3780481880003208
+    },
+    {
+      "case": "SVR01-M12",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M12-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 878381752,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G26",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 436,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "seconds": 1.4799835589997201
+    },
+    {
+      "case": "SVR01-M12",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M12-R2-DIRECT",
+      "replicate": 2,
+      "seed": 878381752,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G26",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 414,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5597402280000097
+    },
+    {
+      "case": "SVR01-S07",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S07-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 795841196,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G02",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 436,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "seconds": 1.4799505930000123
+    },
+    {
+      "case": "SVR01-S07",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S07-R2-DIRECT",
+      "replicate": 2,
+      "seed": 795841196,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G02",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 414,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5087404879996029
+    },
+    {
+      "case": "SVR01-M05",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M05-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1958533281,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G01",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 410,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5595851670000229
+    },
+    {
+      "case": "SVR01-M05",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M05-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1958533281,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G01",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 432,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4286317840001175
+    },
+    {
+      "case": "SVR01-S08",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S08-R2-DIRECT",
+      "replicate": 2,
+      "seed": 423278499,
+      "set": "STALE",
+      "role": "A",
+      "source_group": "E1-G62",
+      "source_condition": "REWRITE",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "TWO",
+      "output": "PAPER",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 412,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.559409837000203
+    },
+    {
+      "case": "SVR01-S08",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S08-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 423278499,
+      "set": "STALE",
+      "role": "A",
+      "source_group": "E1-G62",
+      "source_condition": "REWRITE",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "DIGITAL",
+      "note_kind": "TWO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 434,
+      "output_tokens": 25,
+      "output_bytes": 86,
+      "seconds": 1.3775793939998948
+    },
+    {
+      "case": "SVR01-M09",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M09-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1774067025,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G39",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 429,
+      "output_tokens": 64,
+      "output_bytes": 152,
+      "seconds": 3.369166425000003
+    },
+    {
+      "case": "SVR01-M09",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M09-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1774067025,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G39",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 407,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5083935869997731
+    },
+    {
+      "case": "SVR01-S09",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S09-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1457756371,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G60",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "PAPER",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 437,
+      "output_tokens": 66,
+      "output_bytes": 160,
+      "seconds": 3.4724233150000146
+    },
+    {
+      "case": "SVR01-S09",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S09-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1457756371,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G60",
+      "source_condition": "SELECT",
+      "note_truth": "UNKNOWN",
+      "latest_truth": "PAPER",
+      "note_kind": "ZERO",
+      "output": "UNKNOWN",
+      "correct_note": true,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 415,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5086802380001245
+    },
+    {
+      "case": "SVR01-M01",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M01-R2-DIRECT",
+      "replicate": 2,
+      "seed": 753840772,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G54",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 407,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5087610479999967
+    },
+    {
+      "case": "SVR01-M01",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M01-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 753840772,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G54",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 429,
+      "output_tokens": 64,
+      "output_bytes": 152,
+      "seconds": 3.3684998150001775
+    },
+    {
+      "case": "SVR01-S10",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-S10-R2-DIRECT",
+      "replicate": 2,
+      "seed": 144621592,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G40",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 414,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5086404379999294
+    },
+    {
+      "case": "SVR01-S10",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-S10-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 144621592,
+      "set": "STALE",
+      "role": "B",
+      "source_group": "E1-G40",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": false,
+      "input_tokens": 436,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.42886842300004
+    },
+    {
+      "case": "SVR01-M04",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M04-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1819445807,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G57",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 435,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4283703539999806
+    },
+    {
+      "case": "SVR01-M04",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M04-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1819445807,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G57",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 413,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5085915670001668
+    },
+    {
+      "case": "SVR01-M16",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M16-R2-DIRECT",
+      "replicate": 2,
+      "seed": 838204506,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G08",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 406,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5082149780000691
+    },
+    {
+      "case": "SVR01-M16",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M16-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 838204506,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G08",
+      "source_condition": "SELECT",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 428,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4278703039999527
+    },
+    {
+      "case": "SVR01-M08",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M08-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1665976203,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G33",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "DIGITAL",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 432,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4284130340001866
+    },
+    {
+      "case": "SVR01-M08",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M08-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1665976203,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G33",
+      "source_condition": "REWRITE",
+      "note_truth": "DIGITAL",
+      "latest_truth": "DIGITAL",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 410,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5082917879999513
+    },
+    {
+      "case": "SVR01-M14",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M14-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1460698955,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G27",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 412,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5595483380002406
+    },
+    {
+      "case": "SVR01-M14",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M14-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1460698955,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G27",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 434,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4286892840000291
+    },
+    {
+      "case": "SVR01-M06",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M06-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1392090486,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G49",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 431,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "seconds": 1.4797342940000817
+    },
+    {
+      "case": "SVR01-M06",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M06-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1392090486,
+      "set": "MAIN",
+      "role": "B",
+      "source_group": "E1-G49",
+      "source_condition": "REWRITE",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "UNKNOWN",
+      "correct_note": false,
+      "correct_latest": false,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 409,
+      "output_tokens": 8,
+      "output_bytes": 34,
+      "seconds": 0.5083587369999805
+    },
+    {
+      "case": "SVR01-M10",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "SVR01-M10-R2-DIRECT",
+      "replicate": 2,
+      "seed": 390451478,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G38",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four_latest_exact": null,
+      "input_tokens": 414,
+      "output_tokens": 9,
+      "output_bytes": 32,
+      "seconds": 0.5598257980000199
+    },
+    {
+      "case": "SVR01-M10",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "SVR01-M10-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 390451478,
+      "set": "MAIN",
+      "role": "A",
+      "source_group": "E1-G38",
+      "source_condition": "SELECT",
+      "note_truth": "PAPER",
+      "latest_truth": "PAPER",
+      "note_kind": "ONE",
+      "output": "PAPER",
+      "correct_note": true,
+      "correct_latest": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": true,
+      "four_latest_exact": true,
+      "input_tokens": 436,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "seconds": 1.4285984029997962
+    }
+  ],
+  "cases": [
+    {
+      "id": "SVR01-M01",
+      "set": "MAIN",
+      "source_group": "E1-G54",
+      "source_condition": "REWRITE",
+      "role": "A",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RAAD597DA9CDEADA",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R76285C6357717F6",
+            "paper": "ALL",
+            "revision": 2
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RAAD597DA9CDEADA",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R76285C6357717F6",
+            "paper": "ALL",
+            "revision": 2
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "PAPER",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "PAPER",
+          "PAPER"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M02",
+      "set": "MAIN",
+      "source_group": "E1-G12",
+      "source_condition": "REWRITE",
+      "role": "A",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R61617D53BF8CE8C",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "RB3F59383BD22E3B",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R61617D53BF8CE8C",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "RB3F59383BD22E3B",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "PAPER",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "PAPER",
+          "PAPER"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M03",
+      "set": "MAIN",
+      "source_group": "E1-G43",
+      "source_condition": "REWRITE",
+      "role": "A",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RB4431BE16E6A542",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R8AC7AD72FE358D7",
+            "paper": "NOT_ALL",
+            "revision": 4
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RB4431BE16E6A542",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R8AC7AD72FE358D7",
+            "paper": "NOT_ALL",
+            "revision": 4
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M04",
+      "set": "MAIN",
+      "source_group": "E1-G57",
+      "source_condition": "REWRITE",
+      "role": "A",
+      "note_kind": "ONE",
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R2599A02D368960B",
+            "paper": "NOT_ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R0CBDD6BDB08431B",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R2599A02D368960B",
+            "paper": "NOT_ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R0CBDD6BDB08431B",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M05",
+      "set": "MAIN",
+      "source_group": "E1-G01",
+      "source_condition": "REWRITE",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R0BA1E40A1C18294",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R6CCEB586936FAEA",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R0BA1E40A1C18294",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R6CCEB586936FAEA",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "PAPER",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "PAPER"
+        ],
+        "EXTRACT": [
+          "PAPER",
+          "PAPER"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M06",
+      "set": "MAIN",
+      "source_group": "E1-G49",
+      "source_condition": "REWRITE",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R5AB5553D72025FA",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "RE1B77D28DEE67EF",
+            "paper": "ALL",
+            "revision": 4
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R5AB5553D72025FA",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "RE1B77D28DEE67EF",
+            "paper": "ALL",
+            "revision": 4
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "PAPER",
+        "four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "PAPER",
+          "PAPER"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M07",
+      "set": "MAIN",
+      "source_group": "E1-G37",
+      "source_condition": "REWRITE",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RC8B1DEA6B68AA3D",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R3558045560907F7",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RC8B1DEA6B68AA3D",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R3558045560907F7",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M08",
+      "set": "MAIN",
+      "source_group": "E1-G33",
+      "source_condition": "REWRITE",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RE4CA1D76FE86E82",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RCB37DA81492D2B6",
+            "paper": "NOT_ALL",
+            "revision": 4
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RE4CA1D76FE86E82",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RCB37DA81492D2B6",
+            "paper": "NOT_ALL",
+            "revision": 4
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M09",
+      "set": "MAIN",
+      "source_group": "E1-G39",
+      "source_condition": "SELECT",
+      "role": "A",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R750CADEA0EC64BB",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R8DBF2DD2F1547D8",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R750CADEA0EC64BB",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R8DBF2DD2F1547D8",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "PAPER",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "PAPER",
+          "PAPER"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M10",
+      "set": "MAIN",
+      "source_group": "E1-G38",
+      "source_condition": "SELECT",
+      "role": "A",
+      "note_kind": "ONE",
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R77017418A0DE72F",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R4D372D28D0F9A82",
+            "paper": "ALL",
+            "revision": 2
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R77017418A0DE72F",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R4D372D28D0F9A82",
+            "paper": "ALL",
+            "revision": 2
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "PAPER",
+        "four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "PAPER"
+        ],
+        "EXTRACT": [
+          "PAPER",
+          "PAPER"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M11",
+      "set": "MAIN",
+      "source_group": "E1-G50",
+      "source_condition": "SELECT",
+      "role": "A",
+      "note_kind": "ONE",
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RAA12FA63FF24759",
+            "paper": "NOT_ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R34E093367A1B55C",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RAA12FA63FF24759",
+            "paper": "NOT_ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R34E093367A1B55C",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "DIGITAL",
+          "PAPER"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M12",
+      "set": "MAIN",
+      "source_group": "E1-G26",
+      "source_condition": "SELECT",
+      "role": "A",
+      "note_kind": "ONE",
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RAE8036BB2390796",
+            "paper": "NOT_ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R0A0516AA4DF587E",
+            "paper": "NOT_ALL",
+            "revision": 2
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RAE8036BB2390796",
+            "paper": "NOT_ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R0A0516AA4DF587E",
+            "paper": "NOT_ALL",
+            "revision": 2
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "PAPER"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M13",
+      "set": "MAIN",
+      "source_group": "E1-G17",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R6877B248A7766C7",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R0E7D558D3C84753",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R6877B248A7766C7",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R0E7D558D3C84753",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "PAPER",
+        "four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "PAPER"
+        ],
+        "EXTRACT": [
+          "PAPER",
+          "PAPER"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M14",
+      "set": "MAIN",
+      "source_group": "E1-G27",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R88DDE48581FE582",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RBD20C84A2692857",
+            "paper": "ALL",
+            "revision": 4
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R88DDE48581FE582",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RBD20C84A2692857",
+            "paper": "ALL",
+            "revision": 4
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "PAPER",
+        "four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "PAPER"
+        ],
+        "EXTRACT": [
+          "PAPER",
+          "PAPER"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M15",
+      "set": "MAIN",
+      "source_group": "E1-G23",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R2FCD300A34D98E5",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R9C00B8A1FCEA2CD",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R2FCD300A34D98E5",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R9C00B8A1FCEA2CD",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-M16",
+      "set": "MAIN",
+      "source_group": "E1-G08",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R7F7CAACC59B5227",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RDE15C95CA5FD9CC",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R7F7CAACC59B5227",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RDE15C95CA5FD9CC",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": true,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": true
+        },
+        "stale_rows": []
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-S01",
+      "set": "STALE",
+      "source_group": "E1-G48",
+      "source_condition": "REWRITE",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "RD6C611E52319167",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R4607F4A947928BE",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": false,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R1E10120F9A81E02",
+            "paper": "NOT_ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R4607F4A947928BE",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": false,
+        "shared_rows_latest_exact": {
+          "A": false,
+          "B": true
+        },
+        "stale_rows": [
+          "A"
+        ]
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-S02",
+      "set": "STALE",
+      "source_group": "E1-G31",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ZERO",
+      "pattern": "NOT_ALL|ALL|ALL|NOT_ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R7A0CDB5AEA5206B",
+            "paper": "NOT_ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R7BE2DF52784584B",
+            "paper": "NOT_ALL",
+            "revision": 2
+          }
+        },
+        "note_world_channel_agree": false,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": true,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R7A0CDB5AEA5206B",
+            "paper": "NOT_ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "RBC9FFC9ECA7014B",
+            "paper": "ALL",
+            "revision": 1
+          }
+        },
+        "shared_latest_exact": false,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": false
+        },
+        "stale_rows": [
+          "B"
+        ]
+      },
+      "gold": {
+        "channel": "UNKNOWN",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-S03",
+      "set": "STALE",
+      "source_group": "E1-G55",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ZERO",
+      "pattern": "NOT_ALL|NOT_ALL|NOT_ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R2B544B4380FFEF7",
+            "paper": "NOT_ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R907AA427A60A9F8",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": false,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R3A72B1FCC8ACEAA",
+            "paper": "NOT_ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R907AA427A60A9F8",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": false,
+        "shared_rows_latest_exact": {
+          "A": false,
+          "B": true
+        },
+        "stale_rows": [
+          "A"
+        ]
+      },
+      "gold": {
+        "channel": "UNKNOWN",
+        "four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-S04",
+      "set": "STALE",
+      "source_group": "E1-G11",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R8C453C5FC9DBA7D",
+            "paper": "NOT_ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RBDAFB629739D1C7",
+            "paper": "NOT_ALL",
+            "revision": 2
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R600D81FF125C1A1",
+            "paper": "ALL",
+            "revision": 1
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RBDAFB629739D1C7",
+            "paper": "NOT_ALL",
+            "revision": 2
+          }
+        },
+        "shared_latest_exact": false,
+        "shared_rows_latest_exact": {
+          "A": false,
+          "B": true
+        },
+        "stale_rows": [
+          "A"
+        ]
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-S05",
+      "set": "STALE",
+      "source_group": "E1-G58",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "RAEECAB6EC38A874",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RA28E2181D92FA64",
+            "paper": "ALL",
+            "revision": 4
+          }
+        },
+        "note_world_channel_agree": false,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R0CC0E04C12377FB",
+            "paper": "NOT_ALL",
+            "revision": 1
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RA28E2181D92FA64",
+            "paper": "ALL",
+            "revision": 4
+          }
+        },
+        "shared_latest_exact": false,
+        "shared_rows_latest_exact": {
+          "A": false,
+          "B": true
+        },
+        "stale_rows": [
+          "A"
+        ]
+      },
+      "gold": {
+        "channel": "DIGITAL",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "PAPER"
+        ],
+        "EXTRACT": [
+          "DIGITAL",
+          "DIGITAL"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-S06",
+      "set": "STALE",
+      "source_group": "E1-G30",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "TWO",
+      "pattern": "ALL|ALL|ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R627CC668C725AE7",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RF097C2C258602FC",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": false,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R2D8156E4717DA72",
+            "paper": "ALL",
+            "revision": 1
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RF097C2C258602FC",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": false,
+        "shared_rows_latest_exact": {
+          "A": false,
+          "B": true
+        },
+        "stale_rows": [
+          "A"
+        ]
+      },
+      "gold": {
+        "channel": "UNKNOWN",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "PAPER"
+        ],
+        "EXTRACT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-S07",
+      "set": "STALE",
+      "source_group": "E1-G02",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ZERO",
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R4C624FB901869CE",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "REEE1A914E4C4587",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": false,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R18E17330025A470",
+            "paper": "ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "REEE1A914E4C4587",
+            "paper": "NOT_ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": false,
+        "shared_rows_latest_exact": {
+          "A": false,
+          "B": true
+        },
+        "stale_rows": [
+          "A"
+        ]
+      },
+      "gold": {
+        "channel": "UNKNOWN",
+        "four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-S08",
+      "set": "STALE",
+      "source_group": "E1-G62",
+      "source_condition": "REWRITE",
+      "role": "A",
+      "note_kind": "TWO",
+      "pattern": "ALL|ALL|ALL|ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RF37413030426206",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R4C3EB2EA5EE46B8",
+            "paper": "NOT_ALL",
+            "revision": 2
+          }
+        },
+        "note_world_channel_agree": false,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "RF37413030426206",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "RB7D9C973D4A01A9",
+            "paper": "ALL",
+            "revision": 1
+          }
+        },
+        "shared_latest_exact": false,
+        "shared_rows_latest_exact": {
+          "A": true,
+          "B": false
+        },
+        "stale_rows": [
+          "B"
+        ]
+      },
+      "gold": {
+        "channel": "UNKNOWN",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "DIGITAL",
+        "latest_four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "PAPER"
+        ],
+        "EXTRACT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-S09",
+      "set": "STALE",
+      "source_group": "E1-G60",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ZERO",
+      "pattern": "NOT_ALL|NOT_ALL|ALL|NOT_ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R546A13A578E7075",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R983A548B9171ED5",
+            "paper": "ALL",
+            "revision": 4
+          }
+        },
+        "note_world_channel_agree": false,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "RB7D1987111B02F0",
+            "paper": "NOT_ALL",
+            "revision": 2
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "R983A548B9171ED5",
+            "paper": "ALL",
+            "revision": 4
+          }
+        },
+        "shared_latest_exact": false,
+        "shared_rows_latest_exact": {
+          "A": false,
+          "B": true
+        },
+        "stale_rows": [
+          "A"
+        ]
+      },
+      "gold": {
+        "channel": "UNKNOWN",
+        "four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "UNKNOWN",
+          "UNKNOWN"
+        ]
+      }
+    },
+    {
+      "id": "SVR01-S10",
+      "set": "STALE",
+      "source_group": "E1-G40",
+      "source_condition": "SELECT",
+      "role": "B",
+      "note_kind": "ONE",
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "note_state": {
+        "latest_coverage": {
+          "A": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R028EA1CBAF3EFD4",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "RCBB36D573C6670C",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "note_world_channel_agree": true,
+        "private_customer_latest_exact": true,
+        "private_group_observation_conflict": false,
+        "private_observation_latest_exact": true,
+        "saved_coverage": {
+          "A": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R3A570A6826B7391",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "RCBB36D573C6670C",
+            "paper": "ALL",
+            "revision": 3
+          }
+        },
+        "shared_latest_exact": false,
+        "shared_rows_latest_exact": {
+          "A": false,
+          "B": true
+        },
+        "stale_rows": [
+          "A"
+        ]
+      },
+      "gold": {
+        "channel": "PAPER",
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "latest_channel": "PAPER",
+        "latest_four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "outputs": {
+        "DIRECT": [
+          "PAPER",
+          "UNKNOWN"
+        ],
+        "EXTRACT": [
+          "PAPER",
+          "PAPER"
+        ]
+      }
+    }
+  ],
+  "model_calls_during_audit": 0,
+  "p_value": null,
+  "confidence_interval": null
+}

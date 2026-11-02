@@ -1,0 +1,1192 @@
+{
+  "note": "On-policy proposal differences; no observed OFF-policy continuation or causal effect estimate.",
+  "mismatched_updates": 23,
+  "mismatched_rows": 32,
+  "row_types": {
+    "SAME_OWNER_BASELINE_ROW": 32
+  },
+  "different_fields": {
+    "origin_id": 32,
+    "paper": 20,
+    "revision": 32,
+    "digital": 12
+  },
+  "locations": {
+    "shared_note.coverage.A": 15,
+    "private_note.coverage": 9,
+    "shared_note.coverage.B": 8
+  },
+  "by_stage": {
+    "SELF": {
+      "proposal_joint": 30,
+      "saved_joint": 32,
+      "n": 32
+    },
+    "EXCHANGE": {
+      "proposal_joint": 26,
+      "saved_joint": 32,
+      "n": 32
+    },
+    "DELAY": {
+      "proposal_joint": 17,
+      "saved_joint": 32,
+      "n": 32
+    }
+  },
+  "delay_by_relation": {
+    "PARTNER": {
+      "n": 16,
+      "proposal_correct": 8
+    },
+    "SELF": {
+      "n": 16,
+      "proposal_correct": 9
+    }
+  },
+  "cases": [
+    {
+      "id": "SX02-C04-R1-EXCHANGE-B",
+      "case": "SX02-C04",
+      "replicate": 1,
+      "role": "B",
+      "stage": "EXCHANGE",
+      "delay_relation": "PARTNER",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "GROUP.coverage.A"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X16B813056D3D8B5E",
+            "paper": "NOT_ALL",
+            "revision": 43
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "YB49EA72CD0229802",
+            "paper": "ALL",
+            "revision": 44
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "PAPER"
+    },
+    {
+      "id": "SX02-C05-R1-SELF-A",
+      "case": "SX02-C05",
+      "replicate": 1,
+      "role": "A",
+      "stage": "SELF",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "PRIVATE.coverage",
+            "GROUP.coverage.A"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X62FF1F9161849B6B",
+            "paper": "ALL",
+            "revision": 58
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "Y94FD47901967D8D0",
+            "paper": "NOT_ALL",
+            "revision": 59
+          }
+        },
+        {
+          "location": "private_note.coverage",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "PRIVATE.coverage",
+            "GROUP.coverage.A"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X62FF1F9161849B6B",
+            "paper": "ALL",
+            "revision": 58
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "Y94FD47901967D8D0",
+            "paper": "NOT_ALL",
+            "revision": 59
+          }
+        }
+      ],
+      "proposal_channel": "PAPER",
+      "saved_channel": "UNKNOWN"
+    },
+    {
+      "id": "SX02-C05-R1-EXCHANGE-A",
+      "case": "SX02-C05",
+      "replicate": 1,
+      "role": "A",
+      "stage": "EXCHANGE",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.B",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "GROUP.coverage.B"
+          ],
+          "proposal": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "X4B49752DE73657AE",
+            "paper": "ALL",
+            "revision": 53
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "Y5A8D05D98CC32A32",
+            "paper": "ALL",
+            "revision": 54
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C05-R1-DELAY-A",
+      "case": "SX02-C05",
+      "replicate": 1,
+      "role": "A",
+      "stage": "DELAY",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X62FF1F9161849B6B",
+            "paper": "ALL",
+            "revision": 58
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "Y94FD47901967D8D0",
+            "paper": "NOT_ALL",
+            "revision": 59
+          }
+        },
+        {
+          "location": "private_note.coverage",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X62FF1F9161849B6B",
+            "paper": "ALL",
+            "revision": 58
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "Y94FD47901967D8D0",
+            "paper": "NOT_ALL",
+            "revision": 59
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C03-R1-DELAY-B",
+      "case": "SX02-C03",
+      "replicate": 1,
+      "role": "B",
+      "stage": "DELAY",
+      "delay_relation": "PARTNER",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X81B8148CC1E62863",
+            "paper": "ALL",
+            "revision": 38
+          },
+          "saved": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "Y90A1CFD6428E4281",
+            "paper": "ALL",
+            "revision": 39
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "PAPER"
+    },
+    {
+      "id": "SX02-C07-R1-DELAY-B",
+      "case": "SX02-C07",
+      "replicate": 1,
+      "role": "B",
+      "stage": "DELAY",
+      "delay_relation": "PARTNER",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X64079995F4E3D1B9",
+            "paper": "ALL",
+            "revision": 78
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "YA795706D16C09A6D",
+            "paper": "NOT_ALL",
+            "revision": 79
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C08-R1-DELAY-A",
+      "case": "SX02-C08",
+      "replicate": 1,
+      "role": "A",
+      "stage": "DELAY",
+      "delay_relation": "PARTNER",
+      "rows": [
+        {
+          "location": "shared_note.coverage.B",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "X5197FD1E627C5ED9",
+            "paper": "ALL",
+            "revision": 88
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "Y7DB2308FE0E365D7",
+            "paper": "NOT_ALL",
+            "revision": 89
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C08-R1-DELAY-B",
+      "case": "SX02-C08",
+      "replicate": 1,
+      "role": "B",
+      "stage": "DELAY",
+      "delay_relation": "PARTNER",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "XD1DC9D77D546954F",
+            "paper": "ALL",
+            "revision": 83
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "Y4C349350ABF88825",
+            "paper": "ALL",
+            "revision": 84
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C01-R1-DELAY-B",
+      "case": "SX02-C01",
+      "replicate": 1,
+      "role": "B",
+      "stage": "DELAY",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.B",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "XBE52DF29529FB2BE",
+            "paper": "NOT_ALL",
+            "revision": 13
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "Y5D8C5E3D85D73383",
+            "paper": "ALL",
+            "revision": 14
+          }
+        },
+        {
+          "location": "private_note.coverage",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "XBE52DF29529FB2BE",
+            "paper": "NOT_ALL",
+            "revision": 13
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "Y5D8C5E3D85D73383",
+            "paper": "ALL",
+            "revision": 14
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "PAPER"
+    },
+    {
+      "id": "SX02-C01-R1-DELAY-A",
+      "case": "SX02-C01",
+      "replicate": 1,
+      "role": "A",
+      "stage": "DELAY",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X545F08DA6A0F0E86",
+            "paper": "ALL",
+            "revision": 18
+          },
+          "saved": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "YFE6791ACED25F470",
+            "paper": "ALL",
+            "revision": 19
+          }
+        },
+        {
+          "location": "private_note.coverage",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X545F08DA6A0F0E86",
+            "paper": "ALL",
+            "revision": 18
+          },
+          "saved": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "YFE6791ACED25F470",
+            "paper": "ALL",
+            "revision": 19
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "PAPER"
+    },
+    {
+      "id": "SX02-C06-R1-SELF-B",
+      "case": "SX02-C06",
+      "replicate": 1,
+      "role": "B",
+      "stage": "SELF",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.B",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "PRIVATE.coverage",
+            "GROUP.coverage.B"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "X9BC9CDAB8BCFE61D",
+            "paper": "ALL",
+            "revision": 68
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "YE0786C2E2CF7B5B7",
+            "paper": "NOT_ALL",
+            "revision": 69
+          }
+        },
+        {
+          "location": "private_note.coverage",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "PRIVATE.coverage",
+            "GROUP.coverage.B"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "X9BC9CDAB8BCFE61D",
+            "paper": "ALL",
+            "revision": 68
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "YE0786C2E2CF7B5B7",
+            "paper": "NOT_ALL",
+            "revision": 69
+          }
+        }
+      ],
+      "proposal_channel": "PAPER",
+      "saved_channel": "UNKNOWN"
+    },
+    {
+      "id": "SX02-C06-R1-EXCHANGE-B",
+      "case": "SX02-C06",
+      "replicate": 1,
+      "role": "B",
+      "stage": "EXCHANGE",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "GROUP.coverage.A"
+          ],
+          "proposal": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "X0013BB0C4A0C43D8",
+            "paper": "ALL",
+            "revision": 63
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "YF2F126CFD3D1D9DB",
+            "paper": "ALL",
+            "revision": 64
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C06-R1-DELAY-B",
+      "case": "SX02-C06",
+      "replicate": 1,
+      "role": "B",
+      "stage": "DELAY",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.B",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "X9BC9CDAB8BCFE61D",
+            "paper": "ALL",
+            "revision": 68
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "YE0786C2E2CF7B5B7",
+            "paper": "NOT_ALL",
+            "revision": 69
+          }
+        },
+        {
+          "location": "private_note.coverage",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "X9BC9CDAB8BCFE61D",
+            "paper": "ALL",
+            "revision": 68
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "YE0786C2E2CF7B5B7",
+            "paper": "NOT_ALL",
+            "revision": 69
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C06-R2-EXCHANGE-B",
+      "case": "SX02-C06",
+      "replicate": 2,
+      "role": "B",
+      "stage": "EXCHANGE",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "GROUP.coverage.A"
+          ],
+          "proposal": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "X0013BB0C4A0C43D8",
+            "paper": "ALL",
+            "revision": 63
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "YF2F126CFD3D1D9DB",
+            "paper": "ALL",
+            "revision": 64
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C06-R2-DELAY-B",
+      "case": "SX02-C06",
+      "replicate": 2,
+      "role": "B",
+      "stage": "DELAY",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.B",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "X9BC9CDAB8BCFE61D",
+            "paper": "ALL",
+            "revision": 68
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "YE0786C2E2CF7B5B7",
+            "paper": "NOT_ALL",
+            "revision": 69
+          }
+        },
+        {
+          "location": "private_note.coverage",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "X9BC9CDAB8BCFE61D",
+            "paper": "ALL",
+            "revision": 68
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "YE0786C2E2CF7B5B7",
+            "paper": "NOT_ALL",
+            "revision": 69
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C01-R2-DELAY-A",
+      "case": "SX02-C01",
+      "replicate": 2,
+      "role": "A",
+      "stage": "DELAY",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X545F08DA6A0F0E86",
+            "paper": "ALL",
+            "revision": 18
+          },
+          "saved": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "YFE6791ACED25F470",
+            "paper": "ALL",
+            "revision": 19
+          }
+        },
+        {
+          "location": "private_note.coverage",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X545F08DA6A0F0E86",
+            "paper": "ALL",
+            "revision": 18
+          },
+          "saved": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "YFE6791ACED25F470",
+            "paper": "ALL",
+            "revision": 19
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "PAPER"
+    },
+    {
+      "id": "SX02-C08-R2-DELAY-A",
+      "case": "SX02-C08",
+      "replicate": 2,
+      "role": "A",
+      "stage": "DELAY",
+      "delay_relation": "PARTNER",
+      "rows": [
+        {
+          "location": "shared_note.coverage.B",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "X5197FD1E627C5ED9",
+            "paper": "ALL",
+            "revision": 88
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "Y7DB2308FE0E365D7",
+            "paper": "NOT_ALL",
+            "revision": 89
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C08-R2-DELAY-B",
+      "case": "SX02-C08",
+      "replicate": 2,
+      "role": "B",
+      "stage": "DELAY",
+      "delay_relation": "PARTNER",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "XD1DC9D77D546954F",
+            "paper": "ALL",
+            "revision": 83
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "Y4C349350ABF88825",
+            "paper": "ALL",
+            "revision": 84
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C07-R2-DELAY-B",
+      "case": "SX02-C07",
+      "replicate": 2,
+      "role": "B",
+      "stage": "DELAY",
+      "delay_relation": "PARTNER",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X64079995F4E3D1B9",
+            "paper": "ALL",
+            "revision": 78
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "YA795706D16C09A6D",
+            "paper": "NOT_ALL",
+            "revision": 79
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C03-R2-DELAY-B",
+      "case": "SX02-C03",
+      "replicate": 2,
+      "role": "B",
+      "stage": "DELAY",
+      "delay_relation": "PARTNER",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X81B8148CC1E62863",
+            "paper": "ALL",
+            "revision": 38
+          },
+          "saved": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "Y90A1CFD6428E4281",
+            "paper": "ALL",
+            "revision": 39
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "PAPER"
+    },
+    {
+      "id": "SX02-C05-R2-EXCHANGE-A",
+      "case": "SX02-C05",
+      "replicate": 2,
+      "role": "A",
+      "stage": "EXCHANGE",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.B",
+          "owner": "B",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "digital",
+            "origin_id",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "GROUP.coverage.B"
+          ],
+          "proposal": {
+            "digital": "NOT_ALL",
+            "observer": "B",
+            "origin_id": "X4B49752DE73657AE",
+            "paper": "ALL",
+            "revision": 53
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "Y5A8D05D98CC32A32",
+            "paper": "ALL",
+            "revision": 54
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C05-R2-DELAY-A",
+      "case": "SX02-C05",
+      "replicate": 2,
+      "role": "A",
+      "stage": "DELAY",
+      "delay_relation": "SELF",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X62FF1F9161849B6B",
+            "paper": "ALL",
+            "revision": 58
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "Y94FD47901967D8D0",
+            "paper": "NOT_ALL",
+            "revision": 59
+          }
+        },
+        {
+          "location": "private_note.coverage",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "NOTICE"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X62FF1F9161849B6B",
+            "paper": "ALL",
+            "revision": 58
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "Y94FD47901967D8D0",
+            "paper": "NOT_ALL",
+            "revision": 59
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "DIGITAL"
+    },
+    {
+      "id": "SX02-C04-R2-EXCHANGE-B",
+      "case": "SX02-C04",
+      "replicate": 2,
+      "role": "B",
+      "stage": "EXCHANGE",
+      "delay_relation": "PARTNER",
+      "rows": [
+        {
+          "location": "shared_note.coverage.A",
+          "owner": "A",
+          "kind": "SAME_OWNER_BASELINE_ROW",
+          "different_fields": [
+            "origin_id",
+            "paper",
+            "revision"
+          ],
+          "matches_input_locations": [
+            "GROUP.coverage.A"
+          ],
+          "proposal": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "X16B813056D3D8B5E",
+            "paper": "NOT_ALL",
+            "revision": 43
+          },
+          "saved": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "YB49EA72CD0229802",
+            "paper": "ALL",
+            "revision": 44
+          }
+        }
+      ],
+      "proposal_channel": "UNKNOWN",
+      "saved_channel": "PAPER"
+    }
+  ]
+}

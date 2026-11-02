@@ -1,0 +1,25 @@
+{
+  "local": {
+    "subject": "A",
+    "choice": "DIGITAL",
+    "evidence_refs": [
+      "E719F39C5D6",
+      "EAB5D8DF0D3"
+    ]
+  },
+  "reply": {
+    "action": "ACCEPT",
+    "reply_to": "Q0661D84465",
+    "allocation": {
+      "A": "DIGITAL",
+      "B": "PAPER"
+    },
+    "evidence_refs": [
+      "E1C60625B3D",
+      "EC9F2F8942D",
+      "E719F39C5D6",
+      "EAB5D8DF0D3",
+      "E2ED7213532"
+    ]
+  }
+}<|im_end|>

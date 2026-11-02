@@ -1,0 +1,39 @@
+{
+  "private_note": {
+    "customer": {
+      "subject": "A",
+      "animal": "DOG",
+      "origin_id": "HN"
+    },
+    "coverage": {
+      "observer": "A",
+      "paper": "ALL",
+      "digital": "ALL",
+      "origin_id": "KJ"
+    }
+  },
+  "shared_note": {
+    "coverage": {
+      "A": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "KJ"
+      },
+      "B": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "NOT_ALL",
+        "origin_id": "ND"
+      }
+    },
+    "channel": "PAPER",
+    "channel_read_refs": [
+      "PARTNER_GROUP"
+    ],
+    "channel_origin_ids": [
+      "KJ",
+      "ND"
+    ]
+  }
+}

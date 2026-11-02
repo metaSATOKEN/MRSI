@@ -1,0 +1,377 @@
+{
+  "status": "PASS",
+  "kind": "POSTRUN_STDLIB_CROSSCHECK_WITHIN_SAME_PROJECT",
+  "checks": {
+    "unique_archive_members": 1,
+    "unique_json_key": 48002,
+    "manifest_members": 1,
+    "file_hash": 1547,
+    "frozen_payload": 1,
+    "frozen_design": 1,
+    "archived_report": 2,
+    "tokenizer_preflight": 1,
+    "schema_object": 360,
+    "schema_array": 126,
+    "schema_string": 936,
+    "schema_value": 936,
+    "eos": 126,
+    "seed": 126,
+    "raw_unchanged": 126,
+    "saved_carry": 126,
+    "payload_holder": 126,
+    "metric_vector": 126,
+    "strict_score": 126,
+    "candidate_total": 216,
+    "candidate_role_total": 216,
+    "own_actual_parent": 108,
+    "parent_hash": 684,
+    "actual_receipts": 72,
+    "receipt_count": 72,
+    "response_count": 1,
+    "output_tokens": 1,
+    "stage_count": 3,
+    "path_count": 1,
+    "failure_count": 1,
+    "repeat_vote_inputs_equal": 1
+  },
+  "total_checks": 54172,
+  "archive_sha256": "6069f4b583b414f4350440c6e163e77d0a09e1a48b6377a3b67d9ad7c2b58387",
+  "sealed_files": 1547,
+  "gate": "FAIL",
+  "failure_ids": [
+    "TB01-T02-R1-HIGHER-VOTE-C"
+  ],
+  "elapsed_seconds": 689.2788938260003,
+  "generation_seconds": 666.7043055550005,
+  "input_tokens_minmax": [
+    591,
+    1444
+  ],
+  "output_tokens_minmax": [
+    37,
+    127
+  ],
+  "routes": [
+    {
+      "case": "T01",
+      "repeat": 1,
+      "offer": "HIGHER",
+      "votes": {
+        "A": "ACCEPT",
+        "C": "ACCEPT",
+        "B": "ACCEPT"
+      },
+      "final_agreement": {
+        "A": "AGREED",
+        "B": "AGREED",
+        "C": "AGREED"
+      },
+      "strict": true
+    },
+    {
+      "case": "T01",
+      "repeat": 1,
+      "offer": "LOWER",
+      "votes": {
+        "A": "HOLD",
+        "C": "HOLD",
+        "B": "HOLD"
+      },
+      "final_agreement": {
+        "A": "PENDING",
+        "B": "PENDING",
+        "C": "PENDING"
+      },
+      "strict": true
+    },
+    {
+      "case": "T01",
+      "repeat": 2,
+      "offer": "HIGHER",
+      "votes": {
+        "A": "ACCEPT",
+        "C": "ACCEPT",
+        "B": "ACCEPT"
+      },
+      "final_agreement": {
+        "A": "AGREED",
+        "B": "AGREED",
+        "C": "AGREED"
+      },
+      "strict": true
+    },
+    {
+      "case": "T01",
+      "repeat": 2,
+      "offer": "LOWER",
+      "votes": {
+        "A": "HOLD",
+        "C": "HOLD",
+        "B": "HOLD"
+      },
+      "final_agreement": {
+        "A": "PENDING",
+        "B": "PENDING",
+        "C": "PENDING"
+      },
+      "strict": true
+    },
+    {
+      "case": "T02",
+      "repeat": 1,
+      "offer": "HIGHER",
+      "votes": {
+        "B": "ACCEPT",
+        "A": "ACCEPT",
+        "C": "HOLD"
+      },
+      "final_agreement": {
+        "B": "PENDING",
+        "C": "PENDING",
+        "A": "PENDING"
+      },
+      "strict": false
+    },
+    {
+      "case": "T02",
+      "repeat": 1,
+      "offer": "LOWER",
+      "votes": {
+        "B": "HOLD",
+        "A": "HOLD",
+        "C": "HOLD"
+      },
+      "final_agreement": {
+        "B": "PENDING",
+        "C": "PENDING",
+        "A": "PENDING"
+      },
+      "strict": true
+    },
+    {
+      "case": "T02",
+      "repeat": 2,
+      "offer": "HIGHER",
+      "votes": {
+        "B": "ACCEPT",
+        "A": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "final_agreement": {
+        "B": "AGREED",
+        "C": "AGREED",
+        "A": "AGREED"
+      },
+      "strict": true
+    },
+    {
+      "case": "T02",
+      "repeat": 2,
+      "offer": "LOWER",
+      "votes": {
+        "B": "HOLD",
+        "A": "HOLD",
+        "C": "HOLD"
+      },
+      "final_agreement": {
+        "B": "PENDING",
+        "C": "PENDING",
+        "A": "PENDING"
+      },
+      "strict": true
+    },
+    {
+      "case": "T03",
+      "repeat": 1,
+      "offer": "HIGHER",
+      "votes": {
+        "C": "ACCEPT",
+        "B": "ACCEPT",
+        "A": "ACCEPT"
+      },
+      "final_agreement": {
+        "C": "AGREED",
+        "A": "AGREED",
+        "B": "AGREED"
+      },
+      "strict": true
+    },
+    {
+      "case": "T03",
+      "repeat": 1,
+      "offer": "LOWER",
+      "votes": {
+        "C": "HOLD",
+        "B": "HOLD",
+        "A": "HOLD"
+      },
+      "final_agreement": {
+        "C": "PENDING",
+        "A": "PENDING",
+        "B": "PENDING"
+      },
+      "strict": true
+    },
+    {
+      "case": "T03",
+      "repeat": 2,
+      "offer": "HIGHER",
+      "votes": {
+        "C": "ACCEPT",
+        "B": "ACCEPT",
+        "A": "ACCEPT"
+      },
+      "final_agreement": {
+        "C": "AGREED",
+        "A": "AGREED",
+        "B": "AGREED"
+      },
+      "strict": true
+    },
+    {
+      "case": "T03",
+      "repeat": 2,
+      "offer": "LOWER",
+      "votes": {
+        "C": "HOLD",
+        "B": "HOLD",
+        "A": "HOLD"
+      },
+      "final_agreement": {
+        "C": "PENDING",
+        "A": "PENDING",
+        "B": "PENDING"
+      },
+      "strict": true
+    }
+  ],
+  "vote_repeat_pairs": [
+    {
+      "first": "TB01-T03-R1-LOWER-VOTE-C",
+      "second": "TB01-T03-R2-LOWER-VOTE-C",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T03-R1-LOWER-VOTE-B",
+      "second": "TB01-T03-R2-LOWER-VOTE-B",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T03-R1-LOWER-VOTE-A",
+      "second": "TB01-T03-R2-LOWER-VOTE-A",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T03-R1-HIGHER-VOTE-C",
+      "second": "TB01-T03-R2-HIGHER-VOTE-C",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T03-R1-HIGHER-VOTE-B",
+      "second": "TB01-T03-R2-HIGHER-VOTE-B",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T03-R1-HIGHER-VOTE-A",
+      "second": "TB01-T03-R2-HIGHER-VOTE-A",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T02-R1-HIGHER-VOTE-B",
+      "second": "TB01-T02-R2-HIGHER-VOTE-B",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T02-R1-HIGHER-VOTE-A",
+      "second": "TB01-T02-R2-HIGHER-VOTE-A",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T02-R1-HIGHER-VOTE-C",
+      "second": "TB01-T02-R2-HIGHER-VOTE-C",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": false
+    },
+    {
+      "first": "TB01-T02-R1-LOWER-VOTE-B",
+      "second": "TB01-T02-R2-LOWER-VOTE-B",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T02-R1-LOWER-VOTE-A",
+      "second": "TB01-T02-R2-LOWER-VOTE-A",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T02-R1-LOWER-VOTE-C",
+      "second": "TB01-T02-R2-LOWER-VOTE-C",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T01-R1-LOWER-VOTE-A",
+      "second": "TB01-T01-R2-LOWER-VOTE-A",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T01-R1-LOWER-VOTE-C",
+      "second": "TB01-T01-R2-LOWER-VOTE-C",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T01-R1-LOWER-VOTE-B",
+      "second": "TB01-T01-R2-LOWER-VOTE-B",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T01-R1-HIGHER-VOTE-A",
+      "second": "TB01-T01-R2-HIGHER-VOTE-A",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T01-R1-HIGHER-VOTE-C",
+      "second": "TB01-T01-R2-HIGHER-VOTE-C",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    },
+    {
+      "first": "TB01-T01-R1-HIGHER-VOTE-B",
+      "second": "TB01-T01-R2-HIGHER-VOTE-B",
+      "messages_equal": true,
+      "prepared_equal": true,
+      "vote_equal": true
+    }
+  ],
+  "model_calls_in_this_check": 0
+}

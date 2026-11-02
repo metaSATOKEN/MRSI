@@ -1,0 +1,1 @@
+{"mascot":"DOG","mascot_read_refs":["PRIVATE"],"mascot_origin_ids":["WH"],"channel":"DIGITAL","channel_read_refs":["GROUP"],"channel_origin_ids":["SZ","NB"]}

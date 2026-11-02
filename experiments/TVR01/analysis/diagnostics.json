@@ -1,0 +1,2540 @@
+[
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TVR01-T03-B-LOWER-R1",
+    "input_key": "T03-B-LOWER",
+    "parents": [],
+    "repeat": 1,
+    "role": "B",
+    "seed": 1246291344,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 19.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 102,
+    "generation_seconds": 6.330135153000356
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TVR01-T03-B-HIGHER-R1",
+    "input_key": "T03-B-HIGHER",
+    "parents": [],
+    "repeat": 1,
+    "role": "B",
+    "seed": 720685917,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 19.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 93,
+    "generation_seconds": 5.106481737000195
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TVR01-T02-C-HIGHER-R1",
+    "input_key": "T02-C-HIGHER",
+    "parents": [],
+    "repeat": 1,
+    "role": "C",
+    "seed": 328504533,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1193,
+    "output_tokens": 102,
+    "generation_seconds": 5.580486519999795
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TVR01-T01-A-HIGHER-R1",
+    "input_key": "T01-A-HIGHER",
+    "parents": [],
+    "repeat": 1,
+    "role": "A",
+    "seed": 784263180,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 34.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 103,
+    "generation_seconds": 5.630019786000048
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TVR01-T02-C-LOWER-R1",
+    "input_key": "T02-C-LOWER",
+    "parents": [],
+    "repeat": 1,
+    "role": "C",
+    "seed": 60915864,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 96,
+    "generation_seconds": 5.264982063999923
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TVR01-T03-A-HIGHER-R1",
+    "input_key": "T03-A-HIGHER",
+    "parents": [],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1273699334,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1180,
+    "output_tokens": 103,
+    "generation_seconds": 5.628400936000162
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TVR01-T01-C-HIGHER-R1",
+    "input_key": "T01-C-HIGHER",
+    "parents": [],
+    "repeat": 1,
+    "role": "C",
+    "seed": 416125625,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ],
+        "holder": "C",
+        "recommendation": "DIGITAL"
+      },
+      "vote": {
+        "decision": "ACCEPT",
+        "proposal_id": "P3c0262f9"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 18.0,
+      "DIGITAL": 30.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1196,
+    "output_tokens": 59,
+    "generation_seconds": 3.3403993830002037
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TVR01-T02-A-HIGHER-R1",
+    "input_key": "T02-A-HIGHER",
+    "parents": [],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1358620296,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 31.0,
+      "DIGITAL": 17.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1191,
+    "output_tokens": 93,
+    "generation_seconds": 5.1123905659997035
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TVR01-T03-C-HIGHER-R1",
+    "input_key": "T03-C-HIGHER",
+    "parents": [],
+    "repeat": 1,
+    "role": "C",
+    "seed": 995534993,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 32.0,
+      "DIGITAL": 21.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 101,
+    "generation_seconds": 5.524262853999971
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TVR01-T01-B-LOWER-R1",
+    "input_key": "T01-B-LOWER",
+    "parents": [],
+    "repeat": 1,
+    "role": "B",
+    "seed": 631894500,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 27.0,
+      "DIGITAL": 23.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 104,
+    "generation_seconds": 5.682135642000048
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TVR01-T03-A-LOWER-R1",
+    "input_key": "T03-A-LOWER",
+    "parents": [],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1270148460,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1180,
+    "output_tokens": 96,
+    "generation_seconds": 5.267363124999974
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TVR01-T02-B-HIGHER-R1",
+    "input_key": "T02-B-HIGHER",
+    "parents": [],
+    "repeat": 1,
+    "role": "B",
+    "seed": 668411182,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 24.0,
+      "DIGITAL": 33.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1189,
+    "output_tokens": 56,
+    "generation_seconds": 3.183683095000106
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TVR01-T01-A-LOWER-R1",
+    "input_key": "T01-A-LOWER",
+    "parents": [],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1845282165,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 34.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 60,
+    "generation_seconds": 3.3916851909998513
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TVR01-T01-C-LOWER-R1",
+    "input_key": "T01-C-LOWER",
+    "parents": [],
+    "repeat": 1,
+    "role": "C",
+    "seed": 1543019650,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 18.0,
+      "DIGITAL": 30.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1196,
+    "output_tokens": 105,
+    "generation_seconds": 5.7375192569998035
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TVR01-T03-C-LOWER-R1",
+    "input_key": "T03-C-LOWER",
+    "parents": [],
+    "repeat": 1,
+    "role": "C",
+    "seed": 1737586002,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 32.0,
+      "DIGITAL": 21.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 102,
+    "generation_seconds": 5.577087458999813
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TVR01-T02-A-LOWER-R1",
+    "input_key": "T02-A-LOWER",
+    "parents": [],
+    "repeat": 1,
+    "role": "A",
+    "seed": 1087782168,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 31.0,
+      "DIGITAL": 17.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1192,
+    "output_tokens": 103,
+    "generation_seconds": 5.631663925000339
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TVR01-T01-B-HIGHER-R1",
+    "input_key": "T01-B-HIGHER",
+    "parents": [],
+    "repeat": 1,
+    "role": "B",
+    "seed": 889412056,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 27.0,
+      "DIGITAL": 23.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 103,
+    "generation_seconds": 5.63008361600032
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TVR01-T02-B-LOWER-R1",
+    "input_key": "T02-B-LOWER",
+    "parents": [],
+    "repeat": 1,
+    "role": "B",
+    "seed": 154125348,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 24.0,
+      "DIGITAL": 33.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1190,
+    "output_tokens": 102,
+    "generation_seconds": 5.577539209999941
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TVR01-T01-A-LOWER-R2",
+    "input_key": "T01-A-LOWER",
+    "parents": [],
+    "repeat": 2,
+    "role": "A",
+    "seed": 628758316,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 34.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 96,
+    "generation_seconds": 5.265793666000263
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TVR01-T01-B-LOWER-R2",
+    "input_key": "T01-B-LOWER",
+    "parents": [],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1975519871,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 27.0,
+      "DIGITAL": 23.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 60,
+    "generation_seconds": 3.3923696299998483
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TVR01-T01-A-HIGHER-R2",
+    "input_key": "T01-A-HIGHER",
+    "parents": [],
+    "repeat": 2,
+    "role": "A",
+    "seed": 922890482,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 34.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 59,
+    "generation_seconds": 3.339702745000068
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TVR01-T03-B-LOWER-R2",
+    "input_key": "T03-B-LOWER",
+    "parents": [],
+    "repeat": 2,
+    "role": "B",
+    "seed": 688961358,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 19.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 102,
+    "generation_seconds": 5.576512619999903
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TVR01-T02-A-HIGHER-R2",
+    "input_key": "T02-A-HIGHER",
+    "parents": [],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1765073304,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 31.0,
+      "DIGITAL": 17.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1191,
+    "output_tokens": 101,
+    "generation_seconds": 5.529442644000028
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TVR01-T02-B-HIGHER-R2",
+    "input_key": "T02-B-HIGHER",
+    "parents": [],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1550715100,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 24.0,
+      "DIGITAL": 33.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1189,
+    "output_tokens": 100,
+    "generation_seconds": 5.474154708999777
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TVR01-T01-C-LOWER-R2",
+    "input_key": "T01-C-LOWER",
+    "parents": [],
+    "repeat": 2,
+    "role": "C",
+    "seed": 2126605073,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 18.0,
+      "DIGITAL": 30.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1196,
+    "output_tokens": 105,
+    "generation_seconds": 5.738101117000042
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TVR01-T01-B-HIGHER-R2",
+    "input_key": "T01-B-HIGHER",
+    "parents": [],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1291580702,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ],
+        "holder": "B",
+        "recommendation": "PAPER"
+      },
+      "vote": {
+        "decision": "ACCEPT",
+        "proposal_id": "P3c0262f9"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 27.0,
+      "DIGITAL": 23.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 58,
+    "generation_seconds": 3.287884608999775
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TVR01-T02-B-LOWER-R2",
+    "input_key": "T02-B-LOWER",
+    "parents": [],
+    "repeat": 2,
+    "role": "B",
+    "seed": 1676756565,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 24.0,
+      "DIGITAL": 33.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1190,
+    "output_tokens": 102,
+    "generation_seconds": 5.577496809999957
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TVR01-T03-C-LOWER-R2",
+    "input_key": "T03-C-LOWER",
+    "parents": [],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1312905741,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 32.0,
+      "DIGITAL": 21.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 102,
+    "generation_seconds": 5.576542810000319
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TVR01-T03-B-HIGHER-R2",
+    "input_key": "T03-B-HIGHER",
+    "parents": [],
+    "repeat": 2,
+    "role": "B",
+    "seed": 154194591,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 19.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 93,
+    "generation_seconds": 5.1084200690002035
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TVR01-T02-C-HIGHER-R2",
+    "input_key": "T02-C-HIGHER",
+    "parents": [],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1825307105,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1193,
+    "output_tokens": 102,
+    "generation_seconds": 5.581296939999902
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TVR01-T03-A-LOWER-R2",
+    "input_key": "T03-A-LOWER",
+    "parents": [],
+    "repeat": 2,
+    "role": "A",
+    "seed": 456373194,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": false
+    },
+    "strict": false,
+    "input_tokens": 1180,
+    "output_tokens": 103,
+    "generation_seconds": 5.629415065000103
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TVR01-T03-A-HIGHER-R2",
+    "input_key": "T03-A-HIGHER",
+    "parents": [],
+    "repeat": 2,
+    "role": "A",
+    "seed": 772254881,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1180,
+    "output_tokens": 103,
+    "generation_seconds": 5.6294543449998855
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TVR01-T01-C-HIGHER-R2",
+    "input_key": "T01-C-HIGHER",
+    "parents": [],
+    "repeat": 2,
+    "role": "C",
+    "seed": 786678935,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 18.0,
+      "DIGITAL": 30.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1196,
+    "output_tokens": 60,
+    "generation_seconds": 3.3933535699998174
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TVR01-T02-C-LOWER-R2",
+    "input_key": "T02-C-LOWER",
+    "parents": [],
+    "repeat": 2,
+    "role": "C",
+    "seed": 271420369,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "vote": {
+        "decision": "HOLD",
+        "proposal_id": "Pb2ff2018"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 60,
+    "generation_seconds": 3.3926059400000668
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TVR01-T02-A-LOWER-R2",
+    "input_key": "T02-A-LOWER",
+    "parents": [],
+    "repeat": 2,
+    "role": "A",
+    "seed": 1788956370,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 31.0,
+      "DIGITAL": 17.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1192,
+    "output_tokens": 95,
+    "generation_seconds": 5.215333820000069
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TVR01-T03-C-HIGHER-R2",
+    "input_key": "T03-C-HIGHER",
+    "parents": [],
+    "repeat": 2,
+    "role": "C",
+    "seed": 1915770149,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 32.0,
+      "DIGITAL": 21.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 93,
+    "generation_seconds": 5.107909279000069
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TVR01-T02-B-LOWER-R3",
+    "input_key": "T02-B-LOWER",
+    "parents": [],
+    "repeat": 3,
+    "role": "B",
+    "seed": 1481980444,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 24.0,
+      "DIGITAL": 33.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1190,
+    "output_tokens": 102,
+    "generation_seconds": 5.578050410000287
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TVR01-T01-A-LOWER-R3",
+    "input_key": "T01-A-LOWER",
+    "parents": [],
+    "repeat": 3,
+    "role": "A",
+    "seed": 231433418,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 34.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 60,
+    "generation_seconds": 3.392670769999768
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TVR01-T01-A-HIGHER-R3",
+    "input_key": "T01-A-HIGHER",
+    "parents": [],
+    "repeat": 3,
+    "role": "A",
+    "seed": 115417833,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ea55ba252f4",
+          "Ec5c804fd41"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 34.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 103,
+    "generation_seconds": 5.630773276000127
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TVR01-T03-C-LOWER-R3",
+    "input_key": "T03-C-LOWER",
+    "parents": [],
+    "repeat": 3,
+    "role": "C",
+    "seed": 176143692,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ],
+        "holder": "C",
+        "recommendation": "PAPER"
+      },
+      "vote": {
+        "decision": "HOLD",
+        "proposal_id": "P28065e82"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 32.0,
+      "DIGITAL": 21.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 57,
+    "generation_seconds": 3.234283303000211
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TVR01-T02-C-HIGHER-R3",
+    "input_key": "T02-C-HIGHER",
+    "parents": [],
+    "repeat": 3,
+    "role": "C",
+    "seed": 1747149796,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": false
+    },
+    "strict": false,
+    "input_tokens": 1193,
+    "output_tokens": 103,
+    "generation_seconds": 5.633560324999962
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TVR01-T01-C-LOWER-R3",
+    "input_key": "T01-C-LOWER",
+    "parents": [],
+    "repeat": 3,
+    "role": "C",
+    "seed": 1786997818,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 18.0,
+      "DIGITAL": 30.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1196,
+    "output_tokens": 61,
+    "generation_seconds": 3.4444628860001103
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TVR01-T03-B-LOWER-R3",
+    "input_key": "T03-B-LOWER",
+    "parents": [],
+    "repeat": 3,
+    "role": "B",
+    "seed": 273926629,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 19.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 94,
+    "generation_seconds": 5.159281315000044
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TVR01-T03-C-HIGHER-R3",
+    "input_key": "T03-C-HIGHER",
+    "parents": [],
+    "repeat": 3,
+    "role": "C",
+    "seed": 260089420,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Eb19c2b80cc",
+          "Ed4cd15ad90"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 32.0,
+      "DIGITAL": 21.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 93,
+    "generation_seconds": 5.107588357999703
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TVR01-T01-B-HIGHER-R3",
+    "input_key": "T01-B-HIGHER",
+    "parents": [],
+    "repeat": 3,
+    "role": "B",
+    "seed": 687901082,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P3c0262f9",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 27.0,
+      "DIGITAL": 23.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 103,
+    "generation_seconds": 5.62885915600009
+  },
+  {
+    "branch": "LOWER",
+    "case": "T01",
+    "id": "TVR01-T01-B-LOWER-R3",
+    "input_key": "T01-B-LOWER",
+    "parents": [],
+    "repeat": 3,
+    "role": "B",
+    "seed": 2036790927,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E9c6530feeb",
+          "Ebe68e2e764"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2f047c7",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 27.0,
+      "DIGITAL": 23.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 104,
+    "generation_seconds": 5.681396961000246
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TVR01-T02-C-LOWER-R3",
+    "input_key": "T02-C-LOWER",
+    "parents": [],
+    "repeat": 3,
+    "role": "C",
+    "seed": 759809266,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E17a6811913",
+          "E7f43af16ff"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1194,
+    "output_tokens": 104,
+    "generation_seconds": 5.6818325019999065
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TVR01-T03-A-HIGHER-R3",
+    "input_key": "T03-A-HIGHER",
+    "parents": [],
+    "repeat": 3,
+    "role": "A",
+    "seed": 552901096,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": false,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1180,
+    "output_tokens": 95,
+    "generation_seconds": 5.213391820000197
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TVR01-T02-A-HIGHER-R3",
+    "input_key": "T02-A-HIGHER",
+    "parents": [],
+    "repeat": 3,
+    "role": "A",
+    "seed": 1313447572,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 31.0,
+      "DIGITAL": 17.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1191,
+    "output_tokens": 101,
+    "generation_seconds": 5.5296463639997455
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T02",
+    "id": "TVR01-T02-B-HIGHER-R3",
+    "input_key": "T02-B-HIGHER",
+    "parents": [],
+    "repeat": 3,
+    "role": "B",
+    "seed": 1077437598,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ed4f2ba7f2d",
+          "Ec85b5abf44"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pf2bf9e54",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 24.0,
+      "DIGITAL": 33.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1189,
+    "output_tokens": 92,
+    "generation_seconds": 5.05822914700002
+  },
+  {
+    "branch": "LOWER",
+    "case": "T03",
+    "id": "TVR01-T03-A-LOWER-R3",
+    "input_key": "T03-A-LOWER",
+    "parents": [],
+    "repeat": 3,
+    "role": "A",
+    "seed": 1302859592,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E36b8ee859b",
+          "E06004afa43"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P28065e82",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 26.0,
+      "DIGITAL": 22.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1180,
+    "output_tokens": 104,
+    "generation_seconds": 5.682052721999753
+  },
+  {
+    "branch": "LOWER",
+    "case": "T02",
+    "id": "TVR01-T02-A-LOWER-R3",
+    "input_key": "T02-A-LOWER",
+    "parents": [],
+    "repeat": 3,
+    "role": "A",
+    "seed": 179231638,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E7ca852043d",
+          "E9ee9ef56a6"
+        ]
+      },
+      "vote": {
+        "proposal_id": "Pb2ff2018",
+        "decision": "HOLD"
+      }
+    },
+    "expected_vote": "HOLD",
+    "candidate_totals": {
+      "C2": 90.0,
+      "C1": 84.0
+    },
+    "own_success_for_40": {
+      "PAPER": 31.0,
+      "DIGITAL": 17.0
+    },
+    "offered_assignment": "PAPER",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1192,
+    "output_tokens": 103,
+    "generation_seconds": 5.632465655000033
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T03",
+    "id": "TVR01-T03-B-HIGHER-R3",
+    "input_key": "T03-B-HIGHER",
+    "parents": [],
+    "repeat": 3,
+    "role": "B",
+    "seed": 1605589147,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E073f46deb0",
+          "E3ea1e6bcd0"
+        ]
+      },
+      "vote": {
+        "proposal_id": "P9f054c99",
+        "decision": "ACCEPT"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 83.0,
+      "C2": 76.0
+    },
+    "own_success_for_40": {
+      "PAPER": 19.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1176,
+    "output_tokens": 101,
+    "generation_seconds": 5.525398864000181
+  },
+  {
+    "branch": "HIGHER",
+    "case": "T01",
+    "id": "TVR01-T01-C-HIGHER-R3",
+    "input_key": "T01-C-HIGHER",
+    "parents": [],
+    "repeat": 3,
+    "role": "C",
+    "seed": 685071338,
+    "snapshot": null,
+    "stage": "VOTE",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E3c75273d5b",
+          "E4a7f20ecfb"
+        ]
+      },
+      "vote": {
+        "decision": "ACCEPT",
+        "proposal_id": "P3c0262f9"
+      }
+    },
+    "expected_vote": "ACCEPT",
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 79.0
+    },
+    "own_success_for_40": {
+      "PAPER": 18.0,
+      "DIGITAL": 30.0
+    },
+    "offered_assignment": "DIGITAL",
+    "own_assignment_match": true,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "vote": true
+    },
+    "strict": true,
+    "input_tokens": 1196,
+    "output_tokens": 60,
+    "generation_seconds": 3.392508359999738
+  }
+]

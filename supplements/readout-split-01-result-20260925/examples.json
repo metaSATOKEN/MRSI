@@ -1,0 +1,215 @@
+[
+  {
+    "id": "RS01-M01-R1",
+    "correct_four": {
+      "A": {
+        "digital": "NOT_ALL",
+        "paper": "ALL"
+      },
+      "B": {
+        "digital": "ALL",
+        "paper": "ALL"
+      }
+    },
+    "gold": "PAPER",
+    "conditions": {
+      "DIRECT": {
+        "raw": "{\n  \"decision\": {\n    \"channel\": \"PAPER\"\n  }\n}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回のPRIVATEとGROUPだけを根拠に仕事を決めてください。案内方法はA/Bの両方でALLと確認できる方法がちょうど一つならPAPERまたはDIGITAL、0個または2個ならUNKNOWNとしてください。過去に出した結論を推測しないでください。\nrevisionは同じobserverの再観測順です。AとBの番号同士やノート全体の新旧は比較しません。更新番号3/4は正式に付された手掛かりです。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"decision\":{\"type\":\"object\",\"properties\":{\"channel\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"UNKNOWN\"]}},\"required\":[\"channel\"],\"additionalProperties\":false}},\"required\":[\"decision\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"A\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"NOT_ALL\",\"observer\":\"A\",\"origin_id\":\"RA9BA2DA3ED83049\",\"paper\":\"ALL\",\"revision\":2},\"customer\":{\"animal\":\"DOG\",\"origin_id\":\"R12EBFAEB4F63707\",\"subject\":\"A\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"NOT_ALL\",\"observer\":\"A\",\"origin_id\":\"RA9BA2DA3ED83049\",\"paper\":\"ALL\",\"revision\":2},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R92758D5F6F982E3\",\"paper\":\"ALL\",\"revision\":2}}},\"record_id\":\"GROUP\"}],\"scene\":\"図書交換会・駅前会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/RS01-M01-R1-DIRECT/input.json": "1126e9248b8ef7d3439994d62d81176a8aec50ee2f3ef8d638fd1fb5a5767a74",
+          "received/responses/RS01-M01-R1-DIRECT/answer.txt": "bd7b0bd14f302f426eb583415dd1bdb16c68b9f8a6b9f0b27a78ab3ec695a39a",
+          "received/responses/RS01-M01-R1-DIRECT/result.json": "0a9a28f7b901bb8336cec79c9929b588b6e7ff518379639b8e4eaca33182cf42"
+        }
+      },
+      "EXTRACT": {
+        "raw": "{\n  \"coverage\": {\n    \"A\": {\n      \"paper\": \"ALL\",\n      \"digital\": \"NOT_ALL\"\n    },\n    \"B\": {\n      \"paper\": \"ALL\",\n      \"digital\": \"ALL\"\n    }\n  }\n}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回の資料JSONのrecordsから、record_idがGROUPの記録を読み、body.coverage.Aとbody.coverage.Bのpaperとdigitalの値をそのまま転記してください。ALLとNOT_ALLは入力にある文字列を保ってください。担当役にかかわらずA/Bの両方、計四値を書いてください。犬猫の判断、案内方法の選択、理由、参照名、元ID、版番号は出力しません。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"coverage\":{\"type\":\"object\",\"properties\":{\"A\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false},\"B\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false}},\"required\":[\"A\",\"B\"],\"additionalProperties\":false}},\"required\":[\"coverage\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"A\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"NOT_ALL\",\"observer\":\"A\",\"origin_id\":\"RA9BA2DA3ED83049\",\"paper\":\"ALL\",\"revision\":2},\"customer\":{\"animal\":\"DOG\",\"origin_id\":\"R12EBFAEB4F63707\",\"subject\":\"A\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"NOT_ALL\",\"observer\":\"A\",\"origin_id\":\"RA9BA2DA3ED83049\",\"paper\":\"ALL\",\"revision\":2},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R92758D5F6F982E3\",\"paper\":\"ALL\",\"revision\":2}}},\"record_id\":\"GROUP\"}],\"scene\":\"図書交換会・駅前会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/RS01-M01-R1-EXTRACT/input.json": "612fe18f123be3602e4f566ee4629c9cf069280dfd2713a9b57d777fa367af43",
+          "received/responses/RS01-M01-R1-EXTRACT/answer.txt": "3dad505d69f131f316d1d2c4cbf65317b4edf15cbe06944a4279df41117f1b00",
+          "received/responses/RS01-M01-R1-EXTRACT/result.json": "ab07d3c014044272d05e2dbded751c7f03b0635447c1a9f922a8e3735ee9b58b",
+          "received/responses/RS01-M01-R1-EXTRACT/derived-decision.json": "6b64ba86de08f1009dd15663dd77db17defa9041404fda613a76af97c543497c"
+        }
+      },
+      "RULE": {
+        "raw": "{\"decision\":{\"channel\":\"DIGITAL\"}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回の資料JSONのcoverageに、A/Bのpaperとdigitalの観測値が与えられています。今回の四値だけを根拠に仕事を決めてください。案内方法はA/Bの両方でALLと確認できる方法がちょうど一つならPAPERまたはDIGITAL、0個または2個ならUNKNOWNとしてください。過去に出した結論を推測しないでください。JSON以外を出力せず、schemaの全必須欄を守ってください。\n{\"additionalProperties\":false,\"properties\":{\"decision\":{\"additionalProperties\":false,\"properties\":{\"channel\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"UNKNOWN\"]}},\"required\":[\"channel\"],\"type\":\"object\"}},\"required\":[\"decision\"],\"type\":\"object\"}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"coverage\":{\"A\":{\"digital\":\"NOT_ALL\",\"paper\":\"ALL\"},\"B\":{\"digital\":\"ALL\",\"paper\":\"ALL\"}}}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/RS01-M01-R1-RULE/input.json": "6e6b9c48879ea7bce55349488d0065a43cc0330cb686786868cf06441f8e6ca8",
+          "received/responses/RS01-M01-R1-RULE/answer.txt": "e0bd2d4cebae314afa9566be6938503b39c1cdfd77de77b5b7706e885f5e8260",
+          "received/responses/RS01-M01-R1-RULE/result.json": "6b53d0935080df2fbc981bc5e2ec720d9114a50ecfd66ca155643f2b7d7f19ad"
+        }
+      }
+    }
+  },
+  {
+    "id": "RS01-M08-R1",
+    "correct_four": {
+      "A": {
+        "digital": "ALL",
+        "paper": "ALL"
+      },
+      "B": {
+        "digital": "ALL",
+        "paper": "NOT_ALL"
+      }
+    },
+    "gold": "DIGITAL",
+    "conditions": {
+      "DIRECT": {
+        "raw": "{\n  \"decision\": {\n    \"channel\": \"UNKNOWN\"\n  }\n}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回のPRIVATEとGROUPだけを根拠に仕事を決めてください。案内方法はA/Bの両方でALLと確認できる方法がちょうど一つならPAPERまたはDIGITAL、0個または2個ならUNKNOWNとしてください。過去に出した結論を推測しないでください。\nrevisionは同じobserverの再観測順です。AとBの番号同士やノート全体の新旧は比較しません。更新番号3/4は正式に付された手掛かりです。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"decision\":{\"type\":\"object\",\"properties\":{\"channel\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"UNKNOWN\"]}},\"required\":[\"channel\"],\"additionalProperties\":false}},\"required\":[\"decision\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"A\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"RF37413030426206\",\"paper\":\"ALL\",\"revision\":4},\"customer\":{\"animal\":\"CAT\",\"origin_id\":\"RD62B3DCE445A3C9\",\"subject\":\"A\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"RF37413030426206\",\"paper\":\"ALL\",\"revision\":4},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R4C3EB2EA5EE46B8\",\"paper\":\"NOT_ALL\",\"revision\":2}}},\"record_id\":\"GROUP\"}],\"scene\":\"料理体験会・駅前会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/RS01-M08-R1-DIRECT/input.json": "5282413fa44c69912e921929fd5ac962b978d8cbe939127a25ae7a9e63d0aa3a",
+          "received/responses/RS01-M08-R1-DIRECT/answer.txt": "0e4cd7efaa2cae0d08be164220a04de8af091d5c578f72ade0d524c9885f394f",
+          "received/responses/RS01-M08-R1-DIRECT/result.json": "62361d895540033555c2fea945627569bee7c7af51fb50698214bb6ee83a4add"
+        }
+      },
+      "EXTRACT": {
+        "raw": "{\"coverage\":{\"A\":{\"paper\":\"ALL\",\"digital\":\"ALL\"},\"B\":{\"paper\":\"NOT_ALL\",\"digital\":\"ALL\"}}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回の資料JSONのrecordsから、record_idがGROUPの記録を読み、body.coverage.Aとbody.coverage.Bのpaperとdigitalの値をそのまま転記してください。ALLとNOT_ALLは入力にある文字列を保ってください。担当役にかかわらずA/Bの両方、計四値を書いてください。犬猫の判断、案内方法の選択、理由、参照名、元ID、版番号は出力しません。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"coverage\":{\"type\":\"object\",\"properties\":{\"A\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false},\"B\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false}},\"required\":[\"A\",\"B\"],\"additionalProperties\":false}},\"required\":[\"coverage\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"A\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"RF37413030426206\",\"paper\":\"ALL\",\"revision\":4},\"customer\":{\"animal\":\"CAT\",\"origin_id\":\"RD62B3DCE445A3C9\",\"subject\":\"A\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"RF37413030426206\",\"paper\":\"ALL\",\"revision\":4},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R4C3EB2EA5EE46B8\",\"paper\":\"NOT_ALL\",\"revision\":2}}},\"record_id\":\"GROUP\"}],\"scene\":\"料理体験会・駅前会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/RS01-M08-R1-EXTRACT/input.json": "c0cc274b90fc63f48e97d576aa7af0415ae58f766ae0ad293378081b93e6cbf4",
+          "received/responses/RS01-M08-R1-EXTRACT/answer.txt": "612ba199ed17e202198c2725e699ee48271569d24e552791ee890499433219fc",
+          "received/responses/RS01-M08-R1-EXTRACT/result.json": "78455894174a9933aa56bf776ccd9b7f4e9689803424ce0a55452b37e6a85a97",
+          "received/responses/RS01-M08-R1-EXTRACT/derived-decision.json": "b31950a07b47039da7a745a8042ceaeba194e05bd817f888922728d691fcdd4b"
+        }
+      },
+      "RULE": {
+        "raw": "{\"decision\":{\"channel\":\"PAPER\"}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回の資料JSONのcoverageに、A/Bのpaperとdigitalの観測値が与えられています。今回の四値だけを根拠に仕事を決めてください。案内方法はA/Bの両方でALLと確認できる方法がちょうど一つならPAPERまたはDIGITAL、0個または2個ならUNKNOWNとしてください。過去に出した結論を推測しないでください。JSON以外を出力せず、schemaの全必須欄を守ってください。\n{\"additionalProperties\":false,\"properties\":{\"decision\":{\"additionalProperties\":false,\"properties\":{\"channel\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"UNKNOWN\"]}},\"required\":[\"channel\"],\"type\":\"object\"}},\"required\":[\"decision\"],\"type\":\"object\"}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"paper\":\"ALL\"},\"B\":{\"digital\":\"ALL\",\"paper\":\"NOT_ALL\"}}}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/RS01-M08-R1-RULE/input.json": "e37ade6e6780f50becb2ce050a348669ced5a285e34857216bcafd4cbb0b99bc",
+          "received/responses/RS01-M08-R1-RULE/answer.txt": "6f096e48dcd25fc5c54b38d92efb79185fefedc32ae3088c11972df9553757df",
+          "received/responses/RS01-M08-R1-RULE/result.json": "5813f446a29df407bdfbc01762c914ab62b27684b10ba2f6215030a43fedc0b0"
+        }
+      }
+    }
+  },
+  {
+    "id": "RS01-B03-R1",
+    "correct_four": {
+      "A": {
+        "digital": "ALL",
+        "paper": "ALL"
+      },
+      "B": {
+        "digital": "ALL",
+        "paper": "ALL"
+      }
+    },
+    "gold": "UNKNOWN",
+    "conditions": {
+      "DIRECT": {
+        "raw": "{\"decision\":{\"channel\":\"PAPER\"}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回のPRIVATEとGROUPだけを根拠に仕事を決めてください。案内方法はA/Bの両方でALLと確認できる方法がちょうど一つならPAPERまたはDIGITAL、0個または2個ならUNKNOWNとしてください。過去に出した結論を推測しないでください。\nrevisionは同じobserverの再観測順です。AとBの番号同士やノート全体の新旧は比較しません。更新番号3/4は正式に付された手掛かりです。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"decision\":{\"type\":\"object\",\"properties\":{\"channel\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"UNKNOWN\"]}},\"required\":[\"channel\"],\"additionalProperties\":false}},\"required\":[\"decision\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"A\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"RLB87C95641B8494\",\"paper\":\"ALL\",\"revision\":4},\"customer\":{\"animal\":\"CAT\",\"origin_id\":\"R42BFCD43387295D\",\"subject\":\"A\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"RLB87C95641B8494\",\"paper\":\"ALL\",\"revision\":4},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"RL9B05CA54A4E305\",\"paper\":\"ALL\",\"revision\":4}}},\"record_id\":\"GROUP\"}],\"scene\":\"天体観察会・丘の会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/RS01-B03-R1-DIRECT/input.json": "b5a054385a79e68c30b5ca5f6ef10b0d8bb195858f13e5ac76940587e14e722e",
+          "received/responses/RS01-B03-R1-DIRECT/answer.txt": "6f096e48dcd25fc5c54b38d92efb79185fefedc32ae3088c11972df9553757df",
+          "received/responses/RS01-B03-R1-DIRECT/result.json": "5a541e1fbb22615b6e7c23f26f835a3dc69989f55ff4b9b26967b4163b5bd74a"
+        }
+      },
+      "EXTRACT": {
+        "raw": "{\"coverage\":{\"A\":{\"paper\":\"ALL\",\"digital\":\"ALL\"},\"B\":{\"paper\":\"ALL\",\"digital\":\"ALL\"}}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回の資料JSONのrecordsから、record_idがGROUPの記録を読み、body.coverage.Aとbody.coverage.Bのpaperとdigitalの値をそのまま転記してください。ALLとNOT_ALLは入力にある文字列を保ってください。担当役にかかわらずA/Bの両方、計四値を書いてください。犬猫の判断、案内方法の選択、理由、参照名、元ID、版番号は出力しません。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"coverage\":{\"type\":\"object\",\"properties\":{\"A\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false},\"B\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false}},\"required\":[\"A\",\"B\"],\"additionalProperties\":false}},\"required\":[\"coverage\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"A\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"RLB87C95641B8494\",\"paper\":\"ALL\",\"revision\":4},\"customer\":{\"animal\":\"CAT\",\"origin_id\":\"R42BFCD43387295D\",\"subject\":\"A\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"RLB87C95641B8494\",\"paper\":\"ALL\",\"revision\":4},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"RL9B05CA54A4E305\",\"paper\":\"ALL\",\"revision\":4}}},\"record_id\":\"GROUP\"}],\"scene\":\"天体観察会・丘の会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/RS01-B03-R1-EXTRACT/input.json": "283fb3b8d14383f2d9afe8b39a81122f2e4f22291109d4f69b4e83a1d5c06bd4",
+          "received/responses/RS01-B03-R1-EXTRACT/answer.txt": "e90d82d5231a67a6a0104b68071620e8f8ae6fcc1f97a1be32202452cedbd284",
+          "received/responses/RS01-B03-R1-EXTRACT/result.json": "9fce93f19639964f84aee8cb64c1a2dd7e9df5ee231920fadc40b91d3965d422",
+          "received/responses/RS01-B03-R1-EXTRACT/derived-decision.json": "44dd53c2cc4cfb03f93775217d927d12eb8f19d8f2b3acc02513c8cd99bc79c3"
+        }
+      },
+      "RULE": {
+        "raw": "{\"decision\":{\"channel\":\"UNKNOWN\"}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回の資料JSONのcoverageに、A/Bのpaperとdigitalの観測値が与えられています。今回の四値だけを根拠に仕事を決めてください。案内方法はA/Bの両方でALLと確認できる方法がちょうど一つならPAPERまたはDIGITAL、0個または2個ならUNKNOWNとしてください。過去に出した結論を推測しないでください。JSON以外を出力せず、schemaの全必須欄を守ってください。\n{\"additionalProperties\":false,\"properties\":{\"decision\":{\"additionalProperties\":false,\"properties\":{\"channel\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"UNKNOWN\"]}},\"required\":[\"channel\"],\"type\":\"object\"}},\"required\":[\"decision\"],\"type\":\"object\"}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"paper\":\"ALL\"},\"B\":{\"digital\":\"ALL\",\"paper\":\"ALL\"}}}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/RS01-B03-R1-RULE/input.json": "ac26e0cfe604ea17d1267e1c80e14463100077c513d63a03acf93d398fd64c9f",
+          "received/responses/RS01-B03-R1-RULE/answer.txt": "58f2482f9c03797fa995fd8eee641b1a9099629c4eae3ce55b53096a73d0f309",
+          "received/responses/RS01-B03-R1-RULE/result.json": "64501cc1a15d2f8b593c3d0fb62e38463396749208faf61ab1f0fcfd38761275"
+        }
+      }
+    }
+  }
+]

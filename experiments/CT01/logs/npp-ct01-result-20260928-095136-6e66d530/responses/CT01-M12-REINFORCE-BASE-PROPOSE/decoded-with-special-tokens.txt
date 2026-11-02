@@ -1,0 +1,1 @@
+{"local":{"subject":"A","choice":"DIGITAL","evidence_refs":["E94A9E91EF2","EE766BA6019","E155ED5F973"]},"proposal":{"candidate_id":"X","evidence_refs":["E94A9E91EF2","EE766BA6019","E7626AE2A21","E43F99F6F00","E155ED5F973"]}}<|im_end|>

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "kind": "RESULT_DELIVERY_AND_PROVENANCE_CHECK",
+  "preserved_preparation_files_current_or_backed_up": 50,
+  "preserved_previous_result_immutable_files": 18,
+  "links_checked": 40,
+  "archived_files": 1444,
+  "real_responses": 117,
+  "formation_correct": 9,
+  "vote_common_correct": {
+    "DIRECT": 54,
+    "COMPARE": 54
+  },
+  "comparison_correct": 54,
+  "paired_difference": 0,
+  "gate": "PASS_IN_FIXED_COMPARISON",
+  "independent_check_assertions": 42728,
+  "source_zip_sha256": "273060974458e5b16f86710c20eae52c2d36b4105a21e402a9e529b7a1c2216a",
+  "local_model_calls": 0,
+  "ledger_section": 369
+}

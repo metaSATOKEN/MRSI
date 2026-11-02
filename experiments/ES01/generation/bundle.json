@@ -1,0 +1,83 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "e51cf054dd4615193b441649698921b65a870b6f1659c280f1a46d26644e3aae",
+    "design.md": "78bdb10ca88962fcb71bd022a59a5b2b51c6667e690cdd2fe8ac4b5041f6a672",
+    "materials/contract.json": "80130cde0753c847199b0cca9aa770b1f347a03b5efa2e262473dcbe00b2ecfd",
+    "materials/frozen.json": "48893d7333fec4fc0a951ca0b8f487706a2da0a6d2ec179c10247f4e490623b6",
+    "requests.jsonl": "00b9895934ebe22390310a31d3b21dac5d0ec3218729716c23d5e3a96530c65e",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/experience_shared_01_bootstrap.py": "d2c1b1bf317fed45f89cf34a9b72f29053d14e65f420f9ab884e86099b9b8901",
+    "source/experience_shared_01_design.py": "f98b35b77f9ac8ce4ade99e9b5edd1197d5c4644084d5599c3e396d7d81d4f62",
+    "source/experience_shared_01_fixtures.py": "941321b521d70234acda954e31763c3a3d0336c739ba9439dae87831b83e55d7",
+    "source/experience_shared_01_runtime.py": "d061c37a01a5eabd26272c9ee4cdfcd86771574e368fb96f5884f8dfdb80a2bf",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "supervisor.py": "f78b8eebf26fd6617b3757bc9b81963286e9ce0fb93d0c569fbabd107c3f7645"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "1bca684e33a6ab9e1e0c53a84cd616a990cd8e372802c85d78b3a08cf90199dc",
+  "original_payload_sha256": "1c7d1b6eae7d64a77ab0e8cbc4f10a0e3b4bc8a4411d0d8f0db4a89ee54b94a9",
+  "original_supervisor_sha256": "d2c1b1bf317fed45f89cf34a9b72f29053d14e65f420f9ab884e86099b9b8901",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "experience_shared_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/experience_shared_01_bootstrap.py"
+          },
+          "experience_shared_01_design.py": {
+            "kind": "text",
+            "path": "source/experience_shared_01_design.py"
+          },
+          "experience_shared_01_fixtures.py": {
+            "kind": "text",
+            "path": "source/experience_shared_01_fixtures.py"
+          },
+          "experience_shared_01_runtime.py": {
+            "kind": "text",
+            "path": "source/experience_shared_01_runtime.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "ES01"
+}

@@ -1,0 +1,95 @@
+{
+  "normalization_tests_passed": 15,
+  "normalization_test_failures": 0,
+  "analysis_assertion_corrections": 2,
+  "private_observation_problems": [
+    {
+      "pipeline": "UR01-G04-R1-REWRITE",
+      "cohort": "RECOVERED_FENCE",
+      "holder": "B",
+      "notice_target": "B",
+      "actual": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "RC8F75EA53DB1A52",
+        "revision": 1
+      },
+      "expected": {
+        "digital": "ALL",
+        "observer": "B",
+        "origin_id": "RCB37DA81492D2B6",
+        "paper": "NOT_ALL",
+        "revision": 4
+      },
+      "cause_description": "OLD_SELF_NOTICE_IN_PRIVATE",
+      "read_was_run": false,
+      "static_note_channel": "UNKNOWN",
+      "latest_channel": "DIGITAL"
+    },
+    {
+      "pipeline": "UR01-G04-R2-REWRITE",
+      "cohort": "RECOVERED_FENCE",
+      "holder": "B",
+      "notice_target": "B",
+      "actual": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "RC8F75EA53DB1A52",
+        "revision": 1
+      },
+      "expected": {
+        "digital": "ALL",
+        "observer": "B",
+        "origin_id": "RCB37DA81492D2B6",
+        "paper": "NOT_ALL",
+        "revision": 4
+      },
+      "cause_description": "OLD_SELF_NOTICE_IN_PRIVATE",
+      "read_was_run": false,
+      "static_note_channel": "UNKNOWN",
+      "latest_channel": "DIGITAL"
+    },
+    {
+      "pipeline": "UR01-G06-R2-REWRITE",
+      "cohort": "RECOVERED_FENCE",
+      "holder": "A",
+      "notice_target": "B",
+      "actual": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "RE396B9D8A3C4888",
+        "revision": 1
+      },
+      "expected": {
+        "digital": "ALL",
+        "observer": "A",
+        "origin_id": "RAE8036BB2390796",
+        "paper": "NOT_ALL",
+        "revision": 4
+      },
+      "cause_description": "OLD_PARTNER_NOTICE_IN_PRIVATE",
+      "read_was_run": false,
+      "static_note_channel": "DIGITAL",
+      "latest_channel": "DIGITAL"
+    }
+  ],
+  "totals": {
+    "joint_exact": 51,
+    "customer_exact": 72,
+    "private_observation_exact": 69,
+    "shared_rows_input_exact": 144,
+    "shared_rows_latest_exact": 123,
+    "static_note_channel_exact_not_llm_readout": 53
+  },
+  "recovered": {
+    "n": 37,
+    "joint_exact": 27
+  },
+  "identical_attempt_artifacts": {
+    "attempt-1": 360,
+    "attempt-2": 360
+  }
+}

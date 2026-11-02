@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-264F1AF1C3",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local", "/answer/team"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "追加プロパティなし、必須キー存在、列挙値有効。スキーマ完全準拠。"
+    },
+    "attribution": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/local/evidence_refs"],
+      "evidence_pointers": ["/payload/experiences", "/facts/roles/A"],
+      "reason": "local.evidence_refsに架空ID「E-unlisted...」が含まれ、自身の全経験IDと一致しない。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/projected_success_per_40"],
+      "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高く、選択「PAPER」は正しい。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Bの提案(A:DIGITAL,B:PAPER)は最大合計49で実行可能。AがACCEPTし、答案はSHARED_DECISIONで合致。"
+    }
+  }
+}

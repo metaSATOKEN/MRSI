@@ -1,0 +1,12 @@
+{
+  "mascot": "CAT",
+  "mascot_sources": [
+    "PRIVATE"
+  ],
+  "channel": "UNKNOWN",
+  "channel_sources": [],
+  "choice_valid": true,
+  "sources_valid": true,
+  "continuable": false,
+  "status": "VALID"
+}

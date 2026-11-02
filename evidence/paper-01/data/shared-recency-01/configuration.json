@@ -1,0 +1,640 @@
+{
+  "protocol": "SHARED-RECENCY-01",
+  "version": "shared-recency-01-v0.1",
+  "limits": {
+    "logical_requests": 32,
+    "physical_requests": 36,
+    "overload_retries": 4,
+    "per_logical_attempts": 2,
+    "active_seconds": 1800,
+    "reserve_seconds": 200,
+    "response_utf8_bytes": 4096,
+    "input_text_utf8_bytes": 32768
+  },
+  "allocation": [
+    {
+      "id": "SR01-G02-SAVE1-A-NEW_OLD",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "SAVE1",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "parents": [],
+      "position": 1
+    },
+    {
+      "id": "SR01-G03-SAVE1-B-NEW_OLD",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "SAVE1",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "parents": [],
+      "position": 2
+    },
+    {
+      "id": "SR01-G01-SAVE1-B-NEW_OLD",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "SAVE1",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "parents": [],
+      "position": 3
+    },
+    {
+      "id": "SR01-G04-SAVE1-A-OLD_NEW",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "SAVE1",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "parents": [],
+      "position": 4
+    },
+    {
+      "id": "SR01-G03-SAVE1-B-OLD_NEW",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "SAVE1",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "parents": [],
+      "position": 5
+    },
+    {
+      "id": "SR01-G01-SAVE1-B-OLD_NEW",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "SAVE1",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "parents": [],
+      "position": 6
+    },
+    {
+      "id": "SR01-G02-SAVE1-A-OLD_NEW",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "SAVE1",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "parents": [],
+      "position": 7
+    },
+    {
+      "id": "SR01-G04-SAVE1-A-NEW_OLD",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "SAVE1",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "parents": [],
+      "position": 8
+    },
+    {
+      "id": "SR01-G04-SAVE2-A-NEW_OLD",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "SAVE2",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "parents": [
+        "SR01-G04-SAVE1-A-NEW_OLD"
+      ],
+      "position": 9
+    },
+    {
+      "id": "SR01-G01-SAVE2-B-NEW_OLD",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "SAVE2",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "parents": [
+        "SR01-G01-SAVE1-B-NEW_OLD"
+      ],
+      "position": 10
+    },
+    {
+      "id": "SR01-G02-SAVE2-A-NEW_OLD",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "SAVE2",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "parents": [
+        "SR01-G02-SAVE1-A-NEW_OLD"
+      ],
+      "position": 11
+    },
+    {
+      "id": "SR01-G04-SAVE2-A-OLD_NEW",
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "SAVE2",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "parents": [
+        "SR01-G04-SAVE1-A-OLD_NEW"
+      ],
+      "position": 12
+    },
+    {
+      "id": "SR01-G03-SAVE2-B-OLD_NEW",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "SAVE2",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "parents": [
+        "SR01-G03-SAVE1-B-OLD_NEW"
+      ],
+      "position": 13
+    },
+    {
+      "id": "SR01-G01-SAVE2-B-OLD_NEW",
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "SAVE2",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "parents": [
+        "SR01-G01-SAVE1-B-OLD_NEW"
+      ],
+      "position": 14
+    },
+    {
+      "id": "SR01-G02-SAVE2-A-OLD_NEW",
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "SAVE2",
+      "arm": "OLD_NEW",
+      "repetition": null,
+      "parents": [
+        "SR01-G02-SAVE1-A-OLD_NEW"
+      ],
+      "position": 15
+    },
+    {
+      "id": "SR01-G03-SAVE2-B-NEW_OLD",
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "SAVE2",
+      "arm": "NEW_OLD",
+      "repetition": null,
+      "parents": [
+        "SR01-G03-SAVE1-B-NEW_OLD"
+      ],
+      "position": 16
+    },
+    {
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "parents": [
+        "SR01-G03-SAVE2-B-OLD_NEW"
+      ],
+      "id": "SR01-G03-PROBE-B-OLD_NEW-R1",
+      "repetition": 1,
+      "position": 17
+    },
+    {
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "parents": [
+        "SR01-G03-SAVE2-B-NEW_OLD"
+      ],
+      "id": "SR01-G03-PROBE-B-NEW_OLD-R1",
+      "repetition": 1,
+      "position": 18
+    },
+    {
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "parents": [
+        "SR01-G01-SAVE2-B-NEW_OLD"
+      ],
+      "id": "SR01-G01-PROBE-B-NEW_OLD-R1",
+      "repetition": 1,
+      "position": 19
+    },
+    {
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "parents": [
+        "SR01-G01-SAVE2-B-OLD_NEW"
+      ],
+      "id": "SR01-G01-PROBE-B-OLD_NEW-R1",
+      "repetition": 1,
+      "position": 20
+    },
+    {
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "parents": [
+        "SR01-G04-SAVE2-A-OLD_NEW"
+      ],
+      "id": "SR01-G04-PROBE-A-OLD_NEW-R1",
+      "repetition": 1,
+      "position": 21
+    },
+    {
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "parents": [
+        "SR01-G04-SAVE2-A-NEW_OLD"
+      ],
+      "id": "SR01-G04-PROBE-A-NEW_OLD-R1",
+      "repetition": 1,
+      "position": 22
+    },
+    {
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "parents": [
+        "SR01-G02-SAVE2-A-NEW_OLD"
+      ],
+      "id": "SR01-G02-PROBE-A-NEW_OLD-R1",
+      "repetition": 1,
+      "position": 23
+    },
+    {
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "parents": [
+        "SR01-G02-SAVE2-A-OLD_NEW"
+      ],
+      "id": "SR01-G02-PROBE-A-OLD_NEW-R1",
+      "repetition": 1,
+      "position": 24
+    },
+    {
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "parents": [
+        "SR01-G02-SAVE2-A-OLD_NEW"
+      ],
+      "id": "SR01-G02-PROBE-A-OLD_NEW-R2",
+      "repetition": 2,
+      "position": 25
+    },
+    {
+      "group": "SR01-G02",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "parents": [
+        "SR01-G02-SAVE2-A-NEW_OLD"
+      ],
+      "id": "SR01-G02-PROBE-A-NEW_OLD-R2",
+      "repetition": 2,
+      "position": 26
+    },
+    {
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "parents": [
+        "SR01-G04-SAVE2-A-NEW_OLD"
+      ],
+      "id": "SR01-G04-PROBE-A-NEW_OLD-R2",
+      "repetition": 2,
+      "position": 27
+    },
+    {
+      "group": "SR01-G04",
+      "role": "A",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "parents": [
+        "SR01-G04-SAVE2-A-OLD_NEW"
+      ],
+      "id": "SR01-G04-PROBE-A-OLD_NEW-R2",
+      "repetition": 2,
+      "position": 28
+    },
+    {
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "parents": [
+        "SR01-G01-SAVE2-B-OLD_NEW"
+      ],
+      "id": "SR01-G01-PROBE-B-OLD_NEW-R2",
+      "repetition": 2,
+      "position": 29
+    },
+    {
+      "group": "SR01-G01",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "parents": [
+        "SR01-G01-SAVE2-B-NEW_OLD"
+      ],
+      "id": "SR01-G01-PROBE-B-NEW_OLD-R2",
+      "repetition": 2,
+      "position": 30
+    },
+    {
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "NEW_OLD",
+      "parents": [
+        "SR01-G03-SAVE2-B-NEW_OLD"
+      ],
+      "id": "SR01-G03-PROBE-B-NEW_OLD-R2",
+      "repetition": 2,
+      "position": 31
+    },
+    {
+      "group": "SR01-G03",
+      "role": "B",
+      "stage": "PROBE",
+      "arm": "OLD_NEW",
+      "parents": [
+        "SR01-G03-SAVE2-B-OLD_NEW"
+      ],
+      "id": "SR01-G03-PROBE-B-OLD_NEW-R2",
+      "repetition": 2,
+      "position": 32
+    }
+  ],
+  "materials": [
+    {
+      "group": "SR01-G01",
+      "scene": "地域工作会",
+      "item": "持帰り袋",
+      "notifier": "A",
+      "receiver": "B",
+      "writer": "A",
+      "editor": "B",
+      "initial_channel": "PAPER",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "DOG",
+            "origin_id": "QX"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "LT"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "CAT",
+            "origin_id": "JV"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "NR"
+          }
+        }
+      },
+      "notices": {
+        "CHANGE": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "NA"
+        },
+        "STABLE": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "NA"
+        }
+      },
+      "source_group": "SC03-G01",
+      "source_su": "SU02-G01",
+      "source_sc": "SC03-G01"
+    },
+    {
+      "group": "SR01-G02",
+      "scene": "地域工作会",
+      "item": "持帰り袋",
+      "notifier": "B",
+      "receiver": "A",
+      "writer": "A",
+      "editor": "B",
+      "initial_channel": "DIGITAL",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "CAT",
+            "origin_id": "BK"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "SZ"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "DOG",
+            "origin_id": "WH"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "FU"
+          }
+        }
+      },
+      "notices": {
+        "CHANGE": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "NB"
+        },
+        "STABLE": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "NB"
+        }
+      },
+      "source_group": "SC03-G02",
+      "source_su": "SU02-G02",
+      "source_sc": "SC03-G02"
+    },
+    {
+      "group": "SR01-G03",
+      "scene": "小さな展示会",
+      "item": "受付名札",
+      "notifier": "A",
+      "receiver": "B",
+      "writer": "B",
+      "editor": "A",
+      "initial_channel": "DIGITAL",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "CAT",
+            "origin_id": "GD"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "YC"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "DOG",
+            "origin_id": "PM"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "VE"
+          }
+        }
+      },
+      "notices": {
+        "CHANGE": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "NC"
+        },
+        "STABLE": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "NC"
+        }
+      },
+      "source_group": "SC03-G03",
+      "source_su": "SU02-G03",
+      "source_sc": "SC03-G03"
+    },
+    {
+      "group": "SR01-G04",
+      "scene": "小さな展示会",
+      "item": "受付名札",
+      "notifier": "B",
+      "receiver": "A",
+      "writer": "B",
+      "editor": "A",
+      "initial_channel": "PAPER",
+      "originals": {
+        "A": {
+          "customer": {
+            "subject": "A",
+            "animal": "DOG",
+            "origin_id": "HN"
+          },
+          "coverage": {
+            "observer": "A",
+            "paper": "ALL",
+            "digital": "ALL",
+            "origin_id": "KJ"
+          }
+        },
+        "B": {
+          "customer": {
+            "subject": "B",
+            "animal": "CAT",
+            "origin_id": "ZR"
+          },
+          "coverage": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "BW"
+          }
+        }
+      },
+      "notices": {
+        "CHANGE": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "ND"
+        },
+        "STABLE": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "ND"
+        }
+      },
+      "source_group": "SC03-G04",
+      "source_su": "SU02-G04",
+      "source_sc": "SC03-G04"
+    }
+  ],
+  "contract": {
+    "protocol": "SHARED-RECENCY-01",
+    "seed": 2026091902,
+    "limits": {
+      "logical_requests": 32,
+      "physical_requests": 36,
+      "active_seconds": 1800,
+      "reserve_seconds": 200,
+      "input_bytes": 32768,
+      "output_bytes": 4096
+    },
+    "retention_expires_at": "2026-10-12T17:41:23+09:00",
+    "stages": {
+      "SAVE1": 8,
+      "SAVE2": 8,
+      "PROBE": 16
+    },
+    "root_inputs": 8,
+    "dependent_inputs": 24,
+    "codec_stages": [],
+    "semantic_repair": false,
+    "primary": "E_PAIR: both sequential-arrival paths fully correct per fixed group; four groups",
+    "prediction_threshold": 0.75,
+    "prediction": {
+      "E_PAIR_at_least": 0.75,
+      "SAVE2_content_and_revision_both_orders": 1,
+      "final_I": 1,
+      "rollback_to_old": 0
+    },
+    "automatic_resume": false,
+    "model_requests": 0,
+    "authentication_requests": 0
+  },
+  "retention_expires_at": "2026-10-12T17:41:23+09:00"
+}

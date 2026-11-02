@@ -1,0 +1,1 @@
+{"local":{"subject":"A","choice":"PAPER","evidence_refs":["ED81AAE200D","EFB9B239791","E22BFDC1C77"]},"reply":{"action":"HOLD","reply_to":"Q41E1275B06","allocation":{"A":"UNDECIDED","B":"UNDECIDED"},"evidence_refs":["ED81AAE200D","EFB9B239791","E5A03A1A255","E6A5E6E3A8F","E22BFDC1C77"]}}

@@ -1,0 +1,326 @@
+[
+  {
+    "key": "T01-A-HIGHER",
+    "old_TVR01_background_only": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "DIRECT": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "COMPARE": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ]
+  },
+  {
+    "key": "T01-A-LOWER",
+    "old_TVR01_background_only": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "DIRECT": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "COMPARE": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ]
+  },
+  {
+    "key": "T01-B-HIGHER",
+    "old_TVR01_background_only": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "DIRECT": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "COMPARE": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ]
+  },
+  {
+    "key": "T01-B-LOWER",
+    "old_TVR01_background_only": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "DIRECT": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "COMPARE": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ]
+  },
+  {
+    "key": "T01-C-HIGHER",
+    "old_TVR01_background_only": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "DIRECT": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "COMPARE": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ]
+  },
+  {
+    "key": "T01-C-LOWER",
+    "old_TVR01_background_only": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "DIRECT": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "COMPARE": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ]
+  },
+  {
+    "key": "T02-A-HIGHER",
+    "old_TVR01_background_only": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "DIRECT": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "COMPARE": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ]
+  },
+  {
+    "key": "T02-A-LOWER",
+    "old_TVR01_background_only": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "DIRECT": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "COMPARE": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ]
+  },
+  {
+    "key": "T02-B-HIGHER",
+    "old_TVR01_background_only": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "DIRECT": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "COMPARE": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ]
+  },
+  {
+    "key": "T02-B-LOWER",
+    "old_TVR01_background_only": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "DIRECT": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "COMPARE": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ]
+  },
+  {
+    "key": "T02-C-HIGHER",
+    "old_TVR01_background_only": [
+      "ACCEPT",
+      "ACCEPT",
+      "HOLD"
+    ],
+    "DIRECT": [
+      "HOLD",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "COMPARE": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ]
+  },
+  {
+    "key": "T02-C-LOWER",
+    "old_TVR01_background_only": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "DIRECT": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "COMPARE": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ]
+  },
+  {
+    "key": "T03-A-HIGHER",
+    "old_TVR01_background_only": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "DIRECT": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "COMPARE": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ]
+  },
+  {
+    "key": "T03-A-LOWER",
+    "old_TVR01_background_only": [
+      "HOLD",
+      "ACCEPT",
+      "HOLD"
+    ],
+    "DIRECT": [
+      "ACCEPT",
+      "HOLD",
+      "HOLD"
+    ],
+    "COMPARE": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ]
+  },
+  {
+    "key": "T03-B-HIGHER",
+    "old_TVR01_background_only": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "DIRECT": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "COMPARE": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ]
+  },
+  {
+    "key": "T03-B-LOWER",
+    "old_TVR01_background_only": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "DIRECT": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "COMPARE": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ]
+  },
+  {
+    "key": "T03-C-HIGHER",
+    "old_TVR01_background_only": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "DIRECT": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ],
+    "COMPARE": [
+      "ACCEPT",
+      "ACCEPT",
+      "ACCEPT"
+    ]
+  },
+  {
+    "key": "T03-C-LOWER",
+    "old_TVR01_background_only": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "DIRECT": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ],
+    "COMPARE": [
+      "HOLD",
+      "HOLD",
+      "HOLD"
+    ]
+  }
+]

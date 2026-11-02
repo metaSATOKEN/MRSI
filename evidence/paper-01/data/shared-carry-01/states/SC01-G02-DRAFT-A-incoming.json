@@ -1,0 +1,27 @@
+{
+  "scene": "地域工作会",
+  "item": "持帰り袋",
+  "holder": "A",
+  "observations": [
+    {
+      "id": "OBS_A",
+      "author": "A",
+      "content": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "ALL",
+        "source_id": "SZ"
+      }
+    },
+    {
+      "id": "OBS_B",
+      "author": "B",
+      "content": {
+        "observer": "B",
+        "paper": "NOT_ALL",
+        "digital": "ALL",
+        "source_id": "FU"
+      }
+    }
+  ]
+}

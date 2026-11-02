@@ -1,0 +1,88 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "49a64a4ab1adbb6c4928ebb9e65878732363c8b3fa32b47076d797858f52f6fb",
+    "design.md": "002487f9c2d45a87c31eefb0afddfc158c427a92287c7531dce1ef53d0b21ce5",
+    "materials/contract.json": "de3cd2a438810ecc338e0a748ef24ec69332ba6f82faa2f99e2daada619742b5",
+    "materials/frozen.json": "0f4cebe8ac852985352a215c3778002c10c06de97d62de9243e15c17d39bf0b7",
+    "requests.jsonl": "fa24dcb3a8416010f5b271fd29ae59b2610b4ef97dc2aa7a5e4169ff2293fcf1",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/counter_recheck_01_bootstrap.py": "f9c7f92df9c53be265782ab126503498937d826b7b928ef5bed127159102dced",
+    "source/counter_recheck_01_fixtures.py": "dd5fc450201a454fd47f3db017f8de858846030a0f70866ad20a19bd7666d695",
+    "source/counter_recheck_01_runtime.py": "e055a73ffcabc3f823cad1aa04529df015fb038318a56a58fd00e746c6c92847",
+    "source/counter_recheck_01_scoring.py": "ca9493c7bb374bd50bf611ff45c15ceb5ca3376ebd9884b1c0f6ffa15b32d1c2",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/experience_update_01_design.py": "0cae6a87b1355cdf29fb5f2ec2f1eb97fa294c076419eff5ec774d749551b3a1",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "supervisor.py": "1e39bc3530880d6e473180a95834c9d3cbc10cf57127fc6358e5ba6133707001"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "39536cde3bd43c57459a6256f740f6cc541fa0e0fb7d17ab078818e3de7d1b07",
+  "original_payload_sha256": "7fb4684d9f5d7eb5c13d210412daee258e87bbdca92fed5661fc35fa5acf09c6",
+  "original_supervisor_sha256": "f9c7f92df9c53be265782ab126503498937d826b7b928ef5bed127159102dced",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "counter_recheck_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/counter_recheck_01_bootstrap.py"
+          },
+          "counter_recheck_01_fixtures.py": {
+            "kind": "text",
+            "path": "source/counter_recheck_01_fixtures.py"
+          },
+          "counter_recheck_01_runtime.py": {
+            "kind": "text",
+            "path": "source/counter_recheck_01_runtime.py"
+          },
+          "counter_recheck_01_scoring.py": {
+            "kind": "text",
+            "path": "source/counter_recheck_01_scoring.py"
+          },
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "experience_update_01_design.py": {
+            "kind": "text",
+            "path": "source/experience_update_01_design.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "CR01"
+}

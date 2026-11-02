@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-B7822E82DE",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local", "/answer/reply"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "答案はschemaの必須フィールド(local, reply)と追加プロパティ禁止ルールを満たし、型と列挙値が正当である。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/reply/reply_to", "/answer/reply/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/experiences", "/payload/proposal/record_id", "/facts/roles"],
+      "reason": "local.subjectはholder(A)と一致。evidence_refsはAの全経験IDと厳密一致。reply_toは提案ID。reply.evidence_refsは両役の全経験IDを含む。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/success_totals"],
+      "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高いため、PAPERを選択した答案是正しい。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/reply/action", "/answer/reply/allocation"],
+      "evidence_pointers": ["/payload/proposal/body/allocation", "/facts/feasible_allocations"],
+      "reason": "提案(A:DIGITAL, B:PAPER)はfactsで予測合計50の最大値であり実行可能。ACCEPTで同一割付を承認した答案是正しい。"
+    }
+  }
+}

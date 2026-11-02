@@ -1,0 +1,98 @@
+{
+  "PART1": {
+    "allocation_sha256": "0d0987370a38818f9b62532ffe48974982cc62bca3185754814b9ebf55f0eb7a",
+    "attention": "sdpa",
+    "automatic_retries": 0,
+    "bundle_sha256": "51a7c84fbdea9d9d069e6a544a5522fa18b91c8535a0786267faa2e054bf2bab",
+    "checkpoint_every_closed_responses": 64,
+    "checkpoint_seconds": 1800,
+    "delivery": "zip_download_at_part_end",
+    "dtype": "bfloat16",
+    "enable_thinking": false,
+    "eos_policy": "Remove one final im_end only; preserve raw token IDs.",
+    "generation": {
+      "do_sample": true,
+      "max_new_tokens": 2048,
+      "repetition_penalty": 1.0,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "use_cache": true
+    },
+    "max_generations": 768,
+    "max_input_tokens": 8192,
+    "model": "Qwen/Qwen3.5-27B",
+    "non_eos_policy": "Unresolved; no downstream memory; no automatic regeneration.",
+    "part": "PART1",
+    "partition_sha256": "8ed748b7c5f86f02edf0a1140124954e8ad104c90360894ba96a9add06a1afd2",
+    "pins": {
+      "accelerate": "1.15.0",
+      "transformers": "5.17.0"
+    },
+    "protocol": "CROSS-MODEL-E1-01-MAIN-v0.1",
+    "resume": "latest_final_zip_only; unfinished_window_charged_in_full",
+    "retention_proposal": "private_no_deletion_deadline",
+    "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+    "source_hashes": {
+      "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+      "cross_model_e1_01_main_bootstrap.py": "3b61c901c703611e9add56acccfcf42a6f4c524ca6c2bdf4caa16a82730dae4e",
+      "cross_model_e1_01_main_runtime.py": "ac31b080a2d0a32634edea43a7e434c102d86411ee0d208e50aa3a40e335183c",
+      "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b"
+    },
+    "special_token_ids": {
+      "<|endoftext|>": 248044,
+      "<|im_end|>": 248046,
+      "<|im_start|>": 248045
+    },
+    "storage": "colab_ephemeral_no_drive",
+    "total_seconds": 28800
+  },
+  "PART2": {
+    "allocation_sha256": "725cb37f0e70cca62ddc20ed773607cda896a242bff68098c88350a395e39c15",
+    "attention": "sdpa",
+    "automatic_retries": 0,
+    "bundle_sha256": "51a7c84fbdea9d9d069e6a544a5522fa18b91c8535a0786267faa2e054bf2bab",
+    "checkpoint_every_closed_responses": 64,
+    "checkpoint_seconds": 1800,
+    "delivery": "zip_download_at_part_end",
+    "dtype": "bfloat16",
+    "enable_thinking": false,
+    "eos_policy": "Remove one final im_end only; preserve raw token IDs.",
+    "generation": {
+      "do_sample": true,
+      "max_new_tokens": 2048,
+      "repetition_penalty": 1.0,
+      "temperature": 0.7,
+      "top_k": 20,
+      "top_p": 0.8,
+      "use_cache": true
+    },
+    "max_generations": 768,
+    "max_input_tokens": 8192,
+    "model": "Qwen/Qwen3.5-27B",
+    "non_eos_policy": "Unresolved; no downstream memory; no automatic regeneration.",
+    "part": "PART2",
+    "partition_sha256": "8ed748b7c5f86f02edf0a1140124954e8ad104c90360894ba96a9add06a1afd2",
+    "pins": {
+      "accelerate": "1.15.0",
+      "transformers": "5.17.0"
+    },
+    "protocol": "CROSS-MODEL-E1-01-MAIN-v0.1",
+    "resume": "latest_final_zip_only; unfinished_window_charged_in_full",
+    "retention_proposal": "private_no_deletion_deadline",
+    "revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+    "source_hashes": {
+      "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+      "cross_model_e1_01_main_bootstrap.py": "3b61c901c703611e9add56acccfcf42a6f4c524ca6c2bdf4caa16a82730dae4e",
+      "cross_model_e1_01_main_runtime.py": "ac31b080a2d0a32634edea43a7e434c102d86411ee0d208e50aa3a40e335183c",
+      "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b"
+    },
+    "special_token_ids": {
+      "<|endoftext|>": 248044,
+      "<|im_end|>": 248046,
+      "<|im_start|>": 248045
+    },
+    "storage": "colab_ephemeral_no_drive",
+    "total_seconds": 28800
+  }
+}

@@ -1,0 +1,900 @@
+{
+  "rolled_back_exact_customer_rows": [
+    {
+      "id": "CU01-C06-R1-DELAY-A",
+      "input_current": {
+        "animal": "DOG",
+        "origin_id": "K0D9B80C5A23D1363",
+        "revision": 77,
+        "subject": "A"
+      },
+      "late_notice": {
+        "animal": "CAT",
+        "origin_id": "K5E1ED87EFA479493",
+        "revision": 76,
+        "subject": "A"
+      },
+      "proposal": {
+        "animal": "CAT",
+        "origin_id": "K5E1ED87EFA479493",
+        "revision": 76,
+        "subject": "A"
+      },
+      "saved": {
+        "animal": "CAT",
+        "origin_id": "K5E1ED87EFA479493",
+        "revision": 76,
+        "subject": "A"
+      },
+      "read_id": "CU01-C06-R1-READ-A",
+      "read_customer": {
+        "animal": "CAT",
+        "subject": "A"
+      }
+    },
+    {
+      "id": "CU01-C05-R1-DELAY-A",
+      "input_current": {
+        "animal": "CAT",
+        "origin_id": "K4BED09033EC48672",
+        "revision": 16,
+        "subject": "A"
+      },
+      "late_notice": {
+        "animal": "DOG",
+        "origin_id": "KFFA10426682A07C1",
+        "revision": 15,
+        "subject": "A"
+      },
+      "proposal": {
+        "animal": "DOG",
+        "origin_id": "KFFA10426682A07C1",
+        "revision": 15,
+        "subject": "A"
+      },
+      "saved": {
+        "animal": "DOG",
+        "origin_id": "KFFA10426682A07C1",
+        "revision": 15,
+        "subject": "A"
+      },
+      "read_id": "CU01-C05-R1-READ-A",
+      "read_customer": {
+        "animal": "DOG",
+        "subject": "A"
+      }
+    },
+    {
+      "id": "CU01-C02-R1-DELAY-A",
+      "input_current": {
+        "animal": "DOG",
+        "origin_id": "KB67E1D5434C515AC",
+        "revision": 13,
+        "subject": "A"
+      },
+      "late_notice": {
+        "animal": "CAT",
+        "origin_id": "K689A5C089ADD4D7B",
+        "revision": 12,
+        "subject": "A"
+      },
+      "proposal": {
+        "animal": "CAT",
+        "origin_id": "K689A5C089ADD4D7B",
+        "revision": 12,
+        "subject": "A"
+      },
+      "saved": {
+        "animal": "CAT",
+        "origin_id": "K689A5C089ADD4D7B",
+        "revision": 12,
+        "subject": "A"
+      },
+      "read_id": "CU01-C02-R1-READ-A",
+      "read_customer": {
+        "animal": "CAT",
+        "subject": "A"
+      }
+    },
+    {
+      "id": "CU01-C08-R1-DELAY-B",
+      "input_current": {
+        "animal": "DOG",
+        "origin_id": "K58A2476A83B4EDBB",
+        "revision": 19,
+        "subject": "B"
+      },
+      "late_notice": {
+        "animal": "CAT",
+        "origin_id": "KBCE5FD7CD63DE27A",
+        "revision": 18,
+        "subject": "B"
+      },
+      "proposal": {
+        "animal": "CAT",
+        "origin_id": "KBCE5FD7CD63DE27A",
+        "revision": 18,
+        "subject": "B"
+      },
+      "saved": {
+        "animal": "CAT",
+        "origin_id": "KBCE5FD7CD63DE27A",
+        "revision": 18,
+        "subject": "B"
+      },
+      "read_id": "CU01-C08-R1-READ-B",
+      "read_customer": {
+        "animal": "CAT",
+        "subject": "B"
+      }
+    },
+    {
+      "id": "CU01-C07-R1-DELAY-B",
+      "input_current": {
+        "animal": "CAT",
+        "origin_id": "KF4CDCCC12B855611",
+        "revision": 78,
+        "subject": "B"
+      },
+      "late_notice": {
+        "animal": "DOG",
+        "origin_id": "K871B672B0DBD5619",
+        "revision": 77,
+        "subject": "B"
+      },
+      "proposal": {
+        "animal": "DOG",
+        "origin_id": "K871B672B0DBD5619",
+        "revision": 77,
+        "subject": "B"
+      },
+      "saved": {
+        "animal": "DOG",
+        "origin_id": "K871B672B0DBD5619",
+        "revision": 77,
+        "subject": "B"
+      },
+      "read_id": "CU01-C07-R1-READ-B",
+      "read_customer": {
+        "animal": "DOG",
+        "subject": "B"
+      }
+    },
+    {
+      "id": "CU01-C03-R1-DELAY-B",
+      "input_current": {
+        "animal": "CAT",
+        "origin_id": "K456B3A7E3019506F",
+        "revision": 14,
+        "subject": "B"
+      },
+      "late_notice": {
+        "animal": "DOG",
+        "origin_id": "KC75013CE401A81D4",
+        "revision": 13,
+        "subject": "B"
+      },
+      "proposal": {
+        "animal": "DOG",
+        "origin_id": "KC75013CE401A81D4",
+        "revision": 13,
+        "subject": "B"
+      },
+      "saved": {
+        "animal": "DOG",
+        "origin_id": "KC75013CE401A81D4",
+        "revision": 13,
+        "subject": "B"
+      },
+      "read_id": "CU01-C03-R1-READ-B",
+      "read_customer": {
+        "animal": "DOG",
+        "subject": "B"
+      }
+    },
+    {
+      "id": "CU01-C04-R1-DELAY-B",
+      "input_current": {
+        "animal": "DOG",
+        "origin_id": "KFA6C63E2E60A486D",
+        "revision": 75,
+        "subject": "B"
+      },
+      "late_notice": {
+        "animal": "CAT",
+        "origin_id": "KDCF1BC4E9751DCA1",
+        "revision": 74,
+        "subject": "B"
+      },
+      "proposal": {
+        "animal": "CAT",
+        "origin_id": "KDCF1BC4E9751DCA1",
+        "revision": 74,
+        "subject": "B"
+      },
+      "saved": {
+        "animal": "CAT",
+        "origin_id": "KDCF1BC4E9751DCA1",
+        "revision": 74,
+        "subject": "B"
+      },
+      "read_id": "CU01-C04-R1-READ-B",
+      "read_customer": {
+        "animal": "CAT",
+        "subject": "B"
+      }
+    },
+    {
+      "id": "CU01-C04-R2-DELAY-B",
+      "input_current": {
+        "animal": "DOG",
+        "origin_id": "KFA6C63E2E60A486D",
+        "revision": 75,
+        "subject": "B"
+      },
+      "late_notice": {
+        "animal": "CAT",
+        "origin_id": "KDCF1BC4E9751DCA1",
+        "revision": 74,
+        "subject": "B"
+      },
+      "proposal": {
+        "animal": "CAT",
+        "origin_id": "KDCF1BC4E9751DCA1",
+        "revision": 74,
+        "subject": "B"
+      },
+      "saved": {
+        "animal": "CAT",
+        "origin_id": "KDCF1BC4E9751DCA1",
+        "revision": 74,
+        "subject": "B"
+      },
+      "read_id": "CU01-C04-R2-READ-B",
+      "read_customer": {
+        "animal": "CAT",
+        "subject": "B"
+      }
+    },
+    {
+      "id": "CU01-C03-R2-DELAY-B",
+      "input_current": {
+        "animal": "CAT",
+        "origin_id": "K456B3A7E3019506F",
+        "revision": 14,
+        "subject": "B"
+      },
+      "late_notice": {
+        "animal": "DOG",
+        "origin_id": "KC75013CE401A81D4",
+        "revision": 13,
+        "subject": "B"
+      },
+      "proposal": {
+        "animal": "DOG",
+        "origin_id": "KC75013CE401A81D4",
+        "revision": 13,
+        "subject": "B"
+      },
+      "saved": {
+        "animal": "DOG",
+        "origin_id": "KC75013CE401A81D4",
+        "revision": 13,
+        "subject": "B"
+      },
+      "read_id": "CU01-C03-R2-READ-B",
+      "read_customer": {
+        "animal": "DOG",
+        "subject": "B"
+      }
+    },
+    {
+      "id": "CU01-C07-R2-DELAY-B",
+      "input_current": {
+        "animal": "CAT",
+        "origin_id": "KF4CDCCC12B855611",
+        "revision": 78,
+        "subject": "B"
+      },
+      "late_notice": {
+        "animal": "DOG",
+        "origin_id": "K871B672B0DBD5619",
+        "revision": 77,
+        "subject": "B"
+      },
+      "proposal": {
+        "animal": "DOG",
+        "origin_id": "K871B672B0DBD5619",
+        "revision": 77,
+        "subject": "B"
+      },
+      "saved": {
+        "animal": "DOG",
+        "origin_id": "K871B672B0DBD5619",
+        "revision": 77,
+        "subject": "B"
+      },
+      "read_id": "CU01-C07-R2-READ-B",
+      "read_customer": {
+        "animal": "DOG",
+        "subject": "B"
+      }
+    },
+    {
+      "id": "CU01-C08-R2-DELAY-B",
+      "input_current": {
+        "animal": "DOG",
+        "origin_id": "K58A2476A83B4EDBB",
+        "revision": 19,
+        "subject": "B"
+      },
+      "late_notice": {
+        "animal": "CAT",
+        "origin_id": "KBCE5FD7CD63DE27A",
+        "revision": 18,
+        "subject": "B"
+      },
+      "proposal": {
+        "animal": "CAT",
+        "origin_id": "KBCE5FD7CD63DE27A",
+        "revision": 18,
+        "subject": "B"
+      },
+      "saved": {
+        "animal": "CAT",
+        "origin_id": "KBCE5FD7CD63DE27A",
+        "revision": 18,
+        "subject": "B"
+      },
+      "read_id": "CU01-C08-R2-READ-B",
+      "read_customer": {
+        "animal": "CAT",
+        "subject": "B"
+      }
+    },
+    {
+      "id": "CU01-C02-R2-DELAY-A",
+      "input_current": {
+        "animal": "DOG",
+        "origin_id": "KB67E1D5434C515AC",
+        "revision": 13,
+        "subject": "A"
+      },
+      "late_notice": {
+        "animal": "CAT",
+        "origin_id": "K689A5C089ADD4D7B",
+        "revision": 12,
+        "subject": "A"
+      },
+      "proposal": {
+        "animal": "CAT",
+        "origin_id": "K689A5C089ADD4D7B",
+        "revision": 12,
+        "subject": "A"
+      },
+      "saved": {
+        "animal": "CAT",
+        "origin_id": "K689A5C089ADD4D7B",
+        "revision": 12,
+        "subject": "A"
+      },
+      "read_id": "CU01-C02-R2-READ-A",
+      "read_customer": {
+        "animal": "CAT",
+        "subject": "A"
+      }
+    },
+    {
+      "id": "CU01-C05-R2-DELAY-A",
+      "input_current": {
+        "animal": "CAT",
+        "origin_id": "K4BED09033EC48672",
+        "revision": 16,
+        "subject": "A"
+      },
+      "late_notice": {
+        "animal": "DOG",
+        "origin_id": "KFFA10426682A07C1",
+        "revision": 15,
+        "subject": "A"
+      },
+      "proposal": {
+        "animal": "DOG",
+        "origin_id": "KFFA10426682A07C1",
+        "revision": 15,
+        "subject": "A"
+      },
+      "saved": {
+        "animal": "DOG",
+        "origin_id": "KFFA10426682A07C1",
+        "revision": 15,
+        "subject": "A"
+      },
+      "read_id": "CU01-C05-R2-READ-A",
+      "read_customer": {
+        "animal": "DOG",
+        "subject": "A"
+      }
+    },
+    {
+      "id": "CU01-C06-R2-DELAY-A",
+      "input_current": {
+        "animal": "DOG",
+        "origin_id": "K0D9B80C5A23D1363",
+        "revision": 77,
+        "subject": "A"
+      },
+      "late_notice": {
+        "animal": "CAT",
+        "origin_id": "K5E1ED87EFA479493",
+        "revision": 76,
+        "subject": "A"
+      },
+      "proposal": {
+        "animal": "CAT",
+        "origin_id": "K5E1ED87EFA479493",
+        "revision": 76,
+        "subject": "A"
+      },
+      "saved": {
+        "animal": "CAT",
+        "origin_id": "K5E1ED87EFA479493",
+        "revision": 76,
+        "subject": "A"
+      },
+      "read_id": "CU01-C06-R2-READ-A",
+      "read_customer": {
+        "animal": "CAT",
+        "subject": "A"
+      }
+    }
+  ],
+  "observation_proposal_errors": [
+    {
+      "id": "CU01-C08-R1-CHANGE-A",
+      "location": "private_note.coverage",
+      "expected": {
+        "digital": "ALL",
+        "observer": "A",
+        "origin_id": "V8A6EA29486EC6637",
+        "paper": "NOT_ALL",
+        "revision": 308
+      },
+      "actual": {
+        "digital": "ALL",
+        "observer": "A",
+        "origin_id": "V8A6EA29486EC6637",
+        "paper": "ALL",
+        "revision": 308
+      },
+      "differing_fields": [
+        "paper"
+      ]
+    },
+    {
+      "id": "CU01-C08-R1-CHANGE-A",
+      "location": "shared_note.coverage.A",
+      "expected": {
+        "digital": "ALL",
+        "observer": "A",
+        "origin_id": "V8A6EA29486EC6637",
+        "paper": "NOT_ALL",
+        "revision": 308
+      },
+      "actual": {
+        "digital": "ALL",
+        "observer": "A",
+        "origin_id": "V8A6EA29486EC6637",
+        "paper": "ALL",
+        "revision": 308
+      },
+      "differing_fields": [
+        "paper"
+      ]
+    },
+    {
+      "id": "CU01-C08-R2-CHANGE-A",
+      "location": "private_note.coverage",
+      "expected": {
+        "digital": "ALL",
+        "observer": "A",
+        "origin_id": "V8A6EA29486EC6637",
+        "paper": "NOT_ALL",
+        "revision": 308
+      },
+      "actual": {
+        "digital": "ALL",
+        "observer": "A",
+        "origin_id": "V8A6EA29486EC6637",
+        "paper": "ALL",
+        "revision": 308
+      },
+      "differing_fields": [
+        "paper"
+      ]
+    },
+    {
+      "id": "CU01-C08-R2-CHANGE-A",
+      "location": "shared_note.coverage.A",
+      "expected": {
+        "digital": "ALL",
+        "observer": "A",
+        "origin_id": "V8A6EA29486EC6637",
+        "paper": "NOT_ALL",
+        "revision": 308
+      },
+      "actual": {
+        "digital": "ALL",
+        "observer": "A",
+        "origin_id": "V8A6EA29486EC6637",
+        "paper": "ALL",
+        "revision": 308
+      },
+      "differing_fields": [
+        "paper"
+      ]
+    }
+  ],
+  "proposal_incorrect_updates": {
+    "CHANGE_incorrect": 2,
+    "DELAY_incorrect": 14
+  },
+  "policy_changed_locations": {
+    "shared_note.coverage.A": 2,
+    "private_note.coverage": 2
+  },
+  "by_case": [
+    {
+      "case": "CU01-C01",
+      "replicate": 1,
+      "target": "A",
+      "initial_relation": "SAME",
+      "direction": "DOG_TO_CAT",
+      "change_correct": true,
+      "delay_correct": true,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "CAT",
+          "channel": "PAPER",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "DOG",
+          "channel": "PAPER",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C01",
+      "replicate": 2,
+      "target": "A",
+      "initial_relation": "SAME",
+      "direction": "DOG_TO_CAT",
+      "change_correct": true,
+      "delay_correct": true,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "CAT",
+          "channel": "PAPER",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "DOG",
+          "channel": "PAPER",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C02",
+      "replicate": 1,
+      "target": "A",
+      "initial_relation": "SAME",
+      "direction": "CAT_TO_DOG",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "CAT",
+          "channel": "DIGITAL",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "CAT",
+          "channel": "DIGITAL",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C02",
+      "replicate": 2,
+      "target": "A",
+      "initial_relation": "SAME",
+      "direction": "CAT_TO_DOG",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "CAT",
+          "channel": "DIGITAL",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "CAT",
+          "channel": "DIGITAL",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C03",
+      "replicate": 1,
+      "target": "B",
+      "initial_relation": "SAME",
+      "direction": "DOG_TO_CAT",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "DOG",
+          "channel": "DIGITAL",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "DOG",
+          "channel": "DIGITAL",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C03",
+      "replicate": 2,
+      "target": "B",
+      "initial_relation": "SAME",
+      "direction": "DOG_TO_CAT",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "DOG",
+          "channel": "DIGITAL",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "DOG",
+          "channel": "DIGITAL",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C04",
+      "replicate": 1,
+      "target": "B",
+      "initial_relation": "SAME",
+      "direction": "CAT_TO_DOG",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "CAT",
+          "channel": "PAPER",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "CAT",
+          "channel": "PAPER",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C04",
+      "replicate": 2,
+      "target": "B",
+      "initial_relation": "SAME",
+      "direction": "CAT_TO_DOG",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "CAT",
+          "channel": "PAPER",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "CAT",
+          "channel": "PAPER",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C05",
+      "replicate": 1,
+      "target": "A",
+      "initial_relation": "DIFFERENT",
+      "direction": "DOG_TO_CAT",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "DOG",
+          "channel": "DIGITAL",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "CAT",
+          "channel": "DIGITAL",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C05",
+      "replicate": 2,
+      "target": "A",
+      "initial_relation": "DIFFERENT",
+      "direction": "DOG_TO_CAT",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "DOG",
+          "channel": "DIGITAL",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "CAT",
+          "channel": "DIGITAL",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C06",
+      "replicate": 1,
+      "target": "A",
+      "initial_relation": "DIFFERENT",
+      "direction": "CAT_TO_DOG",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "CAT",
+          "channel": "PAPER",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "DOG",
+          "channel": "PAPER",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C06",
+      "replicate": 2,
+      "target": "A",
+      "initial_relation": "DIFFERENT",
+      "direction": "CAT_TO_DOG",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "CAT",
+          "channel": "PAPER",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "DOG",
+          "channel": "PAPER",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C07",
+      "replicate": 1,
+      "target": "B",
+      "initial_relation": "DIFFERENT",
+      "direction": "DOG_TO_CAT",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "CAT",
+          "channel": "PAPER",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "DOG",
+          "channel": "PAPER",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C07",
+      "replicate": 2,
+      "target": "B",
+      "initial_relation": "DIFFERENT",
+      "direction": "DOG_TO_CAT",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "CAT",
+          "channel": "PAPER",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "DOG",
+          "channel": "PAPER",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C08",
+      "replicate": 1,
+      "target": "B",
+      "initial_relation": "DIFFERENT",
+      "direction": "CAT_TO_DOG",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "DOG",
+          "channel": "DIGITAL",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "CAT",
+          "channel": "DIGITAL",
+          "subject": "B"
+        }
+      }
+    },
+    {
+      "case": "CU01-C08",
+      "replicate": 2,
+      "target": "B",
+      "initial_relation": "DIFFERENT",
+      "direction": "CAT_TO_DOG",
+      "change_correct": true,
+      "delay_correct": false,
+      "non_target_preserved": true,
+      "read_actions": {
+        "A": {
+          "card_animal": "DOG",
+          "channel": "DIGITAL",
+          "subject": "A"
+        },
+        "B": {
+          "card_animal": "CAT",
+          "channel": "DIGITAL",
+          "subject": "B"
+        }
+      }
+    }
+  ]
+}

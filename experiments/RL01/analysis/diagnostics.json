@@ -1,0 +1,132 @@
+{
+  "kind": "INDEPENDENT_RAW_RESPONSE_DESCRIPTIVE_AUDIT",
+  "request_payloads_checked": 96,
+  "raw_answers_checked": 96,
+  "all_eos": true,
+  "rendered_prompts_checked_after_boundary_whitespace_trim": 96,
+  "all_channel_values_evaluable": true,
+  "scores_match_frozen_formal_report": true,
+  "methods": {
+    "FULL": {
+      "main_correct": 3,
+      "main_n": 24,
+      "by_replicate": {
+        "1": 1,
+        "2": 2
+      },
+      "by_truth": {
+        "PAPER": 3,
+        "DIGITAL": 0
+      },
+      "mascot_correct": 32,
+      "boundary_correct": 4,
+      "predictions": {
+        "PAPER": 7,
+        "UNKNOWN": 17
+      },
+      "repeat_changed_main_cases": 5,
+      "output_tokens": 4133,
+      "generation_seconds": 217.70928801399896,
+      "mean_input_tokens": 737.375
+    },
+    "DUAL": {
+      "main_correct": 7,
+      "main_n": 24,
+      "by_replicate": {
+        "1": 2,
+        "2": 5
+      },
+      "by_truth": {
+        "PAPER": 6,
+        "DIGITAL": 1
+      },
+      "mascot_correct": 32,
+      "boundary_correct": 5,
+      "predictions": {
+        "PAPER": 10,
+        "UNKNOWN": 13,
+        "DIGITAL": 1
+      },
+      "repeat_changed_main_cases": 7,
+      "output_tokens": 1006,
+      "generation_seconds": 54.43246430300587,
+      "mean_input_tokens": 406.375
+    },
+    "CHANNEL": {
+      "main_correct": 7,
+      "main_n": 24,
+      "by_replicate": {
+        "1": 4,
+        "2": 3
+      },
+      "by_truth": {
+        "PAPER": 6,
+        "DIGITAL": 1
+      },
+      "mascot_correct": null,
+      "boundary_correct": 2,
+      "predictions": {
+        "UNKNOWN": 14,
+        "PAPER": 9,
+        "DIGITAL": 1
+      },
+      "repeat_changed_main_cases": 5,
+      "output_tokens": 584,
+      "generation_seconds": 32.509131958997386,
+      "mean_input_tokens": 373.375
+    }
+  },
+  "paired_outcomes": {
+    "DUAL-FULL": {
+      "FULL=False|DUAL=True": 4,
+      "FULL=False|DUAL=False": 17,
+      "FULL=True|DUAL=True": 3
+    },
+    "CHANNEL-DUAL": {
+      "DUAL=True|CHANNEL=True": 3,
+      "DUAL=False|CHANNEL=True": 4,
+      "DUAL=True|CHANNEL=False": 4,
+      "DUAL=False|CHANNEL=False": 13
+    }
+  },
+  "format_cases": [
+    {
+      "id": "RL01-B04-R1-FULL",
+      "errors": [
+        "$.origin_ids.channel:DUPLICATE_REF"
+      ],
+      "answer": {
+        "decision": {
+          "mascot": "DOG",
+          "channel": "PAPER"
+        },
+        "read_receipt": {
+          "mascot_record_refs": [
+            "PRIVATE"
+          ],
+          "channel_record_refs": [
+            "PRIVATE",
+            "GROUP"
+          ]
+        },
+        "origin_ids": {
+          "mascot": [
+            "RED652413E27715E"
+          ],
+          "channel": [
+            "RLE1209F5E2F677C",
+            "RLE1209F5E2F677C"
+          ]
+        }
+      },
+      "truth": "UNKNOWN",
+      "channel_still_evaluable": true
+    }
+  ],
+  "elapsed_seconds": 505.7476369240003,
+  "generation_seconds": 304.6508842760022,
+  "other_elapsed_seconds": 201.09675264799807,
+  "no_new_model_generation": true,
+  "p_value": null,
+  "confidence_interval": null
+}

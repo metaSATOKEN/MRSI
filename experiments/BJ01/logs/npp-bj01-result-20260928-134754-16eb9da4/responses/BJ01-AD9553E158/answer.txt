@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-AD9553E158",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "追加プロパティなし、必須キー充足、列挙値有効。schema完全準拠。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/facts/roles/A/episode_ids", "/payload/joint_records"],
+      "reason": "subjectはholder一致。local.evidence_refsはA全経験と一致。team.evidence_refsはjoint_records全IDと一致。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/projected_success_per_40"],
+      "reason": "Aの累積成功率はPAPER(27)がDIGITAL(23)より高いため、PAPER選択は正しい。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Bは提案、AはHOLDで合意なし。USEルールにより両役UNDECIDED・UNRESOLVEDが適切。"
+    }
+  }
+}

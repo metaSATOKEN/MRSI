@@ -1,0 +1,42 @@
+{
+  "private_note": {
+    "customer": {
+      "subject": "A",
+      "animal": "CAT",
+      "origin_id": "GD"
+    },
+    "coverage": {
+      "observer": "A",
+      "paper": "ALL",
+      "digital": "NOT_ALL",
+      "origin_id": "NC"
+    }
+  },
+  "shared_note": {
+    "coverage": {
+      "A": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "NOT_ALL",
+        "origin_id": "NC"
+      },
+      "B": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "VE"
+      }
+    },
+    "channel": "PAPER",
+    "channel_read_refs": [
+      "NOTICE",
+      "GROUP"
+    ],
+    "channel_origin_ids": [
+      "NC",
+      "VE"
+    ]
+  },
+  "status": "VALID",
+  "continuable": true
+}

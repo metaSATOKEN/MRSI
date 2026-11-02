@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-6914FFC31F",
+  "checks": {
+    "output_contract": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/team/metadata"],
+      "evidence_pointers": ["/contract/schema/properties/team"],
+      "reason": "teamオブジェクトに追加プロパティ'metadata'が存在し、schemaのadditionalProperties:falseに違反する。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/facts/roles/A/episode_ids", "/payload/joint_records"],
+      "reason": "subjectはholderと一致、local証拠はAの全経験、team証拠はjoint_records全IDと厳密一致している。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/projected_success_per_40"],
+      "reason": "Aの予測成功率はDIGITAL(27)がPAPER(23)より高く、選択は正しい。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Bの提案に対しAがACCEPTしており、合意割付は予測合計最大(50)の最適解と一致する。"
+    }
+  }
+}

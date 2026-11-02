@@ -1,0 +1,47 @@
+{
+  "scene": "地域工作会",
+  "item": "持帰り袋",
+  "holder": "A",
+  "records": [
+    {
+      "record_id": "PRIVATE",
+      "author": "A",
+      "body": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "BK"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "UNKNOWN",
+          "digital": "UNKNOWN",
+          "origin_id": "SZ"
+        }
+      }
+    },
+    {
+      "record_id": "GROUP",
+      "author": "A",
+      "body": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "UNKNOWN",
+            "digital": "UNKNOWN",
+            "origin_id": "SZ"
+          },
+          "B": {
+            "observer": "B",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "NB"
+          }
+        },
+        "channel": "UNKNOWN",
+        "channel_read_refs": [],
+        "channel_origin_ids": []
+      }
+    }
+  ]
+}

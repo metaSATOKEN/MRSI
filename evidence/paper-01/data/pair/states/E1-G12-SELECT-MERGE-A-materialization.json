@@ -1,0 +1,1 @@
+{"bindings":[{"body_sha256":"a6f42619e7fd50d1862da2a11ae522f696cc56a4ce269c7cf36497442fc957ea","destination":"A","selected":{"observer":"A","record_id":"LOCAL_GROUP"}},{"body_sha256":"dbe582d1b3e3c10cac9b996466f101a9052204d3d44f63f341ccf90bc3c2eb05","destination":"B","selected":{"observer":"B","record_id":"PARTNER_GROUP"}}],"gate":"PASS","semantic_repair":false}

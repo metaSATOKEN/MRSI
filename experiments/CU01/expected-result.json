@@ -1,0 +1,6498 @@
+{
+  "archive_sha256": "3b75f91c68a9e4c17635f505ee0b13226f45e9767015eb59d28da6f5e4813ca9",
+  "manifest_files": 1058,
+  "kind": "FINAL",
+  "report": {
+    "protocol": "CUSTOMER-UPDATE-01-RUN-v0.1",
+    "materials": 8,
+    "pair_runs": 16,
+    "response_slots": 96,
+    "path": {
+      "correct": 2,
+      "incorrect": 14,
+      "unresolved": 0,
+      "n": 16
+    },
+    "by_repeat": {
+      "1": {
+        "correct": 1,
+        "incorrect": 7,
+        "unresolved": 0,
+        "n": 8
+      },
+      "2": {
+        "correct": 1,
+        "incorrect": 7,
+        "unresolved": 0,
+        "n": 8
+      }
+    },
+    "criterion_status": "NOT_MET",
+    "path_fraction_missing_bounds": [
+      0.125,
+      0.125
+    ],
+    "paths": [
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R1",
+        "replicate": 1,
+        "success": false
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R1",
+        "replicate": 1,
+        "success": false
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R1",
+        "replicate": 1,
+        "success": false
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R1",
+        "replicate": 1,
+        "success": false
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R1",
+        "replicate": 1,
+        "success": false
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R1",
+        "replicate": 1,
+        "success": false
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R1",
+        "replicate": 1,
+        "success": false
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R1",
+        "replicate": 1,
+        "success": true
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R2",
+        "replicate": 2,
+        "success": true
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R2",
+        "replicate": 2,
+        "success": false
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R2",
+        "replicate": 2,
+        "success": false
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R2",
+        "replicate": 2,
+        "success": false
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R2",
+        "replicate": 2,
+        "success": false
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R2",
+        "replicate": 2,
+        "success": false
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R2",
+        "replicate": 2,
+        "success": false
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R2",
+        "replicate": 2,
+        "success": false
+      }
+    ],
+    "components": {
+      "CHANGE": {
+        "joint": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer_subject": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer_animal": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer_origin": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer_revision": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "self_row": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "partner_row": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "shared": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "proposal": {
+          "joint": {
+            "correct": 30,
+            "incorrect": 2,
+            "unresolved": 0,
+            "n": 32
+          },
+          "customer": {
+            "correct": 32,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 32
+          },
+          "customer_subject": {
+            "correct": 32,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 32
+          },
+          "customer_animal": {
+            "correct": 32,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 32
+          },
+          "customer_origin": {
+            "correct": 32,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 32
+          },
+          "customer_revision": {
+            "correct": 32,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 32
+          },
+          "self_row": {
+            "correct": 30,
+            "incorrect": 2,
+            "unresolved": 0,
+            "n": 32
+          },
+          "partner_row": {
+            "correct": 32,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 32
+          },
+          "shared": {
+            "correct": 30,
+            "incorrect": 2,
+            "unresolved": 0,
+            "n": 32
+          }
+        },
+        "format_valid": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        }
+      },
+      "DELAY": {
+        "joint": {
+          "correct": 18,
+          "incorrect": 14,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer": {
+          "correct": 18,
+          "incorrect": 14,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer_subject": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer_animal": {
+          "correct": 18,
+          "incorrect": 14,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer_origin": {
+          "correct": 18,
+          "incorrect": 14,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer_revision": {
+          "correct": 18,
+          "incorrect": 14,
+          "unresolved": 0,
+          "n": 32
+        },
+        "self_row": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "partner_row": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "shared": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "proposal": {
+          "joint": {
+            "correct": 18,
+            "incorrect": 14,
+            "unresolved": 0,
+            "n": 32
+          },
+          "customer": {
+            "correct": 18,
+            "incorrect": 14,
+            "unresolved": 0,
+            "n": 32
+          },
+          "customer_subject": {
+            "correct": 32,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 32
+          },
+          "customer_animal": {
+            "correct": 18,
+            "incorrect": 14,
+            "unresolved": 0,
+            "n": 32
+          },
+          "customer_origin": {
+            "correct": 18,
+            "incorrect": 14,
+            "unresolved": 0,
+            "n": 32
+          },
+          "customer_revision": {
+            "correct": 18,
+            "incorrect": 14,
+            "unresolved": 0,
+            "n": 32
+          },
+          "self_row": {
+            "correct": 32,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 32
+          },
+          "partner_row": {
+            "correct": 32,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 32
+          },
+          "shared": {
+            "correct": 32,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 32
+          }
+        },
+        "format_valid": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        }
+      },
+      "READ": {
+        "joint": {
+          "correct": 18,
+          "incorrect": 14,
+          "unresolved": 0,
+          "n": 32
+        },
+        "subject_note": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "animal_note": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "four_note_exact": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "channel_note": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "customer_latest": {
+          "correct": 18,
+          "incorrect": 14,
+          "unresolved": 0,
+          "n": 32
+        },
+        "four_latest": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "channel_latest": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "format_valid": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        }
+      }
+    },
+    "customer_subsets": {
+      "target_change": {
+        "correct": 16,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 16
+      },
+      "non_target_preserved": {
+        "correct": 32,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 32
+      },
+      "target_after_delay": {
+        "correct": 2,
+        "incorrect": 14,
+        "unresolved": 0,
+        "n": 16
+      }
+    },
+    "read_pairs": [
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R1",
+        "replicate": 1,
+        "expected_relation": "SAME",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R1",
+        "replicate": 1,
+        "expected_relation": "SAME",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R1",
+        "replicate": 1,
+        "expected_relation": "DIFFERENT",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R1",
+        "replicate": 1,
+        "expected_relation": "SAME",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R1",
+        "replicate": 1,
+        "expected_relation": "SAME",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R1",
+        "replicate": 1,
+        "expected_relation": "DIFFERENT",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R1",
+        "replicate": 1,
+        "expected_relation": "DIFFERENT",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R1",
+        "replicate": 1,
+        "expected_relation": "DIFFERENT",
+        "relation_correct": true,
+        "same_channel": true,
+        "both_correct": true
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R2",
+        "replicate": 2,
+        "expected_relation": "DIFFERENT",
+        "relation_correct": true,
+        "same_channel": true,
+        "both_correct": true
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R2",
+        "replicate": 2,
+        "expected_relation": "DIFFERENT",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R2",
+        "replicate": 2,
+        "expected_relation": "DIFFERENT",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R2",
+        "replicate": 2,
+        "expected_relation": "SAME",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R2",
+        "replicate": 2,
+        "expected_relation": "SAME",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R2",
+        "replicate": 2,
+        "expected_relation": "DIFFERENT",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R2",
+        "replicate": 2,
+        "expected_relation": "SAME",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R2",
+        "replicate": 2,
+        "expected_relation": "SAME",
+        "relation_correct": false,
+        "same_channel": true,
+        "both_correct": false
+      }
+    ],
+    "read_pair_metrics": {
+      "relation_correct": {
+        "correct": 2,
+        "incorrect": 14,
+        "unresolved": 0,
+        "n": 16
+      },
+      "same_channel": {
+        "correct": 16,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 16
+      },
+      "both_correct": {
+        "correct": 2,
+        "incorrect": 14,
+        "unresolved": 0,
+        "n": 16
+      }
+    },
+    "rollback": {
+      "rows": [
+        {
+          "case": "CU01-C06",
+          "id": "CU01-C06-R1",
+          "replicate": 1,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C05",
+          "id": "CU01-C05-R1",
+          "replicate": 1,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C02",
+          "id": "CU01-C02-R1",
+          "replicate": 1,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C08",
+          "id": "CU01-C08-R1",
+          "replicate": 1,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C07",
+          "id": "CU01-C07-R1",
+          "replicate": 1,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C03",
+          "id": "CU01-C03-R1",
+          "replicate": 1,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C04",
+          "id": "CU01-C04-R1",
+          "replicate": 1,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C01",
+          "id": "CU01-C01-R1",
+          "replicate": 1,
+          "state": "KEPT_LATEST"
+        },
+        {
+          "case": "CU01-C01",
+          "id": "CU01-C01-R2",
+          "replicate": 2,
+          "state": "KEPT_LATEST"
+        },
+        {
+          "case": "CU01-C04",
+          "id": "CU01-C04-R2",
+          "replicate": 2,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C03",
+          "id": "CU01-C03-R2",
+          "replicate": 2,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C07",
+          "id": "CU01-C07-R2",
+          "replicate": 2,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C08",
+          "id": "CU01-C08-R2",
+          "replicate": 2,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C02",
+          "id": "CU01-C02-R2",
+          "replicate": 2,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C05",
+          "id": "CU01-C05-R2",
+          "replicate": 2,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        },
+        {
+          "case": "CU01-C06",
+          "id": "CU01-C06-R2",
+          "replicate": 2,
+          "state": "ROLLED_BACK_TO_INITIAL"
+        }
+      ],
+      "counts": {
+        "ROLLED_BACK_TO_INITIAL": 14,
+        "KEPT_LATEST": 2
+      },
+      "eligible_correct_change": 16
+    },
+    "strata": {
+      "initial_relation": {
+        "DIFFERENT": {
+          "correct": 0,
+          "incorrect": 8,
+          "unresolved": 0,
+          "n": 8
+        },
+        "SAME": {
+          "correct": 2,
+          "incorrect": 6,
+          "unresolved": 0,
+          "n": 8
+        }
+      },
+      "target": {
+        "A": {
+          "correct": 2,
+          "incorrect": 6,
+          "unresolved": 0,
+          "n": 8
+        },
+        "B": {
+          "correct": 0,
+          "incorrect": 8,
+          "unresolved": 0,
+          "n": 8
+        }
+      },
+      "direction": {
+        "CAT_TO_DOG": {
+          "correct": 0,
+          "incorrect": 8,
+          "unresolved": 0,
+          "n": 8
+        },
+        "DOG_TO_CAT": {
+          "correct": 2,
+          "incorrect": 6,
+          "unresolved": 0,
+          "n": 8
+        }
+      },
+      "channel": {
+        "DIGITAL": {
+          "correct": 0,
+          "incorrect": 8,
+          "unresolved": 0,
+          "n": 8
+        },
+        "PAPER": {
+          "correct": 2,
+          "incorrect": 6,
+          "unresolved": 0,
+          "n": 8
+        }
+      }
+    },
+    "p_value": null,
+    "confidence_interval": null,
+    "closed_logical_responses": 96,
+    "closed_pairs": 16,
+    "status_counts": {
+      "EOS": 96
+    },
+    "attempted_generations": 96,
+    "by_slot": [
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R1-CHANGE-B",
+        "parents": [],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C06-R1",
+        "seed": 631600162,
+        "source_id": "CU01-C06-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "bdbf3e5c3483ed7557c7207123accea7decf7742c522e2b8dab0a91dc3c2dafa",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "40ab3109a0909d95a1d64f3a12e1f97693ffaecccf163a6cae95d14a813d970d",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R1-CHANGE-A",
+        "parents": [],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C06-R1",
+        "seed": 1633665286,
+        "source_id": "CU01-C06-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "4699ecf9fd921663af3224139562f34f1717998abe9090756b0efc2e13fee568",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "4699ecf9fd921663af3224139562f34f1717998abe9090756b0efc2e13fee568",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R1-DELAY-A",
+        "parents": [
+          "CU01-C06-R1-CHANGE-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C06-R1",
+        "seed": 274893854,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "67ba757e6cf863e98d5f9f173aa31ff850ed7a1eb217fa1a10edd29d078ab3ef",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "351a2e53e85df92793abd9120feeb1dc0d7488abd0155fad66e3b4d39bfdc80e",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R1-DELAY-B",
+        "parents": [
+          "CU01-C06-R1-CHANGE-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C06-R1",
+        "seed": 83473265,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "a46b33ac29b104ec7abdfc6af7cf99ce1b100ab2f9ed5510ee2249928b1481d4",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 694,
+            "raw_sha256": "a46b33ac29b104ec7abdfc6af7cf99ce1b100ab2f9ed5510ee2249928b1481d4",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R1-READ-B",
+        "parents": [
+          "CU01-C06-R1-DELAY-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C06-R1",
+        "seed": 1693953723,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "PAPER",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "b55f9bfeac35a3758c9f73a8586356e950128764c0b3c4c2064d69356ddb5bcf",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "364300382ef486e105a31e8dad47736a87ede762be174df517bc6a9cbd81710a",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R1-READ-A",
+        "parents": [
+          "CU01-C06-R1-DELAY-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C06-R1",
+        "seed": 501617138,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "PAPER",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "3ae64bfe172f6153adedd2a83a33ab37b618391577ed4145b1119be0a89b79ae",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "be331fcf8345e8b1363eee7494bd7ef59a4e098615357a6c74900a894dc9042c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R1-CHANGE-A",
+        "parents": [],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C05-R1",
+        "seed": 1773883563,
+        "source_id": "CU01-C05-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "6be272c2e930c6bc3b7b4171cbc770e776ce17d0897878bfb03646035011f652",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "0e7b31686279f6a45a654120909a7d94007a170f0db0395ba44b4e3faa314aa7",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R1-CHANGE-B",
+        "parents": [],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C05-R1",
+        "seed": 1187165751,
+        "source_id": "CU01-C05-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "1c8b697b65cc14640446ee9c6e56a7b40066bfc5c72d8b7693e3c874c7b5c591",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 694,
+            "raw_sha256": "1c8b697b65cc14640446ee9c6e56a7b40066bfc5c72d8b7693e3c874c7b5c591",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R1-DELAY-B",
+        "parents": [
+          "CU01-C05-R1-CHANGE-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C05-R1",
+        "seed": 1393050870,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "1c8b697b65cc14640446ee9c6e56a7b40066bfc5c72d8b7693e3c874c7b5c591",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "634de6251382c72b3bea3b134fc07f7c90b5d4970be5d9b67c237a18444348c2",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R1-DELAY-A",
+        "parents": [
+          "CU01-C05-R1-CHANGE-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C05-R1",
+        "seed": 206647864,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "e42d6fcda7bab63b030fd9d6e0c1532e85f3f817130fc9d78e9bc3ef9ff8a3c3",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "e42d6fcda7bab63b030fd9d6e0c1532e85f3f817130fc9d78e9bc3ef9ff8a3c3",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R1-READ-A",
+        "parents": [
+          "CU01-C05-R1-DELAY-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C05-R1",
+        "seed": 1363084627,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "DIGITAL",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "522ef9f695e3640e9275202f19d1fcb1615592861fb7bb6dfc443ed7ec9cc2e0",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "bf1eeff9bee1e638e1e72fd0f0551a9eb854c386e8359656fe8ab55aa7fb243a",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R1-READ-B",
+        "parents": [
+          "CU01-C05-R1-DELAY-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C05-R1",
+        "seed": 296784586,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "DIGITAL",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "88fd531ec2d5ca5021f15c27f41addd2a989ce0bed6389f99ee3765eebd23b9b",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "976786e9e0b9e37ebe4c1828dc01d6e52aa4a4b35770939ca644ef51063e622c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R1-CHANGE-B",
+        "parents": [],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C02-R1",
+        "seed": 780982262,
+        "source_id": "CU01-C02-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "7e712de4b7b21ad78af369ff3d03e2d54a4e5d41092a0cde9daacd3b6a561a96",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "8d1fcc5455d23c474caf7794aa94ae66a20fa7f4911c42c420691a0ff0b74910",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R1-CHANGE-A",
+        "parents": [],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C02-R1",
+        "seed": 1166643650,
+        "source_id": "CU01-C02-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "2946d90d4cb790a64c0de14f09744bc7a361fbe769e58d5f57d84bcf1555f7d6",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "2946d90d4cb790a64c0de14f09744bc7a361fbe769e58d5f57d84bcf1555f7d6",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R1-DELAY-A",
+        "parents": [
+          "CU01-C02-R1-CHANGE-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C02-R1",
+        "seed": 213121422,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "1fb3a116d9ca11f6fcffc17796951bf32d025da46d70d961880f626ffafa83e2",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "1fb3a116d9ca11f6fcffc17796951bf32d025da46d70d961880f626ffafa83e2",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R1-DELAY-B",
+        "parents": [
+          "CU01-C02-R1-CHANGE-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C02-R1",
+        "seed": 1154988786,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "7e712de4b7b21ad78af369ff3d03e2d54a4e5d41092a0cde9daacd3b6a561a96",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 694,
+            "raw_sha256": "7e712de4b7b21ad78af369ff3d03e2d54a4e5d41092a0cde9daacd3b6a561a96",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R1-READ-B",
+        "parents": [
+          "CU01-C02-R1-DELAY-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C02-R1",
+        "seed": 1650537387,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "DIGITAL",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "88fd531ec2d5ca5021f15c27f41addd2a989ce0bed6389f99ee3765eebd23b9b",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "976786e9e0b9e37ebe4c1828dc01d6e52aa4a4b35770939ca644ef51063e622c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R1-READ-A",
+        "parents": [
+          "CU01-C02-R1-DELAY-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C02-R1",
+        "seed": 2118554616,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "DIGITAL",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "20b8d907c0a19c5a2211503e2a7f27e1b92d3a5339e8dfbf5e90fb488ab822cf",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "a578dba6a2c84350d1919febc8a68e0be1012334e5fc81c1f6d6e98e9f61604f",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R1-CHANGE-A",
+        "parents": [],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C08-R1",
+        "seed": 1591925157,
+        "source_id": "CU01-C08-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 686,
+            "normalized_sha256": "ce2c04ea27d4e4b1571b3daaa00817b228d8474b0c90417764c74d3e3810e27b",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 698,
+            "raw_sha256": "279cc6d3bd9b6349951b774d146128d9fb68e3805ba483acf5c7beff3a10d289",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": false,
+            "shared": false
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R1-CHANGE-B",
+        "parents": [],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C08-R1",
+        "seed": 1109048136,
+        "source_id": "CU01-C08-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "81bb20a3149e2291f28d3cef17d2af4766aa893bb2020398da325b9c99983992",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "c841dbe56ceb4feff19029da9f2c6858e03df1ad6369dca6825cc02dbf13be6c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R1-DELAY-B",
+        "parents": [
+          "CU01-C08-R1-CHANGE-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C08-R1",
+        "seed": 398710048,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "96bb8e6b0493a64982f2de2f087f872188da618dee07c66514b1bd23972110a4",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "8b314f77e3d1d38164ec2850773452f29a99b502331953a5f138ba61c0392185",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R1-DELAY-A",
+        "parents": [
+          "CU01-C08-R1-CHANGE-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C08-R1",
+        "seed": 2115879668,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "f41cebed46117743db8a96feeb47a191c95ea39fd3eda4d6070eb19d91f4255c",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "f74ca1b474ec076d7824d08cbd28957c98ed38608186cf06f7fb4527eb5772a8",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R1-READ-A",
+        "parents": [
+          "CU01-C08-R1-DELAY-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C08-R1",
+        "seed": 1870821909,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "DIGITAL",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "46e9df5c7abbd1e3f8742992b292de0167ad7bad1d3ef5adcb526e4a600a9800",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "f1d41979bcaa6ff7e59e8e79896eae63c25e46f23f6f8c570eaac388d051e695",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R1-READ-B",
+        "parents": [
+          "CU01-C08-R1-DELAY-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C08-R1",
+        "seed": 211236911,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "DIGITAL",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "ac1b18f7e8597cba0080b10b15375e12f912d0a108f9c0ac9f2e7d1805d59455",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "5619f11fb213810ee6b7967fdb267de1e5640e74edc0b34002e1525d95eed883",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R1-CHANGE-B",
+        "parents": [],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C07-R1",
+        "seed": 1706449582,
+        "source_id": "CU01-C07-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "5eb6035afe01aa315ff3f459bad83b1159c7dcffd6003fd2cd73b2543549868f",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "5eb6035afe01aa315ff3f459bad83b1159c7dcffd6003fd2cd73b2543549868f",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R1-CHANGE-A",
+        "parents": [],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C07-R1",
+        "seed": 1335810837,
+        "source_id": "CU01-C07-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "ff89ecaa26d71648b91e9c97f6848d89802c61d9c7348c0fcac050bdd4167aa1",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 694,
+            "raw_sha256": "ff89ecaa26d71648b91e9c97f6848d89802c61d9c7348c0fcac050bdd4167aa1",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R1-DELAY-A",
+        "parents": [
+          "CU01-C07-R1-CHANGE-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C07-R1",
+        "seed": 980105112,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "ff89ecaa26d71648b91e9c97f6848d89802c61d9c7348c0fcac050bdd4167aa1",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "cbd89e238efbc78a52d16200b790b264ba1d574a2426819f77dcbd5955619cb7",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R1-DELAY-B",
+        "parents": [
+          "CU01-C07-R1-CHANGE-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C07-R1",
+        "seed": 260161730,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "8c303f7d72ac00252c3714b27ffa48855c9351c709cfa40a17c02b5909868dab",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "2bd392e3adb3800fa1aca0a752533789249d8c7150f647373a5827753cd8d9d7",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R1-READ-B",
+        "parents": [
+          "CU01-C07-R1-DELAY-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C07-R1",
+        "seed": 1811095439,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "PAPER",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "792ca6c33a9017447fc82e2b5d51d97376038e4f7f691d348204980f88983171",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "903cb6b6c09d8a6a8a9b2add023f41689d4b9faf61c9e7180aa1df49ec6da82b",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R1-READ-A",
+        "parents": [
+          "CU01-C07-R1-DELAY-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C07-R1",
+        "seed": 78641693,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "PAPER",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "dc6f91d899a5dee974cd36a0a0d7de93d2d10cfd89fca006e5e5d710719175c9",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "284468d88415f4df23b28cec27e5af9705a8a1151cda06697687786d6e7faf83",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R1-CHANGE-A",
+        "parents": [],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C03-R1",
+        "seed": 482434127,
+        "source_id": "CU01-C03-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "1c4b1197f275fc23048761d4dbc8d738522a272e8d112869997a2631c0d2a426",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "f35c6fe8f214e42f0b71806a718d860ba4f7c1c8771e283bb12d26776d92cbee",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R1-CHANGE-B",
+        "parents": [],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C03-R1",
+        "seed": 1854334683,
+        "source_id": "CU01-C03-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "6af8f5b8731a438b754172069dc036f74dbabc0f3c7cf478bbdeea9cde2231a0",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "df55d254e19f0ac2b33ea9ee27719999aae945ea276fae49ecac31e4ee7bb32a",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R1-DELAY-B",
+        "parents": [
+          "CU01-C03-R1-CHANGE-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C03-R1",
+        "seed": 1178369822,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "586ae49174a7f83293fe3edeafd12fe16de3962e042cda741c2ee54e895b79d1",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "586ae49174a7f83293fe3edeafd12fe16de3962e042cda741c2ee54e895b79d1",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R1-DELAY-A",
+        "parents": [
+          "CU01-C03-R1-CHANGE-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C03-R1",
+        "seed": 492266714,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "1c4b1197f275fc23048761d4dbc8d738522a272e8d112869997a2631c0d2a426",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "f35c6fe8f214e42f0b71806a718d860ba4f7c1c8771e283bb12d26776d92cbee",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R1-READ-A",
+        "parents": [
+          "CU01-C03-R1-DELAY-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C03-R1",
+        "seed": 246988606,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "DIGITAL",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "46e9df5c7abbd1e3f8742992b292de0167ad7bad1d3ef5adcb526e4a600a9800",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "f1d41979bcaa6ff7e59e8e79896eae63c25e46f23f6f8c570eaac388d051e695",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R1-READ-B",
+        "parents": [
+          "CU01-C03-R1-DELAY-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C03-R1",
+        "seed": 20766292,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "DIGITAL",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "5232b3777a960d60f944efd1ddb7d50517b43bf7dd86776731e13eb24fe2ce9e",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "d86eec12038ba2e478bf80c5d86a505b1e96d3271131f4bdf422f55262d458ed",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R1-CHANGE-B",
+        "parents": [],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C04-R1",
+        "seed": 2054649096,
+        "source_id": "CU01-C04-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "eb2fb0d55e48e356e8f33c198e9374f9a7623e0fdc671d28249461fb850e6594",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "eb2fb0d55e48e356e8f33c198e9374f9a7623e0fdc671d28249461fb850e6594",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R1-CHANGE-A",
+        "parents": [],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C04-R1",
+        "seed": 1911499136,
+        "source_id": "CU01-C04-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "95c204c034987a96885089b3f0c35896ffb0c18ae11490c71901197b6f180f0d",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "e80934b107fac003d0fd0e10f9feeed7fbde2b6435b53f52e62652be4b737524",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R1-DELAY-A",
+        "parents": [
+          "CU01-C04-R1-CHANGE-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C04-R1",
+        "seed": 1228087481,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "95c204c034987a96885089b3f0c35896ffb0c18ae11490c71901197b6f180f0d",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "e80934b107fac003d0fd0e10f9feeed7fbde2b6435b53f52e62652be4b737524",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R1-DELAY-B",
+        "parents": [
+          "CU01-C04-R1-CHANGE-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C04-R1",
+        "seed": 374070416,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "1baa38527726bd76da750756b2e24798dca296f9891787a45864306af4498ee6",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "e1107cd917402f767a72d18be1d832cdf973e30e3d727590e9b22ddcecd214d0",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R1-READ-B",
+        "parents": [
+          "CU01-C04-R1-DELAY-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C04-R1",
+        "seed": 2140663622,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "PAPER",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "563b99a6f75befd43f085a8a845eb01e3786c8873928dbbd7db35c9a6df29e6f",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "f6bca618dda236ba2a419f7f1888c7bba7c04ed8edb7401dee546b750ebb226b",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R1-READ-A",
+        "parents": [
+          "CU01-C04-R1-DELAY-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C04-R1",
+        "seed": 131638320,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "PAPER",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "dc6f91d899a5dee974cd36a0a0d7de93d2d10cfd89fca006e5e5d710719175c9",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "284468d88415f4df23b28cec27e5af9705a8a1151cda06697687786d6e7faf83",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R1-CHANGE-A",
+        "parents": [],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C01-R1",
+        "seed": 405706500,
+        "source_id": "CU01-C01-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "8d480609f68c389354e89338b16b933ed1b2717e09aa33f0e8c619adb57ee80d",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "222387d3487bad999f1c56990cd8a65cd65c0d9001c7929b841e7ccd098d596c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R1-CHANGE-B",
+        "parents": [],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C01-R1",
+        "seed": 2067646492,
+        "source_id": "CU01-C01-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "a22bb431c89ad3db9d2d5f4cf95cc55401f801bf219c46986c20d849d3b369ed",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 694,
+            "raw_sha256": "a22bb431c89ad3db9d2d5f4cf95cc55401f801bf219c46986c20d849d3b369ed",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R1-DELAY-B",
+        "parents": [
+          "CU01-C01-R1-CHANGE-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C01-R1",
+        "seed": 1314500553,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "a22bb431c89ad3db9d2d5f4cf95cc55401f801bf219c46986c20d849d3b369ed",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "7bae71e02815037e334d2031a0dee256be5d0e409b94f3bfdaf0b3e5a726f502",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R1-DELAY-A",
+        "parents": [
+          "CU01-C01-R1-CHANGE-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C01-R1",
+        "seed": 1367018036,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "d74e84297761281dec457a1b8e688bd1a88c2047f0fc6c510b3c37ed467e9c98",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "d49c96fb537bc60fc7f02b5c9386f8315f925582cbeb27c01382f02946307cb8",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R1-READ-A",
+        "parents": [
+          "CU01-C01-R1-DELAY-A"
+        ],
+        "replicate": 1,
+        "role": "A",
+        "run": "CU01-C01-R1",
+        "seed": 268421021,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "PAPER",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "3ae64bfe172f6153adedd2a83a33ab37b618391577ed4145b1119be0a89b79ae",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "be331fcf8345e8b1363eee7494bd7ef59a4e098615357a6c74900a894dc9042c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R1-READ-B",
+        "parents": [
+          "CU01-C01-R1-DELAY-B"
+        ],
+        "replicate": 1,
+        "role": "B",
+        "run": "CU01-C01-R1",
+        "seed": 985815873,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "PAPER",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "b55f9bfeac35a3758c9f73a8586356e950128764c0b3c4c2064d69356ddb5bcf",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "364300382ef486e105a31e8dad47736a87ede762be174df517bc6a9cbd81710a",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R2-CHANGE-A",
+        "parents": [],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C01-R2",
+        "seed": 619719668,
+        "source_id": "CU01-C01-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "d74e84297761281dec457a1b8e688bd1a88c2047f0fc6c510b3c37ed467e9c98",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "d49c96fb537bc60fc7f02b5c9386f8315f925582cbeb27c01382f02946307cb8",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R2-CHANGE-B",
+        "parents": [],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C01-R2",
+        "seed": 1536386334,
+        "source_id": "CU01-C01-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "a22bb431c89ad3db9d2d5f4cf95cc55401f801bf219c46986c20d849d3b369ed",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 694,
+            "raw_sha256": "a22bb431c89ad3db9d2d5f4cf95cc55401f801bf219c46986c20d849d3b369ed",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R2-DELAY-B",
+        "parents": [
+          "CU01-C01-R2-CHANGE-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C01-R2",
+        "seed": 1401950298,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "a22bb431c89ad3db9d2d5f4cf95cc55401f801bf219c46986c20d849d3b369ed",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "7bae71e02815037e334d2031a0dee256be5d0e409b94f3bfdaf0b3e5a726f502",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R2-DELAY-A",
+        "parents": [
+          "CU01-C01-R2-CHANGE-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C01-R2",
+        "seed": 879553233,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "d74e84297761281dec457a1b8e688bd1a88c2047f0fc6c510b3c37ed467e9c98",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "d49c96fb537bc60fc7f02b5c9386f8315f925582cbeb27c01382f02946307cb8",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R2-READ-A",
+        "parents": [
+          "CU01-C01-R2-DELAY-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C01-R2",
+        "seed": 233802243,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "PAPER",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "3ae64bfe172f6153adedd2a83a33ab37b618391577ed4145b1119be0a89b79ae",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "be331fcf8345e8b1363eee7494bd7ef59a4e098615357a6c74900a894dc9042c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C01",
+        "id": "CU01-C01-R2-READ-B",
+        "parents": [
+          "CU01-C01-R2-DELAY-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C01-R2",
+        "seed": 407062815,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "PAPER",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "b55f9bfeac35a3758c9f73a8586356e950128764c0b3c4c2064d69356ddb5bcf",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "364300382ef486e105a31e8dad47736a87ede762be174df517bc6a9cbd81710a",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R2-CHANGE-B",
+        "parents": [],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C04-R2",
+        "seed": 590949729,
+        "source_id": "CU01-C04-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "eb2fb0d55e48e356e8f33c198e9374f9a7623e0fdc671d28249461fb850e6594",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "0afd7c63a7dd62e32390897220c6a6bfc821674570d616019ac7fd8f23e09d10",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R2-CHANGE-A",
+        "parents": [],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C04-R2",
+        "seed": 2036420974,
+        "source_id": "CU01-C04-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "95c204c034987a96885089b3f0c35896ffb0c18ae11490c71901197b6f180f0d",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "e80934b107fac003d0fd0e10f9feeed7fbde2b6435b53f52e62652be4b737524",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R2-DELAY-A",
+        "parents": [
+          "CU01-C04-R2-CHANGE-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C04-R2",
+        "seed": 647972388,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "95c204c034987a96885089b3f0c35896ffb0c18ae11490c71901197b6f180f0d",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 694,
+            "raw_sha256": "95c204c034987a96885089b3f0c35896ffb0c18ae11490c71901197b6f180f0d",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R2-DELAY-B",
+        "parents": [
+          "CU01-C04-R2-CHANGE-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C04-R2",
+        "seed": 1080243740,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "1baa38527726bd76da750756b2e24798dca296f9891787a45864306af4498ee6",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "e1107cd917402f767a72d18be1d832cdf973e30e3d727590e9b22ddcecd214d0",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R2-READ-B",
+        "parents": [
+          "CU01-C04-R2-DELAY-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C04-R2",
+        "seed": 780428530,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "PAPER",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "563b99a6f75befd43f085a8a845eb01e3786c8873928dbbd7db35c9a6df29e6f",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "f6bca618dda236ba2a419f7f1888c7bba7c04ed8edb7401dee546b750ebb226b",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C04",
+        "id": "CU01-C04-R2-READ-A",
+        "parents": [
+          "CU01-C04-R2-DELAY-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C04-R2",
+        "seed": 1806866494,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "PAPER",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "dc6f91d899a5dee974cd36a0a0d7de93d2d10cfd89fca006e5e5d710719175c9",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "284468d88415f4df23b28cec27e5af9705a8a1151cda06697687786d6e7faf83",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R2-CHANGE-A",
+        "parents": [],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C03-R2",
+        "seed": 758860842,
+        "source_id": "CU01-C03-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "1c4b1197f275fc23048761d4dbc8d738522a272e8d112869997a2631c0d2a426",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "f35c6fe8f214e42f0b71806a718d860ba4f7c1c8771e283bb12d26776d92cbee",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R2-CHANGE-B",
+        "parents": [],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C03-R2",
+        "seed": 57291873,
+        "source_id": "CU01-C03-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "6af8f5b8731a438b754172069dc036f74dbabc0f3c7cf478bbdeea9cde2231a0",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "df55d254e19f0ac2b33ea9ee27719999aae945ea276fae49ecac31e4ee7bb32a",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R2-DELAY-B",
+        "parents": [
+          "CU01-C03-R2-CHANGE-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C03-R2",
+        "seed": 1425946904,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "586ae49174a7f83293fe3edeafd12fe16de3962e042cda741c2ee54e895b79d1",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "9abf5bc40912fb1619ebc121d4aaaa4d18314eb3245eb0f6d1445c6e8a40c3cd",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R2-DELAY-A",
+        "parents": [
+          "CU01-C03-R2-CHANGE-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C03-R2",
+        "seed": 193139030,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "1c4b1197f275fc23048761d4dbc8d738522a272e8d112869997a2631c0d2a426",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 694,
+            "raw_sha256": "1c4b1197f275fc23048761d4dbc8d738522a272e8d112869997a2631c0d2a426",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R2-READ-A",
+        "parents": [
+          "CU01-C03-R2-DELAY-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C03-R2",
+        "seed": 1288045161,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "DIGITAL",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "46e9df5c7abbd1e3f8742992b292de0167ad7bad1d3ef5adcb526e4a600a9800",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "f1d41979bcaa6ff7e59e8e79896eae63c25e46f23f6f8c570eaac388d051e695",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C03",
+        "id": "CU01-C03-R2-READ-B",
+        "parents": [
+          "CU01-C03-R2-DELAY-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C03-R2",
+        "seed": 20959396,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "DIGITAL",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "5232b3777a960d60f944efd1ddb7d50517b43bf7dd86776731e13eb24fe2ce9e",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "d86eec12038ba2e478bf80c5d86a505b1e96d3271131f4bdf422f55262d458ed",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R2-CHANGE-B",
+        "parents": [],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C07-R2",
+        "seed": 336571287,
+        "source_id": "CU01-C07-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "5eb6035afe01aa315ff3f459bad83b1159c7dcffd6003fd2cd73b2543549868f",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "5eb6035afe01aa315ff3f459bad83b1159c7dcffd6003fd2cd73b2543549868f",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R2-CHANGE-A",
+        "parents": [],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C07-R2",
+        "seed": 105532329,
+        "source_id": "CU01-C07-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "ff89ecaa26d71648b91e9c97f6848d89802c61d9c7348c0fcac050bdd4167aa1",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "cbd89e238efbc78a52d16200b790b264ba1d574a2426819f77dcbd5955619cb7",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R2-DELAY-A",
+        "parents": [
+          "CU01-C07-R2-CHANGE-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C07-R2",
+        "seed": 77800556,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "ff89ecaa26d71648b91e9c97f6848d89802c61d9c7348c0fcac050bdd4167aa1",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "cbd89e238efbc78a52d16200b790b264ba1d574a2426819f77dcbd5955619cb7",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R2-DELAY-B",
+        "parents": [
+          "CU01-C07-R2-CHANGE-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C07-R2",
+        "seed": 169380111,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "8c303f7d72ac00252c3714b27ffa48855c9351c709cfa40a17c02b5909868dab",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "2bd392e3adb3800fa1aca0a752533789249d8c7150f647373a5827753cd8d9d7",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R2-READ-B",
+        "parents": [
+          "CU01-C07-R2-DELAY-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C07-R2",
+        "seed": 562009327,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "PAPER",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "792ca6c33a9017447fc82e2b5d51d97376038e4f7f691d348204980f88983171",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "903cb6b6c09d8a6a8a9b2add023f41689d4b9faf61c9e7180aa1df49ec6da82b",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C07",
+        "id": "CU01-C07-R2-READ-A",
+        "parents": [
+          "CU01-C07-R2-DELAY-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C07-R2",
+        "seed": 1094459559,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "PAPER",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "dc6f91d899a5dee974cd36a0a0d7de93d2d10cfd89fca006e5e5d710719175c9",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "284468d88415f4df23b28cec27e5af9705a8a1151cda06697687786d6e7faf83",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R2-CHANGE-A",
+        "parents": [],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C08-R2",
+        "seed": 626793912,
+        "source_id": "CU01-C08-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 686,
+            "normalized_sha256": "ce2c04ea27d4e4b1571b3daaa00817b228d8474b0c90417764c74d3e3810e27b",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 698,
+            "raw_sha256": "279cc6d3bd9b6349951b774d146128d9fb68e3805ba483acf5c7beff3a10d289",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": false,
+            "shared": false
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R2-CHANGE-B",
+        "parents": [],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C08-R2",
+        "seed": 1408416802,
+        "source_id": "CU01-C08-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "81bb20a3149e2291f28d3cef17d2af4766aa893bb2020398da325b9c99983992",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "c841dbe56ceb4feff19029da9f2c6858e03df1ad6369dca6825cc02dbf13be6c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R2-DELAY-B",
+        "parents": [
+          "CU01-C08-R2-CHANGE-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C08-R2",
+        "seed": 491805817,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "96bb8e6b0493a64982f2de2f087f872188da618dee07c66514b1bd23972110a4",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "96bb8e6b0493a64982f2de2f087f872188da618dee07c66514b1bd23972110a4",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R2-DELAY-A",
+        "parents": [
+          "CU01-C08-R2-CHANGE-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C08-R2",
+        "seed": 1318755410,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "f41cebed46117743db8a96feeb47a191c95ea39fd3eda4d6070eb19d91f4255c",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 694,
+            "raw_sha256": "f41cebed46117743db8a96feeb47a191c95ea39fd3eda4d6070eb19d91f4255c",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R2-READ-A",
+        "parents": [
+          "CU01-C08-R2-DELAY-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C08-R2",
+        "seed": 1073317819,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "DIGITAL",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "46e9df5c7abbd1e3f8742992b292de0167ad7bad1d3ef5adcb526e4a600a9800",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "f1d41979bcaa6ff7e59e8e79896eae63c25e46f23f6f8c570eaac388d051e695",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C08",
+        "id": "CU01-C08-R2-READ-B",
+        "parents": [
+          "CU01-C08-R2-DELAY-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C08-R2",
+        "seed": 1945147863,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "DIGITAL",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "ac1b18f7e8597cba0080b10b15375e12f912d0a108f9c0ac9f2e7d1805d59455",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "5619f11fb213810ee6b7967fdb267de1e5640e74edc0b34002e1525d95eed883",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R2-CHANGE-B",
+        "parents": [],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C02-R2",
+        "seed": 689222554,
+        "source_id": "CU01-C02-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "7e712de4b7b21ad78af369ff3d03e2d54a4e5d41092a0cde9daacd3b6a561a96",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "8d1fcc5455d23c474caf7794aa94ae66a20fa7f4911c42c420691a0ff0b74910",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R2-CHANGE-A",
+        "parents": [],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C02-R2",
+        "seed": 387030833,
+        "source_id": "CU01-C02-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "2946d90d4cb790a64c0de14f09744bc7a361fbe769e58d5f57d84bcf1555f7d6",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "1545963ef0de47eb0907201efa86362b254580d6b6323a2fb7ac8c8aceb1a27c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R2-DELAY-A",
+        "parents": [
+          "CU01-C02-R2-CHANGE-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C02-R2",
+        "seed": 891306612,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "1fb3a116d9ca11f6fcffc17796951bf32d025da46d70d961880f626ffafa83e2",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "1fb3a116d9ca11f6fcffc17796951bf32d025da46d70d961880f626ffafa83e2",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R2-DELAY-B",
+        "parents": [
+          "CU01-C02-R2-CHANGE-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C02-R2",
+        "seed": 2025211084,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "7e712de4b7b21ad78af369ff3d03e2d54a4e5d41092a0cde9daacd3b6a561a96",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "8d1fcc5455d23c474caf7794aa94ae66a20fa7f4911c42c420691a0ff0b74910",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R2-READ-B",
+        "parents": [
+          "CU01-C02-R2-DELAY-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C02-R2",
+        "seed": 182194711,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "DIGITAL",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "88fd531ec2d5ca5021f15c27f41addd2a989ce0bed6389f99ee3765eebd23b9b",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "976786e9e0b9e37ebe4c1828dc01d6e52aa4a4b35770939ca644ef51063e622c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C02",
+        "id": "CU01-C02-R2-READ-A",
+        "parents": [
+          "CU01-C02-R2-DELAY-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C02-R2",
+        "seed": 1761186167,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "DIGITAL",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "20b8d907c0a19c5a2211503e2a7f27e1b92d3a5339e8dfbf5e90fb488ab822cf",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "a578dba6a2c84350d1919febc8a68e0be1012334e5fc81c1f6d6e98e9f61604f",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R2-CHANGE-A",
+        "parents": [],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C05-R2",
+        "seed": 1232870889,
+        "source_id": "CU01-C05-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "6be272c2e930c6bc3b7b4171cbc770e776ce17d0897878bfb03646035011f652",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 690,
+            "raw_sha256": "6be272c2e930c6bc3b7b4171cbc770e776ce17d0897878bfb03646035011f652",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R2-CHANGE-B",
+        "parents": [],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C05-R2",
+        "seed": 1054263955,
+        "source_id": "CU01-C05-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "1c8b697b65cc14640446ee9c6e56a7b40066bfc5c72d8b7693e3c874c7b5c591",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 694,
+            "raw_sha256": "1c8b697b65cc14640446ee9c6e56a7b40066bfc5c72d8b7693e3c874c7b5c591",
+            "reason": "BARE_JSON",
+            "removed_prefix_bytes": 0,
+            "removed_suffix_bytes": 0,
+            "status": "UNCHANGED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R2-DELAY-B",
+        "parents": [
+          "CU01-C05-R2-CHANGE-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C05-R2",
+        "seed": 252158308,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "1c8b697b65cc14640446ee9c6e56a7b40066bfc5c72d8b7693e3c874c7b5c591",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "634de6251382c72b3bea3b134fc07f7c90b5d4970be5d9b67c237a18444348c2",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R2-DELAY-A",
+        "parents": [
+          "CU01-C05-R2-CHANGE-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C05-R2",
+        "seed": 644799072,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "e42d6fcda7bab63b030fd9d6e0c1532e85f3f817130fc9d78e9bc3ef9ff8a3c3",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "443ec7133f9c1d93e753a66eefa5d2327207e78a5fb2d2bfe464dc878617a3c8",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R2-READ-A",
+        "parents": [
+          "CU01-C05-R2-DELAY-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C05-R2",
+        "seed": 1073108369,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "DIGITAL",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "522ef9f695e3640e9275202f19d1fcb1615592861fb7bb6dfc443ed7ec9cc2e0",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "bf1eeff9bee1e638e1e72fd0f0551a9eb854c386e8359656fe8ab55aa7fb243a",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C05",
+        "id": "CU01-C05-R2-READ-B",
+        "parents": [
+          "CU01-C05-R2-DELAY-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C05-R2",
+        "seed": 943687516,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "DIGITAL",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "ALL",
+                "paper": "NOT_ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "88fd531ec2d5ca5021f15c27f41addd2a989ce0bed6389f99ee3765eebd23b9b",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "976786e9e0b9e37ebe4c1828dc01d6e52aa4a4b35770939ca644ef51063e622c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R2-CHANGE-B",
+        "parents": [],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C06-R2",
+        "seed": 1306716406,
+        "source_id": "CU01-C06-B",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "bdbf3e5c3483ed7557c7207123accea7decf7742c522e2b8dab0a91dc3c2dafa",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "40ab3109a0909d95a1d64f3a12e1f97693ffaecccf163a6cae95d14a813d970d",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R2-CHANGE-A",
+        "parents": [],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C06-R2",
+        "seed": 1359121787,
+        "source_id": "CU01-C06-A",
+        "stage": "CHANGE",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": false,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "4699ecf9fd921663af3224139562f34f1717998abe9090756b0efc2e13fee568",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "59525055e7c489245032586c02a58aa3dbc7889c07973deecb89f79798aaaf95",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": false,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R2-DELAY-A",
+        "parents": [
+          "CU01-C06-R2-CHANGE-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C06-R2",
+        "seed": 1712425599,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": false,
+          "customer_animal": false,
+          "customer_matches_initial": true,
+          "customer_origin": false,
+          "customer_revision": false,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 690,
+            "normalized_sha256": "67ba757e6cf863e98d5f9f173aa31ff850ed7a1eb217fa1a10edd29d078ab3ef",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 702,
+            "raw_sha256": "351a2e53e85df92793abd9120feeb1dc0d7488abd0155fad66e3b4d39bfdc80e",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": false,
+            "customer_animal": false,
+            "customer_matches_initial": true,
+            "customer_origin": false,
+            "customer_revision": false,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": false,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R2-DELAY-B",
+        "parents": [
+          "CU01-C06-R2-CHANGE-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C06-R2",
+        "seed": 727051629,
+        "source_id": null,
+        "stage": "DELAY",
+        "status": "EOS",
+        "score": {
+          "customer": true,
+          "customer_animal": true,
+          "customer_matches_initial": true,
+          "customer_origin": true,
+          "customer_revision": true,
+          "customer_subject": true,
+          "error": null,
+          "format_valid": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 694,
+            "normalized_sha256": "a46b33ac29b104ec7abdfc6af7cf99ce1b100ab2f9ed5510ee2249928b1481d4",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 706,
+            "raw_sha256": "058a10cca76d490f13a1c2182639eb5234ca611268366af5a1e91be471a2b706",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "normalized_schema_accepted": true,
+          "partner_row": true,
+          "proposal_score": {
+            "customer": true,
+            "customer_animal": true,
+            "customer_matches_initial": true,
+            "customer_origin": true,
+            "customer_revision": true,
+            "customer_subject": true,
+            "format_valid": true,
+            "joint": true,
+            "partner_row": true,
+            "self_row": true,
+            "shared": true
+          },
+          "self_row": true,
+          "shared": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R2-READ-B",
+        "parents": [
+          "CU01-C06-R2-DELAY-B"
+        ],
+        "replicate": 2,
+        "role": "B",
+        "run": "CU01-C06-R2",
+        "seed": 926715304,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "DOG",
+            "channel": "PAPER",
+            "subject": "B"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "DOG",
+              "subject": "B"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": true,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": true,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "b55f9bfeac35a3758c9f73a8586356e950128764c0b3c4c2064d69356ddb5bcf",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "364300382ef486e105a31e8dad47736a87ede762be174df517bc6a9cbd81710a",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      },
+      {
+        "case": "CU01-C06",
+        "id": "CU01-C06-R2-READ-A",
+        "parents": [
+          "CU01-C06-R2-DELAY-A"
+        ],
+        "replicate": 2,
+        "role": "A",
+        "run": "CU01-C06-R2",
+        "seed": 1534060021,
+        "source_id": null,
+        "stage": "READ",
+        "status": "EOS",
+        "score": {
+          "actions": {
+            "card_animal": "CAT",
+            "channel": "PAPER",
+            "subject": "A"
+          },
+          "animal_note": true,
+          "answer": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "paper": "ALL"
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "paper": "ALL"
+              }
+            },
+            "customer": {
+              "animal": "CAT",
+              "subject": "A"
+            }
+          },
+          "channel_latest": true,
+          "channel_note": true,
+          "customer_latest": false,
+          "errors": [],
+          "format_valid": true,
+          "four_latest": true,
+          "four_note_exact": true,
+          "joint": false,
+          "normalization": {
+            "normalized_bytes_length": 213,
+            "normalized_sha256": "3ae64bfe172f6153adedd2a83a33ab37b618391577ed4145b1119be0a89b79ae",
+            "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+            "raw_bytes": 225,
+            "raw_sha256": "be331fcf8345e8b1363eee7494bd7ef59a4e098615357a6c74900a894dc9042c",
+            "reason": "EXACT_ENVELOPE_ONLY",
+            "removed_prefix_bytes": 8,
+            "removed_suffix_bytes": 4,
+            "status": "UNWRAPPED",
+            "value_repair": false
+          },
+          "subject_note": true
+        }
+      }
+    ],
+    "performance": {
+      "UPDATE": {
+        "planned_slots": 64,
+        "responses": 64,
+        "input_tokens": [
+          1275,
+          1273,
+          1273,
+          1273,
+          1269,
+          1275,
+          1277,
+          1269,
+          1265,
+          1262,
+          1262,
+          1265,
+          1268,
+          1267,
+          1267,
+          1265,
+          1269,
+          1268,
+          1271,
+          1269,
+          1274,
+          1270,
+          1270,
+          1272,
+          1272,
+          1277,
+          1274,
+          1272,
+          1262,
+          1264,
+          1266,
+          1262,
+          1262,
+          1264,
+          1266,
+          1262,
+          1272,
+          1277,
+          1274,
+          1272,
+          1274,
+          1270,
+          1270,
+          1272,
+          1269,
+          1268,
+          1271,
+          1269,
+          1268,
+          1267,
+          1267,
+          1265,
+          1265,
+          1262,
+          1262,
+          1265,
+          1269,
+          1275,
+          1277,
+          1269,
+          1275,
+          1273,
+          1273,
+          1273
+        ],
+        "output_tokens": [
+          294,
+          290,
+          293,
+          289,
+          291,
+          291,
+          296,
+          288,
+          289,
+          283,
+          283,
+          284,
+          288,
+          292,
+          289,
+          290,
+          285,
+          287,
+          292,
+          293,
+          293,
+          293,
+          286,
+          293,
+          290,
+          295,
+          295,
+          292,
+          287,
+          284,
+          289,
+          287,
+          287,
+          284,
+          289,
+          287,
+          295,
+          295,
+          290,
+          292,
+          293,
+          293,
+          291,
+          288,
+          285,
+          292,
+          292,
+          293,
+          288,
+          292,
+          284,
+          285,
+          289,
+          288,
+          283,
+          289,
+          286,
+          291,
+          296,
+          293,
+          294,
+          295,
+          293,
+          294
+        ],
+        "raw_bytes": [
+          706,
+          690,
+          702,
+          694,
+          702,
+          694,
+          706,
+          690,
+          706,
+          690,
+          690,
+          694,
+          698,
+          702,
+          702,
+          706,
+          690,
+          694,
+          706,
+          702,
+          706,
+          702,
+          690,
+          706,
+          690,
+          706,
+          706,
+          702,
+          702,
+          694,
+          706,
+          702,
+          702,
+          694,
+          706,
+          702,
+          702,
+          706,
+          694,
+          702,
+          706,
+          702,
+          702,
+          694,
+          690,
+          706,
+          706,
+          702,
+          698,
+          702,
+          690,
+          694,
+          706,
+          702,
+          690,
+          706,
+          690,
+          694,
+          706,
+          702,
+          706,
+          702,
+          702,
+          706
+        ],
+        "generation_seconds": [
+          16.40276552599994,
+          15.127764248999938,
+          15.280479504000027,
+          15.0762189940001,
+          15.180116064000003,
+          15.180397880999976,
+          15.434490766999943,
+          15.028402735999975,
+          15.081719121000106,
+          14.773470980999946,
+          14.77261025100006,
+          14.824000028,
+          15.03026232100001,
+          15.235673313000007,
+          15.08197370400012,
+          15.131684547000077,
+          14.87571782100008,
+          14.975985997999942,
+          15.23187608499984,
+          15.284379747000003,
+          15.283463364999989,
+          15.284264774999883,
+          14.928866781999886,
+          15.286460785000145,
+          15.13304511399997,
+          15.391623180999886,
+          15.391123336999954,
+          15.237752884999963,
+          14.98062711700004,
+          14.825060226000005,
+          15.082291583999904,
+          14.978020147000052,
+          14.979548236000028,
+          14.826596965999897,
+          15.08368386899997,
+          14.97731656200017,
+          15.388056960000085,
+          15.389971849999938,
+          15.133570593000059,
+          15.236043950000067,
+          15.284978333000026,
+          15.284375490999992,
+          15.18222691799997,
+          15.028431948999923,
+          14.87579583799993,
+          15.231931681999868,
+          15.233409261000133,
+          15.288262993999979,
+          15.030957988000182,
+          15.233166280999967,
+          14.826389075999941,
+          14.875693648999913,
+          15.082468701999915,
+          15.030976927999973,
+          14.774146712999936,
+          15.083193762000064,
+          14.928398988000026,
+          15.183501625999952,
+          15.438047223000012,
+          15.285100972999999,
+          15.337831485999914,
+          15.387951549999798,
+          15.288046901999905,
+          15.339628855
+        ]
+      },
+      "READ": {
+        "planned_slots": 32,
+        "responses": 32,
+        "input_tokens": [
+          549,
+          548,
+          548,
+          551,
+          545,
+          544,
+          546,
+          545,
+          549,
+          548,
+          549,
+          547,
+          547,
+          550,
+          543,
+          545,
+          543,
+          545,
+          547,
+          550,
+          549,
+          547,
+          549,
+          548,
+          546,
+          545,
+          545,
+          544,
+          548,
+          551,
+          549,
+          548
+        ],
+        "output_tokens": [
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94,
+          94
+        ],
+        "raw_bytes": [
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225,
+          225
+        ],
+        "generation_seconds": [
+          4.940288022999994,
+          4.929139063999969,
+          4.9303203429999485,
+          4.9317630529999406,
+          4.9326342139997905,
+          4.932625511999959,
+          4.93079109700011,
+          4.931598916999974,
+          4.930037126999878,
+          4.929981476999956,
+          4.930856956000071,
+          4.9317300559998785,
+          4.932719797000118,
+          4.931968806999976,
+          4.931177556999955,
+          4.932436177,
+          4.930894935000197,
+          4.93174136499988,
+          4.932195594999939,
+          4.930998045000024,
+          4.9297756639998624,
+          4.9307435230000465,
+          4.931416962999947,
+          4.93129963399997,
+          4.931408163000015,
+          4.932819913000003,
+          4.933102093000116,
+          4.9328937479999695,
+          4.930332421999992,
+          4.9310954219999985,
+          4.931295470999885,
+          4.93095815200013
+        ]
+      }
+    },
+    "normalization": {
+      "UPDATE": {
+        "answered": 64,
+        "status": {
+          "UNWRAPPED": 43,
+          "UNCHANGED": 21
+        },
+        "raw_schema_accepted": 21,
+        "normalized_schema_accepted": 64,
+        "removed_bytes": 516
+      },
+      "READ": {
+        "answered": 32,
+        "status": {
+          "UNWRAPPED": 32
+        },
+        "raw_schema_accepted": 0,
+        "normalized_schema_accepted": 32,
+        "removed_bytes": 384
+      }
+    }
+  }
+}

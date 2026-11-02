@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-2C87C728B1",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "answerのlocalとteamの構造はschemaのrequiredプロパティとenum値に完全に一致し、追加プロパティもない。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/experiences", "/payload/joint_records"],
+      "reason": "local.subjectはBとholder一致。local.evidence_refsはBの全経験IDと一致。team.evidence_refsはjoint_records全IDと一致。"
+    },
+    "local_choice": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/projected_success_per_40"],
+      "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高いが、答案はPAPERを選択しているため、local_choice規則に違反。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "joint_recordsにBの提案とAのACCEPTがあり、割付は予測合計最大の合法案と一致するため、SHARED_DECISIONとして適切。"
+    }
+  }
+}

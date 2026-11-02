@@ -1,0 +1,68 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "a8d4bf1924ddfeb7f5c2e12f618576ce78fb3e4a577afe840fa0d7e1e4a88f88",
+    "design.md": "9144fbb4a2d69a716de9720fb7a54ed8371cb1446abd1ba253b5f6238f3ae960",
+    "materials/contract.json": "48c9fa37709d1d977ef6728ae48fd9db68d7912fc2e0e4ba12d030f2d34ad304",
+    "requests.jsonl": "64ed807d780cc700a606f9c3d07c7faa97d6a2b3198ca943617e33c02efe901c",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/saved_readout_01_bootstrap.py": "c1be5ff5c08b4f6b262977b716e537eea521a0f046f5e8b8df6442f2fbaea45c",
+    "source/saved_readout_01_runtime.py": "56f88e44b5bc081203f831c68ebb6d2e42885063c85d343c9539427de6c928f9",
+    "source/saved_readout_01_scoring.py": "771585161c56963b938bb13ef36decafdaa9711125adfc1f3abc5eef4a73525a",
+    "supervisor.py": "2e56412256c5d66741f2ea98aba73fc205ca1b4aaebbdc3156411c2f4a5d8a9b"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "2d58d91ef88bc8f6c056eda35feaaa755195f8351e1ca71bb024165cda3232c4",
+  "original_payload_sha256": "96a0f8b467300a6cdbe63fc466decf2e62414a37f22c05f1be85a846ddc09f47",
+  "original_supervisor_sha256": "c1be5ff5c08b4f6b262977b716e537eea521a0f046f5e8b8df6442f2fbaea45c",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "saved_readout_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/saved_readout_01_bootstrap.py"
+          },
+          "saved_readout_01_runtime.py": {
+            "kind": "text",
+            "path": "source/saved_readout_01_runtime.py"
+          },
+          "saved_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/saved_readout_01_scoring.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "SVR01"
+}

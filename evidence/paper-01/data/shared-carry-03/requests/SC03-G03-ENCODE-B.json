@@ -1,0 +1,33 @@
+{
+  "input": [
+    {
+      "content": [
+        {
+          "text": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n自分の予約票CUSTOMERと観測票OBSERVATIONから個別ノートを生成します。両者の意味と人物、origin_idを維持してください。coverageだけが共同作業へ共有されます。customerは他役へ共有しません。出力トップ欄はprivate_noteだけ。\nprivate_noteはcustomerとcoverageの2欄。customerはsubject（A/B/UNKNOWN）、animal（DOG/CAT/UNKNOWN）、origin_id（元の予約票ID）。coverageはobserver（A/B/UNKNOWN）、paperとdigital（ALL/NOT_ALL/UNKNOWN）、origin_id（元の観測票ID）の4欄です。",
+          "type": "input_text"
+        }
+      ],
+      "role": "developer",
+      "type": "message"
+    },
+    {
+      "content": [
+        {
+          "text": "\n資料JSON:\n{\"scene\":\"小さな展示会\",\"item\":\"受付名札\",\"holder\":\"B\",\"records\":[{\"record_id\":\"CUSTOMER\",\"author\":\"B\",\"body\":{\"subject\":\"B\",\"animal\":\"DOG\",\"origin_id\":\"PM\"}},{\"record_id\":\"OBSERVATION\",\"author\":\"B\",\"body\":{\"observer\":\"B\",\"paper\":\"ALL\",\"digital\":\"ALL\",\"origin_id\":\"VE\"}}]}",
+          "type": "input_text"
+        }
+      ],
+      "role": "user",
+      "type": "message"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "tools": [],
+  "tool_choice": "none",
+  "parallel_tool_calls": false,
+  "store": false,
+  "stream": true
+}

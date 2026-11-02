@@ -1,0 +1,459 @@
+{
+  "original_frozen_aggregation_matches": true,
+  "code_and_scoring_unchanged": true,
+  "source_archive_hashes": [
+    {
+      "name": "npp-xm01-main-part1-20260924-043933-3bc8f488.zip",
+      "sha256": "eb50a798f2ec580c0ef2abd070bf571b5540441fa568f66e9e6289278e0b8cbd"
+    },
+    {
+      "name": "npp-xm01-main-part2-20260925-031619-48c45e34.zip",
+      "sha256": "50f048cf92115c4ee5827f70ce3216217cd20e5e9c0cd0f265e04ae9b3093026"
+    }
+  ],
+  "files_verified": 7878,
+  "actual_responses_replayed": 1008,
+  "parent_memory_to_actual_probe_inputs_verified": 240,
+  "new_model_calls": 0,
+  "repairs": 0,
+  "config_equal": {
+    "generation-config.json": true,
+    "tokenizer-binding.json": true,
+    "loaded-parameters.json": true,
+    "model-config.json": true
+  },
+  "environment_differences": {
+    "total_vram": {
+      "PART1": 85094825984,
+      "PART2": 101974081536
+    },
+    "capability": {
+      "PART1": [
+        8,
+        0
+      ],
+      "PART2": [
+        12,
+        0
+      ]
+    },
+    "gpu": {
+      "PART1": "NVIDIA A100-SXM4-80GB",
+      "PART2": "NVIDIA RTX PRO 6000 Blackwell Server Edition"
+    }
+  },
+  "by_stage": {
+    "REWRITE|MERGE": {
+      "planned": 384,
+      "status": {
+        "STRUCTURE_REJECT": 297,
+        "EOS": 87
+      },
+      "gate": {
+        "REJECT": 297,
+        "PASS": 87
+      },
+      "strict": {
+        "success": 85,
+        "failure": 232,
+        "unresolved": 67,
+        "total": 384
+      },
+      "content": {
+        "success": 296,
+        "failure": 21,
+        "unresolved": 67,
+        "total": 384
+      }
+    },
+    "REWRITE|PROBE": {
+      "planned": 384,
+      "status": {
+        "DEPENDENCY_MISSING": 297,
+        "EOS": 83,
+        "STRUCTURE_REJECT": 4
+      },
+      "gate": {
+        "NOT_RUN": 297,
+        "PASS": 83,
+        "REJECT": 4
+      },
+      "strict": {
+        "success": 0,
+        "failure": 87,
+        "unresolved": 297,
+        "total": 384
+      },
+      "content": {
+        "success": 17,
+        "failure": 70,
+        "unresolved": 297,
+        "total": 384
+      }
+    },
+    "SELECT|MERGE": {
+      "planned": 384,
+      "status": {
+        "EOS": 153,
+        "STRUCTURE_REJECT": 231
+      },
+      "gate": {
+        "PASS": 153,
+        "REJECT": 231
+      },
+      "strict": {
+        "success": 145,
+        "failure": 158,
+        "unresolved": 81,
+        "total": 384
+      },
+      "content": {
+        "success": 165,
+        "failure": 8,
+        "unresolved": 211,
+        "total": 384
+      }
+    },
+    "SELECT|PROBE": {
+      "planned": 384,
+      "status": {
+        "EOS": 151,
+        "DEPENDENCY_MISSING": 231,
+        "STRUCTURE_REJECT": 2
+      },
+      "gate": {
+        "PASS": 151,
+        "NOT_RUN": 231,
+        "REJECT": 2
+      },
+      "strict": {
+        "success": 0,
+        "failure": 153,
+        "unresolved": 231,
+        "total": 384
+      },
+      "content": {
+        "success": 13,
+        "failure": 140,
+        "unresolved": 231,
+        "total": 384
+      }
+    }
+  },
+  "speed": {
+    "PART1": {
+      "attempted": 506,
+      "received": 506,
+      "elapsed_seconds": 19413.064458063,
+      "generation_seconds": 19347.504584689945,
+      "generated_tokens": 152605,
+      "tokens_per_second": 7.887580505899416,
+      "max_allocated_vram_bytes": 55571085824
+    },
+    "PART2": {
+      "attempted": 502,
+      "received": 502,
+      "elapsed_seconds": 8205.932387786,
+      "generation_seconds": 7993.556201193007,
+      "generated_tokens": 153086,
+      "tokens_per_second": 19.15117579046389,
+      "max_allocated_vram_bytes": 55572436480
+    },
+    "observed_part2_over_part1_tokens_per_second": 2.4280165224481713,
+    "observed_part1_over_part2_elapsed_time": 2.3657353656676587,
+    "note": "Different materials, days and hardware; descriptive run comparison, not a controlled GPU benchmark."
+  },
+  "posthoc_diagnostic_counts": {
+    "REWRITE|MERGE": {
+      "invalid_current_reference_responses": 230,
+      "invalid_refs_all_are_input_origins": 230,
+      "unresolvable_selection_responses": 0,
+      "selection_and_ref_error_overlap": 0,
+      "invalid_raw_json": 67,
+      "outer_markdown_fence": 67
+    },
+    "SELECT|MERGE": {
+      "invalid_current_reference_responses": 104,
+      "invalid_refs_all_are_input_origins": 104,
+      "unresolvable_selection_responses": 130,
+      "selection_and_ref_error_overlap": 84,
+      "unresolvable_selectors_all_input_origin_ids": 130,
+      "invalid_raw_json": 81,
+      "outer_markdown_fence": 81
+    },
+    "SELECT|PROBE": {
+      "channel_UNKNOWN": 120,
+      "correct_decisions_incorrect_attribution": 13,
+      "channel_PAPER": 33
+    },
+    "REWRITE|PROBE": {
+      "channel_PAPER": 29,
+      "correct_decisions_incorrect_attribution": 17,
+      "channel_UNKNOWN": 58
+    }
+  },
+  "merge_gate_repeat_patterns_material_role_units": {
+    "REWRITE": {
+      "all_reject": 68,
+      "mixed": 56,
+      "all_pass": 4
+    },
+    "SELECT": {
+      "mixed": 56,
+      "all_reject": 48,
+      "all_pass": 24
+    }
+  },
+  "posthoc_probe_diagnostics": {
+    "generated": 240,
+    "channel_output_UNKNOWN": 178,
+    "channel_implied_by_saved_note_PAPER": 109,
+    "matches_channel_implied_by_saved_note": 34,
+    "shared_note_equals_latest_truth": 230,
+    "unknown_despite_correct_complete_shared_note": 171,
+    "channel_output_PAPER": 62,
+    "correct_decisions|refs_ok=False|origins_ok=False|note_ok=True": 15,
+    "channel_implied_by_saved_note_DIGITAL": 125,
+    "correct_decisions|refs_ok=False|origins_ok=True|note_ok=True": 13,
+    "correct_decisions_correct_ids_refs_[\"PRIVATE\", \"GROUP\"]": 13,
+    "channel_implied_by_saved_note_UNKNOWN": 6,
+    "correct_decisions|refs_ok=False|origins_ok=False|note_ok=False": 2
+  },
+  "posthoc_merge_origin_diagnostics": {
+    "content_correct_but_wrong_origin_id_rows": 0,
+    "content_correct_rows_examined": 2191
+  },
+  "selected_rows_resolved_and_copied_unchanged": 346,
+  "accepted_wrong_memories": [
+    {
+      "part": "PART1",
+      "id": "XM01-R1-E1-G60-SELECT-MERGE-B",
+      "method": "SELECT",
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.A": {
+          "content": false,
+          "strict": false
+        },
+        "shared_note.coverage.B": {
+          "content": true,
+          "strict": true
+        }
+      }
+    },
+    {
+      "part": "PART1",
+      "id": "XM01-R3-E1-G58-SELECT-MERGE-B",
+      "method": "SELECT",
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.A": {
+          "content": false,
+          "strict": false
+        },
+        "shared_note.coverage.B": {
+          "content": true,
+          "strict": true
+        }
+      }
+    },
+    {
+      "part": "PART1",
+      "id": "XM01-R3-E1-G11-SELECT-MERGE-B",
+      "method": "SELECT",
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.A": {
+          "content": false,
+          "strict": false
+        },
+        "shared_note.coverage.B": {
+          "content": true,
+          "strict": true
+        }
+      }
+    },
+    {
+      "part": "PART1",
+      "id": "XM01-R3-E1-G31-SELECT-MERGE-B",
+      "method": "SELECT",
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.A": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.B": {
+          "content": false,
+          "strict": false
+        }
+      }
+    },
+    {
+      "part": "PART2",
+      "id": "XM01-R1-E1-G62-REWRITE-MERGE-A",
+      "method": "REWRITE",
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.A": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.B": {
+          "content": false,
+          "strict": false
+        }
+      }
+    },
+    {
+      "part": "PART2",
+      "id": "XM01-R1-E1-G55-SELECT-MERGE-B",
+      "method": "SELECT",
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.A": {
+          "content": false,
+          "strict": false
+        },
+        "shared_note.coverage.B": {
+          "content": true,
+          "strict": true
+        }
+      }
+    },
+    {
+      "part": "PART2",
+      "id": "XM01-R2-E1-G30-SELECT-MERGE-B",
+      "method": "SELECT",
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.A": {
+          "content": false,
+          "strict": false
+        },
+        "shared_note.coverage.B": {
+          "content": true,
+          "strict": true
+        }
+      }
+    },
+    {
+      "part": "PART2",
+      "id": "XM01-R2-E1-G48-REWRITE-MERGE-B",
+      "method": "REWRITE",
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.A": {
+          "content": false,
+          "strict": false
+        },
+        "shared_note.coverage.B": {
+          "content": true,
+          "strict": true
+        }
+      }
+    },
+    {
+      "part": "PART2",
+      "id": "XM01-R2-E1-G40-SELECT-MERGE-B",
+      "method": "SELECT",
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.A": {
+          "content": false,
+          "strict": false
+        },
+        "shared_note.coverage.B": {
+          "content": true,
+          "strict": true
+        }
+      }
+    },
+    {
+      "part": "PART2",
+      "id": "XM01-R3-E1-G02-SELECT-MERGE-B",
+      "method": "SELECT",
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.A": {
+          "content": false,
+          "strict": false
+        },
+        "shared_note.coverage.B": {
+          "content": true,
+          "strict": true
+        }
+      }
+    }
+  ]
+}

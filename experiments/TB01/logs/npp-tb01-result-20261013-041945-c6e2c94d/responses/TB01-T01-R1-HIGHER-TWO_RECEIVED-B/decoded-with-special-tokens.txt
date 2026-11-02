@@ -1,0 +1,17 @@
+{
+  "own": {
+    "holder": "B",
+    "recommendation": "PAPER",
+    "evidence_ids": [
+      "E9c6530feeb",
+      "Ebe68e2e764"
+    ]
+  },
+  "approval_state": {
+    "A": "ACCEPT",
+    "B": "MISSING",
+    "C": "ACCEPT"
+  },
+  "agreement": "PENDING",
+  "joint_action": "HOLD"
+}<|im_end|>

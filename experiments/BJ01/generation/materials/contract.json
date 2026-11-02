@@ -1,0 +1,54 @@
+{
+  "answer_repairs": false,
+  "attention": "sdpa",
+  "automatic_regenerations": 0,
+  "batch_size": 1,
+  "checkpoint_every": 8,
+  "cloud_drive": "not_used",
+  "delivery": "zip_download",
+  "dtype": "bfloat16",
+  "enable_thinking": false,
+  "eos_policy": "Remove one final im_end only; preserve output token IDs and full decoded text.",
+  "frozen_hashes": {
+    "MANIFEST.json": "a4adc29ba2ffe8382a20b466bd43603d69e7b2ee716ac413e239584cb88509ce",
+    "design-summary.json": "7fc6d450f878464450a7b46220a7a029c09d386f452c15f24b8fb60734e3ee33",
+    "judge-output-schema.json": "cf8f77118bcc3c299b4cc85cabbcc4306e8564dd8e03b4105690ec5fb635597e",
+    "judge-requests.json": "f0d4ac8ce0e2ddf8bc119d48627bebe191c58eef06e23ca84ef061d3764709d3",
+    "labels-and-provenance.json": "a0d7f06611ee8d0dc6d98f2dcfc8c830786a72ce571f051cc001649e4792eda6",
+    "packets.json": "d27547a2ad93cf92e3cebedf06bb5727a480ca79575b5bca275f10a4d579aee3"
+  },
+  "generation": {
+    "do_sample": true,
+    "max_new_tokens": 1024,
+    "repetition_penalty": 1.0,
+    "temperature": 0.7,
+    "top_k": 20,
+    "top_p": 0.8,
+    "use_cache": true
+  },
+  "grammar_constraint": false,
+  "judge_mode": "observe",
+  "max_generations": 64,
+  "max_input_tokens": 8192,
+  "max_output_tokens": 1024,
+  "max_raw_bytes": 16384,
+  "model_id": "Qwen/Qwen3.5-27B",
+  "model_revision": "fc05daec18b0a78c049392ed2e771dde82bdf654",
+  "normalization": "strict bare JSON only",
+  "package_pins": {
+    "accelerate": "1.15.0",
+    "transformers": "5.17.0"
+  },
+  "protocol": "BOUNDARY-JUDGE-01-RUN-v0.1",
+  "reserved_final_seconds": 90,
+  "resume_generation": false,
+  "retention": "private_no_deletion_deadline",
+  "seconds_including_setup": 3600,
+  "source_hashes": {
+    "boundary_judge_01_bootstrap.py": "fa1633b366328482938e01ee9b5ee17a1b4f03c476611f4c61a68c6ae8fef9f0",
+    "boundary_judge_01_runtime.py": "ed8d90473453c0f06b158875c314441afdc93fff32763bec63fcc40806a0a18a",
+    "boundary_judge_01_scoring.py": "df0ab39999facd3294d46e24a8554c11f574d1175106acd1aa950a995cac9d18",
+    "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b"
+  }
+}

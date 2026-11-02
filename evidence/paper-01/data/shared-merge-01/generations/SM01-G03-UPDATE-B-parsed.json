@@ -1,0 +1,87 @@
+{
+  "gate": "PASS",
+  "value": {
+    "memory": {
+      "private_note": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "PM"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "SM3B",
+          "revision": 2
+        }
+      },
+      "shared_note": {
+        "coverage": {
+          "A": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "YC",
+            "revision": 1
+          },
+          "B": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "SM3B",
+            "revision": 2
+          }
+        }
+      }
+    },
+    "read_receipt": {
+      "private_customer_refs": [
+        "PRIVATE"
+      ],
+      "private_coverage_refs": [
+        "NOTICE"
+      ],
+      "shared_coverage_refs": {
+        "A": [
+          "BASE_GROUP"
+        ],
+        "B": [
+          "NOTICE"
+        ]
+      }
+    }
+  },
+  "shape_errors": [],
+  "ref_errors": [],
+  "status": "VALID",
+  "continuable": true,
+  "valid_components": {
+    "private_customer": {
+      "subject": "B",
+      "animal": "DOG",
+      "origin_id": "PM"
+    },
+    "private_coverage": {
+      "observer": "B",
+      "paper": "ALL",
+      "digital": "NOT_ALL",
+      "origin_id": "SM3B",
+      "revision": 2
+    },
+    "shared_A": {
+      "observer": "A",
+      "paper": "NOT_ALL",
+      "digital": "ALL",
+      "origin_id": "YC",
+      "revision": 1
+    },
+    "shared_B": {
+      "observer": "B",
+      "paper": "ALL",
+      "digital": "NOT_ALL",
+      "origin_id": "SM3B",
+      "revision": 2
+    }
+  }
+}

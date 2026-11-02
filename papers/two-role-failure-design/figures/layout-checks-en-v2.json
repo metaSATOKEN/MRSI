@@ -1,0 +1,410 @@
+[
+  {
+    "figure": "fig01-record-trace-en-v2",
+    "edges": [
+      [
+        "I",
+        "P"
+      ],
+      [
+        "P",
+        "T"
+      ],
+      [
+        "T",
+        "S"
+      ],
+      [
+        "S",
+        "N"
+      ],
+      [
+        "N",
+        "U"
+      ],
+      [
+        "P",
+        "A"
+      ],
+      [
+        "T",
+        "A"
+      ],
+      [
+        "S",
+        "A"
+      ],
+      [
+        "N",
+        "A"
+      ],
+      [
+        "U",
+        "A"
+      ]
+    ],
+    "layout_checks": [
+      {
+        "text": "Input materials + previous saved artifacts",
+        "inside_box": true
+      },
+      {
+        "text": "Model-generated proposal",
+        "inside_box": true
+      },
+      {
+        "text": "Checks, transformations,\nand storage decisions",
+        "inside_box": true
+      },
+      {
+        "text": "Actual saved state",
+        "inside_box": true
+      },
+      {
+        "text": "Input supplied to the next stage",
+        "inside_box": true
+      },
+      {
+        "text": "Subsequent judgment and use",
+        "inside_box": true
+      },
+      {
+        "text": "Retain the raw proposal",
+        "inside_box": true
+      },
+      {
+        "text": "Log transformations and\nexecution / inapplicability",
+        "inside_box": true
+      },
+      {
+        "text": "Record saved contents",
+        "inside_box": true
+      },
+      {
+        "text": "Match input to its parent record",
+        "inside_box": true
+      },
+      {
+        "text": "Evaluate for the intended use",
+        "inside_box": true
+      },
+      {
+        "text": "Trace records across stage boundaries",
+        "inside_canvas": true
+      },
+      {
+        "text": "Observation framework  |  Separate generation, saved state, and subsequent use.",
+        "inside_canvas": true
+      },
+      {
+        "text": "Input materials + previous saved artifacts",
+        "inside_canvas": true
+      },
+      {
+        "text": "Model-generated proposal",
+        "inside_canvas": true
+      },
+      {
+        "text": "Checks, transformations,\nand storage decisions",
+        "inside_canvas": true
+      },
+      {
+        "text": "Actual saved state",
+        "inside_canvas": true
+      },
+      {
+        "text": "Input supplied to the next stage",
+        "inside_canvas": true
+      },
+      {
+        "text": "Subsequent judgment and use",
+        "inside_canvas": true
+      },
+      {
+        "text": "CORRESPONDENCE AUDIT",
+        "inside_canvas": true
+      },
+      {
+        "text": "Retain the raw proposal",
+        "inside_canvas": true
+      },
+      {
+        "text": "Log transformations and\nexecution / inapplicability",
+        "inside_canvas": true
+      },
+      {
+        "text": "Record saved contents",
+        "inside_canvas": true
+      },
+      {
+        "text": "Match input to its parent record",
+        "inside_canvas": true
+      },
+      {
+        "text": "Evaluate for the intended use",
+        "inside_canvas": true
+      },
+      {
+        "text": "Solid arrows: material passed onward     Dashed arrows: records used in the audit",
+        "inside_canvas": true
+      },
+      {
+        "text": "Distinguish a defect inherited from a saved artifact from a new error introduced downstream.",
+        "inside_canvas": true
+      }
+    ],
+    "size_inches": [
+      10.2,
+      8.8
+    ],
+    "dpi": 300
+  },
+  {
+    "figure": "fig02-reference-architecture-en-v2",
+    "edges": [
+      [
+        "I",
+        "U"
+      ],
+      [
+        "U",
+        "W"
+      ],
+      [
+        "I",
+        "W"
+      ],
+      [
+        "W",
+        "P"
+      ],
+      [
+        "W",
+        "H"
+      ],
+      [
+        "P",
+        "D"
+      ],
+      [
+        "D",
+        "J"
+      ],
+      [
+        "D",
+        "Q"
+      ],
+      [
+        "J",
+        "V"
+      ],
+      [
+        "Q",
+        "V"
+      ],
+      [
+        "Q",
+        "C"
+      ],
+      [
+        "D",
+        "C"
+      ],
+      [
+        "V",
+        "L"
+      ],
+      [
+        "Q",
+        "L"
+      ],
+      [
+        "L",
+        "A"
+      ],
+      [
+        "C",
+        "G"
+      ],
+      [
+        "A",
+        "G"
+      ],
+      [
+        "G",
+        "R"
+      ],
+      [
+        "G",
+        "H"
+      ],
+      [
+        "L",
+        "H"
+      ],
+      [
+        "J",
+        "R"
+      ],
+      [
+        "H",
+        "E"
+      ],
+      [
+        "R",
+        "E"
+      ]
+    ],
+    "layout_checks": [
+      {
+        "text": "Input materials: target, origin ID, revision",
+        "inside_box": true
+      },
+      {
+        "text": "LLM update proposal",
+        "inside_box": true
+      },
+      {
+        "text": "Pre-storage checks\nSelect and copy designated fields",
+        "inside_box": true
+      },
+      {
+        "text": "Per-role private states\nand shared observations",
+        "inside_box": true
+      },
+      {
+        "text": "Own-experience summaries\nand joint candidate table",
+        "inside_box": true
+      },
+      {
+        "text": "Each role's own judgment",
+        "inside_box": true
+      },
+      {
+        "text": "Joint proposal\nTarget and version",
+        "inside_box": true
+      },
+      {
+        "text": "Votes expressed by each role",
+        "inside_box": true
+      },
+      {
+        "text": "Task assessment\nCandidates, resources, totals",
+        "inside_box": true
+      },
+      {
+        "text": "Original votes + per-role states\nMISSING / HOLD / ACCEPT",
+        "inside_box": true
+      },
+      {
+        "text": "Group agreement\nunder the specified rule",
+        "inside_box": true
+      },
+      {
+        "text": "Controller decision:\nauthorize execution?",
+        "inside_box": true
+      },
+      {
+        "text": "Unresolved items\nand target-specific reasons",
+        "inside_box": true
+      },
+      {
+        "text": "Use the authorized\njoint assignment",
+        "inside_box": true
+      },
+      {
+        "text": "Evaluate own judgment, votes,\nagreement, and execution separately",
+        "inside_box": true
+      },
+      {
+        "text": "Separate actual approval from permission to execute",
+        "inside_canvas": true
+      },
+      {
+        "text": "Proposed architecture  |  Assess the proposal and preserve each received vote.",
+        "inside_canvas": true
+      },
+      {
+        "text": "Input materials: target, origin ID, revision",
+        "inside_canvas": true
+      },
+      {
+        "text": "LLM update proposal",
+        "inside_canvas": true
+      },
+      {
+        "text": "Pre-storage checks\nSelect and copy designated fields",
+        "inside_canvas": true
+      },
+      {
+        "text": "Per-role private states\nand shared observations",
+        "inside_canvas": true
+      },
+      {
+        "text": "Own-experience summaries\nand joint candidate table",
+        "inside_canvas": true
+      },
+      {
+        "text": "Each role's own judgment",
+        "inside_canvas": true
+      },
+      {
+        "text": "Joint proposal\nTarget and version",
+        "inside_canvas": true
+      },
+      {
+        "text": "Votes expressed by each role",
+        "inside_canvas": true
+      },
+      {
+        "text": "Task assessment\nCandidates, resources, totals",
+        "inside_canvas": true
+      },
+      {
+        "text": "Original votes + per-role states\nMISSING / HOLD / ACCEPT",
+        "inside_canvas": true
+      },
+      {
+        "text": "Group agreement\nunder the specified rule",
+        "inside_canvas": true
+      },
+      {
+        "text": "Controller decision:\nauthorize execution?",
+        "inside_canvas": true
+      },
+      {
+        "text": "Unresolved items\nand target-specific reasons",
+        "inside_canvas": true
+      },
+      {
+        "text": "Use the authorized\njoint assignment",
+        "inside_canvas": true
+      },
+      {
+        "text": "Evaluate own judgment, votes,\nagreement, and execution separately",
+        "inside_canvas": true
+      },
+      {
+        "text": "Conditions met",
+        "inside_canvas": true
+      },
+      {
+        "text": "Not met",
+        "inside_canvas": true
+      },
+      {
+        "text": "Retain own judgment",
+        "inside_canvas": true
+      },
+      {
+        "text": "Approval facts remain intact\neven when execution is deferred.",
+        "inside_canvas": true
+      }
+    ],
+    "size_inches": [
+      12.6,
+      16.0
+    ],
+    "dpi": 300
+  }
+]

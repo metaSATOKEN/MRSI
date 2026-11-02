@@ -1,0 +1,218 @@
+{
+  "run": "RU01-C07-R1",
+  "selection_rule": "First allocated pair, not chosen by result.",
+  "conditions": [
+    {
+      "arm": "P0G0",
+      "roles": {
+        "A": {
+          "id": "RU01-C07-R1-A-P0G0",
+          "answer": {
+            "customer": {
+              "subject": "A",
+              "animal": "DOG"
+            },
+            "coverage": {
+              "A": {
+                "paper": "ALL",
+                "digital": "ALL"
+              },
+              "B": {
+                "paper": "ALL",
+                "digital": "NOT_ALL"
+              }
+            }
+          },
+          "actions": {
+            "card_animal": "DOG",
+            "subject": "A",
+            "channel": "PAPER"
+          }
+        },
+        "B": {
+          "id": "RU01-C07-R1-B-P0G0",
+          "answer": {
+            "customer": {
+              "subject": "B",
+              "animal": "CAT"
+            },
+            "coverage": {
+              "A": {
+                "paper": "ALL",
+                "digital": "ALL"
+              },
+              "B": {
+                "paper": "ALL",
+                "digital": "NOT_ALL"
+              }
+            }
+          },
+          "actions": {
+            "card_animal": "CAT",
+            "subject": "B",
+            "channel": "PAPER"
+          }
+        }
+      }
+    },
+    {
+      "arm": "P1G0",
+      "roles": {
+        "A": {
+          "id": "RU01-C07-R1-A-P1G0",
+          "answer": {
+            "customer": {
+              "subject": "A",
+              "animal": "CAT"
+            },
+            "coverage": {
+              "A": {
+                "paper": "ALL",
+                "digital": "ALL"
+              },
+              "B": {
+                "paper": "ALL",
+                "digital": "NOT_ALL"
+              }
+            }
+          },
+          "actions": {
+            "card_animal": "CAT",
+            "subject": "A",
+            "channel": "PAPER"
+          }
+        },
+        "B": {
+          "id": "RU01-C07-R1-B-P1G0",
+          "answer": {
+            "customer": {
+              "subject": "B",
+              "animal": "DOG"
+            },
+            "coverage": {
+              "A": {
+                "paper": "ALL",
+                "digital": "ALL"
+              },
+              "B": {
+                "paper": "ALL",
+                "digital": "NOT_ALL"
+              }
+            }
+          },
+          "actions": {
+            "card_animal": "DOG",
+            "subject": "B",
+            "channel": "PAPER"
+          }
+        }
+      }
+    },
+    {
+      "arm": "P0G1",
+      "roles": {
+        "A": {
+          "id": "RU01-C07-R1-A-P0G1",
+          "answer": {
+            "customer": {
+              "subject": "A",
+              "animal": "DOG"
+            },
+            "coverage": {
+              "A": {
+                "paper": "ALL",
+                "digital": "ALL"
+              },
+              "B": {
+                "paper": "NOT_ALL",
+                "digital": "ALL"
+              }
+            }
+          },
+          "actions": {
+            "card_animal": "DOG",
+            "subject": "A",
+            "channel": "DIGITAL"
+          }
+        },
+        "B": {
+          "id": "RU01-C07-R1-B-P0G1",
+          "answer": {
+            "customer": {
+              "subject": "B",
+              "animal": "CAT"
+            },
+            "coverage": {
+              "A": {
+                "paper": "ALL",
+                "digital": "ALL"
+              },
+              "B": {
+                "paper": "NOT_ALL",
+                "digital": "ALL"
+              }
+            }
+          },
+          "actions": {
+            "card_animal": "CAT",
+            "subject": "B",
+            "channel": "DIGITAL"
+          }
+        }
+      }
+    },
+    {
+      "arm": "P1G1",
+      "roles": {
+        "A": {
+          "id": "RU01-C07-R1-A-P1G1",
+          "answer": {
+            "customer": {
+              "subject": "A",
+              "animal": "CAT"
+            },
+            "coverage": {
+              "A": {
+                "paper": "ALL",
+                "digital": "ALL"
+              },
+              "B": {
+                "paper": "NOT_ALL",
+                "digital": "ALL"
+              }
+            }
+          },
+          "actions": {
+            "card_animal": "CAT",
+            "subject": "A",
+            "channel": "DIGITAL"
+          }
+        },
+        "B": {
+          "id": "RU01-C07-R1-B-P1G1",
+          "answer": {
+            "customer": {
+              "subject": "B",
+              "animal": "DOG"
+            },
+            "coverage": {
+              "A": {
+                "paper": "ALL",
+                "digital": "ALL"
+              },
+              "B": {
+                "paper": "NOT_ALL",
+                "digital": "ALL"
+              }
+            }
+          },
+          "actions": {
+            "card_animal": "DOG",
+            "subject": "B",
+            "channel": "DIGITAL"
+          }
+        }
+      }
+    }
+  ]
+}

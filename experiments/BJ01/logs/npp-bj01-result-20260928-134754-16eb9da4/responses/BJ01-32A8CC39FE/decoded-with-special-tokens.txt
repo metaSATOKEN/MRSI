@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-32A8CC39FE",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local", "/answer/team"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "answerの構造はschemaのrequiredフィールドとenum制約を満たし、追加プロパティも存在しない。"
+    },
+    "attribution": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/local/evidence_refs"],
+      "evidence_pointers": ["/payload/own_experience_summary/experience_refs", "/facts/roles/B/episode_ids"],
+      "reason": "local.evidence_refsに他者のE94A9E91EF2が含まれ、自身の全経験E7626AE2A21が欠落している。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/projected_success_per_40"],
+      "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高く、選択が一致している。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Aの提案とBのACCEPTが合意し、その割付が予測合計最大(49)の最適解と一致している。"
+    }
+  }
+}<|im_end|>

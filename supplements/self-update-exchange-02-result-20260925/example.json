@@ -1,0 +1,136 @@
+{
+  "selection_rule": "First allocated pair, not selected for outcome.",
+  "run": {
+    "case": "SX02-C04",
+    "id": "SX02-C04-R1",
+    "replicate": 1
+  },
+  "baseline_channel": "DIGITAL",
+  "latest_channel": "PAPER",
+  "roles": {
+    "A": {
+      "source": {
+        "case": "SX02-C04",
+        "id": "SX02-C04-R1-A",
+        "item": "個別の案内カード",
+        "memory": {
+          "private_note": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "X16B813056D3D8B5E",
+              "paper": "NOT_ALL",
+              "revision": 43
+            },
+            "customer": {
+              "animal": "CAT",
+              "origin_id": "XE236D96C7E0742FC",
+              "subject": "A"
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "X16B813056D3D8B5E",
+                "paper": "NOT_ALL",
+                "revision": 43
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "X5C5B08EE05FD0AC3",
+                "paper": "ALL",
+                "revision": 48
+              }
+            }
+          }
+        },
+        "replicate": 1,
+        "role": "A",
+        "run": "SX02-C04-R1",
+        "scene": "昆虫標本会・試設会場4",
+        "source_memory_path": "responses/SX01-C04-R1-DELAY-A/saved-memory.json",
+        "source_memory_sha256": "5cb93af7f9a1c1a0c28a3dec9e30652081178084629449152192d99e0e958dcc",
+        "source_response": "SX01-C04-R1-DELAY-A",
+        "source_result_path": "responses/SX01-C04-R1-DELAY-A/result.json",
+        "source_result_sha256": "4fa8f1735e2c23b166cd846c3cfadc7bfb917bdb1ace2fc3fbc00324b570fd4d"
+      },
+      "new_observation": {
+        "digital": "ALL",
+        "observer": "A",
+        "origin_id": "YB49EA72CD0229802",
+        "paper": "ALL",
+        "revision": 44
+      },
+      "final_action": {
+        "subject": "A",
+        "card_animal": "CAT",
+        "channel": "PAPER"
+      }
+    },
+    "B": {
+      "source": {
+        "case": "SX02-C04",
+        "id": "SX02-C04-R1-B",
+        "item": "個別の案内カード",
+        "memory": {
+          "private_note": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "B",
+              "origin_id": "X5C5B08EE05FD0AC3",
+              "paper": "ALL",
+              "revision": 48
+            },
+            "customer": {
+              "animal": "DOG",
+              "origin_id": "X1FC192DFD5CD7178",
+              "subject": "B"
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "X16B813056D3D8B5E",
+                "paper": "NOT_ALL",
+                "revision": 43
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "X5C5B08EE05FD0AC3",
+                "paper": "ALL",
+                "revision": 48
+              }
+            }
+          }
+        },
+        "replicate": 1,
+        "role": "B",
+        "run": "SX02-C04-R1",
+        "scene": "昆虫標本会・試設会場4",
+        "source_memory_path": "responses/SX01-C04-R1-DELAY-B/saved-memory.json",
+        "source_memory_sha256": "2b052d4f7f816c5500de01ceaa0bfd5e386063961cefd03191e67179c9be8a87",
+        "source_response": "SX01-C04-R1-DELAY-B",
+        "source_result_path": "responses/SX01-C04-R1-DELAY-B/result.json",
+        "source_result_sha256": "79674408434d7bc62cf9deffc189330425d1b833cf804452cd7c3f634934e85b"
+      },
+      "new_observation": {
+        "digital": "NOT_ALL",
+        "observer": "B",
+        "origin_id": "Y1D0E0737837A72DF",
+        "paper": "ALL",
+        "revision": 49
+      },
+      "final_action": {
+        "subject": "B",
+        "card_animal": "DOG",
+        "channel": "PAPER"
+      }
+    }
+  }
+}

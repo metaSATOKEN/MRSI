@@ -1,0 +1,425 @@
+[
+  {
+    "arm": "FORM",
+    "branch": null,
+    "case": "N01",
+    "id": "TCV02-N01-FORM-B",
+    "parents": [],
+    "repeat": 0,
+    "role": "B",
+    "seed": 557872539,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_relation": null,
+    "candidate_totals": {
+      "C2": 91.0,
+      "C1": 85.0
+    },
+    "own_success_for_40": {
+      "PAPER": 24.0,
+      "DIGITAL": 35.0
+    },
+    "offered_assignment": null,
+    "own_assignment_match": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "comparison": null,
+    "diagnostic_class": "NOT_APPLICABLE",
+    "extended_strict": true,
+    "input_tokens": 600,
+    "output_tokens": 42,
+    "answer_bytes": 94,
+    "generation_seconds": 3.0765314290001697
+  },
+  {
+    "arm": "FORM",
+    "branch": null,
+    "case": "N01",
+    "id": "TCV02-N01-FORM-A",
+    "parents": [],
+    "repeat": 0,
+    "role": "A",
+    "seed": 1690505307,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_relation": null,
+    "candidate_totals": {
+      "C2": 91.0,
+      "C1": 85.0
+    },
+    "own_success_for_40": {
+      "PAPER": 24.0,
+      "DIGITAL": 29.0
+    },
+    "offered_assignment": null,
+    "own_assignment_match": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "comparison": null,
+    "diagnostic_class": "NOT_APPLICABLE",
+    "extended_strict": true,
+    "input_tokens": 602,
+    "output_tokens": 43,
+    "answer_bytes": 94,
+    "generation_seconds": 2.379426810000041
+  },
+  {
+    "arm": "FORM",
+    "branch": null,
+    "case": "N01",
+    "id": "TCV02-N01-FORM-C",
+    "parents": [],
+    "repeat": 0,
+    "role": "C",
+    "seed": 467888532,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_relation": null,
+    "candidate_totals": {
+      "C2": 91.0,
+      "C1": 85.0
+    },
+    "own_success_for_40": {
+      "PAPER": 32.0,
+      "DIGITAL": 16.0
+    },
+    "offered_assignment": null,
+    "own_assignment_match": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "comparison": null,
+    "diagnostic_class": "NOT_APPLICABLE",
+    "extended_strict": true,
+    "input_tokens": 591,
+    "output_tokens": 38,
+    "answer_bytes": 92,
+    "generation_seconds": 2.117046364999851
+  },
+  {
+    "arm": "FORM",
+    "branch": null,
+    "case": "N02",
+    "id": "TCV02-N02-FORM-C",
+    "parents": [],
+    "repeat": 0,
+    "role": "C",
+    "seed": 543311639,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_relation": null,
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 81.0
+    },
+    "own_success_for_40": {
+      "PAPER": 31.0,
+      "DIGITAL": 20.0
+    },
+    "offered_assignment": null,
+    "own_assignment_match": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "comparison": null,
+    "diagnostic_class": "NOT_APPLICABLE",
+    "extended_strict": true,
+    "input_tokens": 599,
+    "output_tokens": 42,
+    "answer_bytes": 92,
+    "generation_seconds": 2.3241832220001015
+  },
+  {
+    "arm": "FORM",
+    "branch": null,
+    "case": "N02",
+    "id": "TCV02-N02-FORM-B",
+    "parents": [],
+    "repeat": 0,
+    "role": "B",
+    "seed": 91527622,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_relation": null,
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 81.0
+    },
+    "own_success_for_40": {
+      "PAPER": 28.0,
+      "DIGITAL": 23.0
+    },
+    "offered_assignment": null,
+    "own_assignment_match": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "comparison": null,
+    "diagnostic_class": "NOT_APPLICABLE",
+    "extended_strict": true,
+    "input_tokens": 595,
+    "output_tokens": 40,
+    "answer_bytes": 92,
+    "generation_seconds": 2.214609383000152
+  },
+  {
+    "arm": "FORM",
+    "branch": null,
+    "case": "N02",
+    "id": "TCV02-N02-FORM-A",
+    "parents": [],
+    "repeat": 0,
+    "role": "A",
+    "seed": 994313785,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_relation": null,
+    "candidate_totals": {
+      "C1": 87.0,
+      "C2": 81.0
+    },
+    "own_success_for_40": {
+      "PAPER": 18.0,
+      "DIGITAL": 33.0
+    },
+    "offered_assignment": null,
+    "own_assignment_match": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "comparison": null,
+    "diagnostic_class": "NOT_APPLICABLE",
+    "extended_strict": true,
+    "input_tokens": 599,
+    "output_tokens": 42,
+    "answer_bytes": 94,
+    "generation_seconds": 2.3043314309998095
+  },
+  {
+    "arm": "FORM",
+    "branch": null,
+    "case": "N03",
+    "id": "TCV02-N03-FORM-A",
+    "parents": [],
+    "repeat": 0,
+    "role": "A",
+    "seed": 16966898,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_relation": null,
+    "candidate_totals": {
+      "C1": 78.0,
+      "C2": 85.0
+    },
+    "own_success_for_40": {
+      "PAPER": 20.0,
+      "DIGITAL": 33.0
+    },
+    "offered_assignment": null,
+    "own_assignment_match": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "comparison": null,
+    "diagnostic_class": "NOT_APPLICABLE",
+    "extended_strict": true,
+    "input_tokens": 596,
+    "output_tokens": 40,
+    "answer_bytes": 94,
+    "generation_seconds": 2.2022899529999904
+  },
+  {
+    "arm": "FORM",
+    "branch": null,
+    "case": "N03",
+    "id": "TCV02-N03-FORM-C",
+    "parents": [],
+    "repeat": 0,
+    "role": "C",
+    "seed": 664687895,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_relation": null,
+    "candidate_totals": {
+      "C1": 78.0,
+      "C2": 85.0
+    },
+    "own_success_for_40": {
+      "PAPER": 24.0,
+      "DIGITAL": 30.0
+    },
+    "offered_assignment": null,
+    "own_assignment_match": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "comparison": null,
+    "diagnostic_class": "NOT_APPLICABLE",
+    "extended_strict": true,
+    "input_tokens": 595,
+    "output_tokens": 39,
+    "answer_bytes": 94,
+    "generation_seconds": 2.149490424000078
+  },
+  {
+    "arm": "FORM",
+    "branch": null,
+    "case": "N03",
+    "id": "TCV02-N03-FORM-B",
+    "parents": [],
+    "repeat": 0,
+    "role": "B",
+    "seed": 321103849,
+    "snapshot": null,
+    "stage": "FORM",
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      }
+    },
+    "expected_vote": null,
+    "expected_relation": null,
+    "candidate_totals": {
+      "C1": 78.0,
+      "C2": 85.0
+    },
+    "own_success_for_40": {
+      "PAPER": 28.0,
+      "DIGITAL": 17.0
+    },
+    "offered_assignment": null,
+    "own_assignment_match": null,
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true
+    },
+    "strict": true,
+    "comparison": null,
+    "diagnostic_class": "NOT_APPLICABLE",
+    "extended_strict": true,
+    "input_tokens": 598,
+    "output_tokens": 41,
+    "answer_bytes": 92,
+    "generation_seconds": 2.2515693230000124
+  }
+]

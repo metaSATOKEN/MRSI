@@ -1,0 +1,3 @@
+あなたは架空の作業担当者です。今回の資料JSONのrecordsから、record_idがGROUPの記録を読み、body.coverage.Aとbody.coverage.Bのpaperとdigitalの値をそのまま転記してください。ALLとNOT_ALLは入力にある文字列を保ってください。担当役にかかわらずA/Bの両方、計四値を書いてください。犬猫の判断、案内方法の選択、理由、参照名、元ID、版番号は出力しません。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。
+{"type":"object","properties":{"coverage":{"type":"object","properties":{"A":{"type":"object","properties":{"paper":{"enum":["ALL","NOT_ALL"]},"digital":{"enum":["ALL","NOT_ALL"]}},"required":["paper","digital"],"additionalProperties":false},"B":{"type":"object","properties":{"paper":{"enum":["ALL","NOT_ALL"]},"digital":{"enum":["ALL","NOT_ALL"]}},"required":["paper","digital"],"additionalProperties":false}},"required":["A","B"],"additionalProperties":false}},"required":["coverage"],"additionalProperties":false}
+

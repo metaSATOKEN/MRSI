@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source_files_checked": 26,
+  "completed_responses_inventory": 459,
+  "byte_equal": {
+    "paper-data-v0.1-2026-10-13.json": true,
+    "evidence-extract-v0.1-2026-10-13.json": true
+  },
+  "model_calls": 0
+}

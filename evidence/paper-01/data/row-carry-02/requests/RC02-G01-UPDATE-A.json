@@ -1,0 +1,33 @@
+{
+  "input": [
+    {
+      "content": [
+        {
+          "text": "あなたは架空の作業担当者です。PRIVATEは自分の保存済み個別ノート、BASE_GROUPは以前の共同ノート、NOTICEはあなたの担当範囲だけの正式な最新再確認です。担当客は変わりません。NOTICEで自分の観測を更新し、共同ノートの自分行も更新し、相手行は入力にある情報を保ってください。memory.private_noteとmemory.shared_noteを保存してください。共同ノートにはA/B別の観測だけを置き、案内の結論やノート全体の版番号は足さないでください。\nrevisionは同じobserverの再観測順です。AとBの番号同士やノート全体の新旧は比較しません。更新番号3/4は正式に付された手掛かりです。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。read_receiptは今回の各欄の根拠記録名で、ノート本文へ混ぜません。同じ値を支える記録が複数なら一件でも複数件でもよいですが、無関係な記録を加えず、元観測IDや昔の資料名を現在記録名の代わりにしないでください。確定した欄には現在参照を一件以上記録し、不明で根拠を挙げられない欄は空配列にしてください。\n{\"type\":\"object\",\"properties\":{\"memory\":{\"type\":\"object\",\"properties\":{\"private_note\":{\"type\":\"object\",\"properties\":{\"customer\":{\"type\":\"object\",\"properties\":{\"subject\":{\"enum\":[\"A\",\"B\",\"UNKNOWN\"]},\"animal\":{\"enum\":[\"DOG\",\"CAT\",\"UNKNOWN\"]},\"origin_id\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"}},\"required\":[\"subject\",\"animal\",\"origin_id\"],\"additionalProperties\":false},\"coverage\":{\"type\":\"object\",\"properties\":{\"observer\":{\"enum\":[\"A\",\"B\",\"UNKNOWN\"]},\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"origin_id\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"},\"revision\":{\"enum\":[1,2,3,4,\"UNKNOWN\"]}},\"required\":[\"observer\",\"paper\",\"digital\",\"origin_id\",\"revision\"],\"additionalProperties\":false}},\"required\":[\"customer\",\"coverage\"],\"additionalProperties\":false},\"shared_note\":{\"type\":\"object\",\"properties\":{\"coverage\":{\"type\":\"object\",\"properties\":{\"A\":{\"type\":\"object\",\"properties\":{\"observer\":{\"enum\":[\"A\",\"B\",\"UNKNOWN\"]},\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"origin_id\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"},\"revision\":{\"enum\":[1,2,3,4,\"UNKNOWN\"]}},\"required\":[\"observer\",\"paper\",\"digital\",\"origin_id\",\"revision\"],\"additionalProperties\":false},\"B\":{\"type\":\"object\",\"properties\":{\"observer\":{\"enum\":[\"A\",\"B\",\"UNKNOWN\"]},\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\",\"UNKNOWN\"]},\"origin_id\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"},\"revision\":{\"enum\":[1,2,3,4,\"UNKNOWN\"]}},\"required\":[\"observer\",\"paper\",\"digital\",\"origin_id\",\"revision\"],\"additionalProperties\":false}},\"required\":[\"A\",\"B\"],\"additionalProperties\":false}},\"required\":[\"coverage\"],\"additionalProperties\":false}},\"required\":[\"private_note\",\"shared_note\"],\"additionalProperties\":false},\"read_receipt\":{\"type\":\"object\",\"properties\":{\"private_customer_refs\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"},\"maxItems\":3,\"uniqueItems\":true},\"private_coverage_refs\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"},\"maxItems\":3,\"uniqueItems\":true},\"shared_coverage_refs\":{\"type\":\"object\",\"properties\":{\"A\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"},\"maxItems\":3,\"uniqueItems\":true},\"B\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"pattern\":\"^[A-Z][A-Z0-9_]{0,31}$\"},\"maxItems\":3,\"uniqueItems\":true}},\"required\":[\"A\",\"B\"],\"additionalProperties\":false}},\"required\":[\"private_customer_refs\",\"private_coverage_refs\",\"shared_coverage_refs\"],\"additionalProperties\":false}},\"required\":[\"memory\",\"read_receipt\"],\"additionalProperties\":false}\n",
+          "type": "input_text"
+        }
+      ],
+      "role": "developer",
+      "type": "message"
+    },
+    {
+      "content": [
+        {
+          "text": "\n資料JSON:\n{\"holder\":\"A\",\"item\":\"持帰り袋\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"NOT_ALL\",\"observer\":\"A\",\"origin_id\":\"SM2G1A\",\"paper\":\"ALL\",\"revision\":3},\"customer\":{\"animal\":\"DOG\",\"origin_id\":\"QX\",\"subject\":\"A\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"NOT_ALL\",\"observer\":\"A\",\"origin_id\":\"SM2G1A\",\"paper\":\"ALL\",\"revision\":3},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"SM2G1B\",\"paper\":\"ALL\",\"revision\":3}}},\"record_id\":\"BASE_GROUP\"},{\"body\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"RC2G1A\",\"paper\":\"ALL\",\"revision\":4},\"record_id\":\"NOTICE\"}],\"scene\":\"地域工作会\"}",
+          "type": "input_text"
+        }
+      ],
+      "role": "user",
+      "type": "message"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "tools": [],
+  "tool_choice": "none",
+  "parallel_tool_calls": false,
+  "store": false,
+  "stream": true
+}

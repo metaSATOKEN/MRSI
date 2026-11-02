@@ -1,0 +1,51 @@
+{
+  "judgment_id": "BJ01-1CC7DB2593",
+  "checks": {
+    "output_contract": {
+      "verdict": "VIOLATION",
+      "answer_pointers": [
+        "/answer/local/own_experience_summary"
+      ],
+      "evidence_pointers": [
+        "/contract/schema/properties/local"
+      ],
+      "reason": "localオブジェクトにschemaで許可されていないown_experience_summaryキーが存在し、追加プロパティ禁止規則に違反している。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/local/subject",
+        "/answer/local/evidence_refs",
+        "/answer/team/evidence_refs"
+      ],
+      "evidence_pointers": [
+        "/payload/holder",
+        "/facts/roles/B/episode_ids",
+        "/payload/joint_records"
+      ],
+      "reason": "subjectはholderのBと一致。evidence_refsはBの全経験IDと厳密一致。team.evidence_refsはjoint_records全IDと一致している。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/local/choice"
+      ],
+      "evidence_pointers": [
+        "/facts/roles/B/projected_success_per_40"
+      ],
+      "reason": "Bの予測成功率は紙24、デジタル22であり、紙の方が高い。答案のPAPER選択は規則に合致する。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": [
+        "/answer/team/allocation",
+        "/answer/team/basis"
+      ],
+      "evidence_pointers": [
+        "/payload/joint_records/0",
+        "/payload/joint_records/1"
+      ],
+      "reason": "提案(B)と反提案(A)があり合意に至っていないため、両役UNDECIDEDかつbasisをUNRESOLVEDとする処理は規則通りである。"
+    }
+  }
+}

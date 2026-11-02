@@ -1,0 +1,88 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "d26313302c605c631c1c6806acd6518ebaad33bd6efb5c238af35d6ed077d210",
+    "design.md": "adb9da153abd0acfc7074696f6fbfc9b3f2be6182acc708c3916e35eff209b00",
+    "materials/contract.json": "2a24c2b50965a70ca11fc0f3f47a4e4e5d5c45468a50086b03b47e90f5c5a1ca",
+    "materials/frozen.json": "d06d4b91edb0b3c33750e5d3b2fdf7526b9c73a3207c94fc9cc00ead739d6c5a",
+    "requests.jsonl": "e01759097e14cc9964732bfcaf8ff203213730e4b1a2d0d08fc1e9b6e8cdca13",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/candidate_totals_01_bootstrap.py": "de4f102aeba43fdd8fa502ac72dd648d8b8fd2ec917a2efba581a3b3ac96d890",
+    "source/candidate_totals_01_design.py": "bfd76eb17eb43d89d3378af728ad5743c960e541ec04083a24c44b224cfd9693",
+    "source/candidate_totals_01_fixtures.py": "9ebaf1c7f8178000caaad0eda95507c0e6796cba83b17fdf7cdee50022774c3a",
+    "source/candidate_totals_01_runtime.py": "a675ed7084c70bc0ba7ea537d0d123ff9e1ae7ca93d21415170253ae58e8172c",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/experience_update_01_design.py": "0cae6a87b1355cdf29fb5f2ec2f1eb97fa294c076419eff5ec774d749551b3a1",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "supervisor.py": "de0a766ec92a12b68d0a2ba23b403aa6864776502704c018e87551daa8b5f1ae"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "39990d3899065d7375baf2073ebc14d7433f88306dd7439ad6e8bbb378381bbc",
+  "original_payload_sha256": "b2401bae09f6fb11ddc1778386bbc1af1b42d8d38ffc9ca0ab024f38bb2bbf9a",
+  "original_supervisor_sha256": "de4f102aeba43fdd8fa502ac72dd648d8b8fd2ec917a2efba581a3b3ac96d890",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "candidate_totals_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/candidate_totals_01_bootstrap.py"
+          },
+          "candidate_totals_01_design.py": {
+            "kind": "text",
+            "path": "source/candidate_totals_01_design.py"
+          },
+          "candidate_totals_01_fixtures.py": {
+            "kind": "text",
+            "path": "source/candidate_totals_01_fixtures.py"
+          },
+          "candidate_totals_01_runtime.py": {
+            "kind": "text",
+            "path": "source/candidate_totals_01_runtime.py"
+          },
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "experience_update_01_design.py": {
+            "kind": "text",
+            "path": "source/experience_update_01_design.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "CT01"
+}

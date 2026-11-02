@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-3DC1DA56D3",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local", "/answer/team"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "スキーマ定義の必須キーと型、追加プロパティ制限を全て満たしている。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/payload/experiences", "/payload/joint_records"],
+      "reason": "subjectはholder一致、localの参照はBの全経験、teamの参照は全joint_recordsと厳密一致。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/projected_success_per_40"],
+      "reason": "Bの予測成功率はDIGITAL(24)がPAPER(21)より高く、DIGITALを選択している。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "合意記録(AのACCEPT)があり、割付(A:DIGITAL,B:PAPER)は予測合計最大(48)の最適解と一致。"
+    }
+  }
+}<|im_end|>

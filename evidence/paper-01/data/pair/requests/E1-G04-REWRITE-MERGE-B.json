@@ -1,0 +1,33 @@
+{
+  "input": [
+    {
+      "content": [
+        {
+          "text": "あなたは架空の作業担当者です。PRIVATEは自分の個別ノート、LOCAL_GROUPは自分が保存した共同草稿、PARTNER_GROUPは相手から届いた共同草稿です。各草稿には自分が新しく確認した行と、相手の昔の行が混在し得ます。担当客を保ち、自分の最新観測を個別ノートに保ち、共同ノートはA/Bそれぞれについて入力から最も新しい観測を選んで統合してください。一冊全体の到着順ではなく、同じobserver内のrevisionで判断してください。他人の担当客を推測して足さないでください。\nrevisionは同じobserverの再観測順です。AとBの番号同士やノート全体の新旧は比較しません。更新番号3/4は正式に付された手掛かりです。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。read_receiptは今回の各欄の根拠記録名で、ノート本文へ混ぜません。同じ値を支える記録が複数なら一件でも複数件でもよいですが、無関係な記録を加えず、元観測IDや昔の資料名を現在記録名の代わりにしないでください。確定した欄には現在参照を一件以上記録し、不明で根拠を挙げられない欄は空配列にしてください。\nPRIVATEは本人の一行、LOCAL_GROUPとPARTNER_GROUPはA/B各行です。shared_note.coverageのA/B各欄に採用する観測のobserver・paper・digital・origin_id・revisionを記述してください。private_noteとread_receiptも出力してください。\n{\"type\": \"object\", \"properties\": {\"memory\": {\"type\": \"object\", \"properties\": {\"private_note\": {\"type\": \"object\", \"properties\": {\"customer\": {\"type\": \"object\", \"properties\": {\"subject\": {\"enum\": [\"A\", \"B\", \"UNKNOWN\"]}, \"animal\": {\"enum\": [\"DOG\", \"CAT\", \"UNKNOWN\"]}, \"origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}}, \"required\": [\"subject\", \"animal\", \"origin_id\"], \"additionalProperties\": false}, \"coverage\": {\"type\": \"object\", \"properties\": {\"observer\": {\"enum\": [\"A\", \"B\", \"UNKNOWN\"]}, \"paper\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"digital\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"revision\": {\"enum\": [1, 2, 3, 4, \"UNKNOWN\"]}}, \"required\": [\"observer\", \"paper\", \"digital\", \"origin_id\", \"revision\"], \"additionalProperties\": false}}, \"required\": [\"customer\", \"coverage\"], \"additionalProperties\": false}, \"shared_note\": {\"type\": \"object\", \"properties\": {\"coverage\": {\"type\": \"object\", \"properties\": {\"A\": {\"type\": \"object\", \"properties\": {\"observer\": {\"enum\": [\"A\", \"B\", \"UNKNOWN\"]}, \"paper\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"digital\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"revision\": {\"enum\": [1, 2, 3, 4, \"UNKNOWN\"]}}, \"required\": [\"observer\", \"paper\", \"digital\", \"origin_id\", \"revision\"], \"additionalProperties\": false}, \"B\": {\"type\": \"object\", \"properties\": {\"observer\": {\"enum\": [\"A\", \"B\", \"UNKNOWN\"]}, \"paper\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"digital\": {\"enum\": [\"ALL\", \"NOT_ALL\", \"UNKNOWN\"]}, \"origin_id\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"revision\": {\"enum\": [1, 2, 3, 4, \"UNKNOWN\"]}}, \"required\": [\"observer\", \"paper\", \"digital\", \"origin_id\", \"revision\"], \"additionalProperties\": false}}, \"required\": [\"A\", \"B\"], \"additionalProperties\": false}}, \"required\": [\"coverage\"], \"additionalProperties\": false}}, \"required\": [\"private_note\", \"shared_note\"], \"additionalProperties\": false}, \"read_receipt\": {\"type\": \"object\", \"properties\": {\"private_customer_refs\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"maxItems\": 3, \"uniqueItems\": true}, \"private_coverage_refs\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"maxItems\": 3, \"uniqueItems\": true}, \"shared_coverage_refs\": {\"type\": \"object\", \"properties\": {\"A\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"maxItems\": 3, \"uniqueItems\": true}, \"B\": {\"type\": \"array\", \"items\": {\"type\": \"string\", \"pattern\": \"^[A-Z][A-Z0-9_]{0,31}$\"}, \"maxItems\": 3, \"uniqueItems\": true}}, \"required\": [\"A\", \"B\"], \"additionalProperties\": false}}, \"required\": [\"private_customer_refs\", \"private_coverage_refs\", \"shared_coverage_refs\"], \"additionalProperties\": false}}, \"required\": [\"memory\", \"read_receipt\"], \"additionalProperties\": false}\n",
+          "type": "input_text"
+        }
+      ],
+      "role": "developer",
+      "type": "message"
+    },
+    {
+      "content": [
+        {
+          "text": "\n資料JSON:\n{\"holder\":\"B\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R3B4CC1D91D677E6\",\"paper\":\"NOT_ALL\",\"revision\":4},\"customer\":{\"animal\":\"CAT\",\"origin_id\":\"R79A04CC593AA69D\",\"subject\":\"B\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"NOT_ALL\",\"observer\":\"A\",\"origin_id\":\"R2D7D391095E3012\",\"paper\":\"ALL\",\"revision\":1},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R3B4CC1D91D677E6\",\"paper\":\"NOT_ALL\",\"revision\":4}}},\"record_id\":\"LOCAL_GROUP\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R9ED4B8876B454E4\",\"paper\":\"NOT_ALL\",\"revision\":3},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"RF9609672E043A52\",\"paper\":\"ALL\",\"revision\":1}}},\"record_id\":\"PARTNER_GROUP\"}],\"scene\":\"防災学習会・東会場\"}",
+          "type": "input_text"
+        }
+      ],
+      "role": "user",
+      "type": "message"
+    }
+  ],
+  "model": "gpt-5.6-luna",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "tools": [],
+  "tool_choice": "none",
+  "parallel_tool_calls": false,
+  "store": false,
+  "stream": true
+}

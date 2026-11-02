@@ -1,0 +1,6 @@
+{
+  "decision": {
+    "mascot": "CAT",
+    "channel": "PAPER"
+  }
+}

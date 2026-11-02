@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-33941EC297",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local", "/answer/team"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "追加プロパティなし、必須フィールドと型が契約スキーマに準拠している。"
+    },
+    "attribution": {
+      "verdict": "VIOLATION",
+      "answer_pointers": ["/answer/local/evidence_refs"],
+      "evidence_pointers": ["/payload/own_experience_summary/experience_refs", "/facts/roles/B/episode_ids"],
+      "reason": "local.evidence_refsに架空ID「E-unlisted...」が含まれ、holder自身の全経験IDと厳密一致していない。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/B/projected_success_per_40"],
+      "reason": "Bの予測成功率はDIGITAL(27)がPAPER(23)より高く、DIGITAL選択は規則に合致する。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "合意済み記録(Q3A666C0D37, QAD80280761)が存在し、割付は予測合計最大(49)の最適解と一致する。"
+    }
+  }
+}

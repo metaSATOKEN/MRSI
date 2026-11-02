@@ -1,0 +1,2783 @@
+{
+  "passed": true,
+  "count": 693,
+  "checks": [
+    {
+      "check": "protected source: papers/two-role-failure-design/manuscript-ja-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/two-role-failure-design/manuscript-en-v0.2-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/two-role-failure-design/manuscript-en-v0.2-2026-09-30.pdf",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/two-role-failure-design/evidence-index-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/two-role-failure-design/examples/design_samples_complete_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/two-role-failure-design/figures/fig01-ja-v06.mmd",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/two-role-failure-design/figures/fig02-ja-v06.mmd",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/two-role-failure-design/figures/make_figures_en_v1.py",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/paper-04/manuscript-en-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/paper-04/evidence-index-en-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/paper-04/evidence-extract-v0.1-2026-10-13.json",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/paper-04/evidence-index-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/paper-04/related-work-review-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/paper-04/README.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/paper-04/manuscript-ja-v0.2-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/paper-04/manuscript-ja-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/paper-04/paper-04-scope-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "protected source: papers/paper-04/paper-data-v0.1-2026-10-13.json",
+      "passed": true
+    },
+    {
+      "check": "English text has no Japanese prose",
+      "passed": true
+    },
+    {
+      "check": "contact visible",
+      "passed": true
+    },
+    {
+      "check": "six observations and seven principles",
+      "passed": true
+    },
+    {
+      "check": "six observation sections",
+      "passed": true
+    },
+    {
+      "check": "seven principles",
+      "passed": true
+    },
+    {
+      "check": "ten main sections",
+      "passed": true
+    },
+    {
+      "check": "four appendices",
+      "passed": true
+    },
+    {
+      "check": "reference numbers",
+      "passed": true
+    },
+    {
+      "check": "table count",
+      "passed": true,
+      "detail": [
+        14,
+        14
+      ]
+    },
+    {
+      "check": "table 1 rows",
+      "passed": true
+    },
+    {
+      "check": "table 1 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 1/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 1/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 1/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 1/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 1/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 1/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2 rows",
+      "passed": true
+    },
+    {
+      "check": "table 2 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 2/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 2/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 2/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 2/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 2/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2 row 6 columns",
+      "passed": true
+    },
+    {
+      "check": "table 2/6/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/6/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/6/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2 row 7 columns",
+      "passed": true
+    },
+    {
+      "check": "table 2/7/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/7/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/7/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2 row 8 columns",
+      "passed": true
+    },
+    {
+      "check": "table 2/8/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/8/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/8/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2 row 9 columns",
+      "passed": true
+    },
+    {
+      "check": "table 2/9/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/9/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/9/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2 row 10 columns",
+      "passed": true
+    },
+    {
+      "check": "table 2/10/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/10/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 2/10/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3 rows",
+      "passed": true
+    },
+    {
+      "check": "table 3 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 3/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/1/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/1/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 3/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/2/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/2/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 3/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/3/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/3/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 3/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/4/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/4/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 3/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/5/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/5/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3 row 6 columns",
+      "passed": true
+    },
+    {
+      "check": "table 3/6/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/6/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/6/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/6/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 3/6/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4 rows",
+      "passed": true
+    },
+    {
+      "check": "table 4 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 4/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/1/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 4/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/2/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 4/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/3/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 4/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 4/4/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5 rows",
+      "passed": true
+    },
+    {
+      "check": "table 5 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 5/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/1/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 5/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/2/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 5/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/3/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 5/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/4/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 5/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/5/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5 row 6 columns",
+      "passed": true
+    },
+    {
+      "check": "table 5/6/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/6/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/6/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/6/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5 row 7 columns",
+      "passed": true
+    },
+    {
+      "check": "table 5/7/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/7/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/7/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 5/7/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6 rows",
+      "passed": true
+    },
+    {
+      "check": "table 6 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 6/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/1/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 6/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/2/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 6/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/3/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 6/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/4/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 6/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 6/5/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7 rows",
+      "passed": true
+    },
+    {
+      "check": "table 7 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 7/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/1/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/1/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 7/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/2/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/2/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 7/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/3/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/3/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 7/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/4/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/4/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 7/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/5/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 7/5/5 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8 rows",
+      "passed": true
+    },
+    {
+      "check": "table 8 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 8/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 8/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 8/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 8/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 8/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8 row 6 columns",
+      "passed": true
+    },
+    {
+      "check": "table 8/6/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/6/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/6/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8 row 7 columns",
+      "passed": true
+    },
+    {
+      "check": "table 8/7/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/7/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/7/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8 row 8 columns",
+      "passed": true
+    },
+    {
+      "check": "table 8/8/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/8/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/8/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8 row 9 columns",
+      "passed": true
+    },
+    {
+      "check": "table 8/9/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/9/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 8/9/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9 rows",
+      "passed": true
+    },
+    {
+      "check": "table 9 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 9/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/1/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 9/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/2/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 9/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/3/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 9/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/4/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 9/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/5/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9 row 6 columns",
+      "passed": true
+    },
+    {
+      "check": "table 9/6/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/6/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/6/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/6/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9 row 7 columns",
+      "passed": true
+    },
+    {
+      "check": "table 9/7/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/7/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/7/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/7/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9 row 8 columns",
+      "passed": true
+    },
+    {
+      "check": "table 9/8/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/8/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/8/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/8/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9 row 9 columns",
+      "passed": true
+    },
+    {
+      "check": "table 9/9/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/9/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/9/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 9/9/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 rows",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 6 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/6/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/6/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/6/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 7 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/7/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/7/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/7/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 8 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/8/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/8/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/8/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 9 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/9/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/9/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/9/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 10 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/10/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/10/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/10/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 11 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/11/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/11/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/11/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10 row 12 columns",
+      "passed": true
+    },
+    {
+      "check": "table 10/12/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/12/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 10/12/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 rows",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 6 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/6/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/6/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 7 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/7/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/7/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 8 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/8/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/8/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 9 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/9/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/9/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 10 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/10/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/10/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11 row 11 columns",
+      "passed": true
+    },
+    {
+      "check": "table 11/11/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 11/11/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 rows",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/1/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/2/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/3/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/4/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/5/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 6 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/6/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/6/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/6/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/6/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 7 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/7/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/7/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/7/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/7/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 8 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/8/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/8/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/8/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/8/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 9 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/9/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/9/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/9/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/9/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 10 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/10/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/10/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/10/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/10/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 11 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/11/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/11/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/11/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/11/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 12 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/12/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/12/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/12/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/12/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12 row 13 columns",
+      "passed": true
+    },
+    {
+      "check": "table 12/13/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/13/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/13/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 12/13/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13 rows",
+      "passed": true
+    },
+    {
+      "check": "table 13 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 13/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 13/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 13/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 13/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 13/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13 row 6 columns",
+      "passed": true
+    },
+    {
+      "check": "table 13/6/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13/6/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13 row 7 columns",
+      "passed": true
+    },
+    {
+      "check": "table 13/7/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13/7/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13 row 8 columns",
+      "passed": true
+    },
+    {
+      "check": "table 13/8/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13/8/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13 row 9 columns",
+      "passed": true
+    },
+    {
+      "check": "table 13/9/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13/9/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13 row 10 columns",
+      "passed": true
+    },
+    {
+      "check": "table 13/10/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 13/10/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14 rows",
+      "passed": true
+    },
+    {
+      "check": "table 14 row 1 columns",
+      "passed": true
+    },
+    {
+      "check": "table 14/1/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/1/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/1/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/1/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14 row 2 columns",
+      "passed": true
+    },
+    {
+      "check": "table 14/2/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/2/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/2/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/2/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14 row 3 columns",
+      "passed": true
+    },
+    {
+      "check": "table 14/3/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/3/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/3/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/3/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14 row 4 columns",
+      "passed": true
+    },
+    {
+      "check": "table 14/4/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/4/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/4/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/4/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14 row 5 columns",
+      "passed": true
+    },
+    {
+      "check": "table 14/5/1 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/5/2 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/5/3 numerals",
+      "passed": true
+    },
+    {
+      "check": "table 14/5/4 numerals",
+      "passed": true
+    },
+    {
+      "check": "all reported ratios",
+      "passed": true
+    },
+    {
+      "check": "numeric identifiers",
+      "passed": true
+    },
+    {
+      "check": "interval envelope and missingness",
+      "passed": true
+    },
+    {
+      "check": "TB vote/readout",
+      "passed": true
+    },
+    {
+      "check": "TAR repeated inputs",
+      "passed": true
+    },
+    {
+      "check": "TAR matched unit",
+      "passed": true
+    },
+    {
+      "check": "TAR endpoint",
+      "passed": true
+    },
+    {
+      "check": "constructed HOLD",
+      "passed": true
+    },
+    {
+      "check": "no false acceptance",
+      "passed": true
+    },
+    {
+      "check": "new materials",
+      "passed": true
+    },
+    {
+      "check": "no causal N claim",
+      "passed": true
+    },
+    {
+      "check": "own B only",
+      "passed": true
+    },
+    {
+      "check": "fact versus permission",
+      "passed": true
+    },
+    {
+      "check": "technical repetitions distinguished",
+      "passed": true
+    },
+    {
+      "check": "Python block counts",
+      "passed": true
+    },
+    {
+      "check": "code block 1 AST",
+      "passed": true
+    },
+    {
+      "check": "code block 2 AST",
+      "passed": true
+    },
+    {
+      "check": "code block 3 AST",
+      "passed": true
+    },
+    {
+      "check": "code block 4 AST",
+      "passed": true
+    },
+    {
+      "check": "English appendix equals standalone file",
+      "passed": true
+    },
+    {
+      "check": "ja extracted code: 18 tests",
+      "passed": true
+    },
+    {
+      "check": "en extracted code: 18 tests",
+      "passed": true
+    },
+    {
+      "check": "Japanese and English outputs identical",
+      "passed": true
+    },
+    {
+      "check": "figure 1 translated Mermaid edges",
+      "passed": true
+    },
+    {
+      "check": "figure 1 drawn edges",
+      "passed": true
+    },
+    {
+      "check": "figure 1 labels contained",
+      "passed": true
+    },
+    {
+      "check": "figure 1 300 dpi",
+      "passed": true
+    },
+    {
+      "check": "figure 2 translated Mermaid edges",
+      "passed": true
+    },
+    {
+      "check": "figure 2 drawn edges",
+      "passed": true
+    },
+    {
+      "check": "figure 2 labels contained",
+      "passed": true
+    },
+    {
+      "check": "figure 2 300 dpi",
+      "passed": true
+    },
+    {
+      "check": "balanced fences manuscript-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> figures/fig01-record-trace-en-v2.png",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> figures/fig02-reference-architecture-en-v2.png",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> ../paper-01/manuscript-v0.11-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> ../paper-01/manuscript-en-v0.2-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> ../paper-02/manuscript-ja-v0.4-2026-09-27.md",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> ../paper-02/manuscript-en-v0.1-2026-09-27.md",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> ../paper-03/manuscript-ja-v0.2-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> ../paper-03/manuscript-en-v0.1-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> ../../references/meteon_series_collected_edition.pdf",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> ../../references/meteon_series_collected_edition.pdf",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> ../paper-04/manuscript-ja-v0.2-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> ../paper-04/manuscript-en-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link manuscript-en-v0.3-2026-10-13.md -> evidence-index-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences evidence-index-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> manuscript-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> manuscript-ja-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-01/manuscript-v0.11-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-02/manuscript-ja-v0.4-2026-09-27.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-03/manuscript-ja-v0.2-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-04/manuscript-ja-v0.2-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../references/meteon_series_collected_edition.pdf",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-01/manuscript-en-v0.2-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-02/manuscript-en-v0.1-2026-09-27.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-03/manuscript-en-v0.1-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-04/manuscript-en-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/shared-merge-02-results-v0.1-2026-09-19.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/row-carry-01-results-v0.1-2026-09-19.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-01/examples-v0.1-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../throughline/audits/paper-01-pair-resume1-20260921/combined-analysis.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../throughline/audits/paper-01-reader-claude-20260922/observations.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/customer-update-01-result-2026-09-26.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../throughline/audits/customer-update-01-result-20260926/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../throughline/audits/customer-update-01-result-20260926/proposal-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../throughline/audits/customer-update-01-result-20260926/example.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/owner-recency-01-result-2026-09-25.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../throughline/audits/owner-recency-01-result-20260925/recomputed.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../throughline/audits/owner-recency-01-result-20260925/branch-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/summary-timing-02-result-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/results/summary-timing-02-20260929/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/results/summary-timing-02-20260929/reason-review.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../scripts/summary_timing_01_runtime.py",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/judgment-repeat-01-result-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/results/judgment-repeat-01-20260929/diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/designs/judgment-repeat-01-20260929/source-inputs.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/results/judgment-repeat-01-20260929/reason-review.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/results/summary-timing-01-20260929/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-03/evidence-extract-v0.1-2026-09-29.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/boundary-judge-01-result-2026-09-28.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/three-role-boundary-01-result-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/results/three-role-boundary-01-20261013/attempt-02-complete/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-04/evidence-extract-v0.1-2026-10-13.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/three-role-approval-readout-01-result-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/results/three-role-approval-readout-01-20261013/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/results/three-role-approval-readout-01-20261013/repeat-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/three-role-comparison-vote-01-result-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../study2/three-role-comparison-vote-02-result-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-04/paper-data-v0.1-2026-10-13.json",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-02/evidence-index-v0.4-2026-09-27.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../paper-01/implementation-notes-v0.3-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> examples/design_samples_complete_en_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> revision-notes-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../throughline/audits/multi-role-failure-design-ja-20261013/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link evidence-index-en-v0.3-2026-10-13.md -> ../../throughline/audits/multi-role-failure-design-en-20261013/README.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences translation-notes-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link translation-notes-en-v0.3-2026-10-13.md -> manuscript-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link translation-notes-en-v0.3-2026-10-13.md -> figures/fig01-record-trace-en-v2.png",
+      "passed": true
+    },
+    {
+      "check": "local link translation-notes-en-v0.3-2026-10-13.md -> figures/fig01-record-trace-en-v2.svg",
+      "passed": true
+    },
+    {
+      "check": "local link translation-notes-en-v0.3-2026-10-13.md -> figures/fig02-reference-architecture-en-v2.png",
+      "passed": true
+    },
+    {
+      "check": "local link translation-notes-en-v0.3-2026-10-13.md -> figures/fig02-reference-architecture-en-v2.svg",
+      "passed": true
+    },
+    {
+      "check": "local link translation-notes-en-v0.3-2026-10-13.md -> evidence-index-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link translation-notes-en-v0.3-2026-10-13.md -> manuscript-ja-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link translation-notes-en-v0.3-2026-10-13.md -> examples/design_samples_complete_en_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "local link translation-notes-en-v0.3-2026-10-13.md -> ../../throughline/audits/multi-role-failure-design-en-20261013/README.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences README.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> manuscript-ja-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> evidence-index-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> revision-notes-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> examples/design_samples_complete_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> examples/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> manuscript-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> evidence-index-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> translation-notes-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> examples/design_samples_complete_en_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> manuscript-en-v0.2-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> manuscript-en-v0.2-2026-09-30.pdf",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> ../../throughline/audits/two-role-failure-design-pdf-review-20260930/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> evidence-index-en-v0.2-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> translation-notes-en-v0.2-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> manuscript-ja-v0.5-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> Old/manuscript-ja-v0.4-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> input-description-correction-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences README.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig01-record-trace-en-v2.png",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig01-record-trace-en-v2.svg",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig01-en-v2.mmd",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig02-reference-architecture-en-v2.png",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig02-reference-architecture-en-v2.svg",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig02-en-v2.mmd",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> make_figures_en_v2.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> layout-checks-en-v2.json",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig01-ja-v06.mmd",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig02-ja-v06.mmd",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig01-record-trace-en-v1.png",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig01-record-trace-en-v1.svg",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig02-reference-architecture-en-v1.png",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> fig02-reference-architecture-en-v1.svg",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> make_figures_en_v1.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> layout-checks-en-v1.json",
+      "passed": true
+    },
+    {
+      "check": "balanced fences README.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> design_samples_complete_en_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> ../manuscript-ja-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> design_samples_complete_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> design_samples_complete_v0_1.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> design_samples_complete_en_v0_1.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> design_samples_v0_1.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> test_design_samples_v0_1.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> ../manuscript-ja-v0.5-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences README.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> ../../../papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> ../../../papers/two-role-failure-design/evidence-index-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> ../../../papers/two-role-failure-design/translation-notes-en-v0.3-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> ../../../papers/two-role-failure-design/figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> ../../../papers/two-role-failure-design/examples/design_samples_complete_en_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> translation-plan.md",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> translate.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> verify_translation.py",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> verification.json",
+      "passed": true
+    },
+    {
+      "check": "local link README.md -> ../multi-role-failure-design-ja-20261013/README.md",
+      "passed": true
+    },
+    {
+      "check": "ledger append only",
+      "passed": true
+    }
+  ],
+  "scope": "Bilingual editorial verification and illustrative code tests within the same project; no new LLM experiment."
+}

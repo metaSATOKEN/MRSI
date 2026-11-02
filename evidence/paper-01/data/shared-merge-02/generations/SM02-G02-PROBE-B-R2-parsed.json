@@ -1,0 +1,34 @@
+{
+  "gate": "PASS",
+  "value": {
+    "decision": {
+      "mascot": "DOG",
+      "channel": "DIGITAL"
+    },
+    "read_receipt": {
+      "mascot_record_refs": [
+        "PRIVATE"
+      ],
+      "channel_record_refs": [
+        "GROUP"
+      ]
+    },
+    "origin_ids": {
+      "mascot": [
+        "WH"
+      ],
+      "channel": [
+        "SM2G2A",
+        "SM2G2B"
+      ]
+    }
+  },
+  "shape_errors": [],
+  "ref_errors": [],
+  "status": "VALID",
+  "continuable": false,
+  "valid_components": {
+    "mascot": "DOG",
+    "channel": "DIGITAL"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "archive_sha256": "3b75f91c68a9e4c17635f505ee0b13226f45e9767015eb59d28da6f5e4813ca9",
+  "archive_bytes": 1069488,
+  "manifest_files": 1058,
+  "frozen_files": 31,
+  "code_modules": 12,
+  "rendered_prompts_matched": 96,
+  "report_matches": [
+    "report-41d32c2a903247978b203d7c69ca6e58.json",
+    "report-579c2484b9d846fb940faaea38927281.json"
+  ],
+  "direct": {
+    "path": {
+      "correct": 2,
+      "incorrect": 14,
+      "unresolved": 0,
+      "n": 16
+    },
+    "counts": {
+      "responses": 96,
+      "initial_edges": 32,
+      "fences": 75,
+      "row_copies": 192,
+      "saved_notes": 64,
+      "parent_edges": 64,
+      "decisions": 32,
+      "attempts": 96
+    },
+    "independent_bytes_edges_counts": "PASS"
+  },
+  "exact_rollbacks_from_previously_correct_customer": 14,
+  "observation_proposal_error_locations": 4,
+  "model_loads": 0,
+  "new_model_calls": 0
+}

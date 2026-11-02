@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "kind": "POSTRUN_STDLIB_CROSSCHECK_WITHIN_SAME_PROJECT",
+  "checks": {
+    "unique_archive_members": 1,
+    "unique_json_key": 36336,
+    "manifest_members": 1,
+    "file_hash": 1444,
+    "frozen_payload": 1,
+    "frozen_design": 1,
+    "archived_report": 2,
+    "actual_tokenizer_preflight": 2,
+    "stage_preflight_id_set": 2,
+    "preflight_id_set": 1,
+    "unchanged_comparison_model": 1,
+    "unchanged_vote_schema": 2,
+    "new_experience_ids": 1,
+    "new_numeric_signatures": 1,
+    "no_tie": 117,
+    "root_formation": 9,
+    "actual_input_arm_contract": 117,
+    "actual_parent_hash_binding": 117,
+    "id_seed": 117,
+    "preflight_actual_tokenization": 117,
+    "render_hash": 117,
+    "input_token_count": 117,
+    "full_render": 117,
+    "schema_object": 396,
+    "schema_string": 846,
+    "schema_value": 846,
+    "schema_array": 117,
+    "eos": 117,
+    "no_format_repair": 117,
+    "full_answer_preserved": 117,
+    "real_valid_response": 117,
+    "no_host_repair": 117,
+    "trace_parent": 117,
+    "trace_parent_hash": 117,
+    "trace_payload": 117,
+    "common_scoring": 117,
+    "comparison_scoring": 117,
+    "feasible_assignment": 216,
+    "form_only_dependency": 108,
+    "shared_parent_twelve_uses": 1,
+    "response_count": 1,
+    "formation_total": 1,
+    "formation_metric": 3,
+    "common_total": 1,
+    "token_total": 1,
+    "duration_total": 1,
+    "arm_score": 2,
+    "arm_metric": 8,
+    "stratum_total": 22,
+    "stratum_metric": 88,
+    "repeat_group": 36,
+    "comparison_classes": 1,
+    "extended_total": 1,
+    "comparison_metric": 5,
+    "pair_seed": 54,
+    "paired_score": 54,
+    "new_pair_and_form_seeds": 1,
+    "balanced_order": 3,
+    "paired_totals": 1,
+    "paired_pp": 1,
+    "paired_direction": 1,
+    "gate": 1
+  },
+  "total_checks": 42728,
+  "archive_sha256": "273060974458e5b16f86710c20eae52c2d36b4105a21e402a9e529b7a1c2216a",
+  "archive_bytes": 1285871,
+  "sealed_files": 1444,
+  "response_count": 117,
+  "formation_count": 9,
+  "vote_count": 108,
+  "gate": "PASS_IN_FIXED_COMPARISON",
+  "vote_gate": "PASS_IN_FIXED_COMPARISON",
+  "failure_ids": [],
+  "paired_counts": {
+    "BOTH_CORRECT": 54
+  },
+  "comparison_classes": {
+    "COMPARISON_CORRECT_VOTE_CORRECT": 54
+  },
+  "own_assignment_counts": {
+    "DIRECT": {
+      "MATCH": 36,
+      "DIFFERENT": 18
+    },
+    "COMPARE": {
+      "MATCH": 36,
+      "DIFFERENT": 18
+    }
+  },
+  "elapsed_seconds": 886.8546147469999,
+  "generation_seconds": 681.3465661350008,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "arm_costs": {
+    "FORM": {
+      "responses": 9,
+      "output_tokens": 367,
+      "mean_output_tokens": 40.77777777777778,
+      "mean_answer_bytes": 93.11111111111111,
+      "generation_seconds": 21.019478340000205,
+      "input_tokens_minmax": [
+        591,
+        602
+      ]
+    },
+    "DIRECT": {
+      "responses": 54,
+      "output_tokens": 4573,
+      "mean_output_tokens": 84.68518518518519,
+      "mean_answer_bytes": 184.88888888888889,
+      "generation_seconds": 252.1406432700012,
+      "input_tokens_minmax": [
+        1189,
+        1208
+      ]
+    },
+    "COMPARE": {
+      "responses": 54,
+      "output_tokens": 7526,
+      "mean_output_tokens": 139.37037037037038,
+      "mean_answer_bytes": 311.94444444444446,
+      "generation_seconds": 408.1864445249994,
+      "input_tokens_minmax": [
+        1391,
+        1410
+      ]
+    }
+  },
+  "model_calls_in_this_check": 0
+}

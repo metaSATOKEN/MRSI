@@ -1,0 +1,27 @@
+{
+  "shared_note": {
+    "coverage": {
+      "A": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "KJ"
+      },
+      "B": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "NOT_ALL",
+        "origin_id": "BW"
+      }
+    },
+    "channel": "PAPER",
+    "channel_read_refs": [
+      "OBS_A",
+      "OBS_B"
+    ],
+    "channel_origin_ids": [
+      "KJ",
+      "BW"
+    ]
+  }
+}

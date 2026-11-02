@@ -1,0 +1,83 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "bf8a6a16212c1448d825f363faf1680081911e6e02720fba6f6eeb7f9fbdeebf",
+    "design.md": "e62675af890938f7d561e5cae5ad967dcc9530e51c3b081eef12ce1fd54113f0",
+    "materials/contract.json": "b9c0a056baa84e38651b35a05a57d96d1ed82080e5a3bdac90bb6adfb6f25c93",
+    "materials/frozen.json": "de2b6d993e7a86a4aad442e4330c933e97ebf93e6f5fbe7e4894954d9a6d2d6c",
+    "requests.jsonl": "24687e4ceb1196509571507f2f0073ce6d1dc07cb758a31d4b816fc31f0caee9",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/agreement_confirm_01_bootstrap.py": "5160c7509af4147dc27e822c39840eb37efaea4ed944146eca77105e58e56155",
+    "source/agreement_confirm_01_design.py": "85f5b6ea45d3edc3c18a2bb2abc6d32492b6ae36c5922c076440c144445b2de0",
+    "source/agreement_confirm_01_fixtures.py": "2f6b718b1311d69807c5270cc53f72d65c85710f19da6dd529366d68f7f8cdd5",
+    "source/agreement_confirm_01_runtime.py": "f8584866be37bfb4826f8c85a3bd1950f699bfa2b39f562c74688833bbefeb96",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "supervisor.py": "d6f6eb129074eea0312ba0e9e3c00b0d90edf29c38845d5c3366e9367525adb1"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "2af678be474415610b9ce25ee76d47008e559f755fe375e75033ccbcda0cc2fa",
+  "original_payload_sha256": "4e59ec7648c036c53bff259e9ed44582c987f5e6e0c987a9cadfffb06cbb4f08",
+  "original_supervisor_sha256": "5160c7509af4147dc27e822c39840eb37efaea4ed944146eca77105e58e56155",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "agreement_confirm_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/agreement_confirm_01_bootstrap.py"
+          },
+          "agreement_confirm_01_design.py": {
+            "kind": "text",
+            "path": "source/agreement_confirm_01_design.py"
+          },
+          "agreement_confirm_01_fixtures.py": {
+            "kind": "text",
+            "path": "source/agreement_confirm_01_fixtures.py"
+          },
+          "agreement_confirm_01_runtime.py": {
+            "kind": "text",
+            "path": "source/agreement_confirm_01_runtime.py"
+          },
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "AC01"
+}

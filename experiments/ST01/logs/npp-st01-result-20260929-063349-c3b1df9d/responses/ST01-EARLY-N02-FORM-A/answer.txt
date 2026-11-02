@@ -1,0 +1,1 @@
+{"local":{"subject":"A","choice":"DIGITAL","evidence_refs":["E0992A6ACBE","EFD5E48A417"]}}

@@ -1,0 +1,1225 @@
+{
+  "protocol": "ROW-CARRY-01",
+  "version": "row-carry-01-v0.1",
+  "limits": {
+    "logical_requests": 32,
+    "physical_requests": 36,
+    "overload_retries": 4,
+    "per_logical_attempts": 2,
+    "active_seconds": 1800,
+    "reserve_seconds": 200,
+    "response_utf8_bytes": 4096,
+    "input_text_utf8_bytes": 32768
+  },
+  "allocation": [
+    {
+      "id": "RC01-G04-REWRITE-MERGE-A",
+      "group": "RC01-G04",
+      "role": "A",
+      "condition": "REWRITE",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G04-SELECT-MERGE-A",
+      "group": "RC01-G04",
+      "role": "A",
+      "condition": "SELECT",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G01-REWRITE-MERGE-B",
+      "group": "RC01-G01",
+      "role": "B",
+      "condition": "REWRITE",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G01-SELECT-MERGE-B",
+      "group": "RC01-G01",
+      "role": "B",
+      "condition": "SELECT",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G01-SELECT-MERGE-A",
+      "group": "RC01-G01",
+      "role": "A",
+      "condition": "SELECT",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G01-REWRITE-MERGE-A",
+      "group": "RC01-G01",
+      "role": "A",
+      "condition": "REWRITE",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G02-SELECT-MERGE-B",
+      "group": "RC01-G02",
+      "role": "B",
+      "condition": "SELECT",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G02-REWRITE-MERGE-B",
+      "group": "RC01-G02",
+      "role": "B",
+      "condition": "REWRITE",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G02-REWRITE-MERGE-A",
+      "group": "RC01-G02",
+      "role": "A",
+      "condition": "REWRITE",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G02-SELECT-MERGE-A",
+      "group": "RC01-G02",
+      "role": "A",
+      "condition": "SELECT",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G04-SELECT-MERGE-B",
+      "group": "RC01-G04",
+      "role": "B",
+      "condition": "SELECT",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G04-REWRITE-MERGE-B",
+      "group": "RC01-G04",
+      "role": "B",
+      "condition": "REWRITE",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G03-SELECT-MERGE-A",
+      "group": "RC01-G03",
+      "role": "A",
+      "condition": "SELECT",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G03-REWRITE-MERGE-A",
+      "group": "RC01-G03",
+      "role": "A",
+      "condition": "REWRITE",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G03-REWRITE-MERGE-B",
+      "group": "RC01-G03",
+      "role": "B",
+      "condition": "REWRITE",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G03-SELECT-MERGE-B",
+      "group": "RC01-G03",
+      "role": "B",
+      "condition": "SELECT",
+      "stage": "MERGE",
+      "dependencies": []
+    },
+    {
+      "id": "RC01-G04-SELECT-PROBE-A",
+      "group": "RC01-G04",
+      "role": "A",
+      "condition": "SELECT",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G04-SELECT-MERGE-A"
+      ]
+    },
+    {
+      "id": "RC01-G04-REWRITE-PROBE-A",
+      "group": "RC01-G04",
+      "role": "A",
+      "condition": "REWRITE",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G04-REWRITE-MERGE-A"
+      ]
+    },
+    {
+      "id": "RC01-G03-REWRITE-PROBE-A",
+      "group": "RC01-G03",
+      "role": "A",
+      "condition": "REWRITE",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G03-REWRITE-MERGE-A"
+      ]
+    },
+    {
+      "id": "RC01-G03-SELECT-PROBE-A",
+      "group": "RC01-G03",
+      "role": "A",
+      "condition": "SELECT",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G03-SELECT-MERGE-A"
+      ]
+    },
+    {
+      "id": "RC01-G02-REWRITE-PROBE-B",
+      "group": "RC01-G02",
+      "role": "B",
+      "condition": "REWRITE",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G02-REWRITE-MERGE-B"
+      ]
+    },
+    {
+      "id": "RC01-G02-SELECT-PROBE-B",
+      "group": "RC01-G02",
+      "role": "B",
+      "condition": "SELECT",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G02-SELECT-MERGE-B"
+      ]
+    },
+    {
+      "id": "RC01-G02-SELECT-PROBE-A",
+      "group": "RC01-G02",
+      "role": "A",
+      "condition": "SELECT",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G02-SELECT-MERGE-A"
+      ]
+    },
+    {
+      "id": "RC01-G02-REWRITE-PROBE-A",
+      "group": "RC01-G02",
+      "role": "A",
+      "condition": "REWRITE",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G02-REWRITE-MERGE-A"
+      ]
+    },
+    {
+      "id": "RC01-G03-SELECT-PROBE-B",
+      "group": "RC01-G03",
+      "role": "B",
+      "condition": "SELECT",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G03-SELECT-MERGE-B"
+      ]
+    },
+    {
+      "id": "RC01-G03-REWRITE-PROBE-B",
+      "group": "RC01-G03",
+      "role": "B",
+      "condition": "REWRITE",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G03-REWRITE-MERGE-B"
+      ]
+    },
+    {
+      "id": "RC01-G01-SELECT-PROBE-B",
+      "group": "RC01-G01",
+      "role": "B",
+      "condition": "SELECT",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G01-SELECT-MERGE-B"
+      ]
+    },
+    {
+      "id": "RC01-G01-REWRITE-PROBE-B",
+      "group": "RC01-G01",
+      "role": "B",
+      "condition": "REWRITE",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G01-REWRITE-MERGE-B"
+      ]
+    },
+    {
+      "id": "RC01-G04-REWRITE-PROBE-B",
+      "group": "RC01-G04",
+      "role": "B",
+      "condition": "REWRITE",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G04-REWRITE-MERGE-B"
+      ]
+    },
+    {
+      "id": "RC01-G04-SELECT-PROBE-B",
+      "group": "RC01-G04",
+      "role": "B",
+      "condition": "SELECT",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G04-SELECT-MERGE-B"
+      ]
+    },
+    {
+      "id": "RC01-G01-REWRITE-PROBE-A",
+      "group": "RC01-G01",
+      "role": "A",
+      "condition": "REWRITE",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G01-REWRITE-MERGE-A"
+      ]
+    },
+    {
+      "id": "RC01-G01-SELECT-PROBE-A",
+      "group": "RC01-G01",
+      "role": "A",
+      "condition": "SELECT",
+      "stage": "PROBE",
+      "dependencies": [
+        "RC01-G01-SELECT-MERGE-A"
+      ]
+    }
+  ],
+  "materials": {
+    "RC01-G01": {
+      "group": "RC01-G01",
+      "scene": "地域工作会",
+      "item": "持帰り袋",
+      "source_group": "SM02-G01",
+      "original_source_group": "SC03-G01",
+      "baseline_by_role": {
+        "A": {
+          "private_note": {
+            "customer": {
+              "subject": "A",
+              "animal": "DOG",
+              "origin_id": "QX"
+            },
+            "coverage": {
+              "observer": "A",
+              "paper": "ALL",
+              "digital": "ALL",
+              "origin_id": "SM1A",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM1A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "NOT_ALL",
+                "digital": "ALL",
+                "origin_id": "SM1B",
+                "revision": 2
+              }
+            }
+          }
+        },
+        "B": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "CAT",
+              "origin_id": "JV"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "NOT_ALL",
+              "digital": "ALL",
+              "origin_id": "SM1B",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM1A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "NOT_ALL",
+                "digital": "ALL",
+                "origin_id": "SM1B",
+                "revision": 2
+              }
+            }
+          }
+        }
+      },
+      "notices": {
+        "A": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "SM2G1A",
+          "revision": 3
+        },
+        "B": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G1B",
+          "revision": 3
+        }
+      },
+      "initial_channel": "DIGITAL",
+      "final_channel": "PAPER"
+    },
+    "RC01-G02": {
+      "group": "RC01-G02",
+      "scene": "地域工作会",
+      "item": "持帰り袋",
+      "source_group": "SM02-G02",
+      "original_source_group": "SC03-G02",
+      "baseline_by_role": {
+        "A": {
+          "private_note": {
+            "customer": {
+              "subject": "A",
+              "animal": "CAT",
+              "origin_id": "BK"
+            },
+            "coverage": {
+              "observer": "A",
+              "paper": "ALL",
+              "digital": "NOT_ALL",
+              "origin_id": "SM2A",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "NOT_ALL",
+                "origin_id": "SM2A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM2B",
+                "revision": 2
+              }
+            }
+          }
+        },
+        "B": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "DOG",
+              "origin_id": "WH"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "ALL",
+              "digital": "ALL",
+              "origin_id": "SM2B",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "NOT_ALL",
+                "origin_id": "SM2A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM2B",
+                "revision": 2
+              }
+            }
+          }
+        }
+      },
+      "notices": {
+        "A": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G2A",
+          "revision": 3
+        },
+        "B": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G2B",
+          "revision": 3
+        }
+      },
+      "initial_channel": "PAPER",
+      "final_channel": "DIGITAL"
+    },
+    "RC01-G03": {
+      "group": "RC01-G03",
+      "scene": "小さな展示会",
+      "item": "受付名札",
+      "source_group": "SM02-G03",
+      "original_source_group": "SC03-G03",
+      "baseline_by_role": {
+        "A": {
+          "private_note": {
+            "customer": {
+              "subject": "A",
+              "animal": "CAT",
+              "origin_id": "GD"
+            },
+            "coverage": {
+              "observer": "A",
+              "paper": "ALL",
+              "digital": "ALL",
+              "origin_id": "SM3A",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM3A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "NOT_ALL",
+                "origin_id": "SM3B",
+                "revision": 2
+              }
+            }
+          }
+        },
+        "B": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "DOG",
+              "origin_id": "PM"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "ALL",
+              "digital": "NOT_ALL",
+              "origin_id": "SM3B",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM3A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "NOT_ALL",
+                "origin_id": "SM3B",
+                "revision": 2
+              }
+            }
+          }
+        }
+      },
+      "notices": {
+        "A": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G3A",
+          "revision": 3
+        },
+        "B": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G3B",
+          "revision": 3
+        }
+      },
+      "initial_channel": "PAPER",
+      "final_channel": "DIGITAL"
+    },
+    "RC01-G04": {
+      "group": "RC01-G04",
+      "scene": "小さな展示会",
+      "item": "受付名札",
+      "source_group": "SM02-G04",
+      "original_source_group": "SC03-G04",
+      "baseline_by_role": {
+        "A": {
+          "private_note": {
+            "customer": {
+              "subject": "A",
+              "animal": "DOG",
+              "origin_id": "HN"
+            },
+            "coverage": {
+              "observer": "A",
+              "paper": "NOT_ALL",
+              "digital": "ALL",
+              "origin_id": "SM4A",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "NOT_ALL",
+                "digital": "ALL",
+                "origin_id": "SM4A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM4B",
+                "revision": 2
+              }
+            }
+          }
+        },
+        "B": {
+          "private_note": {
+            "customer": {
+              "subject": "B",
+              "animal": "CAT",
+              "origin_id": "ZR"
+            },
+            "coverage": {
+              "observer": "B",
+              "paper": "ALL",
+              "digital": "ALL",
+              "origin_id": "SM4B",
+              "revision": 2
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "paper": "NOT_ALL",
+                "digital": "ALL",
+                "origin_id": "SM4A",
+                "revision": 2
+              },
+              "B": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM4B",
+                "revision": 2
+              }
+            }
+          }
+        }
+      },
+      "notices": {
+        "A": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SM2G4A",
+          "revision": 3
+        },
+        "B": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "SM2G4B",
+          "revision": 3
+        }
+      },
+      "initial_channel": "DIGITAL",
+      "final_channel": "PAPER"
+    }
+  },
+  "root_payloads": {
+    "RC01-G01": {
+      "A": {
+        "scene": "地域工作会",
+        "item": "持帰り袋",
+        "holder": "A",
+        "records": [
+          {
+            "record_id": "PRIVATE",
+            "body": {
+              "customer": {
+                "subject": "A",
+                "animal": "DOG",
+                "origin_id": "QX"
+              },
+              "coverage": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "NOT_ALL",
+                "origin_id": "SM2G1A",
+                "revision": 3
+              }
+            }
+          },
+          {
+            "record_id": "PARTNER_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM1A",
+                  "revision": 2
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G1B",
+                  "revision": 3
+                }
+              }
+            }
+          },
+          {
+            "record_id": "LOCAL_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "NOT_ALL",
+                  "origin_id": "SM2G1A",
+                  "revision": 3
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "NOT_ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM1B",
+                  "revision": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      "B": {
+        "scene": "地域工作会",
+        "item": "持帰り袋",
+        "holder": "B",
+        "records": [
+          {
+            "record_id": "PRIVATE",
+            "body": {
+              "customer": {
+                "subject": "B",
+                "animal": "CAT",
+                "origin_id": "JV"
+              },
+              "coverage": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM2G1B",
+                "revision": 3
+              }
+            }
+          },
+          {
+            "record_id": "LOCAL_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM1A",
+                  "revision": 2
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G1B",
+                  "revision": 3
+                }
+              }
+            }
+          },
+          {
+            "record_id": "PARTNER_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "NOT_ALL",
+                  "origin_id": "SM2G1A",
+                  "revision": 3
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "NOT_ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM1B",
+                  "revision": 2
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "RC01-G02": {
+      "A": {
+        "scene": "地域工作会",
+        "item": "持帰り袋",
+        "holder": "A",
+        "records": [
+          {
+            "record_id": "PRIVATE",
+            "body": {
+              "customer": {
+                "subject": "A",
+                "animal": "CAT",
+                "origin_id": "BK"
+              },
+              "coverage": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM2G2A",
+                "revision": 3
+              }
+            }
+          },
+          {
+            "record_id": "LOCAL_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G2A",
+                  "revision": 3
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2B",
+                  "revision": 2
+                }
+              }
+            }
+          },
+          {
+            "record_id": "PARTNER_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "NOT_ALL",
+                  "origin_id": "SM2A",
+                  "revision": 2
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "NOT_ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G2B",
+                  "revision": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      "B": {
+        "scene": "地域工作会",
+        "item": "持帰り袋",
+        "holder": "B",
+        "records": [
+          {
+            "record_id": "PRIVATE",
+            "body": {
+              "customer": {
+                "subject": "B",
+                "animal": "DOG",
+                "origin_id": "WH"
+              },
+              "coverage": {
+                "observer": "B",
+                "paper": "NOT_ALL",
+                "digital": "ALL",
+                "origin_id": "SM2G2B",
+                "revision": 3
+              }
+            }
+          },
+          {
+            "record_id": "PARTNER_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G2A",
+                  "revision": 3
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2B",
+                  "revision": 2
+                }
+              }
+            }
+          },
+          {
+            "record_id": "LOCAL_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "NOT_ALL",
+                  "origin_id": "SM2A",
+                  "revision": 2
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "NOT_ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G2B",
+                  "revision": 3
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "RC01-G03": {
+      "A": {
+        "scene": "小さな展示会",
+        "item": "受付名札",
+        "holder": "A",
+        "records": [
+          {
+            "record_id": "PRIVATE",
+            "body": {
+              "customer": {
+                "subject": "A",
+                "animal": "CAT",
+                "origin_id": "GD"
+              },
+              "coverage": {
+                "observer": "A",
+                "paper": "NOT_ALL",
+                "digital": "ALL",
+                "origin_id": "SM2G3A",
+                "revision": 3
+              }
+            }
+          },
+          {
+            "record_id": "PARTNER_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM3A",
+                  "revision": 2
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G3B",
+                  "revision": 3
+                }
+              }
+            }
+          },
+          {
+            "record_id": "LOCAL_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "NOT_ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G3A",
+                  "revision": 3
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "NOT_ALL",
+                  "origin_id": "SM3B",
+                  "revision": 2
+                }
+              }
+            }
+          }
+        ]
+      },
+      "B": {
+        "scene": "小さな展示会",
+        "item": "受付名札",
+        "holder": "B",
+        "records": [
+          {
+            "record_id": "PRIVATE",
+            "body": {
+              "customer": {
+                "subject": "B",
+                "animal": "DOG",
+                "origin_id": "PM"
+              },
+              "coverage": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM2G3B",
+                "revision": 3
+              }
+            }
+          },
+          {
+            "record_id": "LOCAL_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM3A",
+                  "revision": 2
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G3B",
+                  "revision": 3
+                }
+              }
+            }
+          },
+          {
+            "record_id": "PARTNER_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "NOT_ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G3A",
+                  "revision": 3
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "NOT_ALL",
+                  "origin_id": "SM3B",
+                  "revision": 2
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "RC01-G04": {
+      "A": {
+        "scene": "小さな展示会",
+        "item": "受付名札",
+        "holder": "A",
+        "records": [
+          {
+            "record_id": "PRIVATE",
+            "body": {
+              "customer": {
+                "subject": "A",
+                "animal": "DOG",
+                "origin_id": "HN"
+              },
+              "coverage": {
+                "observer": "A",
+                "paper": "ALL",
+                "digital": "ALL",
+                "origin_id": "SM2G4A",
+                "revision": 3
+              }
+            }
+          },
+          {
+            "record_id": "LOCAL_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G4A",
+                  "revision": 3
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM4B",
+                  "revision": 2
+                }
+              }
+            }
+          },
+          {
+            "record_id": "PARTNER_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "NOT_ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM4A",
+                  "revision": 2
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "NOT_ALL",
+                  "origin_id": "SM2G4B",
+                  "revision": 3
+                }
+              }
+            }
+          }
+        ]
+      },
+      "B": {
+        "scene": "小さな展示会",
+        "item": "受付名札",
+        "holder": "B",
+        "records": [
+          {
+            "record_id": "PRIVATE",
+            "body": {
+              "customer": {
+                "subject": "B",
+                "animal": "CAT",
+                "origin_id": "ZR"
+              },
+              "coverage": {
+                "observer": "B",
+                "paper": "ALL",
+                "digital": "NOT_ALL",
+                "origin_id": "SM2G4B",
+                "revision": 3
+              }
+            }
+          },
+          {
+            "record_id": "PARTNER_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM2G4A",
+                  "revision": 3
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM4B",
+                  "revision": 2
+                }
+              }
+            }
+          },
+          {
+            "record_id": "LOCAL_GROUP",
+            "body": {
+              "coverage": {
+                "A": {
+                  "observer": "A",
+                  "paper": "NOT_ALL",
+                  "digital": "ALL",
+                  "origin_id": "SM4A",
+                  "revision": 2
+                },
+                "B": {
+                  "observer": "B",
+                  "paper": "ALL",
+                  "digital": "NOT_ALL",
+                  "origin_id": "SM2G4B",
+                  "revision": 3
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "retention_expires_at": "2026-10-12T17:41:23+09:00"
+}

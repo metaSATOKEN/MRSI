@@ -1,0 +1,1026 @@
+{
+  "correct_decisions_incomplete_or_wrong_origins": {
+    "kind": "correct_decisions_incomplete_or_wrong_origins",
+    "part": "PART1",
+    "slot": {
+      "condition": "REWRITE",
+      "dependencies": [
+        "XM01-R1-E1-G38-REWRITE-MERGE-B"
+      ],
+      "experiment": "E1",
+      "group": "E1-G38",
+      "group_order": "LOCAL_FIRST",
+      "id": "XM01-R1-E1-G38-REWRITE-PROBE-B",
+      "replicate": 1,
+      "role": "B",
+      "seed": 574874156,
+      "source_id": "E1-G38-REWRITE-PROBE-B",
+      "stage": "PROBE",
+      "window": 1
+    },
+    "input_payload": {
+      "holder": "B",
+      "item": "個別の案内カード",
+      "records": [
+        {
+          "body": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "B",
+              "origin_id": "R4D372D28D0F9A82",
+              "paper": "ALL",
+              "revision": 2
+            },
+            "customer": {
+              "animal": "CAT",
+              "origin_id": "RC650F33FF64A484",
+              "subject": "B"
+            }
+          },
+          "record_id": "PRIVATE"
+        },
+        {
+          "body": {
+            "coverage": {
+              "A": {
+                "digital": "NOT_ALL",
+                "observer": "A",
+                "origin_id": "R77017418A0DE72F",
+                "paper": "ALL",
+                "revision": 4
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "R4D372D28D0F9A82",
+                "paper": "ALL",
+                "revision": 2
+              }
+            }
+          },
+          "record_id": "GROUP"
+        }
+      ],
+      "scene": "料理体験会・中央会場"
+    },
+    "parents": {
+      "XM01-R1-E1-G38-REWRITE-MERGE-B": "d8e7e018827280b3a398f0a4e0483690e1a6b817727d424c6f9cc01023b8c2f1"
+    },
+    "answer_raw": "{\n  \"decision\": {\n    \"mascot\": \"CAT\",\n    \"channel\": \"PAPER\"\n  },\n  \"read_receipt\": {\n    \"mascot_record_refs\": [\n      \"PRIVATE\"\n    ],\n    \"channel_record_refs\": [\n      \"PRIVATE\"\n    ]\n  },\n  \"origin_ids\": {\n    \"mascot\": [\n      \"RC650F33FF64A484\"\n    ],\n    \"channel\": [\n      \"R4D372D28D0F9A82\"\n    ]\n  }\n}",
+    "evaluation": {
+      "bindings": [],
+      "gate": "PASS",
+      "normalized": {
+        "decision": {
+          "channel": "PAPER",
+          "mascot": "CAT"
+        },
+        "origin_ids": {
+          "channel": [
+            "R4D372D28D0F9A82"
+          ],
+          "mascot": [
+            "RC650F33FF64A484"
+          ]
+        },
+        "read_receipt": {
+          "channel_record_refs": [
+            "PRIVATE"
+          ],
+          "mascot_record_refs": [
+            "PRIVATE"
+          ]
+        }
+      },
+      "score": {
+        "content": true,
+        "gate": "PASS",
+        "parts": {
+          "channel": {
+            "content": true,
+            "strict": false
+          },
+          "mascot": {
+            "content": true,
+            "strict": true
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": false
+      },
+      "selection_errors": []
+    },
+    "files_sha256": {
+      "input.json": "0e00a389fa99b36fb992268c2b081f0f8c72f1f596c4dae6bef27ef115250be2",
+      "answer.txt": "0a0f21bbdd8f93cb0cd824356a1886bb8604d610badd629231e826e394ec64fa",
+      "evaluation.json": "77ca2d8720fa551d270864b0d0d7e45e39b6b44d7a2b88ddbfad07459ed59adf",
+      "result.json": "21dddd445552c06beaff0bb516e6fc8541f83933be4dc6adc00a46d0a77c5ece"
+    },
+    "relative_evidence_path": "throughline/audits/cross-model-e1-01-part1-result-20260924/received/responses/XM01-R1-E1-G38-REWRITE-PROBE-B",
+    "parent_raw": "{\n  \"memory\": {\n    \"private_note\": {\n      \"customer\": {\n        \"subject\": \"B\",\n        \"animal\": \"CAT\",\n        \"origin_id\": \"RC650F33FF64A484\"\n      },\n      \"coverage\": {\n        \"observer\": \"B\",\n        \"paper\": \"ALL\",\n        \"digital\": \"ALL\",\n        \"origin_id\": \"R4D372D28D0F9A82\",\n        \"revision\": 2\n      }\n    },\n    \"shared_note\": {\n      \"coverage\": {\n        \"A\": {\n          \"observer\": \"A\",\n          \"paper\": \"ALL\",\n          \"digital\": \"NOT_ALL\",\n          \"origin_id\": \"R77017418A0DE72F\",\n          \"revision\": 4\n        },\n        \"B\": {\n          \"observer\": \"B\",\n          \"paper\": \"ALL\",\n          \"digital\": \"ALL\",\n          \"origin_id\": \"R4D372D28D0F9A82\",\n          \"revision\": 2\n        }\n      }\n    }\n  },\n  \"read_receipt\": {\n    \"private_customer_refs\": [\n      \"PRIVATE\"\n    ],\n    \"private_coverage_refs\": [\n      \"PRIVATE\"\n    ],\n    \"shared_coverage_refs\": {\n      \"A\": [\n        \"PARTNER_GROUP\"\n      ],\n      \"B\": [\n        \"PRIVATE\"\n      ]\n    }\n  }\n}",
+    "parent_evaluation": {
+      "bindings": [],
+      "gate": "PASS",
+      "normalized": {
+        "memory": {
+          "private_note": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "B",
+              "origin_id": "R4D372D28D0F9A82",
+              "paper": "ALL",
+              "revision": 2
+            },
+            "customer": {
+              "animal": "CAT",
+              "origin_id": "RC650F33FF64A484",
+              "subject": "B"
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "digital": "NOT_ALL",
+                "observer": "A",
+                "origin_id": "R77017418A0DE72F",
+                "paper": "ALL",
+                "revision": 4
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "R4D372D28D0F9A82",
+                "paper": "ALL",
+                "revision": 2
+              }
+            }
+          }
+        },
+        "read_receipt": {
+          "private_coverage_refs": [
+            "PRIVATE"
+          ],
+          "private_customer_refs": [
+            "PRIVATE"
+          ],
+          "shared_coverage_refs": {
+            "A": [
+              "PARTNER_GROUP"
+            ],
+            "B": [
+              "PRIVATE"
+            ]
+          }
+        }
+      },
+      "score": {
+        "content": true,
+        "gate": "PASS",
+        "parts": {
+          "private_note.coverage": {
+            "content": true,
+            "strict": true
+          },
+          "private_note.customer": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.A": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.B": {
+            "content": true,
+            "strict": true
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": true
+      },
+      "selection_errors": []
+    },
+    "parent_file_hashes": {
+      "result.json": "377b41b0f3d8b79fe0bde70a630519ff181b799e4fc54ff5691794b72d121bb8",
+      "saved-memory.json": "6695d461b9779221e44af3a7097133e19dd912a3cb6c4264e22f1035803588e6",
+      "input.json": "cf4bcd00198fafde7a16a146edbf85233ca46ebad43cc2c49577e94de08f884e",
+      "decoded-with-special-tokens.txt": "dccf78a9b9642a86304758fd3289ec149b2ae62fbe0ec60e37ff85cae702d22f",
+      "started.json": "a5ed455d342cab15f62ad55b88b6ff42b73aa95c3911520db5f782c368fe4c07",
+      "answer.txt": "8272a00511534666fbe188fe114d6452ecd3db161e8a61098b1635f73cf575d8",
+      "response.json": "1a4d00ed397e1cca4ae366609725b647fb5522b1dcd4a8f6839ca71b766b7f07",
+      "evaluation.json": "fc7713c356a9e95fea3b431bffdcad420f96380b786030b6e928e0b2e1a0855e"
+    }
+  },
+  "correct_decisions_correct_origins_extra_or_wrong_refs": {
+    "kind": "correct_decisions_correct_origins_extra_or_wrong_refs",
+    "part": "PART1",
+    "slot": {
+      "condition": "SELECT",
+      "dependencies": [
+        "XM01-R1-E1-G36-SELECT-MERGE-A"
+      ],
+      "experiment": "E1",
+      "group": "E1-G36",
+      "group_order": "PARTNER_FIRST",
+      "id": "XM01-R1-E1-G36-SELECT-PROBE-A",
+      "replicate": 1,
+      "role": "A",
+      "seed": 941462396,
+      "source_id": "E1-G36-SELECT-PROBE-A",
+      "stage": "PROBE",
+      "window": 2
+    },
+    "input_payload": {
+      "holder": "A",
+      "item": "個別の案内カード",
+      "records": [
+        {
+          "body": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "RE4B357CFEF4CBFF",
+              "paper": "ALL",
+              "revision": 3
+            },
+            "customer": {
+              "animal": "DOG",
+              "origin_id": "R1FD1AB25FEC3304",
+              "subject": "A"
+            }
+          },
+          "record_id": "PRIVATE"
+        },
+        {
+          "body": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "RE4B357CFEF4CBFF",
+                "paper": "ALL",
+                "revision": 3
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "observer": "B",
+                "origin_id": "R73BAF6D7AD6AFFC",
+                "paper": "ALL",
+                "revision": 4
+              }
+            }
+          },
+          "record_id": "GROUP"
+        }
+      ],
+      "scene": "防災学習会・中央会場"
+    },
+    "parents": {
+      "XM01-R1-E1-G36-SELECT-MERGE-A": "3a21349d6c1d32362168538cbf7c0061fd2fd97712bbe2c873468009a9deaf10"
+    },
+    "answer_raw": "{\n  \"decision\": {\n    \"mascot\": \"DOG\",\n    \"channel\": \"PAPER\"\n  },\n  \"read_receipt\": {\n    \"mascot_record_refs\": [\n      \"PRIVATE\"\n    ],\n    \"channel_record_refs\": [\n      \"PRIVATE\",\n      \"GROUP\"\n    ]\n  },\n  \"origin_ids\": {\n    \"mascot\": [\n      \"R1FD1AB25FEC3304\"\n    ],\n    \"channel\": [\n      \"RE4B357CFEF4CBFF\",\n      \"R73BAF6D7AD6AFFC\"\n    ]\n  }\n}",
+    "evaluation": {
+      "bindings": [],
+      "gate": "PASS",
+      "normalized": {
+        "decision": {
+          "channel": "PAPER",
+          "mascot": "DOG"
+        },
+        "origin_ids": {
+          "channel": [
+            "RE4B357CFEF4CBFF",
+            "R73BAF6D7AD6AFFC"
+          ],
+          "mascot": [
+            "R1FD1AB25FEC3304"
+          ]
+        },
+        "read_receipt": {
+          "channel_record_refs": [
+            "PRIVATE",
+            "GROUP"
+          ],
+          "mascot_record_refs": [
+            "PRIVATE"
+          ]
+        }
+      },
+      "score": {
+        "content": true,
+        "gate": "PASS",
+        "parts": {
+          "channel": {
+            "content": true,
+            "strict": false
+          },
+          "mascot": {
+            "content": true,
+            "strict": true
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": false
+      },
+      "selection_errors": [],
+      "selection_shape_errors": [],
+      "value": {
+        "decision": {
+          "channel": "PAPER",
+          "mascot": "DOG"
+        },
+        "origin_ids": {
+          "channel": [
+            "RE4B357CFEF4CBFF",
+            "R73BAF6D7AD6AFFC"
+          ],
+          "mascot": [
+            "R1FD1AB25FEC3304"
+          ]
+        },
+        "read_receipt": {
+          "channel_record_refs": [
+            "PRIVATE",
+            "GROUP"
+          ],
+          "mascot_record_refs": [
+            "PRIVATE"
+          ]
+        }
+      }
+    },
+    "files_sha256": {
+      "input.json": "bad20e65dbe3d67bcae147762ce1ad23b83151ff63416e75f722837081387faa",
+      "answer.txt": "457d8658890f8d96754b92a8576204ef2556662bd8786cff4eb347b64cdc7560",
+      "evaluation.json": "c9eb226922be0b5857d26ab8a241c3dedb9fb2f60c3cc8f1876130d812ed5534",
+      "result.json": "e47755c1135c785dc461d4d3931a696565d0f5055b08bd1d6db84c3dd9fe9e8d"
+    },
+    "relative_evidence_path": "throughline/audits/cross-model-e1-01-part1-result-20260924/received/responses/XM01-R1-E1-G36-SELECT-PROBE-A",
+    "parent_raw": "{\n  \"memory\": {\n    \"private_note\": {\n      \"customer\": {\n        \"subject\": \"A\",\n        \"animal\": \"DOG\",\n        \"origin_id\": \"R1FD1AB25FEC3304\"\n      },\n      \"coverage\": {\n        \"observer\": \"A\",\n        \"paper\": \"ALL\",\n        \"digital\": \"ALL\",\n        \"origin_id\": \"RE4B357CFEF4CBFF\",\n        \"revision\": 3\n      }\n    },\n    \"shared_note\": {\n      \"coverage\": {\n        \"A\": {\n          \"record_id\": \"LOCAL_GROUP\",\n          \"observer\": \"A\"\n        },\n        \"B\": {\n          \"record_id\": \"PARTNER_GROUP\",\n          \"observer\": \"B\"\n        }\n      }\n    }\n  },\n  \"read_receipt\": {\n    \"private_customer_refs\": [\n      \"PRIVATE\"\n    ],\n    \"private_coverage_refs\": [\n      \"PRIVATE\"\n    ],\n    \"shared_coverage_refs\": {\n      \"A\": [\n        \"LOCAL_GROUP\"\n      ],\n      \"B\": [\n        \"PARTNER_GROUP\"\n      ]\n    }\n  }\n}",
+    "parent_evaluation": {
+      "bindings": [
+        {
+          "body_sha256": "3e389150509028e545e4d8dcc422dfdebba3bad3eb5f3d31a19514206388c43a",
+          "destination": "A",
+          "selected": {
+            "observer": "A",
+            "record_id": "LOCAL_GROUP"
+          }
+        },
+        {
+          "body_sha256": "09871792608696fdf418198e73b51e34afb987801eafe758479fff9b293a71dc",
+          "destination": "B",
+          "selected": {
+            "observer": "B",
+            "record_id": "PARTNER_GROUP"
+          }
+        }
+      ],
+      "gate": "PASS",
+      "normalized": {
+        "memory": {
+          "private_note": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "RE4B357CFEF4CBFF",
+              "paper": "ALL",
+              "revision": 3
+            },
+            "customer": {
+              "animal": "DOG",
+              "origin_id": "R1FD1AB25FEC3304",
+              "subject": "A"
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "RE4B357CFEF4CBFF",
+                "paper": "ALL",
+                "revision": 3
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "observer": "B",
+                "origin_id": "R73BAF6D7AD6AFFC",
+                "paper": "ALL",
+                "revision": 4
+              }
+            }
+          }
+        },
+        "read_receipt": {
+          "private_coverage_refs": [
+            "PRIVATE"
+          ],
+          "private_customer_refs": [
+            "PRIVATE"
+          ],
+          "shared_coverage_refs": {
+            "A": [
+              "LOCAL_GROUP"
+            ],
+            "B": [
+              "PARTNER_GROUP"
+            ]
+          }
+        }
+      },
+      "score": {
+        "content": true,
+        "gate": "PASS",
+        "parts": {
+          "private_note.coverage": {
+            "content": true,
+            "strict": true
+          },
+          "private_note.customer": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.A": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.B": {
+            "content": true,
+            "strict": true
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": true
+      },
+      "selection_errors": [],
+      "selection_shape_errors": [],
+      "value": {
+        "memory": {
+          "private_note": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "RE4B357CFEF4CBFF",
+              "paper": "ALL",
+              "revision": 3
+            },
+            "customer": {
+              "animal": "DOG",
+              "origin_id": "R1FD1AB25FEC3304",
+              "subject": "A"
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "record_id": "LOCAL_GROUP"
+              },
+              "B": {
+                "observer": "B",
+                "record_id": "PARTNER_GROUP"
+              }
+            }
+          }
+        },
+        "read_receipt": {
+          "private_coverage_refs": [
+            "PRIVATE"
+          ],
+          "private_customer_refs": [
+            "PRIVATE"
+          ],
+          "shared_coverage_refs": {
+            "A": [
+              "LOCAL_GROUP"
+            ],
+            "B": [
+              "PARTNER_GROUP"
+            ]
+          }
+        }
+      }
+    },
+    "parent_file_hashes": {
+      "result.json": "be7719aa56ee09a728b42801e87f89ed5302fb285ed154f9360eb8729fcc63ae",
+      "saved-memory.json": "3e6d2bcb187175df1b707066a0f0e769934ad22cab53a9d02f31e3fd7abfc347",
+      "input.json": "59666983657a65babae008779c12b253aafb3be6b358143d3bf4a70b0cc6e40b",
+      "decoded-with-special-tokens.txt": "d4815f6945d7e2caf5ab06cac048ad3d3e22355b6fc18c0fb0c72bca7c2d786e",
+      "started.json": "783b2921a4915baf83632a0e7662f84a34b2f07b4c7f93dcb4d778ee1b8beed0",
+      "answer.txt": "8acddde8e7b4883e36fca6164d1e13f91d00a9e726bbe1b7f6c8e4c82e74c2af",
+      "response.json": "bedb109366acb3c69cb7f66f6f2e6dcb41b343c0f9a7b662db18a0d7d64532b3",
+      "evaluation.json": "54c8d88ba3503aa016ad3c3da7bdf5c91cd44ea57bb35b13c4dcdc4025ee2f31"
+    }
+  },
+  "part2_correct_note_unknown_channel": {
+    "kind": "part2_correct_note_unknown_channel",
+    "part": "PART2",
+    "slot": {
+      "condition": "SELECT",
+      "dependencies": [
+        "XM01-R1-E1-G53-SELECT-MERGE-A"
+      ],
+      "experiment": "E1",
+      "group": "E1-G53",
+      "group_order": "PARTNER_FIRST",
+      "id": "XM01-R1-E1-G53-SELECT-PROBE-A",
+      "replicate": 1,
+      "role": "A",
+      "seed": 1051467815,
+      "source_id": "E1-G53-SELECT-PROBE-A",
+      "stage": "PROBE",
+      "window": 3
+    },
+    "input_payload": {
+      "holder": "A",
+      "item": "個別の案内カード",
+      "records": [
+        {
+          "body": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "R4E3165210A44158",
+              "paper": "ALL",
+              "revision": 4
+            },
+            "customer": {
+              "animal": "CAT",
+              "origin_id": "R42BFCD43387295D",
+              "subject": "A"
+            }
+          },
+          "record_id": "PRIVATE"
+        },
+        {
+          "body": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "R4E3165210A44158",
+                "paper": "ALL",
+                "revision": 4
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "R8BEFD8DA8E48196",
+                "paper": "NOT_ALL",
+                "revision": 4
+              }
+            }
+          },
+          "record_id": "GROUP"
+        }
+      ],
+      "scene": "天体観察会・丘の会場"
+    },
+    "parents": {
+      "XM01-R1-E1-G53-SELECT-MERGE-A": "8a079cc3b20e7ed1ee9dd4bfc469534ebed179d01edbe11167b53d35bdd6f79d"
+    },
+    "answer_raw": "{\n  \"decision\": {\n    \"mascot\": \"CAT\",\n    \"channel\": \"UNKNOWN\"\n  },\n  \"read_receipt\": {\n    \"mascot_record_refs\": [\n      \"PRIVATE\"\n    ],\n    \"channel_record_refs\": []\n  },\n  \"origin_ids\": {\n    \"mascot\": [\n      \"R42BFCD43387295D\"\n    ],\n    \"channel\": []\n  }\n}",
+    "evaluation": {
+      "bindings": [],
+      "gate": "PASS",
+      "normalized": {
+        "decision": {
+          "channel": "UNKNOWN",
+          "mascot": "CAT"
+        },
+        "origin_ids": {
+          "channel": [],
+          "mascot": [
+            "R42BFCD43387295D"
+          ]
+        },
+        "read_receipt": {
+          "channel_record_refs": [],
+          "mascot_record_refs": [
+            "PRIVATE"
+          ]
+        }
+      },
+      "score": {
+        "content": false,
+        "gate": "PASS",
+        "parts": {
+          "channel": {
+            "content": false,
+            "strict": false
+          },
+          "mascot": {
+            "content": true,
+            "strict": true
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": false
+      },
+      "selection_errors": [],
+      "selection_shape_errors": [],
+      "value": {
+        "decision": {
+          "channel": "UNKNOWN",
+          "mascot": "CAT"
+        },
+        "origin_ids": {
+          "channel": [],
+          "mascot": [
+            "R42BFCD43387295D"
+          ]
+        },
+        "read_receipt": {
+          "channel_record_refs": [],
+          "mascot_record_refs": [
+            "PRIVATE"
+          ]
+        }
+      }
+    },
+    "files_sha256": {
+      "input.json": "c1628413ff03cddf56d16be0c85db5b1d0110b66fb3237a66b04a241447135bd",
+      "answer.txt": "c2c7033dd494751c402c703bbff8e5ca1bc5193522266dc58a5d24a7b4120263",
+      "evaluation.json": "cd011ee9dc2ea5dd20045907f95e3149d8aee62833e9045f560d131497bd44dd",
+      "result.json": "43e0ded851fdcc6d6bec034b039061ca4519b21a397a4b3a3bc91303e6e7929a"
+    },
+    "relative_evidence_path": "throughline/audits/cross-model-e1-01-part2-result-20260925/received/responses/XM01-R1-E1-G53-SELECT-PROBE-A",
+    "parent_raw": "{\n  \"memory\": {\n    \"private_note\": {\n      \"customer\": {\n        \"subject\": \"A\",\n        \"animal\": \"CAT\",\n        \"origin_id\": \"R42BFCD43387295D\"\n      },\n      \"coverage\": {\n        \"observer\": \"A\",\n        \"paper\": \"ALL\",\n        \"digital\": \"ALL\",\n        \"origin_id\": \"R4E3165210A44158\",\n        \"revision\": 4\n      }\n    },\n    \"shared_note\": {\n      \"coverage\": {\n        \"A\": {\n          \"record_id\": \"LOCAL_GROUP\",\n          \"observer\": \"A\"\n        },\n        \"B\": {\n          \"record_id\": \"PARTNER_GROUP\",\n          \"observer\": \"B\"\n        }\n      }\n    }\n  },\n  \"read_receipt\": {\n    \"private_customer_refs\": [\n      \"PRIVATE\"\n    ],\n    \"private_coverage_refs\": [\n      \"PRIVATE\"\n    ],\n    \"shared_coverage_refs\": {\n      \"A\": [\n        \"LOCAL_GROUP\"\n      ],\n      \"B\": [\n        \"PARTNER_GROUP\"\n      ]\n    }\n  }\n}",
+    "parent_evaluation": {
+      "bindings": [
+        {
+          "body_sha256": "36f0fade5d57a59d1bfeeeeefa88315d7ba233379c2b8165d64c46d2e3f5098b",
+          "destination": "A",
+          "selected": {
+            "observer": "A",
+            "record_id": "LOCAL_GROUP"
+          }
+        },
+        {
+          "body_sha256": "a100ca5a27f6d4371c88dd6ebb5791c595f727cd7f181bc82dd03a2595dd2085",
+          "destination": "B",
+          "selected": {
+            "observer": "B",
+            "record_id": "PARTNER_GROUP"
+          }
+        }
+      ],
+      "gate": "PASS",
+      "normalized": {
+        "memory": {
+          "private_note": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "R4E3165210A44158",
+              "paper": "ALL",
+              "revision": 4
+            },
+            "customer": {
+              "animal": "CAT",
+              "origin_id": "R42BFCD43387295D",
+              "subject": "A"
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "R4E3165210A44158",
+                "paper": "ALL",
+                "revision": 4
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "R8BEFD8DA8E48196",
+                "paper": "NOT_ALL",
+                "revision": 4
+              }
+            }
+          }
+        },
+        "read_receipt": {
+          "private_coverage_refs": [
+            "PRIVATE"
+          ],
+          "private_customer_refs": [
+            "PRIVATE"
+          ],
+          "shared_coverage_refs": {
+            "A": [
+              "LOCAL_GROUP"
+            ],
+            "B": [
+              "PARTNER_GROUP"
+            ]
+          }
+        }
+      },
+      "score": {
+        "content": true,
+        "gate": "PASS",
+        "parts": {
+          "private_note.coverage": {
+            "content": true,
+            "strict": true
+          },
+          "private_note.customer": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.A": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.B": {
+            "content": true,
+            "strict": true
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": true
+      },
+      "selection_errors": [],
+      "selection_shape_errors": [],
+      "value": {
+        "memory": {
+          "private_note": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "R4E3165210A44158",
+              "paper": "ALL",
+              "revision": 4
+            },
+            "customer": {
+              "animal": "CAT",
+              "origin_id": "R42BFCD43387295D",
+              "subject": "A"
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "observer": "A",
+                "record_id": "LOCAL_GROUP"
+              },
+              "B": {
+                "observer": "B",
+                "record_id": "PARTNER_GROUP"
+              }
+            }
+          }
+        },
+        "read_receipt": {
+          "private_coverage_refs": [
+            "PRIVATE"
+          ],
+          "private_customer_refs": [
+            "PRIVATE"
+          ],
+          "shared_coverage_refs": {
+            "A": [
+              "LOCAL_GROUP"
+            ],
+            "B": [
+              "PARTNER_GROUP"
+            ]
+          }
+        }
+      }
+    },
+    "parent_file_hashes": {
+      "result.json": "277a821b7f786ac4e310eb131947202cd786facaa26d3e3c6e42dd39e1e5f985",
+      "saved-memory.json": "ee7b1d5b44390ee93133289c5df94a6c37d2ffba89b360cc382b7a0a43d8d05e",
+      "input.json": "051851800aa328f802a8adf543b0dc788decccc1d6907194f43f5f690554dce3",
+      "decoded-with-special-tokens.txt": "6362277930de04765b274c3d84d092cfcc5023c5979be7f4522efd8596bdffea",
+      "started.json": "9b181f2c7ea64aae92ff5908fe96d909a58ac763df288e8f5eebda939b9045ce",
+      "answer.txt": "ad29af42e5022175a30f09dc1eb100f709e759f32da9c693eecf99c4120f79d6",
+      "response.json": "20ceffd7456373eb18be7943e0a2c5cce56567835a898f2701a878950fe1c02a",
+      "evaluation.json": "8cd95824790cafdb17388f60443ed726018143ce817846c271ce47498d7c539e"
+    }
+  },
+  "part2_wrong_note_actually_inherited": {
+    "kind": "part2_wrong_note_actually_inherited",
+    "part": "PART2",
+    "slot": {
+      "condition": "REWRITE",
+      "dependencies": [
+        "XM01-R1-E1-G62-REWRITE-MERGE-A"
+      ],
+      "experiment": "E1",
+      "group": "E1-G62",
+      "group_order": "LOCAL_FIRST",
+      "id": "XM01-R1-E1-G62-REWRITE-PROBE-A",
+      "replicate": 1,
+      "role": "A",
+      "seed": 2095418972,
+      "source_id": "E1-G62-REWRITE-PROBE-A",
+      "stage": "PROBE",
+      "window": 3
+    },
+    "input_payload": {
+      "holder": "A",
+      "item": "個別の案内カード",
+      "records": [
+        {
+          "body": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "RF37413030426206",
+              "paper": "ALL",
+              "revision": 4
+            },
+            "customer": {
+              "animal": "CAT",
+              "origin_id": "RD62B3DCE445A3C9",
+              "subject": "A"
+            }
+          },
+          "record_id": "PRIVATE"
+        },
+        {
+          "body": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "RF37413030426206",
+                "paper": "ALL",
+                "revision": 4
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "RB7D9C973D4A01A9",
+                "paper": "ALL",
+                "revision": 1
+              }
+            }
+          },
+          "record_id": "GROUP"
+        }
+      ],
+      "scene": "料理体験会・駅前会場"
+    },
+    "parents": {
+      "XM01-R1-E1-G62-REWRITE-MERGE-A": "9c03531c01e3cd4ac5af7195d11fe167bd72af0118e23bbd976f441f810eae62"
+    },
+    "answer_raw": "{\n  \"decision\": {\n    \"mascot\": \"CAT\",\n    \"channel\": \"PAPER\"\n  },\n  \"read_receipt\": {\n    \"mascot_record_refs\": [\n      \"PRIVATE\"\n    ],\n    \"channel_record_refs\": [\n      \"PRIVATE\",\n      \"GROUP\"\n    ]\n  },\n  \"origin_ids\": {\n    \"mascot\": [\n      \"RD62B3DCE445A3C9\"\n    ],\n    \"channel\": [\n      \"RF37413030426206\",\n      \"RB7D9C973D4A01A9\"\n    ]\n  }\n}",
+    "evaluation": {
+      "bindings": [],
+      "gate": "PASS",
+      "normalized": {
+        "decision": {
+          "channel": "PAPER",
+          "mascot": "CAT"
+        },
+        "origin_ids": {
+          "channel": [
+            "RF37413030426206",
+            "RB7D9C973D4A01A9"
+          ],
+          "mascot": [
+            "RD62B3DCE445A3C9"
+          ]
+        },
+        "read_receipt": {
+          "channel_record_refs": [
+            "PRIVATE",
+            "GROUP"
+          ],
+          "mascot_record_refs": [
+            "PRIVATE"
+          ]
+        }
+      },
+      "score": {
+        "content": false,
+        "gate": "PASS",
+        "parts": {
+          "channel": {
+            "content": false,
+            "strict": false
+          },
+          "mascot": {
+            "content": true,
+            "strict": true
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": false
+      },
+      "selection_errors": []
+    },
+    "files_sha256": {
+      "input.json": "03ebf009c39eeb8c2c102e5ff70a9ba696c80dc7fed1a811dfb9dd819c740c52",
+      "answer.txt": "fa953fe0aba273e158721a4ec4261587da2fc84aff3ed67d08a73988b7b1c534",
+      "evaluation.json": "29b14dffd3aeeb0c0cdbdfe0da41e6532209d3c75b5642b57750d68a7393cf87",
+      "result.json": "48ab8a2bc8f981673df41f33cf39d7db143ef788f815ee2d6e291b1f8d622fa1"
+    },
+    "relative_evidence_path": "throughline/audits/cross-model-e1-01-part2-result-20260925/received/responses/XM01-R1-E1-G62-REWRITE-PROBE-A",
+    "parent_raw": "{\n  \"memory\": {\n    \"private_note\": {\n      \"customer\": {\n        \"subject\": \"A\",\n        \"animal\": \"CAT\",\n        \"origin_id\": \"RD62B3DCE445A3C9\"\n      },\n      \"coverage\": {\n        \"observer\": \"A\",\n        \"paper\": \"ALL\",\n        \"digital\": \"ALL\",\n        \"origin_id\": \"RF37413030426206\",\n        \"revision\": 4\n      }\n    },\n    \"shared_note\": {\n      \"coverage\": {\n        \"A\": {\n          \"observer\": \"A\",\n          \"paper\": \"ALL\",\n          \"digital\": \"ALL\",\n          \"origin_id\": \"RF37413030426206\",\n          \"revision\": 4\n        },\n        \"B\": {\n          \"observer\": \"B\",\n          \"paper\": \"ALL\",\n          \"digital\": \"ALL\",\n          \"origin_id\": \"RB7D9C973D4A01A9\",\n          \"revision\": 1\n        }\n      }\n    }\n  },\n  \"read_receipt\": {\n    \"private_customer_refs\": [\n      \"PRIVATE\"\n    ],\n    \"private_coverage_refs\": [\n      \"PRIVATE\"\n    ],\n    \"shared_coverage_refs\": {\n      \"A\": [\n        \"PRIVATE\"\n      ],\n      \"B\": [\n        \"LOCAL_GROUP\"\n      ]\n    }\n  }\n}",
+    "parent_evaluation": {
+      "bindings": [],
+      "gate": "PASS",
+      "normalized": {
+        "memory": {
+          "private_note": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "RF37413030426206",
+              "paper": "ALL",
+              "revision": 4
+            },
+            "customer": {
+              "animal": "CAT",
+              "origin_id": "RD62B3DCE445A3C9",
+              "subject": "A"
+            }
+          },
+          "shared_note": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "RF37413030426206",
+                "paper": "ALL",
+                "revision": 4
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "RB7D9C973D4A01A9",
+                "paper": "ALL",
+                "revision": 1
+              }
+            }
+          }
+        },
+        "read_receipt": {
+          "private_coverage_refs": [
+            "PRIVATE"
+          ],
+          "private_customer_refs": [
+            "PRIVATE"
+          ],
+          "shared_coverage_refs": {
+            "A": [
+              "PRIVATE"
+            ],
+            "B": [
+              "LOCAL_GROUP"
+            ]
+          }
+        }
+      },
+      "score": {
+        "content": false,
+        "gate": "PASS",
+        "parts": {
+          "private_note.coverage": {
+            "content": true,
+            "strict": true
+          },
+          "private_note.customer": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.A": {
+            "content": true,
+            "strict": true
+          },
+          "shared_note.coverage.B": {
+            "content": false,
+            "strict": false
+          }
+        },
+        "ref_errors": [],
+        "shape_errors": [],
+        "strict": false
+      },
+      "selection_errors": []
+    },
+    "parent_file_hashes": {
+      "result.json": "3cdace602113f91947f82cc30cacb0565bf1005c7e2ceafd3d6873d8e31abd18",
+      "saved-memory.json": "d8e4da8cd158124a817fa694c11b4e82660e30b41665f08ae516399524a673bc",
+      "input.json": "35eed1545adb76eb8ac17b1a3401c65fd34048fae0301440e20940776dfba059",
+      "decoded-with-special-tokens.txt": "d3defea3d5334fea169a0b77b6266a7c20e04ed9739a8cb9af868493b41c94dd",
+      "started.json": "ce2fb9259c6524d793832f2b4c4abc7f2bb3b7323908975c084ada2e02b78460",
+      "answer.txt": "240b1a274cb6db2efc9db1826b87b8569e500b52d2d2fbf2f841b87d646fbdae",
+      "response.json": "8aea37343a8e918990726fdce5b35f43f637d8bb0a4fc471599ab34baa622e96",
+      "evaluation.json": "994f5f74359289fe9eb02579cc94899e604efcd87da63d3294f91019c7dd5e2a"
+    }
+  }
+}

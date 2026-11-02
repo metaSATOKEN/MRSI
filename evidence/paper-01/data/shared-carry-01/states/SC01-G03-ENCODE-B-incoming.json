@@ -1,0 +1,18 @@
+{
+  "scene": "小さな展示会",
+  "item": "受付名札",
+  "holder": "B",
+  "original_records": {
+    "customer": {
+      "subject": "B",
+      "animal": "DOG",
+      "source_id": "PM"
+    },
+    "coverage": {
+      "observer": "B",
+      "paper": "ALL",
+      "digital": "ALL",
+      "source_id": "VE"
+    }
+  }
+}

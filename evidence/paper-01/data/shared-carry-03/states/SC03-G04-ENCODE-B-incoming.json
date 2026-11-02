@@ -1,0 +1,26 @@
+{
+  "scene": "小さな展示会",
+  "item": "受付名札",
+  "holder": "B",
+  "records": [
+    {
+      "record_id": "CUSTOMER",
+      "author": "B",
+      "body": {
+        "subject": "B",
+        "animal": "CAT",
+        "origin_id": "ZR"
+      }
+    },
+    {
+      "record_id": "OBSERVATION",
+      "author": "B",
+      "body": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "NOT_ALL",
+        "origin_id": "BW"
+      }
+    }
+  ]
+}

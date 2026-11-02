@@ -1,0 +1,83 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "c9ba7ce7e03a1687d52fc92fb2b986f9b91491c82ddb1c14582aa4018c7f0678",
+    "design.md": "73b620b6c0780b14c549d3a9116f04f6d79527f31c13c43daee49e5f1a8bb475",
+    "materials/contract.json": "d726cdda38aec459898f6b965fcba6af8972b443cff43eeb96b60925c89faac5",
+    "materials/frozen.json": "cb3ab15498e9538493d2445a9d535367c306f1dc18fbe38a6cec52194e1a6a84",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/three_role_boundary_01_bootstrap.py": "1da617dc344f3d3d8b4a60f26fc8ca93c280fa39229ddf81f29dfb91205a16aa",
+    "source/three_role_boundary_01_design.py": "7fb22ed2ba322261cc6ff406018287d628e0e1ff6400610f46c4d31c4bfa9a94",
+    "source/three_role_boundary_01_fixtures.py": "7fbadec8fb66c61154505f85c64a293fbc2f469dbe79f530d43c5ba89e343132",
+    "source/three_role_boundary_01_runtime.py": "a748d913a8c5047d7b15fab7bcda3632db292b35a710297d2f1017702ae4c0d6",
+    "source/three_role_boundary_01_scoring.py": "5a6f6a5f6a177bd3f733a06e93dd953fb6ecc0cd9d111251d3262ca1912bd249",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "supervisor.py": "35e2af5a7d694532fed6257ddf0cf9daf52fc58782d614af34e53b125a3578fd"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "3f55079b8373c26dbf91c14978f96e5eba3fef8b7f2b9a4c2db9e48864620455",
+  "original_payload_sha256": "eb9a0744d3aa3d1753c91698f0f9b0f49942725dbe6f1b7eba779c15e43ba4c4",
+  "original_supervisor_sha256": "1da617dc344f3d3d8b4a60f26fc8ca93c280fa39229ddf81f29dfb91205a16aa",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "three_role_boundary_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/three_role_boundary_01_bootstrap.py"
+          },
+          "three_role_boundary_01_design.py": {
+            "kind": "text",
+            "path": "source/three_role_boundary_01_design.py"
+          },
+          "three_role_boundary_01_fixtures.py": {
+            "kind": "text",
+            "path": "source/three_role_boundary_01_fixtures.py"
+          },
+          "three_role_boundary_01_runtime.py": {
+            "kind": "text",
+            "path": "source/three_role_boundary_01_runtime.py"
+          },
+          "three_role_boundary_01_scoring.py": {
+            "kind": "text",
+            "path": "source/three_role_boundary_01_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "TB01"
+}

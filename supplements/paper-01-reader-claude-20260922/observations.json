@@ -1,0 +1,119 @@
+{
+  "checked_at": "2026-09-22T15:20:05.192663+09:00",
+  "source": "papers/paper-01/reproducibility-v0.2/data/pair/analysis.json",
+  "source_sha256": "ec0477f80536b96441b8cc3672dedcfe8853c100cc0f009cfa73ebba8e7db2b7",
+  "description": "既存成分採点の読返し。再採点・新規推論検定ではない。",
+  "select_shared_rows": {
+    "pass": 256,
+    "total": 256
+  },
+  "select_failed_groups": [
+    "E1-G03",
+    "E1-G16",
+    "E1-G27",
+    "E1-G45",
+    "E1-G49"
+  ],
+  "select_failed_slots": {
+    "E1-G03-SELECT-PROBE-B": {
+      "parts": {
+        "channel": {
+          "content": true,
+          "strict": false
+        },
+        "mascot": {
+          "content": true,
+          "strict": true
+        }
+      },
+      "gate": "PASS",
+      "content": true
+    },
+    "E1-G16-SELECT-PROBE-A": {
+      "parts": {
+        "channel": {
+          "content": true,
+          "strict": false
+        },
+        "mascot": {
+          "content": true,
+          "strict": true
+        }
+      },
+      "gate": "PASS",
+      "content": true
+    },
+    "E1-G27-SELECT-PROBE-A": {
+      "parts": {
+        "channel": {
+          "content": false,
+          "strict": false
+        },
+        "mascot": {
+          "content": true,
+          "strict": true
+        }
+      },
+      "gate": "PASS",
+      "content": false
+    },
+    "E1-G45-SELECT-PROBE-B": {
+      "parts": {
+        "channel": {
+          "content": false,
+          "strict": false
+        },
+        "mascot": {
+          "content": true,
+          "strict": true
+        }
+      },
+      "gate": "PASS",
+      "content": false
+    },
+    "E1-G49-SELECT-MERGE-B": {
+      "parts": {
+        "private_note.coverage": {
+          "content": true,
+          "strict": true
+        },
+        "private_note.customer": {
+          "content": true,
+          "strict": false
+        },
+        "shared_note.coverage.A": {
+          "content": true,
+          "strict": true
+        },
+        "shared_note.coverage.B": {
+          "content": true,
+          "strict": true
+        }
+      },
+      "gate": "PASS",
+      "content": true
+    },
+    "E1-G49-SELECT-PROBE-B": {
+      "parts": {
+        "channel": {
+          "content": true,
+          "strict": true
+        },
+        "mascot": {
+          "content": true,
+          "strict": false
+        }
+      },
+      "gate": "PASS",
+      "content": true
+    }
+  },
+  "existing_primary_ci95": [
+    -0.17363689944009003,
+    0.1660203899678817
+  ],
+  "positive_25pp_outside_interval": true,
+  "interpretation_requires": "paired-group iid working model; post-hoc interval interpretation; RC01 fixed-sample prediction and E1 delta>0 forecast unchanged",
+  "new_research_requests": 0,
+  "new_tests": 0
+}

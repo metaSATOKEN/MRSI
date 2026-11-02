@@ -1,0 +1,571 @@
+{
+  "protocol": "RECORD-DECISION-01",
+  "version": "record-decision-v0.1",
+  "limits": {
+    "logical_requests": 32,
+    "physical_requests": 36,
+    "overload_retries": 4,
+    "per_logical_attempts": 2,
+    "active_seconds": 1800,
+    "reserve_seconds": 200,
+    "response_utf8_bytes": 4096,
+    "input_text_utf8_bytes": 32768
+  },
+  "allocation": [
+    {
+      "case": "RD01-G04-A",
+      "group": "RD01-G04",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G04-A-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 1,
+      "parents": []
+    },
+    {
+      "case": "RD01-G04-A",
+      "group": "RD01-G04",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G04-A-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 2,
+      "parents": []
+    },
+    {
+      "case": "RD01-G04-B",
+      "group": "RD01-G04",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G04-B-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 3,
+      "parents": []
+    },
+    {
+      "case": "RD01-G04-B",
+      "group": "RD01-G04",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G04-B-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 4,
+      "parents": []
+    },
+    {
+      "case": "RD01-G02-A",
+      "group": "RD01-G02",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G02-A-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 5,
+      "parents": []
+    },
+    {
+      "case": "RD01-G02-A",
+      "group": "RD01-G02",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G02-A-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 6,
+      "parents": []
+    },
+    {
+      "case": "RD01-G02-B",
+      "group": "RD01-G02",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G02-B-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 7,
+      "parents": []
+    },
+    {
+      "case": "RD01-G02-B",
+      "group": "RD01-G02",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G02-B-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 8,
+      "parents": []
+    },
+    {
+      "case": "RD01-G01-B",
+      "group": "RD01-G01",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G01-B-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 9,
+      "parents": []
+    },
+    {
+      "case": "RD01-G01-B",
+      "group": "RD01-G01",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G01-B-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 10,
+      "parents": []
+    },
+    {
+      "case": "RD01-G01-A",
+      "group": "RD01-G01",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G01-A-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 11,
+      "parents": []
+    },
+    {
+      "case": "RD01-G01-A",
+      "group": "RD01-G01",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G01-A-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 12,
+      "parents": []
+    },
+    {
+      "case": "RD01-G03-B",
+      "group": "RD01-G03",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G03-B-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 13,
+      "parents": []
+    },
+    {
+      "case": "RD01-G03-B",
+      "group": "RD01-G03",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G03-B-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 14,
+      "parents": []
+    },
+    {
+      "case": "RD01-G03-A",
+      "group": "RD01-G03",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G03-A-RECORD_ONLY-R1",
+      "repetition": 1,
+      "position": 15,
+      "parents": []
+    },
+    {
+      "case": "RD01-G03-A",
+      "group": "RD01-G03",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G03-A-WITH_RULE-R1",
+      "repetition": 1,
+      "position": 16,
+      "parents": []
+    },
+    {
+      "case": "RD01-G03-A",
+      "group": "RD01-G03",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G03-A-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 17,
+      "parents": []
+    },
+    {
+      "case": "RD01-G03-A",
+      "group": "RD01-G03",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G03-A-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 18,
+      "parents": []
+    },
+    {
+      "case": "RD01-G03-B",
+      "group": "RD01-G03",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G03-B-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 19,
+      "parents": []
+    },
+    {
+      "case": "RD01-G03-B",
+      "group": "RD01-G03",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G03-B-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 20,
+      "parents": []
+    },
+    {
+      "case": "RD01-G01-A",
+      "group": "RD01-G01",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G01-A-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 21,
+      "parents": []
+    },
+    {
+      "case": "RD01-G01-A",
+      "group": "RD01-G01",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G01-A-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 22,
+      "parents": []
+    },
+    {
+      "case": "RD01-G01-B",
+      "group": "RD01-G01",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G01-B-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 23,
+      "parents": []
+    },
+    {
+      "case": "RD01-G01-B",
+      "group": "RD01-G01",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G01-B-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 24,
+      "parents": []
+    },
+    {
+      "case": "RD01-G02-B",
+      "group": "RD01-G02",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G02-B-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 25,
+      "parents": []
+    },
+    {
+      "case": "RD01-G02-B",
+      "group": "RD01-G02",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G02-B-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 26,
+      "parents": []
+    },
+    {
+      "case": "RD01-G02-A",
+      "group": "RD01-G02",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G02-A-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 27,
+      "parents": []
+    },
+    {
+      "case": "RD01-G02-A",
+      "group": "RD01-G02",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G02-A-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 28,
+      "parents": []
+    },
+    {
+      "case": "RD01-G04-B",
+      "group": "RD01-G04",
+      "stratum": "MIXED",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G04-B-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 29,
+      "parents": []
+    },
+    {
+      "case": "RD01-G04-B",
+      "group": "RD01-G04",
+      "stratum": "MIXED",
+      "arm": "WITH_RULE",
+      "id": "RD01-G04-B-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 30,
+      "parents": []
+    },
+    {
+      "case": "RD01-G04-A",
+      "group": "RD01-G04",
+      "stratum": "ALL_ALL",
+      "arm": "RECORD_ONLY",
+      "id": "RD01-G04-A-RECORD_ONLY-R2",
+      "repetition": 2,
+      "position": 31,
+      "parents": []
+    },
+    {
+      "case": "RD01-G04-A",
+      "group": "RD01-G04",
+      "stratum": "ALL_ALL",
+      "arm": "WITH_RULE",
+      "id": "RD01-G04-A-WITH_RULE-R2",
+      "repetition": 2,
+      "position": 32,
+      "parents": []
+    }
+  ],
+  "materials": [
+    {
+      "id": "RD01-G01-A",
+      "group": "RD01-G01",
+      "role": "A",
+      "stratum": "MIXED",
+      "source_id": "SU01-G01-ENCODE-A",
+      "source_packet": "study2/runs/shared-update-01-prepared-20260918/requests/SU01-G01-ENCODE-A-packet.json",
+      "packet": {
+        "instructions": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n自分の予約票CUSTOMERと観測票OBSERVATIONから個別ノートを生成します。両者の意味と人物、origin_idを維持してください。coverageだけが共同作業へ共有されます。customerは他役へ共有しません。出力トップ欄はprivate_noteだけ。\nprivate_noteはcustomerとcoverageの2欄。customerはsubject（A/B/UNKNOWN）、animal（DOG/CAT/UNKNOWN）、origin_id（元の予約票ID）。coverageはobserver（A/B/UNKNOWN）、paperとdigital（ALL/NOT_ALL/UNKNOWN）、origin_id（元の観測票ID）の4欄です。",
+        "input": "\n資料JSON:\n{\"scene\":\"地域工作会\",\"item\":\"持帰り袋\",\"holder\":\"A\",\"records\":[{\"record_id\":\"CUSTOMER\",\"author\":\"A\",\"body\":{\"subject\":\"A\",\"animal\":\"DOG\",\"origin_id\":\"QX\"}},{\"record_id\":\"OBSERVATION\",\"author\":\"A\",\"body\":{\"observer\":\"A\",\"paper\":\"ALL\",\"digital\":\"NOT_ALL\",\"origin_id\":\"LT\"}}]}"
+      },
+      "truth": {
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "QX"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "LT"
+        }
+      }
+    },
+    {
+      "id": "RD01-G01-B",
+      "group": "RD01-G01",
+      "role": "B",
+      "stratum": "ALL_ALL",
+      "source_id": "SU01-G01-ENCODE-B",
+      "source_packet": "study2/runs/shared-update-01-prepared-20260918/requests/SU01-G01-ENCODE-B-packet.json",
+      "packet": {
+        "instructions": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n自分の予約票CUSTOMERと観測票OBSERVATIONから個別ノートを生成します。両者の意味と人物、origin_idを維持してください。coverageだけが共同作業へ共有されます。customerは他役へ共有しません。出力トップ欄はprivate_noteだけ。\nprivate_noteはcustomerとcoverageの2欄。customerはsubject（A/B/UNKNOWN）、animal（DOG/CAT/UNKNOWN）、origin_id（元の予約票ID）。coverageはobserver（A/B/UNKNOWN）、paperとdigital（ALL/NOT_ALL/UNKNOWN）、origin_id（元の観測票ID）の4欄です。",
+        "input": "\n資料JSON:\n{\"scene\":\"地域工作会\",\"item\":\"持帰り袋\",\"holder\":\"B\",\"records\":[{\"record_id\":\"CUSTOMER\",\"author\":\"B\",\"body\":{\"subject\":\"B\",\"animal\":\"CAT\",\"origin_id\":\"JV\"}},{\"record_id\":\"OBSERVATION\",\"author\":\"B\",\"body\":{\"observer\":\"B\",\"paper\":\"ALL\",\"digital\":\"ALL\",\"origin_id\":\"NR\"}}]}"
+      },
+      "truth": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "JV"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "NR"
+        }
+      }
+    },
+    {
+      "id": "RD01-G02-A",
+      "group": "RD01-G02",
+      "role": "A",
+      "stratum": "ALL_ALL",
+      "source_id": "SU01-G02-ENCODE-A",
+      "source_packet": "study2/runs/shared-update-01-prepared-20260918/requests/SU01-G02-ENCODE-A-packet.json",
+      "packet": {
+        "instructions": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n自分の予約票CUSTOMERと観測票OBSERVATIONから個別ノートを生成します。両者の意味と人物、origin_idを維持してください。coverageだけが共同作業へ共有されます。customerは他役へ共有しません。出力トップ欄はprivate_noteだけ。\nprivate_noteはcustomerとcoverageの2欄。customerはsubject（A/B/UNKNOWN）、animal（DOG/CAT/UNKNOWN）、origin_id（元の予約票ID）。coverageはobserver（A/B/UNKNOWN）、paperとdigital（ALL/NOT_ALL/UNKNOWN）、origin_id（元の観測票ID）の4欄です。",
+        "input": "\n資料JSON:\n{\"scene\":\"地域工作会\",\"item\":\"持帰り袋\",\"holder\":\"A\",\"records\":[{\"record_id\":\"CUSTOMER\",\"author\":\"A\",\"body\":{\"subject\":\"A\",\"animal\":\"CAT\",\"origin_id\":\"BK\"}},{\"record_id\":\"OBSERVATION\",\"author\":\"A\",\"body\":{\"observer\":\"A\",\"paper\":\"ALL\",\"digital\":\"ALL\",\"origin_id\":\"SZ\"}}]}"
+      },
+      "truth": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "BK"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "SZ"
+        }
+      }
+    },
+    {
+      "id": "RD01-G02-B",
+      "group": "RD01-G02",
+      "role": "B",
+      "stratum": "MIXED",
+      "source_id": "SU01-G02-ENCODE-B",
+      "source_packet": "study2/runs/shared-update-01-prepared-20260918/requests/SU01-G02-ENCODE-B-packet.json",
+      "packet": {
+        "instructions": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n自分の予約票CUSTOMERと観測票OBSERVATIONから個別ノートを生成します。両者の意味と人物、origin_idを維持してください。coverageだけが共同作業へ共有されます。customerは他役へ共有しません。出力トップ欄はprivate_noteだけ。\nprivate_noteはcustomerとcoverageの2欄。customerはsubject（A/B/UNKNOWN）、animal（DOG/CAT/UNKNOWN）、origin_id（元の予約票ID）。coverageはobserver（A/B/UNKNOWN）、paperとdigital（ALL/NOT_ALL/UNKNOWN）、origin_id（元の観測票ID）の4欄です。",
+        "input": "\n資料JSON:\n{\"scene\":\"地域工作会\",\"item\":\"持帰り袋\",\"holder\":\"B\",\"records\":[{\"record_id\":\"CUSTOMER\",\"author\":\"B\",\"body\":{\"subject\":\"B\",\"animal\":\"DOG\",\"origin_id\":\"WH\"}},{\"record_id\":\"OBSERVATION\",\"author\":\"B\",\"body\":{\"observer\":\"B\",\"paper\":\"NOT_ALL\",\"digital\":\"ALL\",\"origin_id\":\"FU\"}}]}"
+      },
+      "truth": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "WH"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "FU"
+        }
+      }
+    },
+    {
+      "id": "RD01-G03-A",
+      "group": "RD01-G03",
+      "role": "A",
+      "stratum": "MIXED",
+      "source_id": "SU01-G03-ENCODE-A",
+      "source_packet": "study2/runs/shared-update-01-prepared-20260918/requests/SU01-G03-ENCODE-A-packet.json",
+      "packet": {
+        "instructions": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n自分の予約票CUSTOMERと観測票OBSERVATIONから個別ノートを生成します。両者の意味と人物、origin_idを維持してください。coverageだけが共同作業へ共有されます。customerは他役へ共有しません。出力トップ欄はprivate_noteだけ。\nprivate_noteはcustomerとcoverageの2欄。customerはsubject（A/B/UNKNOWN）、animal（DOG/CAT/UNKNOWN）、origin_id（元の予約票ID）。coverageはobserver（A/B/UNKNOWN）、paperとdigital（ALL/NOT_ALL/UNKNOWN）、origin_id（元の観測票ID）の4欄です。",
+        "input": "\n資料JSON:\n{\"scene\":\"小さな展示会\",\"item\":\"受付名札\",\"holder\":\"A\",\"records\":[{\"record_id\":\"CUSTOMER\",\"author\":\"A\",\"body\":{\"subject\":\"A\",\"animal\":\"CAT\",\"origin_id\":\"GD\"}},{\"record_id\":\"OBSERVATION\",\"author\":\"A\",\"body\":{\"observer\":\"A\",\"paper\":\"NOT_ALL\",\"digital\":\"ALL\",\"origin_id\":\"YC\"}}]}"
+      },
+      "truth": {
+        "customer": {
+          "subject": "A",
+          "animal": "CAT",
+          "origin_id": "GD"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "NOT_ALL",
+          "digital": "ALL",
+          "origin_id": "YC"
+        }
+      }
+    },
+    {
+      "id": "RD01-G03-B",
+      "group": "RD01-G03",
+      "role": "B",
+      "stratum": "ALL_ALL",
+      "source_id": "SU01-G03-ENCODE-B",
+      "source_packet": "study2/runs/shared-update-01-prepared-20260918/requests/SU01-G03-ENCODE-B-packet.json",
+      "packet": {
+        "instructions": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n自分の予約票CUSTOMERと観測票OBSERVATIONから個別ノートを生成します。両者の意味と人物、origin_idを維持してください。coverageだけが共同作業へ共有されます。customerは他役へ共有しません。出力トップ欄はprivate_noteだけ。\nprivate_noteはcustomerとcoverageの2欄。customerはsubject（A/B/UNKNOWN）、animal（DOG/CAT/UNKNOWN）、origin_id（元の予約票ID）。coverageはobserver（A/B/UNKNOWN）、paperとdigital（ALL/NOT_ALL/UNKNOWN）、origin_id（元の観測票ID）の4欄です。",
+        "input": "\n資料JSON:\n{\"scene\":\"小さな展示会\",\"item\":\"受付名札\",\"holder\":\"B\",\"records\":[{\"record_id\":\"CUSTOMER\",\"author\":\"B\",\"body\":{\"subject\":\"B\",\"animal\":\"DOG\",\"origin_id\":\"PM\"}},{\"record_id\":\"OBSERVATION\",\"author\":\"B\",\"body\":{\"observer\":\"B\",\"paper\":\"ALL\",\"digital\":\"ALL\",\"origin_id\":\"VE\"}}]}"
+      },
+      "truth": {
+        "customer": {
+          "subject": "B",
+          "animal": "DOG",
+          "origin_id": "PM"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "VE"
+        }
+      }
+    },
+    {
+      "id": "RD01-G04-A",
+      "group": "RD01-G04",
+      "role": "A",
+      "stratum": "ALL_ALL",
+      "source_id": "SU01-G04-ENCODE-A",
+      "source_packet": "study2/runs/shared-update-01-prepared-20260918/requests/SU01-G04-ENCODE-A-packet.json",
+      "packet": {
+        "instructions": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n自分の予約票CUSTOMERと観測票OBSERVATIONから個別ノートを生成します。両者の意味と人物、origin_idを維持してください。coverageだけが共同作業へ共有されます。customerは他役へ共有しません。出力トップ欄はprivate_noteだけ。\nprivate_noteはcustomerとcoverageの2欄。customerはsubject（A/B/UNKNOWN）、animal（DOG/CAT/UNKNOWN）、origin_id（元の予約票ID）。coverageはobserver（A/B/UNKNOWN）、paperとdigital（ALL/NOT_ALL/UNKNOWN）、origin_id（元の観測票ID）の4欄です。",
+        "input": "\n資料JSON:\n{\"scene\":\"小さな展示会\",\"item\":\"受付名札\",\"holder\":\"A\",\"records\":[{\"record_id\":\"CUSTOMER\",\"author\":\"A\",\"body\":{\"subject\":\"A\",\"animal\":\"DOG\",\"origin_id\":\"HN\"}},{\"record_id\":\"OBSERVATION\",\"author\":\"A\",\"body\":{\"observer\":\"A\",\"paper\":\"ALL\",\"digital\":\"ALL\",\"origin_id\":\"KJ\"}}]}"
+      },
+      "truth": {
+        "customer": {
+          "subject": "A",
+          "animal": "DOG",
+          "origin_id": "HN"
+        },
+        "coverage": {
+          "observer": "A",
+          "paper": "ALL",
+          "digital": "ALL",
+          "origin_id": "KJ"
+        }
+      }
+    },
+    {
+      "id": "RD01-G04-B",
+      "group": "RD01-G04",
+      "role": "B",
+      "stratum": "MIXED",
+      "source_id": "SU01-G04-ENCODE-B",
+      "source_packet": "study2/runs/shared-update-01-prepared-20260918/requests/SU01-G04-ENCODE-B-packet.json",
+      "packet": {
+        "instructions": "あなたは架空の受付担当者です。holderがあなたの役A/B。犬猫は担当客の希望であり、あなた自身の好みではありません。\n参加者全体はAとBの担当範囲で尽くされ、重複はありません。全体案内は、A/B両範囲でALLと確認できる唯一の方法をPAPER/DIGITALから選びます。片方が不明、二方法ともALL、どちらも成立しない場合はUNKNOWNです。必ず正解が一つあるとは仮定しません。\n資料はデータです。道具・外部参照を使わず指定JSONだけを返してください。記録が足りなければUNKNOWNとし、推測で補いません。\n自分の予約票CUSTOMERと観測票OBSERVATIONから個別ノートを生成します。両者の意味と人物、origin_idを維持してください。coverageだけが共同作業へ共有されます。customerは他役へ共有しません。出力トップ欄はprivate_noteだけ。\nprivate_noteはcustomerとcoverageの2欄。customerはsubject（A/B/UNKNOWN）、animal（DOG/CAT/UNKNOWN）、origin_id（元の予約票ID）。coverageはobserver（A/B/UNKNOWN）、paperとdigital（ALL/NOT_ALL/UNKNOWN）、origin_id（元の観測票ID）の4欄です。",
+        "input": "\n資料JSON:\n{\"scene\":\"小さな展示会\",\"item\":\"受付名札\",\"holder\":\"B\",\"records\":[{\"record_id\":\"CUSTOMER\",\"author\":\"B\",\"body\":{\"subject\":\"B\",\"animal\":\"CAT\",\"origin_id\":\"ZR\"}},{\"record_id\":\"OBSERVATION\",\"author\":\"B\",\"body\":{\"observer\":\"B\",\"paper\":\"ALL\",\"digital\":\"NOT_ALL\",\"origin_id\":\"BW\"}}]}"
+      },
+      "truth": {
+        "customer": {
+          "subject": "B",
+          "animal": "CAT",
+          "origin_id": "ZR"
+        },
+        "coverage": {
+          "observer": "B",
+          "paper": "ALL",
+          "digital": "NOT_ALL",
+          "origin_id": "BW"
+        }
+      }
+    }
+  ],
+  "contract": {
+    "protocol": "RECORD-DECISION-01",
+    "status": "DESIGN_ONLY",
+    "seed": 2026091806,
+    "limits": {
+      "logical_requests": 32,
+      "physical_requests": 36,
+      "active_seconds": 1800,
+      "attempt_seconds": 180,
+      "reserve_seconds": 200,
+      "concurrency": 1,
+      "overload_retries_total": 4,
+      "overload_retries_per_slot": 1,
+      "input_bytes": 32768,
+      "output_bytes": 4096
+    },
+    "minimum_packet_text_bytes": 1284,
+    "maximum_packet_text_bytes": 1542,
+    "unique_source_inputs": 8,
+    "unique_condition_inputs": 16,
+    "planned_requests": 32,
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "medium",
+    "tools": [],
+    "context": "FRESH_EVERY_SLOT",
+    "planned_endpoint": "https://chatgpt.com/backend-api/codex/responses",
+    "retention_deadline": "2026-10-12T17:41:23+09:00",
+    "research_model_requests": 0,
+    "authentication_requests": 0,
+    "dispatch_connected": false,
+    "live_authorized": false
+  },
+  "retention_expires_at": "2026-10-12T17:41:23+09:00"
+}

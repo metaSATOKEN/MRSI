@@ -1,0 +1,63 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "ec560f84d68f398c27cb8df1a8c49ef761e7f2f6d69df473cbb283e45293604e",
+    "design.md": "1ec12f121c464b19c6df258d9069480bedb94c1013a90a4000ca1e74c56e06df",
+    "materials/contract.json": "33fba8b071244f0b2c0d29555c648302b05d5f22063fe122cad738028c76f490",
+    "requests.jsonl": "d01b038ea3503cbf984c94f860bad1c22bb32a631b595a82d7e0a4dc3e63960c",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/readout_split_01_bootstrap.py": "ae54017b03e5832c6002925a6ade9e13212aeb0b7ae5587f0c3b4f602c73e80f",
+    "source/readout_split_01_runtime.py": "396822521e77680f4a04d38b7b402043108a329395ecbb8d94bd92be550eff33",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "supervisor.py": "b66df3d72342795ec8f6a3805d8bc3e78eabf6a25eb143a4af3953fd0d80e10b"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "bcd2c0553b2d81abeb2287ea7907b60501b842d0a6d24b9558fc863699331f25",
+  "original_payload_sha256": "2a79894b3e29f169066bd3586fcda07341c977483b49cbf6057557d84cfb58ef",
+  "original_supervisor_sha256": "ae54017b03e5832c6002925a6ade9e13212aeb0b7ae5587f0c3b4f602c73e80f",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "readout_split_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_bootstrap.py"
+          },
+          "readout_split_01_runtime.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_runtime.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "RS01"
+}

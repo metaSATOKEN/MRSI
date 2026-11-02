@@ -1,0 +1,32 @@
+{
+  "automatic_regenerations": 0,
+  "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "cloud_drive": "not_used",
+  "design_sha256": "e1152366c4d1aeabe0c0508e1bae3de4727cc4c83821abdb8069e6db25b4e3ac",
+  "frozen_hashes": {
+    "design.json": "e1152366c4d1aeabe0c0508e1bae3de4727cc4c83821abdb8069e6db25b4e3ac",
+    "prereg.md": "d0f169a25e226ad5e2819c6aa69dad6cc731c2becf22fc508a7d08b831b18712",
+    "requests.json": "70f2764c8a75cde7982a5b305bc336a21bb8a73d6cb8b6288c15a04323851bc0",
+    "source-inputs.json": "070409f87930bddd3e30976c4faaf791c87dfcc4d9a2432a12f601c59df0c1ee"
+  },
+  "implementation": "v0.1-fixed-real-parents-three-receipt-states",
+  "max_generations": 54,
+  "protocol": "THREE-ROLE-APPROVAL-READOUT-01-RUN-v0.1",
+  "resume_generation": false,
+  "retention": "private_no_deletion_deadline",
+  "seconds_including_setup": 1800,
+  "source_hashes": {
+    "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "three_role_approval_readout_01_bootstrap.py": "7128e21200575227969b6b61e4833da5c93a20916d22fbad5c57522d1c0218c6",
+    "three_role_approval_readout_01_design.py": "bf4481299940455d111b9e66586433cfeb9aad6956ecce8c8e325183b66b2362",
+    "three_role_approval_readout_01_fixtures.py": "99b4c7ff10a23e228253a26d16614f11dd6d10d29f872a1d97801a2944261a64",
+    "three_role_approval_readout_01_runtime.py": "c3954856758bb7d4632eb1648fcd205a2c6096289d788a14666072a6ae0ded1f",
+    "three_role_approval_readout_01_scoring.py": "7462cb5c5bbe7124be429471c1e182a792f0ed50521495890b5bf1a8f90a911a",
+    "three_role_boundary_01_design.py": "7fb22ed2ba322261cc6ff406018287d628e0e1ff6400610f46c4d31c4bfa9a94",
+    "three_role_boundary_01_fixtures.py": "7fbadec8fb66c61154505f85c64a293fbc2f469dbe79f530d43c5ba89e343132",
+    "three_role_boundary_01_scoring.py": "5a6f6a5f6a177bd3f733a06e93dd953fb6ecc0cd9d111251d3262ca1912bd249",
+    "update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8"
+  }
+}

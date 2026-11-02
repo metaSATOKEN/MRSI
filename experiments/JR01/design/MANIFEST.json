@@ -1,0 +1,10 @@
+{
+  "materials-proposal.json": "2b8ac12256d09ae696a123349aad3ece01d731eac4979e41a1c87af4207dba0d",
+  "prompts/confirm.txt": "8136daa90f3c91dcde65ca2e06e5e2454118b053e8e262deb9f3d4d319af4e72",
+  "prompts/form.txt": "821bbdedf123803b099fb34efff38ed4ff13065fe65f3231e33eb5e31b0a0ef8",
+  "requests.json": "d6695472494ffe0f4212ddc5660f2fe4654977ec1d4242e03e9808ec6a6450b7",
+  "schemas/confirm.json": "b962345bbdf9cb5facb8005860fe87d4426a389a367730c68feb9d7dcbf7af99",
+  "schemas/form.json": "8c66bc660bbad250531eb625cb4e1dc282f10b5cafca0718aa3962cedc1bb492",
+  "source-inputs.json": "a025b40b68da8ce09ccdf122afb3f16a0733ba1cf90e7e7bbb4e6573ee761cbb",
+  "source-parent-evidence.json": "e4c368e196d4a279ff0b33aa805e0de83cb75cdb1a8862fdd18d716bb96d7ce0"
+}

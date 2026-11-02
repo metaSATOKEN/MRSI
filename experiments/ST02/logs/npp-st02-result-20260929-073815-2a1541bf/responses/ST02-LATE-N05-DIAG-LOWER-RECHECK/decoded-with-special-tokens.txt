@@ -1,0 +1,1 @@
+{"local":{"subject":"A","choice":"DIGITAL","evidence_refs":["EAFB0B4F888","E3BC0135CC3","E96601808DF"]},"reply":{"action":"HOLD","reply_to":"QAA9DF10342","allocation":{"A":"UNDECIDED","B":"UNDECIDED"},"evidence_refs":["EAFB0B4F888","E3BC0135CC3","E4CD06F7540","EF9D6953FF7","E96601808DF"]}}<|im_end|>

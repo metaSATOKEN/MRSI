@@ -1,0 +1,36 @@
+```json
+{
+  "private_note": {
+    "coverage": {
+      "observer": "B",
+      "paper": "ALL",
+      "digital": "ALL",
+      "origin_id": "X5197FD1E627C5ED9",
+      "revision": 88
+    },
+    "customer": {
+      "subject": "B",
+      "animal": "DOG",
+      "origin_id": "X977AD9405BCE0EA9"
+    }
+  },
+  "shared_note": {
+    "coverage": {
+      "A": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "NOT_ALL",
+        "origin_id": "XD1DC9D77D546954F",
+        "revision": 83
+      },
+      "B": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "X5197FD1E627C5ED9",
+        "revision": 88
+      }
+    }
+  }
+}
+```

@@ -1,0 +1,33 @@
+{
+  "local": {
+    "subject": "B",
+    "choice": "PAPER",
+    "evidence_refs": [
+      "E7626AE2A21",
+      "E43F99F6F00"
+    ],
+    "own_experience_summary": {
+      "observer": "B",
+      "experience_refs": [
+        "E7626AE2A21",
+        "E43F99F6F00"
+      ],
+      "attempts_per_medium_total": 40,
+      "projected_success_per_40": {
+        "PAPER": 27,
+        "DIGITAL": 23
+      }
+    }
+  },
+  "team": {
+    "allocation": {
+      "A": "UNDECIDED",
+      "B": "UNDECIDED"
+    },
+    "basis": "UNRESOLVED",
+    "evidence_refs": [
+      "Q3A666C0D37",
+      "QAD80280761"
+    ]
+  }
+}<|im_end|>

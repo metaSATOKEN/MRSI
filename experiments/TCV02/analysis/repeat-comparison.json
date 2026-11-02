@@ -1,0 +1,2244 @@
+{
+  "scope": "Separate runs and materials, descriptive only; no pooled denominator.",
+  "TCV01": {
+    "material": "previously used triads",
+    "formation": "prior TB01 saved notes",
+    "by_arm": {
+      "DIRECT": {
+        "planned": 54,
+        "correct": 52,
+        "incorrect": 2,
+        "unresolved": 0
+      },
+      "COMPARE": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      }
+    },
+    "paired_counts": {
+      "BOTH_CORRECT": 52,
+      "COMPARE_ONLY": 2
+    }
+  },
+  "TCV02": {
+    "material": "3 texts/materials not previously used in this study",
+    "formation": "9 shared first-pass FORM responses",
+    "by_arm": {
+      "DIRECT": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      },
+      "COMPARE": {
+        "planned": 54,
+        "correct": 54,
+        "incorrect": 0,
+        "unresolved": 0
+      }
+    },
+    "paired_counts": {
+      "BOTH_CORRECT": 54
+    }
+  },
+  "TCV02_repeats": [
+    {
+      "key": "N01-A-HIGHER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N01-A-HIGHER-R1-DIRECT",
+        "TCV02-N01-A-HIGHER-R2-DIRECT",
+        "TCV02-N01-A-HIGHER-R3-DIRECT"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N01-A-LOWER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N01-A-LOWER-R1-DIRECT",
+        "TCV02-N01-A-LOWER-R2-DIRECT",
+        "TCV02-N01-A-LOWER-R3-DIRECT"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N01-B-HIGHER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N01-B-HIGHER-R1-DIRECT",
+        "TCV02-N01-B-HIGHER-R2-DIRECT",
+        "TCV02-N01-B-HIGHER-R3-DIRECT"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N01-B-LOWER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N01-B-LOWER-R1-DIRECT",
+        "TCV02-N01-B-LOWER-R2-DIRECT",
+        "TCV02-N01-B-LOWER-R3-DIRECT"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N01-C-HIGHER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N01-C-HIGHER-R1-DIRECT",
+        "TCV02-N01-C-HIGHER-R2-DIRECT",
+        "TCV02-N01-C-HIGHER-R3-DIRECT"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N01-C-LOWER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N01-C-LOWER-R1-DIRECT",
+        "TCV02-N01-C-LOWER-R2-DIRECT",
+        "TCV02-N01-C-LOWER-R3-DIRECT"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N02-A-HIGHER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N02-A-HIGHER-R1-DIRECT",
+        "TCV02-N02-A-HIGHER-R2-DIRECT",
+        "TCV02-N02-A-HIGHER-R3-DIRECT"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N02-A-LOWER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N02-A-LOWER-R1-DIRECT",
+        "TCV02-N02-A-LOWER-R2-DIRECT",
+        "TCV02-N02-A-LOWER-R3-DIRECT"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N02-B-HIGHER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N02-B-HIGHER-R1-DIRECT",
+        "TCV02-N02-B-HIGHER-R2-DIRECT",
+        "TCV02-N02-B-HIGHER-R3-DIRECT"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N02-B-LOWER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N02-B-LOWER-R1-DIRECT",
+        "TCV02-N02-B-LOWER-R2-DIRECT",
+        "TCV02-N02-B-LOWER-R3-DIRECT"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N02-C-HIGHER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N02-C-HIGHER-R1-DIRECT",
+        "TCV02-N02-C-HIGHER-R2-DIRECT",
+        "TCV02-N02-C-HIGHER-R3-DIRECT"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N02-C-LOWER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N02-C-LOWER-R1-DIRECT",
+        "TCV02-N02-C-LOWER-R2-DIRECT",
+        "TCV02-N02-C-LOWER-R3-DIRECT"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N03-A-HIGHER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N03-A-HIGHER-R1-DIRECT",
+        "TCV02-N03-A-HIGHER-R2-DIRECT",
+        "TCV02-N03-A-HIGHER-R3-DIRECT"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N03-A-LOWER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N03-A-LOWER-R1-DIRECT",
+        "TCV02-N03-A-LOWER-R2-DIRECT",
+        "TCV02-N03-A-LOWER-R3-DIRECT"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N03-B-HIGHER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N03-B-HIGHER-R1-DIRECT",
+        "TCV02-N03-B-HIGHER-R2-DIRECT",
+        "TCV02-N03-B-HIGHER-R3-DIRECT"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N03-B-LOWER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N03-B-LOWER-R1-DIRECT",
+        "TCV02-N03-B-LOWER-R2-DIRECT",
+        "TCV02-N03-B-LOWER-R3-DIRECT"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N03-C-HIGHER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N03-C-HIGHER-R1-DIRECT",
+        "TCV02-N03-C-HIGHER-R2-DIRECT",
+        "TCV02-N03-C-HIGHER-R3-DIRECT"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N03-C-LOWER",
+      "arm": "DIRECT",
+      "slots": [
+        "TCV02-N03-C-LOWER-R1-DIRECT",
+        "TCV02-N03-C-LOWER-R2-DIRECT",
+        "TCV02-N03-C-LOWER-R3-DIRECT"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE",
+        "NOT_APPLICABLE"
+      ],
+      "comparisons": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "key": "N01-A-HIGHER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N01-A-HIGHER-R1-COMPARE",
+        "TCV02-N01-A-HIGHER-R2-COMPARE",
+        "TCV02-N01-A-HIGHER-R3-COMPARE"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N01-A-LOWER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N01-A-LOWER-R1-COMPARE",
+        "TCV02-N01-A-LOWER-R2-COMPARE",
+        "TCV02-N01-A-LOWER-R3-COMPARE"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N01-B-HIGHER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N01-B-HIGHER-R1-COMPARE",
+        "TCV02-N01-B-HIGHER-R2-COMPARE",
+        "TCV02-N01-B-HIGHER-R3-COMPARE"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N01-B-LOWER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N01-B-LOWER-R1-COMPARE",
+        "TCV02-N01-B-LOWER-R2-COMPARE",
+        "TCV02-N01-B-LOWER-R3-COMPARE"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N01-C-HIGHER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N01-C-HIGHER-R1-COMPARE",
+        "TCV02-N01-C-HIGHER-R2-COMPARE",
+        "TCV02-N01-C-HIGHER-R3-COMPARE"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P767912cb"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N01-C-LOWER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N01-C-LOWER-R1-COMPARE",
+        "TCV02-N01-C-LOWER-R2-COMPARE",
+        "TCV02-N01-C-LOWER-R3-COMPARE"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Pd3c705d8"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N02-A-HIGHER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N02-A-HIGHER-R1-COMPARE",
+        "TCV02-N02-A-HIGHER-R2-COMPARE",
+        "TCV02-N02-A-HIGHER-R3-COMPARE"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N02-A-LOWER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N02-A-LOWER-R1-COMPARE",
+        "TCV02-N02-A-LOWER-R2-COMPARE",
+        "TCV02-N02-A-LOWER-R3-COMPARE"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N02-B-HIGHER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N02-B-HIGHER-R1-COMPARE",
+        "TCV02-N02-B-HIGHER-R2-COMPARE",
+        "TCV02-N02-B-HIGHER-R3-COMPARE"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N02-B-LOWER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N02-B-LOWER-R1-COMPARE",
+        "TCV02-N02-B-LOWER-R2-COMPARE",
+        "TCV02-N02-B-LOWER-R3-COMPARE"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N02-C-HIGHER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N02-C-HIGHER-R1-COMPARE",
+        "TCV02-N02-C-HIGHER-R2-COMPARE",
+        "TCV02-N02-C-HIGHER-R3-COMPARE"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P64e80a12"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N02-C-LOWER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N02-C-LOWER-R1-COMPARE",
+        "TCV02-N02-C-LOWER-R2-COMPARE",
+        "TCV02-N02-C-LOWER-R3-COMPARE"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "Ped3cef8a"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N03-A-HIGHER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N03-A-HIGHER-R1-COMPARE",
+        "TCV02-N03-A-HIGHER-R2-COMPARE",
+        "TCV02-N03-A-HIGHER-R3-COMPARE"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N03-A-LOWER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N03-A-LOWER-R1-COMPARE",
+        "TCV02-N03-A-LOWER-R2-COMPARE",
+        "TCV02-N03-A-LOWER-R3-COMPARE"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N03-B-HIGHER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N03-B-HIGHER-R1-COMPARE",
+        "TCV02-N03-B-HIGHER-R2-COMPARE",
+        "TCV02-N03-B-HIGHER-R3-COMPARE"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N03-B-LOWER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N03-B-LOWER-R1-COMPARE",
+        "TCV02-N03-B-LOWER-R2-COMPARE",
+        "TCV02-N03-B-LOWER-R3-COMPARE"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N03-C-HIGHER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N03-C-HIGHER-R1-COMPARE",
+        "TCV02-N03-C-HIGHER-R2-COMPARE",
+        "TCV02-N03-C-HIGHER-R3-COMPARE"
+      ],
+      "decisions": [
+        "ACCEPT",
+        "ACCEPT",
+        "ACCEPT"
+      ],
+      "vote_records": [
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        },
+        {
+          "decision": "ACCEPT",
+          "proposal_id": "P5cbc89f3"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    },
+    {
+      "key": "N03-C-LOWER",
+      "arm": "COMPARE",
+      "slots": [
+        "TCV02-N03-C-LOWER-R1-COMPARE",
+        "TCV02-N03-C-LOWER-R2-COMPARE",
+        "TCV02-N03-C-LOWER-R3-COMPARE"
+      ],
+      "decisions": [
+        "HOLD",
+        "HOLD",
+        "HOLD"
+      ],
+      "vote_records": [
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        },
+        {
+          "decision": "HOLD",
+          "proposal_id": "P7ec2efac"
+        }
+      ],
+      "vote_correct": [
+        true,
+        true,
+        true
+      ],
+      "strict": [
+        true,
+        true,
+        true
+      ],
+      "vote_class": "ALL_CORRECT",
+      "strict_class": "ALL_CORRECT",
+      "identical_decisions": true,
+      "identical_votes": true,
+      "diagnostic_classes": [
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT",
+        "COMPARISON_CORRECT_VOTE_CORRECT"
+      ],
+      "comparisons": [
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        },
+        {
+          "binding": true,
+          "comparison_before_vote": true,
+          "correct": true,
+          "relation": true,
+          "vote_consistent": true
+        }
+      ]
+    }
+  ]
+}

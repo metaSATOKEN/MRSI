@@ -1,0 +1,3313 @@
+{
+  "kind": "INDEPENDENT_OFFLINE_SOURCE_TRANSPORT_AND_RAW_ANSWER_AUDIT",
+  "source_files_checked": 54,
+  "planned_slots": 144,
+  "generated_updates": 72,
+  "generated_reads": 35,
+  "dependent_missing": 37,
+  "all_generated_eos": true,
+  "exact_saved_memory_to_read_inputs": 35,
+  "exact_readout_responses": 35,
+  "exact_readout_fields": 140,
+  "accepted_private_customer_exact": 35,
+  "accepted_private_observation_exact": 35,
+  "accepted_shared_rows_match_input": 70,
+  "accepted_latest_shared_rows": 59,
+  "accepted_joint_exact": 24,
+  "accepted_latest_channel_correct": 25,
+  "failure_types": {
+    "OLD_ROW_RETAINED": 10,
+    "LATE_NOTICE_ROLLBACK": 1
+  },
+  "fence_types": {
+    "REWRITE": 25,
+    "SELECT": 12
+  },
+  "methods": {
+    "REWRITE": {
+      "REPAIR": {
+        "joint": {
+          "correct": 2,
+          "incorrect": 5,
+          "unresolved": 13,
+          "n": 20
+        },
+        "end_to_end": {
+          "correct": 2,
+          "incorrect": 5,
+          "unresolved": 13,
+          "n": 20
+        },
+        "accepted": 7,
+        "fenced": 13,
+        "by_repeat": {
+          "1": {
+            "correct": 2,
+            "incorrect": 3,
+            "unresolved": 5,
+            "n": 10
+          },
+          "2": {
+            "correct": 0,
+            "incorrect": 2,
+            "unresolved": 8,
+            "n": 10
+          }
+        }
+      },
+      "GUARD": {
+        "joint": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 12,
+          "n": 16
+        },
+        "end_to_end": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 12,
+          "n": 16
+        },
+        "accepted": 4,
+        "fenced": 12,
+        "by_repeat": {
+          "1": {
+            "correct": 2,
+            "incorrect": 0,
+            "unresolved": 6,
+            "n": 8
+          },
+          "2": {
+            "correct": 2,
+            "incorrect": 0,
+            "unresolved": 6,
+            "n": 8
+          }
+        }
+      }
+    },
+    "SELECT": {
+      "REPAIR": {
+        "joint": {
+          "correct": 9,
+          "incorrect": 5,
+          "unresolved": 6,
+          "n": 20
+        },
+        "end_to_end": {
+          "correct": 9,
+          "incorrect": 5,
+          "unresolved": 6,
+          "n": 20
+        },
+        "accepted": 14,
+        "fenced": 6,
+        "by_repeat": {
+          "1": {
+            "correct": 6,
+            "incorrect": 2,
+            "unresolved": 2,
+            "n": 10
+          },
+          "2": {
+            "correct": 3,
+            "incorrect": 3,
+            "unresolved": 4,
+            "n": 10
+          }
+        }
+      },
+      "GUARD": {
+        "joint": {
+          "correct": 9,
+          "incorrect": 1,
+          "unresolved": 6,
+          "n": 16
+        },
+        "end_to_end": {
+          "correct": 9,
+          "incorrect": 1,
+          "unresolved": 6,
+          "n": 16
+        },
+        "accepted": 10,
+        "fenced": 6,
+        "by_repeat": {
+          "1": {
+            "correct": 5,
+            "incorrect": 1,
+            "unresolved": 2,
+            "n": 8
+          },
+          "2": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 4,
+            "n": 8
+          }
+        }
+      }
+    }
+  },
+  "paired": {
+    "REPAIR": {
+      "False->False": 3,
+      "None->False": 2,
+      "False->True": 2,
+      "None->None": 6,
+      "None->True": 5,
+      "True->True": 2
+    },
+    "GUARD": {
+      "None->True": 6,
+      "True->True": 3,
+      "None->None": 6,
+      "True->False": 1
+    }
+  },
+  "runtime": {
+    "elapsed_seconds": 886.7708899640002,
+    "generation_seconds": 864.2839679760045,
+    "other_seconds": 22.48692198799563
+  },
+  "environment": {
+    "capability": [
+      12,
+      0
+    ],
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "driver": "580.82.07",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "packages": {
+      "accelerate": "1.15.0",
+      "causal-conv1d": null,
+      "fla-core": null,
+      "flash-linear-attention": null,
+      "huggingface-hub": "1.29.0",
+      "kernels": null,
+      "numpy": "2.1.3",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.23.1",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.17.0",
+      "triton": "3.6.0"
+    },
+    "python": "3.13.15",
+    "total_vram": 101974081536
+  },
+  "responses": [
+    {
+      "case": "UR01-R08",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R08-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R08-R1-REWRITE",
+      "replicate": 1,
+      "seed": 1957095175,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1170,
+      "output_tokens": 276,
+      "output_bytes": 670,
+      "generation_seconds": 14.874168454000028,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R08",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R08-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R08-R1-SELECT",
+      "replicate": 1,
+      "seed": 1957095175,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1016,
+      "output_tokens": 153,
+      "output_bytes": 342,
+      "generation_seconds": 8.05992949100073,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R08",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-R08-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-R08-R1-SELECT-READ",
+      "pipeline": "UR01-R08-R1-SELECT",
+      "replicate": 1,
+      "seed": 574357860,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 438,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.428997824000362,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G02",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G02-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-G02-R1-REWRITE",
+      "replicate": 1,
+      "seed": 767047052,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1156,
+      "output_tokens": 273,
+      "output_bytes": 666,
+      "generation_seconds": 14.249432450999848,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G02",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G02-R1-SELECT-UPDATE",
+      "pipeline": "UR01-G02-R1-SELECT",
+      "replicate": 1,
+      "seed": 767047052,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1002,
+      "output_tokens": 153,
+      "output_bytes": 342,
+      "generation_seconds": 8.037054252000416,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G02",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-G02-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-G02-R1-SELECT-READ",
+      "pipeline": "UR01-G02-R1-SELECT",
+      "replicate": 1,
+      "seed": 616646345,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 434,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4281463190000068,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R10",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R10-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R10-R1-SELECT",
+      "replicate": 1,
+      "seed": 643995465,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1008,
+      "output_tokens": 152,
+      "output_bytes": 346,
+      "generation_seconds": 7.987168863000079,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R10",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R10-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R10-R1-REWRITE",
+      "replicate": 1,
+      "seed": 643995465,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1162,
+      "output_tokens": 268,
+      "output_bytes": 666,
+      "generation_seconds": 13.998139659000117,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R10",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R10-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-R10-R1-SELECT-READ",
+      "pipeline": "UR01-R10-R1-SELECT",
+      "replicate": 1,
+      "seed": 806355083,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 434,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "generation_seconds": 1.4793137200003912,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R10",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-R10-R1-REWRITE-UPDATE"
+      ],
+      "id": "UR01-R10-R1-REWRITE-READ",
+      "pipeline": "UR01-R10-R1-REWRITE",
+      "replicate": 1,
+      "seed": 806355083,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 434,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "generation_seconds": 1.4794125989992608,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G04",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G04-R1-SELECT-UPDATE",
+      "pipeline": "UR01-G04-R1-SELECT",
+      "replicate": 1,
+      "seed": 745670423,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 999,
+      "output_tokens": 152,
+      "output_bytes": 346,
+      "generation_seconds": 7.989091401999758,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G04",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G04-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-G04-R1-REWRITE",
+      "replicate": 1,
+      "seed": 745670423,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1153,
+      "output_tokens": 268,
+      "output_bytes": 666,
+      "generation_seconds": 13.994798379000713,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G04",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-G04-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-G04-R1-SELECT-READ",
+      "pipeline": "UR01-G04-R1-SELECT",
+      "replicate": 1,
+      "seed": 1653168415,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 432,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4287133389998417,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R09",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R09-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R09-R1-REWRITE",
+      "replicate": 1,
+      "seed": 2081542961,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1166,
+      "output_tokens": 276,
+      "output_bytes": 682,
+      "generation_seconds": 14.40717513599975,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R09",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R09-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R09-R1-SELECT",
+      "replicate": 1,
+      "seed": 2081542961,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1012,
+      "output_tokens": 159,
+      "output_bytes": 358,
+      "generation_seconds": 8.348378239999874,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G05",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G05-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-G05-R1-REWRITE",
+      "replicate": 1,
+      "seed": 2063968135,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1144,
+      "output_tokens": 263,
+      "output_bytes": 658,
+      "generation_seconds": 13.726705670999763,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G05",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G05-R1-SELECT-UPDATE",
+      "pipeline": "UR01-G05-R1-SELECT",
+      "replicate": 1,
+      "seed": 2063968135,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 990,
+      "output_tokens": 150,
+      "output_bytes": 342,
+      "generation_seconds": 7.8864256529996055,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G05",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-G05-R1-REWRITE-UPDATE"
+      ],
+      "id": "UR01-G05-R1-REWRITE-READ",
+      "pipeline": "UR01-G05-R1-REWRITE",
+      "replicate": 1,
+      "seed": 1463316742,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 429,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.430786789999729,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G05",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-G05-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-G05-R1-SELECT-READ",
+      "pipeline": "UR01-G05-R1-SELECT",
+      "replicate": 1,
+      "seed": 1463316742,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 429,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4288226500002565,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R04",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R04-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R04-R1-SELECT",
+      "replicate": 1,
+      "seed": 915505192,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1009,
+      "output_tokens": 151,
+      "output_bytes": 346,
+      "generation_seconds": 7.939209533000394,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R04",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R04-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R04-R1-REWRITE",
+      "replicate": 1,
+      "seed": 915505192,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1163,
+      "output_tokens": 272,
+      "output_bytes": 674,
+      "generation_seconds": 14.202790697000637,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R04",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R04-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-R04-R1-SELECT-READ",
+      "pipeline": "UR01-R04-R1-SELECT",
+      "replicate": 1,
+      "seed": 1140858142,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4287416900006065,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G01",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G01-R1-SELECT-UPDATE",
+      "pipeline": "UR01-G01-R1-SELECT",
+      "replicate": 1,
+      "seed": 1170189399,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1003,
+      "output_tokens": 149,
+      "output_bytes": 342,
+      "generation_seconds": 7.8337905230000615,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G01",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G01-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-G01-R1-REWRITE",
+      "replicate": 1,
+      "seed": 1170189399,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1157,
+      "output_tokens": 270,
+      "output_bytes": 670,
+      "generation_seconds": 14.094424918000186,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G01",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-G01-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-G01-R1-SELECT-READ",
+      "pipeline": "UR01-G01-R1-SELECT",
+      "replicate": 1,
+      "seed": 1915367654,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 430,
+      "output_tokens": 64,
+      "output_bytes": 152,
+      "generation_seconds": 3.3675607759996637,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R07",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R07-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R07-R1-REWRITE",
+      "replicate": 1,
+      "seed": 367579342,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1158,
+      "output_tokens": 268,
+      "output_bytes": 658,
+      "generation_seconds": 13.989911779000067,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R07",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R07-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R07-R1-SELECT",
+      "replicate": 1,
+      "seed": 367579342,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1004,
+      "output_tokens": 152,
+      "output_bytes": 342,
+      "generation_seconds": 7.986156772999493,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R07",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R07-R1-REWRITE-UPDATE"
+      ],
+      "id": "UR01-R07-R1-REWRITE-READ",
+      "pipeline": "UR01-R07-R1-REWRITE",
+      "replicate": 1,
+      "seed": 274803252,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4288194199998543,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R07",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-R07-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-R07-R1-SELECT-READ",
+      "pipeline": "UR01-R07-R1-SELECT",
+      "replicate": 1,
+      "seed": 274803252,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4287029900006019,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G08",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G08-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-G08-R1-REWRITE",
+      "replicate": 1,
+      "seed": 907383365,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1153,
+      "output_tokens": 267,
+      "output_bytes": 674,
+      "generation_seconds": 13.941694479999569,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G08",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G08-R1-SELECT-UPDATE",
+      "pipeline": "UR01-G08-R1-SELECT",
+      "replicate": 1,
+      "seed": 907383365,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 999,
+      "output_tokens": 154,
+      "output_bytes": 358,
+      "generation_seconds": 8.089246270999865,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R02",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R02-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R02-R1-SELECT",
+      "replicate": 1,
+      "seed": 565809783,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1004,
+      "output_tokens": 154,
+      "output_bytes": 346,
+      "generation_seconds": 8.090319281999655,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R02",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R02-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R02-R1-REWRITE",
+      "replicate": 1,
+      "seed": 565809783,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1158,
+      "output_tokens": 268,
+      "output_bytes": 666,
+      "generation_seconds": 13.991941408999992,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R02",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R02-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-R02-R1-SELECT-READ",
+      "pipeline": "UR01-R02-R1-SELECT",
+      "replicate": 1,
+      "seed": 1264511996,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 436,
+      "output_tokens": 65,
+      "output_bytes": 156,
+      "generation_seconds": 3.4186402160003126,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R02",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-R02-R1-REWRITE-UPDATE"
+      ],
+      "id": "UR01-R02-R1-REWRITE-READ",
+      "pipeline": "UR01-R02-R1-REWRITE",
+      "replicate": 1,
+      "seed": 1264511996,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 434,
+      "output_tokens": 65,
+      "output_bytes": 156,
+      "generation_seconds": 3.4184207049993347,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G03",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G03-R1-SELECT-UPDATE",
+      "pipeline": "UR01-G03-R1-SELECT",
+      "replicate": 1,
+      "seed": 716460590,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1003,
+      "output_tokens": 151,
+      "output_bytes": 346,
+      "generation_seconds": 7.937218711999776,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G03",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G03-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-G03-R1-REWRITE",
+      "replicate": 1,
+      "seed": 716460590,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1157,
+      "output_tokens": 267,
+      "output_bytes": 662,
+      "generation_seconds": 13.94073526900047,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G03",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-G03-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-G03-R1-SELECT-READ",
+      "pipeline": "UR01-G03-R1-SELECT",
+      "replicate": 1,
+      "seed": 811214133,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 432,
+      "output_tokens": 65,
+      "output_bytes": 156,
+      "generation_seconds": 3.418694805999621,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G03",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-G03-R1-REWRITE-UPDATE"
+      ],
+      "id": "UR01-G03-R1-REWRITE-READ",
+      "pipeline": "UR01-G03-R1-REWRITE",
+      "replicate": 1,
+      "seed": 811214133,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 432,
+      "output_tokens": 64,
+      "output_bytes": 152,
+      "generation_seconds": 3.3677362960006576,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R05-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R05-R1-REWRITE",
+      "replicate": 1,
+      "seed": 620574774,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1154,
+      "output_tokens": 267,
+      "output_bytes": 658,
+      "generation_seconds": 13.940028158999667,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R05-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R05-R1-SELECT",
+      "replicate": 1,
+      "seed": 620574774,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1000,
+      "output_tokens": 151,
+      "output_bytes": 342,
+      "generation_seconds": 7.935847662999549,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R05-R1-REWRITE-UPDATE"
+      ],
+      "id": "UR01-R05-R1-REWRITE-READ",
+      "pipeline": "UR01-R05-R1-REWRITE",
+      "replicate": 1,
+      "seed": 986497121,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4285709900004804,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-R05-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-R05-R1-SELECT-READ",
+      "pipeline": "UR01-R05-R1-SELECT",
+      "replicate": 1,
+      "seed": 986497121,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4296769100001256,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G06",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G06-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-G06-R1-REWRITE",
+      "replicate": 1,
+      "seed": 1531671864,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1163,
+      "output_tokens": 275,
+      "output_bytes": 678,
+      "generation_seconds": 14.352508627000134,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G06",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G06-R1-SELECT-UPDATE",
+      "pipeline": "UR01-G06-R1-SELECT",
+      "replicate": 1,
+      "seed": 1531671864,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1009,
+      "output_tokens": 158,
+      "output_bytes": 358,
+      "generation_seconds": 8.29498927000077,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R01",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R01-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R01-R1-SELECT",
+      "replicate": 1,
+      "seed": 224108021,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1018,
+      "output_tokens": 152,
+      "output_bytes": 346,
+      "generation_seconds": 7.986258712000563,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R01",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R01-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R01-R1-REWRITE",
+      "replicate": 1,
+      "seed": 224108021,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1172,
+      "output_tokens": 272,
+      "output_bytes": 670,
+      "generation_seconds": 14.198188396999285,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R01",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R01-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-R01-R1-SELECT-READ",
+      "pipeline": "UR01-R01-R1-SELECT",
+      "replicate": 1,
+      "seed": 1011970580,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 437,
+      "output_tokens": 28,
+      "output_bytes": 98,
+      "generation_seconds": 1.5308440690005227,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R01",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-R01-R1-REWRITE-UPDATE"
+      ],
+      "id": "UR01-R01-R1-REWRITE-READ",
+      "pipeline": "UR01-R01-R1-REWRITE",
+      "replicate": 1,
+      "seed": 1011970580,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 437,
+      "output_tokens": 28,
+      "output_bytes": 98,
+      "generation_seconds": 1.530698919000315,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G07",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G07-R1-SELECT-UPDATE",
+      "pipeline": "UR01-G07-R1-SELECT",
+      "replicate": 1,
+      "seed": 446147817,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1009,
+      "output_tokens": 152,
+      "output_bytes": 342,
+      "generation_seconds": 7.987239512000087,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G07",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G07-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-G07-R1-REWRITE",
+      "replicate": 1,
+      "seed": 446147817,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1163,
+      "output_tokens": 274,
+      "output_bytes": 670,
+      "generation_seconds": 14.298091857000145,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G07",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-G07-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-G07-R1-SELECT-READ",
+      "pipeline": "UR01-G07-R1-SELECT",
+      "replicate": 1,
+      "seed": 1264588112,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 434,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4276273100003891,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R03",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R03-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R03-R1-REWRITE",
+      "replicate": 1,
+      "seed": 2036821339,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1159,
+      "output_tokens": 273,
+      "output_bytes": 670,
+      "generation_seconds": 14.247466057000565,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R03",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R03-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R03-R1-SELECT",
+      "replicate": 1,
+      "seed": 2036821339,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1005,
+      "output_tokens": 157,
+      "output_bytes": 354,
+      "generation_seconds": 8.241269110000758,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R06",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R06-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R06-R1-SELECT",
+      "replicate": 1,
+      "seed": 1053693802,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1004,
+      "output_tokens": 152,
+      "output_bytes": 346,
+      "generation_seconds": 7.985342602999481,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R06",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R06-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R06-R1-REWRITE",
+      "replicate": 1,
+      "seed": 1053693802,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1158,
+      "output_tokens": 273,
+      "output_bytes": 678,
+      "generation_seconds": 14.244972808000057,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R06",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R06-R1-SELECT-UPDATE"
+      ],
+      "id": "UR01-R06-R1-SELECT-READ",
+      "pipeline": "UR01-R06-R1-SELECT",
+      "replicate": 1,
+      "seed": 998291564,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 433,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "generation_seconds": 1.4796632400002636,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R08",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R08-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R08-R2-SELECT",
+      "replicate": 2,
+      "seed": 1503132138,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1016,
+      "output_tokens": 158,
+      "output_bytes": 354,
+      "generation_seconds": 8.292797319999409,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R08",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R08-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R08-R2-REWRITE",
+      "replicate": 2,
+      "seed": 1503132138,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1170,
+      "output_tokens": 276,
+      "output_bytes": 670,
+      "generation_seconds": 14.401513486000113,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G02",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G02-R2-SELECT-UPDATE",
+      "pipeline": "UR01-G02-R2-SELECT",
+      "replicate": 2,
+      "seed": 1392827518,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1002,
+      "output_tokens": 158,
+      "output_bytes": 354,
+      "generation_seconds": 8.292823560000215,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G02",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G02-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-G02-R2-REWRITE",
+      "replicate": 2,
+      "seed": 1392827518,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1156,
+      "output_tokens": 273,
+      "output_bytes": 666,
+      "generation_seconds": 14.250895477000086,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R10",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R10-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R10-R2-REWRITE",
+      "replicate": 2,
+      "seed": 1493922297,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1162,
+      "output_tokens": 273,
+      "output_bytes": 678,
+      "generation_seconds": 14.247491427000568,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R10",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R10-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R10-R2-SELECT",
+      "replicate": 2,
+      "seed": 1493922297,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1008,
+      "output_tokens": 157,
+      "output_bytes": 358,
+      "generation_seconds": 8.240234460000465,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G04",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G04-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-G04-R2-REWRITE",
+      "replicate": 2,
+      "seed": 2056861620,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1153,
+      "output_tokens": 268,
+      "output_bytes": 666,
+      "generation_seconds": 13.988828198999727,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G04",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G04-R2-SELECT-UPDATE",
+      "pipeline": "UR01-G04-R2-SELECT",
+      "replicate": 2,
+      "seed": 2056861620,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 999,
+      "output_tokens": 157,
+      "output_bytes": 358,
+      "generation_seconds": 8.240035370000442,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R09",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R09-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R09-R2-SELECT",
+      "replicate": 2,
+      "seed": 940759048,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1012,
+      "output_tokens": 154,
+      "output_bytes": 346,
+      "generation_seconds": 8.087547752000319,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R09",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R09-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R09-R2-REWRITE",
+      "replicate": 2,
+      "seed": 940759048,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1166,
+      "output_tokens": 276,
+      "output_bytes": 682,
+      "generation_seconds": 14.398043215999678,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R09",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R09-R2-SELECT-UPDATE"
+      ],
+      "id": "UR01-R09-R2-SELECT-READ",
+      "pipeline": "UR01-R09-R2-SELECT",
+      "replicate": 2,
+      "seed": 328975024,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 438,
+      "output_tokens": 66,
+      "output_bytes": 160,
+      "generation_seconds": 3.4690310549995047,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G05",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G05-R2-SELECT-UPDATE",
+      "pipeline": "UR01-G05-R2-SELECT",
+      "replicate": 2,
+      "seed": 1576046720,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 990,
+      "output_tokens": 150,
+      "output_bytes": 342,
+      "generation_seconds": 7.8815583039995545,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G05",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G05-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-G05-R2-REWRITE",
+      "replicate": 2,
+      "seed": 1576046720,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1144,
+      "output_tokens": 268,
+      "output_bytes": 670,
+      "generation_seconds": 13.977430009999807,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G05",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-G05-R2-SELECT-UPDATE"
+      ],
+      "id": "UR01-G05-R2-SELECT-READ",
+      "pipeline": "UR01-G05-R2-SELECT",
+      "replicate": 2,
+      "seed": 1875768317,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 429,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4284744000005958,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R04",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R04-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R04-R2-REWRITE",
+      "replicate": 2,
+      "seed": 1620532718,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1163,
+      "output_tokens": 272,
+      "output_bytes": 674,
+      "generation_seconds": 14.19784701699973,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R04",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R04-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R04-R2-SELECT",
+      "replicate": 2,
+      "seed": 1620532718,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1009,
+      "output_tokens": 156,
+      "output_bytes": 358,
+      "generation_seconds": 8.192770081000162,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G01",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G01-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-G01-R2-REWRITE",
+      "replicate": 2,
+      "seed": 503869574,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1157,
+      "output_tokens": 265,
+      "output_bytes": 658,
+      "generation_seconds": 13.836866980000195,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G01",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G01-R2-SELECT-UPDATE",
+      "pipeline": "UR01-G01-R2-SELECT",
+      "replicate": 2,
+      "seed": 503869574,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1003,
+      "output_tokens": 149,
+      "output_bytes": 342,
+      "generation_seconds": 7.8342538840006455,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G01",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-G01-R2-REWRITE-UPDATE"
+      ],
+      "id": "UR01-G01-R2-REWRITE-READ",
+      "pipeline": "UR01-G01-R2-REWRITE",
+      "replicate": 2,
+      "seed": 353233248,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 430,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4285252290001154,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G01",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-G01-R2-SELECT-UPDATE"
+      ],
+      "id": "UR01-G01-R2-SELECT-READ",
+      "pipeline": "UR01-G01-R2-SELECT",
+      "replicate": 2,
+      "seed": 353233248,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 430,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4285160599993105,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R07",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R07-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R07-R2-SELECT",
+      "replicate": 2,
+      "seed": 1846765554,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1004,
+      "output_tokens": 152,
+      "output_bytes": 342,
+      "generation_seconds": 7.986323852000169,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R07",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R07-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R07-R2-REWRITE",
+      "replicate": 2,
+      "seed": 1846765554,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1158,
+      "output_tokens": 273,
+      "output_bytes": 670,
+      "generation_seconds": 14.246530136999354,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R07",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R07-R2-SELECT-UPDATE"
+      ],
+      "id": "UR01-R07-R2-SELECT-READ",
+      "pipeline": "UR01-R07-R2-SELECT",
+      "replicate": 2,
+      "seed": 1565530258,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 433,
+      "output_tokens": 64,
+      "output_bytes": 152,
+      "generation_seconds": 3.3676791660000163,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G08",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G08-R2-SELECT-UPDATE",
+      "pipeline": "UR01-G08-R2-SELECT",
+      "replicate": 2,
+      "seed": 1632889584,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 999,
+      "output_tokens": 154,
+      "output_bytes": 358,
+      "generation_seconds": 8.086994612000126,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G08",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G08-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-G08-R2-REWRITE",
+      "replicate": 2,
+      "seed": 1632889584,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1153,
+      "output_tokens": 267,
+      "output_bytes": 674,
+      "generation_seconds": 13.937613078999675,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R02",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R02-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R02-R2-REWRITE",
+      "replicate": 2,
+      "seed": 808154475,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1158,
+      "output_tokens": 268,
+      "output_bytes": 666,
+      "generation_seconds": 13.988905618999524,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R02",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R02-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R02-R2-SELECT",
+      "replicate": 2,
+      "seed": 808154475,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1004,
+      "output_tokens": 154,
+      "output_bytes": 346,
+      "generation_seconds": 8.088237711000147,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R02",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R02-R2-REWRITE-UPDATE"
+      ],
+      "id": "UR01-R02-R2-REWRITE-READ",
+      "pipeline": "UR01-R02-R2-REWRITE",
+      "replicate": 2,
+      "seed": 1218036676,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 434,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "generation_seconds": 1.4801511499999833,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R02",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-R02-R2-SELECT-UPDATE"
+      ],
+      "id": "UR01-R02-R2-SELECT-READ",
+      "pipeline": "UR01-R02-R2-SELECT",
+      "replicate": 2,
+      "seed": 1218036676,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 436,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "generation_seconds": 1.4786583499999324,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G03",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G03-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-G03-R2-REWRITE",
+      "replicate": 2,
+      "seed": 703014384,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1157,
+      "output_tokens": 272,
+      "output_bytes": 674,
+      "generation_seconds": 14.193155867000314,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G03",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G03-R2-SELECT-UPDATE",
+      "pipeline": "UR01-G03-R2-SELECT",
+      "replicate": 2,
+      "seed": 703014384,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1003,
+      "output_tokens": 151,
+      "output_bytes": 346,
+      "generation_seconds": 7.936087813000086,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G03",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-G03-R2-SELECT-UPDATE"
+      ],
+      "id": "UR01-G03-R2-SELECT-READ",
+      "pipeline": "UR01-G03-R2-SELECT",
+      "replicate": 2,
+      "seed": 1209441162,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 432,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.428414769000483,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R05-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R05-R2-SELECT",
+      "replicate": 2,
+      "seed": 2004828227,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1000,
+      "output_tokens": 151,
+      "output_bytes": 342,
+      "generation_seconds": 7.9352688119997765,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R05-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R05-R2-REWRITE",
+      "replicate": 2,
+      "seed": 2004828227,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1154,
+      "output_tokens": 267,
+      "output_bytes": 658,
+      "generation_seconds": 13.940115569999762,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-R05-R2-SELECT-UPDATE"
+      ],
+      "id": "UR01-R05-R2-SELECT-READ",
+      "pipeline": "UR01-R05-R2-SELECT",
+      "replicate": 2,
+      "seed": 2042209581,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4283937500003958,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-R05-R2-REWRITE-UPDATE"
+      ],
+      "id": "UR01-R05-R2-REWRITE-READ",
+      "pipeline": "UR01-R05-R2-REWRITE",
+      "replicate": 2,
+      "seed": 2042209581,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4284061200005453,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G06",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G06-R2-SELECT-UPDATE",
+      "pipeline": "UR01-G06-R2-SELECT",
+      "replicate": 2,
+      "seed": 1170872474,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1009,
+      "output_tokens": 158,
+      "output_bytes": 358,
+      "generation_seconds": 8.29436410100061,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-G06",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G06-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-G06-R2-REWRITE",
+      "replicate": 2,
+      "seed": 1170872474,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1163,
+      "output_tokens": 275,
+      "output_bytes": 670,
+      "generation_seconds": 14.348958056999436,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R01",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R01-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R01-R2-REWRITE",
+      "replicate": 2,
+      "seed": 915638027,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1172,
+      "output_tokens": 277,
+      "output_bytes": 682,
+      "generation_seconds": 14.448674014999597,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R01",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R01-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R01-R2-SELECT",
+      "replicate": 2,
+      "seed": 915638027,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1018,
+      "output_tokens": 152,
+      "output_bytes": 346,
+      "generation_seconds": 7.984263232999183,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R01",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-R01-R2-SELECT-UPDATE"
+      ],
+      "id": "UR01-R01-R2-SELECT-READ",
+      "pipeline": "UR01-R01-R2-SELECT",
+      "replicate": 2,
+      "seed": 715208847,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 437,
+      "output_tokens": 28,
+      "output_bytes": 98,
+      "generation_seconds": 1.5302539490003255,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G07",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G07-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-G07-R2-REWRITE",
+      "replicate": 2,
+      "seed": 522739866,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1163,
+      "output_tokens": 269,
+      "output_bytes": 658,
+      "generation_seconds": 14.040700479000407,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G07",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-G07-R2-SELECT-UPDATE",
+      "pipeline": "UR01-G07-R2-SELECT",
+      "replicate": 2,
+      "seed": 522739866,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "input_tokens": 1009,
+      "output_tokens": 152,
+      "output_bytes": 342,
+      "generation_seconds": 7.986615091999738,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G07",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [
+        "UR01-G07-R2-REWRITE-UPDATE"
+      ],
+      "id": "UR01-G07-R2-REWRITE-READ",
+      "pipeline": "UR01-G07-R2-REWRITE",
+      "replicate": 2,
+      "seed": 422972217,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 434,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.4278344290005407,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-G07",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-G07-R2-SELECT-UPDATE"
+      ],
+      "id": "UR01-G07-R2-SELECT-READ",
+      "pipeline": "UR01-G07-R2-SELECT",
+      "replicate": 2,
+      "seed": 422972217,
+      "set": "GUARD",
+      "stage": "READ",
+      "input_tokens": 434,
+      "output_tokens": 26,
+      "output_bytes": 90,
+      "generation_seconds": 1.427670869999929,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R03",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R03-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R03-R2-SELECT",
+      "replicate": 2,
+      "seed": 678440369,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1005,
+      "output_tokens": 157,
+      "output_bytes": 354,
+      "generation_seconds": 8.243469389999518,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R03",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R03-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R03-R2-REWRITE",
+      "replicate": 2,
+      "seed": 678440369,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1159,
+      "output_tokens": 273,
+      "output_bytes": 670,
+      "generation_seconds": 14.249836656999832,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R06",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R06-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R06-R2-REWRITE",
+      "replicate": 2,
+      "seed": 205612424,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1158,
+      "output_tokens": 273,
+      "output_bytes": 678,
+      "generation_seconds": 14.249152966999645,
+      "status": "FORMAT_REJECT"
+    },
+    {
+      "case": "UR01-R06",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R06-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R06-R2-SELECT",
+      "replicate": 2,
+      "seed": 205612424,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "input_tokens": 1004,
+      "output_tokens": 152,
+      "output_bytes": 346,
+      "generation_seconds": 7.989360513000065,
+      "status": "EOS"
+    },
+    {
+      "case": "UR01-R06",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [
+        "UR01-R06-R2-SELECT-UPDATE"
+      ],
+      "id": "UR01-R06-R2-SELECT-READ",
+      "pipeline": "UR01-R06-R2-SELECT",
+      "replicate": 2,
+      "seed": 1023858265,
+      "set": "REPAIR",
+      "stage": "READ",
+      "input_tokens": 433,
+      "output_tokens": 27,
+      "output_bytes": 94,
+      "generation_seconds": 1.4796929100002671,
+      "status": "EOS"
+    }
+  ],
+  "semantic_problems": [
+    {
+      "case": "UR01-R02",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R02-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R02-R1-REWRITE",
+      "replicate": 1,
+      "seed": 565809783,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G31",
+      "notice_relation": "SELF",
+      "errors": {
+        "B": {
+          "got": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "RBC9FFC9ECA7014B",
+            "revision": 1
+          },
+          "expected": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R7BE2DF52784584B",
+            "paper": "NOT_ALL",
+            "revision": 2
+          },
+          "matching_input_locations": [
+            "GROUP.coverage.B"
+          ]
+        }
+      },
+      "kind": "OLD_ROW_RETAINED",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": false,
+        "channel_note": true,
+        "channel_output": "UNKNOWN",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    },
+    {
+      "case": "UR01-G03",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-G03-R1-SELECT-UPDATE",
+      "pipeline": "UR01-G03-R1-SELECT",
+      "replicate": 1,
+      "seed": 716460590,
+      "set": "GUARD",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G01",
+      "notice_relation": "PARTNER",
+      "errors": {
+        "A": {
+          "got": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R5E60E2B639F2DAC",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "expected": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R0BA1E40A1C18294",
+            "paper": "ALL",
+            "revision": 4
+          },
+          "matching_input_locations": [
+            "NOTICE"
+          ]
+        }
+      },
+      "kind": "LATE_NOTICE_ROLLBACK",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": true,
+        "channel_note": true,
+        "channel_output": "PAPER",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R05-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R05-R1-REWRITE",
+      "replicate": 1,
+      "seed": 620574774,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G58",
+      "notice_relation": "PARTNER",
+      "errors": {
+        "A": {
+          "got": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "R0CC0E04C12377FB",
+            "revision": 1
+          },
+          "expected": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "RAEECAB6EC38A874",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "matching_input_locations": [
+            "GROUP.coverage.A"
+          ]
+        }
+      },
+      "kind": "OLD_ROW_RETAINED",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": false,
+        "channel_note": true,
+        "channel_output": "DIGITAL",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R05-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R05-R1-SELECT",
+      "replicate": 1,
+      "seed": 620574774,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G58",
+      "notice_relation": "PARTNER",
+      "errors": {
+        "A": {
+          "got": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R0CC0E04C12377FB",
+            "paper": "NOT_ALL",
+            "revision": 1
+          },
+          "expected": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "RAEECAB6EC38A874",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "matching_input_locations": [
+            "GROUP.coverage.A"
+          ]
+        }
+      },
+      "kind": "OLD_ROW_RETAINED",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": false,
+        "channel_note": true,
+        "channel_output": "DIGITAL",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    },
+    {
+      "case": "UR01-R01",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R01-R1-SELECT-UPDATE",
+      "pipeline": "UR01-R01-R1-SELECT",
+      "replicate": 1,
+      "seed": 224108021,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G60",
+      "notice_relation": "PARTNER",
+      "errors": {
+        "A": {
+          "got": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "RB7D1987111B02F0",
+            "paper": "NOT_ALL",
+            "revision": 2
+          },
+          "expected": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R546A13A578E7075",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "matching_input_locations": [
+            "GROUP.coverage.A"
+          ]
+        }
+      },
+      "kind": "OLD_ROW_RETAINED",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": false,
+        "channel_note": true,
+        "channel_output": "UNKNOWN",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    },
+    {
+      "case": "UR01-R01",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R01-R1-REWRITE-UPDATE",
+      "pipeline": "UR01-R01-R1-REWRITE",
+      "replicate": 1,
+      "seed": 224108021,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G60",
+      "notice_relation": "PARTNER",
+      "errors": {
+        "A": {
+          "got": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "RB7D1987111B02F0",
+            "revision": 2
+          },
+          "expected": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R546A13A578E7075",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "matching_input_locations": [
+            "GROUP.coverage.A"
+          ]
+        }
+      },
+      "kind": "OLD_ROW_RETAINED",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": false,
+        "channel_note": true,
+        "channel_output": "UNKNOWN",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    },
+    {
+      "case": "UR01-R09",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R09-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R09-R2-SELECT",
+      "replicate": 2,
+      "seed": 940759048,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G55",
+      "notice_relation": "PARTNER",
+      "errors": {
+        "A": {
+          "got": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R3A72B1FCC8ACEAA",
+            "paper": "NOT_ALL",
+            "revision": 3
+          },
+          "expected": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R2B544B4380FFEF7",
+            "paper": "NOT_ALL",
+            "revision": 4
+          },
+          "matching_input_locations": [
+            "GROUP.coverage.A"
+          ]
+        }
+      },
+      "kind": "OLD_ROW_RETAINED",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": false,
+        "channel_note": true,
+        "channel_output": "UNKNOWN",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    },
+    {
+      "case": "UR01-R02",
+      "condition": "REWRITE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R02-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R02-R2-REWRITE",
+      "replicate": 2,
+      "seed": 808154475,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G31",
+      "notice_relation": "SELF",
+      "errors": {
+        "B": {
+          "got": {
+            "observer": "B",
+            "paper": "ALL",
+            "digital": "NOT_ALL",
+            "origin_id": "RBC9FFC9ECA7014B",
+            "revision": 1
+          },
+          "expected": {
+            "digital": "ALL",
+            "observer": "B",
+            "origin_id": "R7BE2DF52784584B",
+            "paper": "NOT_ALL",
+            "revision": 2
+          },
+          "matching_input_locations": [
+            "GROUP.coverage.B"
+          ]
+        }
+      },
+      "kind": "OLD_ROW_RETAINED",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": false,
+        "channel_note": true,
+        "channel_output": "UNKNOWN",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "SELECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "UR01-R05-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R05-R2-SELECT",
+      "replicate": 2,
+      "seed": 2004828227,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G58",
+      "notice_relation": "PARTNER",
+      "errors": {
+        "A": {
+          "got": {
+            "digital": "ALL",
+            "observer": "A",
+            "origin_id": "R0CC0E04C12377FB",
+            "paper": "NOT_ALL",
+            "revision": 1
+          },
+          "expected": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "RAEECAB6EC38A874",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "matching_input_locations": [
+            "GROUP.coverage.A"
+          ]
+        }
+      },
+      "kind": "OLD_ROW_RETAINED",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": false,
+        "channel_note": true,
+        "channel_output": "DIGITAL",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    },
+    {
+      "case": "UR01-R05",
+      "condition": "REWRITE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R05-R2-REWRITE-UPDATE",
+      "pipeline": "UR01-R05-R2-REWRITE",
+      "replicate": 2,
+      "seed": 2004828227,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G58",
+      "notice_relation": "PARTNER",
+      "errors": {
+        "A": {
+          "got": {
+            "observer": "A",
+            "paper": "NOT_ALL",
+            "digital": "ALL",
+            "origin_id": "R0CC0E04C12377FB",
+            "revision": 1
+          },
+          "expected": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "RAEECAB6EC38A874",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "matching_input_locations": [
+            "GROUP.coverage.A"
+          ]
+        }
+      },
+      "kind": "OLD_ROW_RETAINED",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": false,
+        "channel_note": true,
+        "channel_output": "DIGITAL",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    },
+    {
+      "case": "UR01-R01",
+      "condition": "SELECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "UR01-R01-R2-SELECT-UPDATE",
+      "pipeline": "UR01-R01-R2-SELECT",
+      "replicate": 2,
+      "seed": 915638027,
+      "set": "REPAIR",
+      "stage": "UPDATE",
+      "role": "B",
+      "source_group": "E1-G60",
+      "notice_relation": "PARTNER",
+      "errors": {
+        "A": {
+          "got": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "RB7D1987111B02F0",
+            "paper": "NOT_ALL",
+            "revision": 2
+          },
+          "expected": {
+            "digital": "NOT_ALL",
+            "observer": "A",
+            "origin_id": "R546A13A578E7075",
+            "paper": "ALL",
+            "revision": 3
+          },
+          "matching_input_locations": [
+            "GROUP.coverage.A"
+          ]
+        }
+      },
+      "kind": "OLD_ROW_RETAINED",
+      "preserved_private": true,
+      "read": {
+        "channel": true,
+        "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+        "channel_latest": false,
+        "channel_note": true,
+        "channel_output": "UNKNOWN",
+        "dependency_missing": false,
+        "errors": [],
+        "extracted_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        },
+        "extraction_applicable": true,
+        "fields": {
+          "A.digital": true,
+          "A.paper": true,
+          "B.digital": true,
+          "B.paper": true
+        },
+        "format_valid": true,
+        "four_exact": true,
+        "four_latest_exact": false,
+        "four_valid": true,
+        "parse_valid": true
+      },
+      "end_to_end_exact": false
+    }
+  ],
+  "fence_diagnostics": [
+    {
+      "id": "UR01-R08-R1-REWRITE-UPDATE",
+      "case": "UR01-R08",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "dbc388daffc74fde4407d81b04af6761ebb4cf587ed85b8e1faf3f305d2034d0",
+      "inner_sha256": "893087ed58c05f90938309e4f82f8f698895331afef90b5a5178ddf1a5f3857d",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G02-R1-REWRITE-UPDATE",
+      "case": "UR01-G02",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "ef20f74150a55edb8bb9934f31612ff9bf12515a59173de61aad78c181ff2522",
+      "inner_sha256": "26144b5c787be1566fa6a0d65d7cc0a913582c5902fe47b5a46197afbe30b4ba",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G04-R1-REWRITE-UPDATE",
+      "case": "UR01-G04",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "05c98ac4c50ad3499d72adc66eabdbd823c47280c1a7cd53e1d86675a1ee9e38",
+      "inner_sha256": "4b06c066714db3fdf40b5b54c499f99fb8e4004f4313ed4c6ba2f2d434111eee",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R09-R1-REWRITE-UPDATE",
+      "case": "UR01-R09",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "9ff8e58d0b1fc47ba01511a49429b8f941a6b45b72af51b593b4bb8998052791",
+      "inner_sha256": "ce5db8d56959c24b6f279ee6ba7924f691a711e95c5c47562c2fd5098fb7c3c9",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R09-R1-SELECT-UPDATE",
+      "case": "UR01-R09",
+      "set": "REPAIR",
+      "condition": "SELECT",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "56e7b5e5c0ae865de15e7228ea4aad22e28335cc43cb6041cddbdb8c7022c0cb",
+      "inner_sha256": "7771726ebd145f5d44bdfe8f566215b1cf3646bbd4d395b835d35671c7586eb7",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R04-R1-REWRITE-UPDATE",
+      "case": "UR01-R04",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "ec15d6253869c2741f0005cfc4d7b066937e43e55415f721f32571caa39d957e",
+      "inner_sha256": "cbf613b81c6c7c268e773e8c7243a9582c05b5ccdfc590eb0c434caa1e553c3d",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G01-R1-REWRITE-UPDATE",
+      "case": "UR01-G01",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "095334b0dffe4b96550e79d6041ca2ff87b6763523224060fc8260b4c08ae2dd",
+      "inner_sha256": "8b4c63e3890a21451dfe6b599ceb02e8fae2fb5d0560beb7edecb7507f7cd91a",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G08-R1-REWRITE-UPDATE",
+      "case": "UR01-G08",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "141f896ca6db87be005093dba7a9073aa4dcd069855087eb3afd48bb157217bf",
+      "inner_sha256": "3287591ab1f7f884182f750f7b5587a1e468d4dc7d9ad1e89026ff59b47ebe41",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G08-R1-SELECT-UPDATE",
+      "case": "UR01-G08",
+      "set": "GUARD",
+      "condition": "SELECT",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "d2c119e05562d4e4c1cce98a34d1ba860a9aa4284af963589f5f2108623b43bf",
+      "inner_sha256": "691a94b82f2babc0bf6be0608ea4fdec69293f3ae9c5ec68c2e30cb1ca68e6a9",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G06-R1-REWRITE-UPDATE",
+      "case": "UR01-G06",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "337f1d4ed7f59fab516f2ec6c1681333395de4ea795e22536207217babfbdd5e",
+      "inner_sha256": "17b335fcbb9a16999a8543b0a00b844ec0bcd0ac129958dd584b4f6af06c3931",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G06-R1-SELECT-UPDATE",
+      "case": "UR01-G06",
+      "set": "GUARD",
+      "condition": "SELECT",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "e64fe622f387d8561b850f9a1dcd916ccd510a1e1c9d6a2eb77cc8f44ff080b5",
+      "inner_sha256": "283afa72b7cd013d5eed7abdfc76bea0b4d306f7c714109f354c28d6d0fccdc9",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G07-R1-REWRITE-UPDATE",
+      "case": "UR01-G07",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "eff81fe61f4c146aa8dce27769b4476c436e42c16cd28f4bc0fbe6a6679bca17",
+      "inner_sha256": "ea6697034a2009d4367505d1fea4b08bd91c824be465a428163ca582561aa104",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R03-R1-REWRITE-UPDATE",
+      "case": "UR01-R03",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "3ef9bdf694bd88882cf66746a62a8932c1b92fd6842ca249a9f29521cddb5313",
+      "inner_sha256": "b71d9d9b1b32f39408417b53e965d9d7948cdad9a0f5c5dacf841eaf7639c3dc",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R03-R1-SELECT-UPDATE",
+      "case": "UR01-R03",
+      "set": "REPAIR",
+      "condition": "SELECT",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "016ae1a013504dda32f3c909557f4870adfb839dd5851750db0a45dadc09a727",
+      "inner_sha256": "85c07e6c07306adc4e5d33f10dd8ece6d550aa1db8c40eaea28ef998e24f30ab",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R06-R1-REWRITE-UPDATE",
+      "case": "UR01-R06",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 1,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "d63d8a025a3081ae35c104ea1d1d117dfc26d1846b89dd47a48a608deac127e4",
+      "inner_sha256": "0c4c8d9311a50aa4061a1ab5068cbb5da0db047404d3b217d943320b494788ed",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R08-R2-SELECT-UPDATE",
+      "case": "UR01-R08",
+      "set": "REPAIR",
+      "condition": "SELECT",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "121ccf0c8273e38c8a1f3f8e8c5978323f919f912b96b2495e047d5002b9bc45",
+      "inner_sha256": "1df620bdd4a3480fe4ddd29dd3527946b2f4b4f2a546757571a749222282fa8a",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R08-R2-REWRITE-UPDATE",
+      "case": "UR01-R08",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "dbc388daffc74fde4407d81b04af6761ebb4cf587ed85b8e1faf3f305d2034d0",
+      "inner_sha256": "893087ed58c05f90938309e4f82f8f698895331afef90b5a5178ddf1a5f3857d",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G02-R2-SELECT-UPDATE",
+      "case": "UR01-G02",
+      "set": "GUARD",
+      "condition": "SELECT",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "429f660d836d7006a673928f866722e772cfdd1c14e32be22f074a32f2993001",
+      "inner_sha256": "fd0fdc66ed8f3f2279fc7313b143bcd547415525d454e1ca8b4e0ad5ab227229",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G02-R2-REWRITE-UPDATE",
+      "case": "UR01-G02",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "ef20f74150a55edb8bb9934f31612ff9bf12515a59173de61aad78c181ff2522",
+      "inner_sha256": "26144b5c787be1566fa6a0d65d7cc0a913582c5902fe47b5a46197afbe30b4ba",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R10-R2-REWRITE-UPDATE",
+      "case": "UR01-R10",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "c018fb310abaa36245cd929bc2147e8cb81d4303c6e4f7ba2b47c3a6a37f26be",
+      "inner_sha256": "16305ce27d704896be784c473d7061d7923a0856212ff08885e8e98bbbc8e281",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R10-R2-SELECT-UPDATE",
+      "case": "UR01-R10",
+      "set": "REPAIR",
+      "condition": "SELECT",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "dd04eddd44aa3c6611742f04750373a24b2ab6c3d008e0e499be6e52e4f46b4c",
+      "inner_sha256": "1e5cba00af62540a67539a10110d753dc5a905dcf430c47ed6e5c987d3d7a12e",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G04-R2-REWRITE-UPDATE",
+      "case": "UR01-G04",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "05c98ac4c50ad3499d72adc66eabdbd823c47280c1a7cd53e1d86675a1ee9e38",
+      "inner_sha256": "4b06c066714db3fdf40b5b54c499f99fb8e4004f4313ed4c6ba2f2d434111eee",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G04-R2-SELECT-UPDATE",
+      "case": "UR01-G04",
+      "set": "GUARD",
+      "condition": "SELECT",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "59947ce8c704297381e4065644141b05f8efa221fae0a4d6171a2b2aa90466d5",
+      "inner_sha256": "53fc402fdaa75612c982e1366ee357d71960f6dd23b0a82c36b0a884738d0a77",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R09-R2-REWRITE-UPDATE",
+      "case": "UR01-R09",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "9ff8e58d0b1fc47ba01511a49429b8f941a6b45b72af51b593b4bb8998052791",
+      "inner_sha256": "ce5db8d56959c24b6f279ee6ba7924f691a711e95c5c47562c2fd5098fb7c3c9",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G05-R2-REWRITE-UPDATE",
+      "case": "UR01-G05",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "014c25d3714a8f47b56079be81212dc14945b11198def9e01ad11ff3a3c7ed39",
+      "inner_sha256": "6b7e7b328f812abea351102627228396cc2f84fe0b6356cb130d4e2cd5f2efa4",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R04-R2-REWRITE-UPDATE",
+      "case": "UR01-R04",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "121d64d37ab04bc015b9e033e05ea94c7fc51535f01486994997e47e0d7b9814",
+      "inner_sha256": "3cebfcb34bb8fcc452400e345ae6384f5eb0c57918e9bb3f1203662647efd98a",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R04-R2-SELECT-UPDATE",
+      "case": "UR01-R04",
+      "set": "REPAIR",
+      "condition": "SELECT",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "179bb4081a094bf62a4e76928fb3569cf27386d4fa5563e9e0ccea070b44d83d",
+      "inner_sha256": "b31b5809481a8844b1fff21dc046148c40f153db3cd4bb4c33de0bf2ac0af653",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R07-R2-REWRITE-UPDATE",
+      "case": "UR01-R07",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "a219996e66f1f55ca928e2b00bc26ce2ed76b336fea284cb63bd19a61781a2b8",
+      "inner_sha256": "0c112ff08931cf2b18712c3bda98548ec16825492ca1415e43efe5a72001bada",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G08-R2-SELECT-UPDATE",
+      "case": "UR01-G08",
+      "set": "GUARD",
+      "condition": "SELECT",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "d2c119e05562d4e4c1cce98a34d1ba860a9aa4284af963589f5f2108623b43bf",
+      "inner_sha256": "691a94b82f2babc0bf6be0608ea4fdec69293f3ae9c5ec68c2e30cb1ca68e6a9",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G08-R2-REWRITE-UPDATE",
+      "case": "UR01-G08",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "141f896ca6db87be005093dba7a9073aa4dcd069855087eb3afd48bb157217bf",
+      "inner_sha256": "3287591ab1f7f884182f750f7b5587a1e468d4dc7d9ad1e89026ff59b47ebe41",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G03-R2-REWRITE-UPDATE",
+      "case": "UR01-G03",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "b2aecbba4acda6e72e7ba1c7175175ed85422e7cc9cd02507b84c928e1e18685",
+      "inner_sha256": "704ddb9ebc9ee4a4e3afa045195850e7f9624b66493fa778af877113823212f0",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G06-R2-SELECT-UPDATE",
+      "case": "UR01-G06",
+      "set": "GUARD",
+      "condition": "SELECT",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "e64fe622f387d8561b850f9a1dcd916ccd510a1e1c9d6a2eb77cc8f44ff080b5",
+      "inner_sha256": "283afa72b7cd013d5eed7abdfc76bea0b4d306f7c714109f354c28d6d0fccdc9",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-G06-R2-REWRITE-UPDATE",
+      "case": "UR01-G06",
+      "set": "GUARD",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "8eadc571b5d2e8827081d99b661f0e362afb0cd9f7bb7341f444ca36f6625312",
+      "inner_sha256": "b05e54ada29a570244e21a0596854653b192ccf0c61f3781a7972843715ac691",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R01-R2-REWRITE-UPDATE",
+      "case": "UR01-R01",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "973089185eea96a15ce64029111fee834abfa7f2e73b826f4a6958c01854ee9d",
+      "inner_sha256": "20b9079dc2b6c6f5a46c0592f3f36f0be1de1b1dc9c58138f23e677b421e2b19",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R03-R2-SELECT-UPDATE",
+      "case": "UR01-R03",
+      "set": "REPAIR",
+      "condition": "SELECT",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "016ae1a013504dda32f3c909557f4870adfb839dd5851750db0a45dadc09a727",
+      "inner_sha256": "85c07e6c07306adc4e5d33f10dd8ece6d550aa1db8c40eaea28ef998e24f30ab",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R03-R2-REWRITE-UPDATE",
+      "case": "UR01-R03",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "3ef9bdf694bd88882cf66746a62a8932c1b92fd6842ca249a9f29521cddb5313",
+      "inner_sha256": "b71d9d9b1b32f39408417b53e965d9d7948cdad9a0f5c5dacf841eaf7639c3dc",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    },
+    {
+      "id": "UR01-R06-R2-REWRITE-UPDATE",
+      "case": "UR01-R06",
+      "set": "REPAIR",
+      "condition": "REWRITE",
+      "replicate": 2,
+      "classification": "ONE_OUTER_JSON_FENCE_INNER_SCHEMA_VALID",
+      "raw_sha256": "d63d8a025a3081ae35c104ea1d1d117dfc26d1846b89dd47a48a608deac127e4",
+      "inner_sha256": "0c4c8d9311a50aa4061a1ab5068cbb5da0db047404d3b217d943320b494788ed",
+      "formal_status_unchanged": true,
+      "inner_content_scored": false
+    }
+  ],
+  "all_primary_metrics_unchanged": true,
+  "posthoc_diagnostics": "Fence envelopes and exact old-row matching only; no counterfactual score or missing READ imputation.",
+  "model_calls_during_audit": 0,
+  "p_value": null,
+  "confidence_interval": null
+}

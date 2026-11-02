@@ -1,0 +1,198 @@
+{
+  "type": "object",
+  "properties": {
+    "judgment_id": {
+      "type": "string",
+      "maxLength": 32
+    },
+    "checks": {
+      "type": "object",
+      "properties": {
+        "output_contract": {
+          "type": "object",
+          "properties": {
+            "verdict": {
+              "type": "string",
+              "enum": [
+                "OK",
+                "VIOLATION",
+                "UNRESOLVED"
+              ]
+            },
+            "answer_pointers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "minItems": 1,
+              "maxItems": 4
+            },
+            "evidence_pointers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "minItems": 1,
+              "maxItems": 4
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 160
+            }
+          },
+          "required": [
+            "verdict",
+            "answer_pointers",
+            "evidence_pointers",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        "attribution": {
+          "type": "object",
+          "properties": {
+            "verdict": {
+              "type": "string",
+              "enum": [
+                "OK",
+                "VIOLATION",
+                "UNRESOLVED"
+              ]
+            },
+            "answer_pointers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "minItems": 1,
+              "maxItems": 4
+            },
+            "evidence_pointers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "minItems": 1,
+              "maxItems": 4
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 160
+            }
+          },
+          "required": [
+            "verdict",
+            "answer_pointers",
+            "evidence_pointers",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        "local_choice": {
+          "type": "object",
+          "properties": {
+            "verdict": {
+              "type": "string",
+              "enum": [
+                "OK",
+                "VIOLATION",
+                "UNRESOLVED"
+              ]
+            },
+            "answer_pointers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "minItems": 1,
+              "maxItems": 4
+            },
+            "evidence_pointers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "minItems": 1,
+              "maxItems": 4
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 160
+            }
+          },
+          "required": [
+            "verdict",
+            "answer_pointers",
+            "evidence_pointers",
+            "reason"
+          ],
+          "additionalProperties": false
+        },
+        "joint_action": {
+          "type": "object",
+          "properties": {
+            "verdict": {
+              "type": "string",
+              "enum": [
+                "OK",
+                "VIOLATION",
+                "UNRESOLVED"
+              ]
+            },
+            "answer_pointers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "minItems": 1,
+              "maxItems": 4
+            },
+            "evidence_pointers": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "maxLength": 160
+              },
+              "minItems": 1,
+              "maxItems": 4
+            },
+            "reason": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 160
+            }
+          },
+          "required": [
+            "verdict",
+            "answer_pointers",
+            "evidence_pointers",
+            "reason"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "output_contract",
+        "attribution",
+        "local_choice",
+        "joint_action"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "judgment_id",
+    "checks"
+  ],
+  "additionalProperties": false
+}

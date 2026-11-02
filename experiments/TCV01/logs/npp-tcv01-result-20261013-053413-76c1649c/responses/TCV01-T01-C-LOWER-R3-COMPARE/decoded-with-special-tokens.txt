@@ -1,0 +1,19 @@
+{
+  "own": {
+    "holder": "C",
+    "recommendation": "DIGITAL",
+    "evidence_ids": [
+      "E3c75273d5b",
+      "E4a7f20ecfb"
+    ]
+  },
+  "comparison": {
+    "candidate_id": "C2",
+    "other_candidate_id": "C1",
+    "relation": "LOWER"
+  },
+  "vote": {
+    "proposal_id": "Pb2f047c7",
+    "decision": "HOLD"
+  }
+}<|im_end|>

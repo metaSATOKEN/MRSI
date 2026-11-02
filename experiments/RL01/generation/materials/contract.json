@@ -1,0 +1,22 @@
+{
+  "automatic_regenerations": 0,
+  "bundle_sha256": "9eaacd81852cbda75e7b5b2a92f712849bfd4d123c0a43c13318da6647f92d40",
+  "checkpoint_every": 24,
+  "cloud_drive": "not_used",
+  "delivery": "zip_download",
+  "design_sha256": "d875ffba03fc3f97ef7226df67000b270d009362f5dc76a7123f80c7c08f1d37",
+  "eos_policy": "Remove one final im_end only, retaining raw token IDs; no text repair.",
+  "max_generations": 96,
+  "protocol": "READOUT-LOAD-01-RUN-v0.1",
+  "requests_sha256": "e2ec43753116a3a1d2838a7971cb67ea7be3c0e9e986115b5436c9cafd948a78",
+  "resume_generation": false,
+  "retention": "private_no_deletion_deadline",
+  "seconds_including_setup": 5400,
+  "source_hashes": {
+    "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "readout_load_01_bootstrap.py": "5b5959ee2856977dad3e96954de6f2b35b06ffcdcfb13aecff3831aefe3b3eff",
+    "readout_load_01_runtime.py": "073f5cb856f8d36588d5b30a477eabf72f81445c4a30cc898499b446bda3667e",
+    "readout_load_01_scoring.py": "8a8047b9c3d8b62e120b58f2052bbbf98da222bf81b3ef43d55e3a10921dd35a"
+  }
+}

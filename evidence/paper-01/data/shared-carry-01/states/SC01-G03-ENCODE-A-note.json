@@ -1,0 +1,13 @@
+{
+  "customer": {
+    "subject": "A",
+    "animal": "CAT",
+    "source_id": "GD"
+  },
+  "coverage": {
+    "observer": "A",
+    "paper": "NOT_ALL",
+    "digital": "ALL",
+    "source_id": "YC"
+  }
+}

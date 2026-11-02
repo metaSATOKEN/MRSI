@@ -1,0 +1,24 @@
+flowchart TD
+    I["Input materials with target, provenance, and revision"] --> U["LLM update proposal"]
+    U --> W["Pre-storage checks; select and copy designated fields"]
+    I --> W
+    W --> P["Per-role private states and shared observations"]
+    W --> H["Unresolved items and target-specific reasons"]
+    P --> D["Own-experience summaries and joint candidate table"]
+    D --> J["Each role’s own judgment"]
+    D --> Q["Joint proposal with target and version"]
+    J --> V["Votes expressed by each role"]
+    Q --> V
+    Q --> C["Task assessment: candidates, resources, totals"]
+    D --> C
+    V --> L["Original votes and per-role states: MISSING/HOLD/ACCEPT"]
+    Q --> L
+    L --> A["Group agreement under the specified rule"]
+    C --> G{"Controller execution decision"}
+    A --> G
+    G -->|"Conditions met"| R["Use the authorized joint assignment"]
+    G -->|"Conditions not met"| H
+    J --> R
+    L --> H
+    R --> E["Evaluate own judgment, votes, agreement, and execution separately"]
+    H --> E

@@ -1,0 +1,402 @@
+{
+  "REVOKE": {
+    "type": "object",
+    "properties": {
+      "memory": {
+        "type": "object",
+        "properties": {
+          "private_note": {
+            "type": "object",
+            "properties": {
+              "customer": {
+                "type": "object",
+                "properties": {
+                  "subject": {
+                    "enum": [
+                      "A",
+                      "B",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "animal": {
+                    "enum": [
+                      "DOG",
+                      "CAT",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "origin_id": {
+                    "type": "string",
+                    "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                  }
+                },
+                "required": [
+                  "subject",
+                  "animal",
+                  "origin_id"
+                ],
+                "additionalProperties": false
+              },
+              "coverage": {
+                "type": "object",
+                "properties": {
+                  "observer": {
+                    "enum": [
+                      "A",
+                      "B",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "paper": {
+                    "enum": [
+                      "ALL",
+                      "NOT_ALL",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "digital": {
+                    "enum": [
+                      "ALL",
+                      "NOT_ALL",
+                      "UNKNOWN"
+                    ]
+                  },
+                  "origin_id": {
+                    "type": "string",
+                    "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                  },
+                  "revision": {
+                    "enum": [
+                      1,
+                      2,
+                      3,
+                      4,
+                      "UNKNOWN"
+                    ]
+                  },
+                  "status": {
+                    "enum": [
+                      "ACTIVE",
+                      "REVOKED"
+                    ]
+                  }
+                },
+                "required": [
+                  "observer",
+                  "paper",
+                  "digital",
+                  "origin_id",
+                  "revision",
+                  "status"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "customer",
+              "coverage"
+            ],
+            "additionalProperties": false
+          },
+          "shared_note": {
+            "type": "object",
+            "properties": {
+              "coverage": {
+                "type": "object",
+                "properties": {
+                  "A": {
+                    "type": "object",
+                    "properties": {
+                      "observer": {
+                        "enum": [
+                          "A",
+                          "B",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "paper": {
+                        "enum": [
+                          "ALL",
+                          "NOT_ALL",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "digital": {
+                        "enum": [
+                          "ALL",
+                          "NOT_ALL",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "origin_id": {
+                        "type": "string",
+                        "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                      },
+                      "revision": {
+                        "enum": [
+                          1,
+                          2,
+                          3,
+                          4,
+                          "UNKNOWN"
+                        ]
+                      },
+                      "status": {
+                        "enum": [
+                          "ACTIVE",
+                          "REVOKED"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "observer",
+                      "paper",
+                      "digital",
+                      "origin_id",
+                      "revision",
+                      "status"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "B": {
+                    "type": "object",
+                    "properties": {
+                      "observer": {
+                        "enum": [
+                          "A",
+                          "B",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "paper": {
+                        "enum": [
+                          "ALL",
+                          "NOT_ALL",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "digital": {
+                        "enum": [
+                          "ALL",
+                          "NOT_ALL",
+                          "UNKNOWN"
+                        ]
+                      },
+                      "origin_id": {
+                        "type": "string",
+                        "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+                      },
+                      "revision": {
+                        "enum": [
+                          1,
+                          2,
+                          3,
+                          4,
+                          "UNKNOWN"
+                        ]
+                      },
+                      "status": {
+                        "enum": [
+                          "ACTIVE",
+                          "REVOKED"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "observer",
+                      "paper",
+                      "digital",
+                      "origin_id",
+                      "revision",
+                      "status"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "A",
+                  "B"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "coverage"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "private_note",
+          "shared_note"
+        ],
+        "additionalProperties": false
+      },
+      "processing": {
+        "type": "object",
+        "properties": {
+          "notice_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+          },
+          "target_origin_id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+          },
+          "resolution": {
+            "enum": [
+              "MATCHED",
+              "UNRESOLVED"
+            ]
+          },
+          "basis": {
+            "enum": [
+              "ID",
+              "DETAILS",
+              "NONE"
+            ]
+          },
+          "matched_observer": {
+            "enum": [
+              "A",
+              "B",
+              "UNKNOWN"
+            ]
+          }
+        },
+        "required": [
+          "notice_id",
+          "target_origin_id",
+          "resolution",
+          "basis",
+          "matched_observer"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "memory",
+      "processing"
+    ],
+    "additionalProperties": false
+  },
+  "PROBE": {
+    "type": "object",
+    "properties": {
+      "mascot": {
+        "enum": [
+          "DOG",
+          "CAT",
+          "UNKNOWN"
+        ]
+      },
+      "customer_origin_id": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+      },
+      "channel": {
+        "enum": [
+          "PAPER",
+          "DIGITAL",
+          "UNKNOWN"
+        ]
+      },
+      "channel_status": {
+        "enum": [
+          "READY",
+          "WITHDRAWN",
+          "PENDING"
+        ]
+      },
+      "active_coverage": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "observer": {
+              "enum": [
+                "A",
+                "B",
+                "UNKNOWN"
+              ]
+            },
+            "paper": {
+              "enum": [
+                "ALL",
+                "NOT_ALL",
+                "UNKNOWN"
+              ]
+            },
+            "digital": {
+              "enum": [
+                "ALL",
+                "NOT_ALL",
+                "UNKNOWN"
+              ]
+            },
+            "origin_id": {
+              "type": "string",
+              "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+            },
+            "revision": {
+              "enum": [
+                1,
+                2,
+                3,
+                4,
+                "UNKNOWN"
+              ]
+            },
+            "status": {
+              "enum": [
+                "ACTIVE",
+                "REVOKED"
+              ]
+            }
+          },
+          "required": [
+            "observer",
+            "paper",
+            "digital",
+            "origin_id",
+            "revision",
+            "status"
+          ],
+          "additionalProperties": false
+        },
+        "maxItems": 2,
+        "uniqueItems": true
+      },
+      "revoked_observers": {
+        "type": "array",
+        "items": {
+          "enum": [
+            "A",
+            "B"
+          ]
+        },
+        "maxItems": 2,
+        "uniqueItems": true
+      },
+      "pending_notice_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[A-Z][A-Z0-9_]{0,31}$"
+        },
+        "maxItems": 1,
+        "uniqueItems": true
+      }
+    },
+    "required": [
+      "mascot",
+      "customer_origin_id",
+      "channel",
+      "channel_status",
+      "active_coverage",
+      "revoked_observers",
+      "pending_notice_ids"
+    ],
+    "additionalProperties": false
+  }
+}

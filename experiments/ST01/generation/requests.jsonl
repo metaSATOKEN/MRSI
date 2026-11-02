@@ -1,0 +1,450 @@
+[
+  {
+    "id": "ST01-EARLY-N07-FORM-A",
+    "seed": 1557132674,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"E6826FE843C\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":18,\"digital_success\":5},{\"episode_id\":\"E26133C5DCB\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":5,\"digital_success\":6},{\"episode_id\":\"E30F15E07DE\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":3,\"attempts_per_medium\":40,\"paper_success\":11,\"digital_success\":29}],\"own_experience_summary\":{\"observer\":\"A\",\"experience_refs\":[\"E6826FE843C\",\"E26133C5DCB\",\"E30F15E07DE\"],\"attempts_per_medium_total\":80,\"projected_success_per_40\":{\"PAPER\":17,\"DIGITAL\":20}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N07-FORM-A",
+    "seed": 1557132674,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"E6826FE843C\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":18,\"digital_success\":5},{\"episode_id\":\"E26133C5DCB\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":5,\"digital_success\":6},{\"episode_id\":\"E30F15E07DE\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":3,\"attempts_per_medium\":40,\"paper_success\":11,\"digital_success\":29}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N07-FORM-B",
+    "seed": 114477581,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"E2CFD3987D9\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":11,\"digital_success\":14},{\"episode_id\":\"E33BB0AC4A2\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":18,\"digital_success\":10}],\"own_experience_summary\":{\"observer\":\"B\",\"experience_refs\":[\"E2CFD3987D9\",\"E33BB0AC4A2\"],\"attempts_per_medium_total\":40,\"projected_success_per_40\":{\"PAPER\":29,\"DIGITAL\":24}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N07-FORM-B",
+    "seed": 114477581,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"E2CFD3987D9\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":11,\"digital_success\":14},{\"episode_id\":\"E33BB0AC4A2\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":18,\"digital_success\":10}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N04-FORM-B",
+    "seed": 2054213850,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"E3B183581A6\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":8,\"paper_success\":6},{\"episode_id\":\"EB81AB667C9\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":5,\"paper_success\":6},{\"episode_id\":\"E705EF7401A\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":3,\"attempts_per_medium\":40,\"digital_success\":17,\"paper_success\":16}],\"own_experience_summary\":{\"observer\":\"B\",\"experience_refs\":[\"E3B183581A6\",\"EB81AB667C9\",\"E705EF7401A\"],\"attempts_per_medium_total\":80,\"projected_success_per_40\":{\"DIGITAL\":15,\"PAPER\":14}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N04-FORM-B",
+    "seed": 2054213850,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"E3B183581A6\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":8,\"paper_success\":6},{\"episode_id\":\"EB81AB667C9\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":5,\"paper_success\":6},{\"episode_id\":\"E705EF7401A\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":3,\"attempts_per_medium\":40,\"digital_success\":17,\"paper_success\":16}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N04-FORM-A",
+    "seed": 1658813601,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"E8401940C46\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":10,\"paper_success\":11},{\"episode_id\":\"EB4F4D790F8\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":6,\"paper_success\":6}],\"own_experience_summary\":{\"observer\":\"A\",\"experience_refs\":[\"E8401940C46\",\"EB4F4D790F8\"],\"attempts_per_medium_total\":40,\"projected_success_per_40\":{\"DIGITAL\":16,\"PAPER\":17}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N04-FORM-A",
+    "seed": 1658813601,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"E8401940C46\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":10,\"paper_success\":11},{\"episode_id\":\"EB4F4D790F8\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":6,\"paper_success\":6}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N08-FORM-B",
+    "seed": 1110848564,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"E787FED353C\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":5,\"paper_success\":18},{\"episode_id\":\"E5ED4D0A13A\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":5,\"paper_success\":12},{\"episode_id\":\"EB78F6CD72E\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":3,\"attempts_per_medium\":40,\"digital_success\":36,\"paper_success\":22}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N08-FORM-B",
+    "seed": 1110848564,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"E787FED353C\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":5,\"paper_success\":18},{\"episode_id\":\"E5ED4D0A13A\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":5,\"paper_success\":12},{\"episode_id\":\"EB78F6CD72E\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":3,\"attempts_per_medium\":40,\"digital_success\":36,\"paper_success\":22}],\"own_experience_summary\":{\"observer\":\"B\",\"experience_refs\":[\"E787FED353C\",\"E5ED4D0A13A\",\"EB78F6CD72E\"],\"attempts_per_medium_total\":80,\"projected_success_per_40\":{\"DIGITAL\":23,\"PAPER\":26}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N08-FORM-A",
+    "seed": 501341389,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"EE5B2283C3D\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":9,\"paper_success\":8},{\"episode_id\":\"EBA722BAC5F\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":11,\"paper_success\":7}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N08-FORM-A",
+    "seed": 501341389,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"EE5B2283C3D\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":9,\"paper_success\":8},{\"episode_id\":\"EBA722BAC5F\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":11,\"paper_success\":7}],\"own_experience_summary\":{\"observer\":\"A\",\"experience_refs\":[\"EE5B2283C3D\",\"EBA722BAC5F\"],\"attempts_per_medium_total\":40,\"projected_success_per_40\":{\"DIGITAL\":20,\"PAPER\":15}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N05-FORM-A",
+    "seed": 886346083,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"EC35E47448B\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":5,\"digital_success\":5},{\"episode_id\":\"EB4316EB4AA\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":18,\"digital_success\":7},{\"episode_id\":\"EA2C8D25663\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":3,\"attempts_per_medium\":40,\"paper_success\":5,\"digital_success\":36}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N05-FORM-A",
+    "seed": 886346083,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"EC35E47448B\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":5,\"digital_success\":5},{\"episode_id\":\"EB4316EB4AA\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":18,\"digital_success\":7},{\"episode_id\":\"EA2C8D25663\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":3,\"attempts_per_medium\":40,\"paper_success\":5,\"digital_success\":36}],\"own_experience_summary\":{\"observer\":\"A\",\"experience_refs\":[\"EC35E47448B\",\"EB4316EB4AA\",\"EA2C8D25663\"],\"attempts_per_medium_total\":80,\"projected_success_per_40\":{\"PAPER\":14,\"DIGITAL\":24}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N05-FORM-B",
+    "seed": 693254905,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"EBCA7CF3A61\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":7,\"digital_success\":4},{\"episode_id\":\"E5B9820C89A\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":8,\"digital_success\":13}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N05-FORM-B",
+    "seed": 693254905,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"EBCA7CF3A61\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":7,\"digital_success\":4},{\"episode_id\":\"E5B9820C89A\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":8,\"digital_success\":13}],\"own_experience_summary\":{\"observer\":\"B\",\"experience_refs\":[\"EBCA7CF3A61\",\"E5B9820C89A\"],\"attempts_per_medium_total\":40,\"projected_success_per_40\":{\"PAPER\":15,\"DIGITAL\":17}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N01-FORM-A",
+    "seed": 2026573670,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"ED81AAE200D\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":6,\"digital_success\":10},{\"episode_id\":\"EFB9B239791\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":9,\"digital_success\":16},{\"episode_id\":\"E22BFDC1C77\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":3,\"attempts_per_medium\":40,\"paper_success\":21,\"digital_success\":4}],\"own_experience_summary\":{\"observer\":\"A\",\"experience_refs\":[\"ED81AAE200D\",\"EFB9B239791\",\"E22BFDC1C77\"],\"attempts_per_medium_total\":80,\"projected_success_per_40\":{\"PAPER\":18,\"DIGITAL\":15}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N01-FORM-A",
+    "seed": 2026573670,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"ED81AAE200D\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":6,\"digital_success\":10},{\"episode_id\":\"EFB9B239791\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":9,\"digital_success\":16},{\"episode_id\":\"E22BFDC1C77\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":3,\"attempts_per_medium\":40,\"paper_success\":21,\"digital_success\":4}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N01-FORM-B",
+    "seed": 2023086990,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"E5A03A1A255\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":9,\"digital_success\":7},{\"episode_id\":\"E6A5E6E3A8F\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":18,\"digital_success\":15}],\"own_experience_summary\":{\"observer\":\"B\",\"experience_refs\":[\"E5A03A1A255\",\"E6A5E6E3A8F\"],\"attempts_per_medium_total\":40,\"projected_success_per_40\":{\"PAPER\":27,\"DIGITAL\":22}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N01-FORM-B",
+    "seed": 2023086990,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"E5A03A1A255\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":9,\"digital_success\":7},{\"episode_id\":\"E6A5E6E3A8F\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":18,\"digital_success\":15}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N06-FORM-B",
+    "seed": 1984451973,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"ED6B23BC078\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":9,\"paper_success\":16},{\"episode_id\":\"E910ABE75BA\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":12,\"paper_success\":14},{\"episode_id\":\"E36B2003854\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":3,\"attempts_per_medium\":40,\"digital_success\":23,\"paper_success\":18}],\"own_experience_summary\":{\"observer\":\"B\",\"experience_refs\":[\"ED6B23BC078\",\"E910ABE75BA\",\"E36B2003854\"],\"attempts_per_medium_total\":80,\"projected_success_per_40\":{\"DIGITAL\":22,\"PAPER\":24}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N06-FORM-B",
+    "seed": 1984451973,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"ED6B23BC078\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":9,\"paper_success\":16},{\"episode_id\":\"E910ABE75BA\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":12,\"paper_success\":14},{\"episode_id\":\"E36B2003854\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":3,\"attempts_per_medium\":40,\"digital_success\":23,\"paper_success\":18}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N06-FORM-A",
+    "seed": 202712062,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"E6A98F1EAD0\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":14,\"paper_success\":18},{\"episode_id\":\"E348E325450\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":8,\"paper_success\":14}],\"own_experience_summary\":{\"observer\":\"A\",\"experience_refs\":[\"E6A98F1EAD0\",\"E348E325450\"],\"attempts_per_medium_total\":40,\"projected_success_per_40\":{\"DIGITAL\":22,\"PAPER\":32}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N06-FORM-A",
+    "seed": 202712062,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"E6A98F1EAD0\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":14,\"paper_success\":18},{\"episode_id\":\"E348E325450\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":8,\"paper_success\":14}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N02-FORM-B",
+    "seed": 1534377168,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"E34084CAFBA\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":18,\"paper_success\":9},{\"episode_id\":\"EE78174F2A9\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":15,\"paper_success\":6},{\"episode_id\":\"EEDFFDC50FD\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":3,\"attempts_per_medium\":40,\"digital_success\":11,\"paper_success\":19}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N02-FORM-B",
+    "seed": 1534377168,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"E34084CAFBA\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":18,\"paper_success\":9},{\"episode_id\":\"EE78174F2A9\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":15,\"paper_success\":6},{\"episode_id\":\"EEDFFDC50FD\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":3,\"attempts_per_medium\":40,\"digital_success\":11,\"paper_success\":19}],\"own_experience_summary\":{\"observer\":\"B\",\"experience_refs\":[\"E34084CAFBA\",\"EE78174F2A9\",\"EEDFFDC50FD\"],\"attempts_per_medium_total\":80,\"projected_success_per_40\":{\"DIGITAL\":22,\"PAPER\":17}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N02-FORM-A",
+    "seed": 1839561640,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"E0992A6ACBE\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":9,\"paper_success\":10},{\"episode_id\":\"EFD5E48A417\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":11,\"paper_success\":7}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N02-FORM-A",
+    "seed": 1839561640,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"E0992A6ACBE\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"digital_success\":9,\"paper_success\":10},{\"episode_id\":\"EFD5E48A417\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"digital_success\":11,\"paper_success\":7}],\"own_experience_summary\":{\"observer\":\"A\",\"experience_refs\":[\"E0992A6ACBE\",\"EFD5E48A417\"],\"attempts_per_medium_total\":40,\"projected_success_per_40\":{\"DIGITAL\":20,\"PAPER\":17}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N03-FORM-A",
+    "seed": 1625931029,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"E837D9C0A7F\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":9,\"digital_success\":9},{\"episode_id\":\"E803DE431C3\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":4,\"digital_success\":18},{\"episode_id\":\"E2B2525699D\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":3,\"attempts_per_medium\":40,\"paper_success\":25,\"digital_success\":9}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N03-FORM-A",
+    "seed": 1625931029,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"A\",\"experiences\":[{\"episode_id\":\"E837D9C0A7F\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":9,\"digital_success\":9},{\"episode_id\":\"E803DE431C3\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":4,\"digital_success\":18},{\"episode_id\":\"E2B2525699D\",\"observer\":\"A\",\"site\":\"区画1\",\"session\":3,\"attempts_per_medium\":40,\"paper_success\":25,\"digital_success\":9}],\"own_experience_summary\":{\"observer\":\"A\",\"experience_refs\":[\"E837D9C0A7F\",\"E803DE431C3\",\"E2B2525699D\"],\"attempts_per_medium_total\":80,\"projected_success_per_40\":{\"PAPER\":19,\"DIGITAL\":18}}}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-LATE-N03-FORM-B",
+    "seed": 46159877,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"EC1822CA588\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":17,\"digital_success\":12},{\"episode_id\":\"E4553017BC5\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":5,\"digital_success\":11}]}"
+      }
+    ]
+  },
+  {
+    "id": "ST01-EARLY-N03-FORM-B",
+    "seed": 46159877,
+    "messages": [
+      {
+        "role": "system",
+        "content": "あなたは案内係の一人です。holderが今回のあなたです。experiencesには自分の区画の実施済み観測だけがあります。\n各回、紙とデジタルは同条件の別々の人に使用しました。attempts_per_mediumは各媒体の試行人数、paper_success/digital_successは案内できた人数です。\n本人の仕事では両媒体を使えます。全回の成功人数合計を全回の試行人数合計で割り、累積成功率が高い媒体を推奨してください。古い回も除きません。\nJSON一つを返してください。トップはlocalだけ。localはsubject（holder）、choice（PAPER/DIGITAL、判断不能時UNDECIDED）、evidence_refs（自分の全経験ID）の三キーです。IDは重複なく過不足なく、順序は問いません。追加キー・説明文・コードフェンスは不要です。\n入力にown_experience_summaryがある場合、それはholder本人の全経験から計算した集計です。observerは本人、experience_refsは元の本人経験ID、attempts_per_medium_totalは各媒体の総試行人数、projected_success_per_40は各媒体の40人当たり予測成功人数です。\n本人の比較を助ける入力専用の派生資料であり、共同の割付や新しい観測ではありません。localのevidence_refsは本人の元経験IDを使います。集計オブジェクト・数値・その別名を回答の欄へ追加せず、元の出力形式を守ってください。\n"
+      },
+      {
+        "role": "user",
+        "content": "資料JSON:\n{\"holder\":\"B\",\"experiences\":[{\"episode_id\":\"EC1822CA588\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":1,\"attempts_per_medium\":20,\"paper_success\":17,\"digital_success\":12},{\"episode_id\":\"E4553017BC5\",\"observer\":\"B\",\"site\":\"区画2\",\"session\":2,\"attempts_per_medium\":20,\"paper_success\":5,\"digital_success\":11}],\"own_experience_summary\":{\"observer\":\"B\",\"experience_refs\":[\"EC1822CA588\",\"E4553017BC5\"],\"attempts_per_medium_total\":40,\"projected_success_per_40\":{\"PAPER\":22,\"DIGITAL\":23}}}"
+      }
+    ]
+  }
+]

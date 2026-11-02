@@ -1,0 +1,6837 @@
+{
+  "status": "PASS",
+  "checks": 1705,
+  "counts": {
+    "match": 53,
+    "unknown": 7,
+    "mismatch": 4
+  },
+  "valid_json": 64,
+  "diagnostic_only_no_rescoring": {
+    "raw_label_all_match": 60,
+    "formal_unknown_with_matching_raw_labels": 7
+  },
+  "model_calls": 0,
+  "details": [
+    {
+      "name": "manifest exact files",
+      "pass": true
+    },
+    {
+      "name": "archive hash:audit-20260928-134754-16eb9da4.log",
+      "pass": true
+    },
+    {
+      "name": "archive hash:code/boundary_judge_01_bootstrap.py",
+      "pass": true
+    },
+    {
+      "name": "archive hash:code/boundary_judge_01_runtime.py",
+      "pass": true
+    },
+    {
+      "name": "archive hash:code/boundary_judge_01_scoring.py",
+      "pass": true
+    },
+    {
+      "name": "archive hash:code/cross_model_e1_01_generation_runtime.py",
+      "pass": true
+    },
+    {
+      "name": "archive hash:code/cross_model_e1_01_offline_runtime.py",
+      "pass": true
+    },
+    {
+      "name": "archive hash:contract.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:environment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:frozen/MANIFEST.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:frozen/design-summary.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:frozen/judge-output-schema.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:frozen/judge-requests.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:frozen/labels-and-provenance.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:frozen/packets.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:generation-config.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:hardware-3e16b96b017c4d53bddb281cd2d0aa87.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:loaded-parameters.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:model-config.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:payload.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:preflight.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:report-103624ba22c842578ef895f81c7ddccb.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:report-bca207ff340149e1ab24d6108cb3fa63.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-03F8F541CE/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-03F8F541CE/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-03F8F541CE/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-03F8F541CE/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-03F8F541CE/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-03F8F541CE/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-03F8F541CE/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-057287FBF8/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-057287FBF8/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-057287FBF8/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-057287FBF8/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-057287FBF8/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-057287FBF8/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-057287FBF8/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-10E1114146/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-10E1114146/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-10E1114146/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-10E1114146/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-10E1114146/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-10E1114146/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1291DE8730/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1291DE8730/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1291DE8730/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1291DE8730/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1291DE8730/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1291DE8730/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1291DE8730/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1CC7DB2593/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1CC7DB2593/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1CC7DB2593/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1CC7DB2593/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1CC7DB2593/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1CC7DB2593/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-1CC7DB2593/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-264F1AF1C3/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-264F1AF1C3/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-264F1AF1C3/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-264F1AF1C3/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-264F1AF1C3/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-264F1AF1C3/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-264F1AF1C3/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-295E5780D3/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-295E5780D3/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-295E5780D3/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-295E5780D3/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-295E5780D3/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-295E5780D3/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-295E5780D3/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2BD4DBA541/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2BD4DBA541/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2BD4DBA541/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2BD4DBA541/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2BD4DBA541/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2BD4DBA541/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2BD4DBA541/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2C87C728B1/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2C87C728B1/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2C87C728B1/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2C87C728B1/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2C87C728B1/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2C87C728B1/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2C87C728B1/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CD52A8E83/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CD52A8E83/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CD52A8E83/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CD52A8E83/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CD52A8E83/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CD52A8E83/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CD52A8E83/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CDFAEA4C5/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CDFAEA4C5/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CDFAEA4C5/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CDFAEA4C5/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CDFAEA4C5/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CDFAEA4C5/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2CDFAEA4C5/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2F63BD1004/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2F63BD1004/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2F63BD1004/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2F63BD1004/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2F63BD1004/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2F63BD1004/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-2F63BD1004/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30BBED081B/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30BBED081B/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30BBED081B/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30BBED081B/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30BBED081B/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30BBED081B/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30BBED081B/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30C57AB37C/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30C57AB37C/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30C57AB37C/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30C57AB37C/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30C57AB37C/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30C57AB37C/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-30C57AB37C/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-32A8CC39FE/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-32A8CC39FE/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-32A8CC39FE/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-32A8CC39FE/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-32A8CC39FE/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-32A8CC39FE/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-32A8CC39FE/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-33941EC297/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-33941EC297/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-33941EC297/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-33941EC297/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-33941EC297/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-33941EC297/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-33941EC297/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3CD2F35517/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3CD2F35517/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3CD2F35517/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3CD2F35517/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3CD2F35517/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3CD2F35517/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3CD2F35517/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3DC1DA56D3/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3DC1DA56D3/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3DC1DA56D3/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3DC1DA56D3/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3DC1DA56D3/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3DC1DA56D3/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-3DC1DA56D3/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4262428E39/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4262428E39/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4262428E39/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4262428E39/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4262428E39/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4262428E39/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4262428E39/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-42B4A6C62A/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-42B4A6C62A/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-42B4A6C62A/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-42B4A6C62A/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-42B4A6C62A/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-42B4A6C62A/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-42B4A6C62A/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4D3F5AD190/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4D3F5AD190/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4D3F5AD190/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4D3F5AD190/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4D3F5AD190/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4D3F5AD190/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-4D3F5AD190/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-57860E60DB/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-57860E60DB/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-57860E60DB/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-57860E60DB/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-57860E60DB/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-57860E60DB/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A0B3D43EA/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A0B3D43EA/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A0B3D43EA/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A0B3D43EA/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A0B3D43EA/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A0B3D43EA/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A0B3D43EA/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A7E459E6E/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A7E459E6E/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A7E459E6E/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A7E459E6E/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A7E459E6E/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A7E459E6E/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5A7E459E6E/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E1D1F05D5/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E1D1F05D5/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E1D1F05D5/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E1D1F05D5/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E1D1F05D5/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E1D1F05D5/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E1D1F05D5/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E451D7DA8/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E451D7DA8/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E451D7DA8/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E451D7DA8/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E451D7DA8/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5E451D7DA8/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5F3192FCBA/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5F3192FCBA/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5F3192FCBA/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5F3192FCBA/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5F3192FCBA/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5F3192FCBA/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5F3192FCBA/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5FBFF962D9/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5FBFF962D9/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5FBFF962D9/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5FBFF962D9/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5FBFF962D9/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5FBFF962D9/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-5FBFF962D9/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-6914FFC31F/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-6914FFC31F/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-6914FFC31F/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-6914FFC31F/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-6914FFC31F/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-6914FFC31F/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-6914FFC31F/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-69550557DD/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-69550557DD/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-69550557DD/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-69550557DD/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-69550557DD/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-69550557DD/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-69550557DD/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-746CD0437B/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-746CD0437B/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-746CD0437B/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-746CD0437B/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-746CD0437B/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-746CD0437B/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-746CD0437B/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-793ECEA60D/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-793ECEA60D/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-793ECEA60D/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-793ECEA60D/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-793ECEA60D/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-793ECEA60D/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-793ECEA60D/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-85DE5A25F7/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-85DE5A25F7/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-85DE5A25F7/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-85DE5A25F7/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-85DE5A25F7/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-85DE5A25F7/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-85DE5A25F7/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8652B8E734/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8652B8E734/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8652B8E734/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8652B8E734/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8652B8E734/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8652B8E734/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8652B8E734/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BB268C56D/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BB268C56D/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BB268C56D/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BB268C56D/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BB268C56D/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BB268C56D/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BB268C56D/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BDE68FBE7/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BDE68FBE7/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BDE68FBE7/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BDE68FBE7/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BDE68FBE7/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-8BDE68FBE7/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-98D3F8429A/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-98D3F8429A/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-98D3F8429A/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-98D3F8429A/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-98D3F8429A/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-98D3F8429A/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-98D3F8429A/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9B5AB5F947/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9B5AB5F947/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9B5AB5F947/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9B5AB5F947/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9B5AB5F947/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9B5AB5F947/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9B5AB5F947/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9E32802E39/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9E32802E39/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9E32802E39/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9E32802E39/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9E32802E39/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9E32802E39/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9E32802E39/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9EF518886F/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9EF518886F/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9EF518886F/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9EF518886F/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9EF518886F/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9EF518886F/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-9EF518886F/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A2C565B57B/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A2C565B57B/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A2C565B57B/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A2C565B57B/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A2C565B57B/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A2C565B57B/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A2C565B57B/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A480FEED23/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A480FEED23/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A480FEED23/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A480FEED23/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A480FEED23/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A480FEED23/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A480FEED23/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8BF3027CF/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8BF3027CF/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8BF3027CF/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8BF3027CF/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8BF3027CF/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8BF3027CF/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8BF3027CF/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8F3CA47C2/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8F3CA47C2/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8F3CA47C2/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8F3CA47C2/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8F3CA47C2/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8F3CA47C2/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A8F3CA47C2/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A95E455A54/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A95E455A54/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A95E455A54/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A95E455A54/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A95E455A54/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A95E455A54/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-A95E455A54/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-AD9553E158/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-AD9553E158/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-AD9553E158/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-AD9553E158/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-AD9553E158/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-AD9553E158/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-AD9553E158/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B1463C4643/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B1463C4643/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B1463C4643/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B1463C4643/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B1463C4643/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B1463C4643/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B1463C4643/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B46AB653B1/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B46AB653B1/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B46AB653B1/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B46AB653B1/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B46AB653B1/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B46AB653B1/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B46AB653B1/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B7822E82DE/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B7822E82DE/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B7822E82DE/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B7822E82DE/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B7822E82DE/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B7822E82DE/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B7822E82DE/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B912184C9A/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B912184C9A/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B912184C9A/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B912184C9A/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B912184C9A/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B912184C9A/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B912184C9A/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B931C82561/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B931C82561/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B931C82561/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B931C82561/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B931C82561/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B931C82561/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-B931C82561/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-C16A379380/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-C16A379380/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-C16A379380/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-C16A379380/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-C16A379380/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-C16A379380/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-C16A379380/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CD83F4C8AC/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CD83F4C8AC/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CD83F4C8AC/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CD83F4C8AC/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CD83F4C8AC/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CD83F4C8AC/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CD83F4C8AC/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CE279D835C/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CE279D835C/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CE279D835C/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CE279D835C/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CE279D835C/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CE279D835C/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-CE279D835C/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D1E22B6739/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D1E22B6739/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D1E22B6739/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D1E22B6739/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D1E22B6739/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D1E22B6739/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D2F2F20934/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D2F2F20934/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D2F2F20934/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D2F2F20934/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D2F2F20934/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D2F2F20934/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-D2F2F20934/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-DD7E3C3E7C/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-DD7E3C3E7C/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-DD7E3C3E7C/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-DD7E3C3E7C/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-DD7E3C3E7C/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-DD7E3C3E7C/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-DD7E3C3E7C/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E40A60B167/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E40A60B167/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E40A60B167/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E40A60B167/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E40A60B167/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E40A60B167/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E40A60B167/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E80FF8054D/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E80FF8054D/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E80FF8054D/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E80FF8054D/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E80FF8054D/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E80FF8054D/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-E80FF8054D/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-EAF229C0FD/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-EAF229C0FD/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-EAF229C0FD/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-EAF229C0FD/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-EAF229C0FD/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-EAF229C0FD/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-EAF229C0FD/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F522109F2A/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F522109F2A/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F522109F2A/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F522109F2A/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F522109F2A/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F522109F2A/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F522109F2A/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F53F084968/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F53F084968/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F53F084968/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F53F084968/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F53F084968/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F53F084968/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F5F76C1ECD/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F5F76C1ECD/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F5F76C1ECD/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F5F76C1ECD/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F5F76C1ECD/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F5F76C1ECD/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-F5F76C1ECD/validated-judgment.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-FE5101CF9D/answer.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-FE5101CF9D/decoded-with-special-tokens.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-FE5101CF9D/input.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-FE5101CF9D/response.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-FE5101CF9D/result.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:responses/BJ01-FE5101CF9D/started.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:run-end.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:run-start.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:setup/preload-hardware.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:setup/preload.log",
+      "pass": true
+    },
+    {
+      "name": "archive hash:setup/setup.log",
+      "pass": true
+    },
+    {
+      "name": "archive hash:setup/torch-constraint.txt",
+      "pass": true
+    },
+    {
+      "name": "archive hash:setup/venv-check.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:tokenizer-binding.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:tokenizer-observed-4653311f6d254853b56e79159f34f022.json",
+      "pass": true
+    },
+    {
+      "name": "archive hash:worker.log",
+      "pass": true
+    },
+    {
+      "name": "fixed material:packets.json",
+      "pass": true
+    },
+    {
+      "name": "fixed material:labels-and-provenance.json",
+      "pass": true
+    },
+    {
+      "name": "fixed material:judge-requests.json",
+      "pass": true
+    },
+    {
+      "name": "fixed material:judge-output-schema.json",
+      "pass": true
+    },
+    {
+      "name": "fixed material:design-summary.json",
+      "pass": true
+    },
+    {
+      "name": "fixed material:MANIFEST.json",
+      "pass": true
+    },
+    {
+      "name": "delivered source:boundary_judge_01_bootstrap.py",
+      "pass": true
+    },
+    {
+      "name": "delivered source:boundary_judge_01_runtime.py",
+      "pass": true
+    },
+    {
+      "name": "delivered source:boundary_judge_01_scoring.py",
+      "pass": true
+    },
+    {
+      "name": "delivered source:cross_model_e1_01_generation_runtime.py",
+      "pass": true
+    },
+    {
+      "name": "delivered source:cross_model_e1_01_offline_runtime.py",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-03F8F541CE:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-057287FBF8:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-10E1114146:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1291DE8730:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-1CC7DB2593:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-264F1AF1C3:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-295E5780D3:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2BD4DBA541:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2C87C728B1:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CD52A8E83:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2CDFAEA4C5:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-2F63BD1004:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30BBED081B:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-30C57AB37C:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-32A8CC39FE:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-33941EC297:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3CD2F35517:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-3DC1DA56D3:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4262428E39:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-42B4A6C62A:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-4D3F5AD190:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-57860E60DB:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A0B3D43EA:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5A7E459E6E:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E1D1F05D5:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5E451D7DA8:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5F3192FCBA:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-5FBFF962D9:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-6914FFC31F:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-69550557DD:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-746CD0437B:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-793ECEA60D:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-85DE5A25F7:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8652B8E734:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BB268C56D:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-8BDE68FBE7:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-98D3F8429A:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9B5AB5F947:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9E32802E39:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-9EF518886F:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A2C565B57B:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A480FEED23:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8BF3027CF:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A8F3CA47C2:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-A95E455A54:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-AD9553E158:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B1463C4643:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B46AB653B1:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B7822E82DE:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B912184C9A:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-B931C82561:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-C16A379380:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CD83F4C8AC:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-CE279D835C:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D1E22B6739:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-D2F2F20934:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-DD7E3C3E7C:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E40A60B167:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-E80FF8054D:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-EAF229C0FD:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F522109F2A:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F53F084968:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-F5F76C1ECD:formal match",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:request",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:seed",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:EOS",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:limits",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:raw identity",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:rendered messages present",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:A:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:B:facts",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:joint-total:{'A': 'PAPER', 'B': 'DIGITAL'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:joint-total:{'A': 'DIGITAL', 'B': 'PAPER'}",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:independent gold",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:no duplicate JSON keys",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:judge ID",
+      "pass": true
+    },
+    {
+      "name": "BJ01-FE5101CF9D:formal match",
+      "pass": true
+    },
+    {
+      "name": "aggregate counts",
+      "pass": true
+    },
+    {
+      "name": "64 physical calls",
+      "pass": true
+    },
+    {
+      "name": "runtime bound",
+      "pass": true
+    },
+    {
+      "name": "no local model modules",
+      "pass": true
+    }
+  ]
+}

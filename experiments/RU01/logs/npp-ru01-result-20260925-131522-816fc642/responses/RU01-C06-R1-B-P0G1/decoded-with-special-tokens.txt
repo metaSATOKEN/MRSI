@@ -1,0 +1,16 @@
+{
+  "customer": {
+    "subject": "B",
+    "animal": "DOG"
+  },
+  "coverage": {
+    "A": {
+      "paper": "NOT_ALL",
+      "digital": "ALL"
+    },
+    "B": {
+      "paper": "ALL",
+      "digital": "ALL"
+    }
+  }
+}<|im_end|>

@@ -1,0 +1,1 @@
+{"own":{"evidence_ids":["E3c75273d5b","E4a7f20ecfb"],"holder":"C","recommendation":"DIGITAL"},"vote":{"decision":"HOLD","proposal_id":"Pb2f047c7"}}<|im_end|>

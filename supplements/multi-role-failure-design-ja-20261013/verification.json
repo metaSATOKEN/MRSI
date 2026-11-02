@@ -1,0 +1,1335 @@
+{
+  "passed": true,
+  "count": 332,
+  "checks": [
+    {
+      "check": "unchanged: papers/two-role-failure-design/manuscript-en-v0.2-2026-09-30.pdf",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/two-role-failure-design/manuscript-ja-v0.5-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/two-role-failure-design/manuscript-en-v0.2-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-04/manuscript-en-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-04/evidence-index-en-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-04/evidence-extract-v0.1-2026-10-13.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-04/evidence-index-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-04/related-work-review-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-04/README.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-04/manuscript-ja-v0.2-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-04/manuscript-ja-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-04/paper-04-scope-v0.1-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-04/paper-data-v0.1-2026-10-13.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-01/manuscript-v0.11-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-02/manuscript-ja-v0.4-2026-09-27.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/paper-03/manuscript-ja-v0.2-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/two-role-failure-design/examples/design_samples_complete_v0_1.py",
+      "passed": true
+    },
+    {
+      "check": "unchanged: papers/two-role-failure-design/evidence-index-v0.5-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "unchanged: study2/results/three-role-boundary-01-20261013/attempt-02-complete/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged: study2/results/three-role-approval-readout-01-20261013/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged: study2/results/three-role-comparison-vote-01-20261013/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "unchanged: study2/results/three-role-comparison-vote-02-20261013/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "old observation 4.1 exact text",
+      "passed": true
+    },
+    {
+      "check": "old observation 4.2 exact text",
+      "passed": true
+    },
+    {
+      "check": "old observation 4.3 exact text",
+      "passed": true
+    },
+    {
+      "check": "old observation 4.5 retained as 4.6",
+      "passed": true
+    },
+    {
+      "check": "six observations",
+      "passed": true
+    },
+    {
+      "check": "seven principles",
+      "passed": true
+    },
+    {
+      "check": "corrected B input description retained",
+      "passed": true
+    },
+    {
+      "check": "TAR endpoint stated",
+      "passed": true
+    },
+    {
+      "check": "constructed HOLD stated",
+      "passed": true
+    },
+    {
+      "check": "participant-count limitation",
+      "passed": true
+    },
+    {
+      "check": "visible author contact",
+      "passed": true
+    },
+    {
+      "check": "two figure sources",
+      "passed": true
+    },
+    {
+      "check": "figure 1 framework unchanged",
+      "passed": true
+    },
+    {
+      "check": "figure 1 copied source",
+      "passed": true
+    },
+    {
+      "check": "figure 2 copied source",
+      "passed": true
+    },
+    {
+      "check": "reference architecture edge C --> G",
+      "passed": true
+    },
+    {
+      "check": "reference architecture edge A --> G",
+      "passed": true
+    },
+    {
+      "check": "reference architecture edge L --> A",
+      "passed": true
+    },
+    {
+      "check": "reference architecture edge Q --> L",
+      "passed": true
+    },
+    {
+      "check": "reference architecture edge V --> L",
+      "passed": true
+    },
+    {
+      "check": "appendix code equals standalone",
+      "passed": true
+    },
+    {
+      "check": "main code AST matches appendix: select_observation",
+      "passed": true
+    },
+    {
+      "check": "main code AST matches appendix: record_assignment",
+      "passed": true
+    },
+    {
+      "check": "main code AST matches appendix: decide",
+      "passed": true
+    },
+    {
+      "check": "working selection function reused unchanged",
+      "passed": true
+    },
+    {
+      "check": "appendix standalone execution",
+      "passed": true
+    },
+    {
+      "check": "example missing/hold distinction",
+      "passed": true
+    },
+    {
+      "check": "low-quality unanimous votes preserved",
+      "passed": true
+    },
+    {
+      "check": "normal unanimous progress",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-boundary-01-20261013/attempt-02-complete/diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-boundary-01-20261013/attempt-02-complete/evidence-extract.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-boundary-01-20261013/attempt-02-complete/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-boundary-01-20261013/attempt-02-complete/npp-tb01-result-20261013-041945-c6e2c94d.zip",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-vote-repeat-01-20261013/diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-vote-repeat-01-20261013/evidence-extract.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-vote-repeat-01-20261013/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-vote-repeat-01-20261013/repeat-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-vote-repeat-01-20261013/npp-tvr01-result-20261013-045940-cf404568.zip",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-01-20261013/diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-01-20261013/evidence-extract.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-01-20261013/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-01-20261013/repeat-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-01-20261013/npp-tcv01-result-20261013-053413-76c1649c.zip",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-02-20261013/diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-02-20261013/evidence-extract.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-02-20261013/formation-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-02-20261013/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-02-20261013/repeat-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-comparison-vote-02-20261013/npp-tcv02-result-20261013-061923-878369ad.zip",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-approval-readout-01-20261013/diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-approval-readout-01-20261013/evidence-extract.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-approval-readout-01-20261013/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-approval-readout-01-20261013/repeat-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-approval-readout-01-20261013/supplementary-analysis.json",
+      "passed": true
+    },
+    {
+      "check": "paper4 source hash: study2/results/three-role-approval-readout-01-20261013/npp-tar01-result-20261013-071229-08c825b9.zip",
+      "passed": true
+    },
+    {
+      "check": "TB vote 35/36",
+      "passed": true
+    },
+    {
+      "check": "TB read 72/72",
+      "passed": true
+    },
+    {
+      "check": "TAR own_holder",
+      "passed": true
+    },
+    {
+      "check": "TAR own_recommendation",
+      "passed": true
+    },
+    {
+      "check": "TAR own_sources",
+      "passed": true
+    },
+    {
+      "check": "TAR approval_state",
+      "passed": true
+    },
+    {
+      "check": "TAR agreement",
+      "passed": true
+    },
+    {
+      "check": "TAR execution",
+      "passed": true
+    },
+    {
+      "check": "TAR 17/18 full-axis triplets",
+      "passed": true
+    },
+    {
+      "check": "table4: 本人の持ち主・推奨・根拠（各軸）/MISSING",
+      "passed": true
+    },
+    {
+      "check": "table4: 本人の持ち主・推奨・根拠（各軸）/HOLD",
+      "passed": true
+    },
+    {
+      "check": "table4: 本人の持ち主・推奨・根拠（各軸）/ACCEPT",
+      "passed": true
+    },
+    {
+      "check": "table4: 三人の承認状態/MISSING",
+      "passed": true
+    },
+    {
+      "check": "table4: 三人の承認状態/HOLD",
+      "passed": true
+    },
+    {
+      "check": "table4: 三人の承認状態/ACCEPT",
+      "passed": true
+    },
+    {
+      "check": "table4: 集団合意/MISSING",
+      "passed": true
+    },
+    {
+      "check": "table4: 集団合意/HOLD",
+      "passed": true
+    },
+    {
+      "check": "table4: 集団合意/ACCEPT",
+      "passed": true
+    },
+    {
+      "check": "table4: 実行判断/MISSING",
+      "passed": true
+    },
+    {
+      "check": "table4: 実行判断/HOLD",
+      "passed": true
+    },
+    {
+      "check": "table4: 実行判断/ACCEPT",
+      "passed": true
+    },
+    {
+      "check": "table4: 全六軸/MISSING",
+      "passed": true
+    },
+    {
+      "check": "table4: 全六軸/HOLD",
+      "passed": true
+    },
+    {
+      "check": "table4: 全六軸/ACCEPT",
+      "passed": true
+    },
+    {
+      "check": "TCV01 DIRECT",
+      "passed": true
+    },
+    {
+      "check": "TCV01 COMPARE",
+      "passed": true
+    },
+    {
+      "check": "TCV02 DIRECT",
+      "passed": true
+    },
+    {
+      "check": "TCV02 COMPARE",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-VOTE-B/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-VOTE-B/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-VOTE-B/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-VOTE-B/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-VOTE-B/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-VOTE-B/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-VOTE-A/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-VOTE-A/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-VOTE-A/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-VOTE-A/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-VOTE-A/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-VOTE-A/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-TWO_RECEIVED-B/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-TWO_RECEIVED-B/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-TWO_RECEIVED-B/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-TWO_RECEIVED-B/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-TWO_RECEIVED-B/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-TWO_RECEIVED-B/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-TWO_RECEIVED-C/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-TWO_RECEIVED-C/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-TWO_RECEIVED-C/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-TWO_RECEIVED-C/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-TWO_RECEIVED-C/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-TWO_RECEIVED-C/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-TWO_RECEIVED-A/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-TWO_RECEIVED-A/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-TWO_RECEIVED-A/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-TWO_RECEIVED-A/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-TWO_RECEIVED-A/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-TWO_RECEIVED-A/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-VOTE-C/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-VOTE-C/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-VOTE-C/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-VOTE-C/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-VOTE-C/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-VOTE-C/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-THREE_RECEIVED-B/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-THREE_RECEIVED-B/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-THREE_RECEIVED-B/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-THREE_RECEIVED-B/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-THREE_RECEIVED-B/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-THREE_RECEIVED-B/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-THREE_RECEIVED-C/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-THREE_RECEIVED-C/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-THREE_RECEIVED-C/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-THREE_RECEIVED-C/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-THREE_RECEIVED-C/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-THREE_RECEIVED-C/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-THREE_RECEIVED-A/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-THREE_RECEIVED-A/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R1-HIGHER-THREE_RECEIVED-A/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R1-HIGHER-THREE_RECEIVED-A/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-THREE_RECEIVED-A/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R1-HIGHER-THREE_RECEIVED-A/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R2-HIGHER-VOTE-C/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R2-HIGHER-VOTE-C/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R2-HIGHER-VOTE-C/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R2-HIGHER-VOTE-C/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R2-HIGHER-VOTE-C/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R2-HIGHER-VOTE-C/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R2-HIGHER-THREE_RECEIVED-C/input",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R2-HIGHER-THREE_RECEIVED-C/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TB01-T02-R2-HIGHER-THREE_RECEIVED-C/answer",
+      "passed": true
+    },
+    {
+      "check": "original TB01-T02-R2-HIGHER-THREE_RECEIVED-C/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R2-HIGHER-THREE_RECEIVED-C/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TB01-T02-R2-HIGHER-THREE_RECEIVED-C/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R1-MISSING/input",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R1-MISSING/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R1-MISSING/answer",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R1-MISSING/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R1-MISSING/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R1-MISSING/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R1-ACCEPT/input",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R1-ACCEPT/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R1-ACCEPT/answer",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R1-ACCEPT/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R1-ACCEPT/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R1-ACCEPT/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R1-HOLD/input",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R1-HOLD/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R1-HOLD/answer",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R1-HOLD/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R1-HOLD/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R1-HOLD/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R2-HOLD/input",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R2-HOLD/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R2-HOLD/answer",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R2-HOLD/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R2-HOLD/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R2-HOLD/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R2-MISSING/input",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R2-MISSING/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R2-MISSING/answer",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R2-MISSING/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R2-MISSING/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R2-MISSING/C1",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R2-ACCEPT/input",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R2-ACCEPT/input",
+      "passed": true
+    },
+    {
+      "check": "unique archive member TAR01-N01-A-R2-ACCEPT/answer",
+      "passed": true
+    },
+    {
+      "check": "original TAR01-N01-A-R2-ACCEPT/answer",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R2-ACCEPT/C2",
+      "passed": true
+    },
+    {
+      "check": "candidate arithmetic TAR01-N01-A-R2-ACCEPT/C1",
+      "passed": true
+    },
+    {
+      "check": "TB C actual HOLD and correct own",
+      "passed": true
+    },
+    {
+      "check": "TB faithful read A",
+      "passed": true
+    },
+    {
+      "check": "TB faithful read B",
+      "passed": true
+    },
+    {
+      "check": "TB faithful read C",
+      "passed": true
+    },
+    {
+      "check": "TAR missing input has B/C only",
+      "passed": true
+    },
+    {
+      "check": "TAR missing R1 misrecorded HOLD",
+      "passed": true
+    },
+    {
+      "check": "TAR same-input R2 correct",
+      "passed": true
+    },
+    {
+      "check": "TAR R1 missing and HOLD outputs same",
+      "passed": true
+    },
+    {
+      "check": "TAR own versus assignment",
+      "passed": true
+    },
+    {
+      "check": "balanced code fences: manuscript-ja-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: manuscript-ja-v0.6-2026-10-13.md -> ../paper-01/manuscript-v0.11-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "local link: manuscript-ja-v0.6-2026-10-13.md -> ../paper-02/manuscript-ja-v0.4-2026-09-27.md",
+      "passed": true
+    },
+    {
+      "check": "local link: manuscript-ja-v0.6-2026-10-13.md -> ../paper-03/manuscript-ja-v0.2-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link: manuscript-ja-v0.6-2026-10-13.md -> ../../references/meteon_series_collected_edition.pdf",
+      "passed": true
+    },
+    {
+      "check": "local link: manuscript-ja-v0.6-2026-10-13.md -> ../../references/meteon_series_collected_edition.pdf",
+      "passed": true
+    },
+    {
+      "check": "local link: manuscript-ja-v0.6-2026-10-13.md -> ../paper-04/manuscript-ja-v0.2-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: manuscript-ja-v0.6-2026-10-13.md -> evidence-index-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 情報欄 | 何を記録するか | 何に使うか |\n|---|---|---|\n",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 対象 | 守る関係 | 更新を認める根拠 |\n|---|---|---|\n|",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 保存処理 | 本人観測が正しい | 共同観測が正しい | 最新状態に合う共同",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 役 | 紙での予測成功人数 | デジタルでの予測成功人数 | 本人としての適",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 点検対象 | 未返答 | 明示保留 | 全員承認 |\n|---|---:|-",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 同じ確認入力への回答 | 本人の推奨 | 共同応答 | 両方の成立 |\n|-",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 観測者 | 版 | 紙 | デジタル | 元ID |\n|---|---:|-",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 原則 | 既存実験内の根拠・到達範囲 | 拡張時の確認対象 |\n|---|-",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 対象 | 成立を求める入力 | 境界を確かめる入力 | 別々に記録する結果 ",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 観測・評価上の問題 | 主な設計原則 | 次に見るもの |\n|---|---",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 欄 | 記入する内容 |\n|---|---|\n| 守る対象 | 役、情報欄、",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 本稿の箇所 | 元試験 | 材料・生成単位 | 元報告 |\n|---|---",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | 入力 | 含める情報と前提 |\n|---|---|\n| `rows` | 同",
+      "passed": true
+    },
+    {
+      "check": "table width: manuscript-ja-v0.6-2026-10-13.md | Aの票 | Aの状態 | 全員合意 | 実行判定 |\n|---|---|--",
+      "passed": true
+    },
+    {
+      "check": "balanced code fences: evidence-index-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> manuscript-ja-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../paper-01/manuscript-v0.11-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../paper-02/manuscript-ja-v0.4-2026-09-27.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../paper-03/manuscript-ja-v0.2-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../paper-04/manuscript-ja-v0.2-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../references/meteon_series_collected_edition.pdf",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/shared-merge-02-results-v0.1-2026-09-19.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/row-carry-01-results-v0.1-2026-09-19.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../paper-01/examples-v0.1-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../throughline/audits/paper-01-pair-resume1-20260921/combined-analysis.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../throughline/audits/paper-01-reader-claude-20260922/observations.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/customer-update-01-result-2026-09-26.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../throughline/audits/customer-update-01-result-20260926/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../throughline/audits/customer-update-01-result-20260926/proposal-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../throughline/audits/customer-update-01-result-20260926/example.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/owner-recency-01-result-2026-09-25.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../throughline/audits/owner-recency-01-result-20260925/recomputed.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../throughline/audits/owner-recency-01-result-20260925/branch-diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/summary-timing-02-result-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/results/summary-timing-02-20260929/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/results/summary-timing-02-20260929/reason-review.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../scripts/summary_timing_01_runtime.py",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/judgment-repeat-01-result-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/results/judgment-repeat-01-20260929/diagnostics.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/designs/judgment-repeat-01-20260929/source-inputs.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/results/judgment-repeat-01-20260929/reason-review.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/results/summary-timing-01-20260929/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../paper-03/evidence-extract-v0.1-2026-09-29.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/boundary-judge-01-result-2026-09-28.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/three-role-boundary-01-result-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/results/three-role-boundary-01-20261013/attempt-02-complete/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../paper-04/evidence-extract-v0.1-2026-10-13.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/three-role-approval-readout-01-result-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/results/three-role-approval-readout-01-20261013/reaggregated.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/results/three-role-approval-readout-01-20261013/repeat-comparison.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/three-role-comparison-vote-01-result-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../study2/three-role-comparison-vote-02-result-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../paper-04/paper-data-v0.1-2026-10-13.json",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../paper-02/evidence-index-v0.4-2026-09-27.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../paper-01/implementation-notes-v0.3-2026-09-23.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> examples/design_samples_complete_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> revision-notes-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: evidence-index-v0.6-2026-10-13.md -> ../../throughline/audits/multi-role-failure-design-ja-20261013/README.md",
+      "passed": true
+    },
+    {
+      "check": "table width: evidence-index-v0.6-2026-10-13.md | 番号 | 資料 | 今回の役割 |\n|---|---|---|\n| 1 | ",
+      "passed": true
+    },
+    {
+      "check": "table width: evidence-index-v0.6-2026-10-13.md | 本文 | 事例・数値 | 正式結果・既存の照合記録 |\n|---|---|-",
+      "passed": true
+    },
+    {
+      "check": "table width: evidence-index-v0.6-2026-10-13.md | 原則 | 主な根拠 | 比較済み・実運転で確認した処理 | 設計提案として残",
+      "passed": true
+    },
+    {
+      "check": "balanced code fences: revision-notes-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: revision-notes-v0.6-2026-10-13.md -> manuscript-ja-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: revision-notes-v0.6-2026-10-13.md -> evidence-index-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: revision-notes-v0.6-2026-10-13.md -> ../../throughline/audits/multi-role-failure-design-ja-20261013/README.md",
+      "passed": true
+    },
+    {
+      "check": "balanced code fences: README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> manuscript-ja-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> evidence-index-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> revision-notes-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> figures/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> examples/design_samples_complete_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> examples/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> manuscript-en-v0.2-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> manuscript-en-v0.2-2026-09-30.pdf",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> ../../throughline/audits/two-role-failure-design-pdf-review-20260930/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> evidence-index-en-v0.2-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> translation-notes-en-v0.2-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> manuscript-ja-v0.5-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> Old/manuscript-ja-v0.4-2026-09-29.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> input-description-correction-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "balanced code fences: README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> ../manuscript-ja-v0.6-2026-10-13.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> design_samples_complete_v0_2.py",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> design_samples_complete_v0_1.py",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> design_samples_complete_en_v0_1.py",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> design_samples_v0_1.py",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> test_design_samples_v0_1.py",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> ../manuscript-ja-v0.5-2026-09-30.md",
+      "passed": true
+    },
+    {
+      "check": "balanced code fences: README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> fig01-ja-v06.mmd",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> fig02-ja-v06.mmd",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> fig01-record-trace-en-v1.png",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> fig01-record-trace-en-v1.svg",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> fig02-reference-architecture-en-v1.png",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> fig02-reference-architecture-en-v1.svg",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> make_figures_en_v1.py",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> layout-checks-en-v1.json",
+      "passed": true
+    },
+    {
+      "check": "table width: README.md | Figure | PNG for Markdown | SVG for ve",
+      "passed": true
+    },
+    {
+      "check": "balanced code fences: README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> paper-01/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> paper-02/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> paper-03/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> paper-04/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> two-role-failure-design/README.md",
+      "passed": true
+    },
+    {
+      "check": "local link: README.md -> ../GitHub公開用/README_ja.md",
+      "passed": true
+    },
+    {
+      "check": "table width: README.md | 論文 | 最新版と図・証拠 |\n|---|---|\n| 第一報：本人情報・共",
+      "passed": true
+    },
+    {
+      "check": "ledger append only",
+      "passed": true
+    }
+  ],
+  "scope": "Editorial evidence correspondence and synthetic code tests within the same project; no new LLM experiment."
+}

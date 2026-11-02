@@ -1,0 +1,11 @@
+{
+  "stage": "BEFORE_CANDIDATE_RESCORING_AFTER_KNOWN_DIAGNOSTICS",
+  "timestamp": "2026-09-28T13:05:43.927384+00:00",
+  "files": {
+    "scope.md": "4f57154653cb8e799257c1b588bf18de2a65ba8f025e03bea577a370b91922a6",
+    "receiver_candidate.py": "0f78f1512cc35575a350ccb09971c60f963a8cc1b8a6d4c99ebb6679e57ea0f3",
+    "audit.py": "4c163c02da31a4f4a285c2d1d6329c0ad53919761cb5949c5bdb66ed70db0b70",
+    "test_receiver.py": "0e68486c51633dfb81080d43a23895ff591bfa38f8f2577d01dab0a8f481292d",
+    "test-attempt-01.log": "ee5419aa62773ce92464eb3e8df6baf86814e92cb49f1c5e83a767a44d64f895"
+  }
+}

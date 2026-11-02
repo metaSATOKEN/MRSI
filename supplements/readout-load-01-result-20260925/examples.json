@@ -1,0 +1,257 @@
+{
+  "RL01-M02-R1-FULL": {
+    "payload": {
+      "holder": "A",
+      "item": "個別の案内カード",
+      "records": [
+        {
+          "body": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "RC33F91208C09148",
+              "paper": "ALL",
+              "revision": 2
+            },
+            "customer": {
+              "animal": "DOG",
+              "origin_id": "R42FCC084BA840EA",
+              "subject": "A"
+            }
+          },
+          "record_id": "PRIVATE"
+        },
+        {
+          "body": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "RC33F91208C09148",
+                "paper": "ALL",
+                "revision": 2
+              },
+              "B": {
+                "digital": "NOT_ALL",
+                "observer": "B",
+                "origin_id": "RA19FFE11B0C55B9",
+                "paper": "ALL",
+                "revision": 2
+              }
+            }
+          },
+          "record_id": "GROUP"
+        }
+      ],
+      "scene": "防災学習会・北会場"
+    },
+    "answer": {
+      "decision": {
+        "mascot": "DOG",
+        "channel": "PAPER"
+      },
+      "read_receipt": {
+        "mascot_record_refs": [
+          "PRIVATE"
+        ],
+        "channel_record_refs": [
+          "PRIVATE",
+          "GROUP"
+        ]
+      },
+      "origin_ids": {
+        "mascot": [
+          "R42FCC084BA840EA"
+        ],
+        "channel": [
+          "RC33F91208C09148",
+          "RA19FFE11B0C55B9"
+        ]
+      }
+    },
+    "truth": "PAPER",
+    "answer_sha256": "41ef9716d4d260705dff6745057590ee3f313662bbf0bbdd338ded523ac7ccbe"
+  },
+  "RL01-B04-R1-FULL": {
+    "payload": {
+      "holder": "B",
+      "item": "個別の案内カード",
+      "records": [
+        {
+          "body": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "B",
+              "origin_id": "RLE1209F5E2F677C",
+              "paper": "ALL",
+              "revision": 3
+            },
+            "customer": {
+              "animal": "DOG",
+              "origin_id": "RED652413E27715E",
+              "subject": "B"
+            }
+          },
+          "record_id": "PRIVATE"
+        },
+        {
+          "body": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "RL1FFFAB59207F54",
+                "paper": "ALL",
+                "revision": 4
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "RLE1209F5E2F677C",
+                "paper": "ALL",
+                "revision": 3
+              }
+            }
+          },
+          "record_id": "GROUP"
+        }
+      ],
+      "scene": "地域園芸講座・西会場"
+    },
+    "answer": {
+      "decision": {
+        "mascot": "DOG",
+        "channel": "PAPER"
+      },
+      "read_receipt": {
+        "mascot_record_refs": [
+          "PRIVATE"
+        ],
+        "channel_record_refs": [
+          "PRIVATE",
+          "GROUP"
+        ]
+      },
+      "origin_ids": {
+        "mascot": [
+          "RED652413E27715E"
+        ],
+        "channel": [
+          "RLE1209F5E2F677C",
+          "RLE1209F5E2F677C"
+        ]
+      }
+    },
+    "truth": "UNKNOWN",
+    "answer_sha256": "ba7530c7f598dbcc6f96452c878a2d308a7ccea5d19d54dfd0745729c0362bc3"
+  },
+  "RL01-M12-R2-DUAL": {
+    "payload": {
+      "holder": "B",
+      "item": "個別の案内カード",
+      "records": [
+        {
+          "body": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "B",
+              "origin_id": "R907AA427A60A9F8",
+              "paper": "NOT_ALL",
+              "revision": 3
+            },
+            "customer": {
+              "animal": "DOG",
+              "origin_id": "R4C9D60D1BCA293F",
+              "subject": "B"
+            }
+          },
+          "record_id": "PRIVATE"
+        },
+        {
+          "body": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "R2B544B4380FFEF7",
+                "paper": "NOT_ALL",
+                "revision": 4
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "R907AA427A60A9F8",
+                "paper": "NOT_ALL",
+                "revision": 3
+              }
+            }
+          },
+          "record_id": "GROUP"
+        }
+      ],
+      "scene": "歴史散策会・丘の会場"
+    },
+    "answer": {
+      "decision": {
+        "mascot": "DOG",
+        "channel": "DIGITAL"
+      }
+    },
+    "truth": "DIGITAL",
+    "answer_sha256": "c603105733ecc16b243b7beb858533e6d2848b12f9b209941304a70c2277a173"
+  },
+  "RL01-B03-R2-CHANNEL": {
+    "payload": {
+      "holder": "A",
+      "item": "個別の案内カード",
+      "records": [
+        {
+          "body": {
+            "coverage": {
+              "digital": "ALL",
+              "observer": "A",
+              "origin_id": "RLB87C95641B8494",
+              "paper": "ALL",
+              "revision": 4
+            },
+            "customer": {
+              "animal": "CAT",
+              "origin_id": "R42BFCD43387295D",
+              "subject": "A"
+            }
+          },
+          "record_id": "PRIVATE"
+        },
+        {
+          "body": {
+            "coverage": {
+              "A": {
+                "digital": "ALL",
+                "observer": "A",
+                "origin_id": "RLB87C95641B8494",
+                "paper": "ALL",
+                "revision": 4
+              },
+              "B": {
+                "digital": "ALL",
+                "observer": "B",
+                "origin_id": "RL9B05CA54A4E305",
+                "paper": "ALL",
+                "revision": 4
+              }
+            }
+          },
+          "record_id": "GROUP"
+        }
+      ],
+      "scene": "天体観察会・丘の会場"
+    },
+    "answer": {
+      "decision": {
+        "channel": "PAPER"
+      }
+    },
+    "truth": "UNKNOWN",
+    "answer_sha256": "bd7b0bd14f302f426eb583415dd1bdb16c68b9f8a6b9f0b27a78ab3ec695a39a"
+  }
+}

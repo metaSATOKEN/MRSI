@@ -1,0 +1,402 @@
+"""SX01 immutable evidence controller. Stdlib at import; model loading only in worker."""
+from collections import Counter
+from hashlib import sha256
+import json
+from pathlib import Path, PurePosixPath
+import platform
+import signal
+import stat
+import sys
+import tempfile
+import time
+import traceback
+import uuid
+import zipfile
+
+import cross_model_e1_01_offline_runtime as core
+import cross_model_e1_01_generation_runtime as live
+import self_update_exchange_01_scoring as sc
+
+PROTOCOL = 'SELF-UPDATE-EXCHANGE-01-RUN-v0.1'
+DESIGN_SHA = '64ed94a8e4d08400d9df709675c1f7fd1f71c4917db5220f3e9eae887a8847a9'
+REQUESTS_SHA = '5e98dc1db1ec69c64aaf67cdc567969c87f273eeaa9201605a0e1f798763a861'
+
+
+def contract_for(packed):
+    return {'protocol': PROTOCOL, 'design_sha256': DESIGN_SHA, 'requests_sha256': REQUESTS_SHA,
+        'source_hashes': {n: sha256(s.encode()).hexdigest() for n,s in packed['code'].items()},
+        'max_generations': 128, 'max_updates': 96, 'max_reads': 32, 'seconds_including_setup': 5400,
+        'automatic_regenerations': 0, 'resume_generation': False, 'checkpoint_every_closed_pairs': 2,
+        'cloud_drive': 'not_used', 'retention': 'private_no_deletion_deadline', 'delivery': 'zip_download',
+        'sharing': 'No response sharing across roles or repeats.',
+        'normalization': 'Strict bare JSON first; exact json LF fence only; no value repair.',
+        'eos_policy': 'Remove one final im_end only, preserving output tokens.'}
+
+
+def validate_payload(packed):
+    core.require(sha256(packed['design_text'].encode()).hexdigest()==DESIGN_SHA,'DESIGN_CHANGED')
+    core.require(sha256(packed['requests_text'].encode()).hexdigest()==REQUESTS_SHA,'REQUESTS_CHANGED')
+    design=json.loads(packed['design_text']); requests=json.loads(packed['requests_text'])
+    core.require(len(design['runs'])==16 and len(design['allocation'])==128,'SCOPE')
+    core.require(requests==sc.initial_requests(design),'REQUESTS_CHANGED')
+    core.require(packed['contract']==contract_for(packed),'CONTRACT_CHANGED')
+    core.require(design['model']=={'model':live.MODEL_ID,'revision':live.MODEL_REVISION,
+        'pins':live.PINS,'generation':live.GENERATION,'max_input_tokens':live.MAX_INPUT_TOKENS,
+        'enable_thinking':False,'dtype':'bfloat16','attention':'sdpa'},'MODEL_CHANGED')
+    return design,requests
+
+
+def initialize(root, packed):
+    validate_payload(packed);root=Path(root);root.mkdir(parents=True,exist_ok=True)
+    live.write_new(root/'design.json',packed['design_text'].encode())
+    live.write_new(root/'requests.json',packed['requests_text'].encode())
+    live.write_json(root/'contract.json',packed['contract'])
+    for name,src in packed['code'].items():live.write_new(root/'code'/name,src.encode())
+
+
+def verify_root(root, packed):
+    design,requests=validate_payload(packed);root=Path(root)
+    for name,key in [('design.json','design_text'),('requests.json','requests_text')]:
+        core.require((root/name).read_bytes()==packed[key].encode(),'SAVED_'+name)
+    core.require(live.read_json(root/'contract.json')==packed['contract'],'SAVED_CONTRACT')
+    for name,src in packed['code'].items():core.require((root/'code'/name).read_bytes()==src.encode(),'SAVED_CODE')
+    for module in (core,live,sc.base.base,sc.base.readout,sc.base,sc.policy.envelope,sc.policy,sc,sys.modules[__name__]):
+        path=Path(module.__file__)
+        core.require(sha256(path.read_bytes()).hexdigest()==packed['contract']['source_hashes'][path.name],'ACTIVE_CODE_CHANGED')
+    allowed={s['id'] for s in design['allocation']}
+    if (root/'responses').exists():
+        core.require(all(p.is_dir() and not p.is_symlink() and p.name in allowed for p in (root/'responses').iterdir()),'UNEXPECTED_RESPONSE_ID')
+        core.require(all(not p.is_symlink() and (p.is_file() or p.name in allowed) for p in (root/'responses').rglob('*')),'RESPONSE_FILE_TYPE')
+    return design,requests
+
+
+def match_bytes(path, raw, create):
+    if create and not path.exists():live.write_new(path,raw)
+    core.require(path.read_bytes()==raw,'ARTIFACT_BYTES_MISMATCH:'+path.name)
+
+
+def unknown(context, stage, design, memory=None):
+    if stage=='READ':
+        return sc.score_read(None,memory,context['case'],context['role'],design['read_schema'])
+    return dict(sc.score_memory(None,context['case'],context['role'],stage),
+        proposal_score=None,normalized_schema_accepted=None,error='NO_RESPONSE',
+        normalization={'status':'UNRESOLVED','reason':'NO_RESPONSE'})
+
+
+def evaluate(response, context, stage, design, memory=None):
+    raw=response['answer_text'].encode(); finish=response['finish_reason']
+    if stage=='READ':
+        return sc.score_read(raw,memory,context['case'],context['role'],design['read_schema'],finish)
+    derived=sc.derive_update(raw,context['payload'],design['update_schema'],finish)
+    score=sc.score_memory(derived['memory'],context['case'],context['role'],stage)
+    score.update(proposal_score=sc.score_memory(derived['proposal'],context['case'],context['role'],stage)
+                 if derived['proposal'] is not None else None,
+                 normalized_schema_accepted=derived['proposal'] is not None,
+                 error=derived['error'],normalization=derived['receipt'])
+    if derived['error'] in ('RECEIVE','SCHEMA'):score['format_valid']=False
+    return score
+
+
+def artifacts(folder, response, score, context, stage, design, create):
+    raw=response['answer_text'].encode()
+    match_bytes(folder/'answer.txt',raw,create)
+    match_bytes(folder/'decoded-with-special-tokens.txt',response['decoded_with_special_tokens'].encode(),create)
+    receipt=sc.policy.receive(raw,'READ' if stage=='READ' else 'UPDATE',response['finish_reason'])
+    normalized=receipt.pop('normalized_bytes')
+    match_artifact(folder/'normalization.json',receipt,create)
+    if normalized is not None:match_bytes(folder/'normalized-answer.txt',normalized,create)
+    else:core.require(not (folder/'normalized-answer.txt').exists(),'REJECTED_NORMALIZED_TEXT')
+    if stage!='READ':
+        derived=sc.derive_update(raw,context['payload'],design['update_schema'],response['finish_reason'])
+        for name,value in [('proposal.json',derived['proposal']),('saved-memory.json',derived['memory']),('policy-trace.json',derived['trace'])]:
+            if value is not None:match_artifact(folder/name,value,create)
+            else:core.require(not (folder/name).exists(),'REJECTED_SAVED_ARTIFACT:'+name)
+        if derived['memory'] is not None:
+            actual=live.read_json(folder/'saved-memory.json')
+            reread=sc.score_memory(actual,context['case'],context['role'],stage)
+            core.require(all(score[k]==v for k,v in reread.items()),'SAVED_SCORE_MISMATCH')
+    else:
+        value=sc.base.parse(normalized) if normalized is not None else None
+        coverage=value.get('coverage') if isinstance(value,dict) else None
+        decision={'kind':'FROM_ACTUAL_EXTRACTED_VALUES','raw_sha256':sha256(raw).hexdigest(),
+            'normalized_sha256':receipt.get('normalized_sha256'),'coverage':coverage,
+            'channel':sc.base.compute_channel(coverage),'additional_model_calls':0}
+        core.require(decision['channel']==score.get('channel_output'),'DECISION_SCORE_MISMATCH')
+        match_artifact(folder/'derived-decision.json',decision,create)
+
+
+def status_for(response, score, stage):
+    if response['finish_reason']!='EOS':return response['finish_reason']
+    if stage!='READ' and (score.get('error') or '').startswith('INPUT_CONTRACT:'):return 'INPUT_CONTRACT_ERROR'
+    return 'EOS' if score.get('format_valid') is True else 'FORMAT_REJECT'
+
+
+def parent_state(root, slot, rows):
+    """Read actual serialized parents, binding content and result identity."""
+    states={}; binding={}
+    for pid in slot['parents']:
+        if pid not in rows:return None,None
+        folder=root/'responses'/pid;path=folder/'saved-memory.json'
+        states[pid]=live.read_json(path) if path.exists() else None
+        binding[pid]={'result_sha256':sha256((folder/'result.json').read_bytes()).hexdigest(),
+                      'saved_memory_sha256':sha256(path.read_bytes()).hexdigest() if path.exists() else None}
+    return states,binding
+
+
+def blocked(store, slot, score, status, binding, detail):
+    folder=store.directory(slot)
+    expected={'status':status,'parents':binding,'detail':detail}
+    match_artifact(folder/'blocked.json',expected,True)
+    forbidden=('input.json','started.json','response.json','answer.txt','saved-memory.json','proposal.json','policy-trace.json','normalization.json','normalized-answer.txt','derived-decision.json')
+    core.require(not any((folder/n).exists() for n in forbidden),'BLOCKED_HAS_RESPONSE')
+    if store.completed(slot):
+        result=store.load(slot)
+        core.require(result['score']==score and result['status']==status,'BLOCKED_REPLAY_MISMATCH')
+        return result
+    return store.finish(slot,status,score,'DEPENDENCY_OR_INPUT_CONTRACT')
+
+
+def run_routes(root, packed, backend=None, deadline=float('inf'), close_pending=False, checkpoint=None):
+    design,initial=verify_root(root,packed);root=Path(root)
+    initial={q['id']:q for q in initial};cases={c['id']:c for c in design['cases']}
+    store=live.EvidenceStore(root,packed['contract']);rows={};closed=0
+    for run in design['runs']:
+        slots=[s for s in design['allocation'] if s['run']==run['id']]
+        for slot in slots:
+            case=cases[slot['case']];stage=slot['stage'];role=slot['role']
+            context={'case':case,'role':role,'payload':None}
+            states,bindings=parent_state(root,slot,rows)
+            if states is None:continue
+            memory=states.get(slot['parents'][0]) if slot['parents'] else None
+            if any(v is None for v in states.values()):
+                rows[slot['id']]=blocked(store,slot,unknown(context,stage,design,memory),
+                    'DEPENDENCY_MISSING',bindings,{'missing_parents':[k for k,v in states.items() if v is None]})
+                continue
+            try:
+                if stage=='READ':
+                    request={'id':slot['id'],'seed':slot['seed'],'messages':sc.read_messages(design,case,role,memory)}
+                else:
+                    peer=states.get(slot['parents'][1]) if stage=='EXCHANGE' else None
+                    payload=sc.update_payload(case,role,stage,memory,peer)
+                    # Validate the visible catalog before giving this input to the LLM.
+                    sc.policy.latest_rows(payload,design['update_schema']['properties']['private_note']['properties']['coverage'])
+                    context['payload']=payload
+                    request={'id':slot['id'],'seed':slot['seed'],'messages':[
+                        {'role':'system','content':design['update_prompt']},
+                        {'role':'user','content':'\n資料JSON:\n'+sc.enc(payload).decode()}]}
+                    if stage=='SELF':core.require(request==initial[slot['id']],'INITIAL_REQUEST_CHANGED')
+            except (ValueError,KeyError,TypeError) as error:
+                rows[slot['id']]=blocked(store,slot,unknown(context,stage,design,memory),
+                    'INPUT_CONTRACT_ERROR',bindings,{'type':type(error).__name__,'message':str(error)})
+                continue
+            binding={'stage':stage,'role':role,'parents':bindings}
+            if stage=='EXCHANGE':
+                binding['forwarded_observation']={'parent':slot['parents'][1],'field':'private_note.coverage',
+                    'row_sha256':sc.digest(context['payload']['incoming_notice'])}
+            result=physical(store,request,binding,context,stage,design,memory,backend,deadline,close_pending)
+            if result is not None:rows[slot['id']]=result
+        if all(s['id'] in rows for s in slots):
+            closed+=1
+            if backend is not None:
+                attempted=len(list((root/'responses').glob('*/started.json')))
+                print(f'{closed}/16 pair runs; {len(rows)}/128 slots; model calls {attempted}/128',flush=True)
+                if checkpoint and closed%2==0:checkpoint(closed)
+    return {'responses':rows,'closed_pairs':closed}
+
+
+def make_report(root, packed, rows):
+    design,_=verify_root(root,packed);root=Path(root);results=rows['responses']
+    core.require(set(results)=={s['id'] for s in design['allocation']} and rows['closed_pairs']==16,'REPORT_INCOMPLETE')
+    report=sc.summarize(design,{sid:r['score'] for sid,r in results.items()})
+    report.update(protocol=PROTOCOL,closed_logical_responses=128,closed_pairs=16,
+        status_counts=dict(Counter(r['status'] for r in results.values())),
+        attempted_generations=len(list((root/'responses').glob('*/started.json'))))
+    core.require(report['attempted_generations']<=128,'GENERATION_BUDGET')
+    count=report['path'];report['path_fraction_missing_bounds']=[count['correct']/16,(count['correct']+count['unresolved'])/16]
+    report['by_slot']=[dict(s,status=results[s['id']]['status'],score=results[s['id']]['score']) for s in design['allocation']]
+    report['components']={}
+    for stage in sc.STAGES:
+        selected=[x for x in report['by_slot'] if x['stage']==stage]
+        keys=('format_valid','joint','four_exact','channel_note','channel_latest') if stage=='READ' else ('format_valid','joint','customer','self_row','partner_row','shared')
+        report['components'][stage]={k:sc.base.counts(x['score'].get(k) for x in selected) for k in keys}
+        if stage!='READ':
+            report['components'][stage]['proposal']={k:sc.base.counts((x['score'].get('proposal_score') or {}).get(k) for x in selected) for k in keys}
+    report['performance']={};report['normalization']={}
+    for stage in ('UPDATE','READ'):
+        ids=[s['id'] for s in design['allocation'] if (s['stage']=='READ')==(stage=='READ')]
+        answered=[sid for sid in ids if (root/'responses'/sid/'response.json').exists()]
+        values=[live.read_json(root/'responses'/sid/'response.json') for sid in answered]
+        norms=[live.read_json(root/'responses'/sid/'normalization.json') for sid in answered]
+        accepted=[results[sid]['score'].get('format_valid') is True if stage=='READ' else results[sid]['score']['normalized_schema_accepted'] for sid in answered]
+        report['normalization'][stage]={'answered':len(answered),'status':dict(Counter(n['status'] for n in norms)),
+            'raw_schema_accepted':sum(ok and n['status']=='UNCHANGED' for ok,n in zip(accepted,norms)),
+            'normalized_schema_accepted':sum(accepted),'removed_bytes':sum(n.get('removed_prefix_bytes',0)+n.get('removed_suffix_bytes',0) for n in norms)}
+        report['performance'][stage]={'planned_slots':len(ids),'responses':len(values),
+            'input_tokens':[len(live.read_json(root/'responses'/sid/'input.json')['prepared']['input_ids']) for sid in answered],
+            'output_tokens':[len(v['output_token_ids']) for v in values],
+            'raw_bytes':[len(v['answer_text'].encode()) for v in values],
+            'generation_seconds':[v['generation_seconds'] for v in values]}
+    return report
+
+
+def preflight(packed):
+    design,_=validate_payload(packed);checked=0
+    for case in design['cases']:
+        saved={}
+        for stage in ('SELF','EXCHANGE','DELAY'):
+            for role in ('A','B'):
+                prev_stage={'EXCHANGE':'SELF','DELAY':'EXCHANGE'}.get(stage)
+                previous=saved.get((prev_stage,role));peer=saved.get(('SELF',sc.other(role))) if stage=='EXCHANGE' else None
+                payload=sc.update_payload(case,role,stage,previous,peer)
+                bodies={r['record_id']:r['body'] for r in payload['records']}
+                raw=sc.enc({'private_note':bodies['PRIVATE'],'shared_note':bodies['GROUP']})
+                result=sc.derive_update(raw,payload,design['update_schema'])
+                core.require(result['memory']==sc.expected_memory(case,role,stage),'SYNTHETIC_POLICY_CHAIN')
+                saved[(stage,role)]=result['memory'];checked+=1
+    return {'kind':'SYNTHETIC_PREFLIGHT_NOT_MODEL_RESULTS','materials':8,'updates_checked':checked,'model_generations':0,'status':'PASS'}
+
+
+def aggregate_archive(path, packed):
+    manifest,files=read_archive(path)
+    with tempfile.TemporaryDirectory(prefix='sx01-audit-') as temp:
+        root=Path(temp)
+        for name,raw in files.items():
+            p=root/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_bytes(raw)
+        verify_root(root,packed)
+        rows=run_routes(root,packed,close_pending=True);report=make_report(root,packed,rows)
+        for p in root.glob('report-*.json'):core.require(live.read_json(p)==report,'ARCHIVED_REPORT_MISMATCH')
+        return {'archive_sha256':sha256(Path(path).read_bytes()).hexdigest(),'manifest_files':len(files),'kind':manifest['kind'],'report':report}
+
+
+def worker(root, seconds, audit_only=False):
+    root=Path(root);packed=live.read_json(root/'payload.json')
+    def stop(signum,frame):live.STOP_REQUESTED=True
+    signal.signal(signal.SIGTERM,stop);signal.signal(signal.SIGINT,stop)
+    deadline=time.monotonic()+seconds
+    try:
+        if not audit_only:
+            core.require(platform.system()=='Linux' and Path('/content').is_dir(),'COLAB_ONLY_NO_MODEL_LOAD')
+            verify_root(root,packed)
+            core.require(live.read_json(root/'preflight.json')==preflight(packed),'PREFLIGHT_CHANGED')
+            core.require(not list((root/'responses').glob('*/*')),'NO_GENERATION_RESTART')
+            backend=live.HuggingFaceBackend(root,deadline)
+            def checkpoint(n):export_zip(root,root.parent/f'npp-sx01-checkpoint-{root.name}-{n:02d}.zip','CHECKPOINT')
+            run_routes(root,packed,backend,deadline,checkpoint=checkpoint)
+    finally:
+        rows=run_routes(root,packed,close_pending=True);report=make_report(root,packed,rows)
+        live.write_json(root/('report-'+uuid.uuid4().hex+'.json'),report)
+        print(json.dumps({'closed_pairs':16,'planned_responses':128,'model_calls':report['attempted_generations'],
+                          'path':report['path'],'status':report['status_counts']},ensure_ascii=False),flush=True)
+
+
+# The immutable physical response/ZIP helpers are copied from the tested OR01 runner below.
+
+
+def physical(store, request, binding, context, stage, design, memory, backend, deadline, close_pending):
+    """Execute/replay one immutable physical request. No retry or fixture fallback."""
+    slot = {'id':request['id'],'seed':request['seed']}; folder = store.directory(slot)
+    unk = unknown(context,stage,design,memory)
+    if (folder/'input.json').exists():
+        saved = live.read_json(folder/'input.json')
+        core.require(all(saved[k]==request[k] for k in request), 'INPUT_CHANGED')
+        core.require(saved.get('binding')==binding, 'INPUT_BINDING_CHANGED')
+    if (folder/'started.json').exists():
+        mark = live.read_json(folder/'started.json')
+        core.require(mark['input_sha256']==sha256((folder/'input.json').read_bytes()).hexdigest(), 'START_INPUT_HASH')
+        core.require(mark['seed']==request['seed'], 'START_SEED')
+    def finish():
+        response = read_response(folder,slot)
+        score = evaluate(response,context,stage,design,memory)
+        artifacts(folder,response,score,context,stage,design,True)
+        return store.finish(slot,status_for(response,score,stage),score,'COMPONENT_SCORING')
+    if store.completed(slot):
+        result = store.load(slot)
+        if (folder/'response.json').exists():
+            core.require((folder/'started.json').exists(), 'RESPONSE_WITHOUT_START')
+            response = read_response(folder,slot); score = evaluate(response,context,stage,design,memory)
+            core.require(score==result['score'], 'SCORE_REPLAY_MISMATCH')
+            core.require(result['status']==status_for(response,score,stage), 'STATUS_MISMATCH')
+            artifacts(folder,response,score,context,stage,design,False)
+        else:
+            core.require(result['score']==unk and result['status'] in ('NOT_RUN','INTERRUPTED_UNCERTAIN','GENERATION_ERROR','INPUT_TOO_LONG','PREPARATION_ERROR'), 'UNANSWERED_SCORE')
+            core.require(not any((folder/n).exists() for n in ('answer.txt','normalization.json','normalized-answer.txt','derived-decision.json','saved-memory.json','policy-trace.json','proposal.json')), 'UNANSWERED_ARTIFACT')
+        return result
+    if (folder/'started.json').exists():
+        return finish() if (folder/'response.json').exists() else store.finish(slot,'INTERRUPTED_UNCERTAIN',unk)
+    core.require(not (folder/'response.json').exists(), 'ORPHAN_RESPONSE')
+    if (folder/'input.json').exists():
+        return store.finish(slot,'NOT_RUN',unk,'PREPARATION_INTERRUPTED')
+    if backend is None or live.STOP_REQUESTED or time.monotonic() >= deadline:
+        return store.finish(slot,'NOT_RUN',unk) if close_pending else None
+    core.require(not folder.exists() or not any(folder.iterdir()), 'PARTIAL_PREPARATION')
+    try:
+        prepared = backend.prepare(request['messages'])
+    except BaseException as error:
+        live.write_json(folder/'preparation-error.json',{'type':type(error).__name__,'message':str(error),'traceback':traceback.format_exc()})
+        store.finish(slot,'PREPARATION_ERROR',unk); raise
+    live.write_json(folder/'input.json',dict(request,binding=binding,prepared=prepared))
+    if len(prepared['input_ids']) > live.MAX_INPUT_TOKENS:
+        return store.finish(slot,'INPUT_TOO_LONG',unk)
+    if live.STOP_REQUESTED or time.monotonic() >= deadline:
+        return store.finish(slot,'NOT_RUN',unk)
+    core.require(len(list((store.root/'responses').glob('*/started.json'))) < 128,'GENERATION_BUDGET')
+    live.write_json(folder/'started.json',{'started_at':live.now(),'seed':request['seed'],
+        'input_sha256':sha256((folder/'input.json').read_bytes()).hexdigest()})
+    try:
+        response = backend.generate(prepared,request['seed'],deadline)
+        response['payload_sha256'] = live.digest(response)
+        live.write_json(folder/'response.json',response)
+    except BaseException as error:
+        live.write_json(folder/'generation-error.json',{'type':type(error).__name__,'message':str(error),'traceback':traceback.format_exc()})
+        store.finish(slot,'GENERATION_ERROR',unk); raise
+    return finish()
+
+def read_response(folder, slot):
+    response = live.read_json(folder / 'response.json')
+    core.require(response['payload_sha256'] == live.digest({k: v for k, v in response.items() if k != 'payload_sha256'}), 'RESPONSE_HASH')
+    core.require(response['seed'] == slot['seed'], 'RESPONSE_SEED')
+    core.require(response['finish_reason'] in ('EOS', 'LENGTH', 'TIME_LIMIT'), 'FINISH_REASON')
+    ids = response['output_token_ids']
+    core.require(type(ids) is list and all(type(x) is int for x in ids) and len(ids) <= 2048, 'OUTPUT_TOKENS')
+    eos = bool(ids and ids[-1] == live.SPECIAL_TOKEN_IDS['<|im_end|>'])
+    core.require((response['finish_reason'] == 'EOS') == eos, 'EOS_INCONSISTENT')
+    return response
+
+def match_artifact(path, value, create):
+    if create and not path.exists():
+        live.write_json(path, value)
+    core.require(live.read_json(path) == value, 'ARTIFACT_REPLAY_MISMATCH:' + path.name)
+
+def export_zip(root, destination, kind='FINAL'):
+    root, destination = Path(root), Path(destination)
+    core.require(not destination.resolve().is_relative_to(root.resolve()), 'ZIP_INSIDE_EVIDENCE')
+    files = {}
+    for p in sorted(root.rglob('*')):
+        core.require(not p.is_symlink(), 'EVIDENCE_SYMLINK')
+        if p.is_file() and '__pycache__' not in p.parts and '.tmp-' not in p.name and p.name != 'RUNNING.lock':
+            files[str(p.relative_to(root))] = p.read_bytes()
+    manifest = {'protocol': PROTOCOL, 'kind': kind, 'resume_generation': False,
+                'files_sha256': {n: sha256(b).hexdigest() for n, b in files.items()}}
+    temporary = destination.with_name(destination.name + '.tmp-' + uuid.uuid4().hex)
+    with zipfile.ZipFile(temporary, 'x', zipfile.ZIP_DEFLATED) as z:
+        for n, raw in files.items(): z.writestr(n, raw)
+        z.writestr('FEEDBACK_MANIFEST.json', core.encoded(manifest))
+    core.require(not destination.exists(), 'ZIP_EXISTS')
+    temporary.rename(destination)
+    return destination
+
+def read_archive(path):
+    with zipfile.ZipFile(path) as z:
+        members = z.infolist(); names = [m.filename for m in members]
+        core.require(len(names) == len(set(names)) and len(names) <= 5000 and sum(m.file_size for m in members) <= 250_000_000, 'ARCHIVE_LIMIT')
+        for m in members:
+            p = PurePosixPath(m.filename)
+            core.require(not p.is_absolute() and '..' not in p.parts and p.as_posix() == m.filename and '\\' not in m.filename and ':' not in m.filename and not m.is_dir() and not stat.S_ISLNK(m.external_attr >> 16), 'ARCHIVE_PATH')
+        files = {n: z.read(n) for n in names}
+    manifest = json.loads(files.pop('FEEDBACK_MANIFEST.json'))
+    core.require(manifest['protocol'] == PROTOCOL and set(files) == set(manifest['files_sha256']), 'ARCHIVE_MANIFEST')
+    core.require(all(sha256(raw).hexdigest() == manifest['files_sha256'][n] for n, raw in files.items()), 'ARCHIVE_HASH')
+    return manifest, files
+
+if __name__=='__main__':
+    worker(sys.argv[1],float(sys.argv[2]),len(sys.argv)>3 and sys.argv[3]=='AUDIT_ONLY')

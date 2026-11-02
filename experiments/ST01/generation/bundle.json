@@ -1,0 +1,88 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "abd67b26b5ea60a43807e1197a248bbe7d6a0f942079f24d1b45dce427d33739",
+    "design.md": "9cf279cb366b13ea96af7c0c6b2c16946df24bd1eaabfa75705cf4872d331bf7",
+    "materials/contract.json": "1d6e4505714843bd1454e7028fe4f392d7f3afc8fe5dbf6f0c304b401e45cdf0",
+    "materials/frozen.json": "e620166465fe0f32e38907c513f623f75b2eb661347f6157f3381661344e108a",
+    "requests.jsonl": "db33e9a5a2fc1799f033db2521b2a3ed15263bc7aa8137582cbd274511f6fd32",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/experience_update_01_design.py": "0cae6a87b1355cdf29fb5f2ec2f1eb97fa294c076419eff5ec774d749551b3a1",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/summary_timing_01_bootstrap.py": "2ea67f82c8da2a0ba59b4fce36f8afd9feec1df7e0df32db7c90cfeef8ee984a",
+    "source/summary_timing_01_fixtures.py": "87d4d2501e3e7d2b0ae049caa11e7825b86156060d78c6a073b5865ce171099a",
+    "source/summary_timing_01_runtime.py": "7dd765592aa4a1226569ac32e2e41c97f3e03507c559d4bfbc5c0ed9f9cffe4f",
+    "source/summary_timing_01_scoring.py": "371ec7180cdbbf30db275e8cc3b13d2112baad1cb096f304208b92cbf207c55b",
+    "source/update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8",
+    "supervisor.py": "b0f7af843d1d4bf1f94f0f43ef3ddcdb9526df90888b86592d9af0513e569e43"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "2a98d00604b9d3d3a580d1a63f12dca9e27a482e246efc6466e759ba2a2644c8",
+  "original_payload_sha256": "794fff51ba02069b485755d1d2b4827f7f2c4b7170c3a93fe6660bf210a4c4de",
+  "original_supervisor_sha256": "2ea67f82c8da2a0ba59b4fce36f8afd9feec1df7e0df32db7c90cfeef8ee984a",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "experience_update_01_design.py": {
+            "kind": "text",
+            "path": "source/experience_update_01_design.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "summary_timing_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/summary_timing_01_bootstrap.py"
+          },
+          "summary_timing_01_fixtures.py": {
+            "kind": "text",
+            "path": "source/summary_timing_01_fixtures.py"
+          },
+          "summary_timing_01_runtime.py": {
+            "kind": "text",
+            "path": "source/summary_timing_01_runtime.py"
+          },
+          "summary_timing_01_scoring.py": {
+            "kind": "text",
+            "path": "source/summary_timing_01_scoring.py"
+          },
+          "update_readout_01_envelope.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_envelope.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "frozen": {
+        "kind": "json",
+        "path": "materials/frozen.json"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "ST01"
+}

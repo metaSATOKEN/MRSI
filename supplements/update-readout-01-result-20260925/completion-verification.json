@@ -1,0 +1,30 @@
+{
+  "status": "RESULT_AUDITED_FIXED_RUN_CLOSED",
+  "verified_at": "2026-09-25T18:15:30.069013+09:00",
+  "archive_sha256": "fa7a9f6cf440ed534c290d2838d8e54e6b888041b7f84720c127f85e0f38bbe7",
+  "manifest_files": 851,
+  "saved_reports_matched": 2,
+  "planned_slots": 144,
+  "generated_updates": 72,
+  "generated_reads": 35,
+  "dependent_missing_reads": 37,
+  "raw_responses_verified": 107,
+  "original_source_files_verified": 54,
+  "actual_memory_to_read_input_verified": 35,
+  "all_fence_failures_diagnosed": 37,
+  "additional_model_generations": 0,
+  "audit_failures": 0,
+  "archived_code_executed": false,
+  "prior_anchors_unchanged": true,
+  "prior_anchors_checked": 70,
+  "ledger_section": 278,
+  "ledger_prefix_unchanged": true,
+  "ledger_previous_sha256": "62e6267b6bfbf5bbb0685b8bc9fc19a305f3620c478c25048d51252cc8ed042c",
+  "current_files": {
+    "study2/update-readout-01-result-2026-09-25.md": "e5f08bbe6ca0e504b54b91804145288acbcad1faf33137ab18cfb3dd19521fa5",
+    "throughline/audits/update-readout-01-result-20260925/analyze.py": "6ac827e898401b00d416fa2a37865ffbc480fd13883b714085e0212f73cd7daa",
+    "throughline/audits/update-readout-01-result-20260925/diagnostics.json": "5b306425aba36865f727c0ae04fd64bca3bdfd579ea011f3316dca0806cd5e7e",
+    "throughline/audits/update-readout-01-result-20260925/recomputed.json": "e79340f337e5e6c65451a77a0484a3694f46c1c4b604edb14d771a9aaf6134be",
+    "throughline/audits/update-readout-01-result-20260925/examples.json": "da55b717c3850013f7043b4a8aa93f25a7f1fd2b4abb6b9d5972ead24b229368"
+  }
+}

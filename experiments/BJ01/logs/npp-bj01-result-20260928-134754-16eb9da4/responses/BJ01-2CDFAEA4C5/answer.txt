@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-2CDFAEA4C5",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "渡された答案はschemaのrequiredフィールドをすべて満たし、追加プロパティも存在しない。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/facts/roles/A/episode_ids", "/payload/joint_records"],
+      "reason": "subjectはholderと一致。localの参照はAの全経験IDと一致。teamの参照は全joint_records IDと一致。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/success_totals"],
+      "reason": "Aの累積成功率はDIGITAL(54)がPAPER(36)より高く、答案はDIGITALを選択している。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "Aの提案とBのACCEPTが一致し、予測合計50で最大。答案はSHARED_DECISIONで同割付を採用している。"
+    }
+  }
+}

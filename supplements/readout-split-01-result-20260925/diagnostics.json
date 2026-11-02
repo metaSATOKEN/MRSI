@@ -1,0 +1,2673 @@
+{
+  "kind": "INDEPENDENT_OFFLINE_RAW_ANSWER_AUDIT",
+  "checked_responses": 96,
+  "exact_extraction_responses": 32,
+  "exact_extraction_field_values": 128,
+  "methods": {
+    "DIRECT": {
+      "main_correct": 11,
+      "main_n": 24,
+      "all_correct": 17,
+      "main_outputs": {
+        "PAPER": 13,
+        "DIGITAL": 2,
+        "UNKNOWN": 9
+      },
+      "main_repeat_output_changed_materials": 6,
+      "all_input_tokens": 11948,
+      "all_output_tokens": 585,
+      "generation_seconds": 33.6141812489999
+    },
+    "EXTRACT": {
+      "main_correct": 24,
+      "main_n": 24,
+      "all_correct": 32,
+      "main_outputs": {
+        "PAPER": 12,
+        "DIGITAL": 12
+      },
+      "main_repeat_output_changed_materials": 0,
+      "all_input_tokens": 13900,
+      "all_output_tokens": 1220,
+      "generation_seconds": 65.60445105300005
+    },
+    "RULE": {
+      "main_correct": 15,
+      "main_n": 24,
+      "all_correct": 23,
+      "main_outputs": {
+        "DIGITAL": 11,
+        "PAPER": 8,
+        "UNKNOWN": 5
+      },
+      "main_repeat_output_changed_materials": 7,
+      "all_input_tokens": 6152,
+      "all_output_tokens": 275,
+      "generation_seconds": 15.466872494999848
+    }
+  },
+  "contrasts": {
+    "EXTRACT-DIRECT": {
+      "paired_correctness": {
+        "True->True": 11,
+        "False->True": 13
+      },
+      "net_correct": 13,
+      "by_replicate": {
+        "1": 7,
+        "2": 6
+      },
+      "by_truth": {
+        "PAPER": 3,
+        "DIGITAL": 10
+      }
+    },
+    "RULE-DIRECT": {
+      "paired_correctness": {
+        "True->False": 3,
+        "False->True": 7,
+        "True->True": 8,
+        "False->False": 6
+      },
+      "net_correct": 4,
+      "by_replicate": {
+        "1": 1,
+        "2": 3
+      },
+      "by_truth": {
+        "PAPER": -3,
+        "DIGITAL": 7
+      }
+    }
+  },
+  "patterns": [
+    {
+      "pattern": "ALL|ALL|ALL|ALL",
+      "cases": [
+        "RS01-B03",
+        "RS01-B04"
+      ],
+      "set": "BOUNDARY",
+      "truth": "UNKNOWN",
+      "coverage": {
+        "A": {
+          "digital": "ALL",
+          "paper": "ALL"
+        },
+        "B": {
+          "digital": "ALL",
+          "paper": "ALL"
+        }
+      },
+      "methods": {
+        "DIRECT": {
+          "correct": 2,
+          "n": 4,
+          "outputs": {
+            "PAPER": 2,
+            "UNKNOWN": 2
+          }
+        },
+        "EXTRACT": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "UNKNOWN": 4
+          }
+        },
+        "RULE": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "UNKNOWN": 4
+          }
+        }
+      }
+    },
+    {
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "cases": [
+        "RS01-M02",
+        "RS01-M05"
+      ],
+      "set": "MAIN",
+      "truth": "PAPER",
+      "coverage": {
+        "A": {
+          "digital": "ALL",
+          "paper": "ALL"
+        },
+        "B": {
+          "digital": "NOT_ALL",
+          "paper": "ALL"
+        }
+      },
+      "methods": {
+        "DIRECT": {
+          "correct": 3,
+          "n": 4,
+          "outputs": {
+            "UNKNOWN": 1,
+            "PAPER": 3
+          }
+        },
+        "EXTRACT": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "PAPER": 4
+          }
+        },
+        "RULE": {
+          "correct": 2,
+          "n": 4,
+          "outputs": {
+            "UNKNOWN": 2,
+            "PAPER": 2
+          }
+        }
+      }
+    },
+    {
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "cases": [
+        "RS01-M08",
+        "RS01-M11"
+      ],
+      "set": "MAIN",
+      "truth": "DIGITAL",
+      "coverage": {
+        "A": {
+          "digital": "ALL",
+          "paper": "ALL"
+        },
+        "B": {
+          "digital": "ALL",
+          "paper": "NOT_ALL"
+        }
+      },
+      "methods": {
+        "DIRECT": {
+          "correct": 1,
+          "n": 4,
+          "outputs": {
+            "UNKNOWN": 3,
+            "DIGITAL": 1
+          }
+        },
+        "EXTRACT": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "DIGITAL": 4
+          }
+        },
+        "RULE": {
+          "correct": 2,
+          "n": 4,
+          "outputs": {
+            "PAPER": 2,
+            "DIGITAL": 2
+          }
+        }
+      }
+    },
+    {
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "cases": [
+        "RS01-M01",
+        "RS01-M04"
+      ],
+      "set": "MAIN",
+      "truth": "PAPER",
+      "coverage": {
+        "A": {
+          "digital": "NOT_ALL",
+          "paper": "ALL"
+        },
+        "B": {
+          "digital": "ALL",
+          "paper": "ALL"
+        }
+      },
+      "methods": {
+        "DIRECT": {
+          "correct": 2,
+          "n": 4,
+          "outputs": {
+            "PAPER": 2,
+            "UNKNOWN": 2
+          }
+        },
+        "EXTRACT": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "PAPER": 4
+          }
+        },
+        "RULE": {
+          "correct": 0,
+          "n": 4,
+          "outputs": {
+            "DIGITAL": 2,
+            "UNKNOWN": 2
+          }
+        }
+      }
+    },
+    {
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "cases": [
+        "RS01-M03",
+        "RS01-M06"
+      ],
+      "set": "MAIN",
+      "truth": "PAPER",
+      "coverage": {
+        "A": {
+          "digital": "NOT_ALL",
+          "paper": "ALL"
+        },
+        "B": {
+          "digital": "NOT_ALL",
+          "paper": "ALL"
+        }
+      },
+      "methods": {
+        "DIRECT": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "PAPER": 4
+          }
+        },
+        "EXTRACT": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "PAPER": 4
+          }
+        },
+        "RULE": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "PAPER": 4
+          }
+        }
+      }
+    },
+    {
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "cases": [
+        "RS01-B01",
+        "RS01-B02"
+      ],
+      "set": "BOUNDARY",
+      "truth": "UNKNOWN",
+      "coverage": {
+        "A": {
+          "digital": "NOT_ALL",
+          "paper": "ALL"
+        },
+        "B": {
+          "digital": "ALL",
+          "paper": "NOT_ALL"
+        }
+      },
+      "methods": {
+        "DIRECT": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "UNKNOWN": 4
+          }
+        },
+        "EXTRACT": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "UNKNOWN": 4
+          }
+        },
+        "RULE": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "UNKNOWN": 4
+          }
+        }
+      }
+    },
+    {
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "cases": [
+        "RS01-M07",
+        "RS01-M10"
+      ],
+      "set": "MAIN",
+      "truth": "DIGITAL",
+      "coverage": {
+        "A": {
+          "digital": "ALL",
+          "paper": "NOT_ALL"
+        },
+        "B": {
+          "digital": "ALL",
+          "paper": "ALL"
+        }
+      },
+      "methods": {
+        "DIRECT": {
+          "correct": 0,
+          "n": 4,
+          "outputs": {
+            "PAPER": 3,
+            "UNKNOWN": 1
+          }
+        },
+        "EXTRACT": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "DIGITAL": 4
+          }
+        },
+        "RULE": {
+          "correct": 3,
+          "n": 4,
+          "outputs": {
+            "DIGITAL": 3,
+            "UNKNOWN": 1
+          }
+        }
+      }
+    },
+    {
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "cases": [
+        "RS01-M09",
+        "RS01-M12"
+      ],
+      "set": "MAIN",
+      "truth": "DIGITAL",
+      "coverage": {
+        "A": {
+          "digital": "ALL",
+          "paper": "NOT_ALL"
+        },
+        "B": {
+          "digital": "ALL",
+          "paper": "NOT_ALL"
+        }
+      },
+      "methods": {
+        "DIRECT": {
+          "correct": 1,
+          "n": 4,
+          "outputs": {
+            "DIGITAL": 1,
+            "UNKNOWN": 2,
+            "PAPER": 1
+          }
+        },
+        "EXTRACT": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "DIGITAL": 4
+          }
+        },
+        "RULE": {
+          "correct": 4,
+          "n": 4,
+          "outputs": {
+            "DIGITAL": 4
+          }
+        }
+      }
+    }
+  ],
+  "elapsed_seconds": 309.156970668,
+  "generation_seconds": 114.6855047969998,
+  "other_seconds": 194.4714658710002,
+  "environment": {
+    "capability": [
+      12,
+      0
+    ],
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "driver": "580.82.07",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "packages": {
+      "accelerate": "1.15.0",
+      "causal-conv1d": null,
+      "fla-core": null,
+      "flash-linear-attention": null,
+      "huggingface-hub": "1.29.0",
+      "kernels": null,
+      "numpy": "2.1.3",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.23.1",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.17.0",
+      "triton": "3.6.0"
+    },
+    "python": "3.13.15",
+    "total_vram": 101974081536
+  },
+  "rows": [
+    {
+      "case": "RS01-M01",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M01-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1799196187,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 369,
+      "output_tokens": 22,
+      "seconds": 2.169672860999981
+    },
+    {
+      "case": "RS01-M01",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M01-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1799196187,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 430,
+      "output_tokens": 64,
+      "seconds": 3.4065015360000643
+    },
+    {
+      "case": "RS01-M01",
+      "condition": "RULE",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M01-R1-RULE",
+      "replicate": 1,
+      "seed": 1799196187,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "DIGITAL",
+      "correct": false,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5069543120000617
+    },
+    {
+      "case": "RS01-M07",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M07-R1-DIRECT",
+      "replicate": 1,
+      "seed": 565594504,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "PAPER",
+      "correct": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 370,
+      "output_tokens": 9,
+      "seconds": 0.5489147329999469
+    },
+    {
+      "case": "RS01-M07",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M07-R1-RULE",
+      "replicate": 1,
+      "seed": 565594504,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5066500820000783
+    },
+    {
+      "case": "RS01-M07",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M07-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 565594504,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 431,
+      "output_tokens": 26,
+      "seconds": 1.4393136579999464
+    },
+    {
+      "case": "RS01-M12",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M12-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 875812447,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 439,
+      "output_tokens": 27,
+      "seconds": 1.489804319999962
+    },
+    {
+      "case": "RS01-M12",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M12-R1-DIRECT",
+      "replicate": 1,
+      "seed": 875812447,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 378,
+      "output_tokens": 22,
+      "seconds": 1.2171158040000591
+    },
+    {
+      "case": "RS01-M12",
+      "condition": "RULE",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M12-R1-RULE",
+      "replicate": 1,
+      "seed": 875812447,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 9,
+      "seconds": 0.5079242799999975
+    },
+    {
+      "case": "RS01-B01",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-B01-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1458843644,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 378,
+      "output_tokens": 8,
+      "seconds": 0.49647648999996363
+    },
+    {
+      "case": "RS01-B01",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-B01-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1458843644,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 439,
+      "output_tokens": 27,
+      "seconds": 1.4801932899999883
+    },
+    {
+      "case": "RS01-B01",
+      "condition": "RULE",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-B01-R1-RULE",
+      "replicate": 1,
+      "seed": 1458843644,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 8,
+      "seconds": 0.45593829899996763
+    },
+    {
+      "case": "RS01-M04",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M04-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 720172555,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 430,
+      "output_tokens": 64,
+      "seconds": 3.369180388000018
+    },
+    {
+      "case": "RS01-M04",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M04-R1-RULE",
+      "replicate": 1,
+      "seed": 720172555,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "DIGITAL",
+      "correct": false,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5040738499999406
+    },
+    {
+      "case": "RS01-M04",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M04-R1-DIRECT",
+      "replicate": 1,
+      "seed": 720172555,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 369,
+      "output_tokens": 21,
+      "seconds": 1.158347762999938
+    },
+    {
+      "case": "RS01-M03",
+      "condition": "RULE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M03-R1-RULE",
+      "replicate": 1,
+      "seed": 279675220,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 9,
+      "seconds": 0.5070322799999758
+    },
+    {
+      "case": "RS01-M03",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M03-R1-DIRECT",
+      "replicate": 1,
+      "seed": 279675220,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 378,
+      "output_tokens": 22,
+      "seconds": 1.2106136139999535
+    },
+    {
+      "case": "RS01-M03",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M03-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 279675220,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        }
+      },
+      "input_tokens": 439,
+      "output_tokens": 65,
+      "seconds": 3.4206571290000056
+    },
+    {
+      "case": "RS01-M08",
+      "condition": "RULE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M08-R1-RULE",
+      "replicate": 1,
+      "seed": 557118564,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "PAPER",
+      "correct": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5014257399999451
+    },
+    {
+      "case": "RS01-M08",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M08-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 557118564,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "seconds": 1.4289610789999188
+    },
+    {
+      "case": "RS01-M08",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M08-R1-DIRECT",
+      "replicate": 1,
+      "seed": 557118564,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 372,
+      "output_tokens": 21,
+      "seconds": 1.1589782229999628
+    },
+    {
+      "case": "RS01-B02",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-B02-R1-DIRECT",
+      "replicate": 1,
+      "seed": 924721407,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 374,
+      "output_tokens": 8,
+      "seconds": 0.49485704000005626
+    },
+    {
+      "case": "RS01-B02",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-B02-R1-RULE",
+      "replicate": 1,
+      "seed": 924721407,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 8,
+      "seconds": 0.4559131290000096
+    },
+    {
+      "case": "RS01-B02",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-B02-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 924721407,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 435,
+      "output_tokens": 27,
+      "seconds": 1.4794968090000111
+    },
+    {
+      "case": "RS01-M02",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M02-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1177201994,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 371,
+      "output_tokens": 21,
+      "seconds": 1.1589450429999033
+    },
+    {
+      "case": "RS01-M02",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M02-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1177201994,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        }
+      },
+      "input_tokens": 432,
+      "output_tokens": 26,
+      "seconds": 1.4299019580000731
+    },
+    {
+      "case": "RS01-M02",
+      "condition": "RULE",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M02-R1-RULE",
+      "replicate": 1,
+      "seed": 1177201994,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 8,
+      "seconds": 0.45030704900000273
+    },
+    {
+      "case": "RS01-M06",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M06-R1-DIRECT",
+      "replicate": 1,
+      "seed": 2078230417,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 374,
+      "output_tokens": 22,
+      "seconds": 1.2096856840000783
+    },
+    {
+      "case": "RS01-M06",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M06-R1-RULE",
+      "replicate": 1,
+      "seed": 2078230417,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 9,
+      "seconds": 0.5068835499999977
+    },
+    {
+      "case": "RS01-M06",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M06-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 2078230417,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        }
+      },
+      "input_tokens": 435,
+      "output_tokens": 27,
+      "seconds": 1.4794114889999719
+    },
+    {
+      "case": "RS01-M11",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M11-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1906680830,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 438,
+      "output_tokens": 64,
+      "seconds": 3.3693399469999576
+    },
+    {
+      "case": "RS01-M11",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M11-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1906680830,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 377,
+      "output_tokens": 21,
+      "seconds": 1.159082513000044
+    },
+    {
+      "case": "RS01-M11",
+      "condition": "RULE",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M11-R1-RULE",
+      "replicate": 1,
+      "seed": 1906680830,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "PAPER",
+      "correct": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5015806400000429
+    },
+    {
+      "case": "RS01-B03",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-B03-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 791760515,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 435,
+      "output_tokens": 25,
+      "seconds": 1.3773982569999816
+    },
+    {
+      "case": "RS01-B03",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-B03-R1-DIRECT",
+      "replicate": 1,
+      "seed": 791760515,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "PAPER",
+      "correct": false,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 374,
+      "output_tokens": 9,
+      "seconds": 0.5458696709999913
+    },
+    {
+      "case": "RS01-B03",
+      "condition": "RULE",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-B03-R1-RULE",
+      "replicate": 1,
+      "seed": 791760515,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 191,
+      "output_tokens": 8,
+      "seconds": 0.4511540689999265
+    },
+    {
+      "case": "RS01-M10",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M10-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 208763229,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 432,
+      "output_tokens": 26,
+      "seconds": 1.4296278890000167
+    },
+    {
+      "case": "RS01-M10",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M10-R1-RULE",
+      "replicate": 1,
+      "seed": 208763229,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5014574799999991
+    },
+    {
+      "case": "RS01-M10",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M10-R1-DIRECT",
+      "replicate": 1,
+      "seed": 208763229,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "PAPER",
+      "correct": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 371,
+      "output_tokens": 22,
+      "seconds": 1.210956603999989
+    },
+    {
+      "case": "RS01-M05",
+      "condition": "RULE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M05-R1-RULE",
+      "replicate": 1,
+      "seed": 1691410477,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 8,
+      "seconds": 0.45029951899994103
+    },
+    {
+      "case": "RS01-M05",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M05-R1-DIRECT",
+      "replicate": 1,
+      "seed": 1691410477,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 372,
+      "output_tokens": 22,
+      "seconds": 1.2101177839999764
+    },
+    {
+      "case": "RS01-M05",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M05-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 1691410477,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        }
+      },
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "seconds": 1.4289454390000174
+    },
+    {
+      "case": "RS01-M09",
+      "condition": "RULE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M09-R1-RULE",
+      "replicate": 1,
+      "seed": 164195004,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 9,
+      "seconds": 0.5066454899999826
+    },
+    {
+      "case": "RS01-M09",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M09-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 164195004,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 437,
+      "output_tokens": 65,
+      "seconds": 3.4201345989999936
+    },
+    {
+      "case": "RS01-M09",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M09-R1-DIRECT",
+      "replicate": 1,
+      "seed": 164195004,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 376,
+      "output_tokens": 21,
+      "seconds": 1.1589486330000227
+    },
+    {
+      "case": "RS01-B04",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-B04-R1-EXTRACT",
+      "replicate": 1,
+      "seed": 649730959,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 432,
+      "output_tokens": 25,
+      "seconds": 1.3785087269999394
+    },
+    {
+      "case": "RS01-B04",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-B04-R1-RULE",
+      "replicate": 1,
+      "seed": 649730959,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 191,
+      "output_tokens": 8,
+      "seconds": 0.4509319689999529
+    },
+    {
+      "case": "RS01-B04",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-B04-R1-DIRECT",
+      "replicate": 1,
+      "seed": 649730959,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 371,
+      "output_tokens": 8,
+      "seconds": 0.4948051999999734
+    },
+    {
+      "case": "RS01-M01",
+      "condition": "RULE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M01-R2-RULE",
+      "replicate": 2,
+      "seed": 1849149881,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 8,
+      "seconds": 0.45050050899999405
+    },
+    {
+      "case": "RS01-M01",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M01-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1849149881,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 430,
+      "output_tokens": 26,
+      "seconds": 1.429036179000036
+    },
+    {
+      "case": "RS01-M01",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M01-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1849149881,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 369,
+      "output_tokens": 8,
+      "seconds": 0.49459841999998844
+    },
+    {
+      "case": "RS01-M07",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M07-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1319970293,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 431,
+      "output_tokens": 64,
+      "seconds": 3.369708347000028
+    },
+    {
+      "case": "RS01-M07",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M07-R2-RULE",
+      "replicate": 2,
+      "seed": 1319970293,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5015976210000872
+    },
+    {
+      "case": "RS01-M07",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M07-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1319970293,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 370,
+      "output_tokens": 21,
+      "seconds": 1.1585291730000336
+    },
+    {
+      "case": "RS01-M12",
+      "condition": "RULE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M12-R2-RULE",
+      "replicate": 2,
+      "seed": 815284137,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 9,
+      "seconds": 0.5068495000000439
+    },
+    {
+      "case": "RS01-M12",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M12-R2-DIRECT",
+      "replicate": 2,
+      "seed": 815284137,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "PAPER",
+      "correct": false,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 378,
+      "output_tokens": 22,
+      "seconds": 1.2106234240000049
+    },
+    {
+      "case": "RS01-M12",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M12-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 815284137,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 439,
+      "output_tokens": 27,
+      "seconds": 1.480439539000031
+    },
+    {
+      "case": "RS01-B01",
+      "condition": "RULE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-B01-R2-RULE",
+      "replicate": 2,
+      "seed": 672484141,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 8,
+      "seconds": 0.4558366589999423
+    },
+    {
+      "case": "RS01-B01",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-B01-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 672484141,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 439,
+      "output_tokens": 65,
+      "seconds": 3.421135323000044
+    },
+    {
+      "case": "RS01-B01",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-B01-R2-DIRECT",
+      "replicate": 2,
+      "seed": 672484141,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 378,
+      "output_tokens": 21,
+      "seconds": 1.1597349290000238
+    },
+    {
+      "case": "RS01-M04",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M04-R2-DIRECT",
+      "replicate": 2,
+      "seed": 197747877,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 369,
+      "output_tokens": 22,
+      "seconds": 1.2095193699999527
+    },
+    {
+      "case": "RS01-M04",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M04-R2-RULE",
+      "replicate": 2,
+      "seed": 197747877,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 8,
+      "seconds": 0.45051404900004854
+    },
+    {
+      "case": "RS01-M04",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M04-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 197747877,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 430,
+      "output_tokens": 64,
+      "seconds": 3.3698681390000047
+    },
+    {
+      "case": "RS01-M03",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M03-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 432139424,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        }
+      },
+      "input_tokens": 439,
+      "output_tokens": 27,
+      "seconds": 1.480379528999947
+    },
+    {
+      "case": "RS01-M03",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M03-R2-DIRECT",
+      "replicate": 2,
+      "seed": 432139424,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 378,
+      "output_tokens": 9,
+      "seconds": 0.5468414299999722
+    },
+    {
+      "case": "RS01-M03",
+      "condition": "RULE",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M03-R2-RULE",
+      "replicate": 2,
+      "seed": 432139424,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 9,
+      "seconds": 0.5068547500000022
+    },
+    {
+      "case": "RS01-M08",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M08-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1197006678,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 372,
+      "output_tokens": 21,
+      "seconds": 1.1588767690000168
+    },
+    {
+      "case": "RS01-M08",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M08-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1197006678,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "seconds": 1.4292750000000751
+    },
+    {
+      "case": "RS01-M08",
+      "condition": "RULE",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M08-R2-RULE",
+      "replicate": 2,
+      "seed": 1197006678,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5017407889999959
+    },
+    {
+      "case": "RS01-B02",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-B02-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1340343629,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 435,
+      "output_tokens": 27,
+      "seconds": 1.4799129599999787
+    },
+    {
+      "case": "RS01-B02",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-B02-R2-RULE",
+      "replicate": 2,
+      "seed": 1340343629,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 8,
+      "seconds": 0.45587494999995215
+    },
+    {
+      "case": "RS01-B02",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-B02-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1340343629,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 374,
+      "output_tokens": 21,
+      "seconds": 1.1588915990000714
+    },
+    {
+      "case": "RS01-M02",
+      "condition": "RULE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M02-R2-RULE",
+      "replicate": 2,
+      "seed": 1745663817,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5014958799999931
+    },
+    {
+      "case": "RS01-M02",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M02-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1745663817,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        }
+      },
+      "input_tokens": 432,
+      "output_tokens": 26,
+      "seconds": 1.4297130989999687
+    },
+    {
+      "case": "RS01-M02",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M02-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1745663817,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 371,
+      "output_tokens": 22,
+      "seconds": 1.2099041700000726
+    },
+    {
+      "case": "RS01-M06",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M06-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1788329853,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        }
+      },
+      "input_tokens": 435,
+      "output_tokens": 27,
+      "seconds": 1.4796141790000092
+    },
+    {
+      "case": "RS01-M06",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M06-R2-RULE",
+      "replicate": 2,
+      "seed": 1788329853,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 9,
+      "seconds": 0.5068483000000015
+    },
+    {
+      "case": "RS01-M06",
+      "condition": "DIRECT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M06-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1788329853,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|NOT_ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 374,
+      "output_tokens": 22,
+      "seconds": 1.2097091189999674
+    },
+    {
+      "case": "RS01-M11",
+      "condition": "RULE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M11-R2-RULE",
+      "replicate": 2,
+      "seed": 596670787,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5018252900000562
+    },
+    {
+      "case": "RS01-M11",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M11-R2-DIRECT",
+      "replicate": 2,
+      "seed": 596670787,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 377,
+      "output_tokens": 22,
+      "seconds": 1.2101575699999785
+    },
+    {
+      "case": "RS01-M11",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M11-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 596670787,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 438,
+      "output_tokens": 26,
+      "seconds": 1.4293384090000245
+    },
+    {
+      "case": "RS01-B03",
+      "condition": "RULE",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-B03-R2-RULE",
+      "replicate": 2,
+      "seed": 60007408,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 191,
+      "output_tokens": 8,
+      "seconds": 0.45111753999992743
+    },
+    {
+      "case": "RS01-B03",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-B03-R2-DIRECT",
+      "replicate": 2,
+      "seed": 60007408,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 374,
+      "output_tokens": 21,
+      "seconds": 1.1587750789999518
+    },
+    {
+      "case": "RS01-B03",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-B03-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 60007408,
+      "set": "BOUNDARY",
+      "role": "A",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 435,
+      "output_tokens": 63,
+      "seconds": 3.3180652089999967
+    },
+    {
+      "case": "RS01-M10",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M10-R2-DIRECT",
+      "replicate": 2,
+      "seed": 1396556506,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "PAPER",
+      "correct": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 371,
+      "output_tokens": 22,
+      "seconds": 1.2096808190000274
+    },
+    {
+      "case": "RS01-M10",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M10-R2-RULE",
+      "replicate": 2,
+      "seed": 1396556506,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 8,
+      "seconds": 0.45039308999992045
+    },
+    {
+      "case": "RS01-M10",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M10-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 1396556506,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 432,
+      "output_tokens": 26,
+      "seconds": 1.4301099300000715
+    },
+    {
+      "case": "RS01-M05",
+      "condition": "EXTRACT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M05-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 650224207,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "NOT_ALL"
+        }
+      },
+      "input_tokens": 433,
+      "output_tokens": 26,
+      "seconds": 1.429259069000068
+    },
+    {
+      "case": "RS01-M05",
+      "condition": "DIRECT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M05-R2-DIRECT",
+      "replicate": 2,
+      "seed": 650224207,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 372,
+      "output_tokens": 9,
+      "seconds": 0.5461810699999887
+    },
+    {
+      "case": "RS01-M05",
+      "condition": "RULE",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M05-R2-RULE",
+      "replicate": 2,
+      "seed": 650224207,
+      "set": "MAIN",
+      "role": "B",
+      "truth": "PAPER",
+      "output": "PAPER",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|NOT_ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 192,
+      "output_tokens": 9,
+      "seconds": 0.5020700900000747
+    },
+    {
+      "case": "RS01-M09",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-M09-R2-DIRECT",
+      "replicate": 2,
+      "seed": 167785051,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "UNKNOWN",
+      "correct": false,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 376,
+      "output_tokens": 21,
+      "seconds": 1.1588664990000552
+    },
+    {
+      "case": "RS01-M09",
+      "condition": "EXTRACT",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-M09-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 167785051,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "NOT_ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 437,
+      "output_tokens": 65,
+      "seconds": 3.4203907889999527
+    },
+    {
+      "case": "RS01-M09",
+      "condition": "RULE",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-M09-R2-RULE",
+      "replicate": 2,
+      "seed": 167785051,
+      "set": "MAIN",
+      "role": "A",
+      "truth": "DIGITAL",
+      "output": "DIGITAL",
+      "correct": true,
+      "pattern": "NOT_ALL|ALL|NOT_ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 193,
+      "output_tokens": 9,
+      "seconds": 0.5070447399999694
+    },
+    {
+      "case": "RS01-B04",
+      "condition": "DIRECT",
+      "condition_position": 1,
+      "dependencies": [],
+      "id": "RS01-B04-R2-DIRECT",
+      "replicate": 2,
+      "seed": 863304312,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "PAPER",
+      "correct": false,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 371,
+      "output_tokens": 22,
+      "seconds": 1.2099041489999536
+    },
+    {
+      "case": "RS01-B04",
+      "condition": "RULE",
+      "condition_position": 2,
+      "dependencies": [],
+      "id": "RS01-B04-R2-RULE",
+      "replicate": 2,
+      "seed": 863304312,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": null,
+      "four": null,
+      "input_tokens": 191,
+      "output_tokens": 8,
+      "seconds": 0.451137000000017
+    },
+    {
+      "case": "RS01-B04",
+      "condition": "EXTRACT",
+      "condition_position": 3,
+      "dependencies": [],
+      "id": "RS01-B04-R2-EXTRACT",
+      "replicate": 2,
+      "seed": 863304312,
+      "set": "BOUNDARY",
+      "role": "B",
+      "truth": "UNKNOWN",
+      "output": "UNKNOWN",
+      "correct": true,
+      "pattern": "ALL|ALL|ALL|ALL",
+      "four_exact": true,
+      "four": {
+        "A": {
+          "paper": "ALL",
+          "digital": "ALL"
+        },
+        "B": {
+          "paper": "ALL",
+          "digital": "ALL"
+        }
+      },
+      "input_tokens": 432,
+      "output_tokens": 25,
+      "seconds": 1.3808288389999461
+    }
+  ],
+  "no_p_value_or_population_ci": true,
+  "model_calls_during_audit": 0
+}

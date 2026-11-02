@@ -1,0 +1,12 @@
+{
+  "initial-requests.json": "fa24dcb3a8416010f5b271fd29ae59b2610b4ef97dc2aa7a5e4169ff2293fcf1",
+  "materials-proposal.json": "002487f9c2d45a87c31eefb0afddfc158c427a92287c7531dce1ef53d0b21ce5",
+  "prompts/CONFIRM.txt": "7d5677a548d605b1640bb30b94c8af7345caaffdd3f8aef6d06c89c4d259c563",
+  "prompts/FORM.txt": "71671ae01ccb566f9d0b5ca7b698de73f0951b381cddeab38d683327b4c36d55",
+  "prompts/RECHECK.txt": "0ad9054799c1ad2749f992a206c5a881ace303c684750353f0c030d79f90561d",
+  "prompts/USE.txt": "2fea9a3bcb2b18622828ff589faff6ef4a36ad1f7b4344b5c5651f74da01ba74",
+  "schemas/CONFIRM.json": "b962345bbdf9cb5facb8005860fe87d4426a389a367730c68feb9d7dcbf7af99",
+  "schemas/FORM.json": "8c66bc660bbad250531eb625cb4e1dc282f10b5cafca0718aa3962cedc1bb492",
+  "schemas/RECHECK.json": "8288043109ff24e578fe72ae9b0557d4fc08ec13e92189f7f0270dab3f6eae43",
+  "schemas/USE.json": "932befdb845b2d06e17e0c962995a6cba97f556a6ae6933d170ab2bcb2e04974"
+}

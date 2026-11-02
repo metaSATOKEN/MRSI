@@ -1,0 +1,34 @@
+{
+  "private_note": {
+    "customer": {
+      "subject": "A",
+      "animal": "CAT",
+      "origin_id": "BK"
+    },
+    "coverage": {
+      "observer": "A",
+      "paper": "UNKNOWN",
+      "digital": "UNKNOWN",
+      "origin_id": "SZ"
+    }
+  },
+  "shared_note": {
+    "coverage": {
+      "A": {
+        "observer": "A",
+        "paper": "UNKNOWN",
+        "digital": "UNKNOWN",
+        "origin_id": "SZ"
+      },
+      "B": {
+        "observer": "B",
+        "paper": "NOT_ALL",
+        "digital": "ALL",
+        "origin_id": "NB"
+      }
+    },
+    "channel": "UNKNOWN",
+    "channel_read_refs": [],
+    "channel_origin_ids": []
+  }
+}

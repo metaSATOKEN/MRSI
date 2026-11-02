@@ -1,0 +1,29 @@
+{
+  "judgment_id": "BJ01-5E1D1F05D5",
+  "checks": {
+    "output_contract": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer"],
+      "evidence_pointers": ["/contract/schema"],
+      "reason": "答案はschemaのrequiredフィールドを網羅し、追加プロパティや型違反がない。"
+    },
+    "attribution": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/subject", "/answer/local/evidence_refs", "/answer/team/evidence_refs"],
+      "evidence_pointers": ["/payload/holder", "/facts/roles/A/episode_ids", "/payload/joint_records"],
+      "reason": "subjectはholderと一致、local証拠はAの全経験IDと一致、team証拠はjoint_records全IDと一致している。"
+    },
+    "local_choice": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/local/choice"],
+      "evidence_pointers": ["/facts/roles/A/success_totals"],
+      "reason": "Aの累積成功率はPAPER(52)がDIGITAL(40)より高く、答案のPAPER選択は正しい。"
+    },
+    "joint_action": {
+      "verdict": "OK",
+      "answer_pointers": ["/answer/team/allocation", "/answer/team/basis"],
+      "evidence_pointers": ["/payload/joint_records", "/facts/feasible_allocations"],
+      "reason": "合意提案(A:PAPER,B:DIGITAL)とCOUNTER(A:PAPER,B:PAPER)があり、合法同一割付の合意がないためUNDECIDED/UNRESOLVEDは適切。"
+    }
+  }
+}<|im_end|>

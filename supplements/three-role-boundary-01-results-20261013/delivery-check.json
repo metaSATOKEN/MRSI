@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "links_checked": 18,
+  "frozen_repair_delivery_files_unchanged": 27,
+  "manifests_match": true,
+  "scientific_scoring_changed": false,
+  "local_model_calls": 0,
+  "additional_generations": 0,
+  "documents": [
+    "study2/three-role-boundary-01-result-2026-10-13.md",
+    "throughline/audits/checkpoints/three-role-boundary-2026-10-13.md"
+  ],
+  "manifest_sha256": "963d263b3024f1de46abd8823bdd31e285443f6730043b4d0b6dbbc56a4440f6"
+}

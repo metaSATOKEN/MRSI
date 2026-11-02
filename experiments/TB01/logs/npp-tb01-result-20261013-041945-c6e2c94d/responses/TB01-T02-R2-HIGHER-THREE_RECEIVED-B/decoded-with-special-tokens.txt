@@ -1,0 +1,17 @@
+{
+  "own": {
+    "holder": "B",
+    "recommendation": "DIGITAL",
+    "evidence_ids": [
+      "Ed4f2ba7f2d",
+      "Ec85b5abf44"
+    ]
+  },
+  "approval_state": {
+    "A": "ACCEPT",
+    "B": "ACCEPT",
+    "C": "ACCEPT"
+  },
+  "agreement": "AGREED",
+  "joint_action": "DIGITAL"
+}<|im_end|>

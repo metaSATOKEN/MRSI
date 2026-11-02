@@ -1,0 +1,32 @@
+{
+  "automatic_regenerations": 0,
+  "chat_template_sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+  "cloud_drive": "not_used",
+  "design_sha256": "d9108a1adfbd56420aada321c22c203d1e601d7af96a3909fb2943de526486ff",
+  "frozen_hashes": {
+    "design.json": "d9108a1adfbd56420aada321c22c203d1e601d7af96a3909fb2943de526486ff",
+    "prereg.md": "9fa808b261a42633704a424bdc69c659aa3d83b2f69326bdceedd06f8893e312",
+    "source-inputs.json": "37decbb06f18db7d776b0aa56f8d36b0e65885a3713280fa8014bb9e85b100ff"
+  },
+  "implementation": "v0.1-new-triads-shared-formation",
+  "max_generations": 117,
+  "protocol": "THREE-ROLE-COMPARISON-VOTE-02-RUN-v0.1",
+  "resume_generation": false,
+  "retention": "private_no_deletion_deadline",
+  "seconds_including_setup": 1800,
+  "source_hashes": {
+    "cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "three_role_boundary_01_design.py": "7fb22ed2ba322261cc6ff406018287d628e0e1ff6400610f46c4d31c4bfa9a94",
+    "three_role_boundary_01_fixtures.py": "7fbadec8fb66c61154505f85c64a293fbc2f469dbe79f530d43c5ba89e343132",
+    "three_role_boundary_01_scoring.py": "5a6f6a5f6a177bd3f733a06e93dd953fb6ecc0cd9d111251d3262ca1912bd249",
+    "three_role_comparison_vote_01_design.py": "369cb159c97685d25a945f83c8b0ad80756d11f4ffa6045c8c50c33fc95a50e2",
+    "three_role_comparison_vote_02_bootstrap.py": "5789e7f7911b56b8e929ff26dc28f2287203925731915bcd9631431f1ac19607",
+    "three_role_comparison_vote_02_design.py": "3d865b1d210bd0e75e3ee454df7be50e1a8f75c5f0b7515d54530c8a7df3c4a9",
+    "three_role_comparison_vote_02_fixtures.py": "8f81378412e8f97e55424600f841c618a1cd5504880a355c9f0358e3c800dcab",
+    "three_role_comparison_vote_02_runtime.py": "8215847d8c7ad7dbc17feebe67609ed882dcda195674ecf30336d42f2a26eaee",
+    "three_role_comparison_vote_02_scoring.py": "7ebf3dad3cbb9d6c55e08aa5e60560eba431aa2efb2040b6dd9b5af3c96658ab",
+    "update_readout_01_envelope.py": "165b083ca6244238dec43f87e14884a30ac9854b666a9d339410d0f9cfa4bdb8"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "shared-carry-01": {
+    "answers": 64,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/shared-carry-01-prepared-20260918"
+  },
+  "shared-update-01": {
+    "answers": 67,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/shared-update-01-prepared-20260918"
+  },
+  "record-decision-01": {
+    "answers": 32,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/record-decision-01-prepared-20260918"
+  },
+  "shared-carry-02": {
+    "answers": 12,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/shared-carry-02-prepared-20260918"
+  },
+  "shared-carry-03": {
+    "answers": 48,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/shared-carry-03-prepared-20260918"
+  },
+  "shared-update-02": {
+    "answers": 48,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/shared-update-02-prepared-20260919"
+  },
+  "shared-recency-01": {
+    "answers": 32,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/shared-recency-01-prepared-20260919"
+  },
+  "shared-merge-01": {
+    "answers": 32,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/shared-merge-01-prepared-20260919"
+  },
+  "shared-merge-02": {
+    "answers": 32,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/shared-merge-02-prepared-20260919"
+  },
+  "row-carry-01": {
+    "answers": 32,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/row-carry-01-prepared-20260919"
+  },
+  "row-carry-02": {
+    "answers": 24,
+    "scope": "raw evidence and saved original analysis; see replay coverage",
+    "source_run": "study2/runs/row-carry-02-prepared-20260920"
+  },
+  "pair": {
+    "answers": 704,
+    "scope": "all raw answers rescored; all state and next-input projections checked",
+    "phases": {
+      "initial": 641,
+      "resume": 63
+    }
+  }
+}

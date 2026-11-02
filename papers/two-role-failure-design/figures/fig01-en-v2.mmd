@@ -1,0 +1,11 @@
+flowchart LR
+    I["Input materials + previous saved artifacts"] --> P["Model-generated proposal"]
+    P --> T["Checks, transformations, storage decisions"]
+    T --> S["Actual saved state"]
+    S --> N["Input supplied to the next stage"]
+    N --> U["Subsequent judgment and use"]
+    P -. "Retain raw proposal" .-> A["Correspondence audit"]
+    T -. "Log execution/inapplicability and transformations" .-> A
+    S -. "Record saved contents" .-> A
+    N -. "Match to parent record" .-> A
+    U -. "Evaluate for the intended use" .-> A

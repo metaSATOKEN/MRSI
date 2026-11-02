@@ -1,0 +1,5306 @@
+{
+  "archive_sha256": "61a29b9fb11879c7ac76db18ffe5e61f3d10a10f991c683fbc2724f248caa1c4",
+  "manifest_files": 636,
+  "kind": "FINAL",
+  "report": {
+    "kind": "DESCRIPTIVE_STAGE_DIAGNOSTIC",
+    "planned_responses": 96,
+    "main_materials": 12,
+    "boundary_inputs": 4,
+    "distinct_rule_inputs": 8,
+    "distinct_main_rule_inputs": 6,
+    "supplied_scores": 96,
+    "methods": {
+      "DIRECT": {
+        "main": {
+          "correct": 11,
+          "incorrect": 13,
+          "unresolved": 0,
+          "n": 24
+        },
+        "bounds": [
+          0.4583333333333333,
+          0.4583333333333333
+        ],
+        "by_replicate": {
+          "1": {
+            "correct": 5,
+            "incorrect": 7,
+            "unresolved": 0,
+            "n": 12
+          },
+          "2": {
+            "correct": 6,
+            "incorrect": 6,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "by_truth": {
+          "PAPER": {
+            "correct": 9,
+            "incorrect": 3,
+            "unresolved": 0,
+            "n": 12
+          },
+          "DIGITAL": {
+            "correct": 2,
+            "incorrect": 10,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "boundary": {
+          "ZERO": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "TWO": {
+            "correct": 2,
+            "incorrect": 2,
+            "unresolved": 0,
+            "n": 4
+          }
+        },
+        "adequate": false,
+        "criterion_status": "NOT_MET",
+        "by_pattern": {
+          "ALL|ALL|ALL|NOT_ALL": {
+            "correct": 3,
+            "incorrect": 1,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|ALL|NOT_ALL|ALL": {
+            "correct": 1,
+            "incorrect": 3,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|NOT_ALL|ALL|ALL": {
+            "correct": 2,
+            "incorrect": 2,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|NOT_ALL|ALL|NOT_ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "NOT_ALL|ALL|ALL|ALL": {
+            "correct": 0,
+            "incorrect": 4,
+            "unresolved": 0,
+            "n": 4
+          },
+          "NOT_ALL|ALL|NOT_ALL|ALL": {
+            "correct": 1,
+            "incorrect": 3,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|ALL|ALL|ALL": {
+            "correct": 2,
+            "incorrect": 2,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|NOT_ALL|NOT_ALL|ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          }
+        }
+      },
+      "EXTRACT": {
+        "main": {
+          "correct": 24,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 24
+        },
+        "bounds": [
+          1.0,
+          1.0
+        ],
+        "by_replicate": {
+          "1": {
+            "correct": 12,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 12
+          },
+          "2": {
+            "correct": 12,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "by_truth": {
+          "PAPER": {
+            "correct": 12,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 12
+          },
+          "DIGITAL": {
+            "correct": 12,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "boundary": {
+          "ZERO": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "TWO": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          }
+        },
+        "adequate": true,
+        "criterion_status": "MET",
+        "by_pattern": {
+          "ALL|ALL|ALL|NOT_ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|ALL|NOT_ALL|ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|NOT_ALL|ALL|ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|NOT_ALL|ALL|NOT_ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "NOT_ALL|ALL|ALL|ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "NOT_ALL|ALL|NOT_ALL|ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|ALL|ALL|ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|NOT_ALL|NOT_ALL|ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          }
+        }
+      },
+      "RULE": {
+        "main": {
+          "correct": 15,
+          "incorrect": 9,
+          "unresolved": 0,
+          "n": 24
+        },
+        "bounds": [
+          0.625,
+          0.625
+        ],
+        "by_replicate": {
+          "1": {
+            "correct": 6,
+            "incorrect": 6,
+            "unresolved": 0,
+            "n": 12
+          },
+          "2": {
+            "correct": 9,
+            "incorrect": 3,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "by_truth": {
+          "PAPER": {
+            "correct": 6,
+            "incorrect": 6,
+            "unresolved": 0,
+            "n": 12
+          },
+          "DIGITAL": {
+            "correct": 9,
+            "incorrect": 3,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "boundary": {
+          "ZERO": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "TWO": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          }
+        },
+        "adequate": false,
+        "criterion_status": "NOT_MET",
+        "by_pattern": {
+          "ALL|ALL|ALL|NOT_ALL": {
+            "correct": 2,
+            "incorrect": 2,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|ALL|NOT_ALL|ALL": {
+            "correct": 2,
+            "incorrect": 2,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|NOT_ALL|ALL|ALL": {
+            "correct": 0,
+            "incorrect": 4,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|NOT_ALL|ALL|NOT_ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "NOT_ALL|ALL|ALL|ALL": {
+            "correct": 3,
+            "incorrect": 1,
+            "unresolved": 0,
+            "n": 4
+          },
+          "NOT_ALL|ALL|NOT_ALL|ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|ALL|ALL|ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          },
+          "ALL|NOT_ALL|NOT_ALL|ALL": {
+            "correct": 4,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 4
+          }
+        }
+      }
+    },
+    "extraction_exact": {
+      "main": {
+        "correct": 24,
+        "incorrect": 0,
+        "unresolved": 0,
+        "n": 24
+      },
+      "bounds": [
+        1.0,
+        1.0
+      ],
+      "by_replicate": {
+        "1": {
+          "correct": 12,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 12
+        },
+        "2": {
+          "correct": 12,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 12
+        }
+      },
+      "by_truth": {
+        "PAPER": {
+          "correct": 12,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 12
+        },
+        "DIGITAL": {
+          "correct": 12,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 12
+        }
+      },
+      "boundary": {
+        "ZERO": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 4
+        },
+        "TWO": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 4
+        }
+      },
+      "adequate": true,
+      "criterion_status": "MET",
+      "by_pattern": {
+        "ALL|ALL|ALL|NOT_ALL": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 4
+        },
+        "ALL|ALL|NOT_ALL|ALL": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 4
+        },
+        "ALL|NOT_ALL|ALL|ALL": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 4
+        },
+        "ALL|NOT_ALL|ALL|NOT_ALL": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 4
+        },
+        "NOT_ALL|ALL|ALL|ALL": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 4
+        },
+        "NOT_ALL|ALL|NOT_ALL|ALL": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 4
+        },
+        "ALL|ALL|ALL|ALL": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 4
+        },
+        "ALL|NOT_ALL|NOT_ALL|ALL": {
+          "correct": 4,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 4
+        }
+      }
+    },
+    "contrasts": {
+      "RULE-DIRECT": {
+        "bounds": [
+          0.16666666666666669,
+          0.16666666666666669
+        ],
+        "positive_signal": false,
+        "negative_signal": false
+      },
+      "EXTRACT-DIRECT": {
+        "bounds": [
+          0.5416666666666667,
+          0.5416666666666667
+        ],
+        "positive_signal": true,
+        "negative_signal": false
+      }
+    },
+    "extraction_vs_derived_decision": {
+      "MAIN": {
+        "four_exact=True|channel=True": 24
+      },
+      "BOUNDARY": {
+        "four_exact=True|channel=True": 8
+      }
+    },
+    "p_value": null,
+    "confidence_interval": null,
+    "protocol": "READOUT-SPLIT-01-RUN-v0.1",
+    "status_counts": {
+      "EOS": 96
+    },
+    "closed_responses": 96,
+    "attempted_generations": 96,
+    "components": {
+      "DIRECT": {
+        "all_format": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "all_parse": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "main_confusion": {
+          "PAPER->PAPER": 9,
+          "DIGITAL->PAPER": 4,
+          "DIGITAL->DIGITAL": 2,
+          "PAPER->UNKNOWN": 3,
+          "DIGITAL->UNKNOWN": 6
+        },
+        "main_by_role": {
+          "A": {
+            "correct": 4,
+            "incorrect": 8,
+            "unresolved": 0,
+            "n": 12
+          },
+          "B": {
+            "correct": 7,
+            "incorrect": 5,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "main_repeats_by_case": {
+          "RS01-M01": [
+            "PAPER",
+            "UNKNOWN"
+          ],
+          "RS01-M02": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RS01-M03": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M04": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RS01-M05": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M06": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M07": [
+            "PAPER",
+            "UNKNOWN"
+          ],
+          "RS01-M08": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RS01-M09": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "RS01-M10": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M11": [
+            "UNKNOWN",
+            "DIGITAL"
+          ],
+          "RS01-M12": [
+            "DIGITAL",
+            "PAPER"
+          ]
+        }
+      },
+      "EXTRACT": {
+        "all_format": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "all_parse": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "main_confusion": {
+          "PAPER->PAPER": 12,
+          "DIGITAL->DIGITAL": 12
+        },
+        "main_by_role": {
+          "A": {
+            "correct": 12,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 12
+          },
+          "B": {
+            "correct": 12,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "main_repeats_by_case": {
+          "RS01-M01": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M02": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M03": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M04": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M05": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M06": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M07": [
+            "DIGITAL",
+            "DIGITAL"
+          ],
+          "RS01-M08": [
+            "DIGITAL",
+            "DIGITAL"
+          ],
+          "RS01-M09": [
+            "DIGITAL",
+            "DIGITAL"
+          ],
+          "RS01-M10": [
+            "DIGITAL",
+            "DIGITAL"
+          ],
+          "RS01-M11": [
+            "DIGITAL",
+            "DIGITAL"
+          ],
+          "RS01-M12": [
+            "DIGITAL",
+            "DIGITAL"
+          ]
+        },
+        "four_valid": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "main_fields": {
+          "A.paper": {
+            "correct": 24,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 24
+          },
+          "A.digital": {
+            "correct": 24,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 24
+          },
+          "B.paper": {
+            "correct": 24,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 24
+          },
+          "B.digital": {
+            "correct": 24,
+            "incorrect": 0,
+            "unresolved": 0,
+            "n": 24
+          }
+        }
+      },
+      "RULE": {
+        "all_format": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "all_parse": {
+          "correct": 32,
+          "incorrect": 0,
+          "unresolved": 0,
+          "n": 32
+        },
+        "main_confusion": {
+          "PAPER->DIGITAL": 2,
+          "DIGITAL->DIGITAL": 9,
+          "PAPER->PAPER": 6,
+          "DIGITAL->PAPER": 2,
+          "PAPER->UNKNOWN": 4,
+          "DIGITAL->UNKNOWN": 1
+        },
+        "main_by_role": {
+          "A": {
+            "correct": 8,
+            "incorrect": 4,
+            "unresolved": 0,
+            "n": 12
+          },
+          "B": {
+            "correct": 7,
+            "incorrect": 5,
+            "unresolved": 0,
+            "n": 12
+          }
+        },
+        "main_repeats_by_case": {
+          "RS01-M01": [
+            "DIGITAL",
+            "UNKNOWN"
+          ],
+          "RS01-M02": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RS01-M03": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M04": [
+            "DIGITAL",
+            "UNKNOWN"
+          ],
+          "RS01-M05": [
+            "UNKNOWN",
+            "PAPER"
+          ],
+          "RS01-M06": [
+            "PAPER",
+            "PAPER"
+          ],
+          "RS01-M07": [
+            "DIGITAL",
+            "DIGITAL"
+          ],
+          "RS01-M08": [
+            "PAPER",
+            "DIGITAL"
+          ],
+          "RS01-M09": [
+            "DIGITAL",
+            "DIGITAL"
+          ],
+          "RS01-M10": [
+            "DIGITAL",
+            "UNKNOWN"
+          ],
+          "RS01-M11": [
+            "PAPER",
+            "DIGITAL"
+          ],
+          "RS01-M12": [
+            "DIGITAL",
+            "DIGITAL"
+          ]
+        }
+      }
+    },
+    "by_response": [
+      {
+        "case": "RS01-M01",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M01-R1-DIRECT",
+        "replicate": 1,
+        "seed": 1799196187,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M01",
+        "condition": "EXTRACT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M01-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 1799196187,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M01",
+        "condition": "RULE",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M01-R1-RULE",
+        "replicate": 1,
+        "seed": 1799196187,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M07",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M07-R1-DIRECT",
+        "replicate": 1,
+        "seed": 565594504,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M07",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M07-R1-RULE",
+        "replicate": 1,
+        "seed": 565594504,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M07",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M07-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 565594504,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M12",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M12-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 875812447,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M12",
+        "condition": "DIRECT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M12-R1-DIRECT",
+        "replicate": 1,
+        "seed": 875812447,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M12",
+        "condition": "RULE",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M12-R1-RULE",
+        "replicate": 1,
+        "seed": 875812447,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B01",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-B01-R1-DIRECT",
+        "replicate": 1,
+        "seed": 1458843644,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B01",
+        "condition": "EXTRACT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-B01-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 1458843644,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B01",
+        "condition": "RULE",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-B01-R1-RULE",
+        "replicate": 1,
+        "seed": 1458843644,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M04",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M04-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 720172555,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M04",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M04-R1-RULE",
+        "replicate": 1,
+        "seed": 720172555,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M04",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M04-R1-DIRECT",
+        "replicate": 1,
+        "seed": 720172555,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M03",
+        "condition": "RULE",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M03-R1-RULE",
+        "replicate": 1,
+        "seed": 279675220,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M03",
+        "condition": "DIRECT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M03-R1-DIRECT",
+        "replicate": 1,
+        "seed": 279675220,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M03",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M03-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 279675220,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M08",
+        "condition": "RULE",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M08-R1-RULE",
+        "replicate": 1,
+        "seed": 557118564,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M08",
+        "condition": "EXTRACT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M08-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 557118564,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M08",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M08-R1-DIRECT",
+        "replicate": 1,
+        "seed": 557118564,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B02",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-B02-R1-DIRECT",
+        "replicate": 1,
+        "seed": 924721407,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B02",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-B02-R1-RULE",
+        "replicate": 1,
+        "seed": 924721407,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B02",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-B02-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 924721407,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M02",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M02-R1-DIRECT",
+        "replicate": 1,
+        "seed": 1177201994,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M02",
+        "condition": "EXTRACT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M02-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 1177201994,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M02",
+        "condition": "RULE",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M02-R1-RULE",
+        "replicate": 1,
+        "seed": 1177201994,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M06",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M06-R1-DIRECT",
+        "replicate": 1,
+        "seed": 2078230417,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M06",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M06-R1-RULE",
+        "replicate": 1,
+        "seed": 2078230417,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M06",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M06-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 2078230417,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M11",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M11-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 1906680830,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M11",
+        "condition": "DIRECT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M11-R1-DIRECT",
+        "replicate": 1,
+        "seed": 1906680830,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M11",
+        "condition": "RULE",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M11-R1-RULE",
+        "replicate": 1,
+        "seed": 1906680830,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B03",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-B03-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 791760515,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B03",
+        "condition": "DIRECT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-B03-R1-DIRECT",
+        "replicate": 1,
+        "seed": 791760515,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B03",
+        "condition": "RULE",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-B03-R1-RULE",
+        "replicate": 1,
+        "seed": 791760515,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M10",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M10-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 208763229,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M10",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M10-R1-RULE",
+        "replicate": 1,
+        "seed": 208763229,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M10",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M10-R1-DIRECT",
+        "replicate": 1,
+        "seed": 208763229,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M05",
+        "condition": "RULE",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M05-R1-RULE",
+        "replicate": 1,
+        "seed": 1691410477,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M05",
+        "condition": "DIRECT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M05-R1-DIRECT",
+        "replicate": 1,
+        "seed": 1691410477,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M05",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M05-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 1691410477,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M09",
+        "condition": "RULE",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M09-R1-RULE",
+        "replicate": 1,
+        "seed": 164195004,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M09",
+        "condition": "EXTRACT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M09-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 164195004,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M09",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M09-R1-DIRECT",
+        "replicate": 1,
+        "seed": 164195004,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B04",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-B04-R1-EXTRACT",
+        "replicate": 1,
+        "seed": 649730959,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B04",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-B04-R1-RULE",
+        "replicate": 1,
+        "seed": 649730959,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B04",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-B04-R1-DIRECT",
+        "replicate": 1,
+        "seed": 649730959,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M01",
+        "condition": "RULE",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M01-R2-RULE",
+        "replicate": 2,
+        "seed": 1849149881,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M01",
+        "condition": "EXTRACT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M01-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 1849149881,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M01",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M01-R2-DIRECT",
+        "replicate": 2,
+        "seed": 1849149881,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M07",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M07-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 1319970293,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M07",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M07-R2-RULE",
+        "replicate": 2,
+        "seed": 1319970293,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M07",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M07-R2-DIRECT",
+        "replicate": 2,
+        "seed": 1319970293,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M12",
+        "condition": "RULE",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M12-R2-RULE",
+        "replicate": 2,
+        "seed": 815284137,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M12",
+        "condition": "DIRECT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M12-R2-DIRECT",
+        "replicate": 2,
+        "seed": 815284137,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M12",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M12-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 815284137,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B01",
+        "condition": "RULE",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-B01-R2-RULE",
+        "replicate": 2,
+        "seed": 672484141,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B01",
+        "condition": "EXTRACT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-B01-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 672484141,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B01",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-B01-R2-DIRECT",
+        "replicate": 2,
+        "seed": 672484141,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M04",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M04-R2-DIRECT",
+        "replicate": 2,
+        "seed": 197747877,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M04",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M04-R2-RULE",
+        "replicate": 2,
+        "seed": 197747877,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M04",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M04-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 197747877,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M03",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M03-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 432139424,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M03",
+        "condition": "DIRECT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M03-R2-DIRECT",
+        "replicate": 2,
+        "seed": 432139424,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M03",
+        "condition": "RULE",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M03-R2-RULE",
+        "replicate": 2,
+        "seed": 432139424,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M08",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M08-R2-DIRECT",
+        "replicate": 2,
+        "seed": 1197006678,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M08",
+        "condition": "EXTRACT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M08-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 1197006678,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M08",
+        "condition": "RULE",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M08-R2-RULE",
+        "replicate": 2,
+        "seed": 1197006678,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B02",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-B02-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 1340343629,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B02",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-B02-R2-RULE",
+        "replicate": 2,
+        "seed": 1340343629,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B02",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-B02-R2-DIRECT",
+        "replicate": 2,
+        "seed": 1340343629,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M02",
+        "condition": "RULE",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M02-R2-RULE",
+        "replicate": 2,
+        "seed": 1745663817,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M02",
+        "condition": "EXTRACT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M02-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 1745663817,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M02",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M02-R2-DIRECT",
+        "replicate": 2,
+        "seed": 1745663817,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M06",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M06-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 1788329853,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M06",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M06-R2-RULE",
+        "replicate": 2,
+        "seed": 1788329853,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M06",
+        "condition": "DIRECT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M06-R2-DIRECT",
+        "replicate": 2,
+        "seed": 1788329853,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M11",
+        "condition": "RULE",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M11-R2-RULE",
+        "replicate": 2,
+        "seed": 596670787,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M11",
+        "condition": "DIRECT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M11-R2-DIRECT",
+        "replicate": 2,
+        "seed": 596670787,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M11",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M11-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 596670787,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B03",
+        "condition": "RULE",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-B03-R2-RULE",
+        "replicate": 2,
+        "seed": 60007408,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B03",
+        "condition": "DIRECT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-B03-R2-DIRECT",
+        "replicate": 2,
+        "seed": 60007408,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B03",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-B03-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 60007408,
+        "set": "BOUNDARY",
+        "role": "A",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M10",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M10-R2-DIRECT",
+        "replicate": 2,
+        "seed": 1396556506,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M10",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M10-R2-RULE",
+        "replicate": 2,
+        "seed": 1396556506,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M10",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M10-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 1396556506,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M05",
+        "condition": "EXTRACT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M05-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 650224207,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M05",
+        "condition": "DIRECT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M05-R2-DIRECT",
+        "replicate": 2,
+        "seed": 650224207,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M05",
+        "condition": "RULE",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M05-R2-RULE",
+        "replicate": 2,
+        "seed": 650224207,
+        "set": "MAIN",
+        "role": "B",
+        "gold": {
+          "channel": "PAPER",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "NOT_ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M09",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-M09-R2-DIRECT",
+        "replicate": 2,
+        "seed": 167785051,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M09",
+        "condition": "EXTRACT",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-M09-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 167785051,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-M09",
+        "condition": "RULE",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-M09-R2-RULE",
+        "replicate": 2,
+        "seed": 167785051,
+        "set": "MAIN",
+        "role": "A",
+        "gold": {
+          "channel": "DIGITAL",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "NOT_ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "DIGITAL",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B04",
+        "condition": "DIRECT",
+        "condition_position": 1,
+        "dependencies": [],
+        "id": "RS01-B04-R2-DIRECT",
+        "replicate": 2,
+        "seed": 863304312,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": false,
+          "channel_kind": "LLM",
+          "channel_output": "PAPER",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B04",
+        "condition": "RULE",
+        "condition_position": 2,
+        "dependencies": [],
+        "id": "RS01-B04-R2-RULE",
+        "replicate": 2,
+        "seed": 863304312,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "LLM",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": null,
+          "extraction_applicable": false,
+          "fields": null,
+          "format_valid": true,
+          "four_exact": null,
+          "four_valid": null,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      },
+      {
+        "case": "RS01-B04",
+        "condition": "EXTRACT",
+        "condition_position": 3,
+        "dependencies": [],
+        "id": "RS01-B04-R2-EXTRACT",
+        "replicate": 2,
+        "seed": 863304312,
+        "set": "BOUNDARY",
+        "role": "B",
+        "gold": {
+          "channel": "UNKNOWN",
+          "four_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          }
+        },
+        "score": {
+          "channel": true,
+          "channel_kind": "DETERMINISTIC_FROM_EXTRACTED_VALUES",
+          "channel_output": "UNKNOWN",
+          "errors": [],
+          "extracted_values": {
+            "A": {
+              "digital": "ALL",
+              "paper": "ALL"
+            },
+            "B": {
+              "digital": "ALL",
+              "paper": "ALL"
+            }
+          },
+          "extraction_applicable": true,
+          "fields": {
+            "A.digital": true,
+            "A.paper": true,
+            "B.digital": true,
+            "B.paper": true
+          },
+          "format_valid": true,
+          "four_exact": true,
+          "four_valid": true,
+          "parse_valid": true
+        },
+        "status": "EOS"
+      }
+    ],
+    "rule_input_patterns": {
+      "ALL|ALL|ALL|ALL": {
+        "case_ids": [
+          "RS01-B03",
+          "RS01-B04"
+        ],
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "ALL|ALL|ALL|NOT_ALL": {
+        "case_ids": [
+          "RS01-M02",
+          "RS01-M05"
+        ],
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "ALL|ALL|NOT_ALL|ALL": {
+        "case_ids": [
+          "RS01-M08",
+          "RS01-M11"
+        ],
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "ALL|NOT_ALL|ALL|ALL": {
+        "case_ids": [
+          "RS01-M01",
+          "RS01-M04"
+        ],
+        "four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "ALL|NOT_ALL|ALL|NOT_ALL": {
+        "case_ids": [
+          "RS01-M03",
+          "RS01-M06"
+        ],
+        "four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "ALL|NOT_ALL|NOT_ALL|ALL": {
+        "case_ids": [
+          "RS01-B01",
+          "RS01-B02"
+        ],
+        "four_values": {
+          "A": {
+            "digital": "NOT_ALL",
+            "paper": "ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      },
+      "NOT_ALL|ALL|ALL|ALL": {
+        "case_ids": [
+          "RS01-M07",
+          "RS01-M10"
+        ],
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "ALL"
+          }
+        }
+      },
+      "NOT_ALL|ALL|NOT_ALL|ALL": {
+        "case_ids": [
+          "RS01-M09",
+          "RS01-M12"
+        ],
+        "four_values": {
+          "A": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          },
+          "B": {
+            "digital": "ALL",
+            "paper": "NOT_ALL"
+          }
+        }
+      }
+    },
+    "performance": {
+      "DIRECT": {
+        "responses": 32,
+        "input_tokens": [
+          369,
+          370,
+          378,
+          378,
+          369,
+          378,
+          372,
+          374,
+          371,
+          374,
+          377,
+          374,
+          371,
+          372,
+          376,
+          371,
+          369,
+          370,
+          378,
+          378,
+          369,
+          378,
+          372,
+          374,
+          371,
+          374,
+          377,
+          374,
+          371,
+          372,
+          376,
+          371
+        ],
+        "output_tokens": [
+          22,
+          9,
+          22,
+          8,
+          21,
+          22,
+          21,
+          8,
+          21,
+          22,
+          21,
+          9,
+          22,
+          22,
+          21,
+          8,
+          8,
+          21,
+          22,
+          21,
+          22,
+          9,
+          21,
+          21,
+          22,
+          22,
+          22,
+          21,
+          22,
+          9,
+          21,
+          22
+        ],
+        "generation_seconds": [
+          2.169672860999981,
+          0.5489147329999469,
+          1.2171158040000591,
+          0.49647648999996363,
+          1.158347762999938,
+          1.2106136139999535,
+          1.1589782229999628,
+          0.49485704000005626,
+          1.1589450429999033,
+          1.2096856840000783,
+          1.159082513000044,
+          0.5458696709999913,
+          1.210956603999989,
+          1.2101177839999764,
+          1.1589486330000227,
+          0.4948051999999734,
+          0.49459841999998844,
+          1.1585291730000336,
+          1.2106234240000049,
+          1.1597349290000238,
+          1.2095193699999527,
+          0.5468414299999722,
+          1.1588767690000168,
+          1.1588915990000714,
+          1.2099041700000726,
+          1.2097091189999674,
+          1.2101575699999785,
+          1.1587750789999518,
+          1.2096808190000274,
+          0.5461810699999887,
+          1.1588664990000552,
+          1.2099041489999536
+        ]
+      },
+      "EXTRACT": {
+        "responses": 32,
+        "input_tokens": [
+          430,
+          431,
+          439,
+          439,
+          430,
+          439,
+          433,
+          435,
+          432,
+          435,
+          438,
+          435,
+          432,
+          433,
+          437,
+          432,
+          430,
+          431,
+          439,
+          439,
+          430,
+          439,
+          433,
+          435,
+          432,
+          435,
+          438,
+          435,
+          432,
+          433,
+          437,
+          432
+        ],
+        "output_tokens": [
+          64,
+          26,
+          27,
+          27,
+          64,
+          65,
+          26,
+          27,
+          26,
+          27,
+          64,
+          25,
+          26,
+          26,
+          65,
+          25,
+          26,
+          64,
+          27,
+          65,
+          64,
+          27,
+          26,
+          27,
+          26,
+          27,
+          26,
+          63,
+          26,
+          26,
+          65,
+          25
+        ],
+        "generation_seconds": [
+          3.4065015360000643,
+          1.4393136579999464,
+          1.489804319999962,
+          1.4801932899999883,
+          3.369180388000018,
+          3.4206571290000056,
+          1.4289610789999188,
+          1.4794968090000111,
+          1.4299019580000731,
+          1.4794114889999719,
+          3.3693399469999576,
+          1.3773982569999816,
+          1.4296278890000167,
+          1.4289454390000174,
+          3.4201345989999936,
+          1.3785087269999394,
+          1.429036179000036,
+          3.369708347000028,
+          1.480439539000031,
+          3.421135323000044,
+          3.3698681390000047,
+          1.480379528999947,
+          1.4292750000000751,
+          1.4799129599999787,
+          1.4297130989999687,
+          1.4796141790000092,
+          1.4293384090000245,
+          3.3180652089999967,
+          1.4301099300000715,
+          1.429259069000068,
+          3.4203907889999527,
+          1.3808288389999461
+        ]
+      },
+      "RULE": {
+        "responses": 32,
+        "input_tokens": [
+          192,
+          192,
+          193,
+          193,
+          192,
+          193,
+          192,
+          193,
+          192,
+          193,
+          192,
+          191,
+          192,
+          192,
+          193,
+          191,
+          192,
+          192,
+          193,
+          193,
+          192,
+          193,
+          192,
+          193,
+          192,
+          193,
+          192,
+          191,
+          192,
+          192,
+          193,
+          191
+        ],
+        "output_tokens": [
+          9,
+          9,
+          9,
+          8,
+          9,
+          9,
+          9,
+          8,
+          8,
+          9,
+          9,
+          8,
+          9,
+          8,
+          9,
+          8,
+          8,
+          9,
+          9,
+          8,
+          8,
+          9,
+          9,
+          8,
+          9,
+          9,
+          9,
+          8,
+          8,
+          9,
+          9,
+          8
+        ],
+        "generation_seconds": [
+          0.5069543120000617,
+          0.5066500820000783,
+          0.5079242799999975,
+          0.45593829899996763,
+          0.5040738499999406,
+          0.5070322799999758,
+          0.5014257399999451,
+          0.4559131290000096,
+          0.45030704900000273,
+          0.5068835499999977,
+          0.5015806400000429,
+          0.4511540689999265,
+          0.5014574799999991,
+          0.45029951899994103,
+          0.5066454899999826,
+          0.4509319689999529,
+          0.45050050899999405,
+          0.5015976210000872,
+          0.5068495000000439,
+          0.4558366589999423,
+          0.45051404900004854,
+          0.5068547500000022,
+          0.5017407889999959,
+          0.45587494999995215,
+          0.5014958799999931,
+          0.5068483000000015,
+          0.5018252900000562,
+          0.45111753999992743,
+          0.45039308999992045,
+          0.5020700900000747,
+          0.5070447399999694,
+          0.451137000000017
+        ]
+      }
+    }
+  }
+}

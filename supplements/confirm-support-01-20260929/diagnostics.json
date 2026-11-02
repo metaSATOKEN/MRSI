@@ -1,0 +1,4291 @@
+{
+  "elapsed_seconds": 1889.068309314,
+  "environment": {
+    "capability": [
+      12,
+      0
+    ],
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "driver": "580.82.07",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "packages": {
+      "accelerate": "1.15.0",
+      "causal-conv1d": null,
+      "fla-core": null,
+      "flash-linear-attention": null,
+      "huggingface-hub": "1.29.0",
+      "kernels": null,
+      "numpy": "2.1.3",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.23.1",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.17.0",
+      "triton": "3.6.0"
+    },
+    "python": "3.13.15",
+    "total_vram": 101974081536
+  },
+  "normalization": {
+    "CONFIRM": {
+      "answered": 80,
+      "status": {
+        "UNCHANGED": 80
+      },
+      "raw_schema_accepted": 80,
+      "normalized_schema_accepted": 80,
+      "removed_bytes": 0
+    },
+    "USE": {
+      "answered": 128,
+      "status": {
+        "UNCHANGED": 128
+      },
+      "raw_schema_accepted": 128,
+      "normalized_schema_accepted": 128,
+      "removed_bytes": 0
+    }
+  },
+  "performance": {
+    "CONFIRM": {
+      "planned_responses": 80,
+      "responses": 80,
+      "input_tokens": {
+        "min": 1512,
+        "max": 1592,
+        "sum": 124194
+      },
+      "prompt_bytes": {
+        "min": 6075,
+        "max": 6350,
+        "sum": 496940
+      },
+      "output_tokens": {
+        "min": 130,
+        "max": 216,
+        "sum": 14820
+      },
+      "raw_bytes": {
+        "min": 269,
+        "max": 412,
+        "sum": 28835
+      },
+      "generation_seconds": {
+        "min": 7.026970754000104,
+        "max": 11.411686372999611,
+        "sum": 789.135432805999
+      }
+    },
+    "USE": {
+      "planned_responses": 128,
+      "responses": 128,
+      "input_tokens": {
+        "min": 1415,
+        "max": 1452,
+        "sum": 183328
+      },
+      "prompt_bytes": {
+        "min": 5812,
+        "max": 5850,
+        "sum": 746248
+      },
+      "output_tokens": {
+        "min": 86,
+        "max": 173,
+        "sum": 16416
+      },
+      "raw_bytes": {
+        "min": 210,
+        "max": 344,
+        "sum": 35076
+      },
+      "generation_seconds": {
+        "min": 4.748648353000135,
+        "max": 9.200883920000024,
+        "sum": 884.5761025460017
+      }
+    }
+  },
+  "main_failures": [
+    {
+      "id": "CS01-M01-REVERSE-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "MAIN",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 14,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 13,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 14,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 13,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E8C050EFFBC",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 17,
+            "digital_success": 25
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E8C050EFFBC"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "E8C050EFFBC"
+            ]
+          },
+          "record_id": "Q3A666C0D37"
+        }
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"PAPER\",\"evidence_refs\":[\"E7626AE2A21\",\"E43F99F6F00\"]},\"reply\":{\"action\":\"COUNTER\",\"reply_to\":\"Q3A666C0D37\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"E94A9E91EF2\",\"EE766BA6019\",\"E7626AE2A21\",\"E43F99F6F00\",\"E8C050EFFBC\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q3A666C0D37",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "E8C050EFFBC"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "22",
+          "DIGITAL": "24"
+        },
+        "B": {
+          "PAPER": "27",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M02-REVERSE-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "MAIN",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 14,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 13,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "EE44423721C",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 13,
+            "digital_success": 29
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "EE44423721C"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "EE44423721C"
+            ]
+          },
+          "record_id": "Q3A666C0D37"
+        }
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"B\",\n    \"choice\": \"DIGITAL\",\n    \"evidence_refs\": [\n      \"E7626AE2A21\",\n      \"E43F99F6F00\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"COUNTER\",\n    \"reply_to\": \"Q3A666C0D37\",\n    \"allocation\": {\n      \"A\": \"DIGITAL\",\n      \"B\": \"DIGITAL\"\n    },\n    \"evidence_refs\": [\n      \"E94A9E91EF2\",\n      \"EE766BA6019\",\n      \"E7626AE2A21\",\n      \"E43F99F6F00\",\n      \"EE44423721C\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q3A666C0D37",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "EE44423721C"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "20",
+          "DIGITAL": "26"
+        },
+        "B": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M05-REINFORCE-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "MAIN",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "E1C60625B3D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 12,
+            "paper_success": 14
+          },
+          {
+            "episode_id": "EC9F2F8942D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 13
+          },
+          {
+            "episode_id": "E719F39C5D6",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 12,
+            "paper_success": 14
+          },
+          {
+            "episode_id": "EAB5D8DF0D3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 13
+          },
+          {
+            "episode_id": "EF91EE66C8B",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 19,
+            "paper_success": 21
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D"
+              ],
+              "subject": "B"
+            }
+          },
+          {
+            "author": "A",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "subject": "A"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "B",
+            "body": {
+              "action": "COUNTER",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "reply_to": "Q72107EC9BC"
+            },
+            "record_id": "Q3A97445BE8"
+          },
+          {
+            "author": "A",
+            "body": {
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ]
+            },
+            "record_id": "Q72107EC9BC"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "B",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "EF91EE66C8B"
+            ],
+            "subject": "B"
+          },
+          "record_id": "Q267CC77EEB"
+        },
+        "proposal": {
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E719F39C5D6",
+              "EAB5D8DF0D3",
+              "EF91EE66C8B"
+            ]
+          },
+          "record_id": "Q2F6B83AC58"
+        }
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"A\",\n    \"choice\": \"PAPER\",\n    \"evidence_refs\": [\n      \"E719F39C5D6\",\n      \"EAB5D8DF0D3\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"COUNTER\",\n    \"reply_to\": \"Q2F6B83AC58\",\n    \"allocation\": {\n      \"A\": \"PAPER\",\n      \"B\": \"PAPER\"\n    },\n    \"evidence_refs\": [\n      \"E1C60625B3D\",\n      \"EC9F2F8942D\",\n      \"E719F39C5D6\",\n      \"EAB5D8DF0D3\",\n      \"EF91EE66C8B\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q2F6B83AC58",
+          "allocation": {
+            "A": "PAPER",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "E719F39C5D6",
+            "EAB5D8DF0D3",
+            "EF91EE66C8B"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "27",
+          "DIGITAL": "23"
+        },
+        "B": {
+          "PAPER": "24",
+          "DIGITAL": "21"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M11-REVERSE-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "MAIN",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 14,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 13,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E9B023C6B06",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 29,
+            "digital_success": 13
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E9B023C6B06"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "E9B023C6B06"
+            ]
+          },
+          "record_id": "Q3A666C0D37"
+        }
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"B\",\n    \"choice\": \"PAPER\",\n    \"evidence_refs\": [\n      \"E7626AE2A21\",\n      \"E43F99F6F00\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"COUNTER\",\n    \"reply_to\": \"Q3A666C0D37\",\n    \"allocation\": {\n      \"A\": \"DIGITAL\",\n      \"B\": \"PAPER\"\n    },\n    \"evidence_refs\": [\n      \"E94A9E91EF2\",\n      \"EE766BA6019\",\n      \"E7626AE2A21\",\n      \"E43F99F6F00\",\n      \"E9B023C6B06\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q3A666C0D37",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "E9B023C6B06"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "26",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "27",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    }
+  ],
+  "controls": [
+    {
+      "id": "CS01-M16-REVERSE-CONTROL-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "E1C60625B3D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 14,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EC9F2F8942D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 13,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "E719F39C5D6",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 14,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EAB5D8DF0D3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 13,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "EDBC6D6F344",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 17,
+            "paper_success": 25
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "B",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D"
+              ],
+              "subject": "B"
+            }
+          },
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "subject": "A"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "B",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "reply_to": "Q72107EC9BC"
+            },
+            "record_id": "Q3A97445BE8"
+          },
+          {
+            "author": "A",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ]
+            },
+            "record_id": "Q72107EC9BC"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "B",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "EDBC6D6F344"
+            ],
+            "subject": "B"
+          },
+          "record_id": "Q267CC77EEB"
+        },
+        "proposal": {
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E719F39C5D6",
+              "EAB5D8DF0D3",
+              "EDBC6D6F344"
+            ]
+          },
+          "record_id": "QE3FA427D08"
+        }
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"A\",\n    \"choice\": \"DIGITAL\",\n    \"evidence_refs\": [\n      \"E719F39C5D6\",\n      \"EAB5D8DF0D3\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"ACCEPT\",\n    \"reply_to\": \"QE3FA427D08\",\n    \"allocation\": {\n      \"A\": \"PAPER\",\n      \"B\": \"DIGITAL\"\n    },\n    \"evidence_refs\": [\n      \"E1C60625B3D\",\n      \"EC9F2F8942D\",\n      \"E719F39C5D6\",\n      \"EAB5D8DF0D3\",\n      \"EDBC6D6F344\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "QE3FA427D08",
+          "allocation": {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "E719F39C5D6",
+            "EAB5D8DF0D3",
+            "EDBC6D6F344"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        },
+        "B": {
+          "PAPER": "24",
+          "DIGITAL": "22"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": true,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M16-REVERSE-CONTROL-SUPPORT-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "E1C60625B3D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 14,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EC9F2F8942D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 13,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "E719F39C5D6",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 14,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EAB5D8DF0D3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 13,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "EDBC6D6F344",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 17,
+            "paper_success": 25
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "B",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D"
+              ],
+              "subject": "B"
+            }
+          },
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "subject": "A"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "B",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "reply_to": "Q72107EC9BC"
+            },
+            "record_id": "Q3A97445BE8"
+          },
+          {
+            "author": "A",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ]
+            },
+            "record_id": "Q72107EC9BC"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "B",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "EDBC6D6F344"
+            ],
+            "subject": "B"
+          },
+          "record_id": "Q267CC77EEB"
+        },
+        "proposal": {
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E719F39C5D6",
+              "EAB5D8DF0D3",
+              "EDBC6D6F344"
+            ]
+          },
+          "record_id": "QE3FA427D08"
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 45
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 51
+          }
+        ]
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"A\",\n    \"choice\": \"DIGITAL\",\n    \"evidence_refs\": [\n      \"E719F39C5D6\",\n      \"EAB5D8DF0D3\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"COUNTER\",\n    \"reply_to\": \"QE3FA427D08\",\n    \"allocation\": {\n      \"A\": \"DIGITAL\",\n      \"B\": \"PAPER\"\n    },\n    \"evidence_refs\": [\n      \"E1C60625B3D\",\n      \"EC9F2F8942D\",\n      \"E719F39C5D6\",\n      \"EAB5D8DF0D3\",\n      \"EDBC6D6F344\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "QE3FA427D08",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "E719F39C5D6",
+            "EAB5D8DF0D3",
+            "EDBC6D6F344"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        },
+        "B": {
+          "PAPER": "24",
+          "DIGITAL": "22"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M07-REINFORCE-CONTROL-SUPPORT-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "E1C60625B3D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 12,
+            "paper_success": 14
+          },
+          {
+            "episode_id": "EC9F2F8942D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 13
+          },
+          {
+            "episode_id": "E719F39C5D6",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 14,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EAB5D8DF0D3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 13,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "E8992DA99DA",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 19,
+            "paper_success": 21
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D"
+              ],
+              "subject": "B"
+            }
+          },
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "subject": "A"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "B",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "reply_to": "Q72107EC9BC"
+            },
+            "record_id": "Q3A97445BE8"
+          },
+          {
+            "author": "A",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ]
+            },
+            "record_id": "Q72107EC9BC"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "B",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E8992DA99DA"
+            ],
+            "subject": "B"
+          },
+          "record_id": "Q267CC77EEB"
+        },
+        "proposal": {
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E719F39C5D6",
+              "EAB5D8DF0D3",
+              "E8992DA99DA"
+            ]
+          },
+          "record_id": "Q3900D90260"
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 51
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 44
+          }
+        ]
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"A\",\n    \"choice\": \"DIGITAL\",\n    \"evidence_refs\": [\n      \"E719F39C5D6\",\n      \"EAB5D8DF0D3\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"COUNTER\",\n    \"reply_to\": \"Q3900D90260\",\n    \"allocation\": {\n      \"A\": \"DIGITAL\",\n      \"B\": \"PAPER\"\n    },\n    \"evidence_refs\": [\n      \"E1C60625B3D\",\n      \"EC9F2F8942D\",\n      \"E719F39C5D6\",\n      \"EAB5D8DF0D3\",\n      \"E8992DA99DA\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q3900D90260",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "E719F39C5D6",
+            "EAB5D8DF0D3",
+            "E8992DA99DA"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        },
+        "B": {
+          "PAPER": "24",
+          "DIGITAL": "21"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M07-REINFORCE-CONTROL-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "E1C60625B3D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 12,
+            "paper_success": 14
+          },
+          {
+            "episode_id": "EC9F2F8942D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 13
+          },
+          {
+            "episode_id": "E719F39C5D6",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 14,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EAB5D8DF0D3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 13,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "E8992DA99DA",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 19,
+            "paper_success": 21
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D"
+              ],
+              "subject": "B"
+            }
+          },
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "subject": "A"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "B",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "reply_to": "Q72107EC9BC"
+            },
+            "record_id": "Q3A97445BE8"
+          },
+          {
+            "author": "A",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ]
+            },
+            "record_id": "Q72107EC9BC"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "B",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E8992DA99DA"
+            ],
+            "subject": "B"
+          },
+          "record_id": "Q267CC77EEB"
+        },
+        "proposal": {
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E719F39C5D6",
+              "EAB5D8DF0D3",
+              "E8992DA99DA"
+            ]
+          },
+          "record_id": "Q3900D90260"
+        }
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"A\",\n    \"choice\": \"DIGITAL\",\n    \"evidence_refs\": [\n      \"E719F39C5D6\",\n      \"EAB5D8DF0D3\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"ACCEPT\",\n    \"reply_to\": \"Q3900D90260\",\n    \"allocation\": {\n      \"A\": \"DIGITAL\",\n      \"B\": \"DIGITAL\"\n    },\n    \"evidence_refs\": [\n      \"E1C60625B3D\",\n      \"EC9F2F8942D\",\n      \"E719F39C5D6\",\n      \"EAB5D8DF0D3\",\n      \"E8992DA99DA\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "Q3900D90260",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "E719F39C5D6",
+            "EAB5D8DF0D3",
+            "E8992DA99DA"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        },
+        "B": {
+          "PAPER": "24",
+          "DIGITAL": "21"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M03-REVERSE-CONTROL-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 14,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 13,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E78B082EC9B",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 25,
+            "digital_success": 17
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E78B082EC9B"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "E78B082EC9B"
+            ]
+          },
+          "record_id": "Q097CEEC2F2"
+        }
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"B\",\n    \"choice\": \"PAPER\",\n    \"evidence_refs\": [\n      \"E7626AE2A21\",\n      \"E43F99F6F00\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"ACCEPT\",\n    \"reply_to\": \"Q097CEEC2F2\",\n    \"allocation\": {\n      \"A\": \"PAPER\",\n      \"B\": \"DIGITAL\"\n    },\n    \"evidence_refs\": [\n      \"E94A9E91EF2\",\n      \"EE766BA6019\",\n      \"E7626AE2A21\",\n      \"E43F99F6F00\",\n      \"E78B082EC9B\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "Q097CEEC2F2",
+          "allocation": {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "E78B082EC9B"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "24",
+          "DIGITAL": "22"
+        },
+        "B": {
+          "PAPER": "27",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": true,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M03-REVERSE-CONTROL-SUPPORT-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 14,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 13,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E78B082EC9B",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 25,
+            "digital_success": 17
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E78B082EC9B"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "E78B082EC9B"
+            ]
+          },
+          "record_id": "Q097CEEC2F2"
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 47
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 49
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"PAPER\",\"evidence_refs\":[\"E7626AE2A21\",\"E43F99F6F00\"]},\"reply\":{\"action\":\"COUNTER\",\"reply_to\":\"Q097CEEC2F2\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"E94A9E91EF2\",\"EE766BA6019\",\"E7626AE2A21\",\"E43F99F6F00\",\"E78B082EC9B\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q097CEEC2F2",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "E78B082EC9B"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "24",
+          "DIGITAL": "22"
+        },
+        "B": {
+          "PAPER": "27",
+          "DIGITAL": "23"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M12-REINFORCE-CONTROL-SUPPORT-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E155ED5F973",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 19,
+            "digital_success": 21
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E155ED5F973"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "E155ED5F973"
+            ]
+          },
+          "record_id": "QBCDB388E0C"
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 48
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 47
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"B\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E7626AE2A21\",\"E43F99F6F00\"]},\"reply\":{\"action\":\"HOLD\",\"reply_to\":\"QBCDB388E0C\",\"allocation\":{\"A\":\"UNDECIDED\",\"B\":\"UNDECIDED\"},\"evidence_refs\":[\"E94A9E91EF2\",\"EE766BA6019\",\"E7626AE2A21\",\"E43F99F6F00\",\"E155ED5F973\"]}}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "HOLD",
+          "reply_to": "QBCDB388E0C",
+          "allocation": {
+            "A": "UNDECIDED",
+            "B": "UNDECIDED"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "E155ED5F973"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "21",
+          "DIGITAL": "24"
+        },
+        "B": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M12-REINFORCE-CONTROL-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E155ED5F973",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 19,
+            "digital_success": 21
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E155ED5F973"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "E155ED5F973"
+            ]
+          },
+          "record_id": "QBCDB388E0C"
+        }
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"B\",\n    \"choice\": \"DIGITAL\",\n    \"evidence_refs\": [\n      \"E7626AE2A21\",\n      \"E43F99F6F00\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"ACCEPT\",\n    \"reply_to\": \"QBCDB388E0C\",\n    \"allocation\": {\n      \"A\": \"DIGITAL\",\n      \"B\": \"DIGITAL\"\n    },\n    \"evidence_refs\": [\n      \"E94A9E91EF2\",\n      \"EE766BA6019\",\n      \"E7626AE2A21\",\n      \"E43F99F6F00\",\n      \"E155ED5F973\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "QBCDB388E0C",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "E155ED5F973"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "21",
+          "DIGITAL": "24"
+        },
+        "B": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M04-REVERSE-CONTROL-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "EA68C22A9A2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 29,
+            "digital_success": 13
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "EA68C22A9A2"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "EA68C22A9A2"
+            ]
+          },
+          "record_id": "Q446BBE54CF"
+        }
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"B\",\n    \"choice\": \"DIGITAL\",\n    \"evidence_refs\": [\n      \"E7626AE2A21\",\n      \"E43F99F6F00\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"ACCEPT\",\n    \"reply_to\": \"Q446BBE54CF\",\n    \"allocation\": {\n      \"A\": \"DIGITAL\",\n      \"B\": \"DIGITAL\"\n    },\n    \"evidence_refs\": [\n      \"E94A9E91EF2\",\n      \"EE766BA6019\",\n      \"E7626AE2A21\",\n      \"E43F99F6F00\",\n      \"EA68C22A9A2\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "Q446BBE54CF",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "EA68C22A9A2"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "26",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M04-REVERSE-CONTROL-SUPPORT-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "EA68C22A9A2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 29,
+            "digital_success": 13
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "EA68C22A9A2"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "EA68C22A9A2"
+            ]
+          },
+          "record_id": "Q446BBE54CF"
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 43
+          },
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 53
+          }
+        ]
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"B\",\n    \"choice\": \"DIGITAL\",\n    \"evidence_refs\": [\n      \"E7626AE2A21\",\n      \"E43F99F6F00\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"COUNTER\",\n    \"reply_to\": \"Q446BBE54CF\",\n    \"allocation\": {\n      \"A\": \"PAPER\",\n      \"B\": \"DIGITAL\"\n    },\n    \"evidence_refs\": [\n      \"E94A9E91EF2\",\n      \"EE766BA6019\",\n      \"E7626AE2A21\",\n      \"E43F99F6F00\",\n      \"EA68C22A9A2\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q446BBE54CF",
+          "allocation": {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "EA68C22A9A2"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "26",
+          "DIGITAL": "20"
+        },
+        "B": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M02-REINFORCE-CONTROL-SUPPORT-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 14,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 13,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E0DC9AF4A0E",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 27,
+            "digital_success": 13
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E0DC9AF4A0E"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "E0DC9AF4A0E"
+            ]
+          },
+          "record_id": "QF9C4CD7D95"
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 54
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 41
+          }
+        ]
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"B\",\n    \"choice\": \"DIGITAL\",\n    \"evidence_refs\": [\n      \"E7626AE2A21\",\n      \"E43F99F6F00\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"COUNTER\",\n    \"reply_to\": \"QF9C4CD7D95\",\n    \"allocation\": {\n      \"A\": \"PAPER\",\n      \"B\": \"DIGITAL\"\n    },\n    \"evidence_refs\": [\n      \"E94A9E91EF2\",\n      \"EE766BA6019\",\n      \"E7626AE2A21\",\n      \"E43F99F6F00\",\n      \"E0DC9AF4A0E\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "QF9C4CD7D95",
+          "allocation": {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "E0DC9AF4A0E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "27",
+          "DIGITAL": "18"
+        },
+        "B": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M02-REINFORCE-CONTROL-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "B",
+        "experiences": [
+          {
+            "episode_id": "E94A9E91EF2",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 14,
+            "digital_success": 12
+          },
+          {
+            "episode_id": "EE766BA6019",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 13,
+            "digital_success": 11
+          },
+          {
+            "episode_id": "E7626AE2A21",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "paper_success": 12,
+            "digital_success": 14
+          },
+          {
+            "episode_id": "E43F99F6F00",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "paper_success": 11,
+            "digital_success": 13
+          },
+          {
+            "episode_id": "E0DC9AF4A0E",
+            "observer": "A",
+            "site": "区画1",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "paper_success": 27,
+            "digital_success": 13
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "A",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019"
+              ],
+              "subject": "A"
+            }
+          },
+          {
+            "author": "B",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "subject": "B"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "A",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ],
+              "reply_to": "Q7ACDF433F9"
+            },
+            "record_id": "Q861E7EC719"
+          },
+          {
+            "author": "B",
+            "body": {
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E94A9E91EF2",
+                "EE766BA6019",
+                "E7626AE2A21",
+                "E43F99F6F00"
+              ]
+            },
+            "record_id": "Q7ACDF433F9"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "A",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E0DC9AF4A0E"
+            ],
+            "subject": "A"
+          },
+          "record_id": "QA30ED94E41"
+        },
+        "proposal": {
+          "author": "A",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "evidence_refs": [
+              "E94A9E91EF2",
+              "EE766BA6019",
+              "E7626AE2A21",
+              "E43F99F6F00",
+              "E0DC9AF4A0E"
+            ]
+          },
+          "record_id": "QF9C4CD7D95"
+        }
+      },
+      "raw_answer": "{\n  \"local\": {\n    \"subject\": \"B\",\n    \"choice\": \"DIGITAL\",\n    \"evidence_refs\": [\n      \"E7626AE2A21\",\n      \"E43F99F6F00\"\n    ]\n  },\n  \"reply\": {\n    \"action\": \"COUNTER\",\n    \"reply_to\": \"QF9C4CD7D95\",\n    \"allocation\": {\n      \"A\": \"PAPER\",\n      \"B\": \"DIGITAL\"\n    },\n    \"evidence_refs\": [\n      \"E94A9E91EF2\",\n      \"EE766BA6019\",\n      \"E7626AE2A21\",\n      \"E43F99F6F00\",\n      \"E0DC9AF4A0E\"\n    ]\n  }\n}",
+      "answer": {
+        "local": {
+          "subject": "B",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E7626AE2A21",
+            "E43F99F6F00"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "QF9C4CD7D95",
+          "allocation": {
+            "A": "PAPER",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E94A9E91EF2",
+            "EE766BA6019",
+            "E7626AE2A21",
+            "E43F99F6F00",
+            "E0DC9AF4A0E"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "27",
+          "DIGITAL": "18"
+        },
+        "B": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M15-REVERSE-CONTROL-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "E1C60625B3D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 12,
+            "paper_success": 14
+          },
+          {
+            "episode_id": "EC9F2F8942D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 13
+          },
+          {
+            "episode_id": "E719F39C5D6",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 14,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EAB5D8DF0D3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 13,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "E6FA3B2D5B7",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 29,
+            "paper_success": 13
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D"
+              ],
+              "subject": "B"
+            }
+          },
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "subject": "A"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "B",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "reply_to": "Q72107EC9BC"
+            },
+            "record_id": "Q3A97445BE8"
+          },
+          {
+            "author": "A",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ]
+            },
+            "record_id": "Q72107EC9BC"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E6FA3B2D5B7"
+            ],
+            "subject": "B"
+          },
+          "record_id": "Q267CC77EEB"
+        },
+        "proposal": {
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E719F39C5D6",
+              "EAB5D8DF0D3",
+              "E6FA3B2D5B7"
+            ]
+          },
+          "record_id": "Q04A4755720"
+        }
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E719F39C5D6\",\"EAB5D8DF0D3\"]},\"reply\":{\"action\":\"ACCEPT\",\"reply_to\":\"Q04A4755720\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"DIGITAL\"},\"evidence_refs\":[\"E1C60625B3D\",\"EC9F2F8942D\",\"E719F39C5D6\",\"EAB5D8DF0D3\",\"E6FA3B2D5B7\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ]
+        },
+        "reply": {
+          "action": "ACCEPT",
+          "reply_to": "Q04A4755720",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "DIGITAL"
+          },
+          "evidence_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "E719F39C5D6",
+            "EAB5D8DF0D3",
+            "E6FA3B2D5B7"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        },
+        "B": {
+          "PAPER": "20",
+          "DIGITAL": "26"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M15-REVERSE-CONTROL-SUPPORT-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "E1C60625B3D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 12,
+            "paper_success": 14
+          },
+          {
+            "episode_id": "EC9F2F8942D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 13
+          },
+          {
+            "episode_id": "E719F39C5D6",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 14,
+            "paper_success": 12
+          },
+          {
+            "episode_id": "EAB5D8DF0D3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 13,
+            "paper_success": 11
+          },
+          {
+            "episode_id": "E6FA3B2D5B7",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 29,
+            "paper_success": 13
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D"
+              ],
+              "subject": "B"
+            }
+          },
+          {
+            "author": "A",
+            "body": {
+              "choice": "DIGITAL",
+              "evidence_refs": [
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "subject": "A"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "B",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "reply_to": "Q72107EC9BC"
+            },
+            "record_id": "Q3A97445BE8"
+          },
+          {
+            "author": "A",
+            "body": {
+              "allocation": {
+                "A": "DIGITAL",
+                "B": "PAPER"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ]
+            },
+            "record_id": "Q72107EC9BC"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "B",
+          "body": {
+            "choice": "DIGITAL",
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E6FA3B2D5B7"
+            ],
+            "subject": "B"
+          },
+          "record_id": "Q267CC77EEB"
+        },
+        "proposal": {
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E719F39C5D6",
+              "EAB5D8DF0D3",
+              "E6FA3B2D5B7"
+            ]
+          },
+          "record_id": "Q04A4755720"
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 47
+          },
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 49
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"DIGITAL\",\"evidence_refs\":[\"E719F39C5D6\",\"EAB5D8DF0D3\"]},\"reply\":{\"action\":\"COUNTER\",\"reply_to\":\"Q04A4755720\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"E1C60625B3D\",\"EC9F2F8942D\",\"E719F39C5D6\",\"EAB5D8DF0D3\",\"E6FA3B2D5B7\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "DIGITAL",
+          "evidence_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q04A4755720",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "E719F39C5D6",
+            "EAB5D8DF0D3",
+            "E6FA3B2D5B7"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "23",
+          "DIGITAL": "27"
+        },
+        "B": {
+          "PAPER": "20",
+          "DIGITAL": "26"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "PAPER",
+          "B": "DIGITAL"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M13-REINFORCE-CONTROL-SUPPORT-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "E1C60625B3D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 12,
+            "paper_success": 14
+          },
+          {
+            "episode_id": "EC9F2F8942D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 13
+          },
+          {
+            "episode_id": "E719F39C5D6",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 12,
+            "paper_success": 14
+          },
+          {
+            "episode_id": "EAB5D8DF0D3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 13
+          },
+          {
+            "episode_id": "EB86A216B4F",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 13,
+            "paper_success": 27
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D"
+              ],
+              "subject": "B"
+            }
+          },
+          {
+            "author": "A",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "subject": "A"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "B",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "reply_to": "Q72107EC9BC"
+            },
+            "record_id": "Q3A97445BE8"
+          },
+          {
+            "author": "A",
+            "body": {
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ]
+            },
+            "record_id": "Q72107EC9BC"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "B",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "EB86A216B4F"
+            ],
+            "subject": "B"
+          },
+          "record_id": "Q267CC77EEB"
+        },
+        "proposal": {
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E719F39C5D6",
+              "EAB5D8DF0D3",
+              "EB86A216B4F"
+            ]
+          },
+          "record_id": "Q9C4D7EC662"
+        },
+        "joint_candidate_totals": [
+          {
+            "candidate_id": "Y",
+            "allocation": {
+              "A": "DIGITAL",
+              "B": "PAPER"
+            },
+            "projected_total_success_per_40_each": 50
+          },
+          {
+            "candidate_id": "X",
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "projected_total_success_per_40_each": 45
+          }
+        ]
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"PAPER\",\"evidence_refs\":[\"E719F39C5D6\",\"EAB5D8DF0D3\"]},\"reply\":{\"action\":\"COUNTER\",\"reply_to\":\"Q9C4D7EC662\",\"allocation\":{\"A\":\"DIGITAL\",\"B\":\"PAPER\"},\"evidence_refs\":[\"E1C60625B3D\",\"EC9F2F8942D\",\"E719F39C5D6\",\"EAB5D8DF0D3\",\"EB86A216B4F\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q9C4D7EC662",
+          "allocation": {
+            "A": "DIGITAL",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "E719F39C5D6",
+            "EAB5D8DF0D3",
+            "EB86A216B4F"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "27",
+          "DIGITAL": "23"
+        },
+        "B": {
+          "PAPER": "27",
+          "DIGITAL": "18"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": true,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": true,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": true,
+        "V": true,
+        "Z": true
+      }
+    },
+    {
+      "id": "CS01-M13-REINFORCE-CONTROL-BASE-CONFIRM",
+      "stage": "CONFIRM",
+      "kind": "CONTROL",
+      "input_payload": {
+        "holder": "A",
+        "experiences": [
+          {
+            "episode_id": "E1C60625B3D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 12,
+            "paper_success": 14
+          },
+          {
+            "episode_id": "EC9F2F8942D",
+            "observer": "B",
+            "site": "区画2",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 13
+          },
+          {
+            "episode_id": "E719F39C5D6",
+            "observer": "A",
+            "site": "区画1",
+            "session": 1,
+            "attempts_per_medium": 20,
+            "digital_success": 12,
+            "paper_success": 14
+          },
+          {
+            "episode_id": "EAB5D8DF0D3",
+            "observer": "A",
+            "site": "区画1",
+            "session": 2,
+            "attempts_per_medium": 20,
+            "digital_success": 11,
+            "paper_success": 13
+          },
+          {
+            "episode_id": "EB86A216B4F",
+            "observer": "B",
+            "site": "区画2",
+            "session": 3,
+            "attempts_per_medium": 40,
+            "digital_success": 13,
+            "paper_success": 27
+          }
+        ],
+        "previous_private_judgments": [
+          {
+            "author": "B",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D"
+              ],
+              "subject": "B"
+            }
+          },
+          {
+            "author": "A",
+            "body": {
+              "choice": "PAPER",
+              "evidence_refs": [
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "subject": "A"
+            }
+          }
+        ],
+        "previous_joint_records": [
+          {
+            "author": "B",
+            "body": {
+              "action": "ACCEPT",
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ],
+              "reply_to": "Q72107EC9BC"
+            },
+            "record_id": "Q3A97445BE8"
+          },
+          {
+            "author": "A",
+            "body": {
+              "allocation": {
+                "A": "PAPER",
+                "B": "DIGITAL"
+              },
+              "evidence_refs": [
+                "E1C60625B3D",
+                "EC9F2F8942D",
+                "E719F39C5D6",
+                "EAB5D8DF0D3"
+              ]
+            },
+            "record_id": "Q72107EC9BC"
+          }
+        ],
+        "proposer_judgment": {
+          "author": "B",
+          "body": {
+            "choice": "PAPER",
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "EB86A216B4F"
+            ],
+            "subject": "B"
+          },
+          "record_id": "Q267CC77EEB"
+        },
+        "proposal": {
+          "author": "B",
+          "body": {
+            "allocation": {
+              "A": "PAPER",
+              "B": "DIGITAL"
+            },
+            "evidence_refs": [
+              "E1C60625B3D",
+              "EC9F2F8942D",
+              "E719F39C5D6",
+              "EAB5D8DF0D3",
+              "EB86A216B4F"
+            ]
+          },
+          "record_id": "Q9C4D7EC662"
+        }
+      },
+      "raw_answer": "{\"local\":{\"subject\":\"A\",\"choice\":\"PAPER\",\"evidence_refs\":[\"E719F39C5D6\",\"EAB5D8DF0D3\"]},\"reply\":{\"action\":\"COUNTER\",\"reply_to\":\"Q9C4D7EC662\",\"allocation\":{\"A\":\"PAPER\",\"B\":\"PAPER\"},\"evidence_refs\":[\"E1C60625B3D\",\"EC9F2F8942D\",\"E719F39C5D6\",\"EAB5D8DF0D3\",\"EB86A216B4F\"]}}",
+      "answer": {
+        "local": {
+          "subject": "A",
+          "choice": "PAPER",
+          "evidence_refs": [
+            "E719F39C5D6",
+            "EAB5D8DF0D3"
+          ]
+        },
+        "reply": {
+          "action": "COUNTER",
+          "reply_to": "Q9C4D7EC662",
+          "allocation": {
+            "A": "PAPER",
+            "B": "PAPER"
+          },
+          "evidence_refs": [
+            "E1C60625B3D",
+            "EC9F2F8942D",
+            "E719F39C5D6",
+            "EAB5D8DF0D3",
+            "EB86A216B4F"
+          ]
+        }
+      },
+      "projected_per_40": {
+        "A": {
+          "PAPER": "27",
+          "DIGITAL": "23"
+        },
+        "B": {
+          "PAPER": "27",
+          "DIGITAL": "18"
+        }
+      },
+      "optimal_allocations": [
+        {
+          "A": "DIGITAL",
+          "B": "PAPER"
+        }
+      ],
+      "independent_components": {
+        "L": true,
+        "Z_local": true,
+        "K": false,
+        "action_contract": false,
+        "reply_reference": true,
+        "experience_references": true,
+        "efficiency_optimal": false,
+        "C": false,
+        "Z_team": true,
+        "appropriate_response": false,
+        "V": false,
+        "Z": true
+      }
+    }
+  ],
+  "old_failure_followup": {
+    "CS01-M11-REVERSE": {
+      "BASE": false,
+      "SUPPORT": true
+    },
+    "CS01-M12-REINFORCE": {
+      "BASE": true,
+      "SUPPORT": true
+    },
+    "CS01-M14-REVERSE": {
+      "BASE": true,
+      "SUPPORT": true
+    }
+  }
+}

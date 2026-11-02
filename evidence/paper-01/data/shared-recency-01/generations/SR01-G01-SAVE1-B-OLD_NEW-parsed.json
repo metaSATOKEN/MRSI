@@ -1,0 +1,43 @@
+{
+  "private_note": {
+    "customer": {
+      "subject": "B",
+      "animal": "CAT",
+      "origin_id": "JV"
+    },
+    "coverage": {
+      "observer": "B",
+      "paper": "ALL",
+      "digital": "ALL",
+      "origin_id": "NR"
+    }
+  },
+  "shared_note": {
+    "coverage": {
+      "A": {
+        "observer": "A",
+        "paper": "ALL",
+        "digital": "NOT_ALL",
+        "origin_id": "LT"
+      },
+      "B": {
+        "observer": "B",
+        "paper": "ALL",
+        "digital": "ALL",
+        "origin_id": "NR"
+      }
+    },
+    "channel": "PAPER",
+    "channel_read_refs": [
+      "OBS_A",
+      "OBS_B"
+    ],
+    "channel_origin_ids": [
+      "LT",
+      "NR"
+    ]
+  },
+  "shared_revision": 1,
+  "status": "VALID",
+  "continuable": true
+}

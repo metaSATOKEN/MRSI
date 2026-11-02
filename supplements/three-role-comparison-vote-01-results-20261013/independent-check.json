@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "kind": "POSTRUN_STDLIB_CROSSCHECK_WITHIN_SAME_PROJECT",
+  "checks": {
+    "unique_archive_members": 1,
+    "unique_json_key": 57519,
+    "manifest_members": 1,
+    "file_hash": 1334,
+    "frozen_payload": 1,
+    "frozen_design": 1,
+    "archived_report": 2,
+    "actual_tokenizer_preflight": 1,
+    "preflight_id_set": 1,
+    "source_zip_hash": 1,
+    "old_input_hash": 36,
+    "old_input_identity": 36,
+    "source_parent": 18,
+    "actual_input_arm_contract": 108,
+    "no_generated_feedback": 108,
+    "id_seed": 108,
+    "preflight_actual_tokenization": 108,
+    "render_hash": 108,
+    "input_token_count": 108,
+    "full_render": 108,
+    "schema_object": 378,
+    "schema_string": 810,
+    "schema_value": 810,
+    "schema_array": 108,
+    "eos": 108,
+    "no_format_repair": 108,
+    "full_answer_preserved": 108,
+    "real_valid_response": 108,
+    "no_tie": 108,
+    "candidate_total": 216,
+    "role_total": 216,
+    "holder_prior_note": 108,
+    "own_total": 216,
+    "branch_truth": 108,
+    "common_scoring": 108,
+    "comparison_scoring": 108,
+    "direct_prior_tokens": 54,
+    "response_count": 1,
+    "common_total": 1,
+    "token_total": 1,
+    "duration_total": 1,
+    "arm_score": 2,
+    "arm_metric": 8,
+    "stratum_total": 22,
+    "stratum_metric": 88,
+    "repeat_group": 36,
+    "comparison_classes": 1,
+    "extended_total": 1,
+    "comparison_metric": 5,
+    "pair_seed": 54,
+    "paired_score": 54,
+    "new_pair_seeds": 1,
+    "balanced_order": 3,
+    "paired_totals": 1,
+    "paired_pp": 1,
+    "paired_direction": 1,
+    "gate": 1
+  },
+  "total_checks": 63771,
+  "archive_sha256": "64b9e29f467136c593df9b18d0ee7db923f95d5f247fa277aa92d7c0c49cfce9",
+  "archive_bytes": 1241411,
+  "sealed_files": 1334,
+  "response_count": 108,
+  "gate": "FAIL",
+  "failure_ids": [
+    "TCV01-T02-C-HIGHER-R1-DIRECT",
+    "TCV01-T03-A-LOWER-R1-DIRECT"
+  ],
+  "paired_counts": {
+    "BOTH_CORRECT": 52,
+    "COMPARE_ONLY": 2
+  },
+  "comparison_classes": {
+    "COMPARISON_CORRECT_VOTE_CORRECT": 54
+  },
+  "elapsed_seconds": 885.8897484070001,
+  "generation_seconds": 672.7549823960006,
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "arm_costs": {
+    "DIRECT": {
+      "output_tokens": 4799,
+      "mean_output_tokens": 88.87037037037037,
+      "mean_answer_bytes": 189.77777777777777,
+      "generation_seconds": 264.15939618600066,
+      "input_tokens_minmax": [
+        1176,
+        1196
+      ]
+    },
+    "COMPARE": {
+      "output_tokens": 7522,
+      "mean_output_tokens": 139.2962962962963,
+      "mean_answer_bytes": 311.05555555555554,
+      "generation_seconds": 408.59558620999996,
+      "input_tokens_minmax": [
+        1378,
+        1398
+      ]
+    }
+  },
+  "model_calls_in_this_check": 0
+}

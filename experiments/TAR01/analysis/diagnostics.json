@@ -1,0 +1,3962 @@
+[
+  {
+    "id": "TAR01-N03-B-R2-HOLD",
+    "case": "N03",
+    "role": "B",
+    "arm": "HOLD",
+    "repeat": 2,
+    "seed": 1111167071,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-B-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "HOLD",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "09de2524178c427e9b42ad206bb0e47b472938d9f8727298a4c443f917467624",
+    "prepared_sha256": "98551ebcdeea83a1c502a8a1ffa4753039a89f238aa3e7c8c87a89c99ce5eb42",
+    "input_tokens": 1434,
+    "output_tokens": 125,
+    "generation_seconds": 7.645741533999967
+  },
+  {
+    "id": "TAR01-N03-B-R2-ACCEPT",
+    "case": "N03",
+    "role": "B",
+    "arm": "ACCEPT",
+    "repeat": 2,
+    "seed": 1111167071,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-B-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "36e035df321e452640c1266fb03bc990bb5f8cf0bff575a728bb7d33113cf430",
+    "prepared_sha256": "1b52e1690c5af6b9bded6c4212473625288134fc55fa0c54fc1dcd9bb174b96d",
+    "input_tokens": 1433,
+    "output_tokens": 117,
+    "generation_seconds": 6.413497846000041
+  },
+  {
+    "id": "TAR01-N03-B-R2-MISSING",
+    "case": "N03",
+    "role": "B",
+    "arm": "MISSING",
+    "repeat": 2,
+    "seed": 1111167071,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-B-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "2ab68bf92db0bb7beb77d62b8b487cde5c69157bf99ace1498fdda37cb9de727",
+    "prepared_sha256": "4f39b05916ea16aa81080334c57aab96b66f0c98194b35daab52a7b4aca3a5a2",
+    "input_tokens": 1414,
+    "output_tokens": 125,
+    "generation_seconds": 6.8277902920000315
+  },
+  {
+    "id": "TAR01-N02-B-R2-HOLD",
+    "case": "N02",
+    "role": "B",
+    "arm": "HOLD",
+    "repeat": 2,
+    "seed": 1040124473,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-B-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "HOLD",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "42d7b6bb4fa8be0d27cf61ec3b81c4610aa9ff0517e2e4b5f2ac60188af420a2",
+    "prepared_sha256": "2fedb036bb02e0dc56569b114231fd74cb4efcb421b9e0ce0e61b448a17b4b5c",
+    "input_tokens": 1450,
+    "output_tokens": 124,
+    "generation_seconds": 6.780934761000026
+  },
+  {
+    "id": "TAR01-N02-B-R2-MISSING",
+    "case": "N02",
+    "role": "B",
+    "arm": "MISSING",
+    "repeat": 2,
+    "seed": 1040124473,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-B-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "8397a1f0eabf0257c736330a8fb1ce7d33fdfa06997e4ccc5d1a63a98b0005e3",
+    "prepared_sha256": "5b17d3dd8a1018d24f75391980bd645a0e96b611b94a67c67a639ada34ab44e0",
+    "input_tokens": 1428,
+    "output_tokens": 124,
+    "generation_seconds": 6.780377601000055
+  },
+  {
+    "id": "TAR01-N02-B-R2-ACCEPT",
+    "case": "N02",
+    "role": "B",
+    "arm": "ACCEPT",
+    "repeat": 2,
+    "seed": 1040124473,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-B-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "5934838545d6d032cec61f99f05c5aadcef36287da150268fa56511960b45d66",
+    "prepared_sha256": "567b8316314354013cc0b1b4facf9f2ce18546b69f9ef2c1bf4b04d3e6347a2a",
+    "input_tokens": 1449,
+    "output_tokens": 124,
+    "generation_seconds": 6.782107742999983
+  },
+  {
+    "id": "TAR01-N03-C-R2-MISSING",
+    "case": "N03",
+    "role": "C",
+    "arm": "MISSING",
+    "repeat": 2,
+    "seed": 760160808,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-C-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "152b3069414fd0d8e14d42281cca5e2bde01569fbbdfe7794b9853ce3e7c17cd",
+    "prepared_sha256": "07383d225e88587c1c657d913c97f3a2f0043ac39fc006e767231a928e21285a",
+    "input_tokens": 1410,
+    "output_tokens": 123,
+    "generation_seconds": 6.723263572000064
+  },
+  {
+    "id": "TAR01-N03-C-R2-HOLD",
+    "case": "N03",
+    "role": "C",
+    "arm": "HOLD",
+    "repeat": 2,
+    "seed": 760160808,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-C-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "HOLD",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "41e2191bdedd1d7ad3e61052db55587223df5eb600ded7eb7887d834e4e1ece2",
+    "prepared_sha256": "1dca690cc875b6c168db4e8db9ec0cd0f2698436b4895782ce19e1363cee54b5",
+    "input_tokens": 1430,
+    "output_tokens": 123,
+    "generation_seconds": 6.728161540999963
+  },
+  {
+    "id": "TAR01-N03-C-R2-ACCEPT",
+    "case": "N03",
+    "role": "C",
+    "arm": "ACCEPT",
+    "repeat": 2,
+    "seed": 760160808,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-C-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "30185db2dd062874d51968902d81425c2ba168bffeac2a5415b7fe1d6613e496",
+    "prepared_sha256": "6dd567ac2a0919eb10b7603a35d0d11c7a312df13f0f657c19bcfc51832c695c",
+    "input_tokens": 1429,
+    "output_tokens": 123,
+    "generation_seconds": 6.728030391000061
+  },
+  {
+    "id": "TAR01-N01-C-R2-ACCEPT",
+    "case": "N01",
+    "role": "C",
+    "arm": "ACCEPT",
+    "repeat": 2,
+    "seed": 1269176804,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-C-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "9c95356e4545876900839fde860b3e245758df141a82db54a99c5ef1ea98156a",
+    "prepared_sha256": "b91a4595e4aa34d6daf32d1d8c457e6f86049d01fef1c7acdfae98824846bf03",
+    "input_tokens": 1440,
+    "output_tokens": 122,
+    "generation_seconds": 6.676711545999979
+  },
+  {
+    "id": "TAR01-N01-C-R2-MISSING",
+    "case": "N01",
+    "role": "C",
+    "arm": "MISSING",
+    "repeat": 2,
+    "seed": 1269176804,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-C-R2",
+    "receipts": [
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "da7c99f0b2cba1d42de814b891d0fe2b2cddb3afcdfc5b2efe581034065138cb",
+    "prepared_sha256": "7590508cf706247340562c9406655298f1dab2a1d2f25f1e84bf934249a361ba",
+    "input_tokens": 1420,
+    "output_tokens": 122,
+    "generation_seconds": 6.67426314599993
+  },
+  {
+    "id": "TAR01-N01-C-R2-HOLD",
+    "case": "N01",
+    "role": "C",
+    "arm": "HOLD",
+    "repeat": 2,
+    "seed": 1269176804,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-C-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "HOLD",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "e147839ebc71404facedc381b3077beab88a45612785671705d01c4d03baf2f9",
+    "prepared_sha256": "9fbd4d6f4ba616d0cba22cfc3e496674b212dde92415ee1bc0eb2681f5a48d7a",
+    "input_tokens": 1441,
+    "output_tokens": 122,
+    "generation_seconds": 6.676323985999943
+  },
+  {
+    "id": "TAR01-N03-C-R1-ACCEPT",
+    "case": "N03",
+    "role": "C",
+    "arm": "ACCEPT",
+    "repeat": 1,
+    "seed": 1944025102,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-C-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "30185db2dd062874d51968902d81425c2ba168bffeac2a5415b7fe1d6613e496",
+    "prepared_sha256": "6dd567ac2a0919eb10b7603a35d0d11c7a312df13f0f657c19bcfc51832c695c",
+    "input_tokens": 1429,
+    "output_tokens": 123,
+    "generation_seconds": 6.725824232000036
+  },
+  {
+    "id": "TAR01-N03-C-R1-MISSING",
+    "case": "N03",
+    "role": "C",
+    "arm": "MISSING",
+    "repeat": 1,
+    "seed": 1944025102,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-C-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "152b3069414fd0d8e14d42281cca5e2bde01569fbbdfe7794b9853ce3e7c17cd",
+    "prepared_sha256": "07383d225e88587c1c657d913c97f3a2f0043ac39fc006e767231a928e21285a",
+    "input_tokens": 1410,
+    "output_tokens": 123,
+    "generation_seconds": 6.721443432000001
+  },
+  {
+    "id": "TAR01-N03-C-R1-HOLD",
+    "case": "N03",
+    "role": "C",
+    "arm": "HOLD",
+    "repeat": 1,
+    "seed": 1944025102,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-C-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "HOLD",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ee2df090cf3",
+          "E3ff8e475ec"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "41e2191bdedd1d7ad3e61052db55587223df5eb600ded7eb7887d834e4e1ece2",
+    "prepared_sha256": "1dca690cc875b6c168db4e8db9ec0cd0f2698436b4895782ce19e1363cee54b5",
+    "input_tokens": 1430,
+    "output_tokens": 123,
+    "generation_seconds": 6.727249468999958
+  },
+  {
+    "id": "TAR01-N03-B-R1-MISSING",
+    "case": "N03",
+    "role": "B",
+    "arm": "MISSING",
+    "repeat": 1,
+    "seed": 1809403929,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-B-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "1fcdc7059e4d0794e45957af58809c87047bc28aad2e2ff0eb0ac22c7aa3d953",
+    "prepared_sha256": "4f39b05916ea16aa81080334c57aab96b66f0c98194b35daab52a7b4aca3a5a2",
+    "input_tokens": 1414,
+    "output_tokens": 69,
+    "generation_seconds": 3.915337647000001
+  },
+  {
+    "id": "TAR01-N03-B-R1-ACCEPT",
+    "case": "N03",
+    "role": "B",
+    "arm": "ACCEPT",
+    "repeat": 1,
+    "seed": 1809403929,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-B-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "f205a2f2ef66b14498fa2d5514f993ca8533426f2d20bfb6052d43db4c06bbda",
+    "prepared_sha256": "1b52e1690c5af6b9bded6c4212473625288134fc55fa0c54fc1dcd9bb174b96d",
+    "input_tokens": 1433,
+    "output_tokens": 125,
+    "generation_seconds": 6.835050451000029
+  },
+  {
+    "id": "TAR01-N03-B-R1-HOLD",
+    "case": "N03",
+    "role": "B",
+    "arm": "HOLD",
+    "repeat": 1,
+    "seed": 1809403929,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-B-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "HOLD",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Efb7d497429",
+          "E384d0dd850"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "d1c976b1011aa52dbf6bb1a4aabbb8d55eee2d654a4c350c5d93ac54e9c16ee9",
+    "prepared_sha256": "98551ebcdeea83a1c502a8a1ffa4753039a89f238aa3e7c8c87a89c99ce5eb42",
+    "input_tokens": 1434,
+    "output_tokens": 69,
+    "generation_seconds": 3.9178961470000786
+  },
+  {
+    "id": "TAR01-N01-A-R1-MISSING",
+    "case": "N01",
+    "role": "A",
+    "arm": "MISSING",
+    "repeat": 1,
+    "seed": 230410795,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-A-R1",
+    "receipts": [
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": false,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": false,
+    "raw_sha256": "e9857c880e0af72339274c033955de326d2f62ab4f93a57a3c8ecb6750197e27",
+    "prepared_sha256": "851943884ebd7490b3fb8ba8b5dcefb191fd6baff46d068c2ae88565cb70b10c",
+    "input_tokens": 1430,
+    "output_tokens": 127,
+    "generation_seconds": 6.936826490000044
+  },
+  {
+    "id": "TAR01-N01-A-R1-ACCEPT",
+    "case": "N01",
+    "role": "A",
+    "arm": "ACCEPT",
+    "repeat": 1,
+    "seed": 230410795,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-A-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "8b9f4ce839670a90ce24bc8b14246a6e7c8aba539dbe34f5736a7980b133769d",
+    "prepared_sha256": "4fa682a3069f81f1f62d07f7431e0055caf2ee0924b632d7b55620b89c97ac33",
+    "input_tokens": 1450,
+    "output_tokens": 127,
+    "generation_seconds": 6.938686099999927
+  },
+  {
+    "id": "TAR01-N01-A-R1-HOLD",
+    "case": "N01",
+    "role": "A",
+    "arm": "HOLD",
+    "repeat": 1,
+    "seed": 230410795,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-A-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "HOLD",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "e9857c880e0af72339274c033955de326d2f62ab4f93a57a3c8ecb6750197e27",
+    "prepared_sha256": "ede586a3921493e2af177c4070132b67aef399cbae5380e4552842c7610f4fd7",
+    "input_tokens": 1451,
+    "output_tokens": 127,
+    "generation_seconds": 6.937073169999962
+  },
+  {
+    "id": "TAR01-N02-C-R1-MISSING",
+    "case": "N02",
+    "role": "C",
+    "arm": "MISSING",
+    "repeat": 1,
+    "seed": 1999027225,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-C-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "668c1fb688be7dfddb5f62094b52849c25fd00802b87a76a61a0591153136138",
+    "prepared_sha256": "b8ee5ee52e06db60d9ab3aa70ce959230d43958afd12f505f15be3a397dd978c",
+    "input_tokens": 1432,
+    "output_tokens": 126,
+    "generation_seconds": 6.8848041699999385
+  },
+  {
+    "id": "TAR01-N02-C-R1-ACCEPT",
+    "case": "N02",
+    "role": "C",
+    "arm": "ACCEPT",
+    "repeat": 1,
+    "seed": 1999027225,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-C-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "95a95dcfcace9b10089cbaaf1d6fe545a5e42eacd7e2b04a330a5f361a45787e",
+    "prepared_sha256": "99b401a8ab4672e6100f590e03e8231f7b5b2773a8c73d92d5c3789e74062ae8",
+    "input_tokens": 1453,
+    "output_tokens": 126,
+    "generation_seconds": 6.885203489999981
+  },
+  {
+    "id": "TAR01-N02-C-R1-HOLD",
+    "case": "N02",
+    "role": "C",
+    "arm": "HOLD",
+    "repeat": 1,
+    "seed": 1999027225,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-C-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "HOLD",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "f5f0dd01e27b2d7a9beaa8bc89eb2f2983c08fac916d8d882d0b6e3ca0f50a1c",
+    "prepared_sha256": "7dea4fe564956cb2a2b9e01ca8bc93db52f9f294ca4335bc43c86f02ea981a2d",
+    "input_tokens": 1454,
+    "output_tokens": 126,
+    "generation_seconds": 6.883449921000079
+  },
+  {
+    "id": "TAR01-N03-A-R1-ACCEPT",
+    "case": "N03",
+    "role": "A",
+    "arm": "ACCEPT",
+    "repeat": 1,
+    "seed": 5979242,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-A-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "ec37e0ddc8c8abb7e19d7e8129737e8437676a180bcb322761ca6a13360a57f6",
+    "prepared_sha256": "7bc0797388638aa9eaa39cba1652ef38703062115e2cce82d33d8c1ac3340da0",
+    "input_tokens": 1431,
+    "output_tokens": 124,
+    "generation_seconds": 6.78277722100006
+  },
+  {
+    "id": "TAR01-N03-A-R1-HOLD",
+    "case": "N03",
+    "role": "A",
+    "arm": "HOLD",
+    "repeat": 1,
+    "seed": 5979242,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-A-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "HOLD",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "f49b4d0743a139d1f2abdab8bb0b5e631e38f6c6f74b4228d343e8eb40d33d2a",
+    "prepared_sha256": "6abfefbb7759811c7644891c8088599fe6fb81b9ed51d1beff6143f6c129f8aa",
+    "input_tokens": 1432,
+    "output_tokens": 124,
+    "generation_seconds": 6.781798194999965
+  },
+  {
+    "id": "TAR01-N03-A-R1-MISSING",
+    "case": "N03",
+    "role": "A",
+    "arm": "MISSING",
+    "repeat": 1,
+    "seed": 5979242,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-A-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "ad4edae2601e82c46bcc9eb7b57be43dd62f21200f90c4610d85b1e046688848",
+    "prepared_sha256": "490f979cfac4d7402c02a32210563f80aef9a062545a82dfe8e68f14e7d3d1cd",
+    "input_tokens": 1412,
+    "output_tokens": 124,
+    "generation_seconds": 6.779328265000004
+  },
+  {
+    "id": "TAR01-N01-A-R2-HOLD",
+    "case": "N01",
+    "role": "A",
+    "arm": "HOLD",
+    "repeat": 2,
+    "seed": 2039158309,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-A-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "HOLD",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "e9857c880e0af72339274c033955de326d2f62ab4f93a57a3c8ecb6750197e27",
+    "prepared_sha256": "ede586a3921493e2af177c4070132b67aef399cbae5380e4552842c7610f4fd7",
+    "input_tokens": 1451,
+    "output_tokens": 127,
+    "generation_seconds": 6.936393165000027
+  },
+  {
+    "id": "TAR01-N01-A-R2-MISSING",
+    "case": "N01",
+    "role": "A",
+    "arm": "MISSING",
+    "repeat": 2,
+    "seed": 2039158309,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-A-R2",
+    "receipts": [
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "824f46919f470d478001274a6b9838f9a373928cddd37917de6304a18a840010",
+    "prepared_sha256": "851943884ebd7490b3fb8ba8b5dcefb191fd6baff46d068c2ae88565cb70b10c",
+    "input_tokens": 1430,
+    "output_tokens": 127,
+    "generation_seconds": 6.936916625000094
+  },
+  {
+    "id": "TAR01-N01-A-R2-ACCEPT",
+    "case": "N01",
+    "role": "A",
+    "arm": "ACCEPT",
+    "repeat": 2,
+    "seed": 2039158309,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-A-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E79c8f7f51e",
+          "Ee4703603d4"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "8b9f4ce839670a90ce24bc8b14246a6e7c8aba539dbe34f5736a7980b133769d",
+    "prepared_sha256": "4fa682a3069f81f1f62d07f7431e0055caf2ee0924b632d7b55620b89c97ac33",
+    "input_tokens": 1450,
+    "output_tokens": 127,
+    "generation_seconds": 6.937807016000079
+  },
+  {
+    "id": "TAR01-N01-B-R1-HOLD",
+    "case": "N01",
+    "role": "B",
+    "arm": "HOLD",
+    "repeat": 1,
+    "seed": 1574967027,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-B-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "HOLD",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "cbad41dcfec70a0c4954ede4cef4e839012e45414a1872c82d3681dbd6f1369a",
+    "prepared_sha256": "1386a850928cc7d4e56eeb657a828d8dc2facb79add7a4206d7b943c5589ac5b",
+    "input_tokens": 1449,
+    "output_tokens": 126,
+    "generation_seconds": 6.887172125000006
+  },
+  {
+    "id": "TAR01-N01-B-R1-ACCEPT",
+    "case": "N01",
+    "role": "B",
+    "arm": "ACCEPT",
+    "repeat": 1,
+    "seed": 1574967027,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-B-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "08b6199fec9867e3e96b2268f64a3affa2e4e0ce234da2e9f387038d4ef5ebf5",
+    "prepared_sha256": "7d5c17ba98524cb503ac9d8dbadc9b356dcfb709576b8c80af263fc35381b512",
+    "input_tokens": 1448,
+    "output_tokens": 126,
+    "generation_seconds": 6.886795126000038
+  },
+  {
+    "id": "TAR01-N01-B-R1-MISSING",
+    "case": "N01",
+    "role": "B",
+    "arm": "MISSING",
+    "repeat": 1,
+    "seed": 1574967027,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-B-R1",
+    "receipts": [
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "c45114faa7dae4c1fd12d3c0b72a27b9863fec618e547fe97b8a65b1c9b3f990",
+    "prepared_sha256": "a077fbf48006bbb58eb50afcde4fe81736ce712105ccc7e5ffac78b2e3a7a3a1",
+    "input_tokens": 1428,
+    "output_tokens": 126,
+    "generation_seconds": 6.884490485000015
+  },
+  {
+    "id": "TAR01-N02-A-R2-ACCEPT",
+    "case": "N02",
+    "role": "A",
+    "arm": "ACCEPT",
+    "repeat": 2,
+    "seed": 1454467944,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-A-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "89cd2d6bf0962106d1b0604dc76cd4818d8adfdd11e51cebe2b3a067b7cb026f",
+    "prepared_sha256": "3eb5b2597d2765e0ec98f67fbcb94216458bfbcdda9352a31efa24f9e0e73842",
+    "input_tokens": 1453,
+    "output_tokens": 126,
+    "generation_seconds": 6.884673555999939
+  },
+  {
+    "id": "TAR01-N02-A-R2-HOLD",
+    "case": "N02",
+    "role": "A",
+    "arm": "HOLD",
+    "repeat": 2,
+    "seed": 1454467944,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-A-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "HOLD",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "859fc35b9ad291aaa5855bf9de8d475e0c56c995ca72edc0f9304881797c99b4",
+    "prepared_sha256": "a528993c59df286984d45bb60a850969ee6c900bfd044aab2d62b16f8805e836",
+    "input_tokens": 1454,
+    "output_tokens": 126,
+    "generation_seconds": 6.882579650000025
+  },
+  {
+    "id": "TAR01-N02-A-R2-MISSING",
+    "case": "N02",
+    "role": "A",
+    "arm": "MISSING",
+    "repeat": 2,
+    "seed": 1454467944,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-A-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "c0895c68e1c64617888443ee1d8f230ed1e82959a971eafe566ff295dd63eeaa",
+    "prepared_sha256": "3c51874b4d6f7a6a5dd153bf81b83cd2ae0c54937eb552a6e2f17604a9a8af30",
+    "input_tokens": 1432,
+    "output_tokens": 126,
+    "generation_seconds": 6.889024416999973
+  },
+  {
+    "id": "TAR01-N02-B-R1-ACCEPT",
+    "case": "N02",
+    "role": "B",
+    "arm": "ACCEPT",
+    "repeat": 1,
+    "seed": 1953784284,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-B-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "5934838545d6d032cec61f99f05c5aadcef36287da150268fa56511960b45d66",
+    "prepared_sha256": "567b8316314354013cc0b1b4facf9f2ce18546b69f9ef2c1bf4b04d3e6347a2a",
+    "input_tokens": 1449,
+    "output_tokens": 124,
+    "generation_seconds": 6.786239231000081
+  },
+  {
+    "id": "TAR01-N02-B-R1-MISSING",
+    "case": "N02",
+    "role": "B",
+    "arm": "MISSING",
+    "repeat": 1,
+    "seed": 1953784284,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-B-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "8397a1f0eabf0257c736330a8fb1ce7d33fdfa06997e4ccc5d1a63a98b0005e3",
+    "prepared_sha256": "5b17d3dd8a1018d24f75391980bd645a0e96b611b94a67c67a639ada34ab44e0",
+    "input_tokens": 1428,
+    "output_tokens": 124,
+    "generation_seconds": 6.780635771999982
+  },
+  {
+    "id": "TAR01-N02-B-R1-HOLD",
+    "case": "N02",
+    "role": "B",
+    "arm": "HOLD",
+    "repeat": 1,
+    "seed": 1953784284,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-B-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "HOLD",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E071faf1313",
+          "Eb98c255e0b"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "42d7b6bb4fa8be0d27cf61ec3b81c4610aa9ff0517e2e4b5f2ac60188af420a2",
+    "prepared_sha256": "2fedb036bb02e0dc56569b114231fd74cb4efcb421b9e0ce0e61b448a17b4b5c",
+    "input_tokens": 1450,
+    "output_tokens": 124,
+    "generation_seconds": 6.782111222000026
+  },
+  {
+    "id": "TAR01-N01-B-R2-ACCEPT",
+    "case": "N01",
+    "role": "B",
+    "arm": "ACCEPT",
+    "repeat": 2,
+    "seed": 1571172178,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-B-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "08b6199fec9867e3e96b2268f64a3affa2e4e0ce234da2e9f387038d4ef5ebf5",
+    "prepared_sha256": "7d5c17ba98524cb503ac9d8dbadc9b356dcfb709576b8c80af263fc35381b512",
+    "input_tokens": 1448,
+    "output_tokens": 126,
+    "generation_seconds": 6.884311087000015
+  },
+  {
+    "id": "TAR01-N01-B-R2-HOLD",
+    "case": "N01",
+    "role": "B",
+    "arm": "HOLD",
+    "repeat": 2,
+    "seed": 1571172178,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-B-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "HOLD",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "cbad41dcfec70a0c4954ede4cef4e839012e45414a1872c82d3681dbd6f1369a",
+    "prepared_sha256": "1386a850928cc7d4e56eeb657a828d8dc2facb79add7a4206d7b943c5589ac5b",
+    "input_tokens": 1449,
+    "output_tokens": 126,
+    "generation_seconds": 6.885179806999986
+  },
+  {
+    "id": "TAR01-N01-B-R2-MISSING",
+    "case": "N01",
+    "role": "B",
+    "arm": "MISSING",
+    "repeat": 2,
+    "seed": 1571172178,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-B-R2",
+    "receipts": [
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "B",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E818b6f8fd9",
+          "Ea1d5080754"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "7aaa019ce481243923424870be38fa11c21db59d1a0f9ecd3f5c21a1f8dd472f",
+    "prepared_sha256": "a077fbf48006bbb58eb50afcde4fe81736ce712105ccc7e5ffac78b2e3a7a3a1",
+    "input_tokens": 1428,
+    "output_tokens": 70,
+    "generation_seconds": 3.9700176730000294
+  },
+  {
+    "id": "TAR01-N01-C-R1-MISSING",
+    "case": "N01",
+    "role": "C",
+    "arm": "MISSING",
+    "repeat": 1,
+    "seed": 1151245723,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-C-R1",
+    "receipts": [
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "agreement": "PENDING",
+      "approval_state": {
+        "A": "MISSING",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "joint_action": "HOLD",
+      "own": {
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ],
+        "holder": "C",
+        "recommendation": "PAPER"
+      }
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "a42704cdd982d950b6752b2673fe0108f3f70f24efda52c270189f607ec9b8ed",
+    "prepared_sha256": "7590508cf706247340562c9406655298f1dab2a1d2f25f1e84bf934249a361ba",
+    "input_tokens": 1420,
+    "output_tokens": 65,
+    "generation_seconds": 3.7083152730000393
+  },
+  {
+    "id": "TAR01-N01-C-R1-HOLD",
+    "case": "N01",
+    "role": "C",
+    "arm": "HOLD",
+    "repeat": 1,
+    "seed": 1151245723,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-C-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "HOLD",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "HOLD",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "e147839ebc71404facedc381b3077beab88a45612785671705d01c4d03baf2f9",
+    "prepared_sha256": "9fbd4d6f4ba616d0cba22cfc3e496674b212dde92415ee1bc0eb2681f5a48d7a",
+    "input_tokens": 1441,
+    "output_tokens": 122,
+    "generation_seconds": 6.677880176000031
+  },
+  {
+    "id": "TAR01-N01-C-R1-ACCEPT",
+    "case": "N01",
+    "role": "C",
+    "arm": "ACCEPT",
+    "repeat": 1,
+    "seed": 1151245723,
+    "focal_role": "A",
+    "triplet_id": "TAR01-N01-C-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P767912cb"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "E38538feae6",
+          "Edce1fe0a32"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "9c95356e4545876900839fde860b3e245758df141a82db54a99c5ef1ea98156a",
+    "prepared_sha256": "b91a4595e4aa34d6daf32d1d8c457e6f86049d01fef1c7acdfae98824846bf03",
+    "input_tokens": 1440,
+    "output_tokens": 122,
+    "generation_seconds": 6.676028149999979
+  },
+  {
+    "id": "TAR01-N02-A-R1-MISSING",
+    "case": "N02",
+    "role": "A",
+    "arm": "MISSING",
+    "repeat": 1,
+    "seed": 38540070,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-A-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "5dd03ad684224ec815652cf7bd0870b651d673c0c3c9951eefaa3d8d6b48350b",
+    "prepared_sha256": "3c51874b4d6f7a6a5dd153bf81b83cd2ae0c54937eb552a6e2f17604a9a8af30",
+    "input_tokens": 1432,
+    "output_tokens": 70,
+    "generation_seconds": 3.969738334999988
+  },
+  {
+    "id": "TAR01-N02-A-R1-HOLD",
+    "case": "N02",
+    "role": "A",
+    "arm": "HOLD",
+    "repeat": 1,
+    "seed": 38540070,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-A-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "HOLD",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "8a7d7a143aa673c793c1ece7cebb762258ee984de52b689f9a61ee480b68b966",
+    "prepared_sha256": "a528993c59df286984d45bb60a850969ee6c900bfd044aab2d62b16f8805e836",
+    "input_tokens": 1454,
+    "output_tokens": 70,
+    "generation_seconds": 3.9689665439999544
+  },
+  {
+    "id": "TAR01-N02-A-R1-ACCEPT",
+    "case": "N02",
+    "role": "A",
+    "arm": "ACCEPT",
+    "repeat": 1,
+    "seed": 38540070,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-A-R1",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "E65c6dfe39d",
+          "Ea008828431"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "0cc27fb6fd49759463b7a48d45ee74e4726e4bddea92d543aebe0e3856b15d22",
+    "prepared_sha256": "3eb5b2597d2765e0ec98f67fbcb94216458bfbcdda9352a31efa24f9e0e73842",
+    "input_tokens": 1453,
+    "output_tokens": 70,
+    "generation_seconds": 3.9700459050000063
+  },
+  {
+    "id": "TAR01-N03-A-R2-HOLD",
+    "case": "N03",
+    "role": "A",
+    "arm": "HOLD",
+    "repeat": 2,
+    "seed": 1805138878,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-A-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "HOLD",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "HOLD"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "f49b4d0743a139d1f2abdab8bb0b5e631e38f6c6f74b4228d343e8eb40d33d2a",
+    "prepared_sha256": "6abfefbb7759811c7644891c8088599fe6fb81b9ed51d1beff6143f6c129f8aa",
+    "input_tokens": 1432,
+    "output_tokens": 124,
+    "generation_seconds": 6.779578908999952
+  },
+  {
+    "id": "TAR01-N03-A-R2-MISSING",
+    "case": "N03",
+    "role": "A",
+    "arm": "MISSING",
+    "repeat": 2,
+    "seed": 1805138878,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-A-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "MISSING"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "ad4edae2601e82c46bcc9eb7b57be43dd62f21200f90c4610d85b1e046688848",
+    "prepared_sha256": "490f979cfac4d7402c02a32210563f80aef9a062545a82dfe8e68f14e7d3d1cd",
+    "input_tokens": 1412,
+    "output_tokens": 124,
+    "generation_seconds": 6.778687149000007
+  },
+  {
+    "id": "TAR01-N03-A-R2-ACCEPT",
+    "case": "N03",
+    "role": "A",
+    "arm": "ACCEPT",
+    "repeat": 2,
+    "seed": 1805138878,
+    "focal_role": "C",
+    "triplet_id": "TAR01-N03-A-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P5cbc89f3"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "answer": {
+      "own": {
+        "holder": "A",
+        "recommendation": "DIGITAL",
+        "evidence_ids": [
+          "Ebb143df426",
+          "E0f37be6560"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "DIGITAL"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "ec37e0ddc8c8abb7e19d7e8129737e8437676a180bcb322761ca6a13360a57f6",
+    "prepared_sha256": "7bc0797388638aa9eaa39cba1652ef38703062115e2cce82d33d8c1ac3340da0",
+    "input_tokens": 1431,
+    "output_tokens": 124,
+    "generation_seconds": 6.782110179000028
+  },
+  {
+    "id": "TAR01-N02-C-R2-HOLD",
+    "case": "N02",
+    "role": "C",
+    "arm": "HOLD",
+    "repeat": 2,
+    "seed": 986345353,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-C-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "HOLD",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "HOLD",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "f5f0dd01e27b2d7a9beaa8bc89eb2f2983c08fac916d8d882d0b6e3ca0f50a1c",
+    "prepared_sha256": "7dea4fe564956cb2a2b9e01ca8bc93db52f9f294ca4335bc43c86f02ea981a2d",
+    "input_tokens": 1454,
+    "output_tokens": 126,
+    "generation_seconds": 6.882918272999973
+  },
+  {
+    "id": "TAR01-N02-C-R2-ACCEPT",
+    "case": "N02",
+    "role": "C",
+    "arm": "ACCEPT",
+    "repeat": 2,
+    "seed": 986345353,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-C-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "B",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "ACCEPT",
+        "C": "ACCEPT"
+      },
+      "agreement": "AGREED",
+      "joint_action": "PAPER"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "95a95dcfcace9b10089cbaaf1d6fe545a5e42eacd7e2b04a330a5f361a45787e",
+    "prepared_sha256": "99b401a8ab4672e6100f590e03e8231f7b5b2773a8c73d92d5c3789e74062ae8",
+    "input_tokens": 1453,
+    "output_tokens": 126,
+    "generation_seconds": 6.883917343999997
+  },
+  {
+    "id": "TAR01-N02-C-R2-MISSING",
+    "case": "N02",
+    "role": "C",
+    "arm": "MISSING",
+    "repeat": 2,
+    "seed": 986345353,
+    "focal_role": "B",
+    "triplet_id": "TAR01-N02-C-R2",
+    "receipts": [
+      {
+        "sender": "A",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      },
+      {
+        "sender": "C",
+        "decision": "ACCEPT",
+        "proposal_id": "P64e80a12"
+      }
+    ],
+    "expected": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "answer": {
+      "own": {
+        "holder": "C",
+        "recommendation": "PAPER",
+        "evidence_ids": [
+          "Ed066f6647d",
+          "Ea380e5d282"
+        ]
+      },
+      "approval_state": {
+        "A": "ACCEPT",
+        "B": "MISSING",
+        "C": "ACCEPT"
+      },
+      "agreement": "PENDING",
+      "joint_action": "HOLD"
+    },
+    "metrics": {
+      "own_holder": true,
+      "own_recommendation": true,
+      "own_sources": true,
+      "approval_state": true,
+      "agreement": true,
+      "execution": true
+    },
+    "strict": true,
+    "raw_sha256": "668c1fb688be7dfddb5f62094b52849c25fd00802b87a76a61a0591153136138",
+    "prepared_sha256": "b8ee5ee52e06db60d9ab3aa70ce959230d43958afd12f505f15be3a397dd978c",
+    "input_tokens": 1432,
+    "output_tokens": 126,
+    "generation_seconds": 6.883747982999921
+  }
+]

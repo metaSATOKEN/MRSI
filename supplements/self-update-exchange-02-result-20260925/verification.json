@@ -1,0 +1,168 @@
+{
+  "status": "PASS",
+  "archive_sha256": "fcbd9fdff7a3d3a0fdc98e6033638e0338b97c9084e0bde87b29e35336c530ee",
+  "manifest_files": 1458,
+  "source_artifacts_byte_exact": 64,
+  "frozen_files_checked": 79,
+  "code_files_checked": 12,
+  "archived_reports_match": 2,
+  "direct_checks": {
+    "initial_inputs": 32,
+    "policy_trace_entries": 288,
+    "updates": 96,
+    "responses": 128,
+    "actual_saved_inputs": 96,
+    "parent_edges": 128,
+    "forwarded_observations": 32,
+    "reads": 32
+  },
+  "path": {
+    "correct": 16,
+    "incorrect": 0,
+    "unresolved": 0,
+    "n": 16
+  },
+  "by_repeat": {
+    "1": {
+      "correct": 8,
+      "incorrect": 0,
+      "unresolved": 0,
+      "n": 8
+    },
+    "2": {
+      "correct": 8,
+      "incorrect": 0,
+      "unresolved": 0,
+      "n": 8
+    }
+  },
+  "criterion_status": "MET",
+  "stage_results": {
+    "SELF": {
+      "proposal_joint": 30,
+      "saved_joint": 32,
+      "n": 32
+    },
+    "EXCHANGE": {
+      "proposal_joint": 26,
+      "saved_joint": 32,
+      "n": 32
+    },
+    "DELAY": {
+      "proposal_joint": 17,
+      "saved_joint": 32,
+      "n": 32
+    }
+  },
+  "normalization": {
+    "SELF": {
+      "UNCHANGED": 14,
+      "UNWRAPPED": 18
+    },
+    "EXCHANGE": {
+      "UNCHANGED": 23,
+      "UNWRAPPED": 9
+    },
+    "DELAY": {
+      "UNWRAPPED": 20,
+      "UNCHANGED": 12
+    },
+    "READ": {
+      "UNWRAPPED": 32
+    }
+  },
+  "proposal_mismatches": 23,
+  "proposal_row_mismatches": 32,
+  "row_types": {
+    "SAME_OWNER_BASELINE_ROW": 32
+  },
+  "delay_by_relation": {
+    "PARTNER": {
+      "n": 16,
+      "proposal_correct": 8
+    },
+    "SELF": {
+      "n": 16,
+      "proposal_correct": 9
+    }
+  },
+  "elapsed_seconds": 1575.0729659220005,
+  "run_start": {
+    "reserved_seconds": 3600,
+    "started_at": "2026-09-25T14:08:11.808138+00:00",
+    "tag": "20260925-140811-7f886ebd"
+  },
+  "run_end": {
+    "elapsed_seconds": 1575.0729659220005,
+    "ended_at": "2026-09-25T14:34:26Z"
+  },
+  "performance": {
+    "UPDATE": {
+      "responses": 96,
+      "generation_seconds": 1392.3578857039993,
+      "generation_seconds_mean": 14.503727976083326,
+      "input_tokens_total": 112880,
+      "input_tokens_range": [
+        1162,
+        1189
+      ],
+      "output_tokens_total": 26647,
+      "output_tokens_range": [
+        270,
+        287
+      ],
+      "raw_bytes_range": [
+        661,
+        685
+      ]
+    },
+    "READ": {
+      "responses": 32,
+      "generation_seconds": 157.9799500040017,
+      "generation_seconds_mean": 4.936873437625053,
+      "input_tokens_total": 17372,
+      "input_tokens_range": [
+        540,
+        547
+      ],
+      "output_tokens_total": 3008,
+      "output_tokens_range": [
+        94,
+        94
+      ],
+      "raw_bytes_range": [
+        225,
+        225
+      ]
+    }
+  },
+  "environment": {
+    "capability": [
+      12,
+      0
+    ],
+    "cuda": "12.8",
+    "cudnn": 91900,
+    "driver": "580.82.07",
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "packages": {
+      "accelerate": "1.15.0",
+      "causal-conv1d": null,
+      "fla-core": null,
+      "flash-linear-attention": null,
+      "huggingface-hub": "1.29.0",
+      "kernels": null,
+      "numpy": "2.1.3",
+      "safetensors": "0.8.0",
+      "tokenizers": "0.23.1",
+      "torch": "2.11.0+cu128",
+      "transformers": "5.17.0",
+      "triton": "3.6.0"
+    },
+    "python": "3.13.15",
+    "total_vram": 101974081536
+  },
+  "old_anchors_unchanged": 208,
+  "additional_model_generations": 0,
+  "local_model_loads": 0
+}

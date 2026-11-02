@@ -1,0 +1,24 @@
+{
+  "decision": {
+    "mascot": "DOG",
+    "channel": "PAPER"
+  },
+  "read_receipt": {
+    "mascot_record_refs": [
+      "PRIVATE"
+    ],
+    "channel_record_refs": [
+      "PRIVATE",
+      "GROUP"
+    ]
+  },
+  "origin_ids": {
+    "mascot": [
+      "R59CBCB79AD01FB6"
+    ],
+    "channel": [
+      "R08EFAD2502906C4",
+      "RA15489C1C9FAB9D"
+    ]
+  }
+}<|im_end|>

@@ -1,0 +1,93 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "9f94def105341d884b5cadfc0bf88da9b3ff385a441fdb3583d94e3ff47613f0",
+    "design.md": "d875ffba03fc3f97ef7226df67000b270d009362f5dc76a7123f80c7c08f1d37",
+    "materials/bundle-source_hashes.json": "3bde9466ed6e5bfc11ba1ca6750292b36273881f1cc166cf11f5a66fc4f4194a",
+    "materials/bundle-sources/6bc7223a9ffa-row_carry_02_design_v1.py": "632be2d8e79ef5ac1b81bfe980dea2d4d8fc22a6588739a6734f3dabcba64820",
+    "materials/bundle-sources/9e094971b062-note_provenance_split_v1.py": "25ce03a8f4f784cd9ab7a9a23f4c42197094b8a009d528f17b13b35af3e2dbda",
+    "materials/bundle-sources/9eb81c052473-paper01_pair_design_v1.py": "2c7ad6309d1a11617f6fd45898f8e02588726ecd46f9802e0488c936f6d95f4d",
+    "materials/contract.json": "23f80a5fb6e198369b54136c75180186c0da61ae3183f97b7fdb55f337edf311",
+    "requests.jsonl": "e2ec43753116a3a1d2838a7971cb67ea7be3c0e9e986115b5436c9cafd948a78",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/readout_load_01_bootstrap.py": "5b5959ee2856977dad3e96954de6f2b35b06ffcdcfb13aecff3831aefe3b3eff",
+    "source/readout_load_01_runtime.py": "073f5cb856f8d36588d5b30a477eabf72f81445c4a30cc898499b446bda3667e",
+    "source/readout_load_01_scoring.py": "8a8047b9c3d8b62e120b58f2052bbbf98da222bf81b3ef43d55e3a10921dd35a",
+    "supervisor.py": "be56fd9dea3486f7d68813f43aa9f9662f1195ccb7ba8e2fc169e0a7a66b6df4"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "6c4579647ab9c20e55c6f5a6b870bba28061a17efaac9e3337e118c294eff8d6",
+  "original_payload_sha256": "da2a364958d79581e124be697c568f767247852a1cd67a26d303e341abc9de1f",
+  "original_supervisor_sha256": "5b5959ee2856977dad3e96954de6f2b35b06ffcdcfb13aecff3831aefe3b3eff",
+  "payload": {
+    "items": {
+      "bundle": {
+        "items": {
+          "source_hashes": {
+            "kind": "json",
+            "path": "materials/bundle-source_hashes.json"
+          },
+          "sources": {
+            "items": {
+              "note_provenance_split_v1.py": {
+                "kind": "text",
+                "path": "materials/bundle-sources/9e094971b062-note_provenance_split_v1.py"
+              },
+              "paper01_pair_design_v1.py": {
+                "kind": "text",
+                "path": "materials/bundle-sources/9eb81c052473-paper01_pair_design_v1.py"
+              },
+              "row_carry_02_design_v1.py": {
+                "kind": "text",
+                "path": "materials/bundle-sources/6bc7223a9ffa-row_carry_02_design_v1.py"
+              }
+            },
+            "kind": "mapping"
+          }
+        },
+        "kind": "mapping"
+      },
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "readout_load_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/readout_load_01_bootstrap.py"
+          },
+          "readout_load_01_runtime.py": {
+            "kind": "text",
+            "path": "source/readout_load_01_runtime.py"
+          },
+          "readout_load_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_load_01_scoring.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "RL01"
+}

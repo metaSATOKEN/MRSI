@@ -1,0 +1,342 @@
+[
+  {
+    "case": "SVR01-M02",
+    "source_group": "E1-G12",
+    "role": "A",
+    "gold": {
+      "channel": "PAPER",
+      "four_values": {
+        "A": {
+          "digital": "ALL",
+          "paper": "ALL"
+        },
+        "B": {
+          "digital": "NOT_ALL",
+          "paper": "ALL"
+        }
+      },
+      "latest_channel": "PAPER",
+      "latest_four_values": {
+        "A": {
+          "digital": "ALL",
+          "paper": "ALL"
+        },
+        "B": {
+          "digital": "NOT_ALL",
+          "paper": "ALL"
+        }
+      }
+    },
+    "note_state": {
+      "latest_coverage": {
+        "A": {
+          "digital": "ALL",
+          "observer": "A",
+          "origin_id": "R61617D53BF8CE8C",
+          "paper": "ALL",
+          "revision": 2
+        },
+        "B": {
+          "digital": "NOT_ALL",
+          "observer": "B",
+          "origin_id": "RB3F59383BD22E3B",
+          "paper": "ALL",
+          "revision": 3
+        }
+      },
+      "note_world_channel_agree": true,
+      "private_customer_latest_exact": true,
+      "private_group_observation_conflict": false,
+      "private_observation_latest_exact": true,
+      "saved_coverage": {
+        "A": {
+          "digital": "ALL",
+          "observer": "A",
+          "origin_id": "R61617D53BF8CE8C",
+          "paper": "ALL",
+          "revision": 2
+        },
+        "B": {
+          "digital": "NOT_ALL",
+          "observer": "B",
+          "origin_id": "RB3F59383BD22E3B",
+          "paper": "ALL",
+          "revision": 3
+        }
+      },
+      "shared_latest_exact": true,
+      "shared_rows_latest_exact": {
+        "A": true,
+        "B": true
+      },
+      "stale_rows": []
+    },
+    "conditions": {
+      "DIRECT": {
+        "raw": "{\"decision\":{\"channel\":\"UNKNOWN\"}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。案内方法は今回の資料JSONのrecordsのうち、record_idがGROUPのbody.coverageにあるA/Bの四値だけから決めてください。PRIVATEの観測値でGROUPを補完・更新せず、GROUPに書かれた値をそのまま使ってください。案内方法はA/Bの両方でALLと確認できる方法がちょうど一つならPAPERまたはDIGITAL、0個または2個ならUNKNOWNとしてください。過去に出した結論を推測しないでください。\nrevisionは同じobserverの再観測順です。AとBの番号同士やノート全体の新旧は比較しません。更新番号3/4は正式に付された手掛かりです。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"decision\":{\"type\":\"object\",\"properties\":{\"channel\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"UNKNOWN\"]}},\"required\":[\"channel\"],\"additionalProperties\":false}},\"required\":[\"decision\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"A\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R61617D53BF8CE8C\",\"paper\":\"ALL\",\"revision\":2},\"customer\":{\"animal\":\"DOG\",\"origin_id\":\"RF4ACDF1B1A395DC\",\"subject\":\"A\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R61617D53BF8CE8C\",\"paper\":\"ALL\",\"revision\":2},\"B\":{\"digital\":\"NOT_ALL\",\"observer\":\"B\",\"origin_id\":\"RB3F59383BD22E3B\",\"paper\":\"ALL\",\"revision\":3}}},\"record_id\":\"GROUP\"}],\"scene\":\"防災学習会・西会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/SVR01-M02-R1-DIRECT/input.json": "30394a100e5df5a8c66c88b9f922c0a2513ee10674a6fd0ef859cb710dba975b",
+          "received/responses/SVR01-M02-R1-DIRECT/answer.txt": "58f2482f9c03797fa995fd8eee641b1a9099629c4eae3ce55b53096a73d0f309",
+          "received/responses/SVR01-M02-R1-DIRECT/result.json": "b68a515ef11f3b7e7112490b7753d6f37aed91434843f7691718a6e27fd81da5"
+        }
+      },
+      "EXTRACT": {
+        "raw": "{\n  \"coverage\": {\n    \"A\": {\n      \"paper\": \"ALL\",\n      \"digital\": \"ALL\"\n    },\n    \"B\": {\n      \"paper\": \"ALL\",\n      \"digital\": \"NOT_ALL\"\n    }\n  }\n}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回の資料JSONのrecordsから、record_idがGROUPの記録を読み、body.coverage.Aとbody.coverage.Bのpaperとdigitalの値をそのまま転記してください。ALLとNOT_ALLは入力にある文字列を保ってください。担当役にかかわらずA/Bの両方、計四値を書いてください。犬猫の判断、案内方法の選択、理由、参照名、元ID、版番号は出力しません。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"coverage\":{\"type\":\"object\",\"properties\":{\"A\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false},\"B\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false}},\"required\":[\"A\",\"B\"],\"additionalProperties\":false}},\"required\":[\"coverage\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"A\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R61617D53BF8CE8C\",\"paper\":\"ALL\",\"revision\":2},\"customer\":{\"animal\":\"DOG\",\"origin_id\":\"RF4ACDF1B1A395DC\",\"subject\":\"A\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R61617D53BF8CE8C\",\"paper\":\"ALL\",\"revision\":2},\"B\":{\"digital\":\"NOT_ALL\",\"observer\":\"B\",\"origin_id\":\"RB3F59383BD22E3B\",\"paper\":\"ALL\",\"revision\":3}}},\"record_id\":\"GROUP\"}],\"scene\":\"防災学習会・西会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/SVR01-M02-R1-EXTRACT/input.json": "5926b3cf4bb7d8ad0dc12b400e027650e4b30419ffbdb9177857f007301d53ae",
+          "received/responses/SVR01-M02-R1-EXTRACT/answer.txt": "c0a4f23906b0265504060c4aad8187f35616591d9a18ee98cb207d9c94a962d8",
+          "received/responses/SVR01-M02-R1-EXTRACT/result.json": "ef6c4ed6e0d6e26e8b8e978c7436909c5fbb60f194581eed1f86907c9673091a",
+          "received/responses/SVR01-M02-R1-EXTRACT/derived-decision.json": "fe5e7ebbf5eb547000f4dcc55030f4574cc500687ae660a4e5a3d4e7fdc813c1"
+        }
+      }
+    }
+  },
+  {
+    "case": "SVR01-S01",
+    "source_group": "E1-G48",
+    "role": "B",
+    "gold": {
+      "channel": "DIGITAL",
+      "four_values": {
+        "A": {
+          "digital": "ALL",
+          "paper": "NOT_ALL"
+        },
+        "B": {
+          "digital": "ALL",
+          "paper": "ALL"
+        }
+      },
+      "latest_channel": "PAPER",
+      "latest_four_values": {
+        "A": {
+          "digital": "NOT_ALL",
+          "paper": "ALL"
+        },
+        "B": {
+          "digital": "ALL",
+          "paper": "ALL"
+        }
+      }
+    },
+    "note_state": {
+      "latest_coverage": {
+        "A": {
+          "digital": "NOT_ALL",
+          "observer": "A",
+          "origin_id": "RD6C611E52319167",
+          "paper": "ALL",
+          "revision": 3
+        },
+        "B": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "R4607F4A947928BE",
+          "paper": "ALL",
+          "revision": 3
+        }
+      },
+      "note_world_channel_agree": false,
+      "private_customer_latest_exact": true,
+      "private_group_observation_conflict": false,
+      "private_observation_latest_exact": true,
+      "saved_coverage": {
+        "A": {
+          "digital": "ALL",
+          "observer": "A",
+          "origin_id": "R1E10120F9A81E02",
+          "paper": "NOT_ALL",
+          "revision": 2
+        },
+        "B": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "R4607F4A947928BE",
+          "paper": "ALL",
+          "revision": 3
+        }
+      },
+      "shared_latest_exact": false,
+      "shared_rows_latest_exact": {
+        "A": false,
+        "B": true
+      },
+      "stale_rows": [
+        "A"
+      ]
+    },
+    "conditions": {
+      "DIRECT": {
+        "raw": "{\"decision\":{\"channel\":\"UNKNOWN\"}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。案内方法は今回の資料JSONのrecordsのうち、record_idがGROUPのbody.coverageにあるA/Bの四値だけから決めてください。PRIVATEの観測値でGROUPを補完・更新せず、GROUPに書かれた値をそのまま使ってください。案内方法はA/Bの両方でALLと確認できる方法がちょうど一つならPAPERまたはDIGITAL、0個または2個ならUNKNOWNとしてください。過去に出した結論を推測しないでください。\nrevisionは同じobserverの再観測順です。AとBの番号同士やノート全体の新旧は比較しません。更新番号3/4は正式に付された手掛かりです。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"decision\":{\"type\":\"object\",\"properties\":{\"channel\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"UNKNOWN\"]}},\"required\":[\"channel\"],\"additionalProperties\":false}},\"required\":[\"decision\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"B\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R4607F4A947928BE\",\"paper\":\"ALL\",\"revision\":3},\"customer\":{\"animal\":\"CAT\",\"origin_id\":\"RA11F1556C579171\",\"subject\":\"B\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R1E10120F9A81E02\",\"paper\":\"NOT_ALL\",\"revision\":2},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R4607F4A947928BE\",\"paper\":\"ALL\",\"revision\":3}}},\"record_id\":\"GROUP\"}],\"scene\":\"音楽鑑賞会・川辺会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/SVR01-S01-R1-DIRECT/input.json": "6d3de1d942411c4e5a8708ee81537753dd71c2fdf83697239661786ac2391607",
+          "received/responses/SVR01-S01-R1-DIRECT/answer.txt": "58f2482f9c03797fa995fd8eee641b1a9099629c4eae3ce55b53096a73d0f309",
+          "received/responses/SVR01-S01-R1-DIRECT/result.json": "38212c45d94b765ee368263f60114337ea741b15695a28f431fbda5fa33efea1"
+        }
+      },
+      "EXTRACT": {
+        "raw": "{\"coverage\":{\"A\":{\"paper\":\"NOT_ALL\",\"digital\":\"ALL\"},\"B\":{\"paper\":\"ALL\",\"digital\":\"ALL\"}}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回の資料JSONのrecordsから、record_idがGROUPの記録を読み、body.coverage.Aとbody.coverage.Bのpaperとdigitalの値をそのまま転記してください。ALLとNOT_ALLは入力にある文字列を保ってください。担当役にかかわらずA/Bの両方、計四値を書いてください。犬猫の判断、案内方法の選択、理由、参照名、元ID、版番号は出力しません。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"coverage\":{\"type\":\"object\",\"properties\":{\"A\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false},\"B\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false}},\"required\":[\"A\",\"B\"],\"additionalProperties\":false}},\"required\":[\"coverage\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"B\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R4607F4A947928BE\",\"paper\":\"ALL\",\"revision\":3},\"customer\":{\"animal\":\"CAT\",\"origin_id\":\"RA11F1556C579171\",\"subject\":\"B\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R1E10120F9A81E02\",\"paper\":\"NOT_ALL\",\"revision\":2},\"B\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R4607F4A947928BE\",\"paper\":\"ALL\",\"revision\":3}}},\"record_id\":\"GROUP\"}],\"scene\":\"音楽鑑賞会・川辺会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/SVR01-S01-R1-EXTRACT/input.json": "3d78ac355c918757fb9cac381dfa2a0057667c6f0c4aed01fe52bd7659620736",
+          "received/responses/SVR01-S01-R1-EXTRACT/answer.txt": "3648e55654d9b225772dfbece1c64b60196b5b6bb4e52bf220a6a82f22e11d8e",
+          "received/responses/SVR01-S01-R1-EXTRACT/result.json": "d9f2e0dc64176f9d2850d52f575a60ee00855c6e4301f10f3b723590f716944c",
+          "received/responses/SVR01-S01-R1-EXTRACT/derived-decision.json": "1b7f6d9eb64c7b7e2755b029587a9a15588ed5b435a88c2aab66bbd5e82443b4"
+        }
+      }
+    }
+  },
+  {
+    "case": "SVR01-S02",
+    "source_group": "E1-G31",
+    "role": "B",
+    "gold": {
+      "channel": "UNKNOWN",
+      "four_values": {
+        "A": {
+          "digital": "ALL",
+          "paper": "NOT_ALL"
+        },
+        "B": {
+          "digital": "NOT_ALL",
+          "paper": "ALL"
+        }
+      },
+      "latest_channel": "DIGITAL",
+      "latest_four_values": {
+        "A": {
+          "digital": "ALL",
+          "paper": "NOT_ALL"
+        },
+        "B": {
+          "digital": "ALL",
+          "paper": "NOT_ALL"
+        }
+      }
+    },
+    "note_state": {
+      "latest_coverage": {
+        "A": {
+          "digital": "ALL",
+          "observer": "A",
+          "origin_id": "R7A0CDB5AEA5206B",
+          "paper": "NOT_ALL",
+          "revision": 3
+        },
+        "B": {
+          "digital": "ALL",
+          "observer": "B",
+          "origin_id": "R7BE2DF52784584B",
+          "paper": "NOT_ALL",
+          "revision": 2
+        }
+      },
+      "note_world_channel_agree": false,
+      "private_customer_latest_exact": true,
+      "private_group_observation_conflict": true,
+      "private_observation_latest_exact": true,
+      "saved_coverage": {
+        "A": {
+          "digital": "ALL",
+          "observer": "A",
+          "origin_id": "R7A0CDB5AEA5206B",
+          "paper": "NOT_ALL",
+          "revision": 3
+        },
+        "B": {
+          "digital": "NOT_ALL",
+          "observer": "B",
+          "origin_id": "RBC9FFC9ECA7014B",
+          "paper": "ALL",
+          "revision": 1
+        }
+      },
+      "shared_latest_exact": false,
+      "shared_rows_latest_exact": {
+        "A": true,
+        "B": false
+      },
+      "stale_rows": [
+        "B"
+      ]
+    },
+    "conditions": {
+      "DIRECT": {
+        "raw": "{\"decision\":{\"channel\":\"UNKNOWN\"}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。案内方法は今回の資料JSONのrecordsのうち、record_idがGROUPのbody.coverageにあるA/Bの四値だけから決めてください。PRIVATEの観測値でGROUPを補完・更新せず、GROUPに書かれた値をそのまま使ってください。案内方法はA/Bの両方でALLと確認できる方法がちょうど一つならPAPERまたはDIGITAL、0個または2個ならUNKNOWNとしてください。過去に出した結論を推測しないでください。\nrevisionは同じobserverの再観測順です。AとBの番号同士やノート全体の新旧は比較しません。更新番号3/4は正式に付された手掛かりです。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"decision\":{\"type\":\"object\",\"properties\":{\"channel\":{\"enum\":[\"PAPER\",\"DIGITAL\",\"UNKNOWN\"]}},\"required\":[\"channel\"],\"additionalProperties\":false}},\"required\":[\"decision\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"B\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R7BE2DF52784584B\",\"paper\":\"NOT_ALL\",\"revision\":2},\"customer\":{\"animal\":\"CAT\",\"origin_id\":\"R950710B9F6152C2\",\"subject\":\"B\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R7A0CDB5AEA5206B\",\"paper\":\"NOT_ALL\",\"revision\":3},\"B\":{\"digital\":\"NOT_ALL\",\"observer\":\"B\",\"origin_id\":\"RBC9FFC9ECA7014B\",\"paper\":\"ALL\",\"revision\":1}}},\"record_id\":\"GROUP\"}],\"scene\":\"歴史散策会・北会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/SVR01-S02-R1-DIRECT/input.json": "85850b99a4345c72c099cd1d2d8555ac483b181d5130eeaa58ae7b1d270498af",
+          "received/responses/SVR01-S02-R1-DIRECT/answer.txt": "58f2482f9c03797fa995fd8eee641b1a9099629c4eae3ce55b53096a73d0f309",
+          "received/responses/SVR01-S02-R1-DIRECT/result.json": "eb0b99d00032cda6195d53142151afea5a42ddea289b63011852c114c9cb551f"
+        }
+      },
+      "EXTRACT": {
+        "raw": "{\"coverage\":{\"A\":{\"paper\":\"NOT_ALL\",\"digital\":\"ALL\"},\"B\":{\"paper\":\"ALL\",\"digital\":\"NOT_ALL\"}}}",
+        "input": [
+          {
+            "content": "あなたは架空の作業担当者です。今回の資料JSONのrecordsから、record_idがGROUPの記録を読み、body.coverage.Aとbody.coverage.Bのpaperとdigitalの値をそのまま転記してください。ALLとNOT_ALLは入力にある文字列を保ってください。担当役にかかわらずA/Bの両方、計四値を書いてください。犬猫の判断、案内方法の選択、理由、参照名、元ID、版番号は出力しません。JSON以外を出力せず、schemaの全必須欄・A/B固定キーを守ってください。\n{\"type\":\"object\",\"properties\":{\"coverage\":{\"type\":\"object\",\"properties\":{\"A\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false},\"B\":{\"type\":\"object\",\"properties\":{\"paper\":{\"enum\":[\"ALL\",\"NOT_ALL\"]},\"digital\":{\"enum\":[\"ALL\",\"NOT_ALL\"]}},\"required\":[\"paper\",\"digital\"],\"additionalProperties\":false}},\"required\":[\"A\",\"B\"],\"additionalProperties\":false}},\"required\":[\"coverage\"],\"additionalProperties\":false}\n\n",
+            "role": "system"
+          },
+          {
+            "content": "\n資料JSON:\n{\"holder\":\"B\",\"item\":\"個別の案内カード\",\"records\":[{\"body\":{\"coverage\":{\"digital\":\"ALL\",\"observer\":\"B\",\"origin_id\":\"R7BE2DF52784584B\",\"paper\":\"NOT_ALL\",\"revision\":2},\"customer\":{\"animal\":\"CAT\",\"origin_id\":\"R950710B9F6152C2\",\"subject\":\"B\"}},\"record_id\":\"PRIVATE\"},{\"body\":{\"coverage\":{\"A\":{\"digital\":\"ALL\",\"observer\":\"A\",\"origin_id\":\"R7A0CDB5AEA5206B\",\"paper\":\"NOT_ALL\",\"revision\":3},\"B\":{\"digital\":\"NOT_ALL\",\"observer\":\"B\",\"origin_id\":\"RBC9FFC9ECA7014B\",\"paper\":\"ALL\",\"revision\":1}}},\"record_id\":\"GROUP\"}],\"scene\":\"歴史散策会・北会場\"}",
+            "role": "user"
+          }
+        ],
+        "evidence_sha256": {
+          "received/responses/SVR01-S02-R1-EXTRACT/input.json": "b37336e61787c124fc4f95f346965fc3fc24b82b583cfbe4a8995cd1956eda99",
+          "received/responses/SVR01-S02-R1-EXTRACT/answer.txt": "4f9a3766e2d9167dbfc524000421a4cc329cf3123a473586aeb69afe9f6e270a",
+          "received/responses/SVR01-S02-R1-EXTRACT/result.json": "9fbc86aaa06e5d210c5c8070a3f096c4ee3d9b8fc7c7ac950aed34eb690c1355",
+          "received/responses/SVR01-S02-R1-EXTRACT/derived-decision.json": "3915aee76c313a93839b858061224eca346367d7c0913486dbda05730941f0cd"
+        }
+      }
+    }
+  }
+]

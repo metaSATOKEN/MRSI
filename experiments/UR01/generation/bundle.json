@@ -1,0 +1,73 @@
+{
+  "entrypoint": "run_readout_colab",
+  "files": {
+    "README.md": "982dfa14f764540f5f52520d1ab7ff8dbff53b61c4fe42f3756747f7adc111fc",
+    "design.md": "c896e08550dcdc0f2b338437456044957858f7d9d92746e34330844692ddb8aa",
+    "materials/contract.json": "d2c8254794d06996e7a773f7648f6bd399fec59c3eac4826d28b656e574e6fce",
+    "requests.jsonl": "2f19596f163b2e50c3f27258c285bfad907053ecc5fd0a4d610bb9559cc37792",
+    "run_colab.py": "8298992e661c24668389bdb4a61748de73d90dc40e9d3b7c49c0220e73139429",
+    "source/cross_model_e1_01_generation_runtime.py": "883a85c1754cfccccd0dc593b3491bff1c969c80d5a9b2654eb620771c7a14b5",
+    "source/cross_model_e1_01_offline_runtime.py": "d2f97ed21f454761235ae098769fafbfd5bf8783d8d957dccb125a5bd78ae92b",
+    "source/readout_split_01_scoring.py": "fc4bc5aa181a46745c6f29875d650a63c3e1908735331eda85ff653eb99b1e45",
+    "source/saved_readout_01_scoring.py": "771585161c56963b938bb13ef36decafdaa9711125adfc1f3abc5eef4a73525a",
+    "source/update_readout_01_bootstrap.py": "639d7abf6fb293687e73dcc213708cdedccb91a2d9f976caa144081bad5cfe69",
+    "source/update_readout_01_runtime.py": "66d7a7947a540c5153bba6e26a073650b54dfd29be51ebdd5672afd2cd69dc7c",
+    "source/update_readout_01_scoring.py": "b7ec099775e4065297a2a98e95239dc0f07422cc918c93f07b1871dacff41b85",
+    "supervisor.py": "c866f1771c52b2e6aca158c84b2ff515fe346bf2f50a6e46967025f647fa47ac"
+  },
+  "format": "npp-readable-generation-v1",
+  "original_onecell_sha256": "7c07231f5e541374f3c96f10e014a8c604693010a1209461b0e3818d70742507",
+  "original_payload_sha256": "8ef8336758beb21ae2d71db111d17d10d9284474ed4b150934b548dcac3d80fa",
+  "original_supervisor_sha256": "639d7abf6fb293687e73dcc213708cdedccb91a2d9f976caa144081bad5cfe69",
+  "payload": {
+    "items": {
+      "code": {
+        "items": {
+          "cross_model_e1_01_generation_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_generation_runtime.py"
+          },
+          "cross_model_e1_01_offline_runtime.py": {
+            "kind": "text",
+            "path": "source/cross_model_e1_01_offline_runtime.py"
+          },
+          "readout_split_01_scoring.py": {
+            "kind": "text",
+            "path": "source/readout_split_01_scoring.py"
+          },
+          "saved_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/saved_readout_01_scoring.py"
+          },
+          "update_readout_01_bootstrap.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_bootstrap.py"
+          },
+          "update_readout_01_runtime.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_runtime.py"
+          },
+          "update_readout_01_scoring.py": {
+            "kind": "text",
+            "path": "source/update_readout_01_scoring.py"
+          }
+        },
+        "kind": "mapping"
+      },
+      "contract": {
+        "kind": "json",
+        "path": "materials/contract.json"
+      },
+      "design_text": {
+        "kind": "text",
+        "path": "design.md"
+      },
+      "requests_text": {
+        "kind": "text",
+        "path": "requests.jsonl"
+      }
+    },
+    "kind": "mapping"
+  },
+  "trial": "UR01"
+}

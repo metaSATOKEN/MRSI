@@ -1,0 +1,18 @@
+```json
+{
+  "customer": {
+    "subject": "B",
+    "animal": "DOG"
+  },
+  "coverage": {
+    "A": {
+      "paper": "ALL",
+      "digital": "ALL"
+    },
+    "B": {
+      "paper": "NOT_ALL",
+      "digital": "ALL"
+    }
+  }
+}
+```<|im_end|>

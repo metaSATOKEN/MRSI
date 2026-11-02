@@ -1,0 +1,12 @@
+{
+  "protocol": "UR01-ENVELOPE-REFERENCE-v0.1",
+  "status": "UNWRAPPED",
+  "reason": "EXACT_ENVELOPE_ONLY",
+  "raw_sha256": "d63d8a025a3081ae35c104ea1d1d117dfc26d1846b89dd47a48a608deac127e4",
+  "raw_bytes": 678,
+  "normalized_sha256": "0c4c8d9311a50aa4061a1ab5068cbb5da0db047404d3b217d943320b494788ed",
+  "normalized_bytes_length": 666,
+  "removed_prefix_bytes": 8,
+  "removed_suffix_bytes": 4,
+  "value_repair": false
+}
