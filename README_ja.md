@@ -38,7 +38,7 @@
 
 ## どこから読むとよいか
 
-第一報から第四報と、結びの故障学・設計論を一冊にまとめました。[英語統合版『LLM Memory, Records, and Continued Use』v1.3（PDF・148ページ）](papers/mrsi_series_collected_edition.pdf)
+第一報から第四報と、結びの故障学・設計論を一冊にまとめました。[英語統合版『LLM Memory, Records, and Continued Use』v1.4（PDF・113ページ）](papers/mrsi_series_collected_edition.pdf)
 
 全体像と設計上の意味を一冊で知りたい方には、**故障学・設計論**がおすすめです。実験の証拠を順に読みたい方は、第一報から第四報へ進んでください。
 

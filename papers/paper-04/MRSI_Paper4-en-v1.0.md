@@ -5,7 +5,7 @@ Kentaro Sato
 Independent Researcher  
 Contact: info@metaclan.jp ([email](mailto:info@metaclan.jp))
 
-October 13, 2026 | English draft v0.1 | For internal review; unpublished
+October 13, 2026 | English version v1.0
 
 ## Abstract
 
@@ -339,11 +339,11 @@ The condition with comparison fields produced two more correct responses than DI
 
 ## 9. Data Availability and Research Disclosures
 
-Original inputs, responses, saved notes, received votes, fixed designs, code, settings, hash lists, and reaggregated results are retained locally without a deletion deadline. The [evidence index](evidence-index-en-v0.1-2026-10-13.md) links the paper's tables to their sources; [paper data](paper-data-v0.1-2026-10-13.json) provide machine-readable summaries; and [evidence extracts](evidence-extract-v0.1-2026-10-13.json) contain the illustrated original inputs and responses. A permanent public archive and DOI for this fourth paper have not yet been assigned. Relative links currently refer to material in the research folder.
+Original inputs, responses, saved notes, received votes, fixed designs, code, settings, hash lists, and reaggregated results are retained locally without a deletion deadline. The [evidence index](evidence-index-en-v0.1-2026-10-13.md) links the paper's tables to their sources; [paper data](paper-data-v0.1-2026-10-13.json) provide machine-readable summaries; and [evidence extracts](evidence-extract-v0.1-2026-10-13.json) contain the illustrated original inputs and responses. The [MRSI repository](https://github.com/metaSATOKEN/MRSI) distributes these materials with [current reproduction instructions](../../RUNNING.md). A permanent archive DOI for this fourth paper has not been assigned. PDF links point to versioned GitHub resources; Markdown links refer to repository files.
 
 The author is responsible for research design, implementation and Colab execution, review of results, and the manuscript. LLM assistance was used in design, implementation, research, analysis, and writing. Formal scoring used fixed code; LLM reading feedback is not treated as third-party rescoring. Verification was conducted within the same project.
 
-The materials comprise fictional roles and numerical experiences. No human participants were recruited and no personal responses were collected. No external services were operated and no real equipment was allocated. Final funding and competing-interest declarations, the public license, and citation information will be confirmed by the author for the public version.
+The materials comprise fictional roles and numerical experiences. No human participants were recruited and no personal responses were collected. No external services were operated and no real equipment was allocated. The repository provides [Apache 2.0 license information](../../LICENSE_STATUS.md) and [citation metadata](../../CITATION.cff). Final funding and competing-interest declarations remain subject to the author's confirmation.
 
 ## Appendix A. Cases, Replicates, and Response Counts
 

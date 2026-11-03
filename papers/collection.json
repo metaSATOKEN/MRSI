@@ -1,0 +1,436 @@
+{
+  "front_pages": 7,
+  "total_pages": 113,
+  "parts": [
+    {
+      "folder": "paper-01",
+      "name": "MRSI_Paper1-en-v1.0",
+      "label": "Paper 1",
+      "theme": "Content and provenance",
+      "version": "v1.0",
+      "title": "Maintaining Role-Specific Information and Shared Records in LLM Memory Updates",
+      "subtitle": "An Exploratory Evaluation of Content, Provenance, and Continued Use",
+      "pages": 26,
+      "start": 7,
+      "entries": [
+        {
+          "title": "Title and abstract",
+          "local_page": 1,
+          "global_page": 8
+        },
+        {
+          "title": "1. Introduction",
+          "local_page": 2,
+          "global_page": 9
+        },
+        {
+          "title": "2. Related Work",
+          "local_page": 2,
+          "global_page": 9
+        },
+        {
+          "title": "3. Task and Memory System",
+          "local_page": 3,
+          "global_page": 10
+        },
+        {
+          "title": "4. Evaluation Methods",
+          "local_page": 5,
+          "global_page": 12
+        },
+        {
+          "title": "5. Results",
+          "local_page": 8,
+          "global_page": 15
+        },
+        {
+          "title": "6. Discussion",
+          "local_page": 11,
+          "global_page": 18
+        },
+        {
+          "title": "7. Limitations and Reproducibility",
+          "local_page": 12,
+          "global_page": 19
+        },
+        {
+          "title": "8. Conclusion",
+          "local_page": 13,
+          "global_page": 20
+        },
+        {
+          "title": "9. Ethics, Competing Interests, Author Contributions, and Data Availability",
+          "local_page": 14,
+          "global_page": 21
+        },
+        {
+          "title": "References",
+          "local_page": 15,
+          "global_page": 22
+        },
+        {
+          "title": "Appendix A. Scope of the Included Trials",
+          "local_page": 16,
+          "global_page": 23
+        },
+        {
+          "title": "Appendix B. Evidence and Reproduction Resources",
+          "local_page": 21,
+          "global_page": 28
+        },
+        {
+          "title": "Appendix C. Implementation and Evaluation Principles",
+          "local_page": 22,
+          "global_page": 29
+        },
+        {
+          "title": "Appendix D. Interval Estimates and Post Hoc Descriptive Supplements",
+          "local_page": 22,
+          "global_page": 29
+        },
+        {
+          "title": "Appendix E. Post Hoc Reference Analysis after a One-Brace Correction",
+          "local_page": 26,
+          "global_page": 33
+        }
+      ]
+    },
+    {
+      "folder": "paper-02",
+      "name": "MRSI_Paper2-en-v1.0",
+      "label": "Paper 2",
+      "theme": "Scope of update control",
+      "version": "v1.0",
+      "title": "Scope of Update Control in Private and Shared LLM Records",
+      "subtitle": "Field-Level Comparisons and Post-Update Rollback",
+      "pages": 18,
+      "start": 33,
+      "entries": [
+        {
+          "title": "Title and abstract",
+          "local_page": 1,
+          "global_page": 34
+        },
+        {
+          "title": "1. Introduction",
+          "local_page": 2,
+          "global_page": 35
+        },
+        {
+          "title": "2. Related Work",
+          "local_page": 2,
+          "global_page": 35
+        },
+        {
+          "title": "3. Task and System",
+          "local_page": 4,
+          "global_page": 37
+        },
+        {
+          "title": "4. Evaluation Methods",
+          "local_page": 6,
+          "global_page": 39
+        },
+        {
+          "title": "5. Results",
+          "local_page": 9,
+          "global_page": 42
+        },
+        {
+          "title": "6. Discussion",
+          "local_page": 12,
+          "global_page": 45
+        },
+        {
+          "title": "7. Scope and Limitations",
+          "local_page": 13,
+          "global_page": 46
+        },
+        {
+          "title": "8. Conclusion",
+          "local_page": 14,
+          "global_page": 47
+        },
+        {
+          "title": "9. Data Availability and Declarations",
+          "local_page": 14,
+          "global_page": 47
+        },
+        {
+          "title": "References",
+          "local_page": 16,
+          "global_page": 49
+        },
+        {
+          "title": "Appendix A. Entry Points and Supplementary Analyses Preserving Formal Outcomes",
+          "local_page": 17,
+          "global_page": 50
+        },
+        {
+          "title": "Appendix B. Implementation and Aggregation Details",
+          "local_page": 17,
+          "global_page": 50
+        }
+      ]
+    },
+    {
+      "folder": "paper-03",
+      "name": "MRSI_Paper3-en-v1.0",
+      "label": "Paper 3",
+      "theme": "Judgment and agreement",
+      "version": "v1.0",
+      "title": "Separating the Stability of Role-Specific Judgments from the Quality of Joint Agreements",
+      "subtitle": "Timing of Computational Support and Fixed-Input Repetitions in a Two-Role LLM Task",
+      "pages": 15,
+      "start": 51,
+      "entries": [
+        {
+          "title": "Title and abstract",
+          "local_page": 1,
+          "global_page": 52
+        },
+        {
+          "title": "1. Introduction",
+          "local_page": 2,
+          "global_page": 53
+        },
+        {
+          "title": "2. Related Work",
+          "local_page": 2,
+          "global_page": 53
+        },
+        {
+          "title": "3. Task: Separating a Role's Recommendation from Its Joint Assignment",
+          "local_page": 3,
+          "global_page": 54
+        },
+        {
+          "title": "4. Methods",
+          "local_page": 4,
+          "global_page": 55
+        },
+        {
+          "title": "5. Results",
+          "local_page": 8,
+          "global_page": 59
+        },
+        {
+          "title": "6. Discussion",
+          "local_page": 10,
+          "global_page": 61
+        },
+        {
+          "title": "7. Scope and Limitations",
+          "local_page": 11,
+          "global_page": 62
+        },
+        {
+          "title": "8. Conclusion",
+          "local_page": 12,
+          "global_page": 63
+        },
+        {
+          "title": "9. Ethics, Author Contributions, and Data Availability",
+          "local_page": 12,
+          "global_page": 63
+        },
+        {
+          "title": "References",
+          "local_page": 13,
+          "global_page": 64
+        },
+        {
+          "title": "Appendix A. Task and Evaluation Scope Established by the Preceding Exploration",
+          "local_page": 14,
+          "global_page": 65
+        },
+        {
+          "title": "Appendix B. Progression Criteria, Constructed Diagnostics, and Implementation",
+          "local_page": 14,
+          "global_page": 65
+        }
+      ]
+    },
+    {
+      "folder": "paper-04",
+      "name": "MRSI_Paper4-en-v1.0",
+      "label": "Paper 4",
+      "theme": "Actual votes and approval states",
+      "version": "v1.0",
+      "title": "Boundaries Between Role-Specific Judgment, Individual Approval, and Group Agreement in Three LLM Roles",
+      "subtitle": "Carrying Actual Votes Forward and Comparing Matched Approval States",
+      "pages": 17,
+      "start": 66,
+      "entries": [
+        {
+          "title": "Title and abstract",
+          "local_page": 1,
+          "global_page": 67
+        },
+        {
+          "title": "1. Problem Setting and Contributions",
+          "local_page": 2,
+          "global_page": 68
+        },
+        {
+          "title": "2. Related Work",
+          "local_page": 2,
+          "global_page": 68
+        },
+        {
+          "title": "3. Task and Evaluated Boundaries",
+          "local_page": 3,
+          "global_page": 69
+        },
+        {
+          "title": "4. Methods",
+          "local_page": 6,
+          "global_page": 72
+        },
+        {
+          "title": "5. Results",
+          "local_page": 8,
+          "global_page": 74
+        },
+        {
+          "title": "6. Discussion",
+          "local_page": 11,
+          "global_page": 77
+        },
+        {
+          "title": "7. Scope and Limitations",
+          "local_page": 12,
+          "global_page": 78
+        },
+        {
+          "title": "8. Conclusion",
+          "local_page": 13,
+          "global_page": 79
+        },
+        {
+          "title": "9. Data Availability and Research Disclosures",
+          "local_page": 13,
+          "global_page": 79
+        },
+        {
+          "title": "Appendix A. Cases, Replicates, and Response Counts",
+          "local_page": 14,
+          "global_page": 80
+        },
+        {
+          "title": "Appendix B. Output Contracts and Metric Definitions",
+          "local_page": 14,
+          "global_page": 80
+        },
+        {
+          "title": "Appendix C. Execution Settings and Reproducibility Scope",
+          "local_page": 15,
+          "global_page": 81
+        },
+        {
+          "title": "Appendix D. Evidence Entry Points",
+          "local_page": 16,
+          "global_page": 82
+        },
+        {
+          "title": "References",
+          "local_page": 17,
+          "global_page": 83
+        }
+      ]
+    },
+    {
+      "folder": "two-role-failure-design",
+      "name": "manuscript-en-v0.3-2026-10-13",
+      "label": "Technical synthesis",
+      "theme": "Multi-role failures and design principles",
+      "version": "v0.3",
+      "title": "Failure Analysis and Design Principles for Multi-Role LLM Systems",
+      "subtitle": "Boundaries of Records, Approval, and Joint Use in Two- and Three-Role Tasks",
+      "pages": 30,
+      "start": 83,
+      "entries": [
+        {
+          "title": "Title and abstract",
+          "local_page": 1,
+          "global_page": 84
+        },
+        {
+          "title": "1. Goal: Preserve Each Role's Judgment While Working Together",
+          "local_page": 2,
+          "global_page": 85
+        },
+        {
+          "title": "2. What the Roles Were Asked to Do",
+          "local_page": 2,
+          "global_page": 85
+        },
+        {
+          "title": "3. Units of Failure Analysis: Record Fields and Stage Boundaries",
+          "local_page": 4,
+          "global_page": 87
+        },
+        {
+          "title": "4. Failure Analysis: What Was Tested and What Each Actor Got Wrong",
+          "local_page": 5,
+          "global_page": 88
+        },
+        {
+          "title": "5. Seven Design Principles for Connecting Private and Shared Activity",
+          "local_page": 11,
+          "global_page": 94
+        },
+        {
+          "title": "6. A Reference Architecture Connecting the Principles",
+          "local_page": 16,
+          "global_page": 99
+        },
+        {
+          "title": "7. Evaluation: Allow Appropriate Progress and Stop Inappropriate Progress",
+          "local_page": 18,
+          "global_page": 101
+        },
+        {
+          "title": "8. Scope and Further Development of the Design Principles",
+          "local_page": 19,
+          "global_page": 102
+        },
+        {
+          "title": "9. Conclusion",
+          "local_page": 20,
+          "global_page": 103
+        },
+        {
+          "title": "10. Author Contributions and Data Availability",
+          "local_page": 20,
+          "global_page": 103
+        },
+        {
+          "title": "References",
+          "local_page": 21,
+          "global_page": 104
+        },
+        {
+          "title": "Appendix A. From Failure Observations to Design and Verification",
+          "local_page": 22,
+          "global_page": 105
+        },
+        {
+          "title": "Appendix B. A One-Page Record for Design Review",
+          "local_page": 22,
+          "global_page": 105
+        },
+        {
+          "title": "Appendix C. Experimental Records and Organizational References",
+          "local_page": 22,
+          "global_page": 105
+        },
+        {
+          "title": "Appendix D. Complete Code, Inputs, and Execution Instructions",
+          "local_page": 24,
+          "global_page": 107
+        }
+      ]
+    }
+  ]
+}

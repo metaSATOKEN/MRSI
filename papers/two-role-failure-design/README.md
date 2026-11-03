@@ -4,4 +4,6 @@
 
 [Evidence and recorded outputs](S1.md) · [Figures](figures/) · [Executable examples](examples/README.md)
 
+[TeX source](manuscript-en-v0.3-2026-10-13.tex) · [PDF build instructions](../BUILDING_PDFS.md)
+
 [All papers and collected edition](../README.md)

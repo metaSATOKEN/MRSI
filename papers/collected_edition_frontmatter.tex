@@ -1,0 +1,203 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[left=22mm,right=22mm,top=22mm,bottom=23mm,headheight=13pt,headsep=6mm,footskip=10mm]{geometry}
+\usepackage{fontspec,amsmath,unicode-math}
+\setmathfont{texgyretermes-math.otf}
+\setmainfont{texgyretermes-regular.otf}[BoldFont=texgyretermes-bold.otf,ItalicFont=texgyretermes-italic.otf,BoldItalicFont=texgyretermes-bolditalic.otf]
+\setsansfont{texgyreheros-regular.otf}[BoldFont=texgyreheros-bold.otf,ItalicFont=texgyreheros-italic.otf,BoldItalicFont=texgyreheros-bolditalic.otf]
+\setmonofont{texgyrecursor-regular.otf}[Scale=0.83]
+\usepackage{graphicx,float,flafter,array,booktabs,longtable,xcolor,fancyhdr,titlesec,needspace,seqsplit}
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines=true,breakanywhere=true,fontsize=\small,baselinestretch=1,frame=single,framesep=6pt,rulecolor=\color{lightline}}
+\DefineVerbatimEnvironment{verbatim}{Verbatim}{breaklines=true,breakanywhere=true,fontsize=\small,baselinestretch=1,frame=single,framesep=6pt,rulecolor=\color{lightline}}
+\usepackage{xurl}
+\usepackage[unicode,pdfencoding=auto,bookmarksopen=false,bookmarksnumbered=false]{hyperref}
+\definecolor{ink}{HTML}{172B3A}
+\definecolor{accent}{HTML}{275469}
+\definecolor{lightline}{HTML}{BDCCD3}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Kentaro Sato},pdflang={en}}
+\setcounter{secnumdepth}{-1}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4.3pt plus 0.7pt minus 0.5pt}
+\setlength{\emergencystretch}{2.0em}
+\raggedbottom
+\setlength{\tabcolsep}{3.3pt}
+\renewcommand{\arraystretch}{1.15}
+\titleformat{\section}{\raggedright\sffamily\bfseries\fontsize{15}{18}\selectfont\color{ink}}{}{0pt}{}
+\titleformat{\subsection}{\raggedright\sffamily\bfseries\fontsize{11.5}{15}\selectfont\color{ink}}{}{0pt}{}
+\titleformat{\subsubsection}{\raggedright\sffamily\bfseries\fontsize{10.7}{14}\selectfont\color{ink}}{}{0pt}{}
+\titlespacing*{\section}{0pt}{14pt plus 2pt}{4pt}
+\titlespacing*{\subsection}{0pt}{9pt plus 1pt}{3pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\sffamily\scriptsize\color{accent}MRSI RESEARCH SERIES}
+\fancyhead[R]{\sffamily\scriptsize\color{accent}Kentaro Sato\quad/\quad COLLECTED v1.4}
+\fancyfoot[C]{\sffamily\small\thepage}
+\renewcommand{\headrulewidth}{0.25pt}
+\fancypagestyle{first}{\fancyhf{}\fancyfoot[C]{\sffamily\small\thepage}\renewcommand{\headrulewidth}{0pt}}
+\renewcommand{\topfraction}{.88}\renewcommand{\bottomfraction}{.76}
+\renewcommand{\textfraction}{.10}\renewcommand{\floatpagefraction}{.82}
+\setlength{\textfloatsep}{13pt plus 2pt minus 2pt}
+\setlength{\intextsep}{11pt plus 2pt minus 2pt}
+\clubpenalty=7000\widowpenalty=7000\displaywidowpenalty=5000
+\newlength{\usable}
+\newcommand{\tightlist}{\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{#1}
+\providecommand{\pandocbounded}[1]{#1}
+\newcommand{\tablecell}[1]{#1}
+\setlength{\LTpre}{7pt}\setlength{\LTpost}{8pt}
+\definecolor{teal}{HTML}{207A80}
+\hypersetup{pdftitle={LLM Memory, Records, and Continued Use: MRSI Research Series, Collected Edition},pdfsubject={Collected edition v1.4},pdfauthor={Kentaro Sato}}
+
+\begin{document}\fontsize{10.7}{15.3}\selectfont\thispagestyle{empty}
+{\sffamily\small\bfseries\color{accent}MRSI RESEARCH SERIES\hfill\normalfont\sffamily\small\color{teal}COLLECTED EDITION\par}
+\vspace{14pt}\hrule\vspace{35pt}
+{\sffamily\bfseries\color{ink}\fontsize{29}{35}\selectfont LLM Memory,\\Records, and\\Continued Use\par}
+\vspace{15pt}{\sffamily\color{teal}\fontsize{13}{17}\selectfont Content, Provenance, Updates, and Authorization\par}
+\vspace{20pt}{\sffamily\bfseries Kentaro Sato\par}{\sffamily\small Independent Researcher\par\href{mailto:info@metaclan.jp}{info@metaclan.jp}\par}\vspace{20pt}
+{\sffamily\small\bfseries\color{accent}I\quad CONTENT AND PROVENANCE\par}\vspace{3pt}{\sffamily\small Role-specific information, shared records, and revocation.\par}\vspace{14pt}
+{\sffamily\small\bfseries\color{teal}II\quad SCOPE OF UPDATE CONTROL\par}\vspace{3pt}{\sffamily\small Field-level comparisons, continued updating, and rollback.\par}\vspace{14pt}
+{\sffamily\small\bfseries\color{accent}III\quad JUDGMENT AND AGREEMENT\par}\vspace{3pt}{\sffamily\small Judgment stability, computational support, and agreement quality.\par}\vspace{14pt}
+{\sffamily\small\bfseries\color{teal}IV\quad ACTUAL VOTES AND APPROVAL STATES\par}\vspace{3pt}{\sffamily\small Three-role votes, individual states, and group agreement.\par}\vspace{14pt}
+{\sffamily\small\bfseries\color{accent}V\quad MULTI-ROLE FAILURES AND DESIGN PRINCIPLES\par}\vspace{3pt}{\sffamily\small Failure analysis, seven principles, and a reference architecture.\par}\vspace{14pt}
+\vfill\hrule\vspace{9pt}{\sffamily\small Four experimental reports and a concluding design synthesis.\par}
+\vspace{14pt}{\sffamily\small Collected Edition v1.4\par 3 November 2026\quad\textbullet\quad MRSI-COLLECTED-1.4\par}
+\clearpage\section{Series Summary}\label{series-summary}
+{\sffamily\color{teal}\large From correct answers to traceable records and decisions\par}\medskip
+A correct answer can carry an incorrect source identifier. A system can faithfully read a stale record or faithfully follow a poor agreement. These four exploratory reports examine what must be evaluated separately when LLM roles retain their own information and judgments while sharing records and coordinating action. Synthetic two- and three-role tasks trace generated responses through actual saved notes or votes, the inputs supplied to later calls, and subsequent use.
+
+\textbf{Paper 1 — Content and provenance.} Correct decisions coexisted with incorrect origin IDs that persisted into later responses. Model-based selection followed by deterministic copying preserved the targeted shared observations, while defects in other fields and subsequent readout prevented an established end-to-end advantage over rewriting. A revocation diagnostic distinguished completing a justified change from appropriately deferring when its target could not be identified.
+
+\textbf{Paper 2 — Scope of update control.} A correct joint answer could conceal stale private observations. Conversely, repairing those observations could leave overall success unchanged because a shared-field defect remained. Comparisons using the same update proposals exposed both relationships. Continued use supported two cycles of observation updates, yet a separate customer-update diagnostic showed old notices undoing legitimate new preferences.
+
+\textbf{Paper 3 — Judgment and agreement.} Supplying computational summaries earlier supported correct intermediate role-specific judgments, even when final-use outcomes were correct under both timing conditions. Correct own judgments and available candidate totals nevertheless coexisted with acceptance of a suboptimal agreement, which was then used faithfully. Fixed-input repetitions further showed that the same combined failure could conceal different defective components.
+
+\textbf{Paper 4 — Actual votes and approval states.} A recorded hold on an appropriate proposal was faithfully respected by subsequent readers. In a matched three-state comparison, one missing vote became an explicit hold in the readout while agreement and execution were correctly deferred. Appropriate voting, fidelity to received votes, and accurate individual approval records therefore require separate checks.
+
+\textbf{Technical synthesis — From observations to design.} Six failure observations motivate seven design principles, a reference architecture, and executable examples. The central task is to preserve whose information or expressed position justifies each next action: bind content to provenance, identify the scope of updates and controls, separate own judgments from joint assignments, and distinguish proposal assessment, actual votes, agreement, and execution authorization.
+
+\textbf{Scope.} The collection retains each study's evaluation units and limitations; counts are not pooled. Small synthetic tasks do not establish general reliability or the causal effect of increasing role count. The synthesis adds no new experiment, and the complete proposed architecture has not been validated in an end-to-end LLM comparison.
+
+\clearpage\section{Master Contents}\label{contents-1}
+{\sffamily\color{teal}\small PAPER 1\quad/\quad GLOBAL PDF PAGES 8--33\par}
+\medskip{\raggedright\sffamily\bfseries\fontsize{14}{18}\selectfont Maintaining Role-Specific Information and Shared Records in LLM Memory Updates\par}
+{\sffamily\fontsize{11}{15}\selectfont An Exploratory Evaluation of Content, Provenance, and Continued Use\par}
+\medskip English v1.0\hfill 26 pages\par\medskip
+\begingroup\fontsize{9.5}{12.5}\selectfont\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.72\linewidth}>{\raggedleft\arraybackslash}p{.12\linewidth}>{\raggedleft\arraybackslash}p{.12\linewidth}@{}}
+\toprule Section & PDF page & Paper page\\\midrule
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-8}{Title and abstract} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-8}{8} & 1 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-9}{1. Introduction} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-9}{9} & 2 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-9}{2. Related Work} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-9}{9} & 2 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-10}{3. Task and Memory System} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-10}{10} & 3 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-12}{4. Evaluation Methods} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-12}{12} & 5 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-15}{5. Results} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-15}{15} & 8 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-18}{6. Discussion} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-18}{18} & 11 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-19}{7. Limitations and Reproducibility} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-19}{19} & 12 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-20}{8. Conclusion} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-20}{20} & 13 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-21}{9. Ethics, Competing Interests, Author Contributions, and Data Availability} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-21}{21} & 14 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-22}{References} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-22}{22} & 15 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-23}{Appendix A. Scope of the Included Trials} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-23}{23} & 16 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-28}{Appendix B. Evidence and Reproduction Resources} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-28}{28} & 21 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-29}{Appendix C. Implementation and Evaluation Principles} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-29}{29} & 22 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-29}{Appendix D. Interval Estimates and Post Hoc Descriptive Supplements} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-29}{29} & 22 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-33}{Appendix E. Post Hoc Reference Analysis after a One-Brace Correction} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-33}{33} & 26 \\
+\bottomrule\end{longtable}\endgroup
+\vfill{\small PDF page is the page in this collected edition; Paper page is the page number printed in the standalone report. Click a section or use the PDF bookmarks to navigate. The individual reports retain their own pagination and evidence links.\par}
+\clearpage\section{Master Contents}\label{contents-2}
+{\sffamily\color{teal}\small PAPER 2\quad/\quad GLOBAL PDF PAGES 34--51\par}
+\medskip{\raggedright\sffamily\bfseries\fontsize{14}{18}\selectfont Scope of Update Control in Private and Shared LLM Records\par}
+{\sffamily\fontsize{11}{15}\selectfont Field-Level Comparisons and Post-Update Rollback\par}
+\medskip English v1.0\hfill 18 pages\par\medskip
+\begingroup\fontsize{9.5}{12.5}\selectfont\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.72\linewidth}>{\raggedleft\arraybackslash}p{.12\linewidth}>{\raggedleft\arraybackslash}p{.12\linewidth}@{}}
+\toprule Section & PDF page & Paper page\\\midrule
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-34}{Title and abstract} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-34}{34} & 1 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-35}{1. Introduction} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-35}{35} & 2 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-35}{2. Related Work} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-35}{35} & 2 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-37}{3. Task and System} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-37}{37} & 4 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-39}{4. Evaluation Methods} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-39}{39} & 6 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-42}{5. Results} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-42}{42} & 9 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-45}{6. Discussion} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-45}{45} & 12 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-46}{7. Scope and Limitations} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-46}{46} & 13 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-47}{8. Conclusion} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-47}{47} & 14 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-47}{9. Data Availability and Declarations} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-47}{47} & 14 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-49}{References} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-49}{49} & 16 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-50}{Appendix A. Entry Points and Supplementary Analyses Preserving Formal Outcomes} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-50}{50} & 17 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-50}{Appendix B. Implementation and Aggregation Details} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-50}{50} & 17 \\
+\bottomrule\end{longtable}\endgroup
+\vfill{\small PDF page is the page in this collected edition; Paper page is the page number printed in the standalone report. Click a section or use the PDF bookmarks to navigate. The individual reports retain their own pagination and evidence links.\par}
+\clearpage\section{Master Contents}\label{contents-3}
+{\sffamily\color{teal}\small PAPER 3\quad/\quad GLOBAL PDF PAGES 52--66\par}
+\medskip{\raggedright\sffamily\bfseries\fontsize{14}{18}\selectfont Separating the Stability of Role-Specific Judgments from the Quality of Joint Agreements\par}
+{\sffamily\fontsize{11}{15}\selectfont Timing of Computational Support and Fixed-Input Repetitions in a Two-Role LLM Task\par}
+\medskip English v1.0\hfill 15 pages\par\medskip
+\begingroup\fontsize{9.5}{12.5}\selectfont\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.72\linewidth}>{\raggedleft\arraybackslash}p{.12\linewidth}>{\raggedleft\arraybackslash}p{.12\linewidth}@{}}
+\toprule Section & PDF page & Paper page\\\midrule
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-52}{Title and abstract} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-52}{52} & 1 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-53}{1. Introduction} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-53}{53} & 2 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-53}{2. Related Work} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-53}{53} & 2 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-54}{3. Task: Separating a Role's Recommendation from Its Joint Assignment} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-54}{54} & 3 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-55}{4. Methods} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-55}{55} & 4 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-59}{5. Results} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-59}{59} & 8 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-61}{6. Discussion} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-61}{61} & 10 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-62}{7. Scope and Limitations} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-62}{62} & 11 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-63}{8. Conclusion} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-63}{63} & 12 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-63}{9. Ethics, Author Contributions, and Data Availability} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-63}{63} & 12 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-64}{References} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-64}{64} & 13 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-65}{Appendix A. Task and Evaluation Scope Established by the Preceding Exploration} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-65}{65} & 14 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-65}{Appendix B. Progression Criteria, Constructed Diagnostics, and Implementation} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-65}{65} & 14 \\
+\bottomrule\end{longtable}\endgroup
+\vfill{\small PDF page is the page in this collected edition; Paper page is the page number printed in the standalone report. Click a section or use the PDF bookmarks to navigate. The individual reports retain their own pagination and evidence links.\par}
+\clearpage\section{Master Contents}\label{contents-4}
+{\sffamily\color{teal}\small PAPER 4\quad/\quad GLOBAL PDF PAGES 67--83\par}
+\medskip{\raggedright\sffamily\bfseries\fontsize{14}{18}\selectfont Boundaries Between Role-Specific Judgment, Individual Approval, and Group Agreement in Three LLM Roles\par}
+{\sffamily\fontsize{11}{15}\selectfont Carrying Actual Votes Forward and Comparing Matched Approval States\par}
+\medskip English v1.0\hfill 17 pages\par\medskip
+\begingroup\fontsize{9.5}{12.5}\selectfont\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.72\linewidth}>{\raggedleft\arraybackslash}p{.12\linewidth}>{\raggedleft\arraybackslash}p{.12\linewidth}@{}}
+\toprule Section & PDF page & Paper page\\\midrule
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-67}{Title and abstract} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-67}{67} & 1 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-68}{1. Problem Setting and Contributions} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-68}{68} & 2 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-68}{2. Related Work} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-68}{68} & 2 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-69}{3. Task and Evaluated Boundaries} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-69}{69} & 3 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-72}{4. Methods} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-72}{72} & 6 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-74}{5. Results} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-74}{74} & 8 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-77}{6. Discussion} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-77}{77} & 11 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-78}{7. Scope and Limitations} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-78}{78} & 12 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-79}{8. Conclusion} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-79}{79} & 13 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-79}{9. Data Availability and Research Disclosures} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-79}{79} & 13 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-80}{Appendix A. Cases, Replicates, and Response Counts} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-80}{80} & 14 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-80}{Appendix B. Output Contracts and Metric Definitions} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-80}{80} & 14 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-81}{Appendix C. Execution Settings and Reproducibility Scope} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-81}{81} & 15 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-82}{Appendix D. Evidence Entry Points} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-82}{82} & 16 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-83}{References} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-83}{83} & 17 \\
+\bottomrule\end{longtable}\endgroup
+\vfill{\small PDF page is the page in this collected edition; Paper page is the page number printed in the standalone report. Click a section or use the PDF bookmarks to navigate. The individual reports retain their own pagination and evidence links.\par}
+\clearpage\section{Master Contents}\label{contents-5}
+{\sffamily\color{teal}\small TECHNICAL SYNTHESIS\quad/\quad GLOBAL PDF PAGES 84--113\par}
+\medskip{\raggedright\sffamily\bfseries\fontsize{14}{18}\selectfont Failure Analysis and Design Principles for Multi-Role LLM Systems\par}
+{\sffamily\fontsize{11}{15}\selectfont Boundaries of Records, Approval, and Joint Use in Two- and Three-Role Tasks\par}
+\medskip English v0.3\hfill 30 pages\par\medskip
+\begingroup\fontsize{9.5}{12.5}\selectfont\renewcommand{\arraystretch}{1.18}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{.72\linewidth}>{\raggedleft\arraybackslash}p{.12\linewidth}>{\raggedleft\arraybackslash}p{.12\linewidth}@{}}
+\toprule Section & PDF page & Paper page\\\midrule
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-84}{Title and abstract} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-84}{84} & 1 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-85}{1. Goal: Preserve Each Role's Judgment While Working Together} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-85}{85} & 2 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-85}{2. What the Roles Were Asked to Do} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-85}{85} & 2 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-87}{3. Units of Failure Analysis: Record Fields and Stage Boundaries} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-87}{87} & 4 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-88}{4. Failure Analysis: What Was Tested and What Each Actor Got Wrong} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-88}{88} & 5 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-94}{5. Seven Design Principles for Connecting Private and Shared Activity} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-94}{94} & 11 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-99}{6. A Reference Architecture Connecting the Principles} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-99}{99} & 16 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-101}{7. Evaluation: Allow Appropriate Progress and Stop Inappropriate Progress} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-101}{101} & 18 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-102}{8. Scope and Further Development of the Design Principles} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-102}{102} & 19 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-103}{9. Conclusion} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-103}{103} & 20 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-103}{10. Author Contributions and Data Availability} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-103}{103} & 20 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-104}{References} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-104}{104} & 21 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-105}{Appendix A. From Failure Observations to Design and Verification} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-105}{105} & 22 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-105}{Appendix B. A One-Page Record for Design Review} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-105}{105} & 22 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-105}{Appendix C. Experimental Records and Organizational References} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-105}{105} & 22 \\
+\href{https://github.com/metaSATOKEN/MRSI#collected-page-107}{Appendix D. Complete Code, Inputs, and Execution Instructions} & \href{https://github.com/metaSATOKEN/MRSI#collected-page-107}{107} & 24 \\
+\bottomrule\end{longtable}\endgroup
+\vfill{\small PDF page is the page in this collected edition; Paper page is the page number printed in the standalone report. Click a section or use the PDF bookmarks to navigate. The individual reports retain their own pagination and evidence links.\par}
+\end{document}

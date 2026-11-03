@@ -4,6 +4,8 @@
 Independent Researcher  
 Contact: `info@metaclan.jp`
 
+English version v1.0
+
 ## Abstract
 
 When an LLM continues to use private information and shared records, the correctness of a joint answer and the freshness of each record are distinct evaluation targets. We ran the same Qwen3.5-27B model as two roles in separate contexts on a synthetic task: retaining each assigned customer's dog-or-cat preference while combining both roles' observations to choose paper or digital guidance. We explored which record fields and update stages were supported by dividing responsibilities between the model and deterministic processing. Model proposals, actual saved notes, subsequent inputs, and later responses were linked to distinguish record correctness from readout fidelity.
@@ -332,9 +334,9 @@ The result within this fixed task is an evaluation that specifies success by con
 
 ## 9. Data Availability and Declarations
 
-This is an internal English manuscript based on the finalized Japanese version. The materials consist of fictional customer preferences and venue observations; this trial series uses no real customer information or personal social-media posts. Raw responses, inputs, actual saved artifacts, scoring code, environment records, and hash lists are retained locally. [Supplement S1](evidence-index-en-v0.1-2026-09-27.md) maps the main results to their evidence. These research materials are retained without a deletion deadline under the trials' storage policies.
+This English edition is based on the finalized Japanese version. The materials consist of fictional customer preferences and venue observations; this trial series uses no real customer information or personal social-media posts. Raw responses, inputs, actual saved artifacts, scoring code, environment records, and hash lists are retained locally. [Supplement S1](evidence-index-en-v0.1-2026-09-27.md) maps the main results to their evidence. These research materials are retained without a deletion deadline under the trials' storage policies.
 
-A public repository, DOI, and data license have not yet been assigned. A public release will link manuscript and evidence versions so that readers can inspect saved artifacts and scoring. Current relative links refer to files within the research workspace.
+The [MRSI repository](https://github.com/metaSATOKEN/MRSI) distributes the manuscript and evidence under [Apache 2.0](../../LICENSE_STATUS.md), with [current reproduction instructions](../../RUNNING.md). A permanent archive DOI for this paper has not been assigned. Links in the PDF point to versioned GitHub resources; the Markdown edition uses relative repository paths.
 
 The author determined the research direction, authorized execution, ran the model in Colab, and reviewed the manuscript. LLM assistance was used for design documents, implementation, deterministic scorers, offline verification, and writing. Funding, conflicts of interest, and author-contribution declarations for public release remain subject to the author's final confirmation.
 

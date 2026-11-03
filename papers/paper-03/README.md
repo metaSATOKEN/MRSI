@@ -4,4 +4,6 @@
 
 [Evidence and recorded outputs](S1.md) · [Figures](figures/) · [Related literature](related-work.md) · [Evidence extraction code](../../reference-code/paper03/extract_evidence.py)
 
+[TeX source](MRSI_Paper3-en-v1.0.tex) · [PDF build instructions](../BUILDING_PDFS.md)
+
 [All papers and collected edition](../README.md)

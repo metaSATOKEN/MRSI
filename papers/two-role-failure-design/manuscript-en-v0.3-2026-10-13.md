@@ -5,7 +5,7 @@
 Independent Researcher  
 Contact: info@metaclan.jp ([email](mailto:info@metaclan.jp))
 
-October 13, 2026 | English draft v0.3 | Internal technical report; unpublished
+October 13, 2026 | English version v0.3
 
 ## Abstract
 
@@ -482,9 +482,9 @@ Supporting role-specific and joint activity requires more than freezing each rol
 
 ## 10. Author Contributions and Data Availability
 
-The author determined the research direction and execution scope and reviewed the results and manuscripts of the four source reports. This English version is a draft for author review. LLM assistance was used for organizing materials, drafting, translation, and checking. Preparing this synthesis involved no new model experiments, repair of original responses, or rescoring of research outcomes. All customers, venues, and experiences are fictional.
+The author determined the research direction and execution scope and reviewed the results and manuscripts of the four source reports. This English edition accompanies the four experimental reports. LLM assistance was used for organizing materials, drafting, translation, and checking. Preparing this synthesis involved no new model experiments, repair of original responses, or rescoring of research outcomes. All customers, venues, and experiences are fictional.
 
-The four reports, experimental materials, and evidence index are stored privately and locally without a deletion deadline. Tasks, manipulations, and results needed to understand this report are included here. Appendix C and the references identify the evidence sources; S1 links to original results and saved-artifact checks. The author will determine the public archive, persistent identifiers, license, and formal funding and conflict-of-interest declarations during publication preparation.
+The four reports, experimental materials, and evidence index are retained without a deletion deadline and distributed in the [MRSI repository](https://github.com/metaSATOKEN/MRSI). Tasks, manipulations, and results needed to understand this report are included here. Appendix C and the references identify the evidence sources; S1 links to original results and saved-artifact checks. The repository specifies [Apache 2.0 licensing](../../LICENSE_STATUS.md), [distribution scope](../../PUBLICATION_SCOPE.md), and [current reproduction instructions](../../RUNNING.md). A permanent archive DOI for this report has not been assigned. Formal funding and conflict-of-interest declarations remain subject to the author's confirmation.
 
 ## References
 

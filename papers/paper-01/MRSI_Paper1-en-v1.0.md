@@ -4,6 +4,8 @@
 Independent Researcher  
 Contact: `info@metaclan.jp`
 
+English version v1.0
+
 ## Abstract
 
 When LLM agents share records over successive tasks, can they preserve information specific to each role and its provenance? We ran the same LLM as two roles in separate contexts on synthetic tasks requiring each role to retain its assigned customer's dog-or-cat preference while combining both roles' observations to choose paper or digital guidance. Saved notes were passed to subsequent calls to evaluate decision correctness, content–provenance correspondence, and revocation: invalidating a previously recorded observation using its provenance.
@@ -332,7 +334,7 @@ The materials comprise fictional customers and synthetic observations. Model out
 
 LLM assistance was used in design, implementation, execution procedures, scoring rules and code, and writing. Responses from the model under study were scored by fixed Python code (Appendix C.2). Interpretation of examples and LLM reader feedback were separate from the process that produced formal outcome labels. Detailed author contributions, funding, and competing-interest declarations will be finalized by the author before public release.
 
-Data and code have been assembled in a local reproduction package under the approved retention policy with no deletion deadline (Appendix B). This manuscript is intended for release as a preprint on Zenodo. The manuscript and reproduction materials remain unpublished; release scope, licenses, DOI, and a backup on separate media are not yet finalized. Authentication credentials, account identifiers, and raw communication headers are excluded from materials proposed for release.
+Data and code are distributed in the accompanying [MRSI repository](https://github.com/metaSATOKEN/MRSI) under the approved retention policy with no deletion deadline (Appendix B). The repository provides [distribution scope](../../PUBLICATION_SCOPE.md), [Apache 2.0 license information](../../LICENSE_STATUS.md), and [current reproduction instructions](../../RUNNING.md). A permanent archive DOI for this paper has not been assigned. Authentication credentials, account identifiers, and raw communication headers are excluded from the distributed materials.
 
 ## References
 
@@ -482,7 +484,7 @@ E1's ID format was not randomly compared against the earlier format, and the int
 
 ## Appendix B. Evidence and Reproduction Resources
 
-[Supplement S1: reproduction package](../../evidence/paper-01/README.md) provides a portable manuscript, figures, implementation supplement, materials, instructions, allocations, responses, saved states, subsequent inputs, scoring code, hashes, and computational reproduction. Figures and supplementary materials use relative paths in both this manuscript and the packaged version. The existing package contains the Japanese manuscript and supporting documentation; the English manuscript is a separate working edition.
+[Supplement S1: reproduction package](../../evidence/paper-01/README.md) provides a portable manuscript, figures, implementation supplement, materials, instructions, allocations, responses, saved states, subsequent inputs, scoring code, hashes, and computational reproduction. The repository includes English and Japanese manuscripts, figures, and supporting documentation. Links in the PDF point to versioned GitHub resources; the Markdown edition uses relative paths within the repository.
 
 The package contains 1,127 original responses. Frozen evaluators rescore 704 E1/E2 responses and 88 SM02/RC01/RC02 responses, totaling 792. The other eight trials contribute 335 responses preserved with their original evidence, saved aggregates, and frozen code. The 31 files containing the earlier scoring code and its local dependencies retain their original bytes. Formal and post hoc reference tables are regenerated separately from saved evidence, without issuing model requests with changed instructions or scoring.
 

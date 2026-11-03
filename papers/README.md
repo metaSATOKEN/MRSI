@@ -1,8 +1,10 @@
 # MRSI papers
 
-Read the four reports and their design synthesis together in the [collected edition (English PDF, 148 pages)](mrsi_series_collected_edition.pdf). For a single report or its experimental records, choose a row below.
+Read the four reports and their design synthesis together in the [collected edition (English PDF, 113 pages, v1.4)](mrsi_series_collected_edition.pdf). For a single report or its experimental records, choose a row below.
 
-The v1.0 filenames identify the distributed copies of Papers 1–4. Version labels inside the papers identify the original manuscripts.
+Papers 1–4 use English version v1.0; the technical synthesis retains v0.3. The collected edition includes a new cover, a one-page series summary, clickable master contents, and hierarchical PDF bookmarks. The five reports retain their standalone pagination.
+
+[Read the series summary](collected-edition.md) · [Build the PDFs from TeX](BUILDING_PDFS.md)
 
 | Report | Manuscript | Supporting records |
 |---|---|---|

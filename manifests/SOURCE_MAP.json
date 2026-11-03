@@ -1,4 +1,16 @@
 {
+  "README.md": {
+    "sha256": "57b1f369b5d1294e956ccd9fb3a462ada361e73cf38bf5cdd2692cf0c09d02b2",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "57b1f369b5d1294e956ccd9fb3a462ada361e73cf38bf5cdd2692cf0c09d02b2",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+  },
+  "README_ja.md": {
+    "sha256": "e12e2a6cf0c0e9c1e5e5e9a298d1845b7e13924df6c2a684586293987341f6d7",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "e12e2a6cf0c0e9c1e5e5e9a298d1845b7e13924df6c2a684586293987341f6d7",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+  },
   "docs/study2/agreement-confirm-01-connection-v0.1-2026-09-28.md": {
     "sha256": "52d7f61bd04753de27af5f8b71f930945472a7810290839a8b4cba56838ec63d",
     "source": "study2/agreement-confirm-01-connection-v0.1-2026-09-28.md",
@@ -363329,23 +363341,77 @@
     "source_sha256": "bdbadb36d3ed90aa3fec52bbbe0c44286e2571867510514a8d82618a5dd9f3b7",
     "transform": "unchanged ZIP member"
   },
+  "papers/BUILDING_PDFS.md": {
+    "sha256": "ee7e07563358090cc9ede0882e73be372e21ab7241390868c83a40906a74149e",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "ee7e07563358090cc9ede0882e73be372e21ab7241390868c83a40906a74149e",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+  },
+  "papers/README.md": {
+    "sha256": "531c8bdc67da2dd693d94f47b416eabd83f238faaf972e6af8ca7031d9d6d3db",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "531c8bdc67da2dd693d94f47b416eabd83f238faaf972e6af8ca7031d9d6d3db",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+  },
+  "papers/build_collected.py": {
+    "sha256": "c94fb2a784678c885b68d737e41f53e429ad99c6601cd2b937c54d650fa421ab",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "c94fb2a784678c885b68d737e41f53e429ad99c6601cd2b937c54d650fa421ab",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+  },
+  "papers/collected-edition.md": {
+    "sha256": "8a605f911a972670ff250832c4ab08220c0df16d96c237349e9fb273ed02b0f1",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "8a605f911a972670ff250832c4ab08220c0df16d96c237349e9fb273ed02b0f1",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+  },
+  "papers/collected_edition_frontmatter.tex": {
+    "sha256": "f7e12b920e504e7dd75df643c71db07b1fd251d16b5dbe667a7c8c28257ebf1f",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "f7e12b920e504e7dd75df643c71db07b1fd251d16b5dbe667a7c8c28257ebf1f",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+  },
+  "papers/collection.json": {
+    "sha256": "7e4eac59c9a62dc283bd244fa6b97286a9e1f1326899313cd823f66adfdfb2f9",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "7e4eac59c9a62dc283bd244fa6b97286a9e1f1326899313cd823f66adfdfb2f9",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+  },
+  "papers/mrsi_series_collected_edition.pdf": {
+    "sha256": "794aba75df1677b875dce153be8ecbe63cf9f331339c248016ee0f143c93d4fb",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "794aba75df1677b875dce153be8ecbe63cf9f331339c248016ee0f143c93d4fb",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+  },
   "papers/paper-01/MRSI_Paper1-en-v1.0.md": {
-    "sha256": "15db8aaf22b35a12f9c06c19b43857037d2825293233e1727ec1d842bda391f5",
+    "sha256": "2dc19369835df793fe4d6a8916d53f1c98d0fbd13d7effa710964b938184fa76",
     "source": "papers/paper-01/manuscript-en-v0.2-2026-09-23.md",
     "source_sha256": "13cf474d85ad414a0a9475d17981ca8d01cf0eadd29b0438aeafd3cf7fc5284b",
-    "transform": "Public documentation, navigation or implementation adapted to the repository layout."
+    "transform": "Public documentation, navigation or implementation adapted to the repository layout.; English PDF typesetting, publication navigation, or collection metadata updated 2026-11-03"
   },
   "papers/paper-01/MRSI_Paper1-en-v1.0.pdf": {
-    "sha256": "174b3369ca13a63097de3bd38c2ef53f215b1d6b4b48e580f83d88e47fbec24e",
+    "sha256": "131aa4925c201f5877c44da4890c9628589b3ec37ca802c5c96f179f7fdcd400",
     "source": "papers/paper-01/mrsi_memory_updates.pdf",
     "source_sha256": "174b3369ca13a63097de3bd38c2ef53f215b1d6b4b48e580f83d88e47fbec24e",
-    "transform": "byte-for-byte"
+    "transform": "byte-for-byte; English PDF typesetting, publication navigation, or collection metadata updated 2026-11-03"
+  },
+  "papers/paper-01/MRSI_Paper1-en-v1.0.tex": {
+    "sha256": "8d220e1fa4b3edf7aaed77b1f74e73970febee0a6018fc2f81ff05a742eb44df",
+    "source": "papers/paper-01/MRSI_Paper1-en-v1.0.md",
+    "source_sha256": "2dc19369835df793fe4d6a8916d53f1c98d0fbd13d7effa710964b938184fa76",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/paper-01/MRSI_Paper1-ja-v1.0.md": {
     "sha256": "04b5d5ec864c70efb27a50a67f850b99aa30ef4fc108dfbcd2671f2d8433a522",
     "source": "papers/paper-01/manuscript-v0.11-2026-09-23.md",
     "source_sha256": "d9a2779318156bc0e7631fa3357237f2382a2dd81132194bcedfb6079f1d2038",
     "transform": "Public documentation, navigation or implementation adapted to the repository layout."
+  },
+  "papers/paper-01/README.md": {
+    "sha256": "cb7d773c8c54f1cb5378ace22596ad5c7a99c2204dcd3beb0680c99bb155866f",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "cb7d773c8c54f1cb5378ace22596ad5c7a99c2204dcd3beb0680c99bb155866f",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/paper-01/examples-v0.1-2026-09-23.md": {
     "sha256": "34e1ba0b1cb2795c5d26b926628535d8873523a1d7976b83a0752065d8d84c6b",
@@ -363444,22 +363510,34 @@
     "transform": "local Markdown navigation only; unavailable references made plain text"
   },
   "papers/paper-02/MRSI_Paper2-en-v1.0.md": {
-    "sha256": "c4bc0869eccd49ebf958946e88b1087290a4f290affd5b5375406270e8d85c97",
+    "sha256": "26aa1506087c32a38bb0065d5c23e54e0a0def492104e231495a55ca1dfe8031",
     "source": "papers/paper-02/manuscript-en-v0.1-2026-09-27.md",
     "source_sha256": "0415c6f5816d37e83929b925e43fd96d4c9d618a4006172e5fbc5507df5f5dc5",
-    "transform": "local Markdown navigation only; unavailable references made plain text; author contact corrected on 2026-10-14"
+    "transform": "local Markdown navigation only; unavailable references made plain text; author contact corrected on 2026-10-14; English PDF typesetting, publication navigation, or collection metadata updated 2026-11-03"
   },
   "papers/paper-02/MRSI_Paper2-en-v1.0.pdf": {
-    "sha256": "8266ff01e54c8d4cf08ee035f823a9edf6ef61765f7758112e1304c53434e2c3",
+    "sha256": "70a36b8472f9ca6ce478b24d992ea6a8b071022b6e9ee85c3401134e432955a4",
     "source": "papers/paper-02/manuscript-en-v0.1-2026-09-27.pdf",
     "source_sha256": "8266ff01e54c8d4cf08ee035f823a9edf6ef61765f7758112e1304c53434e2c3",
-    "transform": "byte-for-byte"
+    "transform": "byte-for-byte; English PDF typesetting, publication navigation, or collection metadata updated 2026-11-03"
+  },
+  "papers/paper-02/MRSI_Paper2-en-v1.0.tex": {
+    "sha256": "c03f28d8ce1186edf5b012af76999edf5fd33ec4514e1543dedd58c053661933",
+    "source": "papers/paper-02/MRSI_Paper2-en-v1.0.md",
+    "source_sha256": "26aa1506087c32a38bb0065d5c23e54e0a0def492104e231495a55ca1dfe8031",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/paper-02/MRSI_Paper2-ja-v1.0.md": {
     "sha256": "d1129bbcd12e7d19b35a9dccd0dcd24f2c14639147263cfa22cb42325aa56462",
     "source": "papers/paper-02/manuscript-ja-v0.4-2026-09-27.md",
     "source_sha256": "e369c3335335d455d201866b90a0cfc53abe98cbcf7ee2e33b46425d465c10fb",
     "transform": "local Markdown navigation only; unavailable references made plain text; author contact corrected on 2026-10-14"
+  },
+  "papers/paper-02/README.md": {
+    "sha256": "0e3e4e35ab87d4fd68f10422be622831988cbae11672b6d8b895ead53891211b",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "0e3e4e35ab87d4fd68f10422be622831988cbae11672b6d8b895ead53891211b",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/paper-02/evidence-index-en-v0.1-2026-09-27.md": {
     "sha256": "c7c2318bf96f8221fc57e69a73d7318dd1a79e7783ba937dc84717cd6729cbaa",
@@ -363528,22 +363606,34 @@
     "transform": "byte-for-byte"
   },
   "papers/paper-03/MRSI_Paper3-en-v1.0.md": {
-    "sha256": "253260972950845be2c341d7501ca620e17fe2fe80c09a3a959fede8bbcbcb97",
+    "sha256": "7a3913378ad18c74c8929fffbf6a678335ffa915a5c5d74602bf51ea89b3bd77",
     "source": "papers/paper-03/manuscript-en-v0.1-2026-09-29.md",
     "source_sha256": "3c71f6a4decb2558b808ea7819dfd4a404390e5511d917eccc3749a2dbb38e7b",
-    "transform": "Public documentation, navigation or implementation adapted to the repository layout."
+    "transform": "Public documentation, navigation or implementation adapted to the repository layout.; English PDF typesetting, publication navigation, or collection metadata updated 2026-11-03"
   },
   "papers/paper-03/MRSI_Paper3-en-v1.0.pdf": {
-    "sha256": "581246aab9ecd56ddac7c81bbefb6866bae412bc3f1dabcad7d3742f50a08b4d",
+    "sha256": "c0141585457791b0cc51a66a58eba09c57b470077c8d1902a8634de4bf916d38",
     "source": "papers/paper-03/manuscript-en-v0.1-2026-09-29.pdf",
     "source_sha256": "581246aab9ecd56ddac7c81bbefb6866bae412bc3f1dabcad7d3742f50a08b4d",
-    "transform": "byte-for-byte"
+    "transform": "byte-for-byte; English PDF typesetting, publication navigation, or collection metadata updated 2026-11-03"
+  },
+  "papers/paper-03/MRSI_Paper3-en-v1.0.tex": {
+    "sha256": "3606fe8d436d0e649c8bd94d4f0cf165eeae876f869bb2650b82c534a2b255db",
+    "source": "papers/paper-03/MRSI_Paper3-en-v1.0.md",
+    "source_sha256": "7a3913378ad18c74c8929fffbf6a678335ffa915a5c5d74602bf51ea89b3bd77",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/paper-03/MRSI_Paper3-ja-v1.0.md": {
     "sha256": "db43b505dfd29ca299677beeed874f90833cd60c6201d1b15c224dddf382ca3a",
     "source": "papers/paper-03/manuscript-ja-v0.2-2026-09-29.md",
     "source_sha256": "61f974a675731f345bfb7ae6f296d03db0d42bad9a0734a3e1bb74786e268ec0",
     "transform": "Public documentation, navigation or implementation adapted to the repository layout."
+  },
+  "papers/paper-03/README.md": {
+    "sha256": "336290a13ba9d3186e8371330cb0fe57a2fc0b0a8e73af24a2f735984b59da1c",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "336290a13ba9d3186e8371330cb0fe57a2fc0b0a8e73af24a2f735984b59da1c",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/paper-03/evidence-extract-v0.1-2026-09-29.json": {
     "sha256": "bd6aca9d932762f28ab63357f31d36a9d6f2a7264553d3060f55b99b814b5865",
@@ -363612,22 +363702,34 @@
     "transform": "Public documentation, navigation or implementation adapted to the repository layout."
   },
   "papers/paper-04/MRSI_Paper4-en-v1.0.md": {
-    "sha256": "db600dacb43688bb4776a6ab377fd3ebc5e71fb80d5b4c4a415e3fb3e2745c2a",
+    "sha256": "c3cacf6465cbfbf09f3a12687cdeff558adb677860bb22789b1703de6075f3cb",
     "source": "papers/paper-04/manuscript-en-v0.1-2026-10-13.md",
     "source_sha256": "449962aa92deb7cc4509dea8425af9f225f1ec951084e6541ef722c11137ef2f",
-    "transform": "Public documentation, navigation or implementation adapted to the repository layout."
+    "transform": "Public documentation, navigation or implementation adapted to the repository layout.; English PDF typesetting, publication navigation, or collection metadata updated 2026-11-03"
   },
   "papers/paper-04/MRSI_Paper4-en-v1.0.pdf": {
-    "sha256": "2e3b97ea980f668b76613d1ad4369cc29e6dbc13e5a54a183723d4f904af10f7",
+    "sha256": "f96be1e76b2027bfbbbb217d78f3bdf0205df666c626bf55d3199f14f6813998",
     "source": "papers/paper-04/manuscript-en-v0.1-2026-10-13.pdf",
     "source_sha256": "2e3b97ea980f668b76613d1ad4369cc29e6dbc13e5a54a183723d4f904af10f7",
-    "transform": "byte-for-byte"
+    "transform": "byte-for-byte; English PDF typesetting, publication navigation, or collection metadata updated 2026-11-03"
+  },
+  "papers/paper-04/MRSI_Paper4-en-v1.0.tex": {
+    "sha256": "371fc2ce4b161ce0b2a47d0c41ecbb4a3d86ca8ec85794e214a07072bbe555ca",
+    "source": "papers/paper-04/MRSI_Paper4-en-v1.0.md",
+    "source_sha256": "c3cacf6465cbfbf09f3a12687cdeff558adb677860bb22789b1703de6075f3cb",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/paper-04/MRSI_Paper4-ja-v1.0.md": {
     "sha256": "875980051d9dad705ce928647104a4da30e21cfe6282f0d52a24346e461220dc",
     "source": "papers/paper-04/manuscript-ja-v0.2-2026-10-13.md",
     "source_sha256": "0d28a6a05f79475455fb8c30bd703dd80775513c82c5f044756d560b9328f43d",
     "transform": "Public documentation, navigation or implementation adapted to the repository layout."
+  },
+  "papers/paper-04/README.md": {
+    "sha256": "7e199654224a31f1c43836654850f6b52e8cf6b4656838b3a57fd46a0a5b5a65",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "7e199654224a31f1c43836654850f6b52e8cf6b4656838b3a57fd46a0a5b5a65",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/paper-04/evidence-extract-v0.1-2026-10-13.json": {
     "sha256": "9fca1dc285d9b487c0698eaf5a77774601145bfa4d9daa43e464330c259d3eec",
@@ -363694,6 +363796,18 @@
     "source": "papers/paper-04/related-work-review-v0.1-2026-10-13.md",
     "source_sha256": "a0fe565f97844ca63c849b965651101ec3f3d226c0d80867dd1aad7247ccce3e",
     "transform": "Public documentation, navigation or implementation adapted to the repository layout."
+  },
+  "papers/requirements-pdf.txt": {
+    "sha256": "3ec8922905dc4e3a10c3b46bd7fba023c37ffc309d51c6bed2a13ec3e98177fd",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "3ec8922905dc4e3a10c3b46bd7fba023c37ffc309d51c6bed2a13ec3e98177fd",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+  },
+  "papers/two-role-failure-design/README.md": {
+    "sha256": "e24e54268a972ac13967c053c3b18284d91cf9f9fa547b8433a6dbe4bef5bd1d",
+    "source": "MRSI publication build 2026-11-03",
+    "source_sha256": "e24e54268a972ac13967c053c3b18284d91cf9f9fa547b8433a6dbe4bef5bd1d",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/two-role-failure-design/evidence-index-en-v0.3-2026-10-13.md": {
     "sha256": "3777dd870e6a07cdce652ac416712a344d175e1a2139bee65461393f88dfeb00",
@@ -363786,16 +363900,22 @@
     "transform": "Public documentation, navigation or implementation adapted to the repository layout."
   },
   "papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.md": {
-    "sha256": "380e879a2dc2fcd69c1faf3d6913e776de729c43c6bb0c9fe48d66a43b20f2f3",
+    "sha256": "2da51559be369bb87f85f7d564f345c7c04b7283232274f7975fcf328ee1b4e8",
     "source": "papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.md",
     "source_sha256": "d68b441210f3f67354f64a448acd98bfb63158384423ef3ec3b65b1fb7910701",
-    "transform": "portable Markdown links; unbundled documentary references explicitly identified"
+    "transform": "portable Markdown links; unbundled documentary references explicitly identified; English PDF typesetting, publication navigation, or collection metadata updated 2026-11-03"
   },
   "papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.pdf": {
-    "sha256": "05f5f9cd60f48617a1b7995a50b78a58674864e7498e563bf3c3945502956338",
+    "sha256": "5a236e3e30f49dd831509181248b92a046d24e85fc4e90371ed6667c08126b93",
     "source": "papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.pdf",
     "source_sha256": "05f5f9cd60f48617a1b7995a50b78a58674864e7498e563bf3c3945502956338",
-    "transform": "byte-for-byte"
+    "transform": "byte-for-byte; English PDF typesetting, publication navigation, or collection metadata updated 2026-11-03"
+  },
+  "papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.tex": {
+    "sha256": "0848034d0f3e900208d2a66019d12e5878b113e9d055531486ea3ada3ee076be",
+    "source": "papers/two-role-failure-design/manuscript-en-v0.3-2026-10-13.md",
+    "source_sha256": "2da51559be369bb87f85f7d564f345c7c04b7283232274f7975fcf328ee1b4e8",
+    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/two-role-failure-design/manuscript-ja-v0.6-2026-10-13.md": {
     "sha256": "dfeae39b791cf30416edc118852fca8199e94443c1b530ecf38a2beb436dce17",

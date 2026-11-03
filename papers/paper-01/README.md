@@ -4,4 +4,6 @@
 
 [Evidence and recorded outputs](S1.md) · [Figures](figures/)
 
+[TeX source](MRSI_Paper1-en-v1.0.tex) · [PDF build instructions](../BUILDING_PDFS.md)
+
 [All papers and collected edition](../README.md)

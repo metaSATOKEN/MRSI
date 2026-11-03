@@ -5,6 +5,8 @@
 Independent Researcher  
 Contact: info@metaclan.jp ([email](mailto:info@metaclan.jp))
 
+English version v1.0
+
 ## Abstract
 
 For LLM roles to collaborate while maintaining judgments grounded in their own experience, role-specific recommendations, joint agreement quality, and faithful execution must be evaluated separately. We ran the same Qwen3.5-27B model as two roles in separate contexts. Each role recommended a guidance medium for its own area, while the joint task allocated limited equipment between the roles. Generated role-specific and joint records were passed to subsequent inputs to trace intermediate judgments and final use.
@@ -297,7 +299,7 @@ At the same time, suboptimal acceptance recurred from an input containing a corr
 
 All task materials are synthetic, and the responses are LLM-generated. The study involves no human-participant experiment or personal data from real customers. The author determined the research direction and execution scope, ran the Colab experiments, assessed results, and reviewed the manuscript. LLM assistance was used for design, implementation, scoring code, verification, literature research, and writing. Model-assisted reading and feedback are distinguished from independent peer review or third-party rescoring.
 
-At manuscript preparation, research materials are retained privately without a deletion deadline. [Supplement S1](evidence-index-en-v0.1-2026-09-29.md) links fixed plans, original ZIP archives, aggregates, response diagnostics, and scoring and verification code. A public repository, persistent identifier, and license will be selected during publication preparation. Formal funding and conflict-of-interest declarations require the author's confirmation for the public version.
+Research materials are retained without a deletion deadline and distributed in the [MRSI repository](https://github.com/metaSATOKEN/MRSI). [Supplement S1](evidence-index-en-v0.1-2026-09-29.md) links fixed plans, original ZIP archives, aggregates, response diagnostics, and scoring and verification code. The repository specifies [Apache 2.0 licensing](../../LICENSE_STATUS.md), [distribution scope](../../PUBLICATION_SCOPE.md), and [current reproduction instructions](../../RUNNING.md). A permanent archive DOI for this paper has not been assigned. Formal funding and conflict-of-interest declarations require the author's confirmation for the public version.
 
 ## References
 
