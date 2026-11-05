@@ -1,6 +1,6 @@
 # MRSI papers
 
-Read the four reports and their design synthesis together in the [collected edition (English PDF, 113 pages, v1.4)](mrsi_series_collected_edition.pdf). For a single report or its experimental records, choose a row below.
+Read the four reports and their design synthesis together in the [collected edition (English PDF, 113 pages, v1.4)](mrsi_series_collected_edition.pdf) · [Zenodo DOI](https://doi.org/10.5281/zenodo.23971186). For a single report or its experimental records, choose a row below.
 
 Papers 1–4 use English version v1.0; the technical synthesis retains v0.3. The collected edition includes a new cover, a one-page series summary, clickable master contents, and hierarchical PDF bookmarks. The five reports retain their standalone pagination.
 

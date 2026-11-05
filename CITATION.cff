@@ -11,3 +11,14 @@ authors:
     affiliation: Independent Researcher
     email: info@metaclan.jp
 abstract: "Saved experiment evidence, readable code, and four reports on memory, approval, and collaboration in two- and three-role LLM systems, with a synthesis of failure patterns and design principles."
+
+preferred-citation:
+  type: report
+  title: "LLM Memory, Records, and Continued Use: Content, Provenance, Updates, and Authorization — MRSI Collected Edition"
+  authors:
+    - family-names: Sato
+      given-names: Kentaro
+      affiliation: Independent Researcher
+  year: 2026
+  version: "1.4"
+  doi: "10.5281/zenodo.23971186"

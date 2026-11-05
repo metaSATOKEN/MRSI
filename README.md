@@ -38,7 +38,7 @@ These are exploratory findings from small synthetic tasks. Plan quality is evalu
 
 ## Start reading
 
-Read the four experimental reports and the concluding design synthesis in one volume. [*LLM Memory, Records, and Continued Use* — Collected Edition v1.4 (English PDF, 113 pages)](papers/mrsi_series_collected_edition.pdf)
+Read the four experimental reports and the concluding design synthesis in one volume. [*LLM Memory, Records, and Continued Use* — Collected Edition v1.4 (English PDF, 113 pages)](papers/mrsi_series_collected_edition.pdf) · [Zenodo DOI](https://doi.org/10.5281/zenodo.23971186)
 
 For a standalone overview of the failure patterns and resulting design principles, start with the **technical synthesis**. For the experimental evidence, read Papers 1–4 in order.
 

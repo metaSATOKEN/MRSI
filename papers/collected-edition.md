@@ -6,7 +6,9 @@ Content, Provenance, Updates, and Authorization
 
 Kentaro Sato · Independent Researcher · info@metaclan.jp
 
-3 November 2026
+3 November 2026 · Version DOI: [10.5281/zenodo.23971186](https://doi.org/10.5281/zenodo.23971186)
+
+The collected PDF is also available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Series Summary
 

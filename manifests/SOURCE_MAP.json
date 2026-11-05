@@ -1,15 +1,15 @@
 {
   "README.md": {
-    "sha256": "57b1f369b5d1294e956ccd9fb3a462ada361e73cf38bf5cdd2692cf0c09d02b2",
-    "source": "MRSI publication build 2026-11-03",
-    "source_sha256": "57b1f369b5d1294e956ccd9fb3a462ada361e73cf38bf5cdd2692cf0c09d02b2",
-    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+    "sha256": "d239e4591702c81d1e4025d45761e3e04dab97ba5ce855d73b60488deb553f98",
+    "source": "MRSI Collected Edition v1.4 Zenodo preparation, 2026-11-05",
+    "source_sha256": "d239e4591702c81d1e4025d45761e3e04dab97ba5ce855d73b60488deb553f98",
+    "transform": "Collected edition DOI, cover, citation, or repository navigation"
   },
   "README_ja.md": {
-    "sha256": "e12e2a6cf0c0e9c1e5e5e9a298d1845b7e13924df6c2a684586293987341f6d7",
-    "source": "MRSI publication build 2026-11-03",
-    "source_sha256": "e12e2a6cf0c0e9c1e5e5e9a298d1845b7e13924df6c2a684586293987341f6d7",
-    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+    "sha256": "6b38b738261b9946b328f9412566ecbdd03e18d483e8bab655b0ed142123cc56",
+    "source": "MRSI Collected Edition v1.4 Zenodo preparation, 2026-11-05",
+    "source_sha256": "6b38b738261b9946b328f9412566ecbdd03e18d483e8bab655b0ed142123cc56",
+    "transform": "Collected edition DOI, cover, citation, or repository navigation"
   },
   "docs/study2/agreement-confirm-01-connection-v0.1-2026-09-28.md": {
     "sha256": "52d7f61bd04753de27af5f8b71f930945472a7810290839a8b4cba56838ec63d",
@@ -363348,10 +363348,10 @@
     "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/README.md": {
-    "sha256": "531c8bdc67da2dd693d94f47b416eabd83f238faaf972e6af8ca7031d9d6d3db",
-    "source": "MRSI publication build 2026-11-03",
-    "source_sha256": "531c8bdc67da2dd693d94f47b416eabd83f238faaf972e6af8ca7031d9d6d3db",
-    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+    "sha256": "53a57c43da3241a1fd1c039fa8d29a38ac05caf47158deb8aa95ccf157ed6ba0",
+    "source": "MRSI Collected Edition v1.4 Zenodo preparation, 2026-11-05",
+    "source_sha256": "53a57c43da3241a1fd1c039fa8d29a38ac05caf47158deb8aa95ccf157ed6ba0",
+    "transform": "Collected edition DOI, cover, citation, or repository navigation"
   },
   "papers/build_collected.py": {
     "sha256": "c94fb2a784678c885b68d737e41f53e429ad99c6601cd2b937c54d650fa421ab",
@@ -363360,16 +363360,16 @@
     "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/collected-edition.md": {
-    "sha256": "8a605f911a972670ff250832c4ab08220c0df16d96c237349e9fb273ed02b0f1",
-    "source": "MRSI publication build 2026-11-03",
-    "source_sha256": "8a605f911a972670ff250832c4ab08220c0df16d96c237349e9fb273ed02b0f1",
-    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+    "sha256": "a0d2d250c162f59cb05dd95505216815b5689a8d972e94c2eebfc92e008f89ee",
+    "source": "MRSI Collected Edition v1.4 Zenodo preparation, 2026-11-05",
+    "source_sha256": "a0d2d250c162f59cb05dd95505216815b5689a8d972e94c2eebfc92e008f89ee",
+    "transform": "Collected edition DOI, cover, citation, or repository navigation"
   },
   "papers/collected_edition_frontmatter.tex": {
-    "sha256": "f7e12b920e504e7dd75df643c71db07b1fd251d16b5dbe667a7c8c28257ebf1f",
-    "source": "MRSI publication build 2026-11-03",
-    "source_sha256": "f7e12b920e504e7dd75df643c71db07b1fd251d16b5dbe667a7c8c28257ebf1f",
-    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+    "sha256": "928d90a1105cd4498a0e7d936e717f2fb64fa7fced0532494b388d23bcb76ed1",
+    "source": "MRSI Collected Edition v1.4 Zenodo preparation, 2026-11-05",
+    "source_sha256": "928d90a1105cd4498a0e7d936e717f2fb64fa7fced0532494b388d23bcb76ed1",
+    "transform": "Collected edition DOI, cover, citation, or repository navigation"
   },
   "papers/collection.json": {
     "sha256": "7e4eac59c9a62dc283bd244fa6b97286a9e1f1326899313cd823f66adfdfb2f9",
@@ -363378,10 +363378,10 @@
     "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
   },
   "papers/mrsi_series_collected_edition.pdf": {
-    "sha256": "794aba75df1677b875dce153be8ecbe63cf9f331339c248016ee0f143c93d4fb",
-    "source": "MRSI publication build 2026-11-03",
-    "source_sha256": "794aba75df1677b875dce153be8ecbe63cf9f331339c248016ee0f143c93d4fb",
-    "transform": "PDF publication source, assembly tool, or reading/build instructions; no experiment data modification"
+    "sha256": "adfc7e710609add309b89f0549497690865c92ba80dc4f1213aa95e3c58e1bcd",
+    "source": "MRSI Collected Edition v1.4 Zenodo preparation, 2026-11-05",
+    "source_sha256": "adfc7e710609add309b89f0549497690865c92ba80dc4f1213aa95e3c58e1bcd",
+    "transform": "Collected edition DOI, cover, citation, or repository navigation"
   },
   "papers/paper-01/MRSI_Paper1-en-v1.0.md": {
     "sha256": "2dc19369835df793fe4d6a8916d53f1c98d0fbd13d7effa710964b938184fa76",
