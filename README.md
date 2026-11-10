@@ -6,7 +6,7 @@ In experiments with two and three LLM roles, we observed correct answers accompa
 
 **MRSI (formerly NPP) investigates what needs to be checked separately when LLM roles share information and coordinate actions while retaining their own information, judgments, and approval states.** This repository brings together four papers, a technical synthesis of failure patterns and design principles, readable code, and the experimental evidence.
 
-[日本語の案内](README_ja.md) · [Papers](#start-reading) · [Reproduce results](#reproduce-the-recorded-results) · [Apache 2.0](LICENSE)
+[日本語の案内](README_ja.md) · [Papers](#start-reading) · [Evidence in code](#how-experimental-evidence-is-preserved-and-checked) · [Reproduce results](#reproduce-the-recorded-results) · [Apache 2.0](LICENSE)
 
 ## What the experiments show
 
@@ -35,6 +35,21 @@ Within each experiment, we run the **same LLM as two or three roles in separate 
 For example, some tasks give two roles different customer preferences for dog or cat designs while they choose a shared paper or digital guidance channel. These simple materials make ownership and shared decisions easy to distinguish. Later tasks use experience-based recommendations and numerical plan comparisons; three-role tasks distinguish a missing vote, an explicit hold, and approval.
 
 These are exploratory findings from small synthetic tasks. Plan quality is evaluated against each task's stated objective. The papers specify the models, conditions, sample units, missing outcomes, and uncertainty for each comparison.
+
+## How experimental evidence is preserved and checked
+
+**MRSI records the correspondence between supplied inputs, generation attempts, saved states, and scores so that findings can be checked against saved evidence, including interruptions and branches.** This supports the research's central comparisons: which record was actually stored, which later call received it, and what that call produced.
+
+For example, in OR01 and TAR01, an interrupted generation retains its place in the record. If its response was saved, scoring can be completed from that response. If only the start record remains, the attempt is marked `INTERRUPTED_UNCERTAIN`; the runtime does not silently generate a replacement response for that attempt. Preparation failures have separate states.
+
+| What the code preserves or checks | How it works | Where to read |
+|---|---|---|
+| **The identity and outcome of each generation attempt** | Saves the prepared input and a start record before generation; checks input hashes, seeds, saved responses, and completion states. | OR01 [physical request handler](experiments/OR01/code/owner_recency_01_runtime.py#L150), `physical()`; TAR01 [counterpart](experiments/TAR01/generation/source/three_role_approval_readout_01_runtime.py#L279) |
+| **The relationship between branches and model calls** | Within one common parent, identical messages, schema, model settings, and seed can share a response. Logical branches retain their physical response IDs, and contrasts are calculated by parent. | OR01 [grouping and paired scoring](experiments/OR01/code/owner_recency_01_scoring.py#L156), `read_groups()` / `summarize()`; [branch-to-response mapping](experiments/OR01/code/owner_recency_01_runtime.py#L242), `run_routes()` |
+| **The input actually supplied to the model** | Checks the full role-delimited prompt and prepared-input digests; tests fixed inputs with the real tokenizer before loading model weights. | TAR01 [input verification](experiments/TAR01/generation/source/three_role_approval_readout_01_runtime.py#L94), `verify_prepared()` / `check_tokenizer_inputs()`; [backend bindings](experiments/TAR01/generation/source/cross_model_e1_01_generation_runtime.py#L300) for special tokens, model revision, and device placement |
+| **The boundary between replay and new generation** | Later-trial replay loads frozen helpers in a fresh process per experiment and compares recomputed aggregates with recorded results. A Python audit hook rejects socket operations and subprocess launches in that child process. | [Replay implementation](replay.py#L28), `offline_guard()` / `child()` |
+
+These are concrete examples from OR01, TAR01, and the later-trial replay path. The replay audit hook is an operational guard against unintended external work, not a security sandbox. For the complete sequence of inputs, responses, and saved states, continue to [an experiment's records](#inspect-an-experiment).
 
 ## Start reading
 
